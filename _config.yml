@@ -1,9 +1,11 @@
 # Site settings
 title: Chen Hui Jing
 email: hjchen13@gmail.com
-description: The online playground of a newbie web developer.
+description: The chronicles of a self-taught designer and developer.
 baseurl: ""
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
+relative_permalinks: false
+permalink: /blog/:title
 twitter_username: hj_chen
 github_username:  hjchen
 

@@ -1,0 +1,73 @@
+// ==========
+// FUNCTIONS
+// -----
+// This file is for you to include functions that
+// you have created for your project.
+//
+// Feel free to add your own functions to this file.
+// ==========
+
+// ==========
+// color
+// -----
+// An easy way to get colors from the $colors map that is
+// located in the _variables.scss file.
+// ==========
+
+@function color($color, $map: $colors) {
+  @return map-get($colors, $color);
+}
+
+// ==========
+// map-fetch
+// -----
+// An easy way to fetch a deep value in a multi-level map.
+// Works much like map-get() except that you pass multiple
+// keys as the second parameter to go down multiple levels
+// in the nested map.
+//
+// https://gist.github.com/jlong/8760275
+// ==========
+
+@function map-fetch($map, $keys) {
+  $key: nth($keys, 1);
+  $length: length($keys);
+  $value: map-get($map, $key);
+  @if ($length > 1) {
+    $rest: ();
+    @for $i from 2 through $length {
+      $rest: append($rest, nth($keys, $i))
+    }
+    @return map-fetch($value, $rest)
+  } @else {
+    @return $value;
+  }
+}
+
+// ==========
+// breakpoint
+// -----
+// Helper function to generate media queries based on 
+// breakpoint variables.
+// ==========
+
+@function breakpoint($breakpoint-name) {
+  @return map-get($breakpoints, $breakpoint-name);
+}
+
+// ==========
+// text-breakpoints-for
+// text-properties-for
+// -----
+// Helper functions to access individual text sizes 
+// and breakpoints from text-sizing map.
+// ==========
+
+@function text-breakpoints-for($text-size) {
+  @return map-get($text-sizing, $text-size);
+}
+
+@function text-properties-for($text-size, $breakpoint-name) {
+  $text-breakpoints-map: text-breakpoints-for($text-size);
+  @return map-get($text-breakpoints-map, $breakpoint-name);
+}

@@ -1,0 +1,94 @@
+// ==========
+// TYPOGRAPHY BASE
+// -----
+// This file sets the typography for the rest of the document.
+// You should only include font properties in this file.
+// If your typography changes in size when the breakpoint
+// changes, you should include these changes right here in this
+// document.
+// ==========
+
+// Establishes baseline with Compass Vertical.
+@include establish-baseline;
+$grid-background-baseline-height: $base-line-height;
+
+// Standardise site-wide typography styles here. Refer to _variables.scss to edit the variables used in the type-scale mixin.
+body {
+  font-family: $base-font;
+  @include responsive-text-size(base);
+}
+
+%h1, h1 {
+  font-family: $header-font;
+  @include responsive-text-size(mega);
+  margin: 0 auto rhythm(1);
+}
+
+%h2, h2 {
+  font-family: $header-font;
+  @include responsive-text-size(kilo);
+  margin: 0 auto rhythm(1);
+}
+
+%h3, h3 {
+  font-family: $header-font;
+  @include responsive-text-size(hecto);
+  margin: 0 auto rhythm(1);
+}
+
+%h4, h4 {
+  font-family: $header-font;
+  @include responsive-text-size(deca);
+  margin: 0 auto rhythm(1);
+}
+
+%h5, h5 {
+  font-family: $header-font;
+  @include responsive-text-size(base);
+  margin: 0 auto rhythm(1);
+}
+
+%h6, h6 {
+  font-family: $header-font;
+  @include responsive-text-size(base);
+  margin: 0 auto rhythm(1);
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+pre,
+code {
+  font-family: $code-font;
+  @include responsive-text-size(base);
+}
+
+pre {
+  @include responsive-text-size(deci);
+  white-space: pre;
+  overflow-x: auto;
+}
+
+code {
+  @include responsive-text-size(deci);
+  overflow-x: auto;
+}
+
+p {
+  margin-bottom: rhythm(1);
+}
+
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+ul {
+  list-style: disc;
+  list-style-position: inside;
+}

@@ -1,0 +1,22 @@
+.page-content {
+  @include container(608px);  
+}
+
+/**
+ * Icons
+ */
+.icon {
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    path {
+      fill: green;
+    }
+  }
+}
+
+hr {
+  @include trailing-border;
+}

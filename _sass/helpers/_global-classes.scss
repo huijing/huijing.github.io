@@ -1,0 +1,11 @@
+.element-invisible {
+  @extend %element-invisible;
+}
+
+.element-visible {
+  @extend %element-visible;
+}
+
+.hide {
+  display: none !important;
+}

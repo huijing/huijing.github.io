@@ -1,0 +1,139 @@
+// ==========
+// MIXINS
+// -----
+// This is a library of mixins written from scratch 
+// as well as from various known sources to simplify your 
+// theming efforts. 
+
+// Feel free to add on your own mixins to this file as well.
+// ==========
+
+// ==========
+// CLEARFIX FOR IE8 & ABOVE
+// -----
+// Referenced from http://css-tricks.com/snippets/css/clear-fix/
+// ==========
+@mixin cf {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// ==========
+// PLACEHOLDER
+// -----
+// For changing placeholder colors
+// ==========
+@mixin placeholder($color) {
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: $color;
+  }
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $color;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+}
+
+// ==========
+// SELECTION STYLES
+// -----
+// For changing background color and text color when text is selected
+// ==========
+@mixin selection($bgColor, $textColor) {
+  &::-moz-selection {
+    background: $bgColor;
+    color: $textColor;
+  }
+  &::selection {
+    background: $bgColor;
+    color: $textColor;
+  }
+}
+
+// ==========
+// CSS SHAPE MIXINS
+// -----
+// Mixins to help create shapes like circles and triangles
+// ==========
+@mixin circle($width) {
+  width: $width;
+  height: $width;
+  border-radius: 100%;
+}
+
+@mixin triangle($dir, $size, $color) {
+  border: $size transparent solid;
+  @if $dir == "top" or $dir == "up" {
+    border-bottom-color: $color;
+  }
+  @else if $dir == "right" or $dir == "after" {
+    border-left-color: $color;
+  }
+  @else if $dir == "bottom" or $dir == "down" {
+    border-top-color: $color;
+  }
+  @else if $dir == "left" or $dir == "before" {
+    border-right-color: $color;
+  }
+}
+
+// ==========
+// BREAKPOINTS
+// -----
+// Basic breakpoint mixin for writing media queries
+// Referenced from http://maketea.co.uk/2014/11/05/managing-responsive-typography-with-sass.html
+// ==========
+@mixin respond-above($breakpoint-name) {
+  $breakpoint-value: breakpoint($breakpoint-name);
+
+  @if $breakpoint-value != null {
+    @media screen and (min-width: $breakpoint-value) {
+      @content;
+    }
+  } @else {
+    @warn "Missing breakpoint '#{$breakpoint-name}'";
+  }
+}
+
+// ==========
+// RESPONSIVE TYPOGRAPHY
+// -----
+// Referenced from http://maketea.co.uk/2014/11/05/managing-responsive-typography-with-sass.html
+// ==========
+
+// For a singular font size and line height for a given breakpoint
+@mixin text-size($text-size, $breakpoint-name: "small") {
+  $text-size-properties: text-properties-for($text-size, $breakpoint-name);
+
+  @if $text-size-properties != null {
+    $font-size: map-get($text-size-properties, "font-size");
+    @include adjust-font-size-to($font-size);
+  } @else {
+    @warn "Breakpoint '#{$breakpoint-name}' for text size '#{$text-size}' is not defined";
+  }
+}
+
+// For looping over the requested text size and output all its breakpoints
+@mixin responsive-text-size($text-size, $default-breakpoint: "small") {
+  @include text-size($text-size, $default-breakpoint);
+
+  $text-breakpoints-map: text-breakpoints-for($text-size);
+  $text-breakpoints-keys: map-keys($text-breakpoints-map);
+
+  @each $breakpoint-name in $text-breakpoints-keys {
+    @if $breakpoint-name != $default-breakpoint and breakpoint($breakpoint-name) != null {
+      @include respond-above($breakpoint-name) {
+        @include text-size($text-size, $breakpoint-name);
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+// ==========
+// SASS VARIABLES
+// -----
+// Declare all the variables which will be used in your theme here.
+// Feel free to change the variable values and add your own variables
+// to this file as well.
+// ==========
+
+// ==========
+// BREAKPOINTS
+// -----
+// Sass map for breakpoints. You can add additional breakpoints to this map 
+// or change their variable names.
+//
+// USAGE:
+// -----
+// @include respond-above(small) {
+//   .test {
+//     css-property: value;
+//   }
+// }
+// ==========
+  
+$breakpoints: (
+  small:    320px,
+  medium:   720px,
+  large:    960px,
+  x-large:  1280px
+);
+
+// ==========
+// FONTS
+// ==========
+
+// Imported fonts
+@font-face {
+  font-family: 'Palo Alto';
+  src: url('../fonts/palo-alto.eot');
+  src: url('../fonts/palo-alto.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/palo-alto.woff2') format('woff2'),
+       url('../fonts/palo-alto.woff') format('woff'),
+       url('../fonts/palo-alto.ttf') format('truetype'),
+       url('../fonts/palo-alto.svg#paloaltoheavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('../fonts/robotoslab-light.eot');
+  src: url('../fonts/robotoslab-light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/robotoslab-light.woff2') format('woff2'),
+       url('../fonts/robotoslab-light.woff') format('woff'),
+       url('../fonts/robotoslab-light.ttf') format('truetype'),
+       url('../fonts/robotoslab-light.svg#roboto_slablight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('../fonts/robotoslab-bold.eot');
+  src: url('../fonts/robotoslab-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/robotoslab-bold.woff2') format('woff2'),
+       url('../fonts/robotoslab-bold.woff') format('woff'),
+       url('../fonts/robotoslab-bold.ttf') format('truetype'),
+       url('../fonts/robotoslab-bold.svg#roboto_slabbold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Sans Mono';
+  src: url('../fonts/droidsansmono.eot');
+  src: url('../fonts/droidsansmono.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/droidsansmono.woff2') format('woff2'),
+       url('../fonts/droidsansmono.woff') format('woff'),
+       url('../fonts/droidsansmono.ttf') format('truetype'),
+       url('../fonts/droidsansmono.svg#droid_sans_monoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Base font stacks
+$base-font: "Roboto Slab", Rockwell, serif;
+$header-font: "Palo Alto";
+$code-font: "Droid Sans Mono", "Lucida Console", Monaco, "Courier New", Courier, monospace;
+
+// Base font sizes and line heights
+$base-font-size: 20px;
+$base-line-height: 30px;
+$round-to-nearest-half-line: true;
+
+// Uses the `rem` unit for all vertical rhythm output
+$rhythm-unit: "rem";
+
+// Set typography sizes
+$text-sizing: (
+  deci: (
+    small: (
+      font-size: 0.8rem
+    )
+  ),
+  base: (
+    small: (
+      font-size: 0.8rem
+    ),
+    medium: (
+      font-size: 1rem
+    )
+  ),
+  deca: (
+    small: (
+      font-size: 1rem
+    ),
+    medium: (
+      font-size: 1.294rem
+    )
+  ),
+  hecto: (
+    small: (
+      font-size: 1.294rem
+    ),
+    medium: (
+      font-size: 1.618rem
+    ),
+  ),
+  kilo: (
+    small: (
+      font-size: 1.618rem
+    ),
+    medium: (
+      font-size: 2.094rem
+    ),
+  ),
+  mega: (
+    small: (
+      font-size: 2.094rem
+    ),
+    medium: (
+      font-size: 2.618rem
+    ),
+  ) 
+);
+
+// ==========
+// COLORS
+// -----
+// Set variables for colors.
+
+// USAGE:
+// -----
+// .test {
+//   background-color: color(color-name);
+// }
+// ==========
+
+$colors: (
+
+);
+
+// ==========
+// Z-INDEX
+// -----
+// Set variables for Z-index.
+// ==========
+$z-layers: (
+  exosphere: 50,
+  thermosphere: 40,
+  mesosphere: 30,
+  stratosphere: 20,
+  troposphere: 10
+);

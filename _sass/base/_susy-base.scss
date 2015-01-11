@@ -1,0 +1,40 @@
+// ==========
+// SUSY GLOBAL SETTINGS
+// -----
+// This file is for you to set Susy global settings for your projects.
+//
+// See here for a complete list of all settings and their defaults
+// http://susy.readthedocs.org/en/latest/settings/#global-defaults
+// ==========
+
+// Float Style
+$susy: (
+  global-box-sizing: border-box,
+  debug: (image: show),
+  columns: 12
+  );
+
+// Isolate Style
+// $susy: (
+//   output: isolate,
+//   global-box-sizing: border-box,
+//   debug: (image: show)
+//   );
+
+// Static Style
+// $susy: (
+//   math: static,
+//   columns: 12,
+//   column-width: 60px,
+//   gutters: 1 / 4,
+//   global-box-sizing: border-box,
+//   debug: (image: show)
+//   );
+
+// Asymmetric Grids
+// $susy: (
+//   columns: 1 2 3 4 5,
+//   output: isolate,
+//   global-box-sizing: border-box,
+//   debug: (image: show)
+//   );

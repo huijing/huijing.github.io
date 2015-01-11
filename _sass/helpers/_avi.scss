@@ -1,0 +1,14 @@
+// Audio, Video, Images and other defaults styles here
+embed,
+iframe,
+img,
+object,
+video {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+  width: auto;
+  /* IE8 */
+}
