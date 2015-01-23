@@ -3,14 +3,14 @@ layout: page
 title: About
 permalink: /about/
 ---
-###So who are you?
+####So who are you?
 My name is Chen Hui Jing. I first dipped my toe into the waters of web development when I built my first HTML website in 2008 for the Malaysia Basketball Association. 
 
 From there, I discovered the existence of content management systems and migrated the site over to Drupal. I stopped working on the site a year later and put my web development journey on hold (the original site no longer exists either). 
 
 After a 4-year sabbatical (from web development), I decided to restart this journey by diving in head-first this time. In September of 2013, I got a job in the web industry and this website chronicles my experiences as I learn new things, fail spectacularly and make cool stuff along the way.
 
-###Anything not related to the web?
+####Anything not related to the web?
 Sure. I love playing basketball and did so full-time for 6 years until the end of 2011. I still play recreationally now and will continue to do so until my legs say otherwise.
 
 I also love to draw, though I do less of it now. At one point in time, I customised canvas sneakers for friends and some random clients under the name FUZN designs. The Facebook page still exists, though on an indefinite hiatus.

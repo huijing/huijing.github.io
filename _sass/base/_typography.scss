@@ -64,19 +64,21 @@ em {
 
 pre,
 code {
-  font-family: $code-font;
   @include responsive-text-size(base);
+  font-family: $code-font;
+  overflow-x: auto;
+  background-color: #f9f9fa;
+  border-radius: 5px;
 }
 
 pre {
   @include responsive-text-size(deci);
   white-space: pre;
-  overflow-x: auto;
+  padding: rhythm(0.25);
 }
 
 code {
   @include responsive-text-size(deci);
-  overflow-x: auto;
 }
 
 p {
