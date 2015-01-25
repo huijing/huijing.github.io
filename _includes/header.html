@@ -1,12 +1,18 @@
 <header class="site-header">
+  <div class="sh-outer item first">
+    <div class="site-header__image" href="{{ site.baseurl }}/"><img src="../images/retropc.png"></div>
+    <div class="sh-inner">
+      <a class="site-header__title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <p class="site-header__description">{{ site.description }}</p>
+    </div>
+  </div>
 
-  <a class="site-header__title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-  <p class="site-header__description">{{ site.description }}</p>
-
-  <nav class="site-nav">
+  <nav class="site-nav item last">
     {% for page in site.pages %}
       {% if page.title %}
-      <a class="site-nav__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      <li class="site-nav__link about">
+      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      </li>
       {% endif %}
     {% endfor %}
   </nav>

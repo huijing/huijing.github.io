@@ -36,10 +36,12 @@ So my steps essentially were:
 11. Run Jekyll with the following:
 
         jekyll serve –watch
+
     Fun tip, set up an alias for this command in your `.bash_profile` file like so:
 
         alias jsa='jekyll serve --baseurl "" --watch';
-   I chose to use the uncreative `jsa` as the alias but you can use whatever you like.
+   
+    I chose to use the uncreative `jsa` as the alias but you can use whatever you like.
 12. Your cloned folder should have a lot of new stuff in it. As of time of writing, Jekyll is at version 2.5.1, which has Sass integration (win!). Your folder structure will look like this:
 
         PROJECT_FOLDER/

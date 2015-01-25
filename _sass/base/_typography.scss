@@ -94,3 +94,22 @@ ul {
   list-style: disc;
   list-style-position: inside;
 }
+
+a {
+  text-decoration: none;
+}
+
+.site-header__title {
+  @include responsive-text-size(hecto);
+  font-family: $display-font;
+  font-weight: bold;
+}
+
+.site-nav {
+  font-family: $display-font;
+}
+
+.site-header__description {
+  font-family: $display-font;
+  @include responsive-text-size(deci);
+}

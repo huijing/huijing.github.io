@@ -81,10 +81,33 @@ $breakpoints: (
   font-style: normal;
 }
 
+@font-face {
+  font-family: '8-bit Operator';
+  src: url('../fonts/8bitoperatorplus8-bold-webfont.eot');
+  src: url('../fonts/8bitoperatorplus8-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/8bitoperatorplus8-bold-webfont.woff2') format('woff2'),
+       url('../fonts/8bitoperatorplus8-bold-webfont.woff') format('woff'),
+       url('../fonts/8bitoperatorplus8-bold-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '8-bit Operator';
+  src: url('../fonts/8bitoperatorplus-regular-webfont.eot');
+  src: url('../fonts/8bitoperatorplus-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/8bitoperatorplus-regular-webfont.woff2') format('woff2'),
+       url('../fonts/8bitoperatorplus-regular-webfont.woff') format('woff'),
+       url('../fonts/8bitoperatorplus-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 // Base font stacks
 $base-font: "Roboto Slab", Rockwell, serif;
 $header-font: "Palo Alto";
 $code-font: "Droid Sans Mono", "Lucida Console", Monaco, "Courier New", Courier, monospace;
+$display-font: "8-bit Operator";
 
 // Base font sizes and line heights
 $base-font-size: 20px;
