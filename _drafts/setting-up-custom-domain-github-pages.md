@@ -16,11 +16,7 @@ So, the second time I had to do this, I distilled the steps down to the followin
 1. Create a CNAME file and upload it to your gh-pages repository. 
 
      To do this, open your favourite text editor, type in the bare subdomain for your custom domain. There would be one line in that file like so:
-
-{% prism bash %}        
-
-    www.chenhuijing.com
-{% endprism %}
+    <pre><code class="language-markup">www.chenhuijing.com</code></pre>
 
 Save the file as `CNAME` without any extensions behind it.
 

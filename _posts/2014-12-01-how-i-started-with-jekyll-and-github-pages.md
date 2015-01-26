@@ -14,58 +14,28 @@ Then, I discovered Jekyll. Specifically, I read a fantastic article by [Anna Deb
 So my steps essentially were:
 
 1. Install Jekyll on your machine by running the following command in your terminal (full disclosure, I use a Mac so Ruby comes with).
-
-{% prism bash %}
-
-    gem install jekyll
-{% endprism %}
-
+    <pre><code class="language-bash">gem install jekyll</code></pre>
 2. Be patient, because there are quite a number of things to install. Let your terminal do its thing.
 3. While waiting, create a new Github repository called `YOUR_GITHUB_USER_NAME.github.io`. According to documentation, the first part of the repository MUST match your Github username exactly.
 4. Using your terminal, git clone said repository to wherever you do local development on your machine, for me, it would be my `Sites` folder. The command will look something like this:
-
-{% prism git %}
-
-    git clone git@github.com:YOUR_GITHUB_USER_NAME.github.io/YOUR_GITHUB_USER_NAME.github.io.io.git
-{% endprism %}
-
+    <pre><code class="language-git">git clone git@github.com:YOUR_GITHUB_USER_NAME.github.io/YOUR_GITHUB_USER_NAME.github.io.io.git</code></pre>
 5. Create a basic `index.html` in the folder you just cloned.
 6. Navigate to the folder you just cloned, then run the following:
-
-{% prism git %}
-
-    git add –-all
-    git commit -m “Initial commit”
-    git push
-{% endprism %}
-
+    <pre><code class="language-git">git add –-all
+git commit -m “Initial commit”
+git push</code></pre>
 7. Browse to `http://YOUR_GITHUB_USER_NAME.github.io` and your index.html page should show up.
 8. On your local machine, delete the `index.html` file you just pushed (stay with me here, there’s a reason for this)
 9. Spin up a new Jekyll site by running:
-
-{% prism bash %}
-
-    jekyll new /path/to/folder/you/cloned/earlier
-{% endprism %}
-
+<pre><code class="language-bash">jekyll new /path/to/folder/you/cloned/earlier</code></pre>
 10. At the end of it, it SHOULD say the site has installed. Now, the reason we delete the original index.html is that spinning up a new Jekyll site will create an index.html file as well, which would conflict with that initial index.html you pushed up to Github.
 11. Run Jekyll with the following:
-
-{% prism bash %}
-
-    jekyll serve –watch
-{% endprism %}
+<pre><code class="language-bash">jekyll serve –watch</code></pre>
 Fun tip, set up an alias for this command in your `.bash_profile` file like so:
-
-{% prism bash %}
-
-    alias jsa='jekyll serve --baseurl "" --watch';
-{% endprism %}
+<pre><code class="language-bash">alias jsa='jekyll serve --baseurl "" --watch';</code></pre>
 I chose to use the uncreative `jsa` as the alias but you can use whatever you like.
 12. Your cloned folder should have a lot of new stuff in it. As of time of writing, Jekyll is at version 2.5.1, which has Sass integration (win!). Your folder structure will look like this:
-
-{% prism markup %}
-
+<pre><code class="language-markup">
     PROJECT_FOLDER/
     |-- _config.yml
     |
@@ -100,7 +70,7 @@ I chose to use the uncreative `jsa` as the alias but you can use whatever you li
     |-- css/
     |-- feed.xml
     `-- index.html
-{% endprism %}
+</code></pre>
 13. Technically, you already have a working Jekyll site at this point.
 
 Ok, so there are lots of files in this new site we spun up. I personally think the documentation on the Jekyll site is fantastic. So I'm going to just very briefly sum up what all these shiny new files do.
@@ -117,13 +87,9 @@ Ok, so there are lots of files in this new site we spun up. I personally think t
 - Reusable HTML code snippets go here
 - Commonly used for, but definitely not limited to, headers and footers
 - Each include file can be called using the `include` tag, for example:
-
-{% prism markdown %}
-
-    {% raw %}
-    {% include footer.html %}
-    {% endraw %}
-{% endprism %}
+    <pre><code class="language-markdown">{% raw %}
+{% include footer.html %}
+{% endraw %}</code></pre>
 
 - Benefits include, only having to change your code in one place if you decide to change address in your footer
 
@@ -132,33 +98,27 @@ Ok, so there are lots of files in this new site we spun up. I personally think t
 - Layout templates are written in HTML
 - Layouts can be applied to your post or page via the YAML front matter, which must be the first thing in the file
 - You must use valid YAML set between triple-dashes, for example:
-
-{% prism markup %}
-
-    ---
-    layout: post
-    title: I built a Jekyll site and you won't believe what happened next
-    ---
-{% endprism %}
+    <pre><code class="language-markup">
+---
+layout: post
+title: I built a Jekyll site and you won't believe what happened next
+---
+</code></pre>
 - Variables can be used in the template, for example:
 
-{% prism markup %}
+<pre><code class="language-markup">
 
     <div class="page-content">
       {% raw %}{{ content }}{% endraw %}
     </div>
-{% endprism %}
+</code></pre>
 ### _posts
 
 - You can write your posts in markdown or plain HTML
 - Posts must be named in the format `YYYY-MM-DD-title.ext`
 - The default URL follows a style called `date`, which looks like `/:categories/:year/:month/:day/:title.html`
 - To specify your own post URLs, set the permalink in the `config.yml` file like so:
-
-{% prism markup %}
-
-        permalink: /blog/:title
-{% endprism %}
+    <pre><code class="language-markup">permalink: /blog/:title</code></pre>
 and this will give you a URL of `http://www.SITENAME.com/blog/POST-TITLE/`
 - Full list of options can be found [here](http://jekyllrb.com/docs/permalinks/)
 
