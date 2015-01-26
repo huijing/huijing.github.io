@@ -66,15 +66,14 @@ pre,
 code {
   @include responsive-text-size(base);
   font-family: $code-font;
-  overflow-x: auto;
-  background-color: #f9f9fa;
-  border-radius: 5px;
 }
 
 pre {
   @include responsive-text-size(deci);
   white-space: pre;
-  padding: rhythm(0.25);
+  border-radius: 5px;
+  margin-bottom: rhythm(1);
+  overflow-x: auto;
 }
 
 code {
@@ -93,6 +92,10 @@ ol {
 ul {
   list-style: disc;
   list-style-position: inside;
+}
+
+li {
+  margin-bottom: rhythm(1);
 }
 
 a {

@@ -17,7 +17,7 @@ html {
 }
 
 // Resets margins and paddings for headers, ul, ol and p
-h1,h2,h3,h4,h5,h6, ul, ol, li, p {
+h1,h2,h3,h4,h5,h6, ul, ol, li, p, pre, code {
   margin: 0;
   padding: 0;
 }
@@ -72,3 +72,4 @@ img {
   width: auto;
   /* IE8 */
 }
+

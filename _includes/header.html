@@ -8,13 +8,8 @@
   </div>
 
   <nav class="site-nav item last">
-    {% for page in site.pages %}
-      {% if page.title %}
-      <li class="site-nav__link about">
-      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      </li>
-      {% endif %}
-    {% endfor %}
+    <a class="site-nav__link about" href="/about">About</a>
+    <a class="site-nav__link blog" href="/about">Blog</a>
   </nav>
 
 </header>

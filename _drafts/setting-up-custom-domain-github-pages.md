@@ -16,10 +16,14 @@ So, the second time I had to do this, I distilled the steps down to the followin
 1. Create a CNAME file and upload it to your gh-pages repository. 
 
      To do this, open your favourite text editor, type in the bare subdomain for your custom domain. There would be one line in that file like so:
-        
-        www.chenhuijing.com 
 
-    Save the file as `CNAME` without any extensions behind it.
+{% prism bash %}        
+
+    www.chenhuijing.com
+{% endprism %}
+
+Save the file as `CNAME` without any extensions behind it.
+
 2. Go to [Cloudflare](https://www.cloudflare.com/) and create an account, if you haven't got one already.
 3. Enter your domain name then click on the green Add Website green button. [Cloudflare](https://www.cloudflare.com/) will then proceed to scan your domain records. It'll take about a minute (or so says the progress bar), and when it's done, just click Continue setup. {% img /images/cloudflare-1.jpg Add website %}
 4. Edit the records so there are two A records which resolve to the following IP addresses:

@@ -22,7 +22,7 @@
 .site-nav {
   display: flex;
   list-style: none;
-  li {
-    margin-left: rhythm(1);
+  a {
+    flex-grow: 1;
   }
 }
