@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-
-<main class="content">
-
 <section class="latest-posts">
   <ul class="post-list">
     {% for post in site.posts limit:10 %}
@@ -13,12 +10,10 @@ layout: default
         <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
-        <p class="summary">{{ post.content | strip_html | truncatewords:60}}</p>
+<!--         <p class="summary">{{ post.content | strip_html | truncatewords:60}}</p> -->
       </li>
     {% endfor %}
   </ul>
 </section>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</main>

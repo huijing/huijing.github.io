@@ -3,44 +3,40 @@ layout: post
 title: "The epic git bomb"
 date: March 06, 2014
 ---
-Version control is a concept that is useful regardless of what industry you are in. But it is especially valuable in the software industry. Before I delved into this world of web development, I had already understood the value of version control. I mean, it is only logical to keep track of changes made to any files just in case you needed to backtrack or recover any information. However, my experience with version control was extremely rudimentary. It largely involved keeping multiple copies of the same file every time an update was made. This worked fine, except that you usually ended up with 36 copies of the same file with names like `Meeting-minutes-20120506-v1_CHJ_revised.docx`. 
+Version control is a concept that is useful regardless of what industry you are in. But it is especially valuable in the software industry. Before I delved into this world of web development, I had already understood the value of version control. I mean, it is only logical to keep track of changes made to any files just in case you needed to backtrack or recover any information. However, my experience with version control was extremely rudimentary. It largely involved keeping multiple copies of the same file every time an update was made. This worked fine, except that you usually ended up with 36 copies of the same file with names like <code class="language-markup">Meeting-minutes-20120506-v1_CHJ_revised.docx</code>. 
 
 When I became a web developer, I was told to learn what Git was. In newbie-speak, Git is a distributed version control system (One thing I realised is that systems are the centre of the universe for developers). Breaking that down, it simply means that there is a system in place which tracks any change made to files or folders that you tell it to monitor. The set of files and folders being monitored is known as a repository. The benefit of having such a system is that any change you do is tracked, making it easy to revert to a prior state, if you frequently commit your changes (i.e. tell the system to record those changes). And in all fairness, this has saved my hide countless times before.
 
 Think about it this way, every time you make a change, it's as if you're adding documentation which describes that change to an archive. Say you remove a file, the documentation in the archive will record exactly what file was removed at which point in time. The thing about archives is that, they are usually HUGE, given the vast amount of information that needs to be stored. Coming back to the context of Git, deleting a file does not mean it's gone. You just don't see it in your repository anymore. But in under version control, nothing is ever truly gone. And this very property is a double-edged sword.
 
-There are times when you realise you committed a file that actually should not be included in the repository. Usually you just remove that file from your local repository, commit that change, and add a line in your  `.gitignore` file to ignore that file in future. No biggie, right? Not.
+There are times when you realise you committed a file that actually should not be included in the repository. Usually you just remove that file from your local repository, commit that change, and add a line in your  <code class="language-markup">.gitignore</code> file to ignore that file in future. No biggie, right? Not.
 
 I brilliantly (by accident, might I add) committed a 5gb folder full of media files AND pushed it up to my remote repository on bitbucket. So after I did the, remove file from local repo and ignore it bit, I realised that every single file involved in this epic fail was still recorded in the Git history. I was also left with a 5.94gb Git repo. I immediately saw fun times ahead.
 
 It took a few hours of Googling and reading Stackoverflow topic threads to solve this problem. The steps can be condensed as follows:
+<pre><code class="language-bash">
+git filter-branch --index-filter 'git rm -rf --cached --ignore-unmatch FOLDER_NAME' --prune-empty --tag-name-filter cat -- --all</code></pre>
 
-    git filter-branch --index-filter 'git rm -rf --cached --ignore-unmatch FOLDER_NAME' --prune-empty --tag-name-filter cat -- --all
-The filter-branch command allows you to rewrite the Git history. 
-<ul>
-<li>The --index-filer option is the filter for rewriting the index. Some people use the --tree-filter option, which rewrites the tree and its contents, but the --index-filter is faster because it does not check out the tree.</li>
-<li>This option is used with `git rm -rf --cached --ignore-unmatch` for optimal results, which removes (`rm`) the file recursively and forcefully (`-rf`).</li>
-<li>`--cached` is used to unstage and remove paths from the index.</li>
-<li>`--ignore-unmatch` will prevent the command from failing if the file is absent from the tree of a commit.</li>
-<li>`--prune-empty` allows the filter-branch command to ignore empty commits generated by the filters applied.</li>
-<li>`--tag-name-filter cat` will update the relevant tags by rewriting them.</li>
-<li>`--` simply separates the filter-branch options from the revision options and `--all` will rewrite ALL branches and tags</li>
-
-    git prune
+- The <code class="language-bash">filter-branch</code> command allows you to rewrite the Git history. 
+- The <code class="language-bash">--index-filer</code> option is the filter for rewriting the index. Some people use the <code class="language-bash">--tree-filter</code> option, which rewrites the tree and its contents, but the <code class="language-bash">--index-filter</code> is faster because it does not check out the tree.
+- This option is used with <code class="language-bash">git rm -rf --cached --ignore-unmatch</code> for optimal results, which removes (<code class="language-bash">rm</code>) the file recursively and forcefully (<code class="language-bash">-rf</code>).
+- <code class="language-bash">--cached</code> is used to unstage and remove paths from the index.
+- <code class="language-bash">--ignore-unmatch</code> will prevent the command from failing if the file is absent from the tree of a commit.
+- <code class="language-bash">--prune-empty</code> allows the filter-branch command to ignore empty commits generated by the filters applied.
+- <code class="language-bash">--tag-name-filter cat</code> will update the relevant tags by rewriting them.
+- <code class="language-bash">--</code> simply separates the filter-branch options from the revision options and <code class="language-bash">--all</code> will rewrite ALL branches and tags
+<pre><code class="language-bash">git prune</code></pre>
 This prunes all unreachable objects from the object database.
-
-    rm -rf .git/refs/original/
+<pre><code class="language-bash">
+rm -rf .git/refs/original/</code></pre>
 This removes any old references to the unwanted folder/file.
-
-    git reflog expire --expire=now --all
-According to the documentation, reflog is the mechanism to record when the top of branches are updated so git reflog manges the information recorded. expire is used to prune older reflog entries and `--expire=now` specifies how far behind these older entries should be, in this case, right now.
-
-    git gc --prune=now
-This command cleans up unnecessary files and optimises the local repository. `--prune=now` prunes objects older than the date specified, in this case, right now.
+<pre><code class="language-bash">git reflog expire --expire=now --all</code></pre>
+According to the documentation, reflog is the mechanism to record when the top of branches are updated so git reflog manges the information recorded. expire is used to prune older reflog entries and <code class="language-bash">--expire=now</code> specifies how far behind these older entries should be, in this case, right now.
+<pre><code class="language-bash">git gc --prune=now</code></pre>
+This command cleans up unnecessary files and optimises the local repository. <code class="language-bash">--prune=now</code> prunes objects older than the date specified, in this case, right now.
 
 After that, I cloned this into a new local repo using:
-
-    git clone --no-hardlinks file://PATH/TO/OLD-REPO NEW-REPO
+<pre><code class="language-bash">git clone --no-hardlinks file://PATH/TO/OLD-REPO NEW-REPO</code></pre>
 which gave me a “clean” repository, with the history rewritten to remove the target folder, but with all the other commits still intact.
 
 Although I was able to force push these changes up to my remote repository, the size was still unchanged. So I did the next best thing, which was to create a new remote repository on bitbucket and git push the clean repo up there. 

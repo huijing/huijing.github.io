@@ -33,19 +33,19 @@ body {
 %h3, h3 {
   font-family: $header-font;
   @include responsive-text-size(hecto);
-  margin: 0 auto rhythm(1);
+  margin: 0 auto rhythm(0.5);
 }
 
 %h4, h4 {
   font-family: $header-font;
   @include responsive-text-size(deca);
-  margin: 0 auto rhythm(1);
+  margin: 0 auto rhythm(0.5);
 }
 
 %h5, h5 {
   font-family: $header-font;
   @include responsive-text-size(base);
-  margin: 0 auto rhythm(1);
+  margin: 0 auto rhythm(0.5);
 }
 
 %h6, h6 {
@@ -64,38 +64,43 @@ em {
 
 pre,
 code {
-  @include responsive-text-size(base);
+  @include responsive-text-size(deci);
   font-family: $code-font;
 }
 
 pre {
-  @include responsive-text-size(deci);
   white-space: pre;
   border-radius: 5px;
   margin-bottom: rhythm(1);
   overflow-x: auto;
 }
 
-code {
-  @include responsive-text-size(deci);
-}
+code {}
 
 p {
   margin-bottom: rhythm(1);
+  li & {
+    margin-bottom: 0;
+  }
 }
 
 ol {
   list-style: decimal;
-  list-style-position: inside;
+  margin-left: rhythm(1);
+  li {
+    margin-bottom: rhythm(1);
+  }
 }
 
 ul {
   list-style: disc;
-  list-style-position: inside;
+  margin-left: rhythm(1);
 }
 
 li {
-  margin-bottom: rhythm(1);
+  &:last-child {
+    margin-bottom: rhythm(1);
+  }
 }
 
 a {
@@ -115,4 +120,9 @@ a {
 .site-header__description {
   font-family: $display-font;
   @include responsive-text-size(deci);
+}
+
+.post-meta {
+  @include responsive-text-size(deci);
+  color: color(dove-gray);
 }
