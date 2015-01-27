@@ -21,7 +21,26 @@
 }
 
 .site-header__image {
+  display: block;
   min-width: 90px;
+  height: 90px;
+  width: 90px;
+  background: url('/images/retropc-static.gif');
+  background-size: cover;
+  @include respond-above(medium) {
+    height: 120px;
+    width: 120px;
+  }
+  &:before {
+    content: url('/images/retropc-dynamic.gif');
+    width:0;
+    height:0;
+    visibility:hidden;
+  }
+  &:hover {
+    background: url('/images/retropc-dynamic.gif');
+    background-size: cover;
+  }
 }
 
 .sh-outer {
