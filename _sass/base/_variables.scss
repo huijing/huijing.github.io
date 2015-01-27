@@ -119,6 +119,11 @@ $rhythm-unit: "rem";
 
 // Set typography sizes
 $text-sizing: (
+  milli: (
+    small: (
+      font-size: 0.618rem
+    )
+  ),
   centi: (
     small: (
       font-size: 0.618rem

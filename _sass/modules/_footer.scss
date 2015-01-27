@@ -1,0 +1,32 @@
+.footer-main {
+  background: url('/images/bg-footer-2.jpg');
+  padding: rhythm(0.5);
+  li {
+    margin: 0;
+    list-style: none;
+  }
+}
+
+.footer-secondary {
+  background: url('/images/bg-footer.jpg');
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+  padding: rhythm(0.25);
+  @include respond-above(large) {
+    flex-flow: row nowrap;
+    .item {
+      flex: 1 0 0;
+    }
+  }
+}
+
+.footer-nav {
+  display: flex;
+  width: 100%;
+  a {
+    flex: 1 0 0;
+    text-align: center;
+  }
+}

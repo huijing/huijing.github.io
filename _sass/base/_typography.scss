@@ -126,6 +126,12 @@ a {
       border: none;
     }
   }
+  .site-footer & {
+    border: none;
+    &:hover {
+      color: lighten(color(apple), 20%);
+    }
+  }
 }
 
 .site-header__title {
@@ -146,4 +152,21 @@ a {
 .post-meta {
   @include responsive-text-size(deci);
   color: color(abbey);
+}
+
+.rss-subscribe {
+  @include responsive-text-size(deci);
+}
+
+.site-footer {
+  font-family: $display-font;
+}
+
+.footer-main {
+  @include responsive-text-size(centi);
+}
+
+.footer-secondary {
+  @include responsive-text-size(milli);
+  color: white;
 }

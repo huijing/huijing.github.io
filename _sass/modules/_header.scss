@@ -32,7 +32,7 @@
   display: flex;
   width: 100%;
   a {
-    flex-grow: 1;
+    flex: 1 0 0;
     text-align: center;
   }
   @include respond-above(medium) {
