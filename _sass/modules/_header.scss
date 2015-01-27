@@ -1,13 +1,22 @@
 .site-header {
   display: flex;
   align-items: center;
-  padding: rhythm(1);
-  .first {
-    flex-grow: 1;
+  padding: rhythm(0.5);
+  background: url('/images/bg-header.jpg');
+  flex-flow: row wrap;
+  @include respond-above(large) {
+    flex-flow: row nowrap;
+    .first {
+      flex: 3 0 0;
+    }
+    .last {
+      flex: 1 0 0;
+    }
   }
-  .last {
-    flex-grow: 1;
-  }
+}
+
+.site-header__image {
+  min-width: 90px;
 }
 
 .sh-outer {
@@ -21,8 +30,15 @@
 
 .site-nav {
   display: flex;
-  list-style: none;
+  width: 100%;
   a {
     flex-grow: 1;
+    text-align: center;
+  }
+  @include respond-above(medium) {
+    margin-top: rhythm(0.5);
+  }
+  @include respond-above(large) {
+    margin-top: 0;
   }
 }

@@ -105,6 +105,27 @@ li {
 
 a {
   text-decoration: none;
+  color: color(apple);
+  border-bottom: 1px dashed color(apple);
+  transition: all 0.15s linear;
+  &:hover {
+    color: darken(color(apple), 20%);
+    border-bottom: 1px solid color(apple);
+  }
+  h3 & {
+    color: color(english-walnut);
+    border: none;
+    &:hover {
+      border: none;
+    }
+  }
+  .site-header & {
+    color: color(english-walnut);
+    border: none;
+    &:hover {
+      border: none;
+    }
+  }
 }
 
 .site-header__title {
@@ -119,10 +140,10 @@ a {
 
 .site-header__description {
   font-family: $display-font;
-  @include responsive-text-size(deci);
+  @include responsive-text-size(centi);
 }
 
 .post-meta {
   @include responsive-text-size(deci);
-  color: color(dove-gray);
+  color: color(abbey);
 }

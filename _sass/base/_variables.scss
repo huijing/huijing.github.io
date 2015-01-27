@@ -119,6 +119,14 @@ $rhythm-unit: "rem";
 
 // Set typography sizes
 $text-sizing: (
+  centi: (
+    small: (
+      font-size: 0.618rem
+    ),
+    medium: (
+      font-size: 0.8rem
+    )
+  ),
   deci: (
     small: (
       font-size: 0.8rem
@@ -180,7 +188,9 @@ $text-sizing: (
 
 $colors: (
   pampas: rgba(245, 242, 240, 1),
-  dove-gray: rgba(107, 107, 107, 1)
+  abbey: rgba(83, 87, 89, 1),
+  english-walnut: rgba(55, 40, 34, 1),
+  apple: rgba(74, 188, 65, 1)
 );
 
 // ==========
