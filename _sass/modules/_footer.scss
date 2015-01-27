@@ -1,18 +1,46 @@
-.footer-main {
+.footer-wrapper.main {
   background: url('/images/bg-footer-2.jpg');
-  padding: rhythm(0.5);
+}
+
+.footer-wrapper.secondary {
+  background: url('/images/bg-footer.jpg');
+}
+
+.footer-main {
+  @extend %center;
+  max-width: 1140px;
+  padding: rhythm(0.5) rhythm(0.25);
+}
+
+.contacts {
+  margin: 0;
   li {
     margin: 0;
     list-style: none;
   }
 }
 
+.icon {
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    path {
+      fill: color(apple);
+      &:hover {
+        fill: lighten(color(apple), 20%);
+      }
+    }
+  }
+}
+
 .footer-secondary {
-  background: url('/images/bg-footer.jpg');
+  @extend %center;
+  max-width: 1140px;
   display: flex;
   align-items: center;
   flex-flow: row wrap;
-  text-align: center;
   padding: rhythm(0.25);
   @include respond-above(large) {
     flex-flow: row nowrap;

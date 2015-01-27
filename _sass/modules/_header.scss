@@ -1,8 +1,13 @@
 .site-header {
+  background: url('/images/bg-header.jpg');
+}
+
+.header-wrapper {
+  @extend %center;
+  max-width: 1140px;
   display: flex;
   align-items: center;
   padding: rhythm(0.5);
-  background: url('/images/bg-header.jpg');
   flex-flow: row wrap;
   @include respond-above(large) {
     flex-flow: row nowrap;

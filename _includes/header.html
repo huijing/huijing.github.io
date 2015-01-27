@@ -1,15 +1,16 @@
 <header class="site-header">
-  <div class="sh-outer item first">
-    <div class="site-header__image"><a href="{{ site.baseurl }}/"><img src="/images/retropc.png"></a></div>
-    <div class="sh-inner">
-      <a class="site-header__title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <p class="site-header__description">{{ site.description }}</p>
+  <div class="header-wrapper">
+    <div class="sh-outer item first">
+      <div class="site-header__image"><a href="{{ site.baseurl }}/"><img src="/images/retropc.png"></a></div>
+      <div class="sh-inner">
+        <a class="site-header__title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <p class="site-header__description">{{ site.description }}</p>
+      </div>
     </div>
+
+    <nav class="site-nav item last">
+      <a class="site-nav__link about" href="/about">About</a>
+      <a class="site-nav__link blog" href="/blog">Blog</a>
+    </nav>
   </div>
-
-  <nav class="site-nav item last">
-    <a class="site-nav__link about" href="/about">About</a>
-    <a class="site-nav__link blog" href="/blog">Blog</a>
-  </nav>
-
 </header>
