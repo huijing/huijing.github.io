@@ -13,7 +13,7 @@ permalink: /blog/
         <a class="post-link no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h3>
 
-      {{ post.content | truncatewords:40}}
+      <p class="post-summary">{{ post.content | strip_html | truncatewords:40}}</p>
     
     </li>
   {% endfor %}
