@@ -115,7 +115,8 @@ li {
   &:last-child {
     margin-bottom: rhythm(1);
   }
-  .post-list & {
+  .post-list &,
+  .podcast-list & {
     list-style: none;
   }
 }
@@ -129,22 +130,19 @@ a {
     color: darken(color(apple), 20%);
     border-bottom: 1px solid color(apple);
   }
-  h3 & {
-    color: color(english-walnut);
+  &.no-underline {
     border: none;
     &:hover {
       border: none;
     }
+  }
+  h3 & {
+    color: color(english-walnut);
   }
   .site-header & {
     color: color(english-walnut);
-    border: none;
-    &:hover {
-      border: none;
-    }
   }
   .site-footer & {
-    border: none;
     &:hover {
       color: lighten(color(apple), 20%);
     }

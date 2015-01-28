@@ -1,0 +1,11 @@
+.podcast-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.podcast {
+  flex: auto;
+  width: 140px;
+  margin: rhythm(0.5);
+}
