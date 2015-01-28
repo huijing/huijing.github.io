@@ -83,6 +83,9 @@ p {
   li & {
     margin-bottom: 0;
   }
+  .post-list & {
+    margin-bottom: rhythm(1);
+  }
 }
 
 ol {
@@ -111,6 +114,9 @@ ul {
 li {
   &:last-child {
     margin-bottom: rhythm(1);
+  }
+  .post-list & {
+    list-style: none;
   }
 }
 
