@@ -42,11 +42,32 @@
   align-items: center;
   flex-flow: row wrap;
   padding: rhythm(0.25);
+  @include respond-above(medium) {}
   @include respond-above(large) {
     flex-flow: row nowrap;
-    .item {
-      flex: 1 0 0;
+    .span-wrapper {
+      flex: 5 0 0;
     }
+    .footer-nav {
+      flex: 2 0 0;
+    }
+  }
+}
+
+.span-wrapper {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  @include respond-above(small) {
+    flex-flow: row nowrap;
+  }
+}
+
+.attribute,
+.copyright {
+  text-align: center;
+  @include respond-above(small) {
+    flex: 1 0 0;
   }
 }
 

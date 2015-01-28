@@ -1,7 +1,3 @@
 .content {
-  @include container(960px);  
-}
-
-hr {
-  @include trailing-border;
+  @include container(960px);
 }

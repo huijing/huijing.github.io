@@ -1,0 +1,8 @@
+.content {
+  padding: rhythm(1);
+  background: color(sugar-cane);
+}
+
+hr {
+  @include trailing-border;
+}

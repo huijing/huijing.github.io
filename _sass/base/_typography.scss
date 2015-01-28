@@ -14,8 +14,9 @@ $grid-background-baseline-height: $base-line-height;
 
 // Standardise site-wide typography styles here. Refer to _variables.scss to edit the variables used in the type-scale mixin.
 body {
-  font-family: $base-font;
   @include responsive-text-size(base);
+  font-family: $base-font;
+  color: color(mine-shaft);
 }
 
 %h1, h1 {
