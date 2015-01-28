@@ -42,7 +42,6 @@
   align-items: center;
   flex-flow: row wrap;
   padding: rhythm(0.25);
-  @include respond-above(medium) {}
   @include respond-above(large) {
     flex-flow: row nowrap;
     .span-wrapper {
@@ -58,24 +57,20 @@
   display: flex;
   width: 100%;
   flex-flow: row wrap;
-  @include respond-above(small) {
-    flex-flow: row nowrap;
-  }
 }
 
 .attribute,
 .copyright {
   text-align: center;
-  @include respond-above(small) {
-    flex: 1 0 0;
-  }
+  flex: auto;
+  width: 275px;
 }
 
 .footer-nav {
   display: flex;
   width: 100%;
   a {
-    flex: 1 0 0;
+    flex: auto;
     text-align: center;
   }
 }
