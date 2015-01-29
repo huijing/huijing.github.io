@@ -1,3 +1,5 @@
 _site
 .sass-cache
 config.codekit
+node_modules
+*.log
