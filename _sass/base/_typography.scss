@@ -78,6 +78,34 @@ pre {
 
 code {}
 
+blockquote {
+  background: url('/images/bg-quotes.jpg');
+  border-left: 10px solid color(royal-blue);
+  padding: rhythm(0.5);
+  margin-bottom: rhythm(1);
+  &:before {
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.1em;
+    vertical-align: -0.5em;
+    color: color(royal-blue);
+    content: "\201C";
+    font-family: $display-font;
+  }
+  &:after {
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 0.1em;
+    vertical-align: -0.5em;
+    color: color(royal-blue);
+    content:"\201D";
+    font-family: $display-font;
+  }
+  p {
+    display: inline;
+  }
+}
+
 p {
   margin-bottom: rhythm(1);
   li & {

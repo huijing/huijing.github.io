@@ -1,11 +1,14 @@
 .podcast-list {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  @include respond-above(small) {
+    justify-content: flex-start;
+  }
 }
 
 .podcast {
-  flex: auto;
   width: 140px;
   margin: rhythm(0.5);
 }
