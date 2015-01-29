@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Chen Hui Jing">
+  <meta property="og:image" content="/images/retropc-static.gif">
+  <meta property="og:description" content="{{ site.description }}">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
@@ -11,4 +14,18 @@
   <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <script>
+    (function(f,b,g){
+      var xo=g.prototype.open,xs=g.prototype.send,c;
+      f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+      f._hjSettings={hjid:10241, hjsv:2};
+      function ls(){f.hj.documentHtml=b.documentElement.outerHTML;c=b.createElement("script");c.async=1;c.src="//static.hotjar.com/c/hotjar-10241.js?sv=2";b.getElementsByTagName("head")[0].appendChild(c);}
+      if(b.readyState==="interactive"||b.readyState==="complete"||b.readyState==="loaded"){ls();}else{if(b.addEventListener){b.addEventListener("DOMContentLoaded",ls,false);}}
+      if(!f._hjPlayback && b.addEventListener){
+        g.prototype.open=function(l,j,m,h,k){this._u=j;xo.call(this,l,j,m,h,k)};
+        g.prototype.send=function(e){var j=this;function h(){if(j.readyState===4){f.hj("_xhr",j._u,j.status,j.response)}}this.addEventListener("readystatechange",h,false);xs.call(this,e)};
+      }
+    })(window,document,window.XMLHttpRequest);
+  </script>
 </head>
