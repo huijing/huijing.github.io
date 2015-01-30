@@ -144,7 +144,8 @@ li {
     margin-bottom: rhythm(1);
   }
   .post-list &,
-  .podcast-list & {
+  .podcast-list &,
+  .blog-list & {
     list-style: none;
   }
 }

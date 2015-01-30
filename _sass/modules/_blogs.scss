@@ -1,0 +1,14 @@
+.blog-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include respond-above(small) {
+    justify-content: flex-start;
+  }
+}
+
+.blog {
+  width: 250px;
+  margin: rhythm(0.5);
+}
