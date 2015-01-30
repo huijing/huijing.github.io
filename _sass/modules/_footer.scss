@@ -10,6 +10,27 @@
   @extend %center;
   max-width: 1140px;
   padding: rhythm(0.5) rhythm(0.25);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  .item {
+  }
+  @include respond-above(medium) {
+    flex-flow: row nowrap;
+    .about-me {
+      flex: 5 0 0;
+    }
+    .contact-list {
+      flex: 2 0 0;
+    }
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: rhythm(0.5);
 }
 
 .contacts {
@@ -42,6 +63,11 @@
   align-items: center;
   flex-flow: row wrap;
   padding: rhythm(0.25);
+  .span-wrapper {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+  }
   @include respond-above(large) {
     flex-flow: row nowrap;
     .span-wrapper {
@@ -53,11 +79,7 @@
   }
 }
 
-.span-wrapper {
-  display: flex;
-  width: 100%;
-  flex-flow: row wrap;
-}
+
 
 .attribute,
 .copyright {
