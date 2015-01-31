@@ -15,10 +15,10 @@
   @include respond-above(large) {
     flex-flow: row nowrap;
     .about-me {
-      flex: 5 0 0;
+      flex: 25 0 0;
     }
-    .contact-list {
-      flex: 2 0 0;
+    .contact-info {
+      flex: 1 0 250px;
     }
   }
 }
@@ -82,10 +82,10 @@
   @include respond-above(large) {
     flex-flow: row nowrap;
     .span-wrapper {
-      flex: 5 0 0;
+      flex: 5 0 71.4285%;
     }
     .footer-nav {
-      flex: 2 0 0;
+      flex: 2 0 28.5714%;
     }
   }
 }

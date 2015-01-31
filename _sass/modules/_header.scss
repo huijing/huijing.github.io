@@ -12,10 +12,10 @@
   @include respond-above(x-large) {
     flex-flow: row nowrap;
     .first {
-      flex: 3 0 0;
+      flex: 3 1 75%;
     }
     .last {
-      flex: 1 0 0;
+      flex: 1 1 25%;
     }
   }
 }
