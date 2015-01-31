@@ -41,6 +41,9 @@ body {
   font-family: $header-font;
   @include responsive-text-size(deca);
   margin: 0 auto rhythm(0.5);
+  .site-footer & {
+    font-family: $display-font;
+  }
 }
 
 %h5, h5 {
@@ -207,10 +210,11 @@ a {
 }
 
 .footer-main {
-  @include responsive-text-size(centi);
+  @include responsive-text-size(deci);
+  color: color(sugarcane);
 }
 
 .footer-secondary {
   @include responsive-text-size(milli);
-  color: white;
+  color: color(sugarcane);
 }

@@ -12,9 +12,6 @@
   padding: rhythm(0.5) rhythm(0.25);
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
-  .item {
-  }
   @include respond-above(medium) {
     flex-flow: row nowrap;
     .about-me {
@@ -26,11 +23,20 @@
   }
 }
 
+.about-me,
+.contact-info {
+  margin: 0 rhythm(1);
+  @include respond-above(medium) {
+    margin-top: rhythm(1);
+  }
+}
+
 .avatar {
+  @extend %center;
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  margin: rhythm(0.5);
+  margin: rhythm(0.5) auto;
 }
 
 .contacts {
