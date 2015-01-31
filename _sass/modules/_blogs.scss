@@ -11,4 +11,7 @@
 .blog {
   width: 250px;
   margin: rhythm(0.5);
+  img {
+    box-shadow: 5px 10px 15px 2px color(english-walnut);
+  }
 }
