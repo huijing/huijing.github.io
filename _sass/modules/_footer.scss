@@ -26,7 +26,7 @@
 .about-me,
 .contact-info {
   margin: 0 rhythm(1);
-  @include respond-above(medium) {
+  @include respond-above(large) {
     margin-top: rhythm(1);
   }
 }
