@@ -34,6 +34,7 @@
 .avatar {
   @extend %center;
   border-radius: 50%;
+  min-width: 200px;
   width: 200px;
   height: 200px;
   margin: rhythm(0.5) auto;

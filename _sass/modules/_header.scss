@@ -56,7 +56,7 @@
   display: flex;
   width: 100%;
   a {
-    flex: 1 0 0;
+    flex: auto;
     text-align: center;
   }
   @include respond-above(medium) {
