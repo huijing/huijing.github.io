@@ -12,7 +12,7 @@
   padding: rhythm(0.5) rhythm(0.25);
   display: flex;
   flex-flow: row wrap;
-  @include respond-above(medium) {
+  @include respond-above(large) {
     flex-flow: row nowrap;
     .about-me {
       flex: 5 0 0;
@@ -37,6 +37,9 @@
   width: 200px;
   height: 200px;
   margin: rhythm(0.5) auto;
+  @include respond-above(large) {
+    margin: rhythm(0.5) 0 rhythm(0.5) rhythm(1);
+  }
 }
 
 .contacts {

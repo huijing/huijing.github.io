@@ -9,7 +9,7 @@
   align-items: center;
   padding: rhythm(0.5);
   flex-flow: row wrap;
-  @include respond-above(large) {
+  @include respond-above(x-large) {
     flex-flow: row nowrap;
     .first {
       flex: 3 0 0;
