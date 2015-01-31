@@ -40,6 +40,7 @@
   margin: rhythm(0.5) auto;
   @include respond-above(large) {
     margin: rhythm(0.5) 0 rhythm(0.5) rhythm(1);
+    flex: 1 0 0;
   }
 }
 
@@ -88,8 +89,6 @@
     }
   }
 }
-
-
 
 .attribute,
 .copyright {
