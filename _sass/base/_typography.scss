@@ -69,17 +69,7 @@ em {
 pre,
 code {
   @include responsive-text-size(deci);
-  font-family: $code-font;
 }
-
-pre {
-  white-space: pre;
-  border-radius: 5px;
-  margin-bottom: rhythm(1);
-  overflow-x: auto;
-}
-
-code {}
 
 blockquote {
   background: url('/images/bg-quotes.jpg');
