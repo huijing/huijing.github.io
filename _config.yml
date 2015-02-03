@@ -6,7 +6,7 @@ baseurl: ""
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 relative_permalinks: false
 permalink: /blog/:title
-paginate: 10
+paginate: 7
 paginate_path: "/blog/page:num"
 
 twitter_username: hj_chen
