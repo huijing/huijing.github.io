@@ -16,7 +16,7 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.8.0)
+    coffee-script-source (1.9.0)
     colorator (0.1)
     execjs (2.2.2)
     fast-stemmer (1.0.2)
@@ -108,7 +108,7 @@ GEM
     rdiscount (2.1.7)
     redcarpet (3.1.2)
     safe_yaml (1.0.4)
-    sass (3.4.10)
+    sass (3.4.11)
     terminal-table (1.4.5)
     thread_safe (0.3.4)
     timers (4.0.1)
