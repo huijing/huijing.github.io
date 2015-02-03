@@ -2,6 +2,7 @@
 layout: post
 title: "Drupal 101: Content types"
 date: October 06, 2014
+tags: [drupal, site-building]
 ---
 Content types are just a means of providing more structure to the data being used on your website. Drupal 7 comes by default with two content types, page and article. But you can create additional content types to suit the needs of your website.
 

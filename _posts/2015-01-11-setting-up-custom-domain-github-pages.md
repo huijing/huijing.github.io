@@ -2,8 +2,9 @@
 layout: post
 title: "Setting a custom domain for GitHub pages"
 date: January 11, 2015
+tags: [github-pages, server-side]
 ---
-As you may know by now, this site is hosted on GitHub pages. There is no limit to how many "sites" you can host on GitHub pages if you use the project pages method, but the by default, the URL of your site would be either <code class="language-bash">http://USER_NAME.GitHub.io</code> or (if you're using project pages) <code class="language-bash">http://USER_NAME.GitHub.io/SITE_NAME</code>. Which is totally cool if you ask me, but sometimes, we'd like to have our own custom domain name that we paid for with our own hard-earned cash.
+As you may know by now, this site is hosted on GitHub Pages. There is no limit to how many "sites" you can host on GitHub Pages if you use the project pages method, but the by default, the URL of your site would be either <code class="language-bash">http://USER_NAME.GitHub.io</code> or (if you're using project pages) <code class="language-bash">http://USER_NAME.GitHub.io/SITE_NAME</code>. Which is totally cool if you ask me, but sometimes, we'd like to have our own custom domain name that we paid for with our own hard-earned cash.
 
 After some googling to compare domain name registrars, I settled on [Namesilo](https://www.namesilo.com/), largely because they're one of the cheapest around, and honestly I haven't had any trouble with them. Switching nameservers was simple, whois privacy is free, that's about all I need actually. I've bought 3 domain names through them thus far and don't plan on switching to anyone else anytime soon.
 

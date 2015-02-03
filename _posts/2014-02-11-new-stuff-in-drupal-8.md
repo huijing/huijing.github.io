@@ -2,6 +2,7 @@
 layout: post
 title: "New stuff in Drupal 8"
 date: February 11, 2014
+tags: [drupal, podcasts]
 ---
 One of the podcasts I listen to these days is Modules Unraveled by Brian Lewis. The most recent episode was a conversation with Théodore Biadala, who is the Javascript maintainer for Drupal 7 and 8. 
 

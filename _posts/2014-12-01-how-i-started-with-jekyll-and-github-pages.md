@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "How I started with Jekyll and Github pages"
+title: "How I started with Jekyll and GitHub Pages"
 date: December 01, 2014
+tags: [jekyll, github-pages]
 ---
 The idea of building my own website had always been floating around in my head, but I never really got down to doing something about it. Given that I work at a Drupal shop, my first instinct was to build my own site on Drupal. That somehow just did not pan out. 
 

@@ -6,8 +6,10 @@ baseurl: ""
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 relative_permalinks: false
 permalink: /blog/:title
+
 twitter_username: hj_chen
 github_username:  hjchen
+about: "I'm Hui Jing, a designer and front-end developer who builds Drupal-flavoured websites."
 
 # Build settings
 markdown: kramdown

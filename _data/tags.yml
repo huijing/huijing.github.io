@@ -1,0 +1,26 @@
+- slug: drupal
+  name: Drupal
+
+- slug: github
+  name: GitHub
+
+- slug: github-pages
+  name: GitHub Pages
+
+- slug: jekyll
+  name: Jekyll
+
+- slug: podcasts
+  name: Podcasts
+
+- slug: server-side
+  name: Server side
+
+- slug: projects
+  name: Projects
+
+- slug: site-building
+  name: Site building
+
+- slug: git
+  name: Git

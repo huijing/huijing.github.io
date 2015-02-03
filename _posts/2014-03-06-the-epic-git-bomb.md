@@ -2,6 +2,7 @@
 layout: post
 title: "The epic git bomb"
 date: March 06, 2014
+tags: [git]
 ---
 Version control is a concept that is useful regardless of what industry you are in. But it is especially valuable in the software industry. Before I delved into this world of web development, I had already understood the value of version control. I mean, it is only logical to keep track of changes made to any files just in case you needed to backtrack or recover any information. However, my experience with version control was extremely rudimentary. It largely involved keeping multiple copies of the same file every time an update was made. This worked fine, except that you usually ended up with 36 copies of the same file with names like <code class="language-markup">Meeting-minutes-20120506-v1_CHJ_revised.docx</code>. 
 

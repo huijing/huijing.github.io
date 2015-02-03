@@ -2,6 +2,7 @@
 layout: post
 title: "The one I cut my teeth on"
 date: October 04, 2014
+tags: [drupal, projects]
 ---
 My next assignment was to build a new website for the [Singapore Gastric Cancer Consortium](http://www.sgcc.sg). Their original site was static HTML site built years ago, with a design that was dated. As a research facility, they also had a large library of publications that they wanted users to be able to search through. The site was completely redesigned and rebuilt from scratch on the Drupal 7 platform, and this would be my first end-to-end development project.
 

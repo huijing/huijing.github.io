@@ -191,6 +191,10 @@ a {
   color: color(abbey);
 }
 
+.post-tag {
+  @include responsive-text-size(deci);
+}
+
 .rss-subscribe {
   @include responsive-text-size(deci);
 }
