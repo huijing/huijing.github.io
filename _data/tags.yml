@@ -1,6 +1,9 @@
 - slug: drupal
   name: Drupal
 
+- slug: git
+  name: Git
+
 - slug: github
   name: GitHub
 
@@ -13,14 +16,11 @@
 - slug: podcasts
   name: Podcasts
 
-- slug: server-side
-  name: Server side
-
 - slug: projects
   name: Projects
 
+- slug: server-side
+  name: Server side
+
 - slug: site-building
   name: Site building
-
-- slug: git
-  name: Git

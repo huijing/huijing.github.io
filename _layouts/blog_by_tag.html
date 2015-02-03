@@ -3,7 +3,11 @@ layout: default
 ---
 
 <header class="page-header">
-  <h3 class="post-subtitle">{{ page.tag }}</h3>
+  <span class="icon icon--tag">
+    <svg viewBox="0 0 544 512">
+      <path d="M496,32H384c-26.4,0-63.273,15.273-81.941,33.941L113.941,254.059c-18.667,18.667-18.667,49.214,0,67.882l140.118,140.115 c18.667,18.668,49.214,18.668,67.882,0l188.115-188.115C528.727,255.273,544,218.4,544,192V80C544,53.6,522.4,32,496,32z M432,192 c-26.51,0-48-21.49-48-48s21.49-48,48-48s48,21.49,48,48S458.51,192,432,192z"/></svg>
+    </span>
+  <h3 class="tag-title">{{ page.tag }}</h3>
 </header>
 
 <ul class="post-list">
@@ -22,10 +26,12 @@ layout: default
         {% endif %}
       {% endif %}
       
-      <a href="{{ post.url }}/" class="post-link no-underline">
-        <h4 class="post-title">{{ post.title }}</h4>
-      </a>
+      <h4>
+        <a class="post-link no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h4>
 
+      <p class="post-summary">{{ post.content | strip_html | truncatewords:40}}</p>
+      
       {% if forloop.last %}
         </div>
       {% endif %}

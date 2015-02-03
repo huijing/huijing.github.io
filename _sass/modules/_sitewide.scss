@@ -20,3 +20,13 @@ body {
     }
   }
 }
+
+.icon--tag {
+  > svg {
+    width: 32px;
+    height: 32px;
+    path {
+      fill: color(mineshaft);
+    }
+  }
+}
