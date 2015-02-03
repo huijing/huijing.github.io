@@ -1,22 +1,50 @@
 ---
 layout: page
 title: Blog
-permalink: /blog/
 ---
 
 <ul class="post-list">
-  {% for post in site.posts %}
+  {% if paginator.posts %}
+    {% for post in paginator.posts %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-      <h3>
+      <h2>
         <a class="post-link no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h3>
-
+      </h2>
       <p class="post-summary">{{ post.content | strip_html | truncatewords:40}}</p>
-    
     </li>
-  {% endfor %}
+    {% endfor %}
+  {% else %}
+    <p>No posts found.</p>
+  {% endif %}
 </ul>
+
+{% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <span class="paginator paginator--previous"><a class="no-underline" href="/blog/">&laquo;</a></span>
+      {% else %}
+        <span class="paginator paginator--previous"><a class="no-underline" href="{{ paginator.previous_page_path }}/">&laquo;</a></span>
+      {% endif %}
+    {% else %}
+        <span class="paginator paginator--previous paginator--disabled"><span>&laquo;</span></span>
+    {% endif %}
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="paginator paginator--link paginator--active"><span>{{ page }}</span></span>
+      {% elsif page == 1 %}
+        <span class="paginator paginator--link"><a class="no-underline" href="/blog/">1</a></span>
+      {% else %}
+        <span class="paginator paginator--link"><a class="no-underline" href="{{ site.paginate_path | replace: ':num', page }}/">{{ page }}</a></span>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next_page %}
+      <span class="paginator paginator--next"><a class="no-underline" href="{{ paginator.next_page_path }}/">&raquo;</a></span>
+    {% else %}
+      <span class="paginator paginator--next paginator--disabled"><a class="no-underline" href="#">&raquo;</a></span>
+    {% endif %}
+  </div>
+{% endif %}
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

@@ -1,19 +1,22 @@
 ---
 layout: default
 ---
+
 <section class="latest-posts">
   <ul class="post-list">
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts limit:5 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h3>
+        <h2>
           <a class="post-link no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-<!--         <p class="summary">{{ post.content | strip_html | truncatewords:60}}</p> -->
+        </h2>
       </li>
     {% endfor %}
   </ul>
 </section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div class="more-link">
+  <p><a class="no-underline" href="/blog">more &#10142;</a></p>
+  </div>
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

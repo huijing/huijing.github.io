@@ -21,29 +21,29 @@ body {
 
 %h1, h1 {
   font-family: $header-font;
-  @include responsive-text-size(mega);
+  @include responsive-text-size(kilo);
   margin: 0 auto rhythm(1);
 }
 
 %h2, h2 {
   font-family: $header-font;
-  @include responsive-text-size(kilo);
+  @include responsive-text-size(hecto);
   margin: 0 auto rhythm(1);
 }
 
 %h3, h3 {
-  font-family: $header-font;
-  @include responsive-text-size(hecto);
-  margin: 0 auto rhythm(0.5);
-}
-
-%h4, h4 {
   font-family: $header-font;
   @include responsive-text-size(deca);
   margin: 0 auto rhythm(0.5);
   .site-footer & {
     font-family: $display-font;
   }
+}
+
+%h4, h4 {
+  font-family: $header-font;
+  @include responsive-text-size(base);
+  margin: 0 auto rhythm(0.5);
 }
 
 %h5, h5 {
@@ -158,7 +158,7 @@ a {
       border: none;
     }
   }
-  h3 & {
+  h2 & {
     color: color(english-walnut);
   }
   .site-header & {
