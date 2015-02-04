@@ -39,3 +39,24 @@ body {
   vertical-align: middle;
   margin-right: rhythm(0.5);
 }
+
+.flex-container {
+  display: block;
+  @include respond-above(medium) {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}
+
+.img-404 {
+  @include respond-above(medium) {
+    flex: 1 0 436px;
+    height: auto;
+  }
+}
+
+.text-wrapper {
+  @include respond-above(medium) {
+    flex: 1 1 auto;
+  }
+}
