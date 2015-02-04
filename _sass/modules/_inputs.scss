@@ -1,0 +1,21 @@
+input:not([type=submit]):not([type=file]) {
+  @include adaptive-placeholder();
+  width: 100%;
+  max-width: 510px;
+}
+
+textarea {
+  @include adaptive-placeholder($textarea-placeholder);
+  width: 100%;
+  max-width: 775px;
+}
+
+input[type=submit] {
+  padding: rhythm(0.25) rhythm(0.5);
+  background-color: color(apple);
+  color: white;
+  transition: all 0.15s linear;
+  &:hover {
+    background-color: darken(color(apple), 20%);
+  }
+}

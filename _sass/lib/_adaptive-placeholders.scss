@@ -20,8 +20,20 @@ $ap-default: (
 // ------------------------------
 // - Allows $ap-default to be overwritten by default user settings
 
-$adaptive-placeholder: ();
+$adaptive-placeholder: (
+  height: rhythm(1.5),
+  margin: rhythm(0.5),
+  border: 1px,
+  border-radius: 0,
+  active-color: #372822,
+  valid-color: #4abc41,
+  );
 
+$textarea-placeholder : (
+  height: rhythm(5),
+  border-radius: 0,
+  textarea: true, 
+);
 
 // adaptive-placeholder
 // --------------------
@@ -94,7 +106,7 @@ $adaptive-placeholder: ();
     @if $isTextarea {
       height: calc(#{$height} + #{$borders});
       line-height: 1;
-      padding-top: calc(#{$margin} + #{$border});
+      padding-top: calc(#{$margin}/2 + #{$border});
     }
     @else {
       height: $height;
@@ -103,7 +115,7 @@ $adaptive-placeholder: ();
 
     // Offset label correctly with negative margins
     @if $isTextarea {
-      margin-top: calc(-#{$height} - #{$borders});
+      margin-top: calc(-#{$height} - #{$border});
     }
     @else {
       margin-top: calc(-#{$height} - #{$border});
@@ -120,26 +132,12 @@ $adaptive-placeholder: ();
       white-space: nowrap;
       // Transformation properties
 
-      -webkit-transition-property: -webkit-transform, color;
       transition-property: transform, color;
-      -webkit-transition-duration: 0.2s;
       transition-duration: 0.2s;
-      -webkit-transition-delay: 0;
       transition-delay: 0;
-      -webkit-transition-timing-function: ease-out;
       transition-timing-function: ease-out;
       // Set origin to left center so it scales to the left instead of center center
-      -webkit-transform-origin: left center;
-      -ms-transform-origin: left center;
       transform-origin: left center;
-
-      // Here's a version without prefixes
-      // transition-property: transform, color;
-      // transition-duration: 0.2s;
-      // transition-delay: 0;
-      // transition-timing-function: ease-out;
-      // // Set origin to left center so it scales to the left instead of center center
-      // transform-origin: left center;
 
     }
   }
@@ -155,13 +153,9 @@ $adaptive-placeholder: ();
       line-height: 1;
       padding: 0 $border * 1.5;
       @if $isTextarea {
-        -webkit-transform: translateY(calc((-#{$margin} - 0.5em) - #{$border * 0.5})) scale(0.8, 0.8);
-        -ms-transform: translateY(calc((-#{$margin} - 0.5em) - #{$border * 0.5})) scale(0.8, 0.8);
         transform: translateY(calc((-#{$margin} - 0.5em) - #{$border * 0.5})) scale(0.8, 0.8);
       }
       @else {
-        -webkit-transform: translateY(calc(-#{$height} / 2 - #{$border}/2)) scale(0.8, 0.8);
-        -ms-transform: translateY(calc(-#{$height} / 2 - #{$border}/2)) scale(0.8, 0.8);
         transform: translateY(calc(-#{$height} / 2 - #{$border}/2)) scale(0.8, 0.8);
       }
     }
