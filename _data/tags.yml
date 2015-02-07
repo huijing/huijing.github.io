@@ -1,6 +1,9 @@
 - slug: drupal
   name: Drupal
 
+- slug: frameworks
+  name: Frameworks
+
 - slug: git
   name: Git
 
@@ -12,6 +15,9 @@
 
 - slug: jekyll
   name: Jekyll
+
+- slug: performance
+  name: Performance
 
 - slug: podcasts
   name: Podcasts
