@@ -62,8 +62,8 @@ What this implies is that, your site will take the CSS styles defined for the sm
 
 Let's say we have two blocks of content, `main` and `sidebar`. On a narrow mobile display, both blocks will be displayed on a single column stacked on top of each other. But when we expand to a larger width, we want the blocks to display in two columns, with `main` taking up 3/4 of the screen on the left and `sidebar` taking up 1/4 of the screen on the right. If we use 540px as the breakpoint, it should look something like this:
 
-<p data-height="375" data-theme-id="9162" data-slug-hash="ivzgm" data-default-tab="result" data-user="elliah" class='codepen'>See the Pen <a href='http://codepen.io/elliah/pen/ivzgm/'>Blog example #1</a> by Chen Hui Jing (<a href='http://codepen.io/elliah'>@elliah</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//codepen.io/assets/embed/ei.js"></script>
+<p data-height="268" data-theme-id="9162" data-slug-hash="ivzgm" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/ivzgm/'>Blog example #1</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 Resize the browser and the content should "break" at when it hits 540px. A mobile-first approach simply means that CSS styles are applied to widths at specified-breakpoint-and-above, rather than at specified-breakpoint-and-below.
 
 Honestly, this concept is easier to grok once you've written some code yourself. Thanks to this project, I had the chance to write lots of it. It also helped that I was pretty familiar with Drupal, so I could change the markup to cater to the CSS I was writing. But I always enjoy an all-round team effort, and we launched the site as scheduled, to minimal fanfare but much internal satisfaction.

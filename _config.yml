@@ -5,7 +5,7 @@ description: The chronicles of a self-taught designer and developer.
 baseurl: ""
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 relative_permalinks: false
-permalink: /blog/:title
+permalink: /blog/:title/
 paginate: 7
 paginate_path: "/blog/page:num"
 
