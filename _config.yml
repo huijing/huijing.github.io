@@ -1,6 +1,6 @@
 # Site settings
 title: Chen Hui Jing
-email: hjchen13@gmail.com
+email: kakyou_tensai@yahoo.com
 description: The chronicles of a self-taught designer and developer.
 baseurl: ""
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
@@ -10,7 +10,7 @@ paginate: 7
 paginate_path: "/blog/page:num"
 
 twitter_username: hj_chen
-github_username:  hjchen
+github_username:  huijing
 about: "I'm Hui Jing, a designer and front-end developer who builds Drupal-flavoured websites."
 
 # Build settings
