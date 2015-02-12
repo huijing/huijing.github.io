@@ -13,7 +13,7 @@ After a 4-year sabbatical (from web development), I decided to restart this jour
 ###Anything not related to the web?
 Sure. I love playing basketball and did so full-time for 6 years until the end of 2011. I still play recreationally now and will continue to do so until my legs say otherwise.
 
-I also love to draw, though I do less of it now. At one point in time, I customised canvas sneakers for friends and some random clients under the name FUZN designs. The [Facebook page](https://www.facebook.com/fuzndesigns?fref=ts) still exists, though on an indefinite hiatus.
+I also love to [draw](http://cyern.deviantart.com), though I do less of it now. At one point in time, I customised canvas sneakers for friends and some random clients under the name FUZN designs. The [Facebook page](https://www.facebook.com/fuzndesigns?fref=ts) still exists, though on an indefinite hiatus.
 
 I play a lot of video games as well, mostly on my PC now since I built my own gaming rig in 2012 (It's still running beautifully, might I add). I plan to get a PS3 (that is not a typo) to play a bunch of exclusives that have been on my wishlist for years. 
 
@@ -24,7 +24,7 @@ With blood, sweat and tears! Nah, I'm just kidding.
 
 This is a [Jekyll](http://jekyllrb.com/) site, hosted on [GitHub Pages](https://pages.github.com/). It was built after months of procrastination and hours upon hours of pressing ⌘-⇧-R, resizing windows, googling and of course, actual coding. 
 
-Since Jekyll is a static site generator, everything here is HTML, CSS and JS. 
+Since Jekyll is a static site generator, everything here is HTML, CSS and JS. This site is a constant work-in-progress as I add tweaks, features and content. 
 
 No PHP, no Ruby, no Python, nilch.
 
