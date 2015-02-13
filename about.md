@@ -22,9 +22,9 @@ Oh, and I cycle everywhere on my trusty second-hand Muji commuter bicycle.
 ###So how was this site built?
 With blood, sweat and tears! Nah, I'm just kidding.
 
-This is a [Jekyll](http://jekyllrb.com/) site, hosted on [GitHub Pages](https://pages.github.com/). It was built after months of procrastination and hours upon hours of pressing ⌘-⇧-R, resizing windows, googling and of course, actual coding. 
+This is a [Jekyll](http://jekyllrb.com/) site, hosted on [GitHub Pages](https://pages.github.com/). It was built after months of procrastination and hours upon hours of pressing ⌘-⇧-R, resizing windows, googling and of course, actual coding. This site is a constant work-in-progress as I add tweaks, features and content. 
 
-Since Jekyll is a static site generator, everything here is HTML, CSS and JS. This site is a constant work-in-progress as I add tweaks, features and content. 
+Since Jekyll is a static site generator, everything here is HTML, CSS and JS. 
 
 No PHP, no Ruby, no Python, nilch.
 
