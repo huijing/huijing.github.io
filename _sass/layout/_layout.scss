@@ -1,3 +1,17 @@
 .content {
   @include container(960px);
 }
+
+.figure-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include respond-above(small) {
+    flex-flow: row nowrap;
+  }
+}
+
+.two-col {
+  margin: 0 rhythm(1);
+}
