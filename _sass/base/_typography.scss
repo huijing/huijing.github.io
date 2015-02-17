@@ -109,6 +109,10 @@ p {
   }
 }
 
+.no-margin {
+  margin-bottom: 0;
+}
+
 ol {
   margin-left: rhythm(1);
   counter-reset: list;
