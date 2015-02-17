@@ -28,7 +28,7 @@ CSS shapes is being developed by the [Adobe Web Platform team](http://blogs.adob
 <img class="shape" src="/images/posts/beyonce.png" alt="Beyoncé"/>
 To be honest, the W3C spec is not that easy to understand, so here's my attempt at explaining it in plain English. A prerequisite for applying a CSS shape property to an element is that the element must be floated. It doesn't work on non-floated elements.
 
-If the browser you're using right now support CSS shapes, you should see text wrapping nicely around the image of Beyoncé, otherwise you'll just see the standard rectangular column of text. (Hint: Try using Chrome or Safari)
+If the browser you're using right now supports CSS shapes, you should see text wrapping nicely around the image of Beyoncé, otherwise you'll just see the standard rectangular column of text. (Hint: Try using Chrome or Safari)
 
 There are 4 basic shape functions you can use to define an element's shape, in other words, how you want the text to flow around your element. In addition to that, you can also extract a shape from images with an alpha channel. 
 
