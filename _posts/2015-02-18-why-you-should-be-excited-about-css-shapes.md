@@ -6,7 +6,7 @@ image: magazine-layout.jpg
 description: Tired of rectangular layouts that look like a brick wall? With CSS shapes, your content can now flow around Beyoncé's elbow, like a boss.
 tags: [css, podcasts]
 ---
-So I just listened to the [Jen Simmons' interview](https://boagworld.com/season/11/episode/1105/) on the Boagworld podcast about CSS shapes and although I've heard about CSS shapes for a while now, I never really tried it out for myself. But for some reason, this interview just compelled me to sit myself down and really understand what the excitement is all about. (Ok, it could largely be because I think [Jen Simmons](http://jensimmons.com/) is awesome and I've been listening to her fantastic podcast, [The Web Ahead](http://thewebahead.net/) for more than a year now)
+So I just listened to [Jen Simmons' interview](https://boagworld.com/season/11/episode/1105/) on the Boagworld podcast about CSS shapes and although I've heard about CSS shapes for a while now, I never really tried it out for myself. But for some reason, this interview just compelled me to sit myself down and really understand what the excitement is all about. (Ok, it could largely be because I think [Jen Simmons](http://jensimmons.com/) is awesome and I've been listening to her fantastic podcast, [The Web Ahead](http://thewebahead.net/) for more than a year now)
 
 The first thing I did was to read the [W3C spec](http://thewebahead.net/) for the CSS shapes module level 1. Yes, the spec does read a bit like some legal document in the beginning, but the fun starts from section 2 where all the cool stuff is. In a nutshell, CSS shapes allows us to wrap text around more than just rectangular boxes. You can now wrap your text around circles, ellipses and polygons and even images.  
 
