@@ -2,6 +2,7 @@
 layout: post
 title: "Why you should be excited about CSS shapes"
 date: February 18, 2015
+image: magazine-layout.jpg
 tags: [css, podcasts]
 ---
 So I just listened to the [Jen Simmons' interview](https://boagworld.com/season/11/episode/1105/) on the Boagworld podcast about CSS shapes and although I've heard about CSS shapes for a while now, I never really tried it out for myself. But for some reason, this interview just compelled me to sit myself down and really understand what the excitement is all about. (Ok, it could largely be because I think [Jen Simmons](http://jensimmons.com/) is awesome and I've been listening to her fantastic podcast, [The Web Ahead](http://thewebahead.net/) for more than a year now)
