@@ -17,3 +17,4 @@ about: "I'm Hui Jing, a designer and front-end developer who builds Drupal-flavo
 markdown: kramdown
 gems:
   - jekyll-sitemap
+  - jemoji

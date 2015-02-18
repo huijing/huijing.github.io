@@ -153,10 +153,12 @@ $textarea-placeholder : (
       line-height: 1;
       padding: 0 $border * 1.5;
       @if $isTextarea {
-        transform: translateY(calc((-#{$margin} - 0.5em) - #{$border * 0.5})) scale(0.8, 0.8);
+        -webkit-transform: translateY(- $margin - 0.5em ) translateY(- $border *0.5) scale(0.8, 0.8);
+        transform: translateY(- $margin - 0.5em ) translateY(- $border *0.5) scale(0.8, 0.8);
       }
       @else {
-        transform: translateY(calc(-#{$height} / 2 - #{$border}/2)) scale(0.8, 0.8);
+        -webkit-transform: translateY(- $height *0.5) translateY(- $border *0.5) scale(0.8, 0.8);
+        transform: translateY(- $height *0.5) translateY(- $border *0.5) scale(0.8, 0.8);
       }
     }
   }
