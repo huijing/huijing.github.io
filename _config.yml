@@ -3,7 +3,8 @@ title: Chen Hui Jing
 email: kakyou_tensai@yahoo.com
 description: The chronicles of a self-taught designer and developer.
 baseurl: ""
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://www.chenhuijing.com" 
+
 relative_permalinks: false
 permalink: /blog/:title/
 paginate: 7
