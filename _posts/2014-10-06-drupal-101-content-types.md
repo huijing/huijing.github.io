@@ -12,7 +12,9 @@ Rather than dumping all this data into a single body field, having different fie
 
 Drupal also allows existing fields to be re-used across content types. Say you created an image field one of your content types. You can re-use this image field in another content type. Now there is some contention on whether you should re-use fields or not and you should read [this excellent article](https://www.ostraining.com/blog/drupal/re-using-drupal-fields/) by [OSTraining](https://www.ostraining.com/) which covers both sides of the argument. I'm just here to tell you that you can re-use existing fields if you want to.
 
-So you may be thinking, what's the point of all this, these content types with their fancy fields. Well, at the heart of it, Drupal is a content management system. For the uninitiated, that just means it's a piece of computer software that manages digital content. Stay with me while I go meta for a bit. Let's talk about data. 
+So you may be thinking, what's the point of all this, these content types with their fancy fields. Well, at the heart of it, Drupal is a content management system. For the uninitiated, that just means it's a piece of computer software that manages digital content. 
+
+When you don't have a large amount of content, you can probably get away with very little planning or thinking about how your content is going to be structured. But if you're going to add more content to your site (and odds are you will), things will start to get messy. Stay with me while I go meta for a bit. Let's talk about data. 
 
 Data is simply just individual bits of information, things like facts and figures. Raw data is like a pile of bricks, not particularly useful on it's own. The bricks may even by slightly more useful, seeing as you could throw a brick at something. Data has to be processed, organised and analysed before it can become useful information that has practical applications. Think data is to information as brick is to house.
 

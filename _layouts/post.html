@@ -13,6 +13,19 @@ layout: default
   <div class="post-content">
     {{ content }}
 
+    {% if post.category %}
+      {% for site_category in site.data.categories %}
+        {% if site_category.slug == post.category %}
+          {% assign category = site_category %}
+        {% endif %}
+      {% endfor %}
+      {% if category %}
+        {% capture category_content %} in <span class="label" style="background-color:{{ category.color }}"><a href="/blog/category/{{ category.slug }}/">{{ category.name }}</a></span>{% endcapture %}
+      {% endif %}
+    {% else %}
+      {% assign category_content = '' %}
+    {% endif %}
+
     {% if post.tags.size > 0 %}
       {% capture tags_content %}{% if post.tags.size == 1 %}<span class="icon icon--tag">
         <svg viewBox="0 0 544 512">

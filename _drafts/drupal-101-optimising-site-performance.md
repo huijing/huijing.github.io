@@ -11,7 +11,7 @@ There are a myriad of tools and checklists out there that can point you in the r
 ###Drupal performance options
 This is available out-of-the-box with any Drupal installation. Go to <code class="language-bash">admin/config/development/performance</code> and you will see these options.
 
-<img src="/images/posts/drupal-performance.jpg" alt="Drupal performance settings"/>
+<img src="{{ site.url }}/images/posts/drupal-performance.jpg" alt="Drupal performance settings"/>
 
 You'll see a lot of instances of the word cache. For users to see one your pages on their browsers, the browser has to ask the server hosting your website for it. Caching just tells the requester to hold onto their copy of their asset for a while instead of asking for it every time it's required.
 
