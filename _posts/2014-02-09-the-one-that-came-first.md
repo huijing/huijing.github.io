@@ -14,4 +14,4 @@ I also managed to get my hands on a copy of [John Duckett’s HTML & CSS](http:/
 
 Working with the original live website as a visual guide, I tweaked the clone's CSS bit by bit and managed to get the job done within a week. The website launched as planned, with me breathing a huge sigh of relief. In fact, the most challenging part of this assignment was styling the Drupal Views Slideshow pager according to the design.
 
-If you build Drupal sites and you haven't heard of Views, either
+If you build Drupal sites and you haven't heard of Views, I suggest you read [this]()

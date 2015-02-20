@@ -5,10 +5,10 @@ layout: default
 <section class="latest-posts">
   <ul class="post-list">
     {% for post in site.posts limit:5 %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <li class="no-list-style">
+        <span class="post-meta abbey">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
-          <a class="post-link no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link no-underline english-walnut" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
       </li>
     {% endfor %}

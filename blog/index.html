@@ -6,10 +6,10 @@ title: Blog
 <ul class="post-list">
   {% if paginator.posts %}
     {% for post in paginator.posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h2>
-        <a class="post-link no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <li class="no-list-style">
+      <span class="post-meta abbey">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h2 class="no-margin">
+        <a class="post-link no-underline english-walnut" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       <p class="post-summary">{{ post.content | strip_html | truncatewords:40}}</p>
     </li>

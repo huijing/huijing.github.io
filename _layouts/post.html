@@ -6,7 +6,7 @@ layout: default
 <article>
 
   <header class="post-header">
-    <span class="post-meta">{{ post.date | date: "%A, %B %-d, %Y" }}</span>
+    <span class="post-meta abbey">{{ post.date | date: "%A, %B %-d, %Y" }}</span>
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
@@ -38,7 +38,7 @@ layout: default
       {% assign tags_content = '' %}
     {% endif %}
 
-    <p class="post-meta">{{ tags_content }}</p>
+    <p class="post-meta abbey">{{ tags_content }}</p>
 
   </div>
 

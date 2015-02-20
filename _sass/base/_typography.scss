@@ -20,20 +20,20 @@ body {
 }
 
 %h1, h1 {
-  font-family: $header-font;
   @include responsive-text-size(kilo);
+  font-family: $header-font;
   margin: 0 auto rhythm(1);
 }
 
 %h2, h2 {
-  font-family: $header-font;
   @include responsive-text-size(hecto);
+  font-family: $header-font;
   margin: 0 auto rhythm(1);
 }
 
 %h3, h3 {
-  font-family: $header-font;
   @include responsive-text-size(deca);
+  font-family: $header-font;
   margin: 0 auto rhythm(0.5);
   .site-footer & {
     font-family: $display-font;
@@ -41,20 +41,20 @@ body {
 }
 
 %h4, h4 {
-  font-family: $header-font;
   @include responsive-text-size(base);
+  font-family: $header-font;
   margin: 0 auto rhythm(0.5);
 }
 
 %h5, h5 {
-  font-family: $header-font;
   @include responsive-text-size(base);
+  font-family: $header-font;
   margin: 0 auto rhythm(0.5);
 }
 
 %h6, h6 {
-  font-family: $header-font;
   @include responsive-text-size(base);
+  font-family: $header-font;
   margin: 0 auto rhythm(1);
 }
 
@@ -99,20 +99,6 @@ blockquote {
   }
 }
 
-p {
-  margin-bottom: rhythm(1);
-  li & {
-    margin-bottom: 0;
-  }
-  .post-list & {
-    margin-bottom: rhythm(1);
-  }
-}
-
-.no-margin {
-  margin-bottom: 0;
-}
-
 ol {
   margin-left: rhythm(1);
   counter-reset: list;
@@ -134,17 +120,21 @@ ol {
 ul {
   list-style: disc;
   margin-left: rhythm(1);
+  ul {
+    list-style: square;
+  }
 }
 
 li {
-  &:last-child {
-    margin-bottom: rhythm(1);
-  }
-  .post-list &,
-  .podcast-list &,
-  .blog-list & {
-    list-style: none;
-  }
+  margin-bottom: rhythm(1);
+}
+
+li > p:first-child {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: rhythm(1);
 }
 
 a {
@@ -156,23 +146,6 @@ a {
     color: darken(color(apple), 20%);
     border-bottom: 1px solid color(apple);
   }
-  &.no-underline {
-    border: none;
-    &:hover {
-      border: none;
-    }
-  }
-  h2 & {
-    color: color(english-walnut);
-  }
-  .site-header & {
-    color: color(english-walnut);
-  }
-  .site-footer & {
-    &:hover {
-      color: lighten(color(apple), 20%);
-    }
-  }
 }
 
 .site-header__title {
@@ -181,38 +154,32 @@ a {
   font-weight: bold;
 }
 
+.site-header__description {
+  @include responsive-text-size(centi);
+  font-family: $display-font;
+}
+
 .site-nav {
   font-family: $display-font;
 }
 
-.site-header__description {
-  font-family: $display-font;
-  @include responsive-text-size(centi);
-}
-
-.post-meta {
-  @include responsive-text-size(deci);
-  color: color(abbey);
-}
-
-.post-tag {
-  @include responsive-text-size(deci);
-}
-
+.post-meta,
+.post-tag,
 .rss-subscribe {
   @include responsive-text-size(deci);
 }
 
 .site-footer {
   font-family: $display-font;
+  a:hover {
+    color: lighten(color(apple), 20%);
+  }
 }
 
 .footer-main {
   @include responsive-text-size(deci);
-  color: color(sugarcane);
 }
 
 .footer-secondary {
   @include responsive-text-size(milli);
-  color: color(sugarcane);
 }

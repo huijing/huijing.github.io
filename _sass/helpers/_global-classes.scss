@@ -9,3 +9,19 @@
 .hide {
   display: none !important;
 }
+
+.no-margin {
+  margin-bottom: 0;
+}
+
+.no-underline {
+  border: none;
+  &:hover {
+    border: none;
+  }
+}
+
+.no-list-style {
+  list-style: none;
+}
+
