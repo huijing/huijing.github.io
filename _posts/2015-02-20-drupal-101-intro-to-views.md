@@ -11,7 +11,7 @@ If you're not one of the 6,294,998 people who downloaded Views, or if you did bu
 
 Views make lists. 
 
-That's essentially what people use Views for. All the content created on Drupal is stored in a database, and Views allows us to filter and pull selected content from that database and display it in the form of a list.
+That's essentially what people use Views for. All the content created on Drupal is stored in a database, and Views allows us to filter and pull selected content from that database and display it in the form of a list. The official documentation can be found [here](https://www.drupal.org/node/2287909) and if you installed the [Advanced Help](https://www.drupal.org/project/advanced_help) module, you can access it directly from the Drupal admin.
 
 Let's start off by installing this module. You can download it from the [Views project page](https://www.drupal.org/project/views) on Drupal.org. Refer to [Installing modules (Drupal 7)](https://www.drupal.org/documentation/install/modules-themes/modules-7) if you need help installing Drupal modules. As there is a dependency on the [Chaos Tools Suite](http://drupal.org/project/ctools) or CTools, you'll have to install that module too. You have to enable the following 3 modules to use Views:
 <ul>
@@ -49,7 +49,7 @@ You get 4 types of view displays out of the box:
 
 1. **Attachment**
     
-    A view attachment allows you to attach one view display to another and use it on your site as though it was a single view.
+    A view attachment allows you to attach one view display to another and use it on your site as though it was a single view. I found this [brilliant article](http://nmc-codes.blogspot.com/2012/10/views-attachment-in-drupal-7.html) that walks you through exactly how view attachments work.
 
 2. **Block**
     
@@ -122,3 +122,5 @@ There are a lot of options and settings available here. Remember the Master* pan
     If there is more content than is displayed, you can choose to display a more link which will link to the page view of the display. The text on the link can be customised here.
 
 That just about covers the most general settings and options and should be enough for you to get started with using Views on your website. Of course there is a lot more that can be done with Views, but this is just a basic introduction. The advanced options have goodies like contextual filters, relationships (essentially joining tables) and more. There are also a lot of additional modules that extend the capabilities of Views. I hope this post has helped you grok Views and you'll use it to create a better Drupal site.
+
+
