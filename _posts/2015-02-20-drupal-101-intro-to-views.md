@@ -3,7 +3,7 @@ layout: post
 title: "Drupal 101: Introduction to views"
 date: February 20, 2015
 tags: [drupal, site-building]
-category: drupal-planet
+category: planet-drupal
 ---
 [Views](https://www.drupal.org/project/views) is an extremely popular Drupal module. As of time of writing, it has been downloaded 6,294,998 times and reported to be used in 876,607 sites. It's so popular, in fact, that it has been included in core for the Drupal 8. So why is Views such an essential module?
 

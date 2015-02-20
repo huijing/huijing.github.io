@@ -4,11 +4,11 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }} - Drupal Planet Feed</title>
-    <description>Posts categorised as 'Drupal Planet'</description>
+    <title>{{ site.title | xml_escape }} - Planet Drupal Feed</title>
+    <description>Posts categorised as 'Planet Drupal'</description>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/drupal-planet.xml" rel="self" type="application/rss+xml" />
-    {% for post in site.categories.drupal-planet limit:20 %}
+    <atom:link href="{{ site.url }}/planet-drupal.xml" rel="self" type="application/rss+xml" />
+    {% for post in site.categories.planet-drupal limit:20 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape | strip_html | truncatewords:120}}</description>
