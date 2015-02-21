@@ -152,6 +152,9 @@ a {
   @include responsive-text-size(hecto);
   font-family: $display-font;
   font-weight: bold;
+  &:hover {
+    color: color(english-walnut);
+  }
 }
 
 .site-header__description {
@@ -161,6 +164,10 @@ a {
 
 .site-nav {
   font-family: $display-font;
+}
+
+.site-nav__link:hover {
+  color: color(english-walnut);
 }
 
 .post-meta,
