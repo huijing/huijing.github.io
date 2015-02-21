@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 ###So who are you?
 My name is Chen Hui Jing. I first dipped my toe into the waters of web development when I built my first HTML website in 2008 for the Malaysia Basketball Association. 
