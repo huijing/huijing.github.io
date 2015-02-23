@@ -3,7 +3,7 @@ layout: post
 title: "Drupal 101: Optimising site performance"
 date: February 06, 2015
 tags: [drupal, performance]
-category: drupal-planet
+category: planet-drupal
 ---
 It has been statistically proven that nobody likes a slow website. We have all moved on from the days when you'd patiently wait for a page to load over that lovely dial-up modem. Nowadays, people want their pretty content, and they want it loaded instantaneously (or at most by 2 blinks). 
 
