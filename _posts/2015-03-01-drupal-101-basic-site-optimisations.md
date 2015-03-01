@@ -60,16 +60,16 @@ This is available out-of-the-box with any Drupal installation. Go to <code class
 Usually, it's best to just check everything here. 
 
 ###Core modules to avoid
-- Database logging (dblog)
+- **Database logging (dblog)**
     + dblog will write all log messages to the database. Keyword here is all. Error messages, write. Debugging information, write. Module generated log messages, write. You get the picture.
     + This results in lots of database entries every time a page loads. The busier the database is, the slower your site will be.
     + This module is enabled by default for Drupal 7. Disable it and use syslog instead. 
-- Statistics (statistics)
+- **Statistics (statistics)**
     + This module tracks site statistics on page views and site usage.
     + Unfortunately, it writes all these statistics to the database, and again, results in performance taking a hit.
     + Even Mr Millwood (mentioned at the very top of this post), the maintainer of this module, suggests you use Google Analytics instead.
     + This module is NOT enabled by default, and so just leave it be.
-- PHP filter (php)
+- **PHP filter (php)**
     + Although there may be certain occasions when you need to have PHP code in your content, most of the time (if not all), you can put that code in a custom module.
     + Putting PHP code in your content means it has to be retrieved from the database before it can be executed, so it makes more sense to bypass this step by writing that code to a custom module. 
     + Your database has better things to do than to fetch PHP code for execution.
