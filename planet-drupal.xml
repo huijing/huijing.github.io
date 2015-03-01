@@ -8,11 +8,13 @@ layout: null
     <description>Posts categorised as 'Planet Drupal'</description>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/planet-drupal.xml" rel="self" type="application/rss+xml" />
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     {% for post in site.categories.planet-drupal limit:20 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape | strip_html | truncatewords:120}}</description>
-        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       </item>
