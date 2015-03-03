@@ -29,7 +29,8 @@ I am currently a **Drupal architect** and have worked on a variety of projects w
 <li class="no-margin">Develop responsive custom Drupal themes written in Sass and Susy</li>
 <li class="no-margin">Build, deploy and maintain Drupal sites using best practices to ensure scalability and security</li>
 <li class="no-margin">Submit of patches and bug fixes to contrib modules</li>
-<li>Develop and continually tweak a <a href="https://www.drupal.org/sandbox/hj_chen/2345293">minimal base-theme</a> to facilitate custom theme development</li>
+<li class="no-margin">Develop and continually tweak a <a href="https://www.drupal.org/sandbox/hj_chen/2345293">minimal base-theme</a> to facilitate custom theme development</li>
+<li class>Write blog posts on Drupal and other web-related topics</li>
 </ul>
 
 <p class="no-margin">I've wrote about some of the projects I've worked on, mostly about my experiences and what I learnt along the way:</p>
