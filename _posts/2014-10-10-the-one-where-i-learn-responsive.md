@@ -4,11 +4,11 @@ title: "The one where I learn responsive"
 date: October 06, 2014
 tags: [drupal, projects]
 ---
-The Pixel Onion website was a project that had languished in a corner for months. The team had been swamped with client project after client project, but this was fast becoming ridiculous. It is simply unbecoming for a web agency not to have their own website up and running. We made a decision to whip up a simple website, built on Drupal (obviously), to be launched by Valentine’s Day. 
+The Pixel Onion website was a project that had languished in a corner for months. The team had been swamped with client project after client project, but this was fast becoming ridiculous. It is simply unbecoming for a web agency not to have their own website up and running. We made a decision to whip up a simple website, built on Drupal (obviously), to be launched by Valentine’s Day 2014. 
 
 It took us about an hour to come with the information architecture of the site, as well as the general structure and content of the site. After working on consecutive projects involving a slew of tiresome back-and-forths with clients (an inevitable part of EVERY job, might I add), this personal project of ours was a breath of fresh air. 
 
-Our party consisted of a UX designer, a Visual designer, a Back-end developer and a Front-end developer (me). Our site would be simple, but with some little tweaks to give it some flavour, like animated navigation icons. And of course, the site would have to be fully responsive from day one. IE8 support, on the other hand, would come eventually, if not at all.
+Our party consisted of a UX designer, a visual designer, a back-end developer and a front-end developer (me). Our site would be simple, but with some little tweaks to give it some flavour, like animated navigation icons. And of course, the site would have to be fully responsive from day one. IE8 support, on the other hand, would come eventually, if not at all.
 
 Now, in my prior two projects, I was playing the back-end site builder role, so this was my first foray into the world of responsive front-end development. Fun times. (Technically, I did create a custom theme for the [Singapore Gastric Cancer Consortium](http://www.sgcc.sg) site, but it wasn't responsive.) But in all seriousness, I realised I was the kind of person who retained knowledge if I had hands-on experience. All the reading and watching tutorial videos in the world never did much for me if there wasn't a real world task for me to get my hands dirty with.
 
