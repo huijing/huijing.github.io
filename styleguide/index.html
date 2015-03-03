@@ -3,7 +3,7 @@ layout: page
 title: Style guide
 ---
 <!-- Beginning of Styleguide -->
-<p>Because we all need one.</p>
+<p>Because we all need one, though this one is still WIP.</p>
 <p>This style guide was based off the <a href="https://github.com/bryanbraun/poor-mans-styleguide">Poor Man's Styleguide</a> created by <a href="http://www.bryanbraun.com/">Bryan Braun</a>.</p>
 
 <hr />
@@ -191,15 +191,21 @@ for (i = 0; i < divs.length; ++i) {
     </select></p>
 
     <p><label for="radio_buttons">Radio Buttons:</label><br />
-      <input type="radio" class="radio" name="radio_button" value="radio_1" /> Radio 1<br/>
-      <input type="radio" class="radio" name="radio_button" value="radio_2" /> Radio 2<br/>
-      <input type="radio" class="radio" name="radio_button" value="radio_3" /> Radio 3<br/>
+      <input type="radio" name="radio" id="radio1" class="radio" />
+      <label for="radio1" class="radio-label">Radio 1</label>
+      <input type="radio" name="radio" id="radio2" class="radio" />
+      <label for="radio2" class="radio-label">Radio 2</label>
+      <input type="radio" name="radio" id="radio3" class="radio" />
+      <label for="radio3" class="radio-label">Radio 3</label>
     </p>
 
     <p><label for="checkboxes">Checkboxes:</label><br />
-      <input type="checkbox" class="checkbox" name="checkboxes" value="check_1" /> Radio 1<br/>
-      <input type="checkbox" class="checkbox" name="checkboxes" value="check_2" /> Radio 2<br/>
-      <input type="checkbox" class="checkbox" name="checkboxes" value="check_3" /> Radio 3<br/>
+      <input type="checkbox" name="checkbox1" id="checkbox1" class="checkbox" />
+      <label for="checkbox1" class="checkbox-label">Checkbox 1</label>
+      <input type="checkbox" name="checkbox2" id="checkbox2" class="checkbox" />
+      <label for="checkbox2" class="checkbox-label">Checkbox 2</label>
+      <input type="checkbox" name="checkbox3" id="checkbox3" class="checkbox" />
+      <label for="checkbox3" class="checkbox-label">Checkbox 3</label>
     </p>
 
     <p><label for="password">Password:</label><br />

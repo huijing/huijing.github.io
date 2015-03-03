@@ -1,0 +1,24 @@
+table {
+  border-spacing: 0;
+}
+
+tr {
+  transition: background-color 0.15s linear;
+  &:hover {
+    background-color: darken(color(sugarcane), 5%);
+  }
+}
+
+td,
+th {
+  padding: rhythm(0.5);
+  text-align: center;
+}
+
+th {
+  border-bottom: 2px solid color(abbey);
+}
+
+td {
+  border-bottom: 1px solid color(abbey);
+}

@@ -1,4 +1,5 @@
-input:not([type=submit]):not([type=file]) {
+input[type=text],
+input[type=email] {
   @include adaptive-placeholder();
   width: 100%;
   max-width: 510px;
@@ -14,8 +15,63 @@ input[type=submit] {
   padding: rhythm(0.25) rhythm(0.5);
   background-color: color(apple);
   color: white;
-  transition: all 0.15s linear;
+  transition: background-color 0.15s linear;
   &:hover {
     background-color: darken(color(apple), 20%);
   }
+}
+
+input[type=reset] {
+  padding: rhythm(0.25) rhythm(0.5);
+  background-color: lighten(color(abbey), 20%);
+  color: white;
+  transition: background-color 0.15s linear;
+  &:hover {
+    background-color: color(abbey);
+  }
+}
+
+input[type=checkbox].checkbox,
+input[type=radio].radio {
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0);
+}
+
+input[type=checkbox].checkbox + label.checkbox-label {
+  padding-left: 33px;
+  height: 28px; 
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  display: block;
+  margin-bottom: rhythm(0.5);
+}
+
+input[type=radio].radio + label.radio-label {
+  padding-left:25px;
+  height:20px; 
+  background-repeat:no-repeat;
+  background-position: 0 0;
+  vertical-align:middle;
+  cursor:pointer;
+  display: block;
+  margin-bottom: rhythm(0.5);
+}
+
+input[type=checkbox].checkbox:checked + label.checkbox-label {
+  background-position: 0 -28px;
+}
+
+input[type=radio].radio:checked + label.radio-label {
+  background-position: 0 -20px;
+}
+
+.checkbox-label {
+  background-image: url('../images/checkbox.png');
+}
+
+.radio-label {
+  background-image: url('../images/radio.png');
 }
