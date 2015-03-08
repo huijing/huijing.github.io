@@ -1,0 +1,41 @@
+<div class="comments-wrapper">
+  <h3 class="section-title">Comments</h3>
+  <p class="no-margin">Let me know what you think by <a href="#form-wrapper">leaving a comment</a>.</p>
+
+  <ul class="comments-list no-list-style">
+    {% for comment in site.data.comments.sessions reversed %}
+      {% if comment.path == page.url %}
+      <hr>
+      <li class="no-margin">
+        <time datetime="{{ comment.created | date_to_xmlschema }}" class="post-meta">{{ comment.created | date_to_long_string  }}</time>
+        {% if comment.url != "" %}
+          <a href="http://{{ comment.url }}" class="commenter">{{ comment.name }}</a>
+        {% else %}
+          <span class="commenter">{{ comment.name }}</span>
+        {% endif %}
+        <div class="comment">
+          {{ comment.comment }}
+        </div>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <div class="form-wrapper" id="form-wrapper">
+    <form action="http://pooleapp.com/stash/1f791cb6-42d7-48ca-ba1e-800ea05e459a/" method="post" class="comment-form">
+      <h3>Leave a comment</h3>
+      <input type="hidden" name="redirect_to" value="{{ site.url }}/thanks/" />
+      <input type="hidden" name="path" value="{{ page.url }}" />
+      <input type="text" name="name" required />
+      <label placeholder="Your name" alt="Your name"></label>
+      <input type="text" name="url" required />
+      <label placeholder="Your website (optional)" alt="Your website (optional)"></label>
+      <input type="email" name="_replyto" required />
+      <label placeholder="Your email" alt="Your email"></label>
+      <textarea name="comment" required></textarea>
+      <label placeholder="Your comment" alt="Your comment"></label>
+      <input type="submit" value="Post comment" class="submit" />
+    </form>
+  </div>
+
+</div>

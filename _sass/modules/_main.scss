@@ -3,10 +3,6 @@
   background: color(sugarcane);
 }
 
-hr {
-  @include trailing-border;
-}
-
 .tag-title {
   display: inline-block;
   margin-left: rhythm(0.25);

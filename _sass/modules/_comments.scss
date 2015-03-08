@@ -1,0 +1,24 @@
+.form-wrapper,
+.attribution {
+  padding: rhythm(1);
+  background-color: darken(color(sugarcane), 3%);
+  margin-top: rhythm(1);
+}
+
+.comments-wrapper {
+  time {
+    display: block;
+  }
+  .section-title {
+    padding-top: rhythm(1);
+  }
+}
+
+.commenter {
+  display: inline-block;
+  margin-bottom: rhythm(0.5);
+}
+
+.comments-list {
+  margin-left: 0;
+}
