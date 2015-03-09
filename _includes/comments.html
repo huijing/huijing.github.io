@@ -1,10 +1,11 @@
 <div class="comments-wrapper">
-  <h3 class="section-title">Comments</h3>
+  <h3 class="comment-title">Comments</h3>
   <p class="no-margin">Let me know what you think by <a href="#form-wrapper">leaving a comment</a>.</p>
 
   <ul class="comments-list no-list-style">
     {% for comment in site.data.comments.sessions reversed %}
-      {% if comment.path == page.url %}
+    {% capture fullpath %}{{ site.url }}{{ page.url }}{% endcapture %}
+    {% if comment.path == fullpath %}
       <hr>
       <li class="no-margin">
         <time datetime="{{ comment.created | date_to_xmlschema }}" class="post-meta">{{ comment.created | date_to_long_string  }}</time>
@@ -25,7 +26,7 @@
     <form action="http://pooleapp.com/stash/1f791cb6-42d7-48ca-ba1e-800ea05e459a/" method="post" class="comment-form">
       <h3>Leave a comment</h3>
       <input type="hidden" name="redirect_to" value="{{ site.url }}/thanks/" />
-      <input type="hidden" name="path" value="{{ page.url }}" />
+      <input type="hidden" name="path" value="{{ site.url }}{{ page.url }}" />
       <input type="text" name="name" required />
       <label placeholder="Your name" alt="Your name"></label>
       <input type="text" name="url" required />
