@@ -5,7 +5,7 @@ date: March 09, 2015
 tags: [drupal, site-building]
 category: planet-drupal
 ---
-Feeds is a very useful module when it comes to importing content into your Drupal site. However, it's not very forgiving, in that your data has to be formatted just right for the feed to take. This post is not so much about how to set up and configure feeds, but rather, a checklist of things to take note, especially if you're dealing with multi-valued fields in your data set. Before I begin, I have a short rant on the importance of content. You could [skip to the checklist](#feeds-checklist) but then, it'll be less entertaining.
+Feeds is a very useful module when it comes to importing content into your Drupal site. However, it's not very forgiving, in that your data has to be formatted just right for the feed to take. This post is not so much about how to set up and configure feeds, but rather, a checklist of things to take note, especially if you're dealing with multi-valued fields in your data set. Before I begin, I have a short rant on the importance of content. You could [skip directly to the checklist](#feeds-checklist) but then, it'll be less entertaining.
 
 The heart of every website is its content. At least, most of the time. And as much as I love [cupcake ipsum](http://www.cupcakeipsum.com/), there's no substitute for actual content. At some point in time during the process of building a website, there will be a task known as content population.
 
@@ -30,7 +30,7 @@ I attribute it to the complicated data sets I had to work with. Usually, for sin
 
 If you're doing a CSV import with multi-value fields, it really pays to be well-versed in the fine art of Excel-fu. That also means you should have access to Microsoft Excel, because personally, I have yet to find a spreadsheet software that can match the functionalities of Excel.
 
-
+1. Make sure your CSV file is 
 
 1. If the field is mapped on the importer, your csv file MUST have it as well, otherwise it will be EMPTY.
 
