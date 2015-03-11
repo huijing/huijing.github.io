@@ -7,7 +7,7 @@
 }
 
 .footer-main {
-  @extend %center;
+  @include center;
   max-width: 1140px;
   padding: rhythm(0.5) rhythm(0.25);
   display: flex;
@@ -32,7 +32,7 @@
 }
 
 .avatar {
-  @extend %center;
+  @include center;
   border-radius: 50%;
   min-width: 200px;
   width: 200px;
@@ -53,7 +53,7 @@
 }
 
 .footer-secondary {
-  @extend %center;
+  @include center;
   max-width: 1140px;
   display: flex;
   align-items: center;

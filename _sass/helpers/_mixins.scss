@@ -22,6 +22,55 @@
 }
 
 // ==========
+// CENTER
+// -----
+// For centering block elements
+// ==========
+@mixin center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// ==========
+// IMAGE REPLACEMENT
+// -----
+// To replace text with background images. 
+// Source: http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+// ==========
+@mixin image-replacement {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+// ==========
+// HIDE ELEMENT
+// -----
+// To make element invisible on screen but visible for accessibility
+// Reference from http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+// ==========
+@mixin element-invisible {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+}
+
+// Turns off the element-invisible effect.
+@mixin element-visible {
+  position: static;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto;
+}
+
+// ==========
 // PLACEHOLDER
 // -----
 // For changing placeholder colors

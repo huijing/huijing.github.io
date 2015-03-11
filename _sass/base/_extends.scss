@@ -2,54 +2,10 @@
 // EXTENDS
 // -----
 // This file is for you to include any additional
-// @extend placeholders that you like to use for your project
+// @extend placeholders that you like to use for your project.
+// Use extends with caution as it could result in unusual groupings
+// in your project and negatively impact the source order of your code.
+// Refer to http://csswizardry.com/2014/11/when-to-use-extend-when-to-use-a-mixin/ 
 //
 // ==========
 
-// Clearfix
-%cf {
-  @include cf;
-}
-
-// To set list-style to none
-%lsn {
- list-style: none;
-}
-
-// To centre block display elements
-%center {
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-// To replace text with background images. 
-// Source: http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
-%image-replacement {
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-}
-
-// To make element invisible on screen but visible for accessibility
-// Reference from http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-// ==========
-%element-invisible {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-  border: 0;
-}
-
-// Turns off the element-invisible effect.
-%element-visible {
-  position: static;
-  clip: auto;
-  height: auto;
-  width: auto;
-  overflow: auto;
-}

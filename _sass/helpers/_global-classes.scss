@@ -1,9 +1,9 @@
 .element-invisible {
-  @extend %element-invisible;
+  @include element-invisible;
 }
 
 .element-visible {
-  @extend %element-visible;
+  @include element-visible;
 }
 
 .hide {

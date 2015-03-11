@@ -3,7 +3,7 @@
 }
 
 .header-wrapper {
-  @extend %center;
+  @include center;
   max-width: 1140px;
   display: flex;
   align-items: center;
