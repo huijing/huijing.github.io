@@ -17,7 +17,7 @@ I've listened to every single episode of the [seanwes podcast](http://seanwes.co
 
 >You cannot design without content. You design the content. You don’t design websites. You design the content. Lines, boxes, colours, texture *et cetera* are all elements. They are tools with which you design. They are not design themselves. You cannot design without content, therefore it must be a requirement up front. You must have all the content at the start of the project.
 
-There's plenty more good stuff where that came from, so follow [Sean McCabe](https://twitter.com/seanwes), subscribe to his podcast, , sign up for [the community](http://seanwes.com/community/), watch his [daily videos](http://seanwes.com/tv/). Just loads of valuable material.
+There's plenty more good stuff where that came from, so follow [Sean McCabe](https://twitter.com/seanwes), subscribe to his podcast, sign up for [the community](http://seanwes.com/community/), watch his [daily videos](http://seanwes.com/tv/). Just loads of valuable material.
 
 Assuming you've got your hands on all that content, it still has to get onto the site you're building. Now, there are many ways you can do this. You could get someone to manually create each piece of content on the site. If you only have a handful of pages, this isn't a bad option. If you have hundreds of pages of content in almost as many fields, asking someone to do this manually could get you criminally charged for torture.
 
