@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: What I learnt from hours of troubleshooting Feeds"
 date: March 13, 2015
-image: table-flip.jpg
+image: flip-table.jpg
 description: This post will run through the basic feed importers and some key points I learnt from hours upon hours of troubleshooting.
 tags: [css, podcasts]
 tags: [drupal, site-building]
