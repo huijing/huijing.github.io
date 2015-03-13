@@ -23,6 +23,7 @@ There are a myriad of tools and checklists out there that can point you in the r
         <pre><code class="language-markup">drush dis [MODULE_NAME] -y
 drush pm-uninstall [MODULE_NAME] -y</code></pre>
     + If you did remove your module files without disabling them first, AND your website didn't crash, well, you got lucky. But we still have to fix things. [Clean missing modules](https://www.drupal.org/project/clean_missing_modules) provides a drush command to clean up your mess.
+    <img src="{{ site.url }}/images/posts/drupal-performance-2.jpg" alt="Error message WSOD"/>
 
 ###Drupal performance options
 This is available out-of-the-box with any Drupal installation. Go to <code class="language-bash">admin/config/development/performance</code> and you will see these options.
