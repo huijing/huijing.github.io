@@ -12,6 +12,8 @@ Aside from building up the site, I would also have to theme it to look like the 
 
 The extent of my Drupal knowledge was the creation of basic pages and I had no idea what views and content types were for. So if I had to go back in time and explain to my newbie self, I'd tell her to read [this post on content types]({{ site.url }}/blog/drupal-101-content-types/) and [this post on views]({{ site.url }}/blog/drupal-101-intro-to-views/). Once I managed to wrap my head around those concepts, I started building up the site. It seemed straightforward enough at first, a couple of basic pages, and a couple of view listings, pretty standard stuff. Upon closer scrutiny of the requirements and the approved visual design, I quickly learned that NOTHING is ever straightforward.
 
+This was also my first taste of using feeds to import content. Let's just say it was an exercise in patience and persistence. Though I must say, all the time spent wrangling spreadsheets and levelling up my Excel-fu during my previous job came in very handy. I document my extensive feeds experience in [this post]({{ site.url }}/blog/drupal-101-what-i-learnt-from-hours-of-troubleshooting-feeds/).
+
 This site also required [overriding the node template with panels](/placeholder-post.html), [content filtering with facets](/placeholder-post.html) and [a simple image gallery with lightbox](/placeholder-post.html). After all that came the custom theme, which was actually just a sub-theme off of Zen (eventually, I would come to a point when I decided to write my own base theme, but that's for a future post). 
 
 <img src="{{ site.url }}/images/posts/sgcc-before.jpg" alt="SGCC homepage before theming"/>

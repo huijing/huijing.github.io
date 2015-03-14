@@ -21,7 +21,7 @@ gulp.task("comments", function() {
     res.on('end', function() {
       
       // Save the comments for jekyll to use as a data source
-      require('fs').writeFile('./_data/comments.yml', body, function(err) {
+      require('fs').writeFile('./_data/rawcomments.yml', body, function(err) {
         if(err) {
           console.log(err);
         } else {
