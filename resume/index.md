@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resume
+title: Résumé
 ---
 ###Summary
 <ul class="summary">
@@ -38,7 +38,8 @@ I am currently a **Drupal architect** and have worked on a variety of projects w
 <ul class="project-list">
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-that-came-first/">Temple.sg migration</a></li>
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-i-cut-my-teeth-on/">Singapore Gastric Cancer Consortium website revamp</a></li>
-<li class><a href="{{ site.url }}/blog/the-one-where-i-learn-responsive/">Pixel Onion Pte Ltd website</a></li>
+<li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-i-learn-responsive/">Pixel Onion Pte Ltd website</a></li>
+<li><a href="{{ site.url }}/blog/the-one-with-many-iterations/">Redemption Hill Church website</a></li>
 </ul>
 
 **Aristal Solutions Sdn Bhd**  

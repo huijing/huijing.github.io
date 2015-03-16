@@ -4,7 +4,7 @@ title: "The one that came first"
 date: February 09, 2014
 tags: [drupal, projects]
 ---
-My first assignment as a web developer was to style the theme for the Temple University in Singapore website. The original site was built using Drupal, however, the developer had gone AWOL and there was no way to access the source code of the site. 
+My first assignment as a web developer was to style the theme for the [Temple University in Singapore](http://www.temple.sg/) website. The original site was built using Drupal, however, the developer had gone AWOL and there was no way to access the source code of the site. 
 
 My team’s solution to this sticky situation was to clone the HTML of the original site using wGet and use that to rebuild the whole site from scratch using Drupal. My job was to make this replacement site look like the original.
 

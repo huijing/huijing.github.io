@@ -26,7 +26,7 @@ Assuming you've got your hands on all that content, it still has to get onto the
 
 In all seriousness, one of the most commonly used methods to import large amounts of content is with the [Feeds](https://www.drupal.org/project/feeds) module. The [official documentation](https://www.drupal.org/node/622696) for Feeds is very good and comprehensive, but I still ran into some issues when I tried it for the first time (and subsequent times as well, to be honest). 
 
-I attribute it to the complicated data sets I had to work with. Usually, for single value fields, the data import is pretty straight-forward. It's when you have to deal with multi-value fields when things start to get messy. Sometimes you'll find that the trickiest part of getting your feed to import successfully is mostly about massaging the data so it gets read correctly.
+I attribute it to the complicated data sets I had to work with. Usually, for single value fields, the data import is pretty straight-forward. It's when you have to deal with multi-value fields when things start to get messy. Sometimes you'll find that the trickiest part of getting your feed to import successfully is mostly about massaging the data so it gets read correctly. I describe one of my data cleansing adventures [here]({{ site.url }}/blog/the-one-with-many-iterations/#data-cleansing).
 
 <a name="feeds-tips"></a>
 
@@ -141,5 +141,13 @@ Similar to the XML option, you will need to install the [Feeds JSONPath Parser](
     There are many plugins available to help you massage your data into its required format. For this particular use case, I'm using *Set default value* to input the language code *zh-hans*. As a result, all my imported nodes will have their language field set to *zh-hans*.
 
     This is a very specific use case, but it just highlights how useful Feeds Tamper is in getting your import to work properly, given how finicky the importers are about formatting.
+
+###Non-format specific tips
+
+- <p class="no-margin"><strong>Dates and times</strong></p>
+
+    <p class="no-margin">If you're importing dates, make sure the <strong>date format</strong> set on the field settings matches the format from your source. Same goes for time, which essentially uses the same field type anyway. Create a custom date format if you have to.</p>
+
+    <img src="{{ site.url }}/images/posts/feeds-12.jpg" alt="Date field settings"/>
 
 So that's my 50 hours worth of feeds troubleshooting. However, I think my use cases for feeds will continue to increase so there is a high chance of a follow-up post, especially since the parser modules are being upgraded. Well, stay tuned then.

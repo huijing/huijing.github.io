@@ -33,9 +33,9 @@
   }
   &:before {
     content: url('/images/retropc-dynamic.gif');
-    width:0;
-    height:0;
-    visibility:hidden;
+    width: 0;
+    height: 0;
+    visibility: hidden;
   }
   &:hover {
     background: url('/images/retropc-dynamic.gif');
@@ -55,14 +55,12 @@
 .site-nav {
   display: flex;
   width: 100%;
+  margin-top: rhythm(0.5);
   a {
     flex: auto;
     text-align: center;
   }
-  @include respond-above(medium) {
-    margin-top: rhythm(0.5);
-  }
-  @include respond-above(large) {
+  @include respond-above(x-large) {
     margin-top: 0;
   }
 }
