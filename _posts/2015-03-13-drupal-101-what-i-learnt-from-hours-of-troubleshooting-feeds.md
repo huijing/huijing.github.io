@@ -151,3 +151,5 @@ Similar to the XML option, you will need to install the [Feeds JSONPath Parser](
     <img src="{{ site.url }}/images/posts/feeds-12.jpg" alt="Date field settings"/>
 
 So that's my 50 hours worth of feeds troubleshooting. However, I think my use cases for feeds will continue to increase so there is a high chance of a follow-up post, especially since the parser modules are being upgraded. Well, stay tuned then.
+
+<em><small>Credits: OG:image by <a href="http://ghostgirl-shanika.deviantart.com/art/Table-Flip-282912626">Shannon</a></small></em>
