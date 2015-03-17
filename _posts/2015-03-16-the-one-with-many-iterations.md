@@ -2,6 +2,8 @@
 layout: post
 title: "The one with many iterations"
 date: March 16, 2015
+image: project-3.jpg
+description: This time I get to collaborate with another developer and also, continue my adventures with wrangling feeds.
 tags: [drupal, projects]
 ---
 The third project I worked on was a website for the [Redemption Hill Church](http://rhc.org.sg/). The church’s site started out as a HTML site, but as more content was added, they migrated to Wordpress a few years back. However, as the site continued to grow, it became apparent that the current structure was sub-optimal in terms of organising the various new content types the site had.

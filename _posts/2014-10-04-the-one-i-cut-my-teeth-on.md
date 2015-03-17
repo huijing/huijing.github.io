@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "The one I cut my teeth on"
+image: project-2.jpg
+description: The first project counted as a warmup, but this is the real thing. My first solo flight covered everything from site functionality to custom theme. Baby steps, people.
 date: October 04, 2014
 tags: [drupal, projects]
 ---

@@ -2,6 +2,8 @@
 layout: post
 title: "The one that came first"
 date: February 09, 2014
+image: project-1.jpg
+description: There's always a first time and this was it. The first assignment as a gainfully employed web developer. We all need to crawl before we can walk.
 tags: [drupal, projects]
 ---
 My first assignment as a web developer was to style the theme for the [Temple University in Singapore](http://www.temple.sg/) website. The original site was built using Drupal, however, the developer had gone AWOL and there was no way to access the source code of the site. 
