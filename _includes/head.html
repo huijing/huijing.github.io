@@ -18,9 +18,13 @@
   {% else %}
     <meta content="website" property="og:type">
   {% endif %}
-  {% if page.description %}
+  {% if page.is_post %}
+    {% if page.description %}
     <meta content="{{ page.description }}" property="og:description">
-  {% else %}
+    {% else %}
+    <meta content="{{ page.content | strip_html | truncatewords:20}}" property="og:description">
+    {% endif %}
+    {% else %}
     <meta content="{{ site.description }}" property="og:description">
   {% endif %}
   {% if page.url %}
