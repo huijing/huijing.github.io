@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 ###So who are you?
+<img src="{{ site.url }}/images/headshot.jpg" alt="Profile image" class="profile-image"/>
+
 My name is Chen Hui Jing. I first dipped my toe into the waters of web development when I built my first HTML website in 2008 for the Malaysia Basketball Association. 
 
 From there, I discovered the existence of content management systems and migrated the site over to Drupal. I stopped working on the site a year later and put my web development journey on hold (the original site no longer exists either). 
