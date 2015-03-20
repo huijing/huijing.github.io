@@ -1,4 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+scss+bash+git+markdown */
+/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+php+scss+bash+git+markdown */
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -9,7 +9,7 @@ code[class*="language-"],
 pre[class*="language-"] {
   color: #f8f8f2;
   text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  font-family: "Droid Sans Mono", "Lucida Console", Monaco, "Courier New", Courier, monospace;;
+  font-family: "Droid Sans Mono", "Lucida Console", Monaco, "Courier New", Courier, monospace;
   direction: ltr;
   text-align: left;
   white-space: pre;

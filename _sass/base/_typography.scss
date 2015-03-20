@@ -121,6 +121,15 @@ ol {
       font-weight: bold;
     }
   }
+  ul {
+    li {
+      list-style: disc;
+      &:before {
+        counter-increment: none;
+        content: '';
+      }
+    }
+  }
 }
 
 ul {
