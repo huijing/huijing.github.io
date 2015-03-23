@@ -21,34 +21,34 @@ There is extensive coverage on the basics of installation and setting up [here](
 
 ###Slideshow view display setup
 1. Start off by creating a View for the Slide content type.
-<img src="{{ site.url }}/images/posts/view-slideshow.jpg" alt="Create slide view"/>
+<img src="{{ site.url }}/images/posts/image-carousel/view-slideshow.jpg" alt="Create slide view"/>
 
     Choose block for the view display and set the display format to Slideshow of fields. Unless you need a title for the slideshow, set the block title to &lt;none&gt;.
 2. By default, only the title field will be displayed at first. Since we want this to be an image carousel, let's add the image field to the display. Adjust the settings as you see fit.
-<img src="{{ site.url }}/images/posts/view-slideshow-2.jpg" alt="Add image field"/>
+<img src="{{ site.url }}/images/posts/image-carousel/view-slideshow-2.jpg" alt="Add image field"/>
 3. Add the Nid field to the display as well. We'll be styling this field to become the dot pager. Check Exclude from display so no random numbers will show up on our slideshow. While you're at it, do the same for the title field as well.
-<img src="{{ site.url }}/images/posts/view-slideshow-3.jpg" alt="Add Nid field"/>
+<img src="{{ site.url }}/images/posts/image-carousel/view-slideshow-3.jpg" alt="Add Nid field"/>
 4. Now we have enough fields to tweak the Slideshow settings. Under FORMAT, you should see Format: Slideshow &#124; Settings. Click on Settings.
 5. There are a lot of options available here. We'll just take the default settings for Row classes, Style and Slides. Unless you installed extra plugins, the only Slideshow Type you'll have is Cycle anyway.
 6. Under Cycle options, you can specify the transition effect as well as any interactions for the slideshow. The defaults work fine here too.
 7. Scroll further down till you get to the Bottom Widgets.
-<img src="{{ site.url }}/images/posts/view-slideshow-4.jpg" alt="Bottom widgets"/>
+<img src="{{ site.url }}/images/posts/image-carousel/view-slideshow-4.jpg" alt="Bottom widgets"/>
 
     Check the Pager option, then select Fields as the Pager Type. Check Content: Nid as the field to use (that's why we added this field in the first place). Check the Activate Slide and Pause on Pager Hover as well.
 8. You should see something like this. And to test the pager function, hover over the numbers. The slides should change accordingly.
-<img src="{{ site.url }}/images/posts/view-slideshow-8.jpg" alt="Pager unstyled"/>
+<img src="{{ site.url }}/images/posts/image-carousel/view-slideshow-8.jpg" alt="Pager unstyled"/>
 Now we're done with the Views portion. On to the CSS!
 
 ###Styling the dot pager
 Before we begin, you must brace yourself for markup with levels of nesting so deep it would put Inception to shame. Yes, we can do something about it, but that's for another article. So for now, defaults it is. Channel your inner Christopher Nolan, my friends.
 
 1. Go to wherever you chose to render your newly created Slideshow views block and right-click the Nid pager to inspect element.
-<img src="{{ site.url }}/images/posts/view-slideshow-5.jpg" alt="Views slideshow source"/>
+<img src="{{ site.url }}/images/posts/image-carousel/view-slideshow-5.jpg" alt="Views slideshow source"/>
 2. Depending on what you named your view, the div id for your block will render accordingly. Mine is <code class="language-markup">&lt;div id="block-views-slide-carousel&gt;</code>. This is the id for the entire carousel block.
 3. Locate the controls div by working your way up from the highlighted Nid pager div. The default class is <code class="language-markup">&lt;div class="views-slideshow-controls-bottom&gt;</code>
-<img src="{{ site.url }}/images/posts/view-slideshow-6.jpg" alt="Views slideshow controls bottom source"/>
+<img src="{{ site.url }}/images/posts/image-carousel/view-slideshow-6.jpg" alt="Views slideshow controls bottom source"/>
 4. The class for each individual pager is <code class="language-markup">&lt;div class="views-slideshow-pager-field-item&gt;</code>
-<img src="{{ site.url }}/images/posts/view-slideshow-7.jpg" alt="Views slideshow pager field source"/>
+<img src="{{ site.url }}/images/posts/image-carousel/view-slideshow-7.jpg" alt="Views slideshow pager field source"/>
 5. Let's replace the Nid numerals with a nice dot pager. I use the Kellum Method for image replacement, and strongly encourage you to read [Replacing the -9999PX hack](http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/) by [Jeffrey Zeldman](https://twitter.com/zeldman) to learn exactly how it works.
     <pre><code class="language-css">
 .views-slideshow-pager-field-item {
@@ -92,6 +92,6 @@ Before we begin, you must brace yourself for markup with levels of nesting so de
      bottom: 15px;
 }
 8. Now you should see something like this:
-<img src="{{ site.url }}/images/posts/view-slideshow-9.jpg" alt="Pager styled"/>
+<img src="{{ site.url }}/images/posts/image-carousel/view-slideshow-9.jpg" alt="Pager styled"/>
 
 Okay, so maybe this isn't as simple as I thought it would be. But hopefully this post can help you wrap your head around creating your own image carousel using Views slideshow.

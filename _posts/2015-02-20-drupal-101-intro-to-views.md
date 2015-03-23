@@ -28,22 +28,22 @@ drush en views views_ui -y
 This will install and enable all the required modules, including CTools, for you automatically.
 
 Go to the Views administration page and you will see a list of Views that come out of the box with the module. They will all be greyed out as they are disabled by default. The only one that I actually use is Taxonomy Term but most of the time I create my own Views. 
-<img src="{{ site.url }}/images/posts/views-admin.jpg" alt="Views admin"/>
+<img src="{{ site.url }}/images/posts/views-intro/views-admin.jpg" alt="Views admin"/>
 
 The settings tab provides some options that you can customise based on your preferences. If you have a lot of views, turning on the filters could help you find your view more easily. You can also change the admin theme of the Views UI. For those of you familiar with SQL, you may want to check Show the SQL query, under Live preview settings, for easier debugging of your view displays.
 
 Here's some terminology to get straight. A view is the selected content you pull from your database. Once you create a view, you can choose how to present this content through a variety of displays. We'll call them view displays.
-<img src="{{ site.url }}/images/posts/views-diagram.jpg" alt="Views diagram"/>
+<img src="{{ site.url }}/images/posts/views-intro/views-diagram.jpg" alt="Views diagram"/>
 
 Clicking on &#10133; Add new view will take you to the View creation wizard. It's sort of a simplified version of the main Views editor. Here you can enter the name of your view and its description. For me, I tend to create views for each content type, as that's how I structure my site data. But regardless, it's always advisable to name your views in an understandable manner. It also helps to fill in the description to supplement your name. There are also basic filters you can apply. 
-<img src="{{ site.url }}/images/posts/views-wizard.jpg" alt="Views wizard"/>
+<img src="{{ site.url }}/images/posts/views-intro/views-wizard.jpg" alt="Views wizard"/>
 
 Remember when I said Drupal stores all your content in a database? Well, a database is made up of lots of tables, so the Show drop-down lets you choose which base table your view will filter from.  The most commonly used option will be Content, which are your nodes. I have also used Taxonomy terms and Users quite often, less so for the others. Depending on which base table you chose, there will be more settings and options you can choose.
 
 You can also choose to create a page or a block right off the bat and be done with it by clicking Save & exit. But odds are, you need to do some more to get the view looking exactly how you want it. So go ahead and click Continue & edit to get to the big boy editor.
 
 If you did not choose page or block from the wizard, you'll arrive at this screen, with Master* as the selected view display. This simply means that anything you set here, will be the default settings for any new displays created. And once you create a view display, unless you changed the settings, the Master panel will not be displayed anymore.
-<img src="{{ site.url }}/images/posts/views-master.jpg" alt="Views master display"/>
+<img src="{{ site.url }}/images/posts/views-intro/views-master.jpg" alt="Views master display"/>
 
 You get 4 types of view displays out of the box:
 

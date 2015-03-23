@@ -6,7 +6,8 @@ image: project-4.jpg
 description: You really can't be serious about building websites these days they're not optimised for mobile so it was high time I grok-ed the key concepts of responsive design. 
 tags: [drupal, projects]
 ---
-The [Pixel Onion](http://pixelonion.com/) website was a project that had languished in a corner for months. The team had been swamped with client project after client project, but this was fast becoming ridiculous. It is simply unbecoming for a web agency not to have their own website up and running. We made a decision to whip up a simple website, built on Drupal (obviously), to be launched by Valentine’s Day 2014. 
+The [Pixel Onion](http://pixelonion.com/) website was a project that had languished in a corner for months. The team had been swamped with client project after client project, but this was fast becoming ridiculous. It is simply unbecoming for a web agency not to have their own website up and running. We made a decision to whip up a simple website, built on Drupal (obviously), to be launched by Valentine’s Day 2014.
+
 <img src="{{ site.url }}/images/posts/pixel-onion.jpg" alt="Pixel Onion homepage"/>
 
 It took us about an hour to come with the information architecture of the site, as well as the general structure and content of the site. After working on consecutive projects involving a slew of tiresome back-and-forths with clients (an inevitable part of EVERY job, might I add), this personal project of ours was a breath of fresh air. 

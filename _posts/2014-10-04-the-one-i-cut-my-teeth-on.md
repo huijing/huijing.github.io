@@ -8,6 +8,8 @@ tags: [drupal, projects]
 ---
 My next assignment was to build a new website for the [Singapore Gastric Cancer Consortium](http://www.sgcc.sg). Their original site was static HTML site built years ago, with a design that was dated. As a research facility, they also had a large library of publications that they wanted users to be able to search through. The site was completely redesigned and rebuilt from scratch on the Drupal 7 platform, and this would be my first end-to-end development project.
 
+<img src="{{ site.url }}/images/posts/sgcc.jpg" alt="SGCC website"/>
+
 Technically I had built sites on Drupal before, but given that was more than five years ago with nothing done since, I consider that experience moot. I had to relearn how to set up a Drupal site from scratch. The way I remember doing it was downloading the zip file from drupal.org, extracting it’s contents and pointing my WampServer to that folder. But now that I’m doing this as a profession, I learnt to do it via Git, which is a version control system that I managed to develop a love-hate relationship with (refer to [The epic git bomb]({{ site.url }}/blog/the-epic-git-bomb/)).
 
 Aside from building up the site, I would also have to theme it to look like the new design that our web designer came up with. So the go-to starter theme template that was suggested to me was the [Zen theme](https://drupal.org/project/zen). It honestly felt like jumping straight into the deep end, but that's the best way to learn fast, right?
@@ -18,11 +20,9 @@ This was also my first taste of using feeds to import content. Let's just say it
 
 This site also required [overriding the node template with panels](/placeholder-post.html), [content filtering with facets](/placeholder-post.html) and [a simple image gallery with lightbox](/placeholder-post.html). After all that came the custom theme, which was actually just a sub-theme off of Zen (eventually, I would come to a point when I decided to write my own base theme, but that's for a future post). 
 
-<img src="{{ site.url }}/images/posts/sgcc-before.jpg" alt="SGCC homepage before theming"/>
+<img src="{{ site.url }}/images/posts/sgcc-ba.jpg" alt="SGCC homepage after theming"/>
 
 I was not one of the golden generation of web developers who started out coding websites on Geocities, and I totally missed the table-based layout phase, so pardon my noob-ness when I say the best part of this project was seeing the un-themed site transform into the comp from my designer, except it's ALIVE! 
-
-<img src="{{ site.url }}/images/posts/sgcc-after.jpg" alt="SGCC homepage after theming"/>
 
 Another small step forward through the world of web development. I shall now end off with the cliche of a random quote by a famous person:
 

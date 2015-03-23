@@ -15,17 +15,17 @@ Before CSS shapes came along, we were more or less locked into standard layouts 
 <div class="figure-wrapper">
 <figure class="two-col">
 <figcaption>You want this?</figcaption>
-<img src="{{ site.url }}/images/posts/magazine-layout.jpg" alt="Magazine layout"/>
+<img src="{{ site.url }}/images/posts/css-shapes/magazine-layout.jpg" alt="Magazine layout"/>
 </figure>
 <figure class="two-col">
 <figcaption>Sorry, you get this.</figcaption>
-<img src="{{ site.url }}/images/posts/web-layout.jpg" alt="Web layout"/>
+<img src="{{ site.url }}/images/posts/css-shapes/web-layout.jpg" alt="Web layout"/>
 </figure>
 </div>
 
 CSS shapes is being developed by the [Adobe Web Platform team](http://blogs.adobe.com/webplatform/) and they have [blogged](http://blogs.adobe.com/webplatform/category/features/css-shapes) about how this spec has been developing since 2012. Check out the cool demo the team built, based on [Alice in Wonderland](http://webplatform.adobe.com/Demo-for-Alice-s-Adventures-in-Wonderland/), to showcase CSS shapes' capabilities. Point is, with CSS shapes, it's totally possible to have text wrap around Beyoncé's elbow.
 
-<img class="shape" src="{{ site.url }}/images/posts/beyonce.png" alt="Beyoncé"/>
+<img class="shape" src="{{ site.url }}/images/posts/css-shapes/beyonce.png" alt="Beyoncé"/>
 To be honest, the W3C spec is not that easy to understand, so here's my attempt at explaining it in plain English. A prerequisite for applying a CSS shape property to an element is that the element must be floated. It doesn't work on non-floated elements.
 
 If the browser you're using right now supports CSS shapes, you should see text wrapping nicely around the image of Beyoncé, otherwise you'll just see the standard rectangular column of text. (Hint: Try using Chrome or Safari)
@@ -52,7 +52,7 @@ For now, text can only flow on the opposite side of the float declared on the el
 - <code class="language-css">shape-inside</code> which wraps text inside a shape. This goes with the <code class="language-css">shape-padding</code> property. (This property has been deferred to [CSS shapes module level 2](http://dev.w3.org/csswg/css-shapes-2/))
 
 ###The circle() function
-<img src="{{ site.url }}/images/posts/circle-example.jpg" alt="CSS shapes circle example"/>
+<img src="{{ site.url }}/images/posts/css-shapes/circle-example.jpg" alt="CSS shapes circle example"/>
 <pre><code class="language-css">
 .circle {
   /* general styles for the div*/
@@ -80,10 +80,10 @@ The <code class="language-css">position</code> is represented by a pair of x and
 
 CSS shapes is one of those properties that won't totally break your layout if someone is viewing it on an unsupported browser. It just falls back onto the usual rectangular column most people are already used to anyway. 
 
-<img src="{{ site.url }}/images/posts/circle-example-fallback.jpg" alt="CSS shapes circle fallback example"/>
+<img src="{{ site.url }}/images/posts/css-shapes/circle-example-fallback.jpg" alt="CSS shapes circle fallback example"/>
 
 ###The ellipse() function
-<img src="{{ site.url }}/images/posts/ellipse-example.jpg" alt="CSS shapes ellipse example"/>
+<img src="{{ site.url }}/images/posts/css-shapes/ellipse-example.jpg" alt="CSS shapes ellipse example"/>
 <pre><code class="language-css">
 .ellipse {
   width: 100px;
@@ -103,7 +103,7 @@ Notice the 2 behind shape-radius? This just means the function takes in 2 variab
 The position variable also behaves like the circle() function, and the coordinates default to (0, 0), the centre of the ellipse.
 
 ###The inset() function
-<img src="{{ site.url }}/images/posts/inset-example.jpg" alt="CSS shapes inset example"/>
+<img src="{{ site.url }}/images/posts/css-shapes/inset-example.jpg" alt="CSS shapes inset example"/>
 <pre><code class="language-css">
 .inset {
   width: 200px;
@@ -123,17 +123,17 @@ The <code class="language-css">shape-arg</code> takes in variables the way we wr
 <div class="figure-wrapper">
 <figure class="two-col">
 <figcaption>When <code class="language-css">shape-arg</code> is set to 0px</figcaption>
-<img src="{{ site.url }}/images/posts/inset-example-2.jpg" alt="CSS shapes inset example 2"/>
+<img src="{{ site.url }}/images/posts/css-shapes/inset-example-2.jpg" alt="CSS shapes inset example 2"/>
 </figure>
 <figure class="two-col">
 <figcaption>When <code class="language-css">shape-arg</code> is set to 15px</figcaption>
-<img src="{{ site.url }}/images/posts/inset-example-3.jpg" alt="CSS shapes inset example 3"/>
+<img src="{{ site.url }}/images/posts/css-shapes/inset-example-3.jpg" alt="CSS shapes inset example 3"/>
 </figure>
 </div>
 The optional parameter here is <code class="language-css">border-radius</code>, which allows you to create rectangles with rounded corners and flow your text along those rounded corners. Personally, I think the border-radius property is what makes the inset() function useful at all since we can already make text flow around normal rectangles, but that's just me.
 
 ###The polygon() function
-<img src="{{ site.url }}/images/posts/polygon-example.jpg" alt="CSS shapes polygon example"/>
+<img src="{{ site.url }}/images/posts/css-shapes/polygon-example.jpg" alt="CSS shapes polygon example"/>
 <pre><code class="language-css">
 .polygon {
   width: 200px;
@@ -158,7 +158,7 @@ It may be pretty straightforward to create a standard shape like the triangle in
 
 CSS shapes has been available for Chrome since the 37 release, while Safari support came along at 7.1. Here's a look at the browser support for CSS shapes as of time of writing:
 
-<img src="{{ site.url }}/images/posts/css-shapes.jpg" alt="Can I use CSS shapes"/>
+<img src="{{ site.url }}/images/posts/css-shapes/css-shapes.jpg" alt="Can I use CSS shapes"/>
 
 The unfortunate thing is, neither Firefox nor Internet Explorer supports CSS shapes right now. But this is a feature that we should all keep an eye on, and get ourselves ready for, because this could potentially change the way we design websites altogether.
 
