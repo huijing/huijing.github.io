@@ -5,7 +5,7 @@ date: March 23, 2015
 image: project-5.jpg
 tags: [drupal, projects]
 ---
-As awesome as Drupal is, you may be surprised to find that over in my part of the world, there are still people who are in the dark about that fact. Hence, it is our duty as Drupalists to help bolster the community and spread the word about Drupal. What better way to do that than through DrupalCamp? My company was organising [DrupalCamp Singapore 2014](http://www.drupalcamp.sg/), thus my next project was building the event website.
+As awesome as Drupal is, you may be surprised to find that over in my part of the world, there are still people who are in the dark about that fact. Hence, it is our duty as Drupalists to help bolster the community and spread the word about Drupal. What better way to do that than through DrupalCamp? My company was the organiser for [DrupalCamp Singapore 2014](http://www.drupalcamp.sg/), thus my next project was building the event website.
 
 <img src="{{ site.url }}/images/posts/dcsg.jpg" alt="DrupalCamp Singapore 2014 website"/>
 
