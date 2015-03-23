@@ -2,6 +2,7 @@
 layout: post
 title: "Drupal 101: Basic site optimisations"
 date: March 1, 2015
+image: site-optim.jpg
 tags: [drupal, performance]
 category: planet-drupal
 ---
