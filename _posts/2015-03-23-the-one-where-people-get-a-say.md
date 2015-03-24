@@ -15,9 +15,9 @@ Regardless of functionality, the website itself needed to be live so people woul
 
 With the homepage up and running, I went on a mad scramble to build out the rest of the site because lead time was required for people to submit talks as well as vote on them. After some googling (I honestly don't know what I would do without Google), I settled on using the [Flag](https://www.drupal.org/project/flag) module to handle voting.
 
-There was a pretty good number of talks submitted, so the event was split into two tracks: Technical and Business. As the site was responsive, we had to take into consideration how the schedule would look on a small screen. We considered displaying both tracks stacked on top of one another, but resulted in a very long page on mobile.
+There was a pretty good number of talks submitted, so the event was split into two tracks: Technical and Business. As the site was responsive, our team had to take into consideration how the schedule would look on a small screen. We considered displaying both tracks stacked on top of one another, but resulted in a very long page on mobile.
 
-In the end, we settled on using [Quicktabs](https://www.drupal.org/project/quicktabs) so users could easily switch between schedules for both tracks on the same page. Quicktabs works reasonably well on simple implementations like this one, but more complex use-cases requiring multiple Quicktabs instances on the same page tends to get buggy.
+In the end, I decided to implement a solution with [Quicktabs](https://www.drupal.org/project/quicktabs) so users could easily switch between schedules for both tracks on the same page. Quicktabs works reasonably well on simple implementations like this one, but more complex use-cases requiring multiple Quicktabs instances on the same page tends to get buggy.
 
 Regardless, the website achieved its intended purpose and DrupalCamp Singapore 2014 proceeded quite smoothly with quite a reasonable turnout.
 
