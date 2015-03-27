@@ -28,6 +28,9 @@
 - slug: projects
   name: Projects
 
+- slug: retrospective
+  name: Retrospective
+
 - slug: server-side
   name: Server side
 
