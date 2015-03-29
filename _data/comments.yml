@@ -1,4 +1,19 @@
 sessions:
+- _id: NTQ0MzE=
+  _replyto: kakyou_tensai@yahoo.com
+  comment: "Hey, thanks for reading. I was kinda expecting people to ask why this site isn't on Drupal. But I feel that using Drupal for a simple blog is like using a Tsar Bomba to nuke a rat :p"
+  created: 2015-03-29 04:24:41.479170+00:00
+  name: Chen Hui Jing
+  path: http://www.chenhuijing.com/blog/542-days-as-a-drupal-developer/
+  url: ''
+- _id: NTM4MTY=
+  _replyto: tolga@ozses.net
+  comment: "Hi, This post was sooo inspirational (and no, this is not spam). Keep up the good work dude :) As you being a Drupal developer, I would expect this website to be based on Drupal, but hey, this is not a perfect world :)"
+  created: 2015-03-28 12:17:37.956217+00:00
+  name: Kartagis
+  path: http://www.chenhuijing.com/blog/542-days-as-a-drupal-developer/
+  url: ''
+sessions:
 - _id: NDcxOTg=
   _replyto: kakyou_tensai@yahoo.com
   comment: Thank you for your kind words. I hope this will save other feeds users some troubleshooting time.
