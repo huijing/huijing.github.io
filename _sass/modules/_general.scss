@@ -3,6 +3,11 @@ body {
   min-width: 320px;
 }
 
+img {
+  @include center;
+  display: block;
+}
+
 .icon {
   > svg {
     display: inline-block;
@@ -33,6 +38,12 @@ body {
       fill: color(mineshaft);
     }
   }
+}
+
+.emoji {
+  height: 32px;
+  width: 32px;
+  display: inline;
 }
 
 .message-wrapper {

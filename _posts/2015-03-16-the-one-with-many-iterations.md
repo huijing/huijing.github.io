@@ -12,7 +12,7 @@ And that's where we came in. By the time I joined the company, the design work h
 
 In retrospect, we made a number of *\*gasp\** assumptions with regards to how the content would behave. There were a couple of issues that we ought to have pre-empted and a couple more that could have been avoided with better communication. But you live, you learn.
 
-<img src="{{ site.url }}/images/posts/rhc.jpg" alt="Redemption Hill Church homepage"/>
+<img src="{{ site.url }}/images/posts/rhc/rhc.jpg" alt="Redemption Hill Church homepage"/>
 
 After getting my feet wet with the previous two projects, I felt more at ease with Drupal at this point. Although I'd been flying solo up till then, this time, I'd be working with another developer, [Zell Liew](http://zell-weekeat.com/) (this is the origin story of how we became good friends). I would build the site with all its functionality, and Zell would make it look pretty. Zell is essentially the Susy guy, I mean, he did write [a book](http://zell-weekeat.com/learnsusy/) about it. You really should check it out.
 
@@ -58,7 +58,7 @@ $('.views-widget-filter-field_date_value_2, .views-widget-filter-field_date_valu
 The data for these sermons were on the old Wordpress site. In a single body field. So I copied this list from the browser into an Excel spreadsheet and applied my Excel-fu to the data. Did I mention I love Excel? Not spreadsheets, but the program Excel. Oh, never mind.
 
 The data actually ported quite neatly into the spreadsheet.
-<img src="{{ site.url }}/images/posts/rhc-2.jpg" alt="Raw data"/>
+<img src="{{ site.url }}/images/posts/rhc/rhc-2.jpg" alt="Raw data"/>
 
 I needed to massage this into a CSV file that the feeds importer would recognise hence generate all my sermons CORRECTLY. Fun fact, when I started testing my importer, my NID count was in the low teens, something like 14. When I finally got the importer to work correctly, I was in the four thousands. Oh, all those deleted nodes.
 
@@ -81,7 +81,7 @@ Next</code></pre>
     I used the INDEX() function for this, referencing from [Excel Forum](http://www.excelforum.com/excel-formulas-and-functions/947088-transpose-every-5-cells-in-column-a-to-indidual-rows-in-column-b.html). Please excuse the highlighting, turns out there's no highlighter for Excel.
 3. <p class="no-margin"><strong>Adjust data as necessary</strong></p>
     The data wasn't as clean as I expected and there were a handful of sermons that had more or less than five rows. Because it was a manageable number, I did this adjustment manually to get all the data into the correct columns.
-    <img src="{{ site.url }}/images/posts/rhc-3.jpg" alt="Transpose data"/>
+    <img src="{{ site.url }}/images/posts/rhc/rhc-3.jpg" alt="Transpose data"/>
 4. The first column ended up with 2 different fields, thankfully with a delimiter (or separator, if that's what you want to call it). The *Text to Columns* function comes in very handy here. It can be found under *Data* in the toolbar, and provides a wizard to guide you through the process.
 5. <p class="no-margin">Depending on your use-case, you may or may not need to remove line breaks from your data. Insert a blank column next to the cells that need cleaning, use this formula and drag down the column as required:</p>
     <pre><code class="language-bash">=SUBSTITUTE(A1,CHAR(13)," ")</code></pre>

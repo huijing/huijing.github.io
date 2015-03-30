@@ -7,7 +7,7 @@ tags: [drupal, projects]
 ---
 As awesome as Drupal is, you may be surprised to find that over in my part of the world, there are still people who are in the dark about that fact. Hence, it is our duty as Drupalists to help bolster the community and spread the word about Drupal. What better way to do that than through DrupalCamp? My company was the organiser for [DrupalCamp Singapore 2014](http://www.drupalcamp.sg/), thus my next project was building the event website.
 
-<img src="{{ site.url }}/images/posts/dcsg.jpg" alt="DrupalCamp Singapore 2014 website"/>
+<img src="{{ site.url }}/images/posts/dcsg/dcsg.jpg" alt="DrupalCamp Singapore 2014 website"/>
 
 The format for talks at this DrupalCamp was different from years past. The plan was to put out a call for speakers to submit their talks, then let the attendees vote on the topics. There were less than two months before the start of the event, so the website had to be up as soon as possible. I took a quick look at the [Conference Organizing Distribution (COD)](https://groups.drupal.org/conference-organizing-distribution) but it seemed too heavy for our needs and made the decision to build the site from scratch with a vanilla Drupal 7 install.
 
