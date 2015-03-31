@@ -47,3 +47,4 @@ Although I was able to force push these changes up to my remote repository, the 
 
 Luckily for me, this entire episode was contained between my local machine and the repository, as nobody had pulled anything since the unwanted folder was committed. As such, all they had to do was to change their remote origin to point to my new clean repository. Doing a git pull updates the files as normal, sans any trace of this incident which I now refer to as "The Epic Git Bomb". 
 
+<em><small>Credits: OG:image from <a href="http://en.wikipedia.org/wiki/Nuclear_explosion#/media/File:Operation_Upshot-Knothole_-_Badger_001.jpg">the National Nuclear Security Administration Nevada Site Office Photo Library </a></small></em>

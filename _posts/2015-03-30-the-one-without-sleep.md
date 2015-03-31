@@ -2,6 +2,7 @@
 layout: post
 title: "The one without sleep"
 date: March 30, 2015
+image: project-6.jpg
 tags: [drupal, projects, hackathon]
 category: planet-drupal
 ---

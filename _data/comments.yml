@@ -1,4 +1,45 @@
 sessions:
+- _id: NTY0OTc=
+  _replyto: kakyou_tensai@yahoo.com
+  comment: Hello Rik! Thanks for taking the time to read my post and comment. I&#39;m
+    so glad you created the IP Geolocation module. It&#39;s really good and user friendly.
+    I&#39;m currently writing a post about how I set up my proximity search locator
+    using IP Geolocation and Leaflet. Also, thanks in advance for taking charge of
+    the Drupal 8 port for Leaflet, I really appreciate the work you&#39;re doing.
+    :)
+  created: 2015-03-31 12:38:20.698401+00:00
+  name: Chen Hui Jing
+  path: http://www.chenhuijing.com/blog/the-one-without-sleep/
+  url: ''
+- _id: NTY0OTY=
+  _replyto: kakyou_tensai@yahoo.com
+  comment: Content types come out of the box with Drupal. You can add content types
+    by navigating to admin/structure/types/add on your Drupal site.
+  created: 2015-03-31 12:37:16.017020+00:00
+  name: Chen Hui Jing
+  path: http://www.chenhuijing.com/blog/drupal-101-content-types/
+  url: ''
+- _id: NTY0MDM=
+  _replyto: rik@flink.com.au
+  comment: "Thank you for telling about your experience at Battlehack -- I&#39;ve\
+    \ got the T-shirt and almost made it to the one in Australia ... maybe next year.\r\
+    \nSo pleased to see that you used Leaflet and my module, IP Geolocation Views\
+    \ &amp; Maps, http://drupal.org/project/ip_geoloc, to great effect and in such\
+    \ a short time frame.\r\nThanks too for mentioning Talking Drupal, http://www.talkingdrupal.com,\
+    \ must check them out -- looks like they&#39;re talking about the right things!\r\
+    \nRik\r\n\r\n\r\n"
+  created: 2015-03-31 09:49:44.515295+00:00
+  name: RdeBoer
+  path: http://www.chenhuijing.com/blog/the-one-without-sleep/
+  url: http://flink.com.au
+- _id: NTYzODk=
+  _replyto: info.zoplay@gmail.com
+  comment: 'How to create a custom content type in Drupal 101? what modules do you
+    recommend? Which do you install first? '
+  created: 2015-03-31 09:33:45.303141+00:00
+  name: Zoplay
+  path: http://www.chenhuijing.com/blog/drupal-101-content-types/
+  url: http://www.Zoplay.com
 - _id: NTYwMzI=
   _replyto: kakyou_tensai@yahoo.com
   comment: Hi Dennis, appreciate you taking the time to leave a comment. I&#39;ve
