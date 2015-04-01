@@ -154,12 +154,24 @@ p {
 
 a {
   text-decoration: none;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
   color: color(apple);
-  border-bottom: 1px dashed color(apple);
   transition: all 0.15s linear;
+  &:after {
+    content:'';
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 1px dashed color(apple);
+  }
   &:hover {
     color: darken(color(apple), 20%);
-    border-bottom: 1px solid color(apple);
+  }
+  &:hover:after {
+    border-bottom: 1px solid darken(color(apple), 20%);
   }
 }
 
