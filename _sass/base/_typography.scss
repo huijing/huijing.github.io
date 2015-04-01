@@ -199,7 +199,8 @@ a {
 
 .post-meta,
 .post-tag,
-.rss-subscribe {
+.rss-subscribe,
+.comment {
   @include responsive-text-size(deci);
 }
 
