@@ -1,4 +1,23 @@
 sessions:
+- _id: NTY4MDE=
+  _replyto: rik@flink.com.au
+  comment: "This is a wonderful tutorial, made so clear and easy with all the screenshots\
+    \ too. Not only does it introduce the reader to the state of the art in map technology\
+    \ optimised for mobile (hence Leaflet, rather than Google or Openlayers), it also\
+    \ nicely ties in other modules that should be part of every site builder&#39;s\
+    \ repertoire, such as Display Suite and Feeds.\r\nGreat work! I&#39;ve added a\
+    \ link to the IP Geolocation Views &amp; Maps, http://drupal.org/project/ip_geoloc\
+    \ project page.\r\nAs a couple of options for those who want to take it even further,\
+    \ I would recommend form some high-impact, low-hanging fruit the following:\r\n\
+    o you can configure the Geofield distance calculation to be relative to the visitor&#39;s\
+    \ location, as well as an address\r\no you can enable the Leaflet More Maps module\
+    \ to instantly add 20+ available maps to just the one available through Leaflet\
+    \ -- includes Bing and Google high-res\r\no you can add beautiful animated marker\
+    \ clustering with the Leaflet Markercluster module\r\n"
+  created: 2015-03-31 20:26:03.731141+00:00
+  name: RdeBoer
+  path: http://www.chenhuijing.com/blog/drupal-101-mapping-with-leaflet-and-ipgeoloc/
+  url: http://flink.com.au
 - _id: NTY0OTc=
   _replyto: kakyou_tensai@yahoo.com
   comment: Hello Rik! Thanks for taking the time to read my post and comment. I&#39;m

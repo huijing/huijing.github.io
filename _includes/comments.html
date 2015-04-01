@@ -10,7 +10,7 @@
       <li class="no-margin">
         <time datetime="{{ comment.created | date_to_xmlschema }}" class="post-meta">{{ comment.created | date_to_long_string  }}</time>
         {% if comment.url != "" %}
-          <a href="http://{{ comment.url }}" class="commenter">{{ comment.name }}</a>
+          <a href="http://{{ comment.url }}" class="commenter post-meta"><strong>{{ comment.name }}</strong></a>
         {% else %}
           <span class="commenter english-walnut post-meta"><strong>{{ comment.name }}</strong></span>
         {% endif %}
