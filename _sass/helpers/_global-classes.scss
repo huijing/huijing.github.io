@@ -14,11 +14,11 @@
   margin-bottom: 0;
 }
 
-.no-underline {
+a.no-underline:after {
   border: none;
-  &:hover {
-    border: none;
-  }
+}
+a.no-underline:hover:after {
+  border: none;
 }
 
 .no-list-style {
