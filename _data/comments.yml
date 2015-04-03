@@ -1,4 +1,28 @@
 sessions:
+- _id: NTg2OTk=
+  _replyto: kakyou_tensai@yahoo.com
+  comment: Hello Ricardo, thanks for taking the time to read my blog posts. I feel
+    the same as you, that there is so much more that I don&#39;t know about Drupal.
+    I&#39;m also learning as I write more blog posts and I hope my posts will continue
+    to provide value to you. Are there Drupal meetups near where you live? It helps
+    to chat with more experienced Drupal developers too :)
+  created: 2015-04-03 01:08:29.247423+00:00
+  name: Chen Hui Jing
+  path: http://www.chenhuijing.com/blog/542-days-as-a-drupal-developer/
+  url: ''
+- _id: NTgxNTQ=
+  _replyto: cornelyus7@hotmail.com
+  comment: "I found your blog from the leaflet and ip geo loc post, and ended up reading\
+    \ a lot of posts! This one i really enjoyed because I can relate, being also a\
+    \ drupal developer with no background before it. You inspire me to get better,\
+    \ and learn more!For example I wish I knew more about theming, like you created\
+    \ your own theme! \r\nSure it helps to have had a mentor like yours. I just want\
+    \ to learn, I feel like lacking in so many departments.. so favourited the blog\
+    \ and will follow it from now on! Keep up"
+  created: 2015-04-02 09:53:52.318889+00:00
+  name: Ricardo Silva
+  path: http://www.chenhuijing.com/blog/542-days-as-a-drupal-developer/
+  url: ''
 - _id: NTY4MDE=
   _replyto: rik@flink.com.au
   comment: "This is a wonderful tutorial, made so clear and easy with all the screenshots\
