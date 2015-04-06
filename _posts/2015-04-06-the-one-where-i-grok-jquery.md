@@ -15,6 +15,8 @@ With only a single body field to work with, content editors were nervous about e
 
 Editing HTML could be intimidating for the uninitiated, and the odds of messing something up increases the more content there is. Drag-and-drop for small blocks of content was a more friendly user-interface. Luckily, there's a module for that. With [Panelizer](https://www.drupal.org/project/panelizer), I was able to setup the page such that users could create blocks of content which they could then drag-and-drop.
 
+<img src="{{ site.url }}/images/posts/temple/emba-3.jpg" alt="Panelizer"/>
+
 Aside from that, we did some minor clean-up of the site architecture for the EMBA and MSHRM sections. Some sections contained similar information and we chose to merge those sections, making it clearer where specific information could be found.
 
 <img src="{{ site.url }}/images/posts/temple/emba-ia.jpg" alt="Information architecture"/>
