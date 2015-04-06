@@ -26,4 +26,5 @@ I was not one of the golden generation of web developers who started out coding 
 
 Another small step forward through the world of web development. I shall now end off with the cliche of a random quote by a famous person:
 
-> A beef filet cooked for 15 hours by 30 cooks doesn't necessarily taste better than a cheeseburger. - Oliver Reichenstein
+> A beef filet cooked for 15 hours by 30 cooks doesn't necessarily taste better than a cheeseburger.  
+― Oliver Reichenstein
