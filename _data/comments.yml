@@ -1,4 +1,127 @@
 sessions:
+- _id: NjIzODI=
+  _replyto: kakyou_tensai@yahoo.com
+  comment: Hi Walter, I&#39;ve taken a peek at your module and it sounds pretty useful.
+    I&#39;ll try it out on future projects. :)
+  created: 2015-04-07 08:06:12.328110+00:00
+  name: Chen Hui Jing
+  path: http://www.chenhuijing.com/blog/drupal-101-display-suite-field-settings/
+  url: ''
+- _id: NjE5MTI=
+  _replyto: office@valderama.net
+  comment: "I recently released a module which makes templating of entities and fields\
+    \ easier. It provides easy access to raw and semi-formatted field-data and makes\
+    \ it super easy to build whatever markup you need :)\r\n\r\nhttps://www.drupal.org/project/entity_formatter"
+  created: 2015-04-06 20:21:14.208289+00:00
+  name: Walter Jenner
+  path: http://www.chenhuijing.com/blog/drupal-101-display-suite-field-settings/
+  url: http://Blog.valderama.net
+- _id: NjIzNzc=
+  _replyto: kakyou_tensai@yahoo.com
+  comment: Hi Mark, I agree with the article you linked to, that the including the
+    stylesheet in the .info file is a quick and dirty way to do it. In that sense,
+    I&#39;d greatly prefer to use the hook_css_alter() function instead if Magic wasn&#39;t
+    an option.
+  created: 2015-04-07 08:01:47.988152+00:00
+  name: Chen Hui Jing
+  path: http://www.chenhuijing.com/blog/drupal-101-alternative-accordion/
+  url: ''
+- _id: NjE5NTg=
+  _replyto: mark@mark.ie
+  comment: "A simple way to remove an unwanted stylesheet is to include it in your\
+    \ theme&#39;s .info file (as if you were going to use it). This might take away\
+    \ the need for using the magic module (unless you use that for other features\
+    \ as well). See here: \r\nthemery.com/dgd7/advanced-theming/css/add-remove-replace"
+  created: 2015-04-06 21:24:30.623229+00:00
+  name: Mark Conroy
+  path: http://www.chenhuijing.com/blog/drupal-101-alternative-accordion/
+  url: http://www.mark.ie
+- _id: NjIzODY=
+  _replyto: kakyou_tensai@yahoo.com
+  comment: 'Hi Kevin, splitting it into two steps is more for my personal benefit
+    I suppose, as usually I will use the --select flag to choose the dev version of
+    the module. '
+  created: 2015-04-07 08:10:00.452640+00:00
+  name: Chen Hui Jing
+  path: http://www.chenhuijing.com/blog/drupal-101-display-suite-field-settings/
+  url: ''
+- _id: NjE4MDc=
+  _replyto: kevin.coyle@drutek.co.uk
+  comment: "By the way, you do not need to drush dl and then drush en. \r\n\r\nIf\
+    \ you just do drush en then drush will download and enable it for you."
+  created: 2015-04-06 17:59:14.879466+00:00
+  name: Kevin Coyle
+  path: http://www.chenhuijing.com/blog/drupal-101-display-suite-field-settings/
+  url: http://www.kevincoyle.co.uk
+- _id: NjIzOTY=
+  _replyto: kakyou_tensai@yahoo.com
+  comment: Hi James, you&#39;re not the first person to suggest Fences to me now.
+    I agree with you that using Expert mode will become a maintenance nightmare, especially
+    for larger projects. I really want to explore Fences further now. Thank you for
+    your suggestions on how to manage field templates across various situations. I&#39;ll
+    keep them in mind.
+  created: 2015-04-07 08:19:23.271438+00:00
+  name: Chen Hui Jing
+  path: http://www.chenhuijing.com/blog/drupal-101-display-suite-field-settings/
+  url: ''
+- _id: NjE3Mzk=
+  _replyto: james.nettik@gmail.com
+  comment: "Great summary of the DS Field UI. My rule of thumb is sticking to either\
+    \ Minimal or Full Reset, and avoiding Expert at all costs. It starts becoming\
+    \ a bottleneck on larger projects.\r\n\r\nManaging layouts across several environments\
+    \ requires either a manual export step, or re-configuring per environment. Features\
+    \ module helps with the former, and the latter is just an incredible time suck.\r\
+    \n\r\nIf you&#39;re using the same markup across multiple fields, things get a\
+    \ bit out of hand as well. You have to manually configure each field by hand,\
+    \ which tends to slow down development. Should any changes happen to that component\
+    \ later on, you have to make that change in several places. For me, a module like\
+    \ Fences helps catch the majority of situations. Then for more complex design\
+    \ patters, using a custom field template and theme_hook_suggestions in preprocess."
+  created: 2015-04-06 16:13:18.404093+00:00
+  name: James Nettik
+  path: http://www.chenhuijing.com/blog/drupal-101-display-suite-field-settings/
+  url: https://twitter.com/jnettik
+- _id: NjIzOTI=
+  _replyto: kakyou_tensai@yahoo.com
+  comment: Hi Tanner (I hope I got your name right), you raise a very valid point
+    that I didn&#39;t really consider thoroughly. I have yet to reuse fields very
+    heavily but I can foresee circumstances where this might occur. Thank you for
+    bringing Fences to my attention. I must admit that even though I have heard of
+    this module, I have not explored its capabilities much at all. That is definitely
+    something I will look into moving forward. I do appreciate your thorough and clear
+    explanation of the cons of using DS field template.
+  created: 2015-04-07 08:15:29.027873+00:00
+  name: Chen Hui Jing
+  path: http://www.chenhuijing.com/blog/drupal-101-display-suite-field-settings/
+  url: ''
+- _id: NjE3MTg=
+  _replyto: tannerjfco@gmail.com
+  comment: "I have to strongly discourage against taking this approach to managing\
+    \ field-level markup (specifically using the &quot;expert&quot; mode). While it\
+    \ provides an easy way to get the markup and classes you want when building the\
+    \ site, it creates a maintenance nightmare for future development of the site,\
+    \ far worse than anything a collection of .tpl.php files in the theme could do.\
+    \ With the DS field template approach, all of your markup control is at the field\
+    \ instance level, which means if you&#39;re reusing that field somewhere else\
+    \ and want some styling applied to both, you have to manually step through that\
+    \ 20+ field form to achieve the same markup and classes. Another problem with\
+    \ this approach is that all that markup control gets stored in the database rather\
+    \ than the theme layer where it belongs. Granted, DS config is exportable with\
+    \ features, but controlling markup in this way is far more difficult than managing\
+    \ in the theme layer.\r\n\r\nI would strongly recommend using Fences over DS Field\
+    \ Template (https://www.drupal.org/project/fences) as you&#39;re still using field\
+    \ templates, but in a more manageable way. A key advantage with Fences is that\
+    \ the template you choose applies to the field base rather than field instance,\
+    \ which means you can achieve semantic markup for a field globally through your\
+    \ site, including fields reused across content types, your views, etc. While this\
+    \ does still mean relying on config in the database, it&#39;s simply saying what\
+    \ template to use rather than storing the entirety of the markup. And since this\
+    \ is still using field templates much like you normally would, you can still leverage\
+    \ template suggestions to further control your markup as needed."
+  created: 2015-04-06 15:38:25.697657+00:00
+  name: tannerjfco
+  path: http://www.chenhuijing.com/blog/drupal-101-display-suite-field-settings/
+  url: ''
 - _id: NTg5MDk=
   _replyto: spam@cronindesigns
   comment: Thank you for sharing this well put together tutorial. Keep up the good
