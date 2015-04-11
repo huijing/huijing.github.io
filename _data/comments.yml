@@ -1,4 +1,27 @@
 sessions:
+- _id: NjQ5MjA=
+  _replyto: kakyou_tensai@yahoo.com
+  comment: Hi Brandon, do you have a field marked as unique in your mapping? Feeds
+    relies on the unique field to determine if a record already exists.
+  created: 2015-04-11 10:01:56.152768+00:00
+  name: Chen Hui Jing
+  path: http://www.chenhuijing.com/blog/drupal-101-what-i-learnt-from-hours-of-troubleshooting-feeds/
+  url: ''
+- _id: NjMyMjg=
+  _replyto: brandonc@irc.com
+  comment: i have issue where &#39;update existing&#39; will create new records in
+    drupal from new records in csv.. i dont want that.
+  created: 2015-04-08 04:40:05.577418+00:00
+  name: brandonc
+  path: http://www.chenhuijing.com/blog/drupal-101-what-i-learnt-from-hours-of-troubleshooting-feeds/
+  url: ''
+- _id: NjI1Mjc=
+  _replyto: rik@flink.com.au
+  comment: "Another great post.\r\n\r\nYou&#39;re on fire, Hui Jing!\r\n"
+  created: 2015-04-07 11:45:48.651140+00:00
+  name: RdeBoer
+  path: http://www.chenhuijing.com/blog/drupal-101-alternative-accordion/
+  url: http://flink.com.au
 - _id: NjIzODI=
   _replyto: kakyou_tensai@yahoo.com
   comment: Hi Walter, I&#39;ve taken a peek at your module and it sounds pretty useful.

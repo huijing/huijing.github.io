@@ -27,9 +27,7 @@ In all seriousness, one of the most commonly used methods to import large amount
 
 I attribute it to the complicated data sets I had to work with. Usually, for single value fields, the data import is pretty straight-forward. It's when you have to deal with multi-value fields when things start to get messy. Sometimes you'll find that the trickiest part of getting your feed to import successfully is mostly about massaging the data so it gets read correctly. I describe one of my data cleansing adventures [here]({{ site.url }}/blog/the-one-with-many-iterations/#data-cleansing).
 
-<a name="feeds-tips"></a>
-
-<p class="no-margin">There are many different types of parsers you can use to build your feed importer. The most commonly used methods are:</p>
+<p class="no-margin"><a name="feeds-tips"></a>There are many different types of parsers you can use to build your feed importer. The most commonly used methods are:</p>
 
 <ul class="parsers">
 <li class="no-margin"><a href="#csv-import">CSV import</a></li>
@@ -37,9 +35,7 @@ I attribute it to the complicated data sets I had to work with. Usually, for sin
 <li class><a href="#json-import">JSON import</a></li>
 </ul>
 
-<a name="csv-import"></a>
-
-###CSV import
+<h3><a name="csv-import"></a>CSV import</h3>
 
 If you're doing a CSV import with multi-value fields, it really pays to be well-versed in the fine art of Excel-fu. That also means you should have access to Microsoft Excel, because personally, I have yet to find a spreadsheet software that can match the functionalities of Excel.
 
@@ -78,9 +74,7 @@ If you're doing a CSV import with multi-value fields, it really pays to be well-
 
     The issue is being worked on though, and you can follow the issue thread [here](https://www.drupal.org/node/1171114). I'll update this post as this issue progresses. If you are doing a one-off import, one possible way to handle the duplicates is to manually remove the original files. But if you're doing constant importing, I can see how this is not a viable option. Watch this space.
 
-<a name="xml-import"></a>
-
-###XML import
+<h3><a name="xml-import"></a>XML import</h3>
 
 You will need to install the [Feeds XPath Parser](https://www.drupal.org/project/feeds_xpathparser) module for this. If you go to the module page, you'll see that further development is happening at [Feeds extensible parsers](https://www.drupal.org/project/feeds_ex). Unfortunately, I was unable to get that to work at all with my XML file.
 
@@ -108,9 +102,7 @@ You will need to install the [Feeds XPath Parser](https://www.drupal.org/project
 
     <img src="{{ site.url }}/images/posts/feeds/feeds-5.jpg" alt="Sucessful import"/>
 
-<a name="json-import"></a>
-
-###JSON import
+<h3><a name="json-import"></a>JSON import</h3>
 
 Similar to the XML option, you will need to install the [Feeds JSONPath Parser](https://www.drupal.org/project/feeds_jsonpath_parser) module for this. If you go to the module page, you'll see that further development is happening at [Feeds extensible parsers](https://www.drupal.org/project/feeds_ex). *Full disclosure, I did not attempt to try the new module for JSON feeds.*
 
