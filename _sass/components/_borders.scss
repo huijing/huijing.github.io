@@ -1,0 +1,4 @@
+hr {
+  @include trailing-border();
+  border-color: color(silver-chalice);
+}

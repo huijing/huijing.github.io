@@ -1,0 +1,24 @@
+.comments__title {
+  padding-top: rhythm(1);
+}
+
+.comments__list {
+  margin-left: 0;
+}
+
+.comments {
+  time {
+    display: block;
+  }
+}
+
+.comments__commenter {
+  display: inline-block;
+  margin-bottom: rhythm(0.5);
+}
+
+.comments__wrapper {
+  padding: rhythm(1);
+  background-color: darken(color(sugarcane), 3%);
+  margin-top: rhythm(1);
+}

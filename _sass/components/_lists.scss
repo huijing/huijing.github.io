@@ -1,0 +1,42 @@
+ol {
+  margin-left: rhythm(1);
+  counter-reset: list;
+  li {
+    margin-bottom: rhythm(1);
+    list-style: none;
+    position: relative;
+    &:before {
+      counter-increment: list;
+      content: counter(list) '.';
+      position: absolute;
+      top: 0px;
+      left: rhythm(-1);
+      font-weight: bold;
+    }
+  }
+  ul {
+    li {
+      list-style: disc;
+      &:before {
+        counter-increment: none;
+        content: '';
+      }
+    }
+  }
+}
+
+ul {
+  list-style: disc;
+  margin-left: rhythm(1);
+  ul {
+    list-style: square;
+  }
+}
+
+li {
+  margin-bottom: rhythm(1);
+}
+
+dt {
+  font-weight: bold;
+}

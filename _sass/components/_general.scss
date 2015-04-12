@@ -45,34 +45,3 @@ img {
   width: 32px;
   display: inline;
 }
-
-.message-wrapper {
-  margin-bottom: rhythm(0.5);
-}
-
-.text-wrapper {
-  @include respond-above(medium) {
-    flex: 1 1 auto;
-  }
-}
-
-.flex-container {
-  display: block;
-  @include respond-above(medium) {
-    display: flex;
-    flex-flow: row nowrap;
-  }
-}
-
-.success {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: rhythm(0.5);
-}
-
-.img-404 {
-  @include respond-above(medium) {
-    flex: 1 0 436px;
-    height: auto;
-  }
-}

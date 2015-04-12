@@ -1,0 +1,15 @@
+.thanks__wrapper {
+  margin-bottom: rhythm(0.5);
+}
+
+.thanks__image {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: rhythm(0.5);
+}
+
+.thanks__attribution {
+  padding: rhythm(1);
+  background-color: darken(color(sugarcane), 3%);
+  margin-top: rhythm(1);
+}

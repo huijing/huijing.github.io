@@ -34,21 +34,29 @@
 @import "layout/layout";
 
 // ==========
-// MODULES - Module styles go here - Its your turn to shine here!
+// COMPONENTS - Component styles
 // ==========
-@import "modules/general";
-@import "modules/header";
-@import "modules/main";
-@import "modules/footer";
-@import "modules/podcasts";
-@import "modules/blogs";
-@import "modules/pagination";
-@import "modules/inputs";
-@import "modules/css-shapes";
-@import "modules/colours";
-@import "modules/tables";
-@import "modules/comments";
-@import "modules/about";
+@import "components/borders";
+@import "components/colours";
+@import "components/comments";
+@import "components/css-shapes";
+@import "components/footer";
+@import "components/general";
+@import "components/header";
+@import "components/inputs";
+@import "components/lists";
+@import "components/pagination";
+@import "components/tables";
+
+// ==========
+// PAGES - Page-specific styles
+// ==========
+@import "pages/about";
+@import "pages/blogs";
+@import "pages/error";
+@import "pages/home";
+@import "pages/podcasts";
+@import "pages/thanks";
 
 // ==========
 // SHAME - For new style snippets that haven't been sorted and commented yet

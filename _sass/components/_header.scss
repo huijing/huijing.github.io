@@ -2,7 +2,7 @@
   background: url('/images/bg-header.jpg');
 }
 
-.header-wrapper {
+.site-header__wrapper {
   @include center;
   max-width: 1140px;
   display: flex;
@@ -11,16 +11,16 @@
   flex-flow: row wrap;
   @include respond-above(x-large) {
     flex-flow: row nowrap;
-    .first {
+    .site-branding {
       flex: 3 1 75%;
     }
-    .last {
+    .site-nav {
       flex: 1 1 25%;
     }
   }
 }
 
-.site-header__image {
+.site-branding__image {
   display: block;
   min-width: 90px;
   height: 90px;
@@ -43,12 +43,12 @@
   }
 }
 
-.sh-outer {
+.site-branding {
   display: flex;
   align-items: center;
 }
 
-.sh-inner {
+.site-branding__wrapper {
   margin-left: rhythm(1);
 }
 
