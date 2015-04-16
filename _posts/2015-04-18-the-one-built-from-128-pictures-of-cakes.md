@@ -83,6 +83,20 @@ Even though I'd never set up my own server before, the documentation is absolute
 
 If a larger budget was available, I'd actually go for a dedicated Drupal hosting platform like [Pantheon](https://pantheon.io/) or [Acquia](https://www.acquia.com/) because they handle Drupal updates for you. I've had some experience with Acquia Cloud Enterprise and I must say, the response time is pretty quick. Definitely something to keep in mind for clients who can afford it.
 
+###Site optimisations and performance
+
+Aside the from [basic site optimisations]({{ site.url }}/blog/2015-03-01-drupal-101-basic-site-optimisations/) I do for every Drupal site I deploy, I also made use of [Cloudflare](https://www.cloudflare.com/) to speed it up. In this day and age, we can't have resource heavy sites clogging up our browser experience. All images used were run through Drupal's own image processor.
+
+<figure>
+<figcaption>Pingdom speed test</figcaption>
+<img src="{{ site.url }}/images/posts/7love/pingdom.jpg" alt="Pingdom speed test"/>
+</figure>
+
+<figure>
+<figcaption>GTMetrix test</figcaption>
+<img src="{{ site.url }}/images/posts/7love/gtmetrix.jpg" alt="GTMetrix speed test"/>
+</figure>
+
 ###Wrap-up
 
 I'm really fond of this project because I learnt so much from it, from visual design to server set-up. I may not be the best sysadmin or visual designer, but having gone through the process, I've learnt to appreciate these roles even more.
