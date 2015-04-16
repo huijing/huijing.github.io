@@ -62,9 +62,7 @@ The data actually ported quite neatly into the spreadsheet.
 
 I needed to massage this into a CSV file that the feeds importer would recognise hence generate all my sermons CORRECTLY. Fun fact, when I started testing my importer, my NID count was in the low teens, something like 14. When I finally got the importer to work correctly, I was in the four thousands. Oh, all those deleted nodes.
 
-<a name="data-cleansing"></a>
-
-###Getting dirty with data cleansing (see what I did there)
+<h3 id="data-cleansing">Getting dirty with data cleansing (see what I did there)</h3>
 1. <p class="no-margin"><strong>Convert hyperlinks to text</strong></p>
     
     <p class="no-margin">I needed the URLs from the hyperlinks, not the text, which the direct copy and paste gave me. With reference to <a href="http://twigstechtips.blogspot.sg/2011/06/excel-easily-convert-hyperlinks-to-url.html">Twig's Tech Tips</a>, create and run the following macro:</p>
