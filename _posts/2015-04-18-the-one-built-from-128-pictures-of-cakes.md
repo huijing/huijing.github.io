@@ -9,7 +9,7 @@ I have a habit of saying yes to requests before I realise I have never done said
 
 <img src="{{ site.url }}/images/posts/7love/7love.jpg" alt="7lovebakery.com"/>
 
-All I had to start with, was 128 pictures of cakes and confectioneries. This made things really interesting. The good part about this project was that my friend was a great client. I call her a client even though no money exchanged hands throughout this entire process (I don't charge friends, and yes, I acknowledge this as another questionable practice). She trusted me to do my job well, and was always available to answer any questions I had about her business.
+All I had to start with, was 128 pictures of cakes and confectioneries. This made things really interesting. The good part about this project was that my friend was a great client. She trusted me to do my job well, and was always available to answer any questions I had about her business.
 
 ###Understanding the business
 
