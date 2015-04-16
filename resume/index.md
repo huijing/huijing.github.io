@@ -36,11 +36,11 @@ I am currently a **Drupal architect** and have worked on a variety of projects w
 <p class="no-margin">I've wrote about some of the projects I've worked on, mostly about my experiences and what I learnt along the way:</p>
 
 <ul class="project-list">
-<li class="no-margin"><a href="{{ site.url }}/blog/the-one-i-cut-my-teeth-on/">Singapore Gastric Cancer Consortium website</a></li>
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-i-learn-responsive/">Pixel Onion Pte Ltd website</a></li>
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-with-many-iterations/">Redemption Hill Church website</a></li>
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-people-get-a-say/">DrupalCamp Singapore 2014 website</a></li>
-<li><a href="{{ site.url }}/blog/the-one-where-i-grok-jquery/">EMBA refresh</a></li>
+<li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-i-grok-jquery/">EMBA refresh</a></li>
+<li><a href="{{ site.url }}/blog/2015-04-18-the-one-built-from-128-pictures-of-cakes/">7Love Bakery website</a></li>
 </ul>
 
 **Aristal Solutions Sdn Bhd**  

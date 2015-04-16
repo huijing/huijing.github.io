@@ -11,8 +11,10 @@ The latest episode of [Jen Simmons'](http://jensimmons.com/) wonderful podcast [
 
 Drupal comes with a lot of out-of-the-box functionality that can help make the content editing experience less confusing, provided we, as developers, use them. Placing an emphasis on the content authoring experience will undoubtedly impact the way we build our sites, but I believe this is for the better. And I'm not the only one, which is why Drupal 8 will be shipping with a [plethora of improvements](http://wimleers.com/article/drupal-8-structured-content-authoring-experience) on the content authoring front.
 
-But let's talk about Drupal 7 for now. I am definitely guilty of occasionally building functionality in a way that made things easy for me as a developer but complicated things for the content editor. In hindsight, I've realised that such decisions were short-sighted and usually came back to bite me later on. If I can help make the content editors' lives easier, they're more willing to use and explore the system on their own. It also means less support tickets for me to resolve. 
+But let's talk about Drupal 7 for now. I am definitely guilty of occasionally building functionality in a way that made things easy for me as a developer but complicated things for the content editor. In hindsight, I've realised that such decisions were short-sighted and usually came back to bite me later on. If I can help make the content editors' lives easier, they're more willing to use and explore the system on their own. It also means less support tickets for me to resolve.
 
 ###Take time to plan the content model
+Ever encountered a content creation process as confusing  
+
 
 ###Provide clear instructions in the help text
