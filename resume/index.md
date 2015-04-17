@@ -5,7 +5,7 @@ title: Résumé
 ###Summary
 <ul class="summary">
 <li class="no-margin">I am a self-taught designer and developer, based in Singapore.</li>
-<li class="no-margin">I agree that great design is timeless, intuitive and aesthetic.</li>
+<li class="no-margin">I believe that great design is timeless, intuitive and aesthetic.</li>
 <li class="no-margin">I have learnt that coding standards and best practices are absolutely critical for the long-term success of any software project.</li>
 <li class="no-margin">I see teamwork, open communication and compassion as the most key values for working together. </li>
 <li class>I realised that adaptability, curiosity and humility are the most important qualities to have for succeeding in the tech industry.</li>
@@ -13,7 +13,8 @@ title: Résumé
 
 ###Skills
 <ul class="skills">
-<li class="no-margin">Highly proficient in <strong>HTML and CSS (with Sass)</strong>, <strong>Drupal theming</strong>, <strong>site building</strong> and <strong>best practices</strong></li>
+<li class="no-margin">Knowledge of <strong>UX methods</strong> like competitive analysis, task flows, user scenarios, personas and interviewing for the creation and testing of UX deliverables</li>
+<li class="no-margin">Highly proficient in <strong>HTML and CSS (with Sass)</strong> for <strong>rapid prototyping</strong> in the browser</li>
 <li class="no-margin">Good knowledge of <strong>jQuery</strong> and <strong>Javascript</strong>, as well as version control using <strong>Git</strong></li>
 <li class="no-margin">Familiar with Unix-based server setup (<strong>LAMP</strong> stack) for website deployment and very comfortable working in the command line environment</li>
 <li class>Skilled in <strong>Adobe Photoshop</strong> and <strong>Illustrator</strong> for the creation of web assets</li>
@@ -22,7 +23,7 @@ title: Résumé
 ###Work experience
 **Pixel Onion Pte Ltd**  
 (Oct 2013 – Present)  
-I am currently a **Drupal architect** and have worked on a variety of projects with several major clients, including DBS bank, Mediacorp and Microsoft as well as the San Francisco International Airport. I honed all my web development chops here and this is what I spend my time doing:
+I am currently a **Front-end developer** and have worked on a variety of projects with several major clients, including DBS bank, Mediacorp and Microsoft as well as the San Francisco International Airport. I honed all my web development chops here and this is what I spend my time doing:
 
 <ul class="exp-po">
 <li class="no-margin">Design responsive layouts, typography and site components for optimal user experience</li>
@@ -40,7 +41,7 @@ I am currently a **Drupal architect** and have worked on a variety of projects w
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-with-many-iterations/">Redemption Hill Church website</a></li>
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-people-get-a-say/">DrupalCamp Singapore 2014 website</a></li>
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-i-grok-jquery/">EMBA refresh</a></li>
-<li><a href="{{ site.url }}/blog/2015-04-18-the-one-built-from-128-pictures-of-cakes/">7Love Bakery website</a></li>
+<li><a href="{{ site.url }}/blog/the-one-built-from-128-pictures-of-cakes/">7Love Bakery website</a></li>
 </ul>
 
 **Aristal Solutions Sdn Bhd**  

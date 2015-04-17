@@ -104,6 +104,12 @@ blockquote {
   }
 }
 
+figcaption {
+  @include responsive-text-size(deci);
+  text-align: center;
+  font-style: italic;
+}
+
 p {
   margin-bottom: rhythm(1);
 }
