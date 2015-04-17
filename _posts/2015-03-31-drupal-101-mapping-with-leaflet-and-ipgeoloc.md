@@ -49,7 +49,7 @@ Store locators are a useful functionality for businesses who have multiple outle
 7. If you chose not to use Display suite, you still need to make sure the *Format* for the *Position* field is set to *Geofield Map*. If you do not see the *Geofield Map* option in the drop-down, check that the Geofield Map module is enabled. This module is part of the Geofield module.
 
 ###Importing Location data using feeds
-If you have a lot of data, it doesn't make sense to enter each location manually. I suggest using [Feeds](https://www.drupal.org/project/feeds) to import the data instead. This particular example uses data from a spreadsheet, which is easily converted to CSV via Excel. For setting up feeds in other formats, refer to my [previous post on Feeds]({{ site.url }}/blog/2015-03-13-drupal-101-what-i-learnt-from-hours-of-troubleshooting-feeds/). 
+If you have a lot of data, it doesn't make sense to enter each location manually. I suggest using [Feeds](https://www.drupal.org/project/feeds) to import the data instead. This particular example uses data from a spreadsheet, which is easily converted to CSV via Excel. For setting up feeds in other formats, refer to my [previous post on Feeds]({{ site.url }}/blog/drupal-101-what-i-learnt-from-hours-of-troubleshooting-feeds/). 
 
 1. Install the [Feeds](https://www.drupal.org/project/feeds) module.
     <pre><code class="language-bash">drush dl feeds -y</code></pre>

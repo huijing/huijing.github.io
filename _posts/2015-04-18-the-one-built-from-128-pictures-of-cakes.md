@@ -85,7 +85,7 @@ If a larger budget was available, I'd actually go for a dedicated Drupal hosting
 
 ###Site optimisations and performance
 
-Aside the from [basic site optimisations]({{ site.url }}/blog/2015-03-01-drupal-101-basic-site-optimisations/) I do for every Drupal site I deploy, I also made use of [Cloudflare](https://www.cloudflare.com/) to speed it up. In this day and age, we can't have resource heavy sites clogging up our browser experience. All images used were run through Drupal's own image processor. I find it useful to run the site through performance tests just to check if there are any optimisations that I missed out.
+Aside the from [basic site optimisations]({{ site.url }}/blog/drupal-101-basic-site-optimisations/) I do for every Drupal site I deploy, I also made use of [Cloudflare](https://www.cloudflare.com/) to speed it up. In this day and age, we can't have resource heavy sites clogging up our browser experience. All images used were run through Drupal's own image processor. I find it useful to run the site through performance tests just to check if there are any optimisations that I missed out.
 
 <figure>
 <figcaption>Pingdom speed test</figcaption>
