@@ -7,9 +7,9 @@ title: Work
 <p>This approach worked pretty well because I've been lucky enough to work on a wide range of projects. While we're on the topic of work, I actually do have a <a class="no-underline" href="/resume/">résumé</a>, if you're interested.</p>
 
 <h2>Client work</h2>
-<div class="project-list">
+<div class="grid-3">
   {% for post in site.tags.projects %}
-  <div class="project">
+  <div class="project grid-3__item">
     <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
       <img class="project__image"src="{{ site.url }}/images/posts/{{ post.image }}" alt="{{ post.image }}"/>
       <h3 class="project__title no-margin">{{ post.project }}</h3>

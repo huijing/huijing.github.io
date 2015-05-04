@@ -24,3 +24,18 @@ figure {
     margin: 0 rhythm(1);
   }
 }
+
+.grid-3__item {
+  @media (min-width: 575px) and (max-width: 820px) {
+    @include span(6 of 12);
+    &:nth-child(2n) {
+      @include last;
+    }
+  }
+  @include respond-above(large) {
+    @include span(4 of 12);
+    &:nth-child(3n) {
+      @include last;
+    }
+  }
+}
