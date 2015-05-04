@@ -2,6 +2,7 @@
 layout: post
 title: "The one that came first"
 date: February 09, 2014
+project: Temple.sg
 image: project-1.jpg
 description: There's always a first time and this was it. The first assignment as a gainfully employed web developer. We all need to crawl before we can walk.
 tags: [drupal, projects]

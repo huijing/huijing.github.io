@@ -2,6 +2,7 @@
 layout: post
 title: "The one where I grok jQuery"
 date: April 06, 2015
+project: EMBA (Temple.sg)
 image: project-7.jpg
 tags: [drupal, projects, ux]
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "The one on the tightest of deadlines"
 date: April 27, 2015
+project: xinMSN
 image: project-9.jpg
 tags: [drupal, projects]
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: "The one built from 128 pictures of cakes"
 date: April 18, 2015
+project: 7love Bakery
 image: project-8.jpg
 tags: [drupal, projects]
 ---

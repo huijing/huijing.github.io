@@ -3,7 +3,7 @@ layout: post
 title: "The one without sleep"
 date: March 30, 2015
 image: project-6.jpg
-tags: [drupal, projects, hackathon]
+tags: [drupal, hackathon]
 category: planet-drupal
 ---
 So I recently participated in my first ever hackathon over the weekend of March 28. [Battlehack Singapore](https://2015.battlehack.org/singapore) to be exact (oddly, there was another [hackathon](http://mastersofcode.com/event/singapore/) taking place at the same time). A UX designer friend of mine had told me about the event and asked if I wanted to join as a team.  

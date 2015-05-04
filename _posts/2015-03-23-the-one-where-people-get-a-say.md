@@ -2,6 +2,7 @@
 layout: post
 title: "The one where people get a say"
 date: March 23, 2015
+project: DrupalCamp Singapore 2014
 image: project-5.jpg
 tags: [drupal, projects]
 ---

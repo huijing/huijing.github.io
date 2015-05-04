@@ -36,7 +36,7 @@ I am currently a **Front-end developer** and have worked on a variety of project
 
 <p class="no-margin">I've wrote about some of the projects I've worked on, mostly about my experiences and what I learnt along the way:</p>
 
-<ul class="project-list">
+<ul>
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-i-learn-responsive/">Pixel Onion Pte Ltd website</a></li>
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-with-many-iterations/">Redemption Hill Church website</a></li>
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-people-get-a-say/">DrupalCamp Singapore 2014 website</a></li>

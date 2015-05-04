@@ -2,6 +2,7 @@
 layout: post
 title: "The one with many iterations"
 date: March 16, 2015
+project: Redemption Hill Church
 image: project-3.jpg
 description: This time I get to collaborate with another developer and also, continue my adventures with wrangling feeds.
 tags: [drupal, projects]

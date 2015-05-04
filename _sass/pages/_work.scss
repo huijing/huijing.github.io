@@ -1,0 +1,23 @@
+.project-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  @include respond-above(small) {
+    justify-content: space-between;
+  }
+}
+
+.project {
+  text-align: center;
+  margin-bottom: rhythm(1);
+  @include respond-above(small) {
+    flex: 0 0 48%;
+  }
+  @include respond-above(large) {
+    flex: 0 0 32%;
+  }
+}
+
+.project__image {
+  margin-bottom: rhythm(0.25);
+}

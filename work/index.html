@@ -1,0 +1,21 @@
+---
+layout: page
+title: Work
+---
+<p>I've been treating this developer journey of mine like a video game, where every project is a level to be cleared. Think Super Mario World. Life's too short not to have fun, right? :grin: </p>
+
+<p>This approach worked pretty well because I've been lucky enough to work on a wide range of projects. While we're on the topic of work, I actually do have a <a class="no-underline" href="/resume/">résumé</a>, if you're interested.</p>
+
+<h2>Client work</h2>
+<div class="project-list">
+  {% for post in site.tags.projects %}
+  <div class="project">
+    <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
+      <img class="project__image"src="{{ site.url }}/images/posts/{{ post.image }}" alt="{{ post.image }}"/>
+      <h3 class="project__title no-margin">{{ post.project }}</h3>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- <h2>Random side projects</h2> -->
