@@ -16,6 +16,10 @@
   @include respond-above(large) {
     flex: 0 0 32%;
   }
+  &:empty {
+    height: 0;
+    border: none;
+  }
 }
 
 .project__image {
