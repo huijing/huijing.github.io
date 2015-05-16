@@ -46,7 +46,7 @@ I am currently a **Front-end developer** and have worked on a variety of project
 
 **Aristal Solutions Sdn Bhd**  
 (Feb 2012 – Oct 2013)  
-I was part of the Project Management Office on a Core Banking Implementation for a Major Banking Group in Malaysia. Working in a team of more than a hundred strong, let me witness first-hand the importance of accountability, communication and documentation. 
+I was part of the Project Management Office on a Core Banking Implementation for a Major Banking Group in Malaysia. Working with a team of more than a hundred strong, highlighted the importance of accountability, communication and documentation. I managed the overall project issue log as well as prepared weekly updates to project leadership. I was also responsible for defect analysis, and liaised with the developer to facilitate issue resolution.
 
 **Free-Lance Work**  
 (2006 – 2011)  

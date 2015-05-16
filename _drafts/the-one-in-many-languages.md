@@ -11,3 +11,4 @@ I've always heard that Drupal did multi-language well, but you know when you hea
 <img src="{{ site.url }}/images/posts/sfo/sfo.jpg" alt="flysfo.cn"/>
 
 At the time, the main SFO site was a single-language implementation. There was some form of multi-language support, but it did not take advantage of Drupal's multi-lingual infrastructure. We were brought in to build the entire Chinese language site, as well as ensure the infrastructure was in place so additional languages could be implemented easily.
+
