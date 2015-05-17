@@ -22,7 +22,7 @@ title: Résumé
 
 ###Work experience
 **Pixel Onion Pte Ltd**  
-(Oct 2013 – Present)  
+(Oct 2013 – May 2015)  
 I am currently a **Front-end developer** and have worked on a variety of projects with several major clients, including DBS bank, Mediacorp and Microsoft as well as the San Francisco International Airport. I honed all my web development chops here and this is what I spend my time doing:
 
 <ul class="exp-po">
