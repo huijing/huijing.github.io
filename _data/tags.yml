@@ -22,6 +22,9 @@
 - slug: jekyll
   name: Jekyll
 
+- slug: kohana
+  name: Kohana
+
 - slug: performance
   name: Performance
 

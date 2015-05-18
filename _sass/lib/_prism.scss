@@ -1,4 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+php+scss+bash+git+markdown */
+/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+bash+git+markdown+php+scss&plugins=line-numbers */
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -9,14 +9,21 @@ code[class*="language-"],
 pre[class*="language-"] {
   color: #f8f8f2;
   text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  font-family: "Droid Sans Mono", "Lucida Console", Monaco, "Courier New", Courier, monospace;
+  font-family: Consolas, Monaco, 'Andale Mono', monospace;
   direction: ltr;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
   line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
   tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
   hyphens: none;
 }
 
@@ -28,10 +35,6 @@ pre[class*="language-"] {
   border-radius: 0.3em;
 }
 
-p + pre[class*="language-"] {
-  margin-bottom: 1.5em;
-}
-
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
   background: #272822;
@@ -41,8 +44,6 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
-  white-space: pre-wrap;
-  word-wrap: break-word;
 }
 
 .token.comment,
@@ -92,7 +93,8 @@ pre[class*="language-"] {
 }
 
 .token.atrule,
-.token.attr-value {
+.token.attr-value,
+.token.function {
   color: #e6db74;
 }
 
@@ -115,4 +117,44 @@ pre[class*="language-"] {
 
 .token.entity {
   cursor: help;
+}
+
+pre.line-numbers {
+  position: relative;
+  padding-left: 3.8em;
+  counter-reset: linenumber;
+}
+
+pre.line-numbers > code {
+  position: relative;
+}
+
+.line-numbers .line-numbers-rows {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  font-size: 100%;
+  left: -3.8em;
+  width: 3em; /* works for line-numbers below 1000 lines */
+  letter-spacing: -1px;
+  border-right: 1px solid #999;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.line-numbers-rows > span {
+  pointer-events: none;
+  display: block;
+  counter-increment: linenumber;
+}
+
+.line-numbers-rows > span:before {
+  content: counter(linenumber);
+  color: #999;
+  display: block;
+  padding-right: 0.8em;
+  text-align: right;
 }
