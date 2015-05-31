@@ -1,3 +1,6 @@
+- slug: command-line
+  name: Command Line
+
 - slug: css
   name: CSS
 
@@ -45,3 +48,6 @@
 
 - slug: ux
   name: UX
+
+- slug: workflow
+  name: Workflow
