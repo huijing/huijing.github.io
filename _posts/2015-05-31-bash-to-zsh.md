@@ -8,7 +8,7 @@ For someone who never learned "computers" in school, I'm actually pretty fond of
 
 And that's also why, more than twenty years later, I must have [DOSBox](http://www.dosbox.com/) installed in every machine I own. It's an emulator that let's you play all the DOS games that you grew up with. 
 
-Back to the topic at hand. As a web developer, using the terminal is part and parcel of my day. But other than installing iTerm2 and customising its colour scheme, I never really looked into optimising the terminal experience. I recently chanced upon this [article](http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/) by [Mike Buss](http://mikebuss.com/) on optimising the terminal experience and decided to try it out as well.
+Back to the topic at hand. As a web developer, using the terminal is part and parcel of my day. But other than installing iTerm2 and customising its colour scheme, I never really did anything more. I recently chanced upon this [article](http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/) by [Mike Buss](http://mikebuss.com/) on optimising the terminal experience and decided to try it out as well.
 
 ###What is shell?
 Shell is simply a command line interface (CLI) that allows users to interact with the computer's operating system. Most people are used to graphical user interfaces (GUI) like Windows or OSX. Personally, I think people shy away from the command line because of the [Hollywood Hacking](http://tvtropes.org/pmwiki/pmwiki.php/Main/HollywoodHacking) trope that associate typing commands with hard-core hacking. Well, pointy-clicky with a mouse is never as fast tappity-tap on a keyboard. Just saying.
