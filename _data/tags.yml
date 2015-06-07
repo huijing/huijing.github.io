@@ -4,6 +4,9 @@
 - slug: css
   name: CSS
 
+- slug: design
+  name: Design
+
 - slug: drupal
   name: Drupal
 
@@ -27,6 +30,9 @@
 
 - slug: kohana
   name: Kohana
+
+- slug: opinion
+  name: Opinion
 
 - slug: performance
   name: Performance
