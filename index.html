@@ -8,7 +8,7 @@ layout: default
       <span class="post-meta abbey small">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h2>
         <a class="no-underline english-walnut" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
+      </h2><span aria-hidden="true" class="post-status"></span>
     </li>
   {% endfor %}
 </ul>

@@ -19,19 +19,19 @@ body {
   color: color(mine-shaft);
 }
 
-%h1, h1 {
+h1 {
   @include responsive-text-size(kilo);
   font-family: $header-font;
   margin: 0 auto rhythm(1);
 }
 
-%h2, h2 {
+h2 {
   @include responsive-text-size(hecto);
   font-family: $header-font;
   margin: 0 auto rhythm(1);
 }
 
-%h3, h3 {
+h3 {
   @include responsive-text-size(deca);
   font-family: $header-font;
   margin: 0 auto rhythm(0.5);
@@ -40,19 +40,19 @@ body {
   }
 }
 
-%h4, h4 {
+h4 {
   @include responsive-text-size(base);
   font-family: $header-font;
   margin: 0 auto rhythm(0.5);
 }
 
-%h5, h5 {
+h5 {
   @include responsive-text-size(base);
   font-family: $header-font;
   margin: 0 auto rhythm(0.5);
 }
 
-%h6, h6 {
+h6 {
   @include responsive-text-size(base);
   font-family: $header-font;
   margin: 0 auto rhythm(1);
@@ -73,6 +73,12 @@ em {
 pre,
 code {
   @include responsive-text-size(deci);
+  font-family: $code-font;
+  background: #272822;
+  padding: .1em .2em;
+  border-radius: .3em;
+  color: #f8f8f2;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
 }
 
 blockquote {
