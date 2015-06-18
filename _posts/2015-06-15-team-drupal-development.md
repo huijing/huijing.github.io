@@ -58,6 +58,9 @@ mv composer.phar /usr/local/bin/composer</code></pre>
     <pre><code class="language-bash">composer global require drush/drush:dev-master</code></pre>
     <p class="no-margin">To update Drush, run the following:</p>
     <pre><code class="language-bash">composer global update</code></pre>
+6. For MAMP users, you will need to add the following to your shell configuration file:
+    <pre><code class="language-bash">export PATH="/Applications/MAMP/Library/bin:/Applications/MAMP/bin/php/phpX.X.XX/bin:$PATH"</code></pre>
+    <p class="no-margin"> Modify the PHP version accordingly. This path is relevant for MAMP 3 users. If you're using a different version of MAMP, you will have to change the path depending on where PHP is installed.</p>
 
 <p class="no-margin"><strong>Instructions for Windows Users</strong></p>
 1. Install Composer by downloading the [installer](https://getcomposer.org/Composer-Setup.exe) and running it.
@@ -130,6 +133,7 @@ Working in a team allows us to leverage on each other's strengths and capabiliti
 
 ###Further reading
 <ul>
+<li class="no-margin"><a href="http://julianlmedina.com/getting-drush-working-with-mamp-3-on-mac/">Getting Drush working with MAMP 3 on Mac</a></li>
 <li class="no-margin"><a href="http://www.annertech.com/blog/implement-web-design-drupal-way">Implementing a Web Design the Drupal Way (not just any old way)</a></li>
 <li class="no-margin"><a href="http://binary-studio.com/2014/05/23/top-10-rules-for-better-git-workflow/">Top 10 Rules For Better Git Workflow</a></li>
 <li><a href="http://www.garfieldtech.com/blog/mvc-vs-pac">MVC vs. PAC</a></li>
