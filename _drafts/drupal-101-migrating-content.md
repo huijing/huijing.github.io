@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: Migrating content with Features and Node Export"
 date: March 1, 2015
-tags: [drupal, migration]
+tags: [drupal, migration, site-building]
 category: planet-drupal
 ---
 ###Importing content
