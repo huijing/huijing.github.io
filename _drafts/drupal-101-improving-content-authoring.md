@@ -17,6 +17,6 @@ But let's talk about Drupal 7 for now. I am definitely guilty of occasionally bu
 ###Take time to plan the content model
 If the content creation process is harder than navigating a labyrinth, then we're doing something wrong. This is where some user research would be helpful. The users, in this case, are the content editors. Often, the user research focuses heavily on the end-user, the people who visit the website, but I found that the most effective solution marries the needs of the visitors with those of the content editors.
 
-Once we find out the type of content that is most relevant and useful to the visitor, we need to build the site in such a way that makes it easy for the content editors to create such content. If 
+Once we find out the type of content that is most relevant and useful to the visitor, we need to build the site in such a way that makes it easy for the content editors to create such content.
 
 ###Provide clear instructions in the help text
