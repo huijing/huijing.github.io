@@ -39,8 +39,7 @@ $breakpoints: (
   src: url('../fonts/palo-alto.eot?#iefix') format('embedded-opentype'),
        url('../fonts/palo-alto.woff2') format('woff2'),
        url('../fonts/palo-alto.woff') format('woff'),
-       url('../fonts/palo-alto.ttf') format('truetype'),
-       url('../fonts/palo-alto.svg#paloaltoheavy') format('svg');
+       url('../fonts/palo-alto.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -51,8 +50,7 @@ $breakpoints: (
   src: url('../fonts/robotoslab-light.eot?#iefix') format('embedded-opentype'),
        url('../fonts/robotoslab-light.woff2') format('woff2'),
        url('../fonts/robotoslab-light.woff') format('woff'),
-       url('../fonts/robotoslab-light.ttf') format('truetype'),
-       url('../fonts/robotoslab-light.svg#roboto_slablight') format('svg');
+       url('../fonts/robotoslab-light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -63,8 +61,7 @@ $breakpoints: (
   src: url('../fonts/robotoslab-bold.eot?#iefix') format('embedded-opentype'),
        url('../fonts/robotoslab-bold.woff2') format('woff2'),
        url('../fonts/robotoslab-bold.woff') format('woff'),
-       url('../fonts/robotoslab-bold.ttf') format('truetype'),
-       url('../fonts/robotoslab-bold.svg#roboto_slabbold') format('svg');
+       url('../fonts/robotoslab-bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -75,8 +72,7 @@ $breakpoints: (
   src: url('../fonts/droidsansmono.eot?#iefix') format('embedded-opentype'),
        url('../fonts/droidsansmono.woff2') format('woff2'),
        url('../fonts/droidsansmono.woff') format('woff'),
-       url('../fonts/droidsansmono.ttf') format('truetype'),
-       url('../fonts/droidsansmono.svg#droid_sans_monoregular') format('svg');
+       url('../fonts/droidsansmono.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
