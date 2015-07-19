@@ -1,59 +1,59 @@
-- slug: command-line
+command-line:
   name: Command Line
 
-- slug: css
+css:
   name: CSS
 
-- slug: design
+design:
   name: Design
 
-- slug: drupal
+drupal:
   name: Drupal
 
-- slug: frameworks
+frameworks:
   name: Frameworks
 
-- slug: git
+git:
   name: Git
 
-- slug: github
+github:
   name: GitHub
 
-- slug: github-pages
+github-pages:
   name: GitHub Pages
 
-- slug: hackathon
+hackathon:
   name: Hackathon
 
-- slug: jekyll
+jekyll:
   name: Jekyll
 
-- slug: kohana
+kohana:
   name: Kohana
 
-- slug: opinion
+opinion:
   name: Opinion
 
-- slug: performance
+performance:
   name: Performance
 
-- slug: podcasts
+podcasts:
   name: Podcasts
 
-- slug: projects
+projects:
   name: Projects
 
-- slug: retrospective
+retrospective:
   name: Retrospective
 
-- slug: server-side
+server-side:
   name: Server side
 
-- slug: site-building
+site-building:
   name: Site building
 
-- slug: ux
+ux:
   name: UX
 
-- slug: workflow
+workflow:
   name: Workflow
