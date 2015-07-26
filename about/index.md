@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 ###So who are you?
-<img src="{{ site.url }}/images/headshot.jpg" alt="Profile image" class="profile-image"/>
+<img srcset="{{ site.url }}/images/headshot@2x.jpg 2x" src="{{ site.url }}/images/headshot.jpg" alt="Profile photo" class="profile-image" />
 
 My name is Chen Hui Jing. I first dipped my toe into the waters of web development when I built my first HTML website in 2008 for the Malaysia Basketball Association. 
 
