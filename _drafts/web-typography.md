@@ -1,5 +1,8 @@
 ---
-published: false
+layout: post
+title: "Typography on the web"
+date: July 20, 2015
+tags: [css, typography]
 ---
 
 ## A New Post
