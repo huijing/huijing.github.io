@@ -35,3 +35,5 @@ My personal challenge is to be able to write all the functionality I currently u
 
 ###Wrapping up
 Some of these things I just needed to get off my chest. But I'm really against writing bad code. I don't write the best code, but I do believe that perfection is something worth chasing. We'll never be perfect. That's a fact. The only reason one would continue to pursue perfection in spite of that is to enjoy the process of pursuing perfection. Sure I get that for some people, web development is just a paycheck, and to me, that's very sad. I guess I'm just lucky to love what I do. Maybe that's the athlete in me speaking, but I truly believe that we should take pride in the work we do and not just go through the motions. Keep on hustling, people.
+
+<em><small>Credits: OG:image from <a href="https://omundy.wordpress.com/2012/11/01/i-will-not-write-any-more-bad-code/">ART, DESIGN, CODE by Owen Mundy</a></small></em>
