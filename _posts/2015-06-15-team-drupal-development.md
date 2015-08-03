@@ -26,7 +26,7 @@ Working with a team of people to build a Drupal site (or any other development p
 Both tools are crucial for any team working with Drupal. Installation instructions for Git are pretty straightforward. It's usually the installation of Drush that trips people up.
 
 ###Installing Git
-If you're on a Mac, and have Xcode with command line tools installed, you already have Git on your system. But if you want to upgrade to the latest version of Git, which I highly recommend, the simplest way is via [homebrew](http://brew.sh/").
+If you're on a Mac, and have Xcode with command line tools installed, you already have Git on your system. But if you want to upgrade to the latest version of Git, which I highly recommend, the simplest way is via [homebrew](http://brew.sh/).
 
 1. Install Homebrew.
     <pre><code class="language-bash">ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></pre>
