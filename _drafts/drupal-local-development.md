@@ -19,27 +19,30 @@ Drupal also requires a database server, the recommended one being [MySQL](http:/
 [PHP](https://secure.php.net/) is a server-side scripting language which allows web pages to serve up content dynamically. When we install PHP on a server, we are actually installing an engine which interprets the PHP code on your web page. Continuing with the secretary example above, it's as if you have a request but it's written in Chinese, and the secretary doesn't understand Chinese. Installing PHP is like introducing a translator, to this mix, so the translator will interpret your Chinese request to the secretary so she can understand exactly what you're requesting. There are many different server-side scripting languages, like Java, Ruby, Python and so on. They are simply different languages, like Chinese, Spanish and French.
 
 <p class="no-margin">Regardless of the option you choose, follow the instructions provided by the software manufacturer to install your software bundle of choice on your machine. If you're on a Mac and feeling adventurous, these are the resources I used to set up my development environment:</p>
-
-- [OS X 10.10 Yosemite Local Development Environment: Apache, PHP, and MySQL with Homebrew](https://echo.co/blog/os-x-1010-yosemite-local-development-environment-apache-php-and-mysql-homebrew)
-[Using Dnsmasq for local development on OS X](https://mallinson.ca/osx-web-development/)
-- [The Perfect Web Development Environment for Your New Mac](https://mallinson.ca/osx-web-development/)
+<ul>
+  <li class="no-margin"><a href="https://echo.co/blog/os-x-1010-yosemite-local-development-environment-apache-php-and-mysql-homebrew">OS X 10.10 Yosemite Local Development Environment: Apache, PHP, and MySQL with Homebrew</a></li>
+  <li class="no-margin"><a href="https://mallinson.ca/osx-web-development/">Using Dnsmasq for local development on OS X</a></li>
+  <li><a href="https://mallinson.ca/osx-web-development/">The Perfect Web Development Environment for Your New Mac</a></li>
+</ul>
 
 Installing all these programs alone is not the end of it. These programs, specifically the Apache server and the MySQL server, must be running in order for everything to work. If you chose to go with a software bundle, there will be an option to start the servers. If you're just starting out, you may tend to forget to start the servers, especially if you've restarted your machine. Just keep that in mind if your development site refuses to load. If, for some reason, your MySQL server isn't running, whatever GUI database management program you're using won't load your database either.
 
-Here are some tutorials with screenshots covering how to set up a local site on your machine for XAMPP, MAMP and WAMP.
-- [XAMPP Tutorial: How to Use XAMPP to Run Your Own Web Server](https://blog.udemy.com/xampp-tutorial/)
-- [Using MAMP for local Drupal development](http://www.jenlampton.com/blog/using-mamp-local-drupal-development)
-- [How to install Drupal 7 on WAMP](http://klausharris.de/blog/install-drupal-7-wamp.html)
+<p class="no-margin">Here are some tutorials with screenshots covering how to set up a local site on your machine for XAMPP, MAMP and WAMP.</p>
+<ul>
+  <li class="no-margin"><a href="https://blog.udemy.com/xampp-tutorial/">XAMPP Tutorial: How to Use XAMPP to Run Your Own Web Server</a></li>
+  <li class="no-margin"><a href="http://www.jenlampton.com/blog/using-mamp-local-drupal-development">Using MAMP for local Drupal development</a></li>
+  <li><a href="http://klausharris.de/blog/install-drupal-7-wamp.html">How to install Drupal 7 on WAMP</a></li>
+</ul>
 
 ###
 
 ###Installing Drupal locally
 1. Download the latest stable version of Drupal from [Drupal.org](https://www.drupal.org/start)
 2. Extract the `.zip` file into your localhost directory and set up however you normally do a new local site. The common default alias used for your local environment is localhost, or 127.0.0.1, so we'll be referring to `http://localhost` for this example.
-3. Navigate to the sites/default folder and make a copy of the default.settings.php file. Rename this file to settings.php
+3. Navigate to the sites/default folder and make a copy of the default.settings.php file. Rename this file settings.php
 4. Depending on what you use to manage databases, create a new mySQL database. You should have a user name and password which you set up when you installed MySQL on your system earlier. These credentials have to be entered when you install Drupal via the browser interface in the next steps.
 5. On your browser, navigate to the root of the site, in this case, `http://localhost`.
- - You will be redirected to the install.php page. Select Standard and continue.
+ - You will be redirected to the `install.php` page. Select Standard and continue.
  {{image}}
   - Choose the default language and click next. For the database setup, enter the name of the database you created earlier, with your MySQL credentials. The advanced options can be left as default.
   {{image}}
@@ -109,3 +112,44 @@ Resources for troubleshooting Drupal issues
 
 http://drupal.stackexchange.com/
 https://www.drupal.org/
+
+alias jsa='jekyll server --drafts --config _config.yml,_config_dev.yml --watch';
+
+
+# Site settings
+title: Chen Hui Jing
+email: kakyou_tensai@yahoo.com
+description: The chronicles of a self-taught designer and developer.
+baseurl: ""
+url: "http://127.0.0.1:4000" 
+
+relative_permalinks: false
+permalink: /blog/:title/
+paginate: 8
+paginate_path: "/blog/page:num"
+
+twitter_username: hj_chen
+github_username:  huijing
+drupalorg_username: huijing
+about: "I'm Hui Jing, a designer and front-end developer who builds Drupal-flavoured websites."
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-sitemap
+  - jemoji
+
+# Exclude files and folder
+exclude:
+  - node_modules
+  - gulpfile.js
+  - package.json
+  - bower_components
+
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
