@@ -35,7 +35,7 @@ I attribute it to the complicated data sets I had to work with. Usually, for sin
 <li class><a href="#json-import">JSON import</a></li>
 </ul>
 
-<h3 id="csv-import">CSV import</h3>
+###CSV import
 
 If you're doing a CSV import with multi-value fields, it really pays to be well-versed in the fine art of Excel-fu. That also means you should have access to Microsoft Excel, because personally, I have yet to find a spreadsheet software that can match the functionalities of Excel.
 
@@ -44,7 +44,7 @@ If you're doing a CSV import with multi-value fields, it really pays to be well-
 3. Set the parser to *CSV parser*. You have a few options for choice of delimiter: comma, semi-colon, tab, pipe and plus. Even though there's an option to have no headers on your CSV file, my advice is, don't tempt fate and just add the headers to the file. Your mapping source MUST match the header row in your CSV file.
 4. Set up your node processor settings according to your requirements. It's important to have a unique field in your CSV file to serve as the GUID because this indicates to the importer which nodes already exist in the database. Without a unique target as GUID, new nodes will be created even if you import the same file again.
 5. <p class="no-margin">As mentioned earlier, the source entered on the Node processor mapping must be an exact match with the headers on your CSV file.</p>
-    
+
     <img src="{{ site.url }}/images/posts/feeds/feeds-6.jpg" alt="CSV headers"/>
 6. If you have a multi-value field, you need to install the [Feeds Tamper](https://www.drupal.org/project/feeds_tamper) module. Enable BOTH Feeds Tamper and Feeds Tamper UI and you should see a *Tamper* tab on the top right corner.
 7. <p class="no-margin">At your multi-value field, click on &#10133; Add plugin and choose <em>Explode</em>. This plugin simply splits out the individual values in that field according to their separator.</p>
@@ -57,7 +57,7 @@ If you're doing a CSV import with multi-value fields, it really pays to be well-
 
     <img src="{{ site.url }}/images/posts/feeds/feeds-8.jpg" alt="Dealing with spaces"/>
 8. <p class="no-margin">If you're importing a taxonomy term, you have the option of matching the term to a term name, term ID or GUID. Checking <em>Auto create</em> will create any terms that do not already match existing terms in your database. If you do not check this, and your CSV contains terms that do not exist in your database, those terms will not be imported.</p>
-    
+
     <img src="{{ site.url }}/images/posts/feeds/feeds-9.jpg" alt="Auto create terms"/>
 9. If you need to import files or images, you have 2 options. Both of them require you to pick the *Image: URI (field_image:uri)* target when mapping.
  
@@ -74,7 +74,7 @@ If you're doing a CSV import with multi-value fields, it really pays to be well-
 
     The issue is being worked on though, and you can follow the issue thread [here](https://www.drupal.org/node/1171114). I'll update this post as this issue progresses. If you are doing a one-off import, one possible way to handle the duplicates is to manually remove the original files. But if you're doing constant importing, I can see how this is not a viable option. Watch this space.
 
-<h3 id="xml-import">XML import</h3>
+###XML import
 
 You will need to install the [Feeds XPath Parser](https://www.drupal.org/project/feeds_xpathparser) module for this. If you go to the module page, you'll see that further development is happening at [Feeds extensible parsers](https://www.drupal.org/project/feeds_ex). Unfortunately, I was unable to get that to work at all with my XML file.
 
@@ -102,7 +102,7 @@ You will need to install the [Feeds XPath Parser](https://www.drupal.org/project
 
     <img src="{{ site.url }}/images/posts/feeds/feeds-5.jpg" alt="Sucessful import"/>
 
-<h3 id="json-import"></a>JSON import</h3>
+###JSON import
 
 Similar to the XML option, you will need to install the [Feeds JSONPath Parser](https://www.drupal.org/project/feeds_jsonpath_parser) module for this. If you go to the module page, you'll see that further development is happening at [Feeds extensible parsers](https://www.drupal.org/project/feeds_ex). *Full disclosure, I did not attempt to try the new module for JSON feeds.*
 
