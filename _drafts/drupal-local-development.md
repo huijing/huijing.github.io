@@ -115,4 +115,3 @@ Resources for troubleshooting Drupal issues
 http://drupal.stackexchange.com/
 https://www.drupal.org/
 
-alias jsa='jekyll server --drafts --config _config.yml,_config_dev.yml --watch';

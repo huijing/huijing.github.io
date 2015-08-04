@@ -14,7 +14,7 @@ var messages = {
  */
 gulp.task('jekyll-build', function (done) {
   browserSync.notify(messages.jekyllBuild);
-  return cp.spawn('jekyll', ['build --drafts --config _config.yml,_config_dev.yml'], {stdio: 'inherit'})
+  return cp.spawn('jekyll', ['build', '--drafts', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'})
     .on('close', done);
 });
 
@@ -39,7 +39,7 @@ gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-build'], function() {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-  return gulp.src('_scss/styles.scss')
+  return gulp.src('_sass/styles.scss')
     .pipe(sass({
       includePaths: ['scss'],
       onError: browserSync.notify
@@ -51,10 +51,10 @@ gulp.task('sass', function () {
 });
 
 /**
- * Compile files from _js into both _site/js (for live injecting) and site (for future jekyll builds)
+ * Compile files from _js/lib into both _site/js (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('scripts', function() {
-  return gulp.src(['_js/lib/*.js', '_js/**/*.js'])
+  return gulp.src(['_js/lib/*.js'])
     .pipe(concat('scripts.js'))
     .pipe(gulp.dest('_site/js'))
     .pipe(browserSync.reload({stream:true}))
@@ -66,9 +66,9 @@ gulp.task('scripts', function() {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-  gulp.watch(['_scss/**/*.scss','_scss/*.scss'], ['sass']);
-  gulp.watch(['_js/**/*.js','_js/*.js'], ['scripts']);
-  gulp.watch(['index.md', '_layouts/*.html', '_posts/*', '_includes/*.html'], ['jekyll-rebuild']);
+  gulp.watch(['_sass/**/*.scss','_sass/*.scss'], ['sass']);
+  gulp.watch(['_js/**/*.js'], ['scripts']);
+  gulp.watch(['index.html', '_layouts/*.html', '_posts/*', '_includes/*.html', '_drafts/*',], ['jekyll-rebuild']);
 });
 
 /**

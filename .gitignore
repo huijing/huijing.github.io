@@ -6,3 +6,4 @@ node_modules
 _config_dev.yml
 Gemfile.lock
 rawcomments.yml
+bower_components
