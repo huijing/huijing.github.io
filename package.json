@@ -1,0 +1,26 @@
+{
+  "name": "huijing.github.io",
+  "version": "1.0.0",
+  "description": "The chronicles of a self-taught designer and developer",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/huijing/huijing.github.io.git"
+  },
+  "author": "Chen Hui Jing <kakyou_tensai@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huijing/huijing.github.io/issues"
+  },
+  "homepage": "https://github.com/huijing/huijing.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
