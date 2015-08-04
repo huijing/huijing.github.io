@@ -39,18 +39,20 @@ Installing all these programs alone is not the end of it. These programs, specif
 ###Installing Drupal locally
 1. Download the latest stable version of Drupal from [Drupal.org](https://www.drupal.org/start)
 2. Extract the `.zip` file into your localhost directory and set up however you normally do a new local site. The common default alias used for your local environment is localhost, or 127.0.0.1, so we'll be referring to `http://localhost` for this example.
-3. Navigate to the sites/default folder and make a copy of the default.settings.php file. Rename this file settings.php
+3. Navigate to the sites/default folder and make a copy of the default.settings.php file. Rename this file settings.php. Set the permissions for this file to writeable. You can do that with the following command.
+    <pre><code class="language-bash">chmod 666 settings.php</code></pre>
+    You can even just right-click the file and change the permissions from there, if you wanted to. Drupal will change the permissions to 444, and this is essential to keeping your site secure.
 4. Depending on what you use to manage databases, create a new mySQL database. You should have a user name and password which you set up when you installed MySQL on your system earlier. These credentials have to be entered when you install Drupal via the browser interface in the next steps.
 5. On your browser, navigate to the root of the site, in this case, `http://localhost`.
- - You will be redirected to the `install.php` page. Select Standard and continue.
- {{image}}
-  - Choose the default language and click next. For the database setup, enter the name of the database you created earlier, with your MySQL credentials. The advanced options can be left as default.
-  {{image}}
-  - Drupal should start installing. 
-   {{image}}
- - Set up the user 1 account. This account is the superadmin account which can access everything on the site.
-  {{image}}
- - Your site should be successfully set up.
+    - You will be redirected to the `install.php` page. Select Standard and continue.
+    <img srcset="{{ site.url }}/images/posts/local-dev/local-dev-480.jpg 480w, {{ site.url }}/images/posts/local-dev/local-dev-640.jpg 640w, {{ site.url }}/images/posts/local-dev/local-dev-960.jpg 960w, {{ site.url }}/images/posts/local-dev/local-dev-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/responsive-images/local-dev-640.jpg" alt="Install" />
+    - Choose the default language and click next. For the database setup, enter the name of the database you created earlier, with your MySQL credentials. The advanced options can be left as default.
+    <img srcset="{{ site.url }}/images/posts/local-dev/local-dev2-480.jpg 480w, {{ site.url }}/images/posts/local-dev/local-dev2-640.jpg 640w, {{ site.url }}/images/posts/local-dev/local-dev2-960.jpg 960w, {{ site.url }}/images/posts/local-dev/local-dev2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/responsive-images/local-dev2-640.jpg" alt="Database setup" />
+    - Drupal should start installing. 
+    <img srcset="{{ site.url }}/images/posts/local-dev/local-dev3-480.jpg 480w, {{ site.url }}/images/posts/local-dev/local-dev3-640.jpg 640w, {{ site.url }}/images/posts/local-dev/local-dev3-960.jpg 960w, {{ site.url }}/images/posts/local-dev/local-dev3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/responsive-images/local-dev3-640.jpg" alt="Installation running" />
+    - Set up the user 1 account. This account is the superadmin account which can access everything on the site.
+    <img srcset="{{ site.url }}/images/posts/local-dev/local-dev4-480.jpg 480w, {{ site.url }}/images/posts/local-dev/local-dev4-640.jpg 640w, {{ site.url }}/images/posts/local-dev/local-dev4-960.jpg 960w, {{ site.url }}/images/posts/local-dev/local-dev4-1168.jpg 1168w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/responsive-images/local-dev4-640.jpg" alt="Install" />
+    - Your site should be successfully set up.
 
 ({{ site.url }}/blog/team-drupal-development/#installing-drush)
 ({{ site.url }}/blog/team-drupal-development/#installing-git)
