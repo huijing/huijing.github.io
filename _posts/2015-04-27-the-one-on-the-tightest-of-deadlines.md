@@ -10,8 +10,7 @@ I feel large-scale projects are like play-off games. You can't expect to win wit
 
 Similarly, a large-scale project should involve a significant amount of up-front planning and preparation before any actual development takes place. We took on a project that involved the migration of 27 sites from a proprietary CMS platform over to an Acquia-hosted Drupal platform within 30 days. It was the biggest project I had been involved in up till then, and I'm proud to say we managed to pull it off on schedule.
 
-###Opponent's scouting report summary (aka project requirements)
-
+##Opponent's scouting report summary (aka project requirements)
 <ul>
 <li class="no-margin">All the content had to move into its new home by the stipulated deadline</li>
 <li class="no-margin">Content should be structured as much as possible for extensibility and reusability across the different sites</li>
@@ -20,11 +19,10 @@ Similarly, a large-scale project should involve a significant amount of up-front
 <li>The deadline could not be negotiated</li>
 </ul>
 
-###Game plan overview (aka project plan)
-
+##Game plan overview (aka project plan)
 Given the narrow margin for error, the success of the project hinged on close collaboration between ourselves, the client and the previous vendor, who would be facilitating the cut-over. We planned for the work to be divided into two phases.
 
-**Phase 1: Architecture design and development**
+###Phase 1: Architecture design and development
 
 1. **Infrastructure design**  
     There were 2 options under consideration, Domain Access or a multi-site implementation. But based on an initial analysis of the site architecture and requirements, we were leaning toward the multi-site implementation with a single database.
@@ -39,7 +37,7 @@ Given the narrow margin for error, the success of the project hinged on close co
 
 By the end of Phase 1, the team of content migrators could start porting over the content from the old platform to the Drupal sites. The content migration would run in parallel with Phase 2.
 
-**Phase 2: Building individual sites**
+###Phase 2: Building individual sites
 
 1. **Create parent theme**  
     This theme would provide the styling for all shared components across the 27 sites. These components would come from item #2 in Phase 1.
@@ -50,7 +48,7 @@ By the end of Phase 1, the team of content migrators could start porting over th
 4. **Final UAT**  
     The client team would perform UAT on the sites and verify that all sites were good to go-live.
 
-###Game highlights (aka project highlights)
+##Game highlights (aka project highlights)
 
 1. **Building out the site structure using taxonomy**  
     After a lot of thought, we did NOT go with Domain Access nor a multi-site implementation. We decided to create a site structure vocabulary to organise the sites. There were three parent terms, for Television, Radio and Magazines. Each site would be a child term in their respective categories and each section of the site would be a grandchild term. Is this the best method of doing things? Maybe, maybe not. But given the design constraints, this was the best method we could successfully implement while still hitting the deadline.
@@ -61,7 +59,7 @@ By the end of Phase 1, the team of content migrators could start porting over th
 4. **Up-front effort on the parent theme sped up sub-theme development significantly**  
     As everything theming-related came under my purview, it was my personal responsibility to ensure all 27 sites looked like their original counterparts. I had two weeks for this, and spent the first week fine-tuning the parent theme and the first sub-theme. I'd be lying if I said I wasn't worried about hitting the deadline. Fortunately, the up-front effort paid out significant dividends in terms of speeding up development of each subsequent theme. Eventually I was cranking out 5 sub-themes a day due to the amount of code that could be re-used.
 
-###Post-game analysis (aka retrospective)
+##Post-game analysis (aka retrospective)
 This was one of the most challenging projects I've ever worked on. And yes, it was a stressful endeavour (I'd like to think I'm not the only person who thinks 27 sites in 30 days is challenging) but I learnt so much from this experience.
 <figure>
 <figcaption><strong>Magazine sites</strong></figcaption>

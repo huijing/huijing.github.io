@@ -8,7 +8,7 @@ The web is not print.
 
 I'm definitely not the first person to write about this. Just google that phrase and you'll find pages of articles that revolve around this topic dated more than a decade ago. But even today, more than 15 years after the web went mainstream, we still see a large number of web design projects following a modified version of the print design process.
 
-###Print and web are different mediums
+##Print and web are different mediums
 Considering that the earliest forms of printing came about more than 2000 years ago, it's safe to say that print design is a very established field. Print is a static, visual medium. Aesthetically-designed visuals are required to capture viewers' attention in order for a message to be delivered.
 
 > The web is an informational medium. It is not a visual medium.  
@@ -22,7 +22,7 @@ In print design, visual elements are the main course, but for web design, visual
 
 Each design field is distinct because of the medium its designers work in. Interior designers work with spaces, fashion designers work with fabrics and so on. Web design is its own distinct field and should have its own unique set of processes and deliverables.
 
-###You can't control the web
+##You can't control the web
 Print designers have full control over the appearance of their designs and how the final output is rendered. The phrase pixel-perfect embodies this obsession with control. But for print design, this is how the best designs are produced. An attention to the most minute of details, ensuring the perfect placement of every character down to the last pixel. 
 
 As a print designer, you can be assured that once your design is finalised and sent for print, the world will view it exactly as you envisioned. The only way you can modify the design is by drawing over it, and we call that vandalism.
@@ -39,7 +39,7 @@ A print design that looked great 50 years ago, we now call vintage. A web design
 > It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.  
  —John Allsopp
 
-###Understanding the web and user behaviour
+##Understanding the web and user behaviour
 How many times have you heard designers complain that their beautiful designs were not coded to look exactly like the Photoshop files they so painstakingly created? And how many times have you heard developers rant about the designs that are impossible to code [without a myriad of hacks](http://ponyfoo.com/articles/stop-breaking-the-web)? And how many times have you, as an user, complain that a website is hard to use and doesn't give you the information you're looking for?
 
 The waterfall approach to web design simply does not work. Developers cannot just be tacked onto the end of the print design process like printers. An ideal web design process involves close collaboration between the users, designers and developers.
@@ -55,7 +55,7 @@ It is necessary to tease out the real problem behind why they feel a website is 
 
 Why do we even want to build a website? What is the purpose of this website and what is it trying to achieve? **Every website must have a clear objective**. And every design decision, from content and information architecture, to visuals and functionality, must contribute to the achievement of said objective.
 
-###User research and style-guide driven development
+##User research and style-guide driven development
 An effective web design successfully marries the motives of the stakeholders with the needs of the users. User research should be a default for all web projects. Web professionals and clients often butt heads over design decisions and the best way to resolve this problem is with objective data from user research. We all need to recognise that none of us are the user and creating something that does not take into account the perspective of the user almost always results in failure. 
 
 > Business priorities often lack the reality of user needs and decisions are made based on what we “think” is awesome rather than what is “truly” awesome.  
@@ -72,7 +72,7 @@ Developers can quickly translate the paper prototypes to low-fidelity wireframes
 
 From here, a style guide can be developed. The concept of style guides is not a new thing. Consistency has always been an aspect of good design, and style guides help achieve that. The difference here is instead of having a static style guide PDF document, or a photoshop file with dozens of red annotations and hex codes, we code the style guide in HTML and CSS. Style-guide driven development can and should become our industry standard.
 
-###We won't know what the future holds
+##We won't know what the future holds
 The internet will continue to evolve and change. In a few short years, we've gone from designing for a single computer monitor display to a multitude of mobile phones, tablets, and now even watches. Our processes must facilitate our ability to be agile and respond to rapid changes without breaking stride. It won't be easy, but all of us, as web professionals, have the responsibility of making the web experience better. 
 
 ###Further reading

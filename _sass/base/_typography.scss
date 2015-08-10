@@ -28,7 +28,7 @@ h1 {
 h2 {
   @include responsive-text-size(hecto);
   font-family: $header-font;
-  margin: 0 auto rhythm(1);
+  margin: 0 auto rhythm(0.5);
 }
 
 h3 {

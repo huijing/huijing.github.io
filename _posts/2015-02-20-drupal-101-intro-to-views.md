@@ -63,7 +63,7 @@ You get 4 types of view displays out of the box:
     
     A view page basically turns your list of content into a page, complete with it's own unique path. 
 
-###Views main editor
+##Views main editor
 
 There are a lot of options and settings available here. Remember the Master* panel earlier? Whenever you apply an option or setting, you can choose to apply them to All displays (except overridden), which modifies the Master display and will affect all other displays as well. Or you can apply it just to the current display. You can see how your view display would potentially look by scrolling down to the Live preview section below the editor.
 

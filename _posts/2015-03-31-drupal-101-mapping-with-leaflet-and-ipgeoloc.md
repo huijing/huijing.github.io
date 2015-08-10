@@ -8,8 +8,9 @@ category: planet-drupal
 ---
 Store locators are a useful functionality for businesses who have multiple outlets. Drupal has a number of map rendering modules that allow us to provide store locator functionality. This article will cover the basics of setting up a simple store locator with proximity search functionality.
 
-###Create and setup location content type
-<p class="no-margin"><strong>Required modules</strong></p>
+##Create and setup location content type
+
+###Required modules
 <ul>
 <li class="no-margin"><a href="https://www.drupal.org/project/addressfield">Address Field</a></li>
 <li class="no-margin"><a href="https://www.drupal.org/project/geocoder">Geocoder</a></li>
@@ -48,7 +49,7 @@ Store locators are a useful functionality for businesses who have multiple outle
     <li class="no-margin">Do the same for any other view modes you will be using.</li>
 7. If you chose not to use Display suite, you still need to make sure the *Format* for the *Position* field is set to *Geofield Map*. If you do not see the *Geofield Map* option in the drop-down, check that the Geofield Map module is enabled. This module is part of the Geofield module.
 
-###Importing Location data using feeds
+##Importing Location data using feeds
 If you have a lot of data, it doesn't make sense to enter each location manually. I suggest using [Feeds](https://www.drupal.org/project/feeds) to import the data instead. This particular example uses data from a spreadsheet, which is easily converted to CSV via Excel. For setting up feeds in other formats, refer to my [previous post on Feeds]({{ site.url }}/blog/drupal-101-what-i-learnt-from-hours-of-troubleshooting-feeds/). 
 
 1. Install the [Feeds](https://www.drupal.org/project/feeds) module.
@@ -79,7 +80,7 @@ If you have a lot of data, it doesn't make sense to enter each location manually
 9. Go to <code class="language-bash">import</code> and select the importer you just created.
 10. Import your CSV file. Cross your fingers and hope everything imports successfully.
 
-###Create and setup location views
+##Create and setup location views
 <p class="no-margin"><strong>Required modules</strong></p>
 <ul>
 <li class="no-margin"><a href="https://www.drupal.org/project/views">Views</a></li>
@@ -88,8 +89,8 @@ If you have a lot of data, it doesn't make sense to enter each location manually
 <li class="no-margin"><a href="https://www.drupal.org/project/entity">Entity API</a><em> (dependency for IP Geoloc)</em></li>
 <li><a href="https://www.drupal.org/project/leaflet">Leaflet</a></li>
 </ul>
-<p class="no-margin"><strong>Part 1: Location listing</strong></p>
 
+###Part 1: Location listing
 1. Install required modules.
     <pre><code class="language-bash">drush dl views leaflet libraries entity ip_geoloc -y</code></pre>
 2. Enable the required modules.
@@ -114,7 +115,7 @@ If you have a lot of data, it doesn't make sense to enter each location manually
 12. Go to the path of your views page to check that the listing is rendering correctly. Test the proximity search by typing a location into the exposed filter.
     <img src="{{ site.url }}/images/posts/maps/location-listing.jpg" alt="Location listing"/>
 
-<p class="no-margin"><strong>Part 2: Map display</strong></p>
+###Part 2: Map display
 1. Add a new Attachment view display to the Location view.
     <img src="{{ site.url }}/images/posts/maps/map-view.jpg" alt="Map view display"/>
 2. Add a *Position* field. Click on *Add* and type *Position* in the search filter. Check *Content: Position* and click Apply. 
@@ -131,7 +132,7 @@ If you have a lot of data, it doesn't make sense to enter each location manually
 12. Go to the views page URL and check that your map is rendering correctly.
     <img src="{{ site.url }}/images/posts/maps/map-pop-up.jpg" alt="Map information"/>
 
-###Next steps
+##Next steps
 Once everything is rendering correctly, it's just a matter of theming the views to look like your design.
 
 <img src="{{ site.url }}/images/posts/maps/theming-ba.jpg" alt="Theming before and after"/>

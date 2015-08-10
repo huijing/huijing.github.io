@@ -7,7 +7,7 @@ category: planet-drupal
 ---
 Podcast listenership has been steadily increasing in recent years, and some are even predicting that we're on the verge of a [podcasting explosion](http://contently.com/strategist/2014/10/21/4-predictions-from-top-media-minds/). With that being said, it's pretty likely you'll get tasked with creating an iTunes podcast feed. Luckily, it's quite simple to create one on your Drupal site with Views.
 
-<p class="no-margin"><strong>Required modules</strong></p>
+###Required modules
 <ul>
 <li class="no-margin"><a href="https://www.drupal.org/project/views">Views</a></li>
 <li class="no-margin"><a href="https://www.drupal.org/project/views_rss">Views RSS</a></li>
@@ -16,7 +16,7 @@ Podcast listenership has been steadily increasing in recent years, and some are 
 <li><a href="https://www.drupal.org/project/getid3">getID3()</a><em> (dependency for Views RSS: iTunes Elements)</em></li>
 </ul>
 
-###Create/Modify content type for feed
+##Create/Modify content type for feed
 1. Install and enable the required modules.
     <pre><code class="language-bash">drush en views views_ui views_rss views_rss_core views_rss_itunes libraries getid3 -y</code></pre>
     - Create a new folder in your libraries folder like so: <code class="language-bash">sites/all/libraries/getid3</code>.
@@ -51,7 +51,7 @@ Podcast listenership has been steadily increasing in recent years, and some are 
 
     <img src="{{ site.url }}/images/posts/itunes/file-types.jpg" alt="Allowed file extensions"/>
 
-###Create the Feed view
+##Create the Feed view
 For this example, I'll be recreating the sample feed from the [Making a Podcast](https://www.apple.com/sg/itunes/podcasts/specs.html) guide by Apple.
 
 1. Create a new view for your content type.
@@ -114,20 +114,20 @@ For this example, I'll be recreating the sample feed from the [Making a Podcast]
         </ul>
 6. If you scroll down to the Preview panel, you should see a nice XML file ready to be sent over to iTunes. But before that, we need to make sure our feed passes validation.
 
-###Testing your feed file
+##Testing your feed file
 1. There are a couple ways you can do this. I exported my podcast.rss file and hosted it on my GitHub account, but you can host it anywhere you want. If you have a staging site to deploy to for testing, even better. Go to [Cast Feed Validator](http://castfeedvalidator.com/) and enter the URL to your feed file.
 2. If all goes well, you should see something like this:
 
     <img src="{{ site.url }}/images/posts/itunes/validation.jpg" alt="Feed validation"/>
 3. Note that if you exported your podcast.rss file from local development, and your site domain isn't a legit domain (I use **.dev** on my local), your feed will not validate. But this can be ignored because once you deploy to an actual site, this issue will be resolved.
 
-###If you run into AJAX errors...
+##If you run into AJAX errors...
 I'm not too sure if this is a localised issue or not, so I'm just adding on what I did to resolve the AJAX issues I encountered.
 
 - Downgrade the getid3 module to version 7.x-1.0
 - Double-check that Drupal recognises the getid3 library by checking Status Report
 - Make sure the getid3 library path matches the actual folder name in your Libraries folder
 
-###Wrap-up
+##Wrap-up
 And that's pretty much it. Your feed should be ready for submission to the iTunes store. I suggest using the [Making a Podcast](https://www.apple.com/sg/itunes/podcasts/specs.html) documentation as a checklist just to ensure everything is in order. Happy podcasting!
 

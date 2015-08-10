@@ -10,13 +10,13 @@ And that's also why, more than twenty years later, I must have [DOSBox](http://w
 
 Back to the topic at hand. As a web developer, using the terminal is part and parcel of my day. But other than installing iTerm2 and customising its colour scheme, I never really did anything more. I recently chanced upon this [article](http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/) by [Mike Buss](http://mikebuss.com/) on optimising the terminal experience and decided to try it out as well.
 
-###What is shell?
+##What is shell?
 Shell is simply a command line interface (CLI) that allows users to interact with the computer's operating system. Most people are used to graphical user interfaces (GUI) like Windows or OSX. Personally, I think people shy away from the command line because of the [Hollywood Hacking](http://tvtropes.org/pmwiki/pmwiki.php/Main/HollywoodHacking) trope that associate typing commands with hard-core hacking. Well, pointy-clicky with a mouse is never as fast tappity-tap on a keyboard. Just saying.
 
-###Bash vs Zsh
+##Bash vs Zsh
 Bash is the default shell on Linux and Mac OS X. Zsh is an interactive shell which incorporates a lot of useful features from other shells. In addition, there's a bunch of things Zsh can do to make your terminal experience better. Enhanced auto-completions and globbing, spell correction, path replacement, the list goes on.
 
-###My migration experience
+##My migration experience
 I was not a terminal power-user to begin with, so it was pretty easy for me to just move over from Bash to Zsh. I would think that people who have customised their Bash configurations to a T may probably take longer to move everything over properly.
 
 <p class="no-margin"><strong>List of applications installed</strong></p>

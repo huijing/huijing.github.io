@@ -12,8 +12,7 @@ I have a habit of saying yes to requests before I realise I have never done said
 
 All I had to start with, was 128 pictures of cakes and confectioneries. This made things really interesting. The good part about this project was that my friend was a great client. She trusted me to do my job well, and was always available to answer any questions I had about her business.
 
-###Understanding the business
-
+##Understanding the business
 The first thing I did was to just sit down and talk with her so I could really understand how her business worked. We covered typical questions like what products she offers, how much everything cost and so on. She walked me through how a typical order took place from start to delivery. I asked about the business itself, why she set it up in the first place, and how she felt about the business, so we could establish a suitable design direction. This also helped me with copy-writing for the site.
 
 <p class="no-margin"><strong>Key takeaways were:</strong></p>
@@ -29,8 +28,7 @@ The first thing I did was to just sit down and talk with her so I could really u
 <li class>About half her customers were pre-dominantly Chinese-speaking</li>
 </ul>
 
-###Site architecture and content
-
+##Site architecture and content
 The site would be built on Drupal (unsurprising, I know) and have multi-lingual functionality (just English and Chinese, really). I'd done a number of multi-lingual setups by now so I was fully aware of how well Drupal handled multi-language (ergo, how easy my life would be).
 
 <p class="no-margin">It wouldn't be a complicated affair. Prospective customers who landed on the site could:</p>
@@ -43,8 +41,7 @@ The site would be built on Drupal (unsurprising, I know) and have multi-lingual 
 
 Given that most customers had similar questions, I thought it made sense to have the answers to those questions laid out clearly on the site in the *How to order* page. Contact options were made easily accessible so visitors didn't have to hunt for a way to contact the store.
 
-###Visual design
-
+##Visual design
 The bakery was essentially a one-woman operation, and cakes were made to order and delivered immediately after they were baked. Given the personalised nature of her products, I went with a warm and friendly colour palette. I wanted the site to feel welcoming, like you could almost smell the freshly baked cakes. The site's design was thus inspired by the look of small bakery store-fronts, the kind with canvas awnings above their store windows.
 
 My go-to resource for textures is [Subtle Patterns](http://subtlepatterns.com/). Their name is self-explanatory. All the textures are free and you get both the normal and 2x versions in your download. 
@@ -66,16 +63,14 @@ Continuing with the theme of old-school bakery, I decided on using wood textures
 
 I was never formally trained in design school, so the idea of creating static mock-ups in Photoshop was, to me, a tiresome affair. By now, I had created quite a number of custom responsive themes from my [starter-kit](https://www.drupal.org/sandbox/hj_chen/2345293) so I was able to set it up quickly and make all my design decisions from the browser itself. I'd like to take the time to show my appreciation for the fact that CSS can now do so many things and that devtools exist. 
 
-###Site building
-
+##Site building
 When I say multi-language Drupal, you say [i18n](https://www.drupal.org/project/i18n). I cannot say enough about the robustness of Drupal's multi-language support and the fact that Drupal 8 is making it even better just brings a smile to my face.
 
 One another thing I tried out with this site was [Isotope](http://isotope.metafizzy.co/) for filtering of images. Turns out, there's already a module for that called [Views isotope](https://www.drupal.org/project/views_isotope). The integration with Views is pretty smooth and didn't take too long set up.
 
 I also took some extra time on the contact form. I didn't want a twenty-field form that would turn customers off, but I still wanted to capture the information my friend required and streamline some of the communication between them. The logical solution to this problem would be conditional fields, where customers would only see and fill in the fields relevant to the type of cake they wanted.
 
-###Hosting and server set-up
-
+##Hosting and server set-up
 My personal domain was registered through [NameSilo](http://www.namesilo.com/) and I never had any bad experiences with them, so I registered the domain name 7lovebakery.com with NameSilo as well. But web hosting was something I really had to think through.
 
 As a developer, I wanted to have full access to the server, and freedom to install whatever I needed (Git and Drush) without having to go through the technical team of the hosting company. After exploring a number of shared hosting services, I realised the best way to go was to have a dedicated server. But as a small business, my friend didn't have a big budget for this. I settled with using [DigitalOcean](https://www.digitalocean.com/) and I must say, that was a good decision.
@@ -84,8 +79,7 @@ Even though I'd never set up my own server before, the documentation is absolute
 
 If a larger budget was available, I'd actually go for a dedicated Drupal hosting platform like [Pantheon](https://pantheon.io/) or [Acquia](https://www.acquia.com/) because they handle Drupal updates for you. I've had some experience with Acquia Cloud Enterprise and I must say, the response time is pretty quick. Definitely something to keep in mind for clients who can afford it.
 
-###Site optimisations and performance
-
+##Site optimisations and performance
 Aside the from [basic site optimisations]({{ site.url }}/blog/drupal-101-basic-site-optimisations/) I do for every Drupal site I deploy, I also made use of [Cloudflare](https://www.cloudflare.com/) to speed it up. In this day and age, we can't have resource heavy sites clogging up our browser experience. All images used were run through Drupal's own image processor. I find it useful to run the site through performance tests just to check if there are any optimisations that I missed out.
 
 <figure>
@@ -98,6 +92,5 @@ Aside the from [basic site optimisations]({{ site.url }}/blog/drupal-101-basic-s
 <img src="{{ site.url }}/images/posts/7love/gtmetrix.jpg" alt="GTMetrix speed test"/>
 </figure>
 
-###Wrap-up
-
+##Wrap-up
 I'm really fond of this project because I learnt so much from it, from visual design to server set-up. I may not be the best sysadmin or visual designer, but having gone through the process, I've learnt to appreciate these roles even more.

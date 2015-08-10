@@ -78,14 +78,14 @@ I chose to use the uncreative <code class="language-bash">jsa</code> as the alia
 
 Ok, so there are lots of files in this new site we spun up. I personally think the documentation on the Jekyll site is fantastic. So I'm going to just very briefly sum up what all these shiny new files do.
 
-### _config.yml
+## _config.yml
 
 - Site settings go in this file and you can set defaults to be used on every post or page
 - All configuration options and instructions can be found [here](http://jekyllrb.com/docs/configuration/)
 - Site-wide variables can be declared here and used throughout the site via liquid tags, e.g. <code class="language-bash">{% raw %}{{ site.github_username }}{% endraw %}</code>
 - Jekyll comes with a bunch of variables already. Full list [here](http://jekyllrb.com/docs/variables/)
 
-### _includes
+## _includes
 
 - Reusable HTML code snippets go here
 - Commonly used for, but definitely not limited to, headers and footers
@@ -96,7 +96,7 @@ Ok, so there are lots of files in this new site we spun up. I personally think t
 
 - Benefits include, only having to change your code in one place if you decide to change address in your footer
 
-### _layouts
+## _layouts
 
 - Layout templates are written in HTML
 - Layouts can be applied to your post or page via the YAML front matter, which must be the first thing in the file
@@ -113,7 +113,7 @@ title: I built a Jekyll site and you won't believe what happened next
     {% raw %}{{ content }}{% endraw %}
 &lt;/div&gt;</code></pre>
 
-### _posts
+## _posts
 
 - You can write your posts in markdown or plain HTML
 - Posts must be named in the format <code class="language-bash">YYYY-MM-DD-title.ext</code>
@@ -123,21 +123,21 @@ title: I built a Jekyll site and you won't believe what happened next
 and this will give you a URL of <code class="language-bash">http://www.SITENAME.com/blog/POST-TITLE/</code>
 - Full list of options can be found [here](http://jekyllrb.com/docs/permalinks/)
 
-### _sass
+## _sass
 
 - Jekyll now comes with Sass so take this time to dance around the room
 - If you don't know what Sass is, go [here](http://sass-lang.com/) and get your mind blown
 
-### _site
+## _site
 
 - Jekyll will parse all the files and folders mentioned above and generate your site's files in here
 - Do not change any files here because they will be rewritten every time Jekyll compiles your site
 
-### index.html
+## index.html
 
 - This be your home page, yo.
 
-### Other pages
+## Other pages
 
 - For anything that isn't a post, you can create them in the root of your site
 - The URL will just be <code class="language-bash">http://www.SITENAME.com/PAGE-TITLE.html</code>
