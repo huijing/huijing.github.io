@@ -22,7 +22,7 @@ Drupal also requires a database server, the recommended one being [MySQL](http:/
 <p class="no-margin">Regardless of the option you choose, follow the instructions provided by the software manufacturer to install your software bundle of choice on your machine. If you're on a Mac and feeling adventurous, these are the resources I used to set up my development environment:</p>
 <ul>
   <li class="no-margin"><a href="https://echo.co/blog/os-x-1010-yosemite-local-development-environment-apache-php-and-mysql-homebrew">OS X 10.10 Yosemite Local Development Environment: Apache, PHP, and MySQL with Homebrew</a></li>
-  <li class="no-margin"><a href="https://mallinson.ca/osx-web-development/">Using Dnsmasq for local development on OS X</a></li>
+  <li class="no-margin"><a href="http://passingcuriosity.com/2013/dnsmasq-dev-osx/">Using Dnsmasq for local development on OS X</a></li>
   <li><a href="https://mallinson.ca/osx-web-development/">The Perfect Web Development Environment for Your New Mac</a></li>
 </ul>
 
