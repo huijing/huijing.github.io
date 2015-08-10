@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Drupal 101: Getting started with Drupal 7 theming"
-date: August 05, 2015
-tags: [workflow, gulp, drupal]
+date: August 10, 2015
+tags: [theming, drupal]
 ---
 I still remember the first Drupal theme I built. It was for the [Singapore Gastric Cancer Consortium website]({{ site.url }}/blog/the-one-i-cut-my-teeth-on/), and at the time I barely knew my way around HTML and CSS. I used the [Zen](https://www.drupal.org/project/zen) theme as my starter theme, and unknowingly wrote my CSS in `.scss` files without realising the distinction. I was a little bit confused to why I needed to install a software called Codekit to make everything work but was too busy trying to get the theme up and running to worry about it at the time.
 

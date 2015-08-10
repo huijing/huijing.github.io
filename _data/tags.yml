@@ -52,6 +52,9 @@ server-side:
 site-building:
   name: Site building
 
+theming:
+  name: Theming
+
 ux:
   name: UX
 
