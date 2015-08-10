@@ -21,6 +21,7 @@
 }
 
 .site-branding__image {
+  @include image-replacement;
   display: block;
   min-width: 90px;
   height: 90px;
