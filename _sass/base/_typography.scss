@@ -136,7 +136,7 @@ a {
   }
 }
 
-.site-branding__title {
+.site-branding__title a {
   @include responsive-text-size(hecto);
   font-family: $display-font;
   font-weight: bold;
