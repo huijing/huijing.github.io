@@ -169,6 +169,8 @@ If you look at line 26 of my <code>html.tpl.php</code> file, that line <code cla
 
 To add content to your page via the Blocks interface, we need to declare regions in the `page.tpl.php` file. Drupal utilises something called [Render Arrays](https://www.drupal.org/node/930760) to output content on your page. Before printing anything to the region, we need to check if there's any content in it at all, so the variable is wrapped in an if statement. Each region is identified by its machine name, which is defined in the `.info` file. I usually wrap the conditional outside the containing element because I don't want empty mark-up if nothing is there.
 
+For page elements that don't belong in any region, they also can be added to the `page.tpl.php` file using the Render API. 
+
 <pre class="line-numbers"><code class="language-php">
 &lt;header class="site-header"&gt;
 
