@@ -57,8 +57,8 @@ The <code class="language-markup">&lt;picture&gt;</code> element is like a wrapp
 
 <p>
 <picture>
-  <source media="(min-width: 960px)" srcset="{{ site.url }}/images/posts/responsive-images/ticker-tape-large.jpg 1024w" sizes="50vw">
-  <source media="(min-width: 575px)" srcset="{{ site.url }}/images/posts/responsive-images/ticker-tape-medium.jpg 640w" sizes="60vw">
+  <source media="(min-width: 960px)" srcset="{{ site.url }}/images/posts/responsive-images/ticker-tape-large.jpg">
+  <source media="(min-width: 575px)" srcset="{{ site.url }}/images/posts/responsive-images/ticker-tape-medium.jpg">
   <img src="{{ site.url }}/images/posts/responsive-images/ticker-tape-small.jpg" alt="USWNT ticker-tape parade">
 </picture>
 </p>

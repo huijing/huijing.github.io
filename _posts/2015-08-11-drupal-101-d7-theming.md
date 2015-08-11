@@ -36,6 +36,8 @@ Optional but recommended to have. This is a brief description of your theme, whi
 description = A custom responsive Godzilla-based theme
 </code></pre>
 
+<img srcset="{{ site.url }}/images/posts/d7-theming/info-480.jpg 480w, {{ site.url }}/images/posts/d7-theming/info-640.jpg 640w, {{ site.url }}/images/posts/d7-theming/info-960.jpg 960w, {{ site.url }}/images/posts/d7-theming/info-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/d7-theming/info-640.jpg" alt="Theme selection" />
+
 <p class="no-margin"><strong>core</strong> <em>(required)</em><br>
 Indicates what major version of Drupal the theme is compatible with. If this does not match the version of Drupal installed, the theme will be disabled.</p>
 <pre><code class="language-markup">
