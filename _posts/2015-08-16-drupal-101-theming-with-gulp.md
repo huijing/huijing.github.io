@@ -108,7 +108,7 @@ I made the decision to handle performance optimisation through Drupal itself. Dr
   "scripts": {
         "postinstall": "find node_modules/ -name '*.info' -type f -delete"
   },
-  "author": "huijing <kakyou_tensai@yahoo.com>",
+  "author": "huijing &lt;kakyou_tensai@yahoo.com&gt;",
   "license": "ISC"
 }</code></pre>
 
