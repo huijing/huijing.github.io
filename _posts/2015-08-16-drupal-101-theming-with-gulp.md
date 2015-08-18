@@ -2,6 +2,7 @@
 layout: post
 title: "Drupal 101: Theming Drupal 7 with gulp"
 date: August 16, 2015
+image: drupal-gulp.jpg
 tags: [theming, drupal, workflow]
 category: planet-drupal
 ---
