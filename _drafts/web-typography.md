@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Typography on the web"
-date: July 20, 2015
+title: "Basics of web typography"
+date: August 20, 2015
 tags: [css, typography]
 ---
 
