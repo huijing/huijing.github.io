@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: Improving the content authoring experience"
 date: April 10, 2015
-tags: [drupal, ux]
+tags: [drupal7, design]
 category: planet-drupal
 ---
 Episode 101 of [Jen Simmons'](http://jensimmons.com/) wonderful podcast [The Web Ahead](http://thewebahead.net/101) featured content strategist [Eileen Webb](http://webmeadow.com/). Good stuff from start to finish, you should really check it out. There was one particular point that resonated with me, when they talked about user experience of people whose job is to add content to the website.

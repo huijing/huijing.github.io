@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: An alternative method for accordions"
 date: April 06, 2015
-tags: [drupal, site-building]
+tags: [drupal7, site-building]
 category: planet-drupal
 ---
 Accordions are commonly used graphical control element. The [Yahoo Design Pattern Library](https://developer.yahoo.com/ypatterns/navigation/accordion.html) has a good explanation on the purpose of accordions, as well as recommendations on their usage. Accordions are usually used when you have limited space and a long list of related items. Seriously, the [Yahoo Design Pattern Library](https://developer.yahoo.com/ypatterns/) is a valuable reference for all designers. I recommend you bookmark it.

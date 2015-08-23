@@ -8,6 +8,10 @@ img {
   display: block;
 }
 
+picture img {
+  margin-bottom: rhythm(1);
+}
+
 .icon {
   > svg {
     display: inline-block;

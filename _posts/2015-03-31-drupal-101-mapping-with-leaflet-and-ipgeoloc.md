@@ -3,7 +3,7 @@ layout: post
 title: "Drupal 101: Mapping with Leaflet and IP Geolocation"
 date: March 31, 2015
 image: mapping.jpg
-tags: [drupal, site-building]
+tags: [drupal7, site-building]
 category: planet-drupal
 ---
 Store locators are a useful functionality for businesses who have multiple outlets. Drupal has a number of map rendering modules that allow us to provide store locator functionality. This article will cover the basics of setting up a simple store locator with proximity search functionality.

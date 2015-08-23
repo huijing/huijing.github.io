@@ -4,7 +4,7 @@ title: "The one on the tightest of deadlines"
 date: April 27, 2015
 project: xinMSN
 image: project-9.jpg
-tags: [drupal, projects]
+tags: [drupal7, projects]
 ---
 I feel large-scale projects are like play-off games. You can't expect to win without adequate preparation. You need to scout your opponents and formulate a game plan, which involves matching up your opponent's strengths and weaknesses against your own. You may have gotten away with just winging it during the regular season, but come play-off time, everybody is out to win, and every ounce of preparation is critical.
 

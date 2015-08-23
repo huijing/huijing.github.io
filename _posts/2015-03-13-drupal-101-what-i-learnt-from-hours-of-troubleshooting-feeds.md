@@ -4,7 +4,7 @@ title: "Drupal 101: What I learnt from hours of troubleshooting Feeds"
 date: March 13, 2015
 image: flip-table.jpg
 description: This post will run through the basic feed importers and some key points I learnt from hours upon hours of troubleshooting.
-tags: [drupal, site-building]
+tags: [drupal7, site-building]
 category: planet-drupal
 ---
 Feeds is a very useful module when it comes to importing content into your Drupal site. However, it's not very forgiving, in that your data has to be formatted just right for the feed to take. This post will run through the basic feed importers and some key points I learnt from hours upon hours of troubleshooting. I'm pretty sure I've spent upwards of 50 hours dealing with feeds thus far in my life.

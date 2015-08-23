@@ -3,7 +3,7 @@ layout: post
 title: "Frameworks and libraries are not the problem, people are"
 date: August 02, 2015
 image: framework-problem.jpg
-tags: [retrospective, workflow, frameworks]
+tags: [opinion, workflow, frameworks]
 ---
 I'll be the first to admit that I'm definitely not the best developer around, not by a long shot. But being a web developer is a dream job to me. I really love doing this, and I get paid for it? Double awesome. I've had non-developer friends walk by my screen after hours and ask, why are you still working? To which I say, this isn't work stuff, it's my own thing. The most common response is, "your screen looks exactly the same as when you actually are working", usually accompanied with an eye-roll. 
 

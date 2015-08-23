@@ -1,14 +1,14 @@
-command-line:
-  name: Command Line
-
 css:
   name: CSS
 
 design:
   name: Design
 
-drupal:
-  name: Drupal
+drupal7:
+  name: Drupal 7
+
+drupal8:
+  name: Drupal 8
 
 frameworks:
   name: Frameworks
@@ -24,6 +24,9 @@ github-pages:
 
 hackathon:
   name: Hackathon
+
+i18n:
+  name: I18n
 
 jekyll:
   name: Jekyll
@@ -43,20 +46,14 @@ podcasts:
 projects:
   name: Projects
 
-retrospective:
-  name: Retrospective
-
-server-side:
-  name: Server side
+sysadmin:
+  name: SysAdmin
 
 site-building:
   name: Site building
 
 theming:
   name: Theming
-
-ux:
-  name: UX
 
 workflow:
   name: Workflow

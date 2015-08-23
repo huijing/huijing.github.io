@@ -3,7 +3,7 @@ layout: post
 title: "Drupal 101: Basic site optimisations"
 date: March 1, 2015
 image: site-optim.jpg
-tags: [drupal, performance]
+tags: [drupal7, performance]
 category: planet-drupal
 ---
 It has been [statistically proven](https://blog.kissmetrics.com/loading-time/?wide=1) that nobody likes a slow website. We have all moved on from the days when you'd patiently wait for a page to load over that lovely dial-up modem. Nowadays, people want their pretty content, and they want it loaded instantaneously (or at most by 2 blinks).

@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: Implementing Google Publisher Tags"
 date: March 09, 2015
-tags: [drupal, site-building]
+tags: [drupal7, site-building]
 category: planet-drupal
 ---
 Ads are an inevitable part of the web. I've been listening to the [Internet History Podcast](http://www.internethistorypodcast.com/) by [Brian McCullough](https://twitter.com/brianmcc) a lot lately and there's an entire chapter (the podcast is divided into chapters each covering a theme) dedicated to search engines and advertising. Make sure to catch the supplemental interview episodes of Chapter 4, as those shed a lot of light about why the web turned out the way it did (with so many ads). 

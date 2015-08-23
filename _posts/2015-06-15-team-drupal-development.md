@@ -3,7 +3,7 @@ layout: post
 title: "Developing Drupal sites as a team"
 date: June 15, 2015
 image: drupal-team.jpg
-tags: [drupal, workflow]
+tags: [drupal7, workflow]
 category: planet-drupal
 ---
 A lot of people, myself included, start out with Drupal on their own, developing and building everything as a one-person operation. When we're working by ourselves, there will be certain good practices that we neglect, either out of convenience (there's no point doing X since I'm the only one touching this project), or out of ignorance (wow, I had no idea that was how Y was supposed to be used). 

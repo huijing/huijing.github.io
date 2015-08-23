@@ -4,7 +4,7 @@ title: "Drupal 101: Theming Drupal 7 with gulp"
 date: August 16, 2015
 image: drupal-gulp.jpg
 description: "If you write a lot of custom Drupal themes, gulp can really help streamline your workflow. Every second saved counts."
-tags: [theming, drupal, workflow]
+tags: [theming, drupal7, workflow]
 category: planet-drupal
 ---
 I still remember the first Drupal 7 theme I built. It was for the [Singapore Gastric Cancer Consortium website]({{ site.url }}/blog/the-one-i-cut-my-teeth-on/), and at the time I barely knew my way around HTML and CSS. I used the [Zen](https://www.drupal.org/project/zen) theme as my starter theme, and unknowingly wrote my CSS in `.scss` files without realising the distinction. I was a little bit confused to why I needed to install a software called Codekit to make everything work but was too busy trying to get the theme up and running to worry about it at the time.
@@ -144,7 +144,7 @@ gulp.task('sass', function () {
   .pipe(browserSync.reload({stream:true})) // reload the stream
 });</code></pre>
     
-    <p class="no-margin">We'll also want a task for our favourite drush command, <code>drush cc all</code>. <strong>Clearing cache</strong> is the Drupal equivalent of <em>"Did you turn it off and on again?"</em>. I don't know about you but if I had a dollar for every time I ran this command, I'd be sipping Piña coladas :cocktail: all day on a beach in the Caribbean :sunglasses: by now. If you aren't using Drush, you really should. <a href="http://localhost:1234/blog/team-drupal-development#installing-drush">Here’s</a> an earlier post on how to get set up with Drush.</p>
+    <p class="no-margin">We'll also want a task for our favourite drush command, <code>drush cc all</code>. <strong>Clearing cache</strong> is the Drupal equivalent of <em>"Did you turn it off and on again?"</em>. I don't know about you but if I had a dollar for every time I ran this command, I'd be sipping Piña coladas :cocktail: all day on a beach in the Caribbean :sunglasses: by now. If you aren't using Drush, you really should. <a href="{{ site.url }}/blog/team-drupal-development#installing-drush">Here’s</a> an earlier post on how to get set up with Drush.</p>
     <pre><code class="language-javascript">/**
  * @task clearcache
  * Clear all caches

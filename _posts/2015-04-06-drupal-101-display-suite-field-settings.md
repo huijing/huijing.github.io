@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: Customising field markup with Display Suite"
 date: April 06, 2015
-tags: [drupal, site-building]
+tags: [drupal7, site-building]
 category: planet-drupal
 ---
 A minor complaint I often have about Drupal is the mess of markup it generates. Don't get me wrong, there are times when all those default classes help when it comes to styling, but there are also times when there is so much nesting it puts Inception to shame. (This is a repeat joke, excuse me if you've heard me mention it before.)

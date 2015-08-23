@@ -2,7 +2,7 @@
 layout: post
 title: "Setting a custom domain for GitHub pages"
 date: January 11, 2015
-tags: [github-pages, server-side]
+tags: [github-pages, sysadmin]
 ---
 As you may know by now, this site is hosted on GitHub Pages. There is no limit to how many "sites" you can host on GitHub Pages if you use the project pages method, but the by default, the URL of your site would be either <code class="language-bash">http://USER_NAME.GitHub.io</code> or (if you're using project pages) <code class="language-bash">http://USER_NAME.GitHub.io/SITE_NAME</code>. Which is totally cool if you ask me, but sometimes, we'd like to have our own custom domain name that we paid for with our own hard-earned cash.
 

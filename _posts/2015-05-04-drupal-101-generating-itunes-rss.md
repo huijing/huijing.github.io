@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: Creating an iTunes podcast feed"
 date: May 04, 2015
-tags: [drupal, site-building]
+tags: [drupal7, site-building]
 category: planet-drupal
 ---
 Podcast listenership has been steadily increasing in recent years, and some are even predicting that we're on the verge of a [podcasting explosion](http://contently.com/strategist/2014/10/21/4-predictions-from-top-media-minds/). With that being said, it's pretty likely you'll get tasked with creating an iTunes podcast feed. Luckily, it's quite simple to create one on your Drupal site with Views.

@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: Setting up i18n"
 date: June 28, 2015
-tags: [drupal, i18n, site-building]
+tags: [drupal7, i18n, site-building]
 category: planet-drupal
 ---
 One of the best things about Drupal is its robust multilingual support. If you need to build a website that supports multiple languages, Drupal should definitely be an option to consider.

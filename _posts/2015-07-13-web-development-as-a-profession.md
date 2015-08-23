@@ -2,7 +2,7 @@
 layout: post
 title: "Web development as a profession"
 date: July 13, 2015
-tags: [retrospective]
+tags: [opinion]
 ---
 
 Coding has become the new black. Cliche as this may sound, we cannot discount the fact that in this day and age, the tech industry is worth billions of dollars. The most enticing part of the tech industry is its low cost of entry. Think about it, at the very least, all you need to write code is a computer with a text editor. Computers are no longer the monolithic mainframes of yesteryear. Most people have powerful computers in their pockets. It is only natural that coding has become an in-demand skill. Somebody needs to tell these computers what to do, right?

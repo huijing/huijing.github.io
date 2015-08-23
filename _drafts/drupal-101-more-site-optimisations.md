@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: More site optimisations"
 date: March 1, 2015
-tags: [drupal, performance]
+tags: [drupal7, performance]
 category: planet-drupal
 ---
 

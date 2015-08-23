@@ -2,7 +2,7 @@
 layout: post
 title: "Switching from bash to zsh"
 date: May 31, 2015
-tags: [workflow, command-line]
+tags: [workflow]
 ---
 For someone who never learned "computers" in school, I'm actually pretty fond of the command line interface. I was one of those kids who was lucky enough to have a computer at home since before I was born. The first operating system I could remember using was MS-DOS. So it was very important to learn the command line so I could load and play games. 
 

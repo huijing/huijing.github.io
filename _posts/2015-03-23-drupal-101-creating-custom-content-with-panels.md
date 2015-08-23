@@ -3,7 +3,7 @@ layout: post
 title: "Drupal 101: Creating custom content with Panels"
 date: March 23, 2015
 image: handcode.jpg
-tags: [drupal, site-building]
+tags: [drupal7, site-building]
 category: planet-drupal
 ---
 If you ever find yourself needing to create a static page in Drupal, perhaps for a temporary landing page or an under-construction page, while the site is being fleshed out behind the scenes, an option to consider is via [Panels](https://www.drupal.org/project/panels). I was in the process of building the [DrupalCamp Singapore 2014]({{ site.url }}/blog/the-one-where-people-get-a-say/) website and needed to put up a temporary home page. Using Panels gave me the option of hand-coding the HTML for the page. To do this, you will also need to install the [Chaos tools suite (ctools)](https://www.drupal.org/project/ctools).
