@@ -16,18 +16,8 @@ I first took a peek at Drupal 8 over a year ago when it was in ___ stage just ou
 
     <p class="no-margin">Navigate to wherever you store your local development sites and run the following:</p>
     <pre><code class="language-bash">drush dl drupal-8 --select</code></pre>
-    I suppose you could go for the dev version, but the latest beta will be fine as well.
-2. **Adjust folder permissions for install**  
-    Drupal needs to modify the `settings.php` and `services.yml` file during installation. It also needs to be able to create the `files` folder. Modify the permissions of the *sites > default* folder so Drupal can write to it:
-    <pre><code class="language-bash">chmod a+w sites/default</code></pre>
-    This command changes the permissions on that folder to allow everyone to write to it.
-3. **Create the services.php and services.yml files**  
-    According to the [official documentation](https://api.drupal.org/api/drupal/core!INSTALL.txt/8), Drupal should create these files but if it can't it will prompt you to do so. Well, I never managed to get Drupal to create the settings.php in Drupal 7 either so just make a copy of the `default.services.yml` and the `default.settings.php` file as follows (*assuming you're in the sites > default folder already*):
-    <pre><code class="language-bash">cp default.services.yml services.yml</code></pre>
-    <pre><code class="language-bash">cp default.settings.php settings.php</code></pre>
-    <p class="no-margin">Modify the permissions of the settings.php file so Drupal can write to it during the setup process.</p>
-    <pre><code class="language-bash">chmod a+w settings.php</code></pre>
-4. **Run the install script**  
+    I suppose you could go for the dev version, but the latest beta will be fine as well. Another advantage of using Drush to get the Drupal 8 files is that I didn't have to go through steps 3, 4 and 5.
+2. **Run the install script**  
     Navigate to the base url of your site and you should see something like this:
 
     <picture>
@@ -36,9 +26,19 @@ I first took a peek at Drupal 8 over a year ago when it was in ___ stage just ou
       <img src="{{ site.url }}/images/posts/drupal-8/install-sm-480.jpg" alt="Install Drupal 8">
     </picture>
 
-    The entire process doesn't deviate from Drupal 7 very much, and almost all the fields to be filled are exactly the same. It's just a slightly different look and feel in terms of UI.
+    The entire process doesn't deviate from Drupal 7 very much, and almost all the fields to be filled are exactly the same. It's just a slightly different look and feel in terms of UI. If you get a bunch of warnings at the *Verify requirements* screen because of permissions, you'll have to go through the next three steps.
+3. **Adjust folder permissions for install**  
+    Drupal needs to modify the `settings.php` and `services.yml` file during installation. It also needs to be able to create the `files` folder. Modify the permissions of the *sites > default* folder so Drupal can write to it:
+    <pre><code class="language-bash">chmod a+w sites/default</code></pre>
+    This command changes the permissions on that folder to allow everyone to write to it.
+4. **Create the services.php and services.yml files**  
+    According to the [official documentation](https://api.drupal.org/api/drupal/core!INSTALL.txt/8), Drupal should create these files but if it can't it will prompt you to do so. If you do get this prompt, make a copy of the `default.services.yml` and the `default.settings.php` file as follows (*assuming you're in the sites > default folder already*):
+    <pre><code class="language-bash">cp default.services.yml services.yml</code></pre>
+    <pre><code class="language-bash">cp default.settings.php settings.php</code></pre>
+    <p class="no-margin">Modify the permissions of the settings.php file so Drupal can write to it during the setup process.</p>
+    <pre><code class="language-bash">chmod a+w settings.php</code></pre>
 5. **Adjust file and folder permissions**  
-    When the site is done installing, you'll most likely get a warning message like so:
+    If you had to go through steps 3 and 4, then when the site is done installing, you'll most likely get a warning message like so:
 
     <picture>
       <source media="(min-width: 720px)" srcset="{{ site.url }}/images/posts/drupal-8/permissions-lg-1280.jpg 2x, {{ site.url }}/images/posts/drupal-8/permissions-lg-640.jpg 1x" sizes="60vw">
