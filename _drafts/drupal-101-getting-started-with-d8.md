@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Drupal 101: Getting started with Drupal 8"
-date: August 23, 2015
+date: September 6, 2015
 tags: [drupal8, site-building]
 category: planet-drupal
 ---
 
-As of time of writing, Drupal 8 only has 12 critical issues outstanding. For people who may not be entirely familiar with the software development process, understand that it's not like we start off with a fixed pool of issues which gets smaller as issues are resolved. For a relatively large project like Drupal, on-going development will inevitably introduce new issues. But if you take a look at the issue logs, the issues have been steadily trending downward since we started, and we're really close to a release candidate already.
+As of time of writing, Drupal 8 only has 6 critical issues outstanding. For people who may not be entirely familiar with the software development process, understand that it's not like we start off with a fixed pool of issues which gets smaller as issues are resolved. For a relatively large project like Drupal, on-going development will inevitably introduce new issues. But if you take a look at the issue logs, the issues have been steadily trending downward since we started, and we're really close to a release candidate already.
 
 I first took a peek at Drupal 8 over a year ago when it was in ___ stage just out of curiosity. At that time in my career, I was barely getting the hang of Drupal 7, so I didn't really explore very much beyond clicking around the interface and trying to create some content. Right now, Drupal 8 is in beta-14, and looking pretty good to me. I figured it'd be a good time to go through the process of building a Drupal 8 site and documenting the experience. Because, why not?
 
@@ -16,7 +16,7 @@ I first took a peek at Drupal 8 over a year ago when it was in ___ stage just ou
 
     <p class="no-margin">Navigate to wherever you store your local development sites and run the following:</p>
     <pre><code class="language-bash">drush dl drupal-8 --select</code></pre>
-    I suppose you could go for the dev version, but the latest beta will be fine as well. Another advantage of using Drush to get the Drupal 8 files is that I didn't have to go through steps 3, 4 and 5.
+    I suppose you could go for the dev version, but the latest beta will be fine as well.
 2. **Run the install script**  
     Navigate to the base url of your site and you should see something like this:
 
@@ -67,3 +67,6 @@ I first took a peek at Drupal 8 over a year ago when it was in ___ stage just ou
 <p class="no-margin">You can also check for updates for all modules, including core, with this command:</p>
 <pre><code class="language-bash">drush pm-update</code></pre>
 If you don't want to update everything at the same time, just cancel the command and update each module individually.
+
+##UI differences from Drupal 7
+

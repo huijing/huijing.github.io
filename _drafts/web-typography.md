@@ -5,8 +5,6 @@ date: August 20, 2015
 tags: [css, typography, design]
 ---
 
-## A New Post
-
 Typography
 Font
 Typeface
