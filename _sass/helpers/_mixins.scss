@@ -186,3 +186,35 @@
     }
   }
 }
+
+// ==========
+// VERTICAL ALIGN
+// -----
+// Referenced from http://blog.siftscience.com/blog/2015/the-sass-mixinsplaceholders-i-cant-live-without-for-responsive-web-design
+// ==========
+@mixin image-spacer($ar: 1.00, $max-height: 600px, $min-height: 0, $container-width: 1.00) {
+  @if $min-height <= 1.00 and $min-height > 0 {
+    $container-width: $min-height;
+    $min-height: 0;
+  }
+  &:before {
+    content: '';
+    display: inline-block;
+    padding-top: $ar * 100%;
+    vertical-align: middle;
+  }
+  @media (min-width: ($max-height / ($container-width * $ar))) {
+    height: $max-height;
+    &:before {
+      padding-top: 0;
+      height: 100%;
+    }
+  }
+  @media (max-width: ($min-height / ($container-width * $ar))) {
+    height: $min-height;
+    &:before {
+      padding-top: 0;
+      height: 100%;
+    }
+  }
+}
