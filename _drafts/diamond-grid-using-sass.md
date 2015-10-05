@@ -60,7 +60,9 @@ $med: $gridUnit * 3;
 $large: $gridUnit * 4;
 </code></pre>
 
-<p class="no-margin">Some of you who are much smarter than me would immediately recognise that this method would <strong>NOT</strong> work, because you can't just rotate a bunch of positioned squares and expect them to end up aligned just right.</p>
+Some of you who are much smarter than me would immediately recognise that this method would <strong>NOT</strong> work, because you can't just rotate a bunch of positioned squares and expect them to end up aligned just right.
 
 ##Attempt 2: Clip off them divs
-That didn't go so well. Next idea on the list, CSS clip-path. This CSS property allows us to define a specified clipping region to be displayed. Anything outside this region will 'clipped' and won't be seen. The clipping region can be a path specified as a URL referencing an inline SVG or an external SVG. It can also be a shape method, like those used for [CSS shapes]. Unfortunately, support for CSS clip-path is non-existent for any version of Internet Explorer. Firefox only supports the url() syntax, while Chrome supports shapes and only inline SVG for the url() syntax. 
+That didn't go so well. Next idea on the list, **CSS clip-path**. This CSS property allows us to define a specified clipping region to be displayed. Anything outside this region will 'clipped' and won't be seen. The clipping region can be a path specified as a URL referencing an inline SVG or an external SVG. It can also be a shape method, like those used for [CSS shapes]. Unfortunately, support for CSS clip-path is non-existent for any version of Internet Explorer. Firefox only supports the url() syntax, while Chrome supports shapes and inline SVG for the url() syntax, but not external SVG. I managed to find a cross-browser [polyfill for CSS clip-path](https://github.com/AlfonsoFilho/ClipPath), which should help.
+
+The idea is that each diamond is actually just a square unit with it's corners clipped off, so the length of one square is the diagonal of the diamond. Tweak the variables a little bit, and voila:
