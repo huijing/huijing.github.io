@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Diamond grid layout with Sass"
-date: September 30, 2015
+date: October 8, 2015
 tags: [css]
 ---
 Since I started my career on the web, I've been building websites that follow standard grid layouts. It got to a point where I was telling an intern at my company that developers think in rectangles. I mean, there's nothing wrong with rectangular layouts. They're like your mom's Volvo, steady and reliable. But sometimes, it's fun to try something different. I'm lucky enough to work with some awesome designers, and for a new project, they came up with a diamond-based grid layout. Well then, challenge accepted. (•̀o•́)ง 

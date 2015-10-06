@@ -11,3 +11,8 @@
 .more-link {
   text-align: right;
 }
+
+.external-url:after {
+  content: 'test';
+  display: block;
+}

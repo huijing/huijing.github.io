@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Drupal 101: Getting started with Drupal 8"
-date: September 6, 2015
+date: October 8, 2015
 tags: [drupal8, site-building]
 category: planet-drupal
 ---

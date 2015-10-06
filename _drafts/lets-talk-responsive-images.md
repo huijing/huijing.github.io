@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Let's talk responsive images"
-date: July 20, 2015
+title: "Using Responsive Images (Now)"
+date: October 6, 2015
 tags: [css, performance]
+external_url: http://alistapart.com/article/using-responsive-images-now
+external_site: alistpart
 ---
 
 If you have been reading most of my blog posts, you'll realise that I mention podcasts a lot. Podcasts are actually my number 1 learning resource, as well as how I keep myself up to date with the latest developments on the web. So this is yet another podcast inspired post, on responsive images. There was a great conversation about this on [Episode 99](http://thewebahead.net/99) of The Web Ahead, between Jen Simmons and [Jason Grigsby](https://twitter.com/grigs).
