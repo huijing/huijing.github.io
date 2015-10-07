@@ -13,28 +13,3 @@ $susy: (
   debug: (image: hide),
   columns: 12
   );
-
-// Isolate Style
-// $susy: (
-//   output: isolate,
-//   global-box-sizing: border-box,
-//   debug: (image: show)
-//   );
-
-// Static Style
-// $susy: (
-//   math: static,
-//   columns: 12,
-//   column-width: 60px,
-//   gutters: 1 / 4,
-//   global-box-sizing: border-box,
-//   debug: (image: show)
-//   );
-
-// Asymmetric Grids
-// $susy: (
-//   columns: 1 2 3 4 5,
-//   output: isolate,
-//   global-box-sizing: border-box,
-//   debug: (image: show)
-//   );

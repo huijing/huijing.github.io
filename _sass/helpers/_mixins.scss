@@ -71,40 +71,19 @@
 }
 
 // ==========
-// PLACEHOLDER
+// RETINA IMAGES
 // -----
-// For changing placeholder colors
+// To serve retina background images
+// Reference from https://signalvnoise.com/posts/3271-easy-retina-ready-images-using-scss
 // ==========
-@mixin placeholder($color) {
-  &::-webkit-input-placeholder {
-    color: $color;
-  }
-  &:-moz-placeholder {
-    /* Firefox 18- */
-    color: $color;
-  }
-  &::-moz-placeholder {
-    /* Firefox 19+ */
-    color: $color;
-  }
-  &:-ms-input-placeholder {
-    color: $color;
-  }
-}
-
-// ==========
-// SELECTION STYLES
-// -----
-// For changing background color and text color when text is selected
-// ==========
-@mixin selection($bgColor, $textColor) {
-  &::-moz-selection {
-    background: $bgColor;
-    color: $textColor;
-  }
-  &::selection {
-    background: $bgColor;
-    color: $textColor;
+@mixin image-2x($image, $width, $height) {
+  @media (min--moz-device-pixel-ratio: 1.3),
+         (-o-min-device-pixel-ratio: 2.6/2),
+         (-webkit-min-device-pixel-ratio: 1.3),
+         (min-device-pixel-ratio: 1.3),
+         (min-resolution: 1.3dppx) {
+    background-image: url($image);
+    background-size: $width $height;
   }
 }
 

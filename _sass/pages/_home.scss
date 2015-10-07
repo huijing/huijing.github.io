@@ -12,7 +12,25 @@
   text-align: right;
 }
 
-.external-url:after {
-  content: 'test';
-  display: block;
+.external-url {
+  &:before,
+  &:after {
+    content: '';
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+  }
+  &:before {
+    margin-right: rhythm(0.25);
+  }
+  &:after {
+    margin-left: rhythm(0.5);
+    background: url('/images/icons/icon-link.svg') no-repeat;
+    background-size: cover;
+  }
+}
+
+.alistapart:before {
+  background: url('/images/icons/icon-ala.png') no-repeat;
+  background-size: cover;
 }

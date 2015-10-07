@@ -8,7 +8,7 @@ layout: default
       <span class="post-meta abbey small">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h2>
       {% if post.external_url %}
-      <a class="external-url no-underline english-walnut" href="{{ post.external_url }}">{{ post.title }}</a>
+      <a class="external-url no-underline english-walnut {{ post.external_site }}" href="{{ post.external_url }}">{{ post.title }}</a>
       {% else %}
       <a class="no-underline english-walnut" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       {% endif %}
