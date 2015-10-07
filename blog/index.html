@@ -9,7 +9,11 @@ title: Blog
     <li class="no-list-style">
       <span class="post-meta abbey">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h2 class="no-margin">
+        {% if post.external_url %}
+        <a class="external-url post-link no-underline english-walnut {{ post.external_site }}" href="{{ post.external_url }}">{{ post.title }}</a>
+        {% else %}
         <a class="post-link no-underline english-walnut" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {% endif %}
       </h2>
       <p class="post-summary">{{ post.content | strip_html | truncatewords:40}}</p>
     </li>
