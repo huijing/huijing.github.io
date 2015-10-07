@@ -11,7 +11,7 @@ title: Work
   {% for post in site.tags.projects %}
   <div class="project grid-3__item">
     <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
-      <img class="project__image"src="{{ site.url }}/images/posts/{{ post.image }}" alt="{{ post.image }}"/>
+      <img class="project__image" src="{{ site.url }}/images/posts/{{ post.image }}" alt="{{ post.image }}"/>
       <h3 class="project__title no-margin">{{ post.project }}</h3>
     </a>
   </div>
