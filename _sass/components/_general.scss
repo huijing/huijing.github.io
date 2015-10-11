@@ -49,3 +49,9 @@ picture img {
   width: 32px;
   display: inline;
 }
+
+.cp_embed_iframe {
+  @include center;
+  display: block;
+  max-width: 600px;
+}

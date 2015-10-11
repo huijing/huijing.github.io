@@ -7,17 +7,17 @@ tags: [css]
 Since I started my career on the web, I've been building websites that follow standard grid layouts. It got to a point where I was telling an intern at my company that developers think in rectangles. I mean, there's nothing wrong with rectangular layouts. They're like your mom's Volvo, steady and reliable. But sometimes, it's fun to try something different. I'm lucky enough to work with some awesome designers, and for a new project, they came up with a diamond-based grid layout. Well then, challenge accepted. (•̀o•́)ง 
 
 ##Attempt 1: Just rotate them divs
-On the first pass, I hadn't gotten my hands on the actual design yet, but started experimenting with HTML and CSS first, just to try out a few ideas I had. The first thing that came to mind was using CSS transforms, considering I had already [written about it] earlier. Nothing a little `transform: rotate(45deg)` couldn't do, right? Unfortunately, things weren't all that straightforward. The general layout consisted of 2 small diamonds, 2 medium diamonds and 1 large diamond, all aligned to relative to each other on the grid. There would also be an alternate layout to switch things up a bit.
+On the first pass, I hadn't gotten my hands on the actual design yet, but started experimenting with HTML and CSS first, just to try out a few ideas I had. The first thing that came to mind was using CSS transforms, considering I had already [written about it]({{ site.url }}/blog/basics-of-css-transforms/) earlier. Nothing a little `transform: rotate(45deg)` couldn't do, right? Unfortunately, things weren't all that straightforward. The general layout consisted of 2 small diamonds, 2 medium diamonds and 1 large diamond, all aligned to relative to each other on the grid. There would also be an alternate layout to switch things up a bit.
 
 <div class="figure-wrapper">
-<figure class="two-col">
-<figcaption>Main layout</figcaption>
-<img src="{{ site.url }}/images/posts/css-shapes/magazine-layout.jpg" alt="Magazine layout"/>
-</figure>
-<figure class="two-col">
-<figcaption>Alternate layout</figcaption>
-<img src="{{ site.url }}/images/posts/css-shapes/web-layout.jpg" alt="Web layout"/>
-</figure>
+    <figure class="two-col">
+        <figcaption>Main layout</figcaption>
+        <img src="{{ site.url }}/images/posts/diamond/layout-1.jpg" srcset="{{ site.url }}/images/posts/diamond/layout-1@2x.jpg 2x" alt="Layout 1"/>
+    </figure>
+    <figure class="two-col">
+        <figcaption>Alternate layout</figcaption>
+        <img src="{{ site.url }}/images/posts/diamond/layout-2.jpg" srcset="{{ site.url }}/images/posts/diamond/layout-2@2x.jpg 2x" alt="Layout 2"/>
+    </figure>
 </div>
 
 The initial mark-up for the grid was pretty simple. A wrapper for the entire grid, individual wrappers for each diamond and some placeholder content.
@@ -25,33 +25,33 @@ The initial mark-up for the grid was pretty simple. A wrapper for the entire gri
 <pre><code class="language-markup">&lt;div class="grid-wrapper layout-1">
     &lt;div class="grid-item diamond-small diamond-s1">
         &lt;div class="diamond__content">
-            &lt;p>This is a small diamond.&lt;/p>
+            &lt;p>small diamond&lt;/p>
         &lt;/div>
     &lt;/div>
     &lt;div class="grid-item diamond-med diamond-m1">
         &lt;div class="diamond__content">
-            &lt;p>This is a medium diamond.&lt;/p>
+            &lt;p>medium diamond&lt;/p>
         &lt;/div>
     &lt;/div>
     &lt;div class="grid-item diamond-large">
         &lt;div class="diamond__content">
-            &lt;p>This is a large diamond.&lt;/p>
+            &lt;p>large diamond&lt;/p>
         &lt;/div>
     &lt;/div>
     &lt;div class="grid-item diamond-small diamond-s2">
         &lt;div class="diamond__content">
-            &lt;p>This is a small diamond.&lt;/p>
+            &lt;p>small diamond&lt;/p>
         &lt;/div>
     &lt;/div>
     &lt;div class="grid-item diamond-med diamond-m2">
         &lt;div class="diamond__content">
-            &lt;p>This is a medium diamond.&lt;/p>
+            &lt;p>medium diamond&lt;/p>
         &lt;/div>
     &lt;/div>
 &lt;/div>
 </code></pre>
 
-<p class="no-margin">Sass variables came in very handy in this case as I could create a grid-unit to use as a base for calculating the widths of all the diamonds. I used an arbitrary number of <code class="language-css">95vw / 16</code> as the base unit just to see if it would work.</p>
+Sass variables came in very handy in this case as I could create a grid-unit to use as a base for calculating the widths of all the diamonds. I used an arbitrary number of <code class="language-css">95vw / 16</code> as the base unit just to see if it would work.
 
 <pre><code class="language-css">
 $gridUnit: 95vw / 16;
@@ -60,9 +60,30 @@ $med: $gridUnit * 3;
 $large: $gridUnit * 4;
 </code></pre>
 
-Some of you who are much smarter than me would immediately recognise that this method would <strong>NOT</strong> work, because you can't just rotate a bunch of positioned squares and expect them to end up aligned just right.
+Some of you who are much smarter than me would immediately recognise that this method would <strong>NOT</strong> work, at least not without some trigonometry, because you can't just rotate a bunch of positioned squares and expect them to end up aligned just right.
+
+<div class="figure-wrapper">
+    <figure class="two-col">
+        <figcaption>Piece of cake, just apply rotation...</figcaption>
+        <img src="{{ site.url }}/images/posts/diamond/attempt1a.jpg" srcset="{{ site.url }}/images/posts/diamond/attempt1a@2x.jpg 2x" alt="Attempt 1"/>
+    </figure>
+    <figure class="two-col">
+        <figcaption>Crap... ಠ_ಠ</figcaption>
+        <img src="{{ site.url }}/images/posts/diamond/attempt1b.jpg" srcset="{{ site.url }}/images/posts/diamond/attempt1b@2x.jpg 2x" alt="Attempt 1 fail"/>
+    </figure>
+</div>
 
 ##Attempt 2: Clip off them divs
 That didn't go so well. Next idea on the list, **CSS clip-path**. This CSS property allows us to define a specified clipping region to be displayed. Anything outside this region will 'clipped' and won't be seen. The clipping region can be a path specified as a URL referencing an inline SVG or an external SVG. It can also be a shape method, like those used for [CSS shapes]. Unfortunately, support for CSS clip-path is non-existent for any version of Internet Explorer. Firefox only supports the url() syntax, while Chrome supports shapes and inline SVG for the url() syntax, but not external SVG. I managed to find a cross-browser [polyfill for CSS clip-path](https://github.com/AlfonsoFilho/ClipPath), which should help.
 
-The idea is that each diamond is actually just a square unit with it's corners clipped off, so the length of one square is the diagonal of the diamond. Tweak the variables a little bit, and voila:
+The idea is that each diamond is actually just a square unit with it's corners clipped off, so the length of one square is the diagonal of the diamond Tweak the variables a little bit, and voila:
+
+<p data-height="425" data-theme-id="9162" data-slug-hash="gaxbJX" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/gaxbJX/'>Diamond grid with Sass (Clip-path)</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+At this point, it seemed that I'd cracked the diamond-grid layout my designer wanted, until I saw the actual visuals and art direction. This grid layout was meant for an image heavy site, essentially serving as a gallery of sorts. The background was made up of tiles of textured diamonds. And there would be highlights on some of the corners of the display diamonds to make them pop. Oh, and also, let's have some box shadows inside each display diamond as well, but only for those displays that contain images. ヽ༼⊙_⊙༽ﾉ
+
+I had considered generating the background myself using CSS, to make it easier to align the layout to the background. So I came up with something like this:
+
+<p data-height="268" data-theme-id="9162" data-slug-hash="JYRVjr" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/JYRVjr/'>CSS diamond background</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
