@@ -53,7 +53,7 @@ The initial mark-up for the grid was pretty simple. A wrapper for the entire gri
 
 Sass variables came in very handy in this case as I could create a grid-unit to use as a base for calculating the widths of all the diamonds. I used an arbitrary number of <code class="language-css">95vw / 16</code> as the base unit just to see if it would work.
 
-<pre><code class="language-css">
+<pre><code class="language-scss">
 $gridUnit: 95vw / 16;
 $small: $gridUnit * 2;
 $med: $gridUnit * 3;
@@ -81,9 +81,42 @@ The idea is that each diamond is actually just a square unit with it's corners c
 <p data-height="425" data-theme-id="9162" data-slug-hash="gaxbJX" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/gaxbJX/'>Diamond grid with Sass (Clip-path)</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-At this point, it seemed that I'd cracked the diamond-grid layout my designer wanted, until I saw the actual visuals and art direction. This grid layout was meant for an image heavy site, essentially serving as a gallery of sorts. The background was made up of tiles of textured diamonds. And there would be highlights on some of the corners of the display diamonds to make them pop. Oh, and also, let's have some box shadows inside each display diamond as well, but only for those displays that contain images. ヽ༼⊙_⊙༽ﾉ
-
-I had considered generating the background myself using CSS, to make it easier to align the layout to the background. So I came up with something like this:
+At this point, it seemed that I'd cracked the diamond-grid layout my designer wanted, but I hadn't looked closely at the actual visuals and art direction. I just assumed it was a grid of diamonds in the background, something I could probably do with CSS. It would also make things easier to line up as they would be using the same base units. I came up with something like this:
 
 <p data-height="268" data-theme-id="9162" data-slug-hash="JYRVjr" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/JYRVjr/'>CSS diamond background</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+And then I saw the actual hi-fidelity design. In a nutshell, this grid layout was meant for an image heavy site, essentially serving as a gallery of sorts. The background was made up of tiles of textured diamonds. And there would be highlights on some of the corners of the display diamonds to make them pop. Oh, and also, let's have some box shadows inside each display diamond as well, but only for those displays that contain images. ༼⊙_⊙༽
+
+Okay, back to the drawing board.
+
+##Attempt 3: High school math to the rescue
+My third attempt was actually just a reboot of the first attempt. These diamonds are simply squares that got rotated, so I had the benefit of working with isosceles right triangles, which made calculations much neater.
+
+<img srcset="{{ site.url }}/images/posts/diamond/trigonometry@2x.jpg 2x" src="{{ site.url }}/images/posts/trigonometry.jpg" alt="Isosceles right triangle" />
+
+Since the adjacent and opposite sides of the triangle were equal, the width of each diamond would be the length of the hypotenuse (or the side of the square) divided by the square root of 2. Now here's the tricky part, there is no direct way to calculate the square root of a number using CSS or Sass. Sorry, no `Math.sqrt()` for you.  ¯\\_(ツ)_/¯ 
+
+<p class="no-margin">The good thing about Sass is you can write your own functions and I, admittedly, being too lazy to write my own, just sourced for a <a href="http://www.antimath.info/css/sass-sqrt-function/">square root function</a> created by <a href="http://www.antimath.info/about/">Mihai Vaduva</a>:</p>
+
+<pre><code class="language-scss">@function sqrt($r) {
+    $x0: 1;
+    $x1: $x0;
+    @for $i from 1 through 10 {
+        $x1: $x0 - ($x0 * $x0 - abs($r)) / (2 * $x0);
+        $x0: $x1;
+    }
+    @return $x1;
+}
+</code></pre>
+
+<p class="no-margin">Now my Sass variables for calculating the grid layout looked like this:</p>
+<pre><code class="language-scss">
+$gridUnit: (100vw / 8);
+$transformUnit: $gridUnit / sqrt(2);
+$small: $transformUnit * 2;
+$med: $transformUnit * 3;
+$large: $transformUnit * 4;
+</code></pre>
+
+There was no way around positioning each display diamond absolutely, at least, I couldn't think of an alternate way (suggestions are welcome). I tried to structure my classes as efficiently as I could. If history is anything to go by, I'll probably look back at this and nitpick how I would have written it differently. For now, it's a long chunk of sizing and positioning based off the base units I established as variables. Couldn't possibly do this without Sass though.
