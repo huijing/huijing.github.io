@@ -120,3 +120,8 @@ $large: $transformUnit * 4;
 </code></pre>
 
 There was no way around positioning each display diamond absolutely, at least, I couldn't think of an alternate way (suggestions are welcome). I tried to structure my classes as efficiently as I could. If history is anything to go by, I'll probably look back at this and nitpick how I would have written it differently. For now, it's a long chunk of sizing and positioning based off the base units I established as variables. Couldn't possibly do this without Sass though.
+
+<p data-height="375" data-theme-id="9162" data-slug-hash="pjrWaz" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/pjrWaz/'>Diamond grid with Sass (Transform)</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+Using CSS to rotate the divs solved the problem of having inner shadows on the diamond displays that were to contain images. 
