@@ -124,4 +124,13 @@ There was no way around positioning each display diamond absolutely, at least, I
 <p data-height="375" data-theme-id="9162" data-slug-hash="pjrWaz" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/pjrWaz/'>Diamond grid with Sass (Transform)</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-Using CSS to rotate the divs solved the problem of having inner shadows on the diamond displays that were to contain images. 
+Using CSS to rotate the divs solved the problem of having inner shadows on the diamond displays that were to contain images. As for the background, I ended up tiling a pattern image, then aligning my divs to match up with the pattern. Using viewport widths (vw) as the basis for my grid units meant the layout would respond to screen size. Hence, my background image pattern would also have to grow and shrink according to the viewport width as well.
+
+The problem with this approach is, unless your background image is sized very precisely, it is almost impossible to match the browser-calculated divs with the grid on the image. As the project I was working on wasn't exactly a fully responsive design, I could get away with it within a smaller range of screen widths.
+
+<pre><code class="language-scss">body {
+    @media screen and (min-width: 1000px) and (max-width: 1919px) {
+        background: url('../img/bg-tile.jpg') repeat-y;
+        background-size: contain;
+    }
+}</code></pre>
