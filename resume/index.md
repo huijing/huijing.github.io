@@ -17,10 +17,22 @@ title: Résumé
 <li class="no-margin">Highly proficient in <strong>HTML and CSS (with Sass)</strong> for <strong>rapid prototyping</strong> in the browser</li>
 <li class="no-margin">Good knowledge of <strong>jQuery</strong> and <strong>Javascript</strong>, as well as version control using <strong>Git</strong></li>
 <li class="no-margin">Familiar with Unix-based server setup (<strong>LAMP</strong> stack) for website deployment and very comfortable working in the command line environment</li>
-<li class>Skilled in <strong>Adobe Photoshop</strong> and <strong>Illustrator</strong> for the creation of web assets</li>
+<li class>Skilled in <strong>Adobe Photoshop</strong>, <strong>Illustrator</strong> and <strong>Sketch</strong> for the creation of web assets</li>
 </ul>
 
 ###Work experience
+**Nurun Singapore**  
+(May 2015 - Present)  
+I am a **Senior developer** responsible for planning and architecting website implementation projects, as well as management of resources. I focus on all things front-end related, making sure our code base adheres to the latest web standards and is performant and accessible.
+
+<ul class="exp-nurun">
+<li class="no-margin">Work closely with designers and provide direction on the viability of proposed designs</li>
+<li class="no-margin">Plan and design front-end architecture using appropriate name-spacing and <a href="https://speakerdeck.com/dafed/managing-css-projects-with-itcss">ITCSS</a> methodology for long-term code maintainability</li>
+<li class="no-margin">Develop bespoke websites for a variety of clients and campaigns</li>
+<li class="no-margin">Assess hardware requirements for optimal server provisioning</li>
+<li class>Write blog posts on Front-end development and other web-related topics</li>
+</ul>
+
 **Pixel Onion Pte Ltd**  
 (Oct 2013 – May 2015)  
 I was a **Front-end developer** and worked on a variety of projects with several major clients, including DBS bank, Mediacorp and Microsoft as well as the San Francisco International Airport. I honed all my web development chops here and this was what I spent my time doing:
@@ -37,8 +49,8 @@ I was a **Front-end developer** and worked on a variety of projects with several
 <p class="no-margin">I've wrote about some of the projects I've worked on, mostly about my experiences and what I learnt along the way:</p>
 
 <ul>
-<li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-i-learn-responsive/">Pixel Onion Pte Ltd website</a></li>
-<li class="no-margin"><a href="{{ site.url }}/blog/the-one-with-many-iterations/">Redemption Hill Church website</a></li>
+<li class="no-margin"><a href="{{ site.url }}/blog/the-one-in-many-languages/">SFO China</a></li>
+<li class="no-margin"><a href="{{ site.url }}/blog/the-one-on-the-tightest-of-deadlines/">xinMSN migration</a></li>
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-people-get-a-say/">DrupalCamp Singapore 2014 website</a></li>
 <li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-i-grok-jquery/">EMBA refresh</a></li>
 <li><a href="{{ site.url }}/blog/the-one-built-from-128-pictures-of-cakes/">7Love Bakery website</a></li>

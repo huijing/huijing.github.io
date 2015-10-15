@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Drupal 101: Getting started with Drupal 8"
-date: October 8, 2015
+date: October 15, 2015
 tags: [drupal8, site-building]
 category: planet-drupal
 ---
 
-As of time of writing, Drupal 8 only has 6 critical issues outstanding. For people who may not be entirely familiar with the software development process, understand that it's not like we start off with a fixed pool of issues which gets smaller as issues are resolved. For a relatively large project like Drupal, on-going development will inevitably introduce new issues. But if you take a look at the issue logs, the issues have been steadily trending downward since we started, and we're really close to a release candidate already.
+For people who may not be entirely familiar with the software development process, understand that it's not like we start off with a fixed pool of issues which gets smaller as issues are resolved. For a relatively large project like Drupal, on-going development will inevitably introduce new issues. But if you take a look at the issue logs, the issues have been steadily trending downward since we started, and RC1 was finally released a few days ago.
 
-I first took a peek at Drupal 8 over a year ago when it was in ___ stage just out of curiosity. At that time in my career, I was barely getting the hang of Drupal 7, so I didn't really explore very much beyond clicking around the interface and trying to create some content. Right now, Drupal 8 is in beta-14, and looking pretty good to me. I figured it'd be a good time to go through the process of building a Drupal 8 site and documenting the experience. Because, why not?
+I first took a peek at Drupal 8 over a year ago when it was in ___ stage just out of curiosity. At that time in my career, I was barely getting the hang of Drupal 7, so I didn't really explore very much beyond clicking around the interface and trying to create some content. With RC1 fresh out of the oven, and looking pretty good to me, I figured it'd be a good time to go through the process of building a Drupal 8 site and documenting the experience. Because, why not?
 
 ###Installing Drupal 8
 1. **Download the required Drupal 8 files**  
@@ -32,7 +32,7 @@ I first took a peek at Drupal 8 over a year ago when it was in ___ stage just ou
     <pre><code class="language-bash">chmod a+w sites/default</code></pre>
     This command changes the permissions on that folder to allow everyone to write to it.
 4. **Create the services.php and services.yml files**  
-    According to the [official documentation](https://api.drupal.org/api/drupal/core!INSTALL.txt/8), Drupal should create these files but if it can't it will prompt you to do so. If you do get this prompt, make a copy of the `default.services.yml` and the `default.settings.php` file as follows (*assuming you're in the sites > default folder already*):
+    According to the [official documentation](https://api.drupal.org/api/drupal/core!INSTALL.txt/8), Drupal should create these files but if it can't it will prompt you to do so. If you do get this prompt, it's highly likely that your web server does not have permissions to write to the `sites/default` folder. If you don't feel like `chown`-ing anything, just make a copy of the `default.services.yml` and the `default.settings.php` file as follows (*assuming you're in the sites > default folder already*):
     <pre><code class="language-bash">cp default.services.yml services.yml</code></pre>
     <pre><code class="language-bash">cp default.settings.php settings.php</code></pre>
     <p class="no-margin">Modify the permissions of the settings.php file so Drupal can write to it during the setup process.</p>
