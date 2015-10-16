@@ -23,14 +23,14 @@ title: Résumé
 ###Work experience
 **Nurun Singapore**  
 (May 2015 - Present)  
-I am a **Senior developer** responsible for planning and architecting website implementation projects, as well as management of resources. I focus on all things front-end related, making sure our code base adheres to the latest web standards and is performant and accessible.
+I am a **Senior developer** responsible for planning and architecting website implementation projects, as well as management of resources. I focus on all things front-end related, making sure our code base adheres to the latest web standards and is performant and accessible. A typical day in the office usually involves:
 
 <ul class="exp-nurun">
-<li class="no-margin">Work closely with designers and provide direction on the viability of proposed designs</li>
-<li class="no-margin">Plan and design front-end architecture using appropriate name-spacing and <a href="https://speakerdeck.com/dafed/managing-css-projects-with-itcss">ITCSS</a> methodology for long-term code maintainability</li>
-<li class="no-margin">Develop bespoke websites for a variety of clients and campaigns</li>
-<li class="no-margin">Assess hardware requirements for optimal server provisioning</li>
-<li class>Write blog posts on Front-end development and other web-related topics</li>
+<li class="no-margin">Working closely with designers, providing direction on the viability of proposed designs</li>
+<li class="no-margin">Planning and designing front-end architecture for scalability and maintainability through best practices like appropriate name-spacing and <a href="https://speakerdeck.com/dafed/managing-css-projects-with-itcss">ITCSS</a> methodology</li>
+<li class="no-margin">Developing bespoke websites for a variety of clients and campaigns</li>
+<li class="no-margin">Assessing hardware requirements for optimal server provisioning</li>
+<li class>Writing blog posts on Front-end development and other web-related topics</li>
 </ul>
 
 **Pixel Onion Pte Ltd**  
