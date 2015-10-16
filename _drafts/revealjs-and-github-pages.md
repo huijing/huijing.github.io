@@ -9,4 +9,10 @@ Recently, I was asked to give a talk at a local front-end meetup. I'd never spok
 
 For most people, presentation decks are synonymous with Powerpoint, or Keynote for those hipster types (kidding, I'm one of you guys). I was all like, I'm a developer, we don't need no stinking presentation software, we HTML that shit. I guess I'll jump on any reason to play with something new. There are loads of frameworks that let you create really nice presentations as static sites, [Reveal.js](http://lab.hakim.se/reveal-js/), [Remark](http://remarkjs.com/), [deck.js](http://imakewebthings.com/deck.js/), just to name a few. I settled on Reveal.js, simply because. <span class="kaomoji">¯\\_(ツ)_/¯</span>
 
-My idea was to host all my slides on GitHub Pages since my own website was already up there. Using project pages would also make the URL structure appear like it was part of my site, even though they would be in completely separate repositories. 
+My idea was to host all my slides on GitHub Pages since my own website was already up there. Using project pages would also make the URL structure appear like it was part of my site, even though they would be in completely separate repositories.
+
+##Setting up Project Pages
+1. Create a new GitHub repository (the URL for that is [https://github.com/new](https://github.com/new)).
+2. Start up your terminal and navigate to the folder you want your working files to reside in.
+3. You can copy the clone URL from the right sidebar of your new repository's admin page. It should look like this in your terminal:
+    <pre><code class="language-bash">git clone github.com/YOUR_USER_NAME/REPO_NAME.git`</code></pre>
