@@ -50,6 +50,10 @@ picture img {
   display: inline;
 }
 
+.kaomoji {
+  white-space: nowrap;
+}
+
 .cp_embed_iframe {
   @include center;
   display: block;

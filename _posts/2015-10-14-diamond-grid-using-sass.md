@@ -4,7 +4,7 @@ title: "Diamond grid layout with Sass"
 date: October 14, 2015
 tags: [css]
 ---
-Since I started my career on the web, I've been building websites that follow standard grid layouts. It got to a point where I was telling an intern at my company that developers think in rectangles. I mean, there's nothing wrong with rectangular layouts. They're like your mom's Volvo, steady and reliable. But sometimes, it's fun to try something different. I'm lucky enough to work with some awesome designers, and for a new project, they came up with a diamond-based grid layout. Well then, challenge accepted. (•̀o•́)ง 
+Since I started my career on the web, I've been building websites that follow standard grid layouts. It got to a point where I was telling an intern at my company that developers think in rectangles. I mean, there's nothing wrong with rectangular layouts. They're like your mom's Volvo, steady and reliable. But sometimes, it's fun to try something different. I'm lucky enough to work with some awesome designers, and for a new project, they came up with a diamond-based grid layout. Well then, challenge accepted. <span class="kaomoji">(•̀o•́)ง</span>
 
 ##Attempt 1: Just rotate them divs
 On the first pass, I hadn't gotten my hands on the actual design yet, but started experimenting with HTML and CSS first, just to try out a few ideas I had. The first thing that came to mind was using **CSS transforms**, considering I had already [written about it]({{ site.url }}/blog/basics-of-css-transforms/) earlier. Nothing a little `transform: rotate(45deg)` couldn't do, right? Unfortunately, things weren't all that straightforward. The general layout consisted of 2 small diamonds, 2 medium diamonds and 1 large diamond, all aligned to relative to each other on the grid. There would also be an alternate layout to switch things up a bit.
@@ -86,7 +86,7 @@ At this point, it seemed that I'd cracked the diamond-grid layout my designer wa
 <p data-height="268" data-theme-id="9162" data-slug-hash="JYRVjr" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/JYRVjr/'>CSS diamond background</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-And then I saw the actual hi-fidelity design. In a nutshell, this grid layout was meant for an image heavy site, essentially serving as a gallery of sorts. The background was made up of tiles of textured diamonds. And there would be highlights on some of the corners of the display diamonds to make them pop. Oh, and also, let's have some box shadows inside each display diamond as well, but only for those displays that contain images. ༼⊙_⊙༽
+And then I saw the actual hi-fidelity design. In a nutshell, this grid layout was meant for an image heavy site, essentially serving as a gallery of sorts. The background was made up of tiles of textured diamonds. And there would be highlights on some of the corners of the display diamonds to make them pop. Oh, and also, let's have some box shadows inside each display diamond as well, but only for those displays that contain images. <span class="kaomoji">༼⊙_⊙༽</span>
 
 Okay, back to the drawing board.
 
@@ -95,7 +95,7 @@ My third attempt was actually just a reboot of the first attempt. These diamonds
 
 <img srcset="{{ site.url }}/images/posts/diamond/trigonometry@2x.jpg 2x" src="{{ site.url }}/images/posts/diamond/trigonometry.jpg" alt="Isosceles right triangle" />
 
-Since the adjacent and opposite sides of the triangle were equal, the width of each diamond would be the length of the hypotenuse (or the side of the square) divided by the square root of 2. Now here's the tricky part, there is no direct way to calculate the square root of a number using CSS or Sass. Sorry, no `Math.sqrt()` for you.  ¯\\_(ツ)_/¯ 
+Since the adjacent and opposite sides of the triangle were equal, the width of each diamond would be the length of the hypotenuse (or the side of the square) divided by the square root of 2. Now here's the tricky part, there is no direct way to calculate the square root of a number using CSS or Sass. Sorry, no `Math.sqrt()` for you. <span class="kaomoji">¯\\_(ツ)_/¯</span>
 
 <p class="no-margin">The good thing about Sass is you can write your own functions and I, admittedly, being too lazy to write my own, just sourced for a <a href="http://www.antimath.info/css/sass-sqrt-function/">square root function</a> created by <a href="http://www.antimath.info/about/">Mihai Vaduva</a>:</p>
 
@@ -109,6 +109,9 @@ Since the adjacent and opposite sides of the triangle were equal, the width of e
     @return $x1;
 }
 </code></pre>
+
+***Update:***  
+*Someone pointed out to me that the square root of 2 is a constant and could have just been hard-coded. To quote the famous American philosopher, Homer Simpson, "D'OH!"* :tired_face:
 
 <p class="no-margin">Now my Sass variables for calculating the grid layout looked like this:</p>
 <pre><code class="language-scss">
