@@ -1,61 +1,61 @@
 body {
-  background: url('/images/bg-body.jpg');
-  min-width: 320px;
+    background: url('/images/bg-body.jpg');
+    min-width: 320px;
 }
 
 img {
-  @include center;
-  display: block;
+    @include center;
+    display: block;
 }
 
 picture img {
-  margin-bottom: rhythm(1);
+    margin-bottom: rhythm(1);
 }
 
 .icon {
-  > svg {
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
-    path {
-      fill: color(apple);
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        path {
+            fill: color(apple);
+        }
+        a & path {
+            fill: color(apple);
+            &:hover {
+                fill: lighten(color(apple), 20%);
+            }
+        }
     }
-    a & path {
-      fill: color(apple);
-      &:hover {
-        fill: lighten(color(apple), 20%);
-      }
-    }
-  }
 }
 
 .icon--title {
-  > svg {
-    width: 24px;
-    height: 24px;
-    @include respond-above(medium) {
-      width: 32px;
-      height: 32px;
+    > svg {
+        width: 24px;
+        height: 24px;
+        @include respond-above(medium) {
+            width: 32px;
+            height: 32px;
+        }
+        path {
+            fill: color(mineshaft);
+        }
     }
-    path {
-      fill: color(mineshaft);
-    }
-  }
 }
 
 .emoji {
-  height: 32px;
-  width: 32px;
-  display: inline;
+    height: 32px;
+    width: 32px;
+    display: inline;
 }
 
 .kaomoji {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 .cp_embed_iframe {
-  @include center;
-  display: block;
-  max-width: 600px;
+    @include center;
+    display: block;
+    max-width: 600px;
 }

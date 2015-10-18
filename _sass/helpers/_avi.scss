@@ -4,15 +4,15 @@ iframe,
 img,
 object,
 video {
-  max-width: 100%;
+    
 }
 
 img {
-  height: auto;
-  width: auto;
-  /* IE8 */
+    height: auto;
+    width: auto;
+    /* IE8 */
 }
 
 iframe {
-  margin-bottom: rhythm(1);
+    margin-bottom: rhythm(1);
 }

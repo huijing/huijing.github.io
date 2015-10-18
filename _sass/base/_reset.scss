@@ -9,29 +9,29 @@
 
 // Use border-box for everything
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 // Resets margins and paddings for headers, ul, ol and p
 h1,h2,h3,h4,h5,h6,ul,ol,li,p,pre,code,blockquote,figure {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 // Resets styles for horizontal lines
 hr {
-  border: 0;
-  height: 0;
-  margin: 0;
+    border: 0;
+    height: 0;
+    margin: 0;
 }
 
 // Removes list-styles
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
 
 // ==========
@@ -43,18 +43,18 @@ ol, ul {
 input,
 textarea,
 button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: 0;
-  outline: 0;
-  border: 0;
-  &:hover,
-  &:active,
-  &:focus {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
     outline: 0;
     border: 0;
-  }
+    &:hover,
+    &:active,
+    &:focus {
+        outline: 0;
+        border: 0;
+    }
 }
 
 // Set Image and Objects to have a max-width of 100%
@@ -63,13 +63,13 @@ iframe,
 img,
 object,
 video {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 // Set Img height and width to auto for IE8
 img {
-  height: auto;
-  width: auto;
-  /* IE8 */
+    height: auto;
+    width: auto;
+    /* IE8 */
 }
 
