@@ -2,6 +2,7 @@
 layout: post
 title: "Why developers should attend conferences"
 date: November 1, 2015
+image: conference.jpg
 tags: [opinion]
 ---
 I live in the tropical island nation of Singapore. For those of you who have never heard of Singapore, it's a small island in the South China Sea. That ought to be a good enough geographical hint, right? I mean, you can't get any more explicit than that. The sea which is south of China, is definitely in Asia. Okay, lame geography session over. The point I want to make today is about conferences.
