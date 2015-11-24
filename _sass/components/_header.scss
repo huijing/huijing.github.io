@@ -12,10 +12,10 @@
     @include respond-above(x-large) {
         flex-flow: row nowrap;
         .site-branding {
-            flex: 3 1 75%;
+            flex: 3 1 70%;
         }
         .site-nav {
-            flex: 1 1 25%;
+            flex: 1 1 30%;
         }
     }
 }
