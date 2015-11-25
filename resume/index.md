@@ -27,7 +27,8 @@ I am a **Senior developer** responsible for planning and architecting website im
 
 <ul class="exp-nurun">
 <li class="no-margin">Working closely with designers, providing direction on the viability of proposed designs</li>
-<li class="no-margin">Planning and designing front-end architecture for scalability and maintainability through best practices like appropriate name-spacing and <a href="https://speakerdeck.com/dafed/managing-css-projects-with-itcss">ITCSS</a> methodology</li>
+<li class="no-margin">Planning and designing front-end architecture for scalability and maintainability</li>
+<li class="no-margin">Re-factoring and resurrecting legacy code to adhere to modern web standards</li>
 <li class="no-margin">Developing bespoke websites for a variety of clients and campaigns</li>
 <li class="no-margin">Assessing hardware requirements for optimal server provisioning</li>
 <li class>Writing blog posts on Front-end development and other web-related topics</li>
