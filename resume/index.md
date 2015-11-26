@@ -31,7 +31,7 @@ I am a **Senior developer** responsible for planning and architecting website im
 <li class="no-margin">Re-factoring and resurrecting legacy code to adhere to modern web standards</li>
 <li class="no-margin">Developing bespoke websites for a variety of clients and campaigns</li>
 <li class="no-margin">Assessing hardware requirements for optimal server provisioning</li>
-<li class>Writing blog posts on Front-end development and other web-related topics</li>
+<li class>Creating custom front-end frameworks for large-scale responsive web projects</li>
 </ul>
 
 **Pixel Onion Pte Ltd**  
