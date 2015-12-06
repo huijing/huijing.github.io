@@ -43,3 +43,19 @@ figure {
         }
     }
 }
+
+.grid-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.grid-flex__item {
+    flex: 0 0 100%;
+    @media (min-width: 575px) and (max-width: 820px) {
+        flex: 0 0 span(6 of 12);
+    }
+    @include respond-above(large) {
+        flex: 0 0 span(4 of 12);
+    }
+}
