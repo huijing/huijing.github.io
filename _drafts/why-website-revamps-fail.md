@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Why large-scale responsive redesign projects fail"
+title: "Why large-scale website revamps fail"
 date: December 08, 2015
 tags: [opinion, css]
 ---
-Any website redesign project is a software development project. Agencies who cannot understand this or lack the expertise to handle such projects tend to find themselves in a world of trouble as the project goes on. I'm sure we've all heard the adage "You never get a second chance to make a first impression". In most agencies, the sales and marketing departments are the ones making that first impression with the client. When there is a disconnect between marketing department and the people who create the work, everybody involved will be in for a hard time. 
+Any website redesign project is a software development project. Companies and agencies who cannot understand this or lack the expertise to handle such projects tend to find themselves in a world of trouble as the project goes on. I'm sure we've all heard the adage "You never get a second chance to make a first impression". In most agencies, the sales and marketing departments are the ones making that first impression with the client. When there is a disconnect between marketing department and the people who create the work, everybody involved will be in for a hard time. 
 
 Go into any pitch or brief for a website project and I'm fairly certain the word "Responsive" will be sprinkled liberally all throughout every conversation during the session. Whether or not everyone in the room fully understands what that word entails, is another thing altogether. But the matter of fact is, with access to the web becoming increasingly ubiquitous on an infinitely wide range of devices, responsive web design is here to stay. I personally can't even remember the last time I built a non-responsive site. 
 
-There are a number of indicators that a responsive redesign project will end up becoming a fire-fight, or even worse, fail altogether. Some of you can probably relate to this quite well. But it is important that we highlight these issues and how to mitigate them. Nobody wants a project to fail, so it's important that we avoid putting ourselves in disadvantageous positions to begin with.
+There are a number of indicators that a website revamp will end up becoming a fire-fight, or even worse, fail altogether. Some of you can probably relate to this quite well. The statistics are alarming. According to [a study](http://www.zdnet.com/article/research-25-percent-of-web-projects-fail/) done back in 2008, the failure rate of website projects was around 25%. A recent high-profile failure would be Healthcare.gov's failed launch. But it is important that we highlight these issues and how to mitigate them. Nobody wants a project to fail, so it's important that we avoid putting ourselves in disadvantageous positions to begin with.
 
 ##No clear digital strategy
 Simply having a website or an app or two does not mean you've "gone digital". Your website is a tool to facilitate the digital experience, but a digital transformation is really much more than that. I highly recommend everyone who is involved in digital to read and internalise Paul Boag's [Digital Adaptation](http://www.digital-adaptation.com/).
@@ -19,7 +19,7 @@ The decision to implement a responsive website is a solution. But what we need t
 
 All parties involved need to understand that the web is nothing like any other medium. The web is evolving at a neck-breaking pace, it is unpredictable, bordering on chaotic at times. We cannot hope to predict, control and manage this every-changing landscape. It is untenable to apply traditional business strategies, which operate on the premise that you can plan and budget for the next five years, to the web.
  
-##Lack of experience and expertise
+##Insufficient experience and expertise
 This is why it is crucial to have an experienced team well-equipped to traverse this landscape. The emphasis here in on team and collaboration across various disciplines. The traditional waterfall approach of having specialists operating in silo and passing on the project from one phase to the next is no longer effective nor relevant.
 
 For an agency who wishes to undertake such projects, it is mandatory that every person involved has strong digital backgrounds. It is not enough to simply understand the digital landscape yourself, clearly articulate the and educate the client. To provide direction on how to navigate a landscape that is in a constant state of flux. Working together with the client to come up with the best approach for solving their business problems.
@@ -44,26 +44,12 @@ The digital team are not only domain experts, but they have to be able to explai
 
 There will inevitably be bumps in the process or issues that the team did not expect. We cannot hide these challenges from stakeholders and pretend everything is peachy. The team needs to be up front about any issues, why they came about and explain how the issues will be mitigated. By involving the stakeholders in the mitigation plan, they might provide valuable insight that contribute to solving the issue. Perhaps that feature did not have to built that way in the first place.
 
-##Building on a poorly planned architecture
-Building anything on the web is a software project. 
-Lack of planning
- - CSS architecture
- - JS architecture
- - Style guides
- - Consistency
-Lack of communication
- - Designers design and developers code
- - 
+##Building with sub-optimal processes
+The meat of the project is the actual building of the website. Every website revamp must be built on clearly documented functional requirements. Some may argue that this is a relic from IT projects of the past that utilise a very water-fall approach, but I disagree. Functional requirements can take the form of user stories. This portion of the planning involves the digital team working very closely with the stakeholders to fully understand the nature and objectives of the business. The digital team's expertise comes into play when it comes to articulating those objectives into user stories that will form the backbone of the project.
 
-Lack of user-testing
- - Ties in to client education
- - First thing to be cut from the budget
- - Building a white elephant
-Lack of proper processes
- - Iterative process. Build, test, iterate, build, test, iterate
-Not prioritising performance
- - Performance needs to be considered from the beginning and should affect design decisions
+From a design standpoint, a style-guide driven approach would allow for consistency throughout the site, as well as facilitate a more efficient front-end build. CSS architecture is especially important, but often overlooked. The challenge with CSS is that it is easy enough for most people to pick up, but takes effort and experience to architect well. The larger the project, the more critical it is to have working agreements on name-spacing, coding-style, file structure and a proper deployment process. Of course, this also applies to code of all languages that will be used in the project.
 
-[Responsive Design Won’t Fix Your Content Problem]  (http://alistapart.com/column/responsive-design-wont-fix-your-content-problem)
-[Why Larger Teams Do Not Result in Faster Development](http://www.sitepoint.com/larger-teams-do-not-develop-faster/)
-[Web vs. native: let’s concede defeat](http://www.quirksmode.org/blog/archives/2015/05/web_vs_native_l.html)
+Building up a style guide of components early allows any inconsistencies in the design to be flushed out and discussed early. I've worked with high-fidelity comps provided by designers that had up to 7 or 8 shades of yellow. But upon clarification with the designer, it turns out that the client had asked her to make modifications so many times that she simply missed out updating all the relevant components. But if we had instead worked on low-fidelity static comps and translated them into HTML and CSS early, things like updating colour schemes would take much less time than if a designer had to change the colours in their static PSD files.
+
+##Wrapping up
+Nobody starts a project with the expectation it will fail. Given the ubiquitous nature of the web today, an organisation's web presence is more important than ever before. It is something that will directly affect a business's bottom line. Those of us who live and work on and with the web need to advocate change for the better. Every one of us has the responsibility to constantly improve ourselves in terms of skills, knowledge and processes. Then, we need to educate those around us who do not do this for a living. We cannot simply shrug and accept the status quo, thinking we cannot make a difference. We can, we should and we must.

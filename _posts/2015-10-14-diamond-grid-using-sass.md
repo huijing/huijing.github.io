@@ -95,7 +95,7 @@ My third attempt was actually just a reboot of the first attempt. These diamonds
 
 <img srcset="{{ site.url }}/images/posts/diamond/trigonometry@2x.jpg 2x" src="{{ site.url }}/images/posts/diamond/trigonometry.jpg" alt="Isosceles right triangle" />
 
-Since the adjacent and opposite sides of the triangle were equal, the width of each diamond would be the length of the hypotenuse (or the side of the square) divided by the square root of 2. Now here's the tricky part, there is no direct way to calculate the square root of a number using CSS or Sass. Sorry, no `Math.sqrt()` for you. <span class="kaomoji">¯\\_(ツ)_/¯</span>
+Since the adjacent and opposite sides of the triangle were equal, the width of each diamond would be the length of the hypotenuse (or the side of the square) divided by the square root of 2. Now here's the tricky part, there is no direct way to calculate the square root of a number using CSS or Sass. Sorry, no `Math.sqrt()` for you. <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
 
 <p class="no-margin">The good thing about Sass is you can write your own functions and I, admittedly, being too lazy to write my own, just sourced for a <a href="http://www.antimath.info/css/sass-sqrt-function/">square root function</a> created by <a href="http://www.antimath.info/about/">Mihai Vaduva</a>:</p>
 
