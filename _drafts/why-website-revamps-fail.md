@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why large-scale website revamps fail"
-date: December 08, 2015
+date: December 19, 2015
 tags: [opinion, css]
 ---
 Any website redesign project is a software development project. Companies and agencies who cannot understand this or lack the expertise to handle such projects tend to find themselves in a world of trouble as the project goes on. I'm sure we've all heard the adage "You never get a second chance to make a first impression". In most agencies, the sales and marketing departments are the ones making that first impression with the client. When there is a disconnect between marketing department and the people who create the work, everybody involved will be in for a hard time. 
