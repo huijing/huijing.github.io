@@ -4,13 +4,13 @@ iframe,
 img,
 object,
 video {
-    
+    @include center;
+    display: block;
 }
 
 img {
     height: auto;
-    width: auto;
-    /* IE8 */
+    width: auto; /* IE8 */
 }
 
 iframe {

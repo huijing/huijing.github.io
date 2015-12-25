@@ -3,11 +3,6 @@ body {
     min-width: 320px;
 }
 
-img {
-    @include center;
-    display: block;
-}
-
 picture img {
     margin-bottom: rhythm(1);
 }

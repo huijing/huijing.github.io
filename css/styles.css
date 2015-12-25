@@ -526,6 +526,16 @@ a.no-underline:hover {
 .no-list-style {
   list-style: none; }
 
+embed,
+iframe,
+img,
+object,
+video {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
 img {
   height: auto;
   width: auto;
@@ -875,7 +885,7 @@ kbd {
   line-height: 32px;
   line-height: 1.6rem; }
 
-.post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content ul, .post-content ol, .post-content pre, .post-content code {
+.post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6, .post-content p, .post-content ul, .post-content ol, .post-content pre {
   float: none;
   margin-left: auto;
   margin-right: auto;
@@ -1164,12 +1174,6 @@ hr {
 body {
   background: url("/images/bg-body.jpg");
   min-width: 320px; }
-
-img {
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  display: block; }
 
 picture img {
   margin-bottom: 1.6rem; }
