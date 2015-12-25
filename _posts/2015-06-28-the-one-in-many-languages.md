@@ -54,17 +54,17 @@ The preparation of the XML files was done by Proof IC, and here was were the clo
     <li class="no-margin">Copy the queries and run them to link the nodes in the database</li>
     <li class="no-margin">Run the following query to ensure the nodes which require translation to english are set accordingly:
     <pre><code class="language-bash">UPDATE `node` SET `language` = 'en' WHERE `tnid` = `nid`</code></pre></li>
+    </ul>
 
-3. <p class="no-margin"><strong>There may be instances where your views title is still displaying in the default language even though the title has been translated.</strong> I'm not exactly sure what the cause of this bug is, but I spent quite some time debugging this. And hence, my documented resolution was as follows:</p>
-<p class="no-margin"><em>ヽ(#`Д´)ﾉ So your view title is still in English</em></p>
+3. <strong>There may be instances where your views title is still displaying in the default language even though the title has been translated.</strong> I'm not exactly sure what the cause of this bug is, but I spent quite some time debugging this. And hence, my documented resolution was as follows:
+
+    <p class="no-margin"><strong><em>ヽ(#`Д´)ﾉ So your view title is still in English</em></strong></p>
     <ul>
     <li class="no-margin">Go to the offending view, and click on <em>Advanced</em></li>
     <li class="no-margin">Click on <em>Theme: Information</em></li>
     <li class="no-margin">Click on <em>Rescan Template files</em></li>
     <li class="no-margin">Go back to your view page and Command+Shift+R</li>
-    <li class="no-margin">Pray hard that it works, otherwise you have permission to flip your table</li>
-
-    <p class="no-margin">(╯°□°）╯︵ ┻━┻</p></ul>
+    <li class="no-margin">Pray hard that it works, otherwise you have permission to flip your table <span class="kaomoji">(╯°□°）╯︵ ┻━┻</span></li></ul>
     <p class="no-margin">And yes, my boss let me get away with kaomojis in my issue tickets, because he's awesome like that.</p>
 
 4. **Always use t() function for custom string creation to allow stock multilanguage support**. This is especially relevant for sites that have custom strings in modules or template files. Sample code with t() function as follows:
