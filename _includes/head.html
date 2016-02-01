@@ -49,7 +49,8 @@
     <meta content="{{ tag }}" property="article:tag">
     {% endfor %}
   {% endif %}
-
+  <meta name="p:domain_verify" content="6d83e92af56b4f550a0310e631e5fb1e"/>
+  
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.about }}{% endif %}">
 
