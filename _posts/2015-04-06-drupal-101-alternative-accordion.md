@@ -9,7 +9,8 @@ Accordions are commonly used graphical control element. The [Yahoo Design Patter
 
 There are a number of Drupal modules that help implement accordions (just google drupal accordion), but they didn't really fit my particular use-case, so I did my accordions differently. This method was a little complicated and required some jQuery, but fit my use-case well.
 
-##Create the Accordion content type
+## Create the Accordion content type
+
 <p class="no-margin"><strong>Required modules</strong></p>
 <ul>
 <li class="no-margin"><a href="https://www.drupal.org/project/field_collection">Field collection</a></li>
@@ -35,7 +36,8 @@ There are a number of Drupal modules that help implement accordions (just google
 9. *Optional steps: To setup display for the new content type*
     You can choose to use the default Drupal markup to write your accordion. But I find it neater to tweak the markup via Display Suite first. You don't have to do this if you don't want to. Instructions [here]({{ site.url }}/blog/drupal-101-display-suite-field-settings/).
 
-##Writing the accordion functionality
+## Writing the accordion functionality
+
 *Note: I have tweaked my markup as per step 9 above, you may have to adjust your selectors accordingly.*
 
 There are a couple of recommendations from the Yahoo Design Pattern Library on accordion presentation, like highlighting the current panel and having the most important panel open by default. I just chose to open the first panel by default. 
@@ -80,7 +82,8 @@ There are a couple of recommendations from the Yahoo Design Pattern Library on a
       }
     });</code></pre>
 
-##Styling the accordion
+## Styling the accordion
+
 The field collection module comes with some default styles that you may wish to override. The module's CSS file, <code class="language-bash">field_collection.theme.css</code> is in the root of the field_collection folder. 
 
 My preferred method requires a module called [Magic](https://www.drupal.org/project/magic). It's one of my favourite modules. You'll see why once you visit the project page. Magic provides a simple way to remove exclude stylesheets from core and contrib modules. You can also use the hook_css_alter() function to exclude stylesheets, but unless you need to exclude stylesheets from libraries, Magic works brilliantly. 
@@ -88,7 +91,8 @@ My preferred method requires a module called [Magic](https://www.drupal.org/proj
 Even when making changes to only one or two selectors, I still prefer to exclude the original stylesheet, then copy the required styles into my theme. I have a thing against repeating selectors to override them. Anyway, style your accordion any way you like. I chose to add an <code class="language-markup">active</code> class to the active accordion item for easier styling.
 <img src="{{ site.url }}/images/posts/accordion/styles.jpg" alt="Styling accordion"/>
 
-##Using the accordion with panels
+## Using the accordion with panels
+
 *I'm assuming a level of familiarity with using Panels to display content.*
 
 1. Navigate to the *Content* section of your panel, and click the gear icon on the top left corner to add content.
@@ -98,5 +102,6 @@ Even when making changes to only one or two selectors, I still prefer to exclude
 3. You should see the title of your node in the layout. Remember to click *Update and save*.
     <img src="{{ site.url }}/images/posts/accordion/panel-layout.jpg" alt="Panel layout"/>
 
-##Wrapping things up
+## Wrapping things up
+
 This is just one opinionated method of creating an accordion in Drupal. There are lots of other ways to do it, as with everything else in Drupal. I tend to use Panels quite a bit, so I felt this was a pretty Panels-friendly implementation. Another plus is that accordion content can be easily edited by content editors. Hopefully this can provide some inspiration for alternative ways of presenting content in Drupal.

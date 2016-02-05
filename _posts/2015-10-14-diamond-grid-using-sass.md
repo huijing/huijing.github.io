@@ -6,7 +6,8 @@ tags: [css]
 ---
 Since I started my career on the web, I've been building websites that follow standard grid layouts. It got to a point where I was telling an intern at my company that developers think in rectangles. I mean, there's nothing wrong with rectangular layouts. They're like your mom's Volvo, steady and reliable. But sometimes, it's fun to try something different. I'm lucky enough to work with some awesome designers, and for a new project, they came up with a diamond-based grid layout. Well then, challenge accepted. <span class="kaomoji">(•̀o•́)ง</span>
 
-##Attempt 1: Just rotate them divs
+## Attempt 1: Just rotate them divs
+
 On the first pass, I hadn't gotten my hands on the actual design yet, but started experimenting with HTML and CSS first, just to try out a few ideas I had. The first thing that came to mind was using **CSS transforms**, considering I had already [written about it]({{ site.url }}/blog/basics-of-css-transforms/) earlier. Nothing a little `transform: rotate(45deg)` couldn't do, right? Unfortunately, things weren't all that straightforward. The general layout consisted of 2 small diamonds, 2 medium diamonds and 1 large diamond, all aligned to relative to each other on the grid. There would also be an alternate layout to switch things up a bit.
 
 <div class="figure-wrapper">
@@ -73,7 +74,8 @@ Some of you who are much smarter than me would immediately recognise that this m
     </figure>
 </div>
 
-##Attempt 2: Clip off them divs
+## Attempt 2: Clip off them divs
+
 That didn't go so well. Next idea on the list, **CSS clip-path**. This CSS property allows us to define a specified clipping region to be displayed. Anything outside this region will 'clipped' and won't be seen. The clipping region can be a path specified as a URL referencing an inline SVG or an external SVG. It can also be a shape method, like those used for [CSS shapes]({{ site.url }}/blog/why-you-should-be-excited-about-css-shapes/). Unfortunately, support for CSS clip-path is non-existent for any version of Internet Explorer. Firefox only supports the url() syntax, while Chrome supports shapes and inline SVG for the url() syntax, but not external SVG. I managed to find a cross-browser [polyfill for CSS clip-path](https://github.com/AlfonsoFilho/ClipPath), which should help.
 
 The idea is that each diamond is actually just a square unit with its corners clipped off, so the length of one square is the diagonal of the diamond. Tweak the variables a little bit, and voila:
@@ -90,7 +92,8 @@ And then I saw the actual hi-fidelity design. In a nutshell, this grid layout wa
 
 Okay, back to the drawing board.
 
-##Attempt 3: High school math to the rescue
+## Attempt 3: High school math to the rescue
+
 My third attempt was actually just a reboot of the first attempt. These diamonds are simply squares that got rotated, so I had the benefit of working with isosceles right triangles, which made calculations much neater.
 
 <img srcset="{{ site.url }}/images/posts/diamond/trigonometry@2x.jpg 2x" src="{{ site.url }}/images/posts/diamond/trigonometry.jpg" alt="Isosceles right triangle" />
@@ -127,7 +130,8 @@ There was no way around positioning each display diamond absolutely, at least, I
 <p data-height="375" data-theme-id="9162" data-slug-hash="pjrWaz" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/pjrWaz/'>Diamond grid with Sass (Transform)</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
-##Visual styles and art-direction
+## Visual styles and art-direction
+
 Using CSS to rotate the divs solved the problem of having inner shadows on the diamond displays that were to contain images. As for the background, I ended up tiling a pattern image, then aligning my divs to match up with the pattern. Using viewport widths (vw) as the basis for my grid units meant the layout would respond to screen size. Hence, my background image pattern would also have to grow and shrink according to the viewport width as well.
 
 The problem with this approach is, unless your background image is sized very precisely, it is almost impossible to match the browser-calculated divs with the grid on the image exactly over a large range of screen sizes. A tiny 1 pixel misalignment at a small width usually became very evident at large widths. As the project I was working on wasn't exactly a fully responsive design, I could get away with it within a smaller range of screen widths.
@@ -143,5 +147,6 @@ The trick was to use `background-size: contain` for the background image. Accord
 
 The highlights at certain corners of the display divs were added using the `:before` and `:after` pseudo-elements on the display divs themselves. These highlights were also were positioned absolutely, and I used the same Sass grid unit values to position them in the correct spots.
 
-##Wrapping up
+## Wrapping up
+
 This was a very interesting project to work on and really stretched my knowledge and skills as a developer. There was a lot more to this project than just layout, but it was the base off of which the rest of the design was built upon. CSS properties like clip-path, transforms and my personal favourite, CSS shapes, provide us a lot of flexibility to explore different layouts. While starting out research for this project, I came across [this article](https://viget.com/inspire/who-says-the-web-is-just-for-squares) by [Trevor Davis](http://trevordavis.net/) who also had to build a diamond grid for his project. It seems that we're starting to break out of the constraints of rectangular layouts, and I'm confident that as CSS becomes more robust, we'll be able to pull off more creative designs in the future.

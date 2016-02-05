@@ -9,7 +9,8 @@ With Drupal 8 just around the corner, it may seem odd that I would write a post 
 
 A theme is like the skin for your website. Drupal 7 theming may seem complicated at first. Peeking into a theme folder reveals a bunch of folders littered with PHP files, stylesheets and who knows what else. The easiest way to wrap your head around things is to try and create a theme from scratch. Drupal.org has a pretty good set of documentation for [theming Drupal 7](https://www.drupal.org/node/337173) so that should be your starting point.
 
-##Folder structure
+## Folder structure
+
 <p class="no-margin">All non-core themes should be placed in the <code>sites/all/themes</code> folder. Start off by creating a new folder here and name it whatever you like. To make things a bit more organised, create three sub-folders, <code>css</code>, <code>js</code> and <code>img</code>, inside your new theme folder. This looks like any other HTML project, doesn’t it?</p>
 <pre><code class="language-markup">
 godzilla/
@@ -21,7 +22,8 @@ godzilla/
 `-- js/
 </code></pre>
 
-##The .info file
+## The .info file
+
 The only required file for a Drupal 7 theme is the `.info` file. This file contains all the information, as well as configuration options for your theme. One thing to note is that your theme name **cannot** contain hypens, spaces or punctuation. This is because Drupal uses this name in PHP functions so the same limitations for name-spacing apply. Numbers and underscores are acceptable though. If you name this file `godzilla.info`, then Drupal will recognise your theme as *godzilla*. Every time you make a change to the `.info` file, you must also clear your cache in order to see the changes. There are thirteen values that can be used in the `.info` file but not all of them are required. Drupal will just use default values for those not defined. But there are a couple others that we should include as well.
 
 <p class="no-margin"><strong>name</strong> <em>(required)</em><br> 
@@ -87,7 +89,8 @@ regions[sidebar_second] = Right sidebar
 regions[footer] = Footer
 </code></pre>
 
-##Template files
+## Template files
+
 <p class="no-margin">The markup of your site is controlled by template files, which use the <code>.tpl.php</code> extension. The way Drupal works is, unless you need something custom, Drupal will load its default templates to generate the HTML mark-up for your site. Most modules comes with their own <code>tpl.php</code> file, which can be overridden by making a copy of it and placing it in a <code>templates</code> folder in your <code>theme</code> folder. Remember folks, <strong>never hack core</strong>. At this point, your theme folder would probably look something like this:</p>
 <pre><code class="language-markup">
 godzilla/
@@ -233,7 +236,8 @@ The advantage of using regions is that users can manipulate content directly fro
 
 I added a site logo which has a link to the front page, as well as breadcrumbs and messages. Notice that some variables need to use `render()` while some are just printed directly. If the variable is an array, you need to use `render()`, if not, <code class="language-php">&lt;?php print $VARIABLE_NAME ?&gt;</code> works just fine. When in doubt, you can always refer to the default `page.tpl.php` in the `modules/system/` folder to see how the default implementation looks like.
 
-##Now you can start CSS-ing
+## Now you can start CSS-ing
+
 With all that settled, you can proceed to write up your styles. Depending on how you configured your `.info` file, as long as you've indicated which stylesheets and scripts your theme will load, writing your theme is just like styling any other HTML site. I'm going to cover my theming workflow using Sass and Gulp in another post, because people who want to write plain vanilla CSS are totally free to do so at this point. Using Sass, Gulp and other tools are optional, really. When you're happy with your theme, take a screenshot of it, name it `screenshot.png` and place that in the root of your theme folder.
 
 I'm also preparing to write a post on theming with Drupal 8. My gut tells me Drupal 8 is really right around the corner, and I'm pretty stoked about all the changes and improvements. CMI, Twig templating, Symfony and lots of other cool stuff are coming our way. This also means learning about a lot of new stuff, but that's the fun part, right? Gotta keep on Drupal-ing.

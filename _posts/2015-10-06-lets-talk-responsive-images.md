@@ -18,7 +18,8 @@ Loads of smart people, namely the [Responsive Issues Community Group (RICG)](htt
 
 The specification introduces 2 new attributes to the `<img>` element, namely `srcset` and `sizes`. `srcset` lets us declare a set of image sources, which browsers will serve according to certain conditions we specify using descriptors. There are `x` descriptors and `w` descriptors. 
 
-###Fixed-width images
+### Fixed-width images
+
 With the introduction of retina screens, it became necessary not only to take into account the resolution of the screen but the pixel density of those screens as well. Retina screens, 4K displays, UltraHD, all these displays have way more pixels packed into them compared with a standard resolution display of the same size. More pixels = sharper image quality.
 
 The following method works best for fixed width images. If, for some reason, you have an image that will always display at a certain width regardless of screen size, then this is the way to go. The browser would be choosing which image to load based its device-pixel-ratio.
@@ -32,7 +33,8 @@ The `srcset` attribute is basically lists the pool of source images from which t
 
 As mentioned above, an example of when a fixed width image is used could be a site's logo, which remains the same size regardless of viewport width. Images which are content-related, however, would usually be responsive, in that their sizes would change depending on the viewport width. For those types of images, there's a better method.
 
-###Fluid-width images
+### Fluid-width images
+
 For fluid-width images, we use `srcset` with the `w` descriptor and `sizes`. The `w` descriptor tells the browser the width of each image in the list. The `sizes` attribute is also a comma-separated list of 2 values. As of the latest specification, if the `srcset` has any images using the `w` descriptor, then the `sizes` attribute must be present as well. 
 
 There are two values in the `sizes` attribute. The first value is a media condition. The second value is the source-size-value, which determines the width of the image at that particular media condition. One important thing to note is that you cannot use percentages as the source-size-value, the only relative CSS length you can use is vw.
@@ -53,7 +55,8 @@ The browser utilises the information from `srcset` and `sizes` to serve the imag
 
 The first two examples display the same image at different quality levels, and hence the `srcset` attribute alone is sufficient. Again, if you're worried about legacy browsers, that's what the `src` is for. Those browsers will just treat it as a regular image and load from `src`. If you want to show slightly different images at different widths, for example, showing only the critical parts of an image at smaller widths, then we want to use the `<picture>` element.
 
-###Case #3: Art direction-based selection
+### Case #3: Art direction-based selection
+
 The `<picture>` element is like a wrapper for the image and its sources. Browsers still need the `<img>` to recognise that an image needs to be served. Without the `<img>`, nothing will render at all. `<source>`s provide the browser alternate versions of the image to display. Art direction is used for situations when we want a specific image to display at a specific breakpoint. There is no ambiguity in terms of image selection when you use the `<picture>` element.
 
 <p>
@@ -74,7 +77,8 @@ In the above example, when the viewport is larger than 960px, a landscape-orient
 
 The `<picture>` element is backwards compatible in that for browsers that don't support the picture element, `<img>` will be displayed as per normal. All standard attributes, like `alt`, for images should be applied to `<img>` not `<picture>`.
 
-###Case #4: Image format-based selection
+### Case #4: Image format-based selection
+
 There have been a number of new image formats that have come into existence in recent years. These new image formats offer better quality at lower file sizes. Sounds good, right? Until you realise that none of these formats are universally supported across all browsers. WebP was released by Google and although performs very well, is only natively supported by Chrome and Opera. JPEG-XR, originally known as HD Photo, was a proprietary image format released by Microsoft, supported only by Internet Explorer. If you're interested, Zoltan Hawryluk wrote an [in-depth examination](http://www.useragentman.com/blog/2015/01/14/using-webp-jpeg2000-jpegxr-apng-now-with-picturefill-and-modernizr/) of all these new formats.
 
 <pre><code class="language-markup">&lt;picture&gt;
@@ -86,13 +90,14 @@ There have been a number of new image formats that have come into existence in r
 
 Because `<source>` also has a type attribute, by specifying the MIME type of each image, browsers can choose the first source that has a type attribute of a supported MIME type. The order of the source matters, in this case, but if the browser doesn't recognise any of the image types, it will just fallback to the original `<img>` element.
 
-###Can I use all this right now?
+### Can I use all this right now?
+
 As of time of writing, `<picture>` is supported by the latest stable releases of Firefox, Chrome and Opera. Safari and Internet Explorer do not support `<picture>` natively at all. `srcset` does slightly better, with full support on the latest stable releases Firefox, Chrome and Opera, and partial support on Safari 8 and Internet Explorer Edge.
 
 There are quite a few polyfills out there that can address the support problem. The most well known is probably Scott Jehl's [picturefill](http://scottjehl.github.io/picturefill/). I'm currently using [respimage](https://github.com/aFarkas/respimage) on my own site. The specification is still being polished up right now but we're really close to a native responsive image solution. For all those interested, you can join the [Responsive Issues Community Group](https://www.w3.org/community/respimg/), sign up for the [newsletter](https://responsiveimages.org/) or follow them on [Twitter](https://twitter.com/respimg).
 
 
-###Further reading
+### Further reading
 
 <ul>
   <li class="no-margin"><a href="https://dev.opera.com/articles/native-responsive-images/">Native Responsive Images</a> by <a href="http://blog.yoav.ws/">Yoav Weiss</a></li>

@@ -9,7 +9,8 @@ category: planet-drupal
 ---
 I still remember the first Drupal 7 theme I built. It was for the [Singapore Gastric Cancer Consortium website]({{ site.url }}/blog/the-one-i-cut-my-teeth-on/), and at the time I barely knew my way around HTML and CSS. I used the [Zen](https://www.drupal.org/project/zen) theme as my starter theme, and unknowingly wrote my CSS in `.scss` files without realising the distinction. I was a little bit confused to why I needed to install a software called Codekit to make everything work but was too busy trying to get the theme up and running to worry about it at the time.
 
-##Let's talk about that thing called Sass
+## Let's talk about that thing called Sass
+
 After I finished up with that project, I took the time to understand exactly what was going on. That's when I learned what Sass was. Sass, like CSS, is a stylesheet language. It was developed as part of the HAML markup language, but has since grown into its own. Sass was invented by [Hampton Catlin](http://www.hamptoncatlin.com/) in 2006. [Natalie Weizenbaum](https://twitter.com/nex3/), the primary designer and developer of Sass, and [Chris Eppstein](http://chriseppstein.github.io/) are the main contributors to the Sass language. The full Sass documentation can be found [here](http://sass-lang.com/documentation/file.SASS_REFERENCE.html).
 
 Sass extends what CSS can do, by introducing useful features such as variables, nesting, mixins and so on. Browsers, however, only understand CSS so the Sass files have to be compiled into CSS for it to serve its purpose. Sass files come in two different syntaxes, Sass and <abbr title="Sassy CSS">SCSS</abbr>, both are currently supported but SCSS is the primary syntax. SCSS is exactly the same as CSS, so renaming any `.css` file to `.scss` works perfectly fine.
@@ -18,16 +19,17 @@ Sass originated as an open-source project built in Ruby. You can check out the s
 
 Personally, the Sass functionalities I make use of most are variables and mixins. As well as the occasional for-loop. If you want to see a true Sass pro, [Hugo Giraudel](http://hugogiraudel.com/) is your man. He does a lot of amazing things with Sass and you should check out his [blog](http://hugogiraudel.com/blog/) and all his various [projects](http://hugogiraudel.com/projects/).
 
-##And that other thing called gulp
+## And that other thing called gulp
+
 Officially, [gulp](http://gulpjs.com/) is a build system. When I first heard of all these tools, like [Grunt](http://gruntjs.com/) and gulp, I didn't understand what they were. Terms like task-runner, build tools, streams and so on just flew over my head. The first article I ever read on task-runners was [Grunt for People Who Think Things Like Grunt are Weird and Hard](https://24ways.org/2013/grunt-is-not-weird-and-hard/) by [Chris Coyier](http://chriscoyier.net/). Honestly, I didn't get it. But it's totally my problem and not his (he's awesome). A fellow front-end developer tried to explain to me the benefits of Grunt, but at the time, there was nothing that I needed from Grunt which Codekit couldn't do. So I left task-runners alone, and went about my own way.
 
 Earlier this year, I started doing a lot of HTML, CSS and Javascript experiments, so I came up with my own extremely bare-bones boilerplate, consisting of a 20-line HTML5 template file plus a styles.css file and a scripts.js file, both of which are blank. During these experiments, I found myself pressing ⌘-⇧-R at an alarming rate. Specifically I was doing ⌘-S (save file), ⌘-tab (switch to browser), ⌘-⇧-R (reload browser). And so, [Browsersync](http://www.browsersync.io/). Thing is, if you google "Browsersync development", the first result is [Browsersync + Gulp.js](http://www.browsersync.io/docs/gulp/). I had heard that gulp was easier to understand that Grunt, but was still sceptical, until I read the first tutorial. I actually understood what was happening almost immediately <span class="kaomoji">( ﾉ^.^)ﾉﾟ</span>.
 
 In a nutshell, when we do front-end development, there are certain actions or tasks that we do repeatedly. Like the aforementioned furious browser-reloading. Sometimes, we also use Sass, which needs to be compiled. When we write Javascript, best practice implores us to concatenate and minify our scripts (for production). Lots of stuff to take care of. Rather than have to do all that manually, task-runners like Grunt and gulp can do them automatically whenever we save our working files. So that's what everyone is talking about when they say automating your workflow.
 
-##Getting gulp on your system
+## Getting gulp on your system
 
-###Node.js
+### Node.js
 
 gulp is based on [Node.js](https://nodejs.org/). Node.js is an open source Javascript run-time system, in other words, it's a way for your computer to execute Javascript code. You can read this [introduction to Node.js article](http://blog.modulus.io/absolute-beginners-guide-to-nodejs) to find out more about it. The bottom line is, you need to install Node.js on your computer. The most direct way to do this is to download and run the installer from the official website's [downloads page](https://nodejs.org/download/). This approach works for both Windows and Mac. Now if you're on Linux, the assumption is you by default already know how to get Node.js on your system. Nah, just kidding. [Joyent](https://www.joyent.com/) has a great guide on [installing Node.js and NPM](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager) for a variety of Linux distributions.
 
@@ -41,15 +43,18 @@ If it returns `Your system is ready to brew` then you're good to go. And now we 
 
 <img srcset="{{ site.url }}/images/posts/drupal-gulp/node-install-810.jpg 1.5x, {{ site.url }}/images/posts/drupal-gulp/node-install-1080.jpg 2x" src="{{ site.url }}/images/posts/drupal-gulp/node-install-540.jpg" alt="Check node install" />
 
-###gulp
+### gulp
+
 <p class="no-margin">I don’t think most people care, but according to the <a href="https://github.com/gulpjs/gulp/blob/master/docs/FAQ.md">FAQ</a>, gulp is always lowercase, except for on the logo. But anyway, the next step is installing gulp.</p>
 <pre><code class="language-bash">npm install gulp -g</code></pre>
 The `-g` flag installs gulp globally on your system, allowing it to be used as a command line utility, even outside of node projects. However, you will still need to install gulp locally in your project folder. gulp will always look for a locally installed gulp to pass control to. This is actually makes deployment and dependency management much easier.
 
-##gulp-ify your Drupal theme
+## gulp-ify your Drupal theme
+
 If you're just starting out with Drupal theming, you can read my previous post on exactly that [right here]({{ site.url }}/blog/drupal-101-d7-theming/). The setup for this workflow is going to be different from the typical gulp tutorials you see on the web. Because Drupal has it's own quirks, you know. 
 
-###Setting up the package.json file
+### Setting up the package.json file
+
 <p class="no-margin">Navigate to the root of your Theme folder and initiate a new node project.</p>
 <pre><code class="language-bash">npm init</code></pre>
 This will trigger a series of prompts for the generation of a `package.json` file. This file will store all the information about the required node packages for your project. 
@@ -75,7 +80,7 @@ To prevent triggering a segmentation fault when running Drush, we need to add a 
   <li><a href="http://dannyenglander.com/blog/drupal-drush-segmentation-fault-11-error-avoiding-rabbit-hole">Drupal Drush Segmentation Fault 11 Error: Avoiding the Rabbit Hole</a> <em>(This one’s a good read)</em></li>
 </ul>
 
-###Adding plugins to the package.json file
+### Adding plugins to the package.json file
 
 <p class="no-margin">Under normal circumstances, adding gulp-plugins to your project is a straight-forward affair on the command line. Simply use the command:</p>
 <pre><code class="language-bash">npm install PLUGIN_NAME --save-dev</code></pre>
@@ -114,14 +119,16 @@ I made the decision to handle performance optimisation through Drupal itself. Dr
   "license": "ISC"
 }</code></pre>
 
-###Install all the things
+### Install all the things
+
 <p class="no-margin">Run the following command in the root of your theme folder, which is where your <code>package.json</code> file should be:</p>
 <pre><code class="language-bash">npm install</code></pre>
 You'll see a whole lot of stuff going on in your terminal, but when all is said and done, you'll have a `node_modules` folder in your theme folder. This installation allows the script to prevent segmentation fault we added earlier to run as the modules are installed. For future gulp-plugins, you may have to run a <a href="http://dannyenglander.com/blog/drupal-drush-segmentation-fault-11-error-avoiding-rabbit-hole">script</a> to remove their <code>.info</code> files.
 
 Make sure that `node_modules` is added to your `.gitignore` file because we do **NOT** want to commit those files. We only commit the `package.json` file and the `gulpfile.js` file. Anyone who clones the project will need to run `npm install` to get the project up and running.
 
-###Writing the gulpfile.js
+### Writing the gulpfile.js
+
 1. **Load the required plug-ins**  
     The `require` statement tells Node.js to refer to the `node_modules` folder, find the package stated in parenthesis and pass that into each respective variable in the list. These variables will be used when we write our various gulp tasks.
     <pre><code class="language-javascript">var gulp        = require('gulp'),
@@ -272,10 +279,12 @@ gulp.task('watch', function () {
  */
 gulp.task('default', ['browser-sync', 'watch']);</code></pre>
 
-###Up and running with Gulp
+### Up and running with Gulp
+
 <p class="no-margin">While you're in the root of your theme folder, run the command:</p>
 <pre><code class="language-bash">gulp</code></pre>
 Your terminal should look like the last screenshot above, and your browser will have a new window open with the URL pointing to `http://localhost:3000`. There will be a brief notification in the right corner that says *Connected to BrowserSync*. Now, when you write your styles, they will magically update in the Browser without you having to do anything. 
 
-##Wrap-up
+## Wrap-up
+
 I learnt a lot throughout the process of trying to use gulp as part of my theming workflow and also spent a good amount of time googling issues. And hopefully some of the stuff I mentioned will save you some troubleshooting time when you set up your own theme to use gulp.

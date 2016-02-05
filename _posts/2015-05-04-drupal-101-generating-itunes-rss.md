@@ -7,16 +7,18 @@ category: planet-drupal
 ---
 Podcast listenership has been steadily increasing in recent years, and some are even predicting that we're on the verge of a [podcasting explosion](http://contently.com/strategist/2014/10/21/4-predictions-from-top-media-minds/). With that being said, it's pretty likely you'll get tasked with creating an iTunes podcast feed. Luckily, it's quite simple to create one on your Drupal site with Views.
 
-###Required modules
+### Required modules
+
 <ul>
-<li class="no-margin"><a href="https://www.drupal.org/project/views">Views</a></li>
-<li class="no-margin"><a href="https://www.drupal.org/project/views_rss">Views RSS</a></li>
-<li class="no-margin"><a href="https://www.drupal.org/project/views_rss_itunes">Views RSS: iTunes Elements</a></li>
-<li class="no-margin"><a href="https://www.drupal.org/project/libraries">Libraries</a><em> (dependency for getID3())</em></li>
-<li><a href="https://www.drupal.org/project/getid3">getID3()</a><em> (dependency for Views RSS: iTunes Elements)</em></li>
+    <li class="no-margin"><a href="https://www.drupal.org/project/views">Views</a></li>
+    <li class="no-margin"><a href="https://www.drupal.org/project/views_rss">Views RSS</a></li>
+    <li class="no-margin"><a href="https://www.drupal.org/project/views_rss_itunes">Views RSS: iTunes Elements</a></li>
+    <li class="no-margin"><a href="https://www.drupal.org/project/libraries">Libraries</a><em> (dependency for getID3())</em></li>
+    <li><a href="https://www.drupal.org/project/getid3">getID3()</a><em> (dependency for Views RSS: iTunes Elements)</em></li>
 </ul>
 
-##Create/Modify content type for feed
+## Create/Modify content type for feed
+
 1. Install and enable the required modules.
     <pre><code class="language-bash">drush en views views_ui views_rss views_rss_core views_rss_itunes libraries getid3 -y</code></pre>
     - Create a new folder in your libraries folder like so: <code class="language-bash">sites/all/libraries/getid3</code>.
@@ -28,30 +30,31 @@ Podcast listenership has been steadily increasing in recent years, and some are 
 
     <p class="no-margin">Not all the tags are required. But it's good practice to include the following (as shown in the image above) so your podcast shows up nicely on the iTunes store:</p>
     <ul>
-    <li class="no-margin">channel &lt;itunes:author&gt;</li>
-    <li class="no-margin">channel &lt;itunes:image&gt;</li>
-    <li class="no-margin">channel &lt;title&gt;</li>
-    <li class="no-margin">channel &lt;itunes:summary&gt;</li>
-    <li class="no-margin">item &lt;title&gt;</li>
-    <li class="no-margin">item &lt;itunes:duration&gt;</li>
-    <li class="no-margin">item &lt;pubDate&gt;</li>
-    <li class="no-margin">item &lt;itunes:subtitle&gt;</li>
-    <li class="no-margin">item &lt;itunes:summary&gt;</li>
+        <li class="no-margin">channel &lt;itunes:author&gt;</li>
+        <li class="no-margin">channel &lt;itunes:image&gt;</li>
+        <li class="no-margin">channel &lt;title&gt;</li>
+        <li class="no-margin">channel &lt;itunes:summary&gt;</li>
+        <li class="no-margin">item &lt;title&gt;</li>
+        <li class="no-margin">item &lt;itunes:duration&gt;</li>
+        <li class="no-margin">item &lt;pubDate&gt;</li>
+        <li class="no-margin">item &lt;itunes:subtitle&gt;</li>
+        <li class="no-margin">item &lt;itunes:summary&gt;</li>
     </ul>
 
 3. <p class="no-margin">Create a content type with at least the following fields:</p>
     <ul>
-    <li class="no-margin">Title</li>
-    <li class="no-margin">Description <em>(just repurpose the Body field)</em></li>
-    <li class="no-margin">Image</li>
-    <li>Audio - Use the <em>File</em> field</li>
+        <li class="no-margin">Title</li>
+        <li class="no-margin">Description <em>(just repurpose the Body field)</em></li>
+        <li class="no-margin">Image</li>
+        <li>Audio - Use the <em>File</em> field</li>
     </ul>
 
     If you already have a content type that has an audio file field, you can skip this. Otherwise, when creating the new file field, make sure you change the allowed file extensions accordingly. iTunes accepts m4a, mp3, mov, mp4, m4v, pdf, epub.
 
     <img src="{{ site.url }}/images/posts/itunes/file-types.jpg" alt="Allowed file extensions"/>
 
-##Create the Feed view
+## Create the Feed view
+
 For this example, I'll be recreating the sample feed from the [Making a Podcast](https://www.apple.com/sg/itunes/podcasts/specs.html) guide by Apple.
 
 1. Create a new view for your content type.
@@ -114,20 +117,23 @@ For this example, I'll be recreating the sample feed from the [Making a Podcast]
         </ul>
 6. If you scroll down to the Preview panel, you should see a nice XML file ready to be sent over to iTunes. But before that, we need to make sure our feed passes validation.
 
-##Testing your feed file
+## Testing your feed file
+
 1. There are a couple ways you can do this. I exported my podcast.rss file and hosted it on my GitHub account, but you can host it anywhere you want. If you have a staging site to deploy to for testing, even better. Go to [Cast Feed Validator](http://castfeedvalidator.com/) and enter the URL to your feed file.
 2. If all goes well, you should see something like this:
 
     <img src="{{ site.url }}/images/posts/itunes/validation.jpg" alt="Feed validation"/>
 3. Note that if you exported your podcast.rss file from local development, and your site domain isn't a legit domain (I use **.dev** on my local), your feed will not validate. But this can be ignored because once you deploy to an actual site, this issue will be resolved.
 
-##If you run into AJAX errors...
+## If you run into AJAX errors...
+
 I'm not too sure if this is a localised issue or not, so I'm just adding on what I did to resolve the AJAX issues I encountered.
 
 - Downgrade the getid3 module to version 7.x-1.0
 - Double-check that Drupal recognises the getid3 library by checking Status Report
 - Make sure the getid3 library path matches the actual folder name in your Libraries folder
 
-##Wrap-up
+## Wrap-up
+
 And that's pretty much it. Your feed should be ready for submission to the iTunes store. I suggest using the [Making a Podcast](https://www.apple.com/sg/itunes/podcasts/specs.html) documentation as a checklist just to ensure everything is in order. Happy podcasting!
 

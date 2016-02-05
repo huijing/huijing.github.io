@@ -14,7 +14,8 @@ Joking aside, I'd never done a hackathon before and thought it'd be fun to try. 
 
 <img src="{{ site.url }}/images/posts/battlehack/battlehack.jpg" alt="Battlehack Singapore 2015"/>
 
-##The idea
+## The idea
+
 The theme of the hackathon was to solve a local or global problem so before the event, we kicked around a couple of ideas and settled on a Clinic Finder app. Think Yelp for clinics. Singapore provides a large number of medical schemes that offer subsidised rates for healthcare. Not every clinic is covered by every scheme though, so we thought it'd be good if people could find clinics based on the medical scheme they are covered by.
 
 Of course, there will be people who aren't covered by any medical scheme at all, like me. But I've also had the experience of being brought on a wild goose chase by Google while trying to find an open clinic at 2am in the morning. I'd like to think this is a relatable scenario. Being idealistic people, we wanted our app to provide updated information on each clinic, like actual opening hours and phone numbers with real people on the other end of the line. And trust me, we've pondered the BIG question of: where will you ever get such data?
@@ -23,7 +24,8 @@ The most viable idea we could think of at the time was to work with the relevant
 
 Our expertise was building Drupal sites. Thus, that would be our best bet to have a working application at the end of 24 hours. Maybe one day we'll join hackathons to win, but not this time. This time, we just wanted to finish. Gotta know how to crawl before learning to walk, and walk before learning to run.
 
-##Day 1
+## Day 1
+
 Battlehack Singapore took place at the [Cliftons office](https://www.cliftons.com/venues/singapore/) in the Finexis Building. Rooms on both floors were set up for teams of four, with power points and LAN cables for each member. We took a spot near the wall because there was a nice spot to the side for napping. Turns out there wouldn't be much of that. 
 
 Shortly into the hackathon, we hit our first snag. The internet access went out. Definitely an "Oh, crap" moment for me. I mentioned in my [last post]({{ site.url }}/blog/542-days-as-a-drupal-developer/) how much I used Google throughout the day. I guess the Hackathon Fates decided, no Google for you, kiddo. 
@@ -72,7 +74,8 @@ function clinicfinder_preprocess_field(&$variables) {
 }</code></pre>
 Even though it was a hackathon, and we were pressed for time, I still tried my best to adhere to Drupal best practices. So the <code class="language-php">template_preprocess_field</code> went into the <code class="language-bash">template.php</code> file while the <code class="language-php">hook_form_alter</code> went into a custom module.
 
-###Day 2
+## Day 2
+
 The presentation at the end of the hackathon was only two minutes long. We figured that as long as we could articulate the app's key features and demo those features successfully, that would be our pitch. As Sheryl Sandberg said:
 <blockquote>Done is better than perfect.</blockquote>
 
@@ -84,7 +87,8 @@ The Battlehack guys were really helpful in this regard. There were rehearsal slo
 
 That was a really good piece of advice, as we watched a number of participants who presented before us run out of time before they got to best part of their product. We managed to pitch our app within the time and answer the judges' questions. As expected, we did get the "so where will you get the data?" question. So we talked about partnership with government organisations. Another question we got was about advertising, which tied into a point we didn't really consider, on the sustainability of the app.
 
-##Hackathon takeaways
+## Hackathon takeaways
+
 1. Expect that things may go wrong and adapt accordingly.
 2. Be focused. You only have 24 hours.
 3. Keep your pitch concise. Two minutes goes by quicker than you think.

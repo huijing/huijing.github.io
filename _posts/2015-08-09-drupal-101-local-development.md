@@ -7,16 +7,20 @@ category: planet-drupal
 ---
 I recently moved from an agency specialising in building Drupal sites to one which is platform-agnostic, and uses all variety of technologies. As my team was not very familiar with Drupal, I started writing some documentation on setting up locally, installing Drush and commonly used modules, and some other stuff so everyone could get up and running quickly. I've modified it to be even more beginner-friendly, for people who've never built websites before. This is sort of opinionated so feel free not to follow along exactly.
 
-##The basic technology stack
+## The basic technology stack
+
 As with most content management systems, Drupal has some [system requirements](https://www.drupal.org/requirements) in order to run, commonly known as a technology stack. This simply means you have to install a bunch of things before installing Drupal. The most common stack for running Drupal is: **Apache**, **MySQL** and **PHP**, or AMP stack. You can choose to install each of these components separately on your machine, or you can download a [software bundle](https://en.wikipedia.org/wiki/List_of_Apache%E2%80%93MySQL%E2%80%93PHP_packages) that comes with all of them. [XAMPP](https://www.apachefriends.org/index.html) is very popular because it's cross-platform. Some Windows users go with [WAMP](http://www.wampserver.com/en/) and some Mac users use [MAMP](https://www.mamp.info/en/). All of them generally provide the same functionality, but each have their own pros and cons. I chose to install all my components separately, but if you don't want to do that, just go with a software bundle.
 
-###Apache
+### Apache
+
 [Apache](http://www.apache.org/) is the recommended web server for running Drupal. A web server is a program which accepts requests from clients, like browsers, and responds to those requests. It's like going to a store and asking the shopkeeper for a can of peas. The shopkeeper will check his inventory and if he has any, he'll hand you the can, if not, he'll tell you he doesn't have any. To find out more about Apache, you can read [An Introduction to Apache](https://code.tutsplus.com/tutorials/an-introduction-to-apache--net-25786) by [Diana Eftaiha](https://twitter.com/thedphoto). You are free to use other web servers, like Nginx or Hiawatha, because Drupal works on any web server that supports PHP.
 
-###MySQL
+### MySQL
+
 Drupal also requires a database server, the recommended one being [MySQL](http://www.mysql.com/). Similar to the web server, a database server is a program which provides database services to other programs (like your browser). A database is like a neatly organised filing cabinet, and the database server is like the secretary in charge of all those documents. The secretary should only takes requests from authorised personnel, for security reasons. This is why MySQL requires you to have a user name and password to log into the system. By default, MySQL does not come with a graphical user interface (GUI). It is definitely possible to manage your database from the command line alone, but most people install a GUI to make things easier. I use [Sequel Pro](http://www.sequelpro.com/), but that's only for Mac users. A popular choice is [phpMyAdmin](https://www.phpmyadmin.net/), which allows you to handle database management via the browser. [MySQL workbench](http://dev.mysql.com/downloads/workbench/) is another database management software which is cross-platform.
 
-###PHP
+### PHP
+
 [PHP](https://secure.php.net/) is a server-side scripting language which allows web pages to serve up content dynamically. When we install PHP on a server, we are actually installing an engine which interprets the PHP code on your web page. Continuing with the secretary example above, it's as if you have a request but it's written in Chinese, and the secretary doesn't understand Chinese. Installing PHP is like introducing a translator, to this mix, so the translator will interpret your Chinese request to the secretary so she can understand exactly what you're requesting. There are many different server-side scripting languages, like Java, Ruby, Python and so on. They are simply different languages, like Chinese, Spanish and French.
 
 <p class="no-margin">Regardless of the option you choose, follow the instructions provided by the software manufacturer to install your software bundle of choice on your machine. If you're on a Mac and feeling adventurous, these are the resources I used to set up my development environment:</p>
@@ -35,10 +39,12 @@ Installing all these programs alone is not the end of it. These programs, specif
   <li><a href="http://klausharris.de/blog/install-drupal-7-wamp.html">How to install Drupal 7 on WAMP</a></li>
 </ul>
 
-##Must-have tools
+## Must-have tools
+
 Admittedly, we developers love our tools. But if something can streamline your workflow and reduce your development time, why not? Don't worry, this is not a long list, there are only two tools we really need. Git and Drush. I've already written about these two tools and how to install them in a previous post about [developing Drupal sites as a team]({{ site.url }}/blog/team-drupal-development/). You can skip straight to the parts on [installing Drush]({{ site.url }}/blog/team-drupal-development/#installing-drush) and [installing Git]({{ site.url }}/blog/team-drupal-development/#installing-git).
 
-##Installing Drupal locally
+## Installing Drupal locally
+
 1. Download the latest stable version of Drupal from [Drupal.org](https://www.drupal.org/start)
 2. Extract the `.zip` file into your localhost directory and set up however you normally do a new local site. The common default alias used for your local environment is localhost, or 127.0.0.1, so we'll be referring to `http://localhost` for this example.
 3. Navigate to the sites/default folder and make a copy of the default.settings.php file. Rename this file settings.php. Set the permissions for this file to writeable. You can do that with the following command.
@@ -63,7 +69,8 @@ Admittedly, we developers love our tools. But if something can streamline your w
   <li><a href="http://www.wpwhitesecurity.com/wordpress-tips-webmasters/multiple-websites-xampp/">How to run multiple websites on XAMPP on Windows</a></li>
 </ul>
 
-##Initial module installation
+## Initial module installation
+
 <p class="no-margin">There are a number of modules that are so regularly used that they are default installs for every Drupal site I build. With Drush installed, you can easily install all these modules from your command line.
 To double check that Drush is installed correctly on your system, navigate to the root of your Drupal installation and run:</p>
 <pre><code class="language-bash">drush status</code></pre>
@@ -106,5 +113,6 @@ ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);</code></pre>
 This turns on error reporting, which is extremely helpful when developing. Otherwise, you will just end up with a white screen and not know what's wrong. However, when it comes to deploying your site to a live production environment, these lines should be removed.
 
-##Wrap-up
+## Wrap-up
+
 Every developer has their own preferred workflows and processes, and this is mine. Hopefully there are some bits you find helpful and can incorporate into your own Drupal development workflow. 

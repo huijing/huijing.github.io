@@ -51,7 +51,8 @@ For now, text can only flow on the opposite side of the float declared on the el
 - <code class="language-css">shape-outside</code> which flows the text around a shape. This goes with the <code class="language-css">shape-margin</code> property.
 - <code class="language-css">shape-inside</code> which wraps text inside a shape. This goes with the <code class="language-css">shape-padding</code> property. (This property has been deferred to [CSS shapes module level 2](http://dev.w3.org/csswg/css-shapes-2/))
 
-##The circle() function
+## The circle() function
+
 <img src="{{ site.url }}/images/posts/css-shapes/circle-example.jpg" alt="CSS shapes circle example"/>
 <pre><code class="language-css">
 .circle {
@@ -82,7 +83,8 @@ CSS shapes is one of those properties that won't totally break your layout if so
 
 <img src="{{ site.url }}/images/posts/css-shapes/circle-example-fallback.jpg" alt="CSS shapes circle fallback example"/>
 
-##The ellipse() function
+## The ellipse() function
+
 <img src="{{ site.url }}/images/posts/css-shapes/ellipse-example.jpg" alt="CSS shapes ellipse example"/>
 <pre><code class="language-css">
 .ellipse {
@@ -102,7 +104,8 @@ CSS shapes is one of those properties that won't totally break your layout if so
 Notice the 2 behind shape-radius? This just means the function takes in 2 variables, the length of the ellipse's radius on the x-axis and another length on the y-axis. Like the circle, it defaults to <code class="language-css">closest-side</code>.
 The position variable also behaves like the circle() function, and the coordinates default to (0, 0), the centre of the ellipse.
 
-##The inset() function
+## The inset() function
+
 <img src="{{ site.url }}/images/posts/css-shapes/inset-example.jpg" alt="CSS shapes inset example"/>
 <pre><code class="language-css">
 .inset {
@@ -132,7 +135,8 @@ The <code class="language-css">shape-arg</code> takes in variables the way we wr
 </div>
 The optional parameter here is <code class="language-css">border-radius</code>, which allows you to create rectangles with rounded corners and flow your text along those rounded corners. Personally, I think the border-radius property is what makes the inset() function useful at all since we can already make text flow around normal rectangles, but that's just me.
 
-##The polygon() function
+## The polygon() function
+
 <img src="{{ site.url }}/images/posts/css-shapes/polygon-example.jpg" alt="CSS shapes polygon example"/>
 <pre><code class="language-css">
 .polygon {
@@ -154,14 +158,16 @@ Each coordinate pair will be a point on your desired shape. There has to be at l
 
 It may be pretty straightforward to create a standard shape like the triangle in my example, but for complex shapes, plotting the points would be quite a painful endeavour. Which is why [Razvan Caliman](http://razvancaliman.com/) released the [CSS Shapes Editor for Chrome](http://razvancaliman.com/writing/css-shapes-editor-chrome/). It adds an additional tab to the Elements panel called Shapes. It allows you to drag points on your shape and adjust it in the browser. The article covers exactly what you need to do to install and use the extension.
 
-##Browser support for CSS shapes
+## Browser support for CSS shapes
+
 CSS shapes has been available for Chrome since the 37 release, while Safari support came along at 7.1. Here's a look at the browser support for CSS shapes as of time of writing:
 
 <img src="{{ site.url }}/images/posts/css-shapes/css-shapes.jpg" alt="Can I use CSS shapes"/>
 
 The unfortunate thing is, neither Firefox nor Internet Explorer supports CSS shapes right now. But this is a feature that we should all keep an eye on, and get ourselves ready for, because this could potentially change the way we design websites altogether.
 
-###Recommended reading for more CSS shapes goodness:
+### Recommended reading for more CSS shapes goodness:
+
 <ul>
 <li class="no-margin"><a href="http://www.html5rocks.com/en/tutorials/shapes/getting-started/">Getting started with CSS shapes</a> by <a href="http://razvancaliman.com/">Razvan Caliman</a></li>
 <li class="no-margin"><a href="http://blogs.adobe.com/webplatform/2013/10/23/css-shapes-visual-storytelling/">Using CSS shapes to enhance visual storytelling</a> by <a href="http://razvancaliman.com/">Razvan Caliman</a> (If you need more proof that CSS shapes is awesome)</li>

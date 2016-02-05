@@ -21,7 +21,7 @@ Given this was a migration, the site architecture was documented on a spreadshee
 
 Here's where I don't have an obvious conclusion. Could these issues of constantly changing functional requirements have been addressed by including the development team in the design process? Maybe. Would we have been unable to pre-empt these issues before actually building out the site? Perhaps. Then again, if I had more experience at the time, I could have picked up the fact that some of these design decisions didn't make sense from an architectural standpoint. But again, many lessons were learnt because of this.
 
-##Bits about building the site
+## Bits about building the site
 
 Being a church website, there were many Bible references so we thought it'd make sense to install [bib.ly](https://www.drupal.org/project/bibly), which would convert all Bible references into a link that on hover, would display the Biblical text. Just in case anybody else is building a church website.
 

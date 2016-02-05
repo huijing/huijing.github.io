@@ -14,7 +14,8 @@ Your new favourite word for today is cache. For users to see one of your pages o
 
 There are a myriad of tools and checklists out there that can point you in the right direction when it comes to optimising your Drupal site. [Tim Millwood's](https://twitter.com/timmillwood) article on the [Top 15 Drupal performance tips](http://www.creativebloq.com/web-design/drupal-performance-tips-9122837) is a good one. I followed most of them to optimise my sites but always wondered how these actions actually worked. So here goes, the newbie's guide to Drupal site optimisation.
 
-##General good practices
+## General good practices
+
 - **Keep core and modules up-to-date**
     + Although this seems like a no-brainer, I also understand that sometimes updating a module may OCCASIONALLY break something (trust me, I've been there). My advice? Always test on your local development environment before deploying.
 - **Always disable and uninstall modules before removing them**
@@ -26,7 +27,8 @@ drush pm-uninstall [MODULE_NAME] -y</code></pre>
     + If you did remove your module files without disabling them first, AND your website didn't crash, well, you got lucky. But we still have to fix things. [Clean missing modules](https://www.drupal.org/project/clean_missing_modules) provides a drush command to clean up your mess.
     <img src="{{ site.url }}/images/posts/basic-performance/drupal-performance-2.jpg" alt="Error message WSOD"/>
 
-##Drupal performance options
+## Drupal performance options
+
 This is available out-of-the-box with any Drupal installation. Go to <code class="language-bash">admin/config/development/performance</code> and you will see these options.
 
 <img src="{{ site.url }}/images/posts/basic-performance/drupal-performance.jpg" alt="Drupal performance settings"/>
@@ -61,7 +63,8 @@ This is available out-of-the-box with any Drupal installation. Go to <code class
 
 Usually, it's best to just check everything here. 
 
-##Core modules to avoid
+## Core modules to avoid
+
 - **Database logging (dblog)**
     + dblog will write all log messages to the database. Keyword here is all. Error messages, write. Debugging information, write. Module generated log messages, write. You get the picture.
     + This results in lots of database entries every time a page loads. The busier the database is, the slower your site will be.

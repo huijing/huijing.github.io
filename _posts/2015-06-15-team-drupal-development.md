@@ -10,7 +10,8 @@ A lot of people, myself included, start out with Drupal on their own, developing
 
 Working with a team of people to build a Drupal site (or any other development project) requires more structure and discipline to ensure the project doesn't descend into a pile of spaghetti code. I'm going to try to summarise the processes that worked for my team thus far. I do foresee our process continuing to evolve as we start using new tools and learning new things as we go along.
 
-##Required development tools
+## Required development tools
+
 <ul>
   <li class="no-margin">
     <strong>Git</strong>
@@ -25,7 +26,8 @@ Working with a team of people to build a Drupal site (or any other development p
 
 Both tools are crucial for any team working with Drupal. Installation instructions for Git are pretty straightforward. It's usually the installation of Drush that trips people up.
 
-###Installing Git
+### Installing Git
+
 If you're on a Mac, and have Xcode with command line tools installed, you already have Git on your system. But if you want to upgrade to the latest version of Git, which I highly recommend, the simplest way is via [homebrew](http://brew.sh/).
 
 1. Install Homebrew.
@@ -40,7 +42,8 @@ If you're on a Mac, and have Xcode with command line tools installed, you alread
 
 For Windows users, you can download the installer for Git from [Git for Windows](http://msysgit.github.io/). There is an excellent guide called [Working with Git on Windows](http://guides.beanstalkapp.com/version-control/git-on-windows.html) by [Beanstalk](http://beanstalkapp.com/) that can help you get Git up and running on your Windows machine.
 
-###Installing Drush
+### Installing Drush
+
 <p class="no-margin"><strong>Instructions for Mac Users</strong></p>
 This will install the latest version of Drush on your machine. This method works with systems running MAMP as well as homebrew versions of php.
 
@@ -71,10 +74,11 @@ mv composer.phar /usr/local/bin/composer</code></pre>
 
 I highly suggesting referring to [Installing Drush 7 on Windows 7 and 8 + XAMPP](http://drupalistasgroup.com/installing-drush-7-windows-xampp) for detailed instructions and troubleshooting.
 
-##General guidelines
+## General guidelines
+
 The project must be managed using Git. This allows everyone to have visibility on the changes to the code base, and also helps with debugging and disaster recovery, when necessary. For this to work, all members of the team have to agree on the way of working.
 
-###A modified git workflow
+### A modified git workflow
 
 - There will be **3 environments**, local development, staging server and production server.
 - **Production server** will be on a `master-deployment` branch, where all files have been optimised and served to the public. We never make code changes directly on the production server.
@@ -86,7 +90,8 @@ The project must be managed using Git. This allows everyone to have visibility o
 - **Write clear, descriptive commit messages**. Do not write commit messages like "Bug fix" and leave it like that. This makes it easier for all involved to have a clear idea of which commits did what. And speeds up the debugging process, when necessary.
 - Related to the above point, we **append an infinitive (add, remove, update) to the commit message**. For Drupal updates, our commit messages follow the format: *update MODULE_SHORT_NAME to version = "7.x-x.x"*, where the version portion is directly copied from the module's .info file.
 
-###The Drupal way of web development
+### The Drupal way of web development
+
 - **Never hack core**. Drupal has a comprehensive hook system that allows us to keep our custom code separate from core and module files, which makes upgrading Drupal much more maintainable.
 - All Drupal development work takes place in the `sites` folder. To make it easier for everyone on the team to find stuff, the folder is organised as follows:
     <pre><code class="language-markup">
@@ -115,7 +120,8 @@ The project must be managed using Git. This allows everyone to have visibility o
 - **Do not put business logic in the template layer**. Drupal can be considered a PAC (Presentation-Abstraction-Controller) framework, and the presentation layer only deals with parsing the raw data from the Controller into HTML. There should not be intelligence built into it. Keeping to this practice makes it much easier to on-board new developers to the project.
 - **Make good use of Drupal's structured data capabilities**. Drupal makes creating content types and fields very simple. Take the time to plan out the content structure and create the appropriate content types and fields. This will make it easy to implement manipulate the data in views for sorting and filtering, search functionality and so on.
 
-###Exporting and deploying features
+### Exporting and deploying features
+
 *This should change significantly once Drupal 8 becomes the standard*.
 
 - We use the [Features](https://www.drupal.org/project/features) module extensively for the export and deployment of site functionality. There are a number of related modules that we regularly use together with Features to export certain functionality.
@@ -128,15 +134,17 @@ The project must be managed using Git. This allows everyone to have visibility o
 - Features are organised by functionality, to keep things as modular as possible. For example, if there is an events section, then all functionality related to that section, like the event content type, image styles, views and so on, will be exported to the *PROJECT_NAME_events* feature.
 - It is not possible to export everything cleanly and modularly, hence it is very important to have clearly documented deployment steps, especially for manual steps which have to be recreated exactly on the production server.
 
-##Conclusion
+## Conclusion
+
 Working in a team allows us to leverage on each other's strengths and capabilities to create a better end-product than if we were working alone. However, because everybody works differently, it is crucial that there are clear guidelines and processes which everyone agrees upon. It may take some work to come up with documentation and processes, but the benefits reaped in the long run is well worth the effort.
 
-###Further reading
+### Further reading
+
 <ul>
-<li class="no-margin"><a href="http://julianlmedina.com/getting-drush-working-with-mamp-3-on-mac/">Getting Drush working with MAMP 3 on Mac</a></li>
-<li class="no-margin"><a href="http://www.annertech.com/blog/implement-web-design-drupal-way">Implementing a Web Design the Drupal Way (not just any old way)</a></li>
-<li class="no-margin"><a href="http://binary-studio.com/2014/05/23/top-10-rules-for-better-git-workflow/">Top 10 Rules For Better Git Workflow</a></li>
-<li><a href="http://www.garfieldtech.com/blog/mvc-vs-pac">MVC vs. PAC</a></li>
+    <li class="no-margin"><a href="http://julianlmedina.com/getting-drush-working-with-mamp-3-on-mac/">Getting Drush working with MAMP 3 on Mac</a></li>
+    <li class="no-margin"><a href="http://www.annertech.com/blog/implement-web-design-drupal-way">Implementing a Web Design the Drupal Way (not just any old way)</a></li>
+    <li class="no-margin"><a href="http://binary-studio.com/2014/05/23/top-10-rules-for-better-git-workflow/">Top 10 Rules For Better Git Workflow</a></li>
+    <li><a href="http://www.garfieldtech.com/blog/mvc-vs-pac">MVC vs. PAC</a></li>
 </ul>
 
 <em><small>Credits: OG:image from <a href="http://seriousplaypro.com/2015/03/12/lego-case-study-team-culture/">LEGO® SERIOUS PLAY®</a></small></em>

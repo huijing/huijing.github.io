@@ -14,20 +14,22 @@ At the time, the main SFO site was a single-language implementation. There was s
 
 We worked very closely with the team who built the original SFO site, [Proof Integrated Communications](http://www.proofic.com/) (Proof IC). As we were in different timezones, we established a work-flow that allowed both teams to collaborate and keep each other updated on the work we were doing. It really helped that all the developers, who were elbows-deep in code, had direct access to each other. We were also willing to compromise when it came to meetings and skype calls, where we would come in early and they would stay a little later or vice versa. 
 
-##Homepage redesign
+## Homepage redesign
+
 <div class="figure-wrapper">
-<figure class="two-col">
-<figcaption>English site on flysfo.com</figcaption>
-<img src="{{ site.url }}/images/posts/sfo/sfo-hp.jpg" alt="flysfo.com homepage"/>
-</figure>
-<figure class="two-col">
-<figcaption>China site on flysfo.cn</figcaption>
-<img src="{{ site.url }}/images/posts/sfo/sfo-hp2.jpg" alt="flysfo.cn homepage"/>
-</figure>
+    <figure class="two-col">
+        <figcaption>English site on flysfo.com</figcaption>
+        <img src="{{ site.url }}/images/posts/sfo/sfo-hp.jpg" alt="flysfo.com homepage"/>
+    </figure>
+    <figure class="two-col">
+        <figcaption>China site on flysfo.cn</figcaption>
+        <img src="{{ site.url }}/images/posts/sfo/sfo-hp2.jpg" alt="flysfo.cn homepage"/>
+    </figure>
 </div>
 There were slight differences in the functionality available for the Chinese site and as a result we redesigned the home page for the Chinese site. We laid out the most commonly used links in three panels on the homepage for ease of access. The three major categories in each of these panels were flight information, passenger information and transport information. 
 
-##Importing Chinese content
+## Importing Chinese content
+
 The structure of the Chinese site would almost mirror English site, with a few minor differences. Not all the English content would have Chinese counterparts. The sections marked for translation would be translated accordingly. These translations would be imported via feeds. All the content for each content type was formatted into their respective XML files. It took about a week of testing, troubleshooting and tweaking to make sure the translations imported correctly. 
 
 The preparation of the XML files was done by Proof IC, and here was were the close collaboration really paid off. As we set up and tested the feed, we constantly updated Proof IC with tweaks that needed to be made to the XML file.
@@ -39,7 +41,8 @@ The preparation of the XML files was done by Proof IC, and here was were the clo
 - Each content type had its own XML file. This was because each content type had their own set of fields.
 - Taxonomy terms were imported in English. This was to prevent the creation of new terms (in Chinese) on import. Taxonomy terms were translated through the system, using the **Multilingual Taxonomy** (i18n_taxonomy) module.
 
-##Translation gotchas
+## Translation gotchas
+
 1. **Nodes must have a language assigned (by default, language is set to neutral), otherwise they cannot be translated.** For this case, as the main site was in English, all the nodes were set to *en*. Sample query for setting language as follows, rename *CONTENT_TYPE* as required:
     <pre><code class="language-bash">update node set language = 'en' where type = 'CONTENT_TYPE'</code></pre>
     <p class="no-margin">If, for some reason, some of the nodes need to be in another language or remain as neutral, the query will need additional conditions. The following is an example for setting language on language neutral basic pages, excluding certain specific pages. (This was a special case scenario):</p>
@@ -72,5 +75,6 @@ The preparation of the XML files was done by Proof IC, and here was were the clo
 
 5. **Refresh strings is the "Did you try turning it on and off again?" solution for string translation issues.** If the string that needs to be translated just refuses to show up in the *Translate interface*, make sure you have visited the page where the string is rendered, then refresh strings. Somehow the system needs to "register" those strings before they can be recognised for translation.
 
-##Conclusion
+## Conclusion
+
 This is one of my favourite projects to work on, despite the amount of tricky issues we encountered. It was one of those projects where the client was a pleasure to work with, and everyone was on the same page. The amount of R&D we did for this project set us up with a lot of valuable knowledge and experience for future multi-language sites as well. With Drupal 8 having even [better multilingual support](http://www.drupal8multilingual.org/), I can see how Drupal can become the platform of choice for multilanguage sites moving forward.

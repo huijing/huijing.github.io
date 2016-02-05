@@ -19,7 +19,8 @@ The Views slideshow module has been downloaded 1,246,043 times as of time of wri
 
 There is extensive coverage on the basics of installation and setting up [here](https://www.drupal.org/node/903244). However, the Views slideshow does require some further tweaking after installation. Depending on your requirements, you can choose to create a Slide content type just for the carousel, or you can choose to use an existing content type. For this example, I created a simple Slide content type, consisting of just 2 fields, a title and an image. 
 
-##Slideshow view display setup
+## Slideshow view display setup
+
 1. Start off by creating a View for the Slide content type.
 <img src="{{ site.url }}/images/posts/image-carousel/view-slideshow.jpg" alt="Create slide view"/>
 
@@ -39,7 +40,8 @@ There is extensive coverage on the basics of installation and setting up [here](
 <img src="{{ site.url }}/images/posts/image-carousel/view-slideshow-8.jpg" alt="Pager unstyled"/>
 Now we're done with the Views portion. On to the CSS!
 
-##Styling the dot pager
+## Styling the dot pager
+
 Before we begin, you must brace yourself for markup with levels of nesting so deep it would put Inception to shame. Yes, we can do something about it, but that's for another article. So for now, defaults it is. Channel your inner Christopher Nolan, my friends.
 
 1. Go to wherever you chose to render your newly created Slideshow views block and right-click the Nid pager to inspect element.
