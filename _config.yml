@@ -20,6 +20,7 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
   - jemoji
+  - jekyll-paginate
 
 defaults:
   -
