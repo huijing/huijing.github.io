@@ -2,6 +2,7 @@
 layout: post
 title: "Why some large-scale responsive website revamps fail"
 date: February 5, 2016
+image: revamp-fail.jpg
 tags: [opinion]
 ---
 Go into any pitch or brief for a website project and I'm fairly certain the word "Responsive" will be sprinkled liberally all throughout every conversation during the session. Whether or not everyone in the room fully understands what that word entails, is another thing altogether. But the matter of fact is, with access to the web becoming increasingly ubiquitous on an infinitely wide range of devices, responsive web design is here to stay. I personally can't even remember the last time I built a non-responsive site. 
@@ -59,3 +60,5 @@ Building up a style guide of components early allows any inconsistencies in the 
 ## Wrapping up
 
 Nobody starts a project with the expectation it will fail. Given the ubiquitous nature of the web today, an organisation's web presence is more important than ever before. It is something that will directly affect a business's bottom line. Those of us who live and work on and with the web need to advocate change for the better. Every one of us has the responsibility to constantly improve ourselves in terms of skills, knowledge and processes. Then, we need to educate those around us who do not do this for a living. We cannot simply shrug and accept the status quo, thinking we cannot make a difference. We can, we should and we must.
+
+<em><small>Credits: OG:image by <a href="http://mimblewimble.deviantart.com/art/FAILURE-98168465">Mim</a></small></em>
