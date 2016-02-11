@@ -2,7 +2,7 @@ var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
 var prefix      = require('gulp-autoprefixer');
-var cssmin      = require('gulp-minify-css');
+var cssnano     = require('gulp-cssnano');
 var concat      = require('gulp-concat');
 var uglify      = require('gulp-uglify');
 var cp          = require('child_process');
@@ -126,7 +126,7 @@ gulp.task('sass-prod', function () {
       onError: browserSync.notify
     }))
     .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-    .pipe(cssmin())
+    .pipe(cssnano())
     .pipe(gulp.dest('_site/css'))
     .pipe(gulp.dest('css'));
 });
