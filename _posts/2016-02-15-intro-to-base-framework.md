@@ -10,7 +10,8 @@ I had previously only ever had experience with Drupal, which isn't an MVC (Model
 
 The creator of the base framework (who also used to be my boss) had expressed intent to open-source it, eventually (when he's less busy). So maybe some day in the future, some developer may chance upon the framework and try it for their project. Hopefully this post will still exist then and be of help.
 
-##Le Framework (as explained by a noob)
+## Le Framework (as explained by a noob)
+
 The framework is based on Kohana, which is an MVC (Model-View-Controller) framework. It's unimaginatively called the **Base Framework**. Having been "brought up" on Drupal, I had been shielded from a lot of things, like routing. Drupal handles routing without me having to even think twice about it. A static site doesn't really use any routing (I think), so I hadn't been exposed to the intricacies of routing up till that point. Imagine my surprise when I realised that typing the URL of the page I just created gave me this wonderful error screen.
 
 <img srcset="{{ site.url }}/images/posts/base-framework/error-480.jpeg 480w, {{ site.url }}/images/posts/base-framework/error-640.jpeg 640w, {{ site.url }}/images/posts/base-framework/error-960.jpeg 960w, {{ site.url }}/images/posts/base-framework/error-1280.jpeg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/base-framework/error-640.jpeg" alt="Controller not found error" />
