@@ -78,7 +78,7 @@ $breakpoints: (
 }
 
 @font-face {
-    font-family: '8-bit Operator';
+    font-family: 'Eight-bit';
     src: url('../fonts/eightbitoperatorplus8-bold-webfont.eot');
     src: url('../fonts/eightbitoperatorplus8-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/eightbitoperatorplus8-bold-webfont.woff2') format('woff2'),
@@ -89,7 +89,7 @@ $breakpoints: (
 }
 
 @font-face {
-    font-family: '8-bit Operator';
+    font-family: 'Eight-bit';
     src: url('../fonts/eightbitoperatorplus-regular-webfont.eot');
     src: url('../fonts/eightbitoperatorplus-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('../fonts/eightbitoperatorplus-regular-webfont.woff2') format('woff2'),
@@ -103,7 +103,7 @@ $breakpoints: (
 $base-font: "Roboto Slab", Rockwell, serif;
 $header-font: "Palo Alto";
 $code-font: "Droid Sans Mono", "Lucida Console", Monaco, "Courier New", Courier, monospace;
-$display-font: "8-bit Operator";
+$display-font: "Eight-bit";
 
 // Base font sizes and line heights
 $base-font-size: 20px;
