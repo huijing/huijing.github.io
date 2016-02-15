@@ -2,6 +2,7 @@
 layout: post
 title: "Introduction to the Base Framework"
 date: Feb 15, 2016
+image: base.jpg
 tags: [kohana]
 ---
 
