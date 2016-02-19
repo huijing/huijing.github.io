@@ -3,7 +3,8 @@ embed,
 iframe,
 img,
 object,
-video {
+video,
+svg {
     @include center;
     display: block;
 }

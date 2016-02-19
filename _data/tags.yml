@@ -10,6 +10,9 @@ drupal7:
 drupal8:
   name: Drupal 8
 
+devlife:
+  name: Developer life
+
 frameworks:
   name: Frameworks
 
