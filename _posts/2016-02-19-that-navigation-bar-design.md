@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Understanding the box model with a navigation bar"
+title: "Understanding the box model by building a navigation bar"
 date: February 19, 2016
 image: box-model.jpg
 tags: [css]
