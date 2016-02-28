@@ -187,9 +187,7 @@ kbd {
 }
 
 .post-content {
-    h2, h3, h4, h5, h6, p, ul, ol, pre {
-        @include center;
-        display: block;
-        max-width: 35rem;
-    }
+    @include center;
+    display: block;
+    max-width: 35rem;
 }
