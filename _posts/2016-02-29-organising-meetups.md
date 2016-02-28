@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thoughts about organising Talk.CSS"
-date: Feb 29, 2016
+date: Feb 28, 2016
 image: meetup.jpg
 tags: [opinion]
 ---
