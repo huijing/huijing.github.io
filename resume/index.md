@@ -25,7 +25,7 @@ title: Résumé
 ### Work experience
 
 **OA Labs**  
-(March 2015 - Present)
+(March 2015 - Present)  
 I am a **Front-end engineer** focused on the development of user interfaces and front-end development of web and mobile applications. My responsibilities include:
 
 <ul class="oa-labs">
