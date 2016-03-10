@@ -1,14 +1,39 @@
+label {
+  @include responsive-text-size(deci);
+  display: block;
+}
+
 input[type=text],
 input[type=email] {
-  @include adaptive-placeholder();
+  border: 1px solid color(silver-chalice);
+  height: 2.25rem;
+  margin-bottom: rhythm(.5);
   max-width: 510px;
+  padding: rhythm(.375);
+  transition: border .3s;
   width: 100%;
+
+  &:focus {
+    border: 1px solid color(walnut);
+  }
 }
 
 textarea {
-  @include adaptive-placeholder($textarea-placeholder);
+  border: 1px solid color(silver-chalice);
+  display: block;
+  margin-bottom: rhythm(1);
   max-width: 775px;
+  padding: rhythm(.25) rhythm(.375);
+  transition: border .3s;
   width: 100%;
+
+  &:hover {
+     border: 1px solid color(silver-chalice);
+  }
+
+  &:focus {
+    border: 1px solid color(walnut);
+  }
 }
 
 input[type=submit] {
