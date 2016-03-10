@@ -5,7 +5,7 @@ date: Feb 28, 2016
 image: meetup.jpg
 tags: [opinion]
 ---
-As I write this, we are on the cusp of our third Talk.CSS meet-up. Talk.CSS is Singapore's first CSS-centric meet-up and was born on a random Wednesday afternoon (October 26, 2015 to be exact) in our local digital watering hole, the [KopiJS](http://kopijs.org/) slack channel. Within the short span of four hours, we had a GitHub organisation, a Meetup.com account, a logo and a venue for the inaugural Talk.CSS session. Anyone who knows me knows that I love CSS. Love with infinite :heart:s. So when Chris Lienert asked if I wanted to be a co-organiser for the first local CSS-centric meet-up, I said yes without a second thought. 
+As I write this, we are on the cusp of our third Talk.CSS meet-up. Talk.CSS is Singapore's first CSS-centric meet-up and was born on a random Wednesday afternoon (October 26, 2015 to be exact) in our local digital watering hole, the [KopiJS](http://kopijs.org/) slack channel. Within the short span of four hours, we had a GitHub organisation, a Meetup.com account, a logo and a venue for the inaugural Talk.CSS session. Anyone who knows me knows that I love CSS. Love with infinite ❤s. So when Chris Lienert asked if I wanted to be a co-organiser for the first local CSS-centric meet-up, I said yes without a second thought. 
 
 ## Stay a while and listen...
 
@@ -37,7 +37,7 @@ So the point is, decide on the frequency of your meet-up, then **just pick a day
 4. Based on your findings from step #2 and #3, determine the best day for your own meet-up.  
 *Note: it will be very challenging to find a day that doesn't clash with another meet-up, so try to not to schedule on the same day as a meet-up which shares the same audience as yours*.
 5. If you already have a venue, great! If not, refer to the list of [events by location](https://data.webuild.sg/dataset/events-per-location/). Contact the organisers of past meet-ups to ask for venue contacts. (*You may have to zoom in the map, Singapore isn't very big* <span class="kaomoji">¯\\\_(ツ)\_/¯</span>)
-6. Check the [event duration](https://data.webuild.sg/dataset/events-per-duration/) data to help you decide how long your meet-up should be. Ideally, we'd like to have things wrap up within 2 hours so people can hang out *AFTER* the meet-up. Tired people tend to go home immediately after the meet-up :sob:.
+6. Check the [event duration](https://data.webuild.sg/dataset/events-per-duration/) data to help you decide how long your meet-up should be. Ideally, we'd like to have things wrap up within 2 hours so people can hang out *AFTER* the meet-up. Tired people tend to go home immediately after the meet-up <span class="emoji">😭</span>.
 
 ### More Gardenia than Cactus
 

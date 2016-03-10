@@ -65,7 +65,7 @@ Most of the prompts are pretty intuitive, and if you leave any of the fields bla
 
 <img srcset="{{ site.url }}/images/posts/drupal-gulp/package-json-480.jpg 480w, {{ site.url }}/images/posts/drupal-gulp/package-json-640.jpg 640w, {{ site.url }}/images/posts/drupal-gulp/package-json-960.jpg 960w, {{ site.url }}/images/posts/drupal-gulp/package-json-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/drupal-gulp/package-json-640.jpg" alt="npm init" />
 
-:exclamation: **Important: Preventing segmentation fault**    
+<span class="emoji">❗️</span> **Important: Preventing segmentation fault**    
 To prevent triggering a segmentation fault when running Drush, we need to add a script to the `package.json` file that will remove all `.info` files from the `node_modules` folder. Each node package has it's own `.info` file and it turns out that Drush thinks that they are all part of Drupal. Unfortunately, they are not in a format that Drush recognises and hence everything blows up badly. The `.info` files are not necessary for gulp to run properly so it's safe to remove them.
 
 <p class="no-margin">If you had generated your <code>package.json</code> file by using <code>npm init</code> , locate the section called <code>"scripts":</code> , and replace the line:</p>
@@ -151,7 +151,7 @@ gulp.task('sass', function () {
   .pipe(browserSync.reload({stream:true})) // reload the stream
 });</code></pre>
     
-    <p class="no-margin">We'll also want a task for our favourite drush command, <code>drush cc all</code>. <strong>Clearing cache</strong> is the Drupal equivalent of <em>"Did you turn it off and on again?"</em>. I don't know about you but if I had a dollar for every time I ran this command, I'd be sipping Piña coladas :cocktail: all day on a beach in the Caribbean :sunglasses: by now. If you aren't using Drush, you really should. <a href="{{ site.url }}/blog/team-drupal-development#installing-drush">Here’s</a> an earlier post on how to get set up with Drush.</p>
+    <p class="no-margin">We'll also want a task for our favourite drush command, <code>drush cc all</code>. <strong>Clearing cache</strong> is the Drupal equivalent of <em>"Did you turn it off and on again?"</em>. I don't know about you but if I had a dollar for every time I ran this command, I'd be sipping Piña coladas <span class="emoji">🍸</span> all day on a beach in the Caribbean <span class="emoji">😎</span> by now. If you aren't using Drush, you really should. <a href="{{ site.url }}/blog/team-drupal-development#installing-drush">Here’s</a> an earlier post on how to get set up with Drush.</p>
     <pre><code class="language-javascript">/**
  * @task clearcache
  * Clear all caches

@@ -7,7 +7,7 @@ tags: [github-pages, frameworks]
 
 Recently, I was asked to give a talk at a local front-end meetup. I'd never spoken at any meetups before that. Let's just say I've been a devoted member of the audience. Regardless, I figured if I was going to give a talk in front of actual human beings, I probably ought to put some effort into preparing some decent slides to facilitate things. 
 
-For most people, presentation decks are synonymous with Powerpoint, or Keynote for those hipster types (kidding, I'm one of you guys). I was all like, I'm a developer, we don't need no stinking presentation software, we HTML that shit. I guess I'll jump on any reason to play with something new. There are loads of frameworks that let you create really nice presentations as static sites, [Reveal.js](http://lab.hakim.se/reveal-js/), [Remark](http://remarkjs.com/), [deck.js](http://imakewebthings.com/deck.js/), just to name a few. I settled on Reveal.js, simply because. <span class="kaomoji">¯\\_(ツ)_/¯</span>
+For most people, presentation decks are synonymous with Powerpoint, or Keynote for those hipster types (kidding, I'm one of you guys). I was all like, I'm a developer, we don't need no stinking presentation software, we HTML that shit. I guess I'll jump on any reason to play with something new. There are loads of frameworks that let you create really nice presentations as static sites, [Reveal.js](http://lab.hakim.se/reveal-js/), [Remark](http://remarkjs.com/), [deck.js](http://imakewebthings.com/deck.js/), just to name a few. I settled on Reveal.js, simply because. <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
 
 My idea was to host all my slides on GitHub Pages since my own website was already up there. Using project pages would also make the URL structure appear like it was part of my site, even though they would be in completely separate repositories.
 
@@ -54,7 +54,7 @@ If you wrap multiple sections with another `<section>` element, the slides becom
 I tried the integrated export to PDF function that comes with Reveal.js but somehow it didn't work for me, in that the CSS styles seem to go haywire and my text ended up overlapping into one long messed up section instead of each slide a page. So I tried the recommended alternative, [decktape.js](https://github.com/astefanutti/decktape). This PDF exporter works **brilliantly**. A big plus is it built with support for Reveal.js. Double win! I cloned the repository into my *Applications* folder but you can put it anywhere you like. The instructions on the repository README.md are straightforward and easy to follow, so just do what it says.
 
 <p class="no-margin">To get your presentation exported as a PDF, the command I used was:</p>
-<pre><code class="language-bash">bin/phantomjs decktape.js reveal http://localhost:8000/\#/ resp-imgs.pdf</code></pre>
+<pre><code class="language-bash">bin/phantomjs decktape.js reveal http://localhost:8000/ resp-imgs.pdf</code></pre>
 
 One thing is, if you use [fragments](https://github.com/hakimel/reveal.js#fragments) in your presentation, each fragment's reveal state will be in its own slide. If you're on a Mac, you can just delete those extra slides from your PDF file easily using Preview, but if you're on another OS, you'll probably want to find a way to delete those half-revealed slides. 
 

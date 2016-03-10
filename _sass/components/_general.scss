@@ -45,9 +45,9 @@ picture img {
 }
 
 .emoji {
-  display: inline;
-  height: 32px;
-  width: 32px;
+  @include responsive-text-size(hecto);
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .kaomoji {

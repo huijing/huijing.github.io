@@ -19,7 +19,6 @@ about: "I'm Hui Jing, a designer and front-end developer who builds Drupal-flavo
 # Build settings
 gems:
   - jekyll-sitemap
-  - jemoji
   - jekyll-paginate
 
 defaults:

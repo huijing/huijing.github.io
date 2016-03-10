@@ -11,7 +11,7 @@ From there, I discovered the existence of content management systems and migrate
 
 After a 4-year sabbatical (from web development), I decided to restart this journey by diving in head-first this time. In September of 2013, I got a job in the web industry and this website chronicles my experiences as I learn new things, fail spectacularly and make cool stuff along the way.
 
-I also co-organise Talk.CSS, a meetup around all things CSS, with [Chris Lienert](https://twitter.com/cliener). The idea for Talk.CSS was born on the [Kopi.JS](http://kopijs.org/) slack channel on October 26, 2015 and within 2 hours, we had a [logo](https://github.com/Singapore-CSS/logo), a [Gitter channel](https://gitter.im/Singapore-CSS/discussions), a [Meetup.com](http://www.meetup.com/Singapore-CSS/) account, a venue for the meetup and a couple speakers. Colour us efficient :sunglasses:.
+I also co-organise Talk.CSS, a meetup around all things CSS, with [Chris Lienert](https://twitter.com/cliener). The idea for Talk.CSS was born on the [Kopi.JS](http://kopijs.org/) slack channel on October 26, 2015 and within 2 hours, we had a [logo](https://github.com/Singapore-CSS/logo), a [Gitter channel](https://gitter.im/Singapore-CSS/discussions), a [Meetup.com](http://www.meetup.com/Singapore-CSS/) account, a venue for the meetup and a couple speakers. Colour us efficient <span class="emoji">😎</span>.
 
 ###Anything not related to the web?
 Sure. I love playing basketball and did so full-time for 6 years until the end of 2011. I still play recreationally now and will continue to do so until my legs say otherwise.

@@ -114,7 +114,7 @@ Since the adjacent and opposite sides of the triangle were equal, the width of e
 </code></pre>
 
 ***Update:***  
-*Someone pointed out to me that the square root of 2 is a constant and could have just been hard-coded. To quote the famous American philosopher, Homer Simpson, "D'OH!"* :tired_face:
+*Someone pointed out to me that the square root of 2 is a constant and could have just been hard-coded. To quote the famous American philosopher, Homer Simpson, "D'OH!"* <span class="emoji">😫</span>
 
 <p class="no-margin">Now my Sass variables for calculating the grid layout looked like this:</p>
 <pre><code class="language-scss">
