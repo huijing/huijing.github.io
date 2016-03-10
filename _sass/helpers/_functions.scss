@@ -15,7 +15,7 @@
 // ==========
 
 @function color($color, $map: $colors) {
-    @return map-get($colors, $color);
+  @return map-get($colors, $color);
 }
 
 // ==========
@@ -30,55 +30,55 @@
 // ==========
 
 @function map-fetch($map, $keys) {
-    $key: nth($keys, 1);
-    $length: length($keys);
-    $value: map-get($map, $key);
-    @if ($length > 1) {
-        $rest: ();
-        @for $i from 2 through $length {
-            $rest: append($rest, nth($keys, $i))
-        }
-        @return map-fetch($value, $rest)
-    } @else {
-        @return $value;
+  $key: nth($keys, 1);
+  $length: length($keys);
+  $value: map-get($map, $key);
+  @if ($length > 1) {
+    $rest: ();
+    @for $i from 2 through $length {
+      $rest: append($rest, nth($keys, $i));
     }
+    @return map-fetch($value, $rest)
+  } @else {
+    @return $value;
+  }
 }
 
 // ==========
 // breakpoint
 // -----
-// Helper function to generate media queries based on 
+// Helper function to generate media queries based on
 // breakpoint variables.
 // ==========
 
 @function breakpoint($breakpoint-name) {
-    @return map-get($breakpoints, $breakpoint-name);
+  @return map-get($breakpoints, $breakpoint-name);
 }
 
 // ==========
 // text-breakpoints-for
 // text-properties-for
 // -----
-// Helper functions to access individual text sizes 
+// Helper functions to access individual text sizes
 // and breakpoints from text-sizing map.
 // ==========
 
 @function text-breakpoints-for($text-size) {
-    @return map-get($text-sizing, $text-size);
+  @return map-get($text-sizing, $text-size);
 }
 
 @function text-properties-for($text-size, $breakpoint-name) {
-    $text-breakpoints-map: text-breakpoints-for($text-size);
-    @return map-get($text-breakpoints-map, $breakpoint-name);
+  $text-breakpoints-map: text-breakpoints-for($text-size);
+  @return map-get($text-breakpoints-map, $breakpoint-name);
 }
 
 // ==========
 // layer-index
 // -----
-// Returns named layer's location in the list, 
+// Returns named layer's location in the list,
 // which becomes its z-index
 // Referenced from https://webdevstudios.com/2015/09/22/using-sass-to-manage-layers-z-index/
 // ==========
 @function layer-index($layer) {
-    @return index($layers, $layer); 
+  @return index($layers, $layer);
 }

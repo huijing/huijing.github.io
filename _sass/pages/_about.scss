@@ -1,9 +1,10 @@
 .profile-image {
   @include center;
-  display: block;
   border-radius: 20px;
+  display: block;
+
   @include respond-above(small) {
     float: right;
-    margin-left: rhythm(0.5);
+    margin-left: rhythm(.5);
   }
 }

@@ -1,5 +1,6 @@
 .error__wrapper {
   display: block;
+
   @include respond-above(medium) {
     display: flex;
     flex-flow: row nowrap;

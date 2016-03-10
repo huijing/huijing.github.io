@@ -1,42 +1,47 @@
 ol {
-    margin-left: rhythm(1);
-    counter-reset: list;
+  counter-reset: list;
+  margin-left: rhythm(1);
+
+  li {
+    list-style: none;
+    margin-bottom: rhythm(1);
+    position: relative;
+
+    &::before {
+      content: counter(list) '.';
+      counter-increment: list;
+      font-weight: bold;
+      left: rhythm(-1);
+      position: absolute;
+      top: 0;
+    }
+  }
+
+  ul {
     li {
-        margin-bottom: rhythm(1);
-        list-style: none;
-        position: relative;
-        &:before {
-            counter-increment: list;
-            content: counter(list) '.';
-            position: absolute;
-            top: 0px;
-            left: rhythm(-1);
-            font-weight: bold;
-        }
+      list-style: disc;
+
+      &::before {
+        content: '';
+        counter-increment: none;
+      }
     }
-    ul {
-        li {
-            list-style: disc;
-            &:before {
-                counter-increment: none;
-                content: '';
-            }
-        }
-    }
+  }
 }
 
 ul {
-    list-style: disc;
-    margin-left: rhythm(1);
-    ul {
-        list-style: square;
-    }
+  list-style: disc;
+  margin-left: rhythm(1);
+
+  ul {
+    list-style: square;
+  }
 }
 
 li {
-    margin-bottom: rhythm(1);
+  margin-bottom: rhythm(1);
 }
 
 dt {
-    font-weight: bold;
+  font-weight: bold;
 }

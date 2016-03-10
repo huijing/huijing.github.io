@@ -1,56 +1,61 @@
 body {
-    background: url('/images/bg-body.jpg');
-    min-width: 320px;
+  background: url('/images/bg-body.jpg');
+  min-width: 320px;
 }
 
 picture img {
-    margin-bottom: rhythm(1);
+  margin-bottom: rhythm(1);
 }
 
 .icon {
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-        path {
-            fill: color(apple);
-        }
-        a & path {
-            fill: color(apple);
-            &:hover {
-                fill: lighten(color(apple), 20%);
-            }
-        }
+  > svg {
+    display: inline-block;
+    height: 16px;
+    vertical-align: middle;
+    width: 16px;
+
+    path {
+      fill: color(apple);
     }
+
+    a & path {
+      fill: color(apple);
+
+      &:hover {
+        fill: lighten(color(apple), 20%);
+      }
+    }
+  }
 }
 
 .icon--title {
-    > svg {
-        width: 24px;
-        height: 24px;
-        @include respond-above(medium) {
-            width: 32px;
-            height: 32px;
-        }
-        path {
-            fill: color(mineshaft);
-        }
+  > svg {
+    height: 24px;
+    width: 24px;
+
+    @include respond-above(medium) {
+      height: 32px;
+      width: 32px;
     }
+
+    path {
+      fill: color(mineshaft);
+    }
+  }
 }
 
 .emoji {
-    height: 32px;
-    width: 32px;
-    display: inline;
+  display: inline;
+  height: 32px;
+  width: 32px;
 }
 
 .kaomoji {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .cp_embed_iframe {
-    @include center;
-    display: block;
-    max-width: 600px;
+  @include center;
+  display: block;
+  max-width: 600px;
 }

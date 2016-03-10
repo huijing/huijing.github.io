@@ -1,77 +1,79 @@
 input[type=text],
 input[type=email] {
-    @include adaptive-placeholder();
-    width: 100%;
-    max-width: 510px;
+  @include adaptive-placeholder();
+  max-width: 510px;
+  width: 100%;
 }
 
 textarea {
-    @include adaptive-placeholder($textarea-placeholder);
-    width: 100%;
-    max-width: 775px;
+  @include adaptive-placeholder($textarea-placeholder);
+  max-width: 775px;
+  width: 100%;
 }
 
 input[type=submit] {
-    padding: rhythm(0.25) rhythm(0.5);
-    background-color: color(apple);
-    color: white;
-    transition: background-color 0.15s linear;
-    &:hover {
-        background-color: darken(color(apple), 20%);
-    }
+  color: white;
+  background-color: color(apple);
+  padding: rhythm(.25) rhythm(.5);
+  transition: background-color .15s linear;
+
+  &:hover {
+    background-color: darken(color(apple), 20%);
+  }
 }
 
 input[type=reset] {
-    padding: rhythm(0.25) rhythm(0.5);
-    background-color: lighten(color(abbey), 20%);
-    color: white;
-    transition: background-color 0.15s linear;
-    &:hover {
-        background-color: color(abbey);
-    }
+  background-color: lighten(color(abbey), 20%);
+  color: white;
+  padding: rhythm(.25) rhythm(.5);
+  transition: background-color .15s linear;
+
+  &:hover {
+    background-color: color(abbey);
+  }
 }
 
 input[type=checkbox].checkbox,
 input[type=radio].radio {
-    position: absolute; 
-    overflow: hidden; 
-    clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  position: absolute;
 }
 
 input[type=checkbox].checkbox + label.checkbox-label {
-    padding-left: 33px;
-    height: 28px; 
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    vertical-align: middle;
-    cursor: pointer;
-    display: block;
-    margin-bottom: rhythm(0.5);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+  height: 28px;
+  margin-bottom: rhythm(.5);
+  padding-left: 33px;
+  vertical-align: middle;
 }
 
 input[type=radio].radio + label.radio-label {
-    padding-left:25px;
-    height:20px; 
-    background-repeat:no-repeat;
-    background-position: 0 0;
-    vertical-align:middle;
-    cursor:pointer;
-    display: block;
-    margin-bottom: rhythm(0.5);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: block;
+  height: 20px;
+  margin-bottom: rhythm(.5);
+  padding-left: 25px;
+  vertical-align: middle;
 }
 
 input[type=checkbox].checkbox:checked + label.checkbox-label {
-    background-position: 0 -28px;
+  background-position: 0 -28px;
 }
 
 input[type=radio].radio:checked + label.radio-label {
-    background-position: 0 -20px;
+  background-position: 0 -20px;
 }
 
 .checkbox-label {
-    background-image: url('../images/checkbox.png');
+  background-image: url('../images/checkbox.png');
 }
 
 .radio-label {
-    background-image: url('../images/radio.png');
+  background-image: url('../images/radio.png');
 }

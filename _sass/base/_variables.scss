@@ -9,7 +9,7 @@
 // ==========
 // BREAKPOINTS
 // -----
-// Sass map for breakpoints. You can add additional breakpoints to this map 
+// Sass map for breakpoints. You can add additional breakpoints to this map
 // or change their variable names.
 //
 // USAGE:
@@ -20,12 +20,11 @@
 //   }
 // }
 // ==========
-    
 $breakpoints: (
-    small:    575px,
-    medium:   720px,
-    large:    820px,
-    x-large:  960px
+  small:    575px,
+  medium:   720px,
+  large:    820px,
+  x-large:  960px
 );
 
 // ==========
@@ -34,76 +33,76 @@ $breakpoints: (
 
 // Imported fonts
 @font-face {
-    font-family: 'Palo Alto';
-    src: url('../fonts/palo-alto.eot');
-    src: url('../fonts/palo-alto.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/palo-alto.woff2') format('woff2'),
-         url('../fonts/palo-alto.woff') format('woff'),
-         url('../fonts/palo-alto.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Palo Alto';
+  src: url('../fonts/palo-alto.eot');
+  src: url('../fonts/palo-alto.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/palo-alto.woff2') format('woff2'),
+     url('../fonts/palo-alto.woff') format('woff'),
+     url('../fonts/palo-alto.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto Slab';
-    src: url('../fonts/robotoslab-light.eot');
-    src: url('../fonts/robotoslab-light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/robotoslab-light.woff2') format('woff2'),
-         url('../fonts/robotoslab-light.woff') format('woff'),
-         url('../fonts/robotoslab-light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Roboto Slab';
+  src: url('../fonts/robotoslab-light.eot');
+  src: url('../fonts/robotoslab-light.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/robotoslab-light.woff2') format('woff2'),
+     url('../fonts/robotoslab-light.woff') format('woff'),
+     url('../fonts/robotoslab-light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto Slab';
-    src: url('../fonts/robotoslab-bold.eot');
-    src: url('../fonts/robotoslab-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/robotoslab-bold.woff2') format('woff2'),
-         url('../fonts/robotoslab-bold.woff') format('woff'),
-         url('../fonts/robotoslab-bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'Roboto Slab';
+  src: url('../fonts/robotoslab-bold.eot');
+  src: url('../fonts/robotoslab-bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/robotoslab-bold.woff2') format('woff2'),
+     url('../fonts/robotoslab-bold.woff') format('woff'),
+     url('../fonts/robotoslab-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Droid Sans Mono';
-    src: url('../fonts/droidsansmono.eot');
-    src: url('../fonts/droidsansmono.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/droidsansmono.woff2') format('woff2'),
-         url('../fonts/droidsansmono.woff') format('woff'),
-         url('../fonts/droidsansmono.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Droid Sans Mono';
+  src: url('../fonts/droidsansmono.eot');
+  src: url('../fonts/droidsansmono.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/droidsansmono.woff2') format('woff2'),
+     url('../fonts/droidsansmono.woff') format('woff'),
+     url('../fonts/droidsansmono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Eight-bit';
-    src: url('../fonts/eightbitoperatorplus8-bold-webfont.eot');
-    src: url('../fonts/eightbitoperatorplus8-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/eightbitoperatorplus8-bold-webfont.woff2') format('woff2'),
-         url('../fonts/eightbitoperatorplus8-bold-webfont.woff') format('woff'),
-         url('../fonts/eightbitoperatorplus8-bold-webfont.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'Eight-bit';
+  src: url('../fonts/eightbitoperatorplus8-bold-webfont.eot');
+  src: url('../fonts/eightbitoperatorplus8-bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/eightbitoperatorplus8-bold-webfont.woff2') format('woff2'),
+     url('../fonts/eightbitoperatorplus8-bold-webfont.woff') format('woff'),
+     url('../fonts/eightbitoperatorplus8-bold-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Eight-bit';
-    src: url('../fonts/eightbitoperatorplus-regular-webfont.eot');
-    src: url('../fonts/eightbitoperatorplus-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/eightbitoperatorplus-regular-webfont.woff2') format('woff2'),
-         url('../fonts/eightbitoperatorplus-regular-webfont.woff') format('woff'),
-         url('../fonts/eightbitoperatorplus-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Eight-bit';
+  src: url('../fonts/eightbitoperatorplus-regular-webfont.eot');
+  src: url('../fonts/eightbitoperatorplus-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/eightbitoperatorplus-regular-webfont.woff2') format('woff2'),
+     url('../fonts/eightbitoperatorplus-regular-webfont.woff') format('woff'),
+     url('../fonts/eightbitoperatorplus-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 // Base font stacks
-$base-font: "Roboto Slab", Rockwell, serif;
-$header-font: "Palo Alto";
-$code-font: "Droid Sans Mono", "Lucida Console", Monaco, "Courier New", Courier, monospace;
-$display-font: "Eight-bit";
+$base-font: 'Roboto Slab', Rockwell, serif;
+$header-font: 'Palo Alto';
+$code-font: 'Droid Sans Mono', 'Lucida Console', Monaco, 'Courier New', Courier, monospace;
+$display-font: 'Eight-bit';
 
 // Base font sizes and line heights
 $base-font-size: 20px;
@@ -111,68 +110,68 @@ $base-line-height: 32px;
 $round-to-nearest-half-line: true;
 
 // Uses the `rem` unit for all vertical rhythm output
-$rhythm-unit: "rem";
+$rhythm-unit: 'rem';
 
 // Set typography sizes
 $text-sizing: (
-    milli: (
-        small: (
-            font-size: 0.618rem
-        )
+  milli: (
+    small: (
+      font-size: .618rem
+    )
+  ),
+  centi: (
+    small: (
+      font-size: .618rem
     ),
-    centi: (
-        small: (
-            font-size: 0.618rem
-        ),
-        medium: (
-            font-size: 0.8rem
-        )
+    medium: (
+      font-size: .8rem
+    )
+  ),
+  deci: (
+    small: (
+      font-size: .8rem
+    )
+  ),
+  base: (
+    small: (
+      font-size: .8rem
     ),
-    deci: (
-        small: (
-            font-size: 0.8rem
-        )
+    medium: (
+      font-size: 1rem
+    )
+  ),
+  deca: (
+    small: (
+      font-size: 1rem
     ),
-    base: (
-        small: (
-            font-size: 0.8rem
-        ),
-        medium: (
-            font-size: 1rem
-        )
+    medium: (
+      font-size: 1.294rem
+    )
+  ),
+  hecto: (
+    small: (
+      font-size: 1.294rem
     ),
-    deca: (
-        small: (
-            font-size: 1rem
-        ),
-        medium: (
-            font-size: 1.294rem
-        )
+    medium: (
+      font-size: 1.618rem
     ),
-    hecto: (
-        small: (
-            font-size: 1.294rem
-        ),
-        medium: (
-            font-size: 1.618rem
-        ),
+  ),
+  kilo: (
+    small: (
+      font-size: 1.618rem
     ),
-    kilo: (
-        small: (
-            font-size: 1.618rem
-        ),
-        medium: (
-            font-size: 2.094rem
-        ),
+    medium: (
+      font-size: 2.094rem
     ),
-    mega: (
-        small: (
-            font-size: 2.094rem
-        ),
-        medium: (
-            font-size: 2.618rem
-        ),
-    ) 
+  ),
+  mega: (
+    small: (
+      font-size: 2.094rem
+    ),
+    medium: (
+      font-size: 2.618rem
+    ),
+  )
 );
 
 // ==========
@@ -188,13 +187,13 @@ $text-sizing: (
 // ==========
 
 $colors: (
-    abbey: rgba(83, 87, 89, 1),
-    english-walnut: rgba(55, 40, 34, 1),
-    apple: rgba(74, 188, 65, 1),
-    sugarcane: rgba(250, 255, 250, 1),
-    mineshaft: rgba(42, 42, 42, 1),
-    royal-blue: rgba(76, 131, 225, 1),
-    silver-chalice: rgba(166, 166, 166, 0.5)
+  abbey: rgba(83, 87, 89, 1),
+  english-walnut: rgba(55, 40, 34, 1),
+  apple: rgba(74, 188, 65, 1),
+  sugarcane: rgba(250, 255, 250, 1),
+  mineshaft: rgba(42, 42, 42, 1),
+  royal-blue: rgba(76, 131, 225, 1),
+  silver-chalice: rgba(166, 166, 166, .5)
 );
 
 // ==========

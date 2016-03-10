@@ -1,67 +1,75 @@
 .site-header {
-    background: url('/images/bg-header.jpg');
+  background: url('/images/bg-header.jpg');
 }
 
 .site-header__wrapper {
-    @include center;
-    max-width: 1140px;
-    display: flex;
-    align-items: center;
-    padding: rhythm(0.5);
-    flex-flow: row wrap;
-    @include respond-above(x-large) {
-        flex-flow: row nowrap;
-        .site-branding {
-            flex: 3 1 70%;
-        }
-        .site-nav {
-            flex: 1 1 30%;
-        }
+  @include center;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1140px;
+  padding: rhythm(.5);
+
+  @include respond-above(x-large) {
+    flex-flow: row nowrap;
+
+    .site-branding {
+      flex: 3 1 70%;
     }
+
+    .site-nav {
+      flex: 1 1 30%;
+    }
+  }
 }
 
 .site-branding__image {
-    @include image-replacement;
-    display: block;
-    min-width: 90px;
-    height: 90px;
-    width: 90px;
-    background: url('/images/retropc-static.png');
+  @include image-replacement;
+  background: url('/images/retropc-static.png');
+  background-size: cover;
+  display: block;
+  height: 90px;
+  min-width: 90px;
+  width: 90px;
+
+  @include respond-above(medium) {
+    height: 120px;
+    width: 120px;
+  }
+
+  &::before {
+    content: url('/images/retropc-dynamic.gif');
+    height: 0;
+    visibility: hidden;
+    width: 0;
+  }
+
+  &:hover {
+    background: url('/images/retropc-dynamic.gif');
     background-size: cover;
-    @include respond-above(medium) {
-        height: 120px;
-        width: 120px;
-    }
-    &:before {
-        content: url('/images/retropc-dynamic.gif');
-        width: 0;
-        height: 0;
-        visibility: hidden;
-    }
-    &:hover {
-        background: url('/images/retropc-dynamic.gif');
-        background-size: cover;
-    }
+  }
 }
 
 .site-branding {
-    display: flex;
-    align-items: center;
+  align-items: center;
+  display: flex;
 }
 
 .site-branding__wrapper {
-    margin-left: rhythm(1);
+  margin-left: rhythm(1);
 }
 
 .site-nav {
-    display: flex;
-    width: 100%;
-    margin-top: rhythm(0.5);
-    a {
-        flex: auto;
-        text-align: center;
-    }
-    @include respond-above(x-large) {
-        margin-top: 0;
-    }
+  display: flex;
+  margin-top: rhythm(.5);
+  width: 100%;
+
+  @include respond-above(x-large) {
+    margin-top: 0;
+  }
+
+  a {
+    flex: auto;
+    text-align: center;
+  }
 }

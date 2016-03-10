@@ -5,15 +5,15 @@ img,
 object,
 video,
 svg {
-    @include center;
-    display: block;
+  @include center;
+  display: block;
 }
 
 img {
-    height: auto;
-    width: auto; /* IE8 */
+  height: auto;
+  width: auto;
 }
 
 iframe {
-    margin-bottom: rhythm(1);
+  margin-bottom: rhythm(1);
 }

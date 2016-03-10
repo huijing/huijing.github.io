@@ -1,9 +1,9 @@
 // ==========
 // MIXINS
 // -----
-// This is a library of mixins written from scratch 
-// as well as from various known sources to simplify your 
-// theming efforts. 
+// This is a library of mixins written from scratch
+// as well as from various known sources to simplify your
+// theming efforts.
 
 // Feel free to add on your own mixins to this file as well.
 // ==========
@@ -14,11 +14,11 @@
 // Referenced from http://css-tricks.com/snippets/css/clear-fix/
 // ==========
 @mixin cf {
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
 }
 
 // ==========
@@ -27,21 +27,21 @@
 // For centering block elements
 // ==========
 @mixin center {
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // ==========
 // IMAGE REPLACEMENT
 // -----
-// To replace text with background images. 
+// To replace text with background images.
 // Source: http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
 // ==========
 @mixin image-replacement {
-    overflow: hidden;
-    text-indent: 100%;
-    white-space: nowrap;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
 }
 
 // ==========
@@ -51,23 +51,23 @@
 // Reference from http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
 // ==========
 @mixin element-invisible {
-    position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    margin: -1px;
-    padding: 0;
-    width: 1px;
-    height: 1px;
-    border: 0;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
 }
 
 // Turns off the element-invisible effect.
 @mixin element-visible {
-    position: static;
-    clip: auto;
-    height: auto;
-    width: auto;
-    overflow: auto;
+  position: static;
+  clip: auto;
+  height: auto;
+  width: auto;
+  overflow: auto;
 }
 
 // ==========
@@ -77,14 +77,14 @@
 // Reference from https://signalvnoise.com/posts/3271-easy-retina-ready-images-using-scss
 // ==========
 @mixin image-2x($image, $width, $height) {
-    @media (min--moz-device-pixel-ratio: 1.3),
-                 (-o-min-device-pixel-ratio: 2.6/2),
-                 (-webkit-min-device-pixel-ratio: 1.3),
-                 (min-device-pixel-ratio: 1.3),
-                 (min-resolution: 1.3dppx) {
-        background-image: url($image);
-        background-size: $width $height;
-    }
+  @media (min--moz-device-pixel-ratio: 1.3),
+         (-o-min-device-pixel-ratio: 2.6/2),
+         (-webkit-min-device-pixel-ratio: 1.3),
+         (min-device-pixel-ratio: 1.3),
+         (min-resolution: 1.3dppx) {
+    background-image: url($image);
+    background-size: $width $height;
+  }
 }
 
 // ==========
@@ -93,25 +93,22 @@
 // Mixins to help create shapes like circles and triangles
 // ==========
 @mixin circle($width) {
-    width: $width;
-    height: $width;
-    border-radius: 100%;
+  width: $width;
+  height: $width;
+  border-radius: 100%;
 }
 
 @mixin triangle($dir, $size, $color) {
-    border: $size transparent solid;
-    @if $dir == "top" or $dir == "up" {
-        border-bottom-color: $color;
-    }
-    @else if $dir == "right" or $dir == "after" {
-        border-left-color: $color;
-    }
-    @else if $dir == "bottom" or $dir == "down" {
-        border-top-color: $color;
-    }
-    @else if $dir == "left" or $dir == "before" {
-        border-right-color: $color;
-    }
+  border: $size transparent solid;
+  @if $dir == 'top' or $dir == 'up' {
+    border-bottom-color: $color;
+  } @else if $dir == 'right' or $dir == 'after' {
+    border-left-color: $color;
+  } @else if $dir == 'bottom' or $dir == 'down' {
+    border-top-color: $color;
+  } @else if $dir == 'left' or $dir == 'before' {
+    border-right-color: $color;
+  }
 }
 
 // ==========
@@ -121,15 +118,15 @@
 // Referenced from http://maketea.co.uk/2014/11/05/managing-responsive-typography-with-sass.html
 // ==========
 @mixin respond-above($breakpoint-name) {
-    $breakpoint-value: breakpoint($breakpoint-name);
+  $breakpoint-value: breakpoint($breakpoint-name);
 
-    @if $breakpoint-value != null {
-        @media screen and (min-width: $breakpoint-value) {
-            @content;
-        }
-    } @else {
-        @warn "Missing breakpoint '#{$breakpoint-name}'";
+  @if $breakpoint-value != null {
+    @media screen and (min-width: $breakpoint-value) {
+      @content;
     }
+  } @else {
+    @warn 'Missing breakpoint '#{$breakpoint-name}'';
+  }
 }
 
 // ==========
@@ -139,31 +136,31 @@
 // ==========
 
 // For a singular font size and line height for a given breakpoint
-@mixin text-size($text-size, $breakpoint-name: "small") {
-    $text-size-properties: text-properties-for($text-size, $breakpoint-name);
+@mixin text-size($text-size, $breakpoint-name: 'small') {
+  $text-size-properties: text-properties-for($text-size, $breakpoint-name);
 
-    @if $text-size-properties != null {
-        $font-size: map-get($text-size-properties, "font-size");
-        @include adjust-font-size-to($font-size);
-    } @else {
-        @warn "Breakpoint '#{$breakpoint-name}' for text size '#{$text-size}' is not defined";
-    }
+  @if $text-size-properties != null {
+    $font-size: map-get($text-size-properties, 'font-size');
+    @include adjust-font-size-to($font-size);
+  } @else {
+    @warn 'Breakpoint '#{$breakpoint-name}' for text size '#{$text-size}' is not defined';
+  }
 }
 
 // For looping over the requested text size and output all its breakpoints
-@mixin responsive-text-size($text-size, $default-breakpoint: "small") {
-    @include text-size($text-size, $default-breakpoint);
+@mixin responsive-text-size($text-size, $default-breakpoint: 'small') {
+  @include text-size($text-size, $default-breakpoint);
 
-    $text-breakpoints-map: text-breakpoints-for($text-size);
-    $text-breakpoints-keys: map-keys($text-breakpoints-map);
+  $text-breakpoints-map: text-breakpoints-for($text-size);
+  $text-breakpoints-keys: map-keys($text-breakpoints-map);
 
-    @each $breakpoint-name in $text-breakpoints-keys {
-        @if $breakpoint-name != $default-breakpoint and breakpoint($breakpoint-name) != null {
-            @include respond-above($breakpoint-name) {
-                @include text-size($text-size, $breakpoint-name);
-            }
-        }
+  @each $breakpoint-name in $text-breakpoints-keys {
+    @if $breakpoint-name != $default-breakpoint and breakpoint($breakpoint-name) != null {
+      @include respond-above($breakpoint-name) {
+        @include text-size($text-size, $breakpoint-name);
+      }
     }
+  }
 }
 
 // ==========
@@ -171,31 +168,36 @@
 // -----
 // Referenced from http://blog.siftscience.com/blog/2015/the-sass-mixinsplaceholders-i-cant-live-without-for-responsive-web-design
 // ==========
-@mixin image-spacer($ar: 1.00, $max-height: 600px, $min-height: 0, $container-width: 1.00) {
-    @if $min-height <= 1.00 and $min-height > 0 {
-        $container-width: $min-height;
-        $min-height: 0;
+@mixin image-spacer($ar: 1, $max-height: 600px, $min-height: 0, $container-width: 1) {
+  @if $min-height <= 1 and $min-height > 0 {
+    $container-width: $min-height;
+    $min-height: 0;
+  }
+
+  &::before {
+    content: '';
+    display: inline-block;
+    padding-top: $ar * 100%;
+    vertical-align: middle;
+  }
+
+  @media (min-width: ($max-height / ($container-width * $ar))) {
+    height: $max-height;
+
+    &::before {
+      height: 100%;
+      padding-top: 0;
     }
-    &:before {
-        content: '';
-        display: inline-block;
-        padding-top: $ar * 100%;
-        vertical-align: middle;
+  }
+
+  @media (max-width: ($min-height / ($container-width * $ar))) {
+    height: $min-height;
+
+    &::before {
+      height: 100%;
+      padding-top: 0;
     }
-    @media (min-width: ($max-height / ($container-width * $ar))) {
-        height: $max-height;
-        &:before {
-            padding-top: 0;
-            height: 100%;
-        }
-    }
-    @media (max-width: ($min-height / ($container-width * $ar))) {
-        height: $min-height;
-        &:before {
-            padding-top: 0;
-            height: 100%;
-        }
-    }
+  }
 }
 
 // ==========
@@ -204,6 +206,6 @@
 // Referenced from https://webdevstudios.com/2015/09/22/using-sass-to-manage-layers-z-index/
 // ==========
 @mixin z-index($layer, $position:relative) {
-    position: $position;
-    z-index: layer-index($layer);
+  position: $position;
+  z-index: layer-index($layer);
 }

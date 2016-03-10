@@ -4,17 +4,20 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-left: 0;
+
   @include respond-above(small) {
     justify-content: flex-start;
   }
 }
 
 .podcast {
+  margin: rhythm(.5);
   width: 100px;
-  margin: rhythm(0.5);
+
   @include respond-above(small) {
     width: 140px;
   }
+
   img {
     box-shadow: 5px 10px 15px 2px color(abbey);
   }

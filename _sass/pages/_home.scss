@@ -1,11 +1,11 @@
 .content {
-  padding: rhythm(1);
   background: color(sugarcane);
+  padding: rhythm(1);
 }
 
 .tag-title {
   display: inline-block;
-  margin-left: rhythm(0.25);
+  margin-left: rhythm(.25);
 }
 
 .more-link {
@@ -13,24 +13,26 @@
 }
 
 .external-url {
-  &:before,
-  &:after {
+  &::before,
+  &::after {
     content: '';
     display: inline-block;
-    height: 0.8em;
-    width: 0.8em;
+    height: .8em;
+    width: .8em;
   }
-  &:before {
-    margin-right: rhythm(0.25);
+
+  &::before {
+    margin-right: rhythm(.25);
   }
-  &:after {
-    margin-left: rhythm(0.5);
+
+  &::after {
     background: url('/images/icons/icon-link.svg') no-repeat;
     background-size: cover;
+    margin-left: rhythm(.5);
   }
 }
 
-.alistapart:before {
+.alistapart::before {
   background: url('/images/icons/icon-ala.png') no-repeat;
   background-size: cover;
 }

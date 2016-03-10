@@ -1,15 +1,15 @@
 .message-wrapper {
-  margin-bottom: rhythm(0.5);
+  margin-bottom: rhythm(.5);
 }
 
 .success {
   display: inline-block;
+  margin-right: rhythm(.5);
   vertical-align: middle;
-  margin-right: rhythm(0.5);
 }
 
 .attribution {
-  padding: rhythm(1);
   background-color: darken(color(sugarcane), 3%);
   margin-top: rhythm(1);
+  padding: rhythm(1);
 }
