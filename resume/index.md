@@ -24,14 +24,14 @@ title: Résumé
 
 ### Work experience
 
-**OA Labs** 
+**OA Labs**  
 (March 2015 - Present)
 I am a **Front-end engineer** focused on the development of user interfaces and front-end development of web and mobile applications. My responsibilities include:
 
 <ul class="oa-labs">
   <li class="no-margin">Providing input and developing user interfaces for each phase of the application development life cycle, from ideation to design and development till release and support</li>
   <li class="no-margin">Assisting in building prototypes or proof-of-concept systems for explorative research projects</li>
-  <li class="no-margin">Working closely with other team members across various disciplines to develop software applications</li>
+  <li>Working closely with other team members across various disciplines to develop software applications</li>
 </ul>
 
 **Nurun Singapore**  
