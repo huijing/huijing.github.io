@@ -2,7 +2,8 @@
 layout: page
 title: About
 ---
-###So who are you?
+### So who are you?
+
 <img srcset="{{ site.url }}/images/headshot@2x.jpg 2x" src="{{ site.url }}/images/headshot.jpg" alt="Profile photo" class="profile-image" />
 
 My name is Chen Hui Jing. I first dipped my toe into the waters of web development when I built my first HTML website in 2008 for the Malaysia Basketball Association. 
@@ -13,7 +14,8 @@ After a 4-year sabbatical (from web development), I decided to restart this jour
 
 I also co-organise Talk.CSS, a meetup around all things CSS, with [Chris Lienert](https://twitter.com/cliener). The idea for Talk.CSS was born on the [Kopi.JS](http://kopijs.org/) slack channel on October 26, 2015 and within 2 hours, we had a [logo](https://github.com/Singapore-CSS/logo), a [Gitter channel](https://gitter.im/Singapore-CSS/discussions), a [Meetup.com](http://www.meetup.com/Singapore-CSS/) account, a venue for the meetup and a couple speakers. Colour us efficient <span class="emoji">😎</span>.
 
-###Anything not related to the web?
+### Anything not related to the web?
+
 Sure. I love playing basketball and did so full-time for 6 years until the end of 2011. I still play recreationally now and will continue to do so until my legs say otherwise.
 
 I also love to [draw](http://cyern.deviantart.com), though I do less of it now. At one point in time, I customised canvas sneakers for friends and some random clients under the name FUZN designs. The [Facebook page](https://www.facebook.com/fuzndesigns?fref=ts) still exists, though on an indefinite hiatus.
@@ -22,7 +24,8 @@ I play a lot of video games as well, mostly on my PC now since I built my own ga
 
 Oh, and I cycle everywhere on my trusty second-hand Muji commuter bicycle.
 
-###So how was this site built?
+### So how was this site built?
+
 With blood, sweat and tears! Nah, I'm just kidding.
 
 This is a [Jekyll](http://jekyllrb.com/) site, hosted on [GitHub Pages](https://pages.github.com/). It was built after months of procrastination and hours upon hours of pressing ⌘-⇧-R, resizing windows, googling and of course, actual coding. This site is a constant work-in-progress as I add tweaks, features and content. 
