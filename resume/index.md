@@ -25,7 +25,7 @@ title: Résumé
 ### Work experience
 
 **OA Labs**  
-(March 2015 - Present)  
+(March 2016 - Present)  
 I am a **Front-end engineer** focused on the development of user interfaces and front-end development of web and mobile applications. My responsibilities include:
 
 <ul class="oa-labs">
@@ -35,7 +35,7 @@ I am a **Front-end engineer** focused on the development of user interfaces and 
 </ul>
 
 **Nurun Singapore**  
-(May 2015 - February 2015)  
+(May 2015 - February 2016)  
 I was a **Senior developer** responsible for planning and architecting website implementation projects, as well as management of resources. I focused on all things front-end related, making sure our code base adhered to the latest web standards and was performant and accessible. A typical day in the office usually involved:
 
 <ul class="exp-nurun">
