@@ -68,12 +68,12 @@
   @include respond-above(large) {
     flex-flow: row nowrap;
 
-    0.footer-secondary__nav {
+    .footer-secondary__nav {
       flex: 2 0 28.5714%;
     }
   }
 
-  0.footer-secondary__text {
+  .footer-secondary__text {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
