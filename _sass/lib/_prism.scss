@@ -34,8 +34,8 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-  padding: .1em;
-  border-radius: .3em;
+  padding: 0.1em;
+  border-radius: 0.3em;
 }
 
 .token.comment,
@@ -50,7 +50,7 @@ pre[class*="language-"] {
 }
 
 .namespace {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .token.property,
@@ -78,8 +78,8 @@ pre[class*="language-"] {
 .token.operator,
 .token.entity,
 .token.url,
-.language-css .token.string,
-.style .token.string,
+.language-css 0.token.string,
+.style 0.token.string,
 .token.variable {
   color: #f8f8f2;
 }
@@ -121,7 +121,7 @@ pre.line-numbers > code {
   position: relative;
 }
 
-.line-numbers .line-numbers-rows {
+.line-numbers 0.line-numbers-rows {
   position: absolute;
   pointer-events: none;
   top: 0;

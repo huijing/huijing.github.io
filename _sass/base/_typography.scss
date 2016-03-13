@@ -14,180 +14,188 @@ $grid-background-baseline-height: $base-line-height;
 
 // Standardise site-wide typography styles here. Refer to _variables.scss to edit the variables used in the type-scale mixin.
 body {
-    @include responsive-text-size(base);
-    font-family: $base-font;
-    color: color(mine-shaft);
+  @include responsive-text-size(base);
+  font-family: $base-font;
+  color: color(mine-shaft);
 }
 
 h1 {
-    @include responsive-text-size(kilo);
-    font-family: $header-font;
-    margin: 0 auto rhythm(1);
+  @include responsive-text-size(kilo);
+  font-family: $header-font;
+  margin: 0 auto rhythm(1);
 }
 
 h2 {
-    @include responsive-text-size(hecto);
-    font-family: $header-font;
-    margin: 0 auto rhythm(0.5);
+  @include responsive-text-size(hecto);
+  font-family: $header-font;
+  margin: 0 auto rhythm(0.5);
 }
 
 h3 {
-    @include responsive-text-size(deca);
-    font-family: $header-font;
-    margin: 0 auto rhythm(0.5);
-    .site-footer & {
-        font-family: $display-font;
-    }
+  @include responsive-text-size(deca);
+  font-family: $header-font;
+  margin: 0 auto rhythm(0.5);
+
+  0.site-footer & {
+    font-family: $display-font;
+  }
 }
 
 h4 {
-    @include responsive-text-size(base);
-    font-family: $header-font;
-    margin: 0 auto rhythm(0.5);
+  @include responsive-text-size(base);
+  font-family: $header-font;
+  margin: 0 auto rhythm(0.5);
 }
 
 h5 {
-    @include responsive-text-size(base);
-    font-family: $header-font;
-    margin: 0 auto rhythm(0.5);
+  @include responsive-text-size(base);
+  font-family: $header-font;
+  margin: 0 auto rhythm(0.5);
 }
 
 h6 {
-    @include responsive-text-size(base);
-    font-family: $header-font;
-    margin: 0 auto rhythm(1);
+  @include responsive-text-size(base);
+  font-family: $header-font;
+  margin: 0 auto rhythm(1);
 }
 
 strong {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 em {
-    font-style: italic;
+  font-style: italic;
 }
 
 .small {
-    @include responsive-text-size(deci);
+  @include responsive-text-size(deci);
 }
 
 pre,
 code {
-    @include responsive-text-size(deci);
-    font-family: $code-font;
-    background: #272822;
-    padding: .1em .2em;
-    border-radius: .3em;
-    color: #f8f8f2;
-    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  @include responsive-text-size(deci);
+  font-family: $code-font;
+  background: #272822;
+  padding: 0.1em 0.2em;
+  border-radius: 0.3em;
+  color: #f8f8f2;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
 }
 
 blockquote {
-    background: url('/images/bg-quotes.jpg');
-    border-left: 10px solid color(royal-blue);
-    padding: rhythm(0.5);
-    margin-bottom: rhythm(1);
-    font-style: italic;
-    &:before {
-        font-size: 4em;
-        line-height: 0.1em;
-        margin-right: 0.1em;
-        vertical-align: -0.5em;
-        color: color(royal-blue);
-        content: "\201C";
-        font-family: $display-font;
-    }
-    &:after {
-        font-size: 4em;
-        line-height: 0.1em;
-        margin-left: 0.1em;
-        vertical-align: -0.5em;
-        color: color(royal-blue);
-        content:"\201D";
-        font-family: $display-font;
-    }
-    p {
-        display: inline;
-        line-height: 1.7rem;
-        margin-bottom: 0;
-    }
-    a {
-        color: inherit;
-        border-bottom: 1px dashed color(mine-shaft);
-    }
+  background: url('/images/bg-quotes.jpg');
+  border-left: 10px solid color('royal-blue');
+  padding: rhythm(0.5);
+  margin-bottom: rhythm(1);
+  font-style: italic;
+
+  &::before {
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.1em;
+    vertical-align: -0.5em;
+    color: color('royal-blue');
+    content: '\201C';
+    font-family: $display-font;
+  }
+
+  &::after {
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-left: 0.1em;
+    vertical-align: -0.5em;
+    color: color('royal-blue');
+    content: '\201D';
+    font-family: $display-font;
+  }
+
+  p {
+    display: inline;
+    line-height: 1.7rem;
+    margin-bottom: 0;
+  }
+
+  a {
+    color: inherit;
+    border-bottom: 1px dashed color(mine-shaft);
+  }
 }
 
 figcaption {
-    @include responsive-text-size(deci);
-    text-align: center;
-    font-style: italic;
+  @include responsive-text-size(deci);
+  text-align: center;
+  font-style: italic;
 }
 
 p {
-    margin-bottom: rhythm(1);
+  margin-bottom: rhythm(1);
 }
 
 a {
-    text-decoration: none;
-    color: color(apple);
-    transition: all 0.15s linear;
-    border-bottom: 1px dashed color(apple);
-    &:hover {
-        color: darken(color(apple), 20%);
-        border-bottom: 1px solid darken(color(apple), 20%);
-    }
+  text-decoration: none;
+  color: color('apple');
+  transition: all 0.15s linear;
+  border-bottom: 1px dashed color('apple');
+
+  &:hover {
+    color: darken(color('apple'), 20%);
+    border-bottom: 1px solid darken(color('apple'), 20%);
+  }
 }
 
 kbd {
-    @include responsive-text-size(deci);
-    background-color: #f7f7f7;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-shadow: 0 1px 0 rgba(0,0,0,0.2),0 0 0 2px white inset;
-    display: inline-block;
-    margin: 0 .1em;
-    padding: .1em .6em;
-    text-shadow: 0 1px 0 white;
+  @include responsive-text-size(deci);
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 color('black-alpha2'), 0 0 0 2px color('white') inset;
+  display: inline-block;
+  margin: 0 0.1em;
+  padding: 0.1em 0.6em;
+  text-shadow: 0 1px 0 color('white');
 }
 
 .site-branding__title a {
-    @include responsive-text-size(hecto);
-    font-family: $display-font;
-    font-weight: bold;
-    &:hover {
-        color: color(english-walnut);
-    }
+  @include responsive-text-size(hecto);
+  font-family: $display-font;
+  font-weight: bold;
+
+  &:hover {
+    color: color('english-walnut');
+  }
 }
 
 .site-branding__description {
-    @include responsive-text-size(centi);
-    font-family: $display-font;
+  @include responsive-text-size(centi);
+  font-family: $display-font;
 }
 
 .site-nav {
-    font-family: $display-font;
+  font-family: $display-font;
 }
 
 .site-nav__link:hover {
-    color: color(english-walnut);
+  color: color('english-walnut');
 }
 
 .site-footer {
-    font-family: $display-font;
-    a:hover {
-        color: lighten(color(apple), 20%);
-    }
+  font-family: $display-font;
+
+  a:hover {
+    color: lighten(color('apple'), 20%);
+  }
 }
 
 .footer-main {
-    @include responsive-text-size(deci);
+  @include responsive-text-size(deci);
 }
 
 .footer-secondary {
-    @include responsive-text-size(milli);
+  @include responsive-text-size(milli);
 }
 
 .post-content {
-    @include center;
-    display: block;
-    max-width: 35rem;
+  @include center;
+  display: block;
+  max-width: 35rem;
 }

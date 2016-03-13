@@ -11,7 +11,7 @@
 }
 
 .podcast {
-  margin: rhythm(.5);
+  margin: rhythm(0.5);
   width: 100px;
 
   @include respond-above(small) {
@@ -19,6 +19,6 @@
   }
 
   img {
-    box-shadow: 5px 10px 15px 2px color(abbey);
+    box-shadow: 5px 10px 15px 2px color('abbey');
   }
 }

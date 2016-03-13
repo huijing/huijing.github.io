@@ -5,12 +5,12 @@ label {
 
 input[type=text],
 input[type=email] {
-  border: 1px solid color(silver-chalice);
+  border: 1px solid color('silver-chalice');
   height: 2.25rem;
-  margin-bottom: rhythm(.5);
+  margin-bottom: rhythm(0.5);
   max-width: 510px;
-  padding: rhythm(.375);
-  transition: border .3s;
+  padding: rhythm(0.375);
+  transition: border 0.3s;
   width: 100%;
 
   &:focus {
@@ -19,16 +19,16 @@ input[type=email] {
 }
 
 textarea {
-  border: 1px solid color(silver-chalice);
+  border: 1px solid color('silver-chalice');
   display: block;
   margin-bottom: rhythm(1);
   max-width: 775px;
-  padding: rhythm(.25) rhythm(.375);
-  transition: border .3s;
+  padding: rhythm(0.25) rhythm(0.375);
+  transition: border 0.3s;
   width: 100%;
 
   &:hover {
-     border: 1px solid color(silver-chalice);
+    border: 1px solid color('silver-chalice');
   }
 
   &:focus {
@@ -37,24 +37,24 @@ textarea {
 }
 
 input[type=submit] {
-  color: white;
-  background-color: color(apple);
-  padding: rhythm(.25) rhythm(.5);
-  transition: background-color .15s linear;
+  color: color('white');
+  background-color: color('apple');
+  padding: rhythm(0.25) rhythm(0.5);
+  transition: background-color 0.15s linear;
 
   &:hover {
-    background-color: darken(color(apple), 20%);
+    background-color: darken(color('apple'), 20%);
   }
 }
 
 input[type=reset] {
-  background-color: lighten(color(abbey), 20%);
-  color: white;
-  padding: rhythm(.25) rhythm(.5);
-  transition: background-color .15s linear;
+  background-color: lighten(color('abbey'), 20%);
+  color: color('white');
+  padding: rhythm(0.25) rhythm(0.5);
+  transition: background-color 0.15s linear;
 
   &:hover {
-    background-color: color(abbey);
+    background-color: color('abbey');
   }
 }
 
@@ -71,7 +71,7 @@ input[type=checkbox].checkbox + label.checkbox-label {
   cursor: pointer;
   display: block;
   height: 28px;
-  margin-bottom: rhythm(.5);
+  margin-bottom: rhythm(0.5);
   padding-left: 33px;
   vertical-align: middle;
 }
@@ -82,7 +82,7 @@ input[type=radio].radio + label.radio-label {
   cursor: pointer;
   display: block;
   height: 20px;
-  margin-bottom: rhythm(.5);
+  margin-bottom: rhythm(0.5);
   padding-left: 25px;
   vertical-align: middle;
 }

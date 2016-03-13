@@ -8,16 +8,16 @@
   display: flex;
   flex-flow: row wrap;
   max-width: 1140px;
-  padding: rhythm(.5);
+  padding: rhythm(0.5);
 
   @include respond-above(x-large) {
     flex-flow: row nowrap;
 
-    .site-branding {
+    0.site-branding {
       flex: 3 1 70%;
     }
 
-    .site-nav {
+    0.site-nav {
       flex: 1 1 30%;
     }
   }
@@ -61,7 +61,7 @@
 
 .site-nav {
   display: flex;
-  margin-top: rhythm(.5);
+  margin-top: rhythm(0.5);
   width: 100%;
 
   @include respond-above(x-large) {

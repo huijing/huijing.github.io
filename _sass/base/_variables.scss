@@ -15,7 +15,7 @@
 // USAGE:
 // -----
 // @include respond-above(small) {
-//   .test {
+//   0.test {
 //     css-property: value;
 //   }
 // }
@@ -116,25 +116,25 @@ $rhythm-unit: 'rem';
 $text-sizing: (
   milli: (
     small: (
-      font-size: .618rem
+      font-size: 0.618rem
     )
   ),
   centi: (
     small: (
-      font-size: .618rem
+      font-size: 0.618rem
     ),
     medium: (
-      font-size: .8rem
+      font-size: 0.8rem
     )
   ),
   deci: (
     small: (
-      font-size: .8rem
+      font-size: 0.8rem
     )
   ),
   base: (
     small: (
-      font-size: .8rem
+      font-size: 0.8rem
     ),
     medium: (
       font-size: 1rem
@@ -181,18 +181,20 @@ $text-sizing: (
 
 // USAGE:
 // -----
-// .test {
+// 0.test {
 //   background-color: color(color-name);
 // }
 // ==========
 $colors: (
-  abbey: rgba(83, 87, 89, 1),
-  english-walnut: rgba(55, 40, 34, 1),
-  apple: rgba(74, 188, 65, 1),
-  sugarcane: rgba(250, 255, 250, 1),
-  mineshaft: rgba(42, 42, 42, 1),
-  royal-blue: rgba(76, 131, 225, 1),
-  silver-chalice: rgba(166, 166, 166, .5)
+  'abbey': rgba(83, 87, 89, 1),
+  'black-alpha2': rgba(0, 0, 0, 0.2),
+  'english-walnut': rgba(55, 40, 34, 1),
+  'apple': rgba(74, 188, 65, 1),
+  'sugarcane': rgba(250, 255, 250, 1),
+  'mineshaft': rgba(42, 42, 42, 1),
+  'royal-blue': rgba(76, 131, 225, 1),
+  'silver-chalice': rgba(166, 166, 166, 0.5),
+  'white': rgba(255, 255, 255, 1)
 );
 
 // ==========

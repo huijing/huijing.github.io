@@ -5,6 +5,6 @@
 
   @include respond-above(small) {
     float: right;
-    margin-left: rhythm(.5);
+    margin-left: rhythm(0.5);
   }
 }

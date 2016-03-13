@@ -1,7 +1,7 @@
 .shape {
   float: left;
-  shape-image-threshold: .5;
-  shape-margin: rhythm(.5);
+  shape-image-threshold: 0.5;
+  shape-margin: rhythm(0.5);
   shape-outside: url('/images/posts/css-shapes/beyonce.png');
   width: 50%;
 

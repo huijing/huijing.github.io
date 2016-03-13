@@ -15,14 +15,14 @@ picture img {
     width: 16px;
 
     path {
-      fill: color(apple);
+      fill: color('apple');
     }
 
     a & path {
-      fill: color(apple);
+      fill: color('apple');
 
       &:hover {
-        fill: lighten(color(apple), 20%);
+        fill: lighten(color('apple'), 20%);
       }
     }
   }
@@ -39,7 +39,7 @@ picture img {
     }
 
     path {
-      fill: color(mineshaft);
+      fill: color('mineshaft');
     }
   }
 }

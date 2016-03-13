@@ -1,11 +1,11 @@
 .content {
-  background: color(sugarcane);
+  background: color('sugarcane');
   padding: rhythm(1);
 }
 
 .tag-title {
   display: inline-block;
-  margin-left: rhythm(.25);
+  margin-left: rhythm(0.25);
 }
 
 .more-link {
@@ -17,18 +17,18 @@
   &::after {
     content: '';
     display: inline-block;
-    height: .8em;
-    width: .8em;
+    height: 0.8em;
+    width: 0.8em;
   }
 
   &::before {
-    margin-right: rhythm(.25);
+    margin-right: rhythm(0.25);
   }
 
   &::after {
     background: url('/images/icons/icon-link.svg') no-repeat;
     background-size: cover;
-    margin-left: rhythm(.5);
+    margin-left: rhythm(0.5);
   }
 }
 
