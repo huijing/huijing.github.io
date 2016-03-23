@@ -23,15 +23,17 @@ The article emphasises that modelling players are not *afraid* to learn somethin
 
 ### The explicit tutorial level
 
-This is probably more prevalent in older games, but these games will have a tutorial level that you choose from the game's start menu. Examples are Settlers 3, Half-life and Jamestown. Players who wanted a wading pool style introduction to the game would consciously make a decision to play that level, while people who just wanted to jump in the deep end would ignore it. I personally felt that this style of tutorial was very well suited to strategy games, but the Half-life tutorial was pretty well done too, in my book.
+I find the explicit tutorial level more prevalent in older games. You know, those games that have an additional selection for a tutorial level on the game's start menu. Examples are Settlers 3, Half-life and Jamestown. Players who wanted a wading pool style introduction to the game would consciously make a decision to play that level, while people who just wanted to jump in the deep end would ignore it. I personally felt that this style of tutorial was very well suited to strategy games, but the Half-life tutorial was pretty well done too, in my book.
 
 ### The built-in tutorial
 
-I personally think this is the most common style of tutorial, where the first level is meant to teach you most of what you need to know to play the game proper. However, to make it less boring, game designers try to make that level as fun as the rest of the game, at least, most do. So many games take this approach, Fallout 3, Portal 2, Far Cry 3: Blood Dragon, Shovel Knight, I could go on and on but those are the few I thought were exceptional.
+Most of the newer games I played would have the introductory level built into the start of the game. The start of the game will introduce most of what you need to know to play the game proper. However, to make it less boring, game designers try to make that level as fun as the rest of the game, at least, most do. So many games take this approach, Fallout 3, Portal 2, Far Cry 3: Blood Dragon, Shovel Knight, I could go on and on but those are the few I thought were exceptional. 
+
+And I understand why most games take this approach. You never get a second chance to make a first impression, so the challenge is to design a level that teaches players game mechanics *and* provide a positive initial experience. Some games give players the option to just skip over the introductory stuff, which is a good option to have. This means the exploratory group can move straight into the main game-play while the modelling group can ascertain risk and ramifications in a controlled, safe environment.
 
 ## I've fallen and I can't get up
 
-But say somebody thought the tutorial would be boring and just skipped the level, only to find they didn't know how things worked in the game. What then? I can't speak for others, but I have done the following things. 
+But say somebody thought the tutorial would be boring and just skipped through the whole thing, only to find they didn't know how things worked in the game. What then? I can't speak for others, but I have done the following things. 
 
 - Open the game menu and find the controls option to see which buttons did what.
 - Save the current game (if possible), then go out and replay the tutorial
@@ -51,7 +53,11 @@ I do make it a point to reconsider my snap judgements, especially on controversi
 
 Social media actually makes this worse. Facebook, Amazon and nowadays Twitter want to filter the information you see and only serve you what you want to see. Is it any mystery that people nowadays are more polarised than ever before? [Confirmation bias](http://youarenotsosmart.com/2010/06/23/confirmation-bias/) is a real human fallacy. It used to be people sought out information that supported their own views, now you don't even have to expend effort to do that. Social media does that for you.
 
-Again, I think it's important to know where you stand on various issues. But if you don't expose yourself to as wide a range of viewpoints as possible, your stance may end up being very narrow indeed. I think that the root of all conflict is the lack of communication and understanding. The world is rich with different cultures, beliefs and ideas. But often, we huddle together with people who share the same views as ourselves, and see those with opposing viewpoints as adversarial. What is with this them versus us mentality? We are ultimately the same species, we're all mammals, we all bleed red, and if we don't take care of our planet, we will all die together.
+It's important to know where you stand on various issues. But if you don't expose yourself to as wide a range of viewpoints as possible, your stance may end up being very narrow indeed. The root of all conflict is the lack of communication and understanding. The world is rich with different cultures, beliefs and ideas. But often, we huddle together with people who share the same views as ourselves, and see those with opposing viewpoints as adversarial. What is with this them versus us mentality? We are ultimately the same species, we're all mammals, we all bleed red, and if we don't take care of our planet, we will all die together.
+
+## Guiding principles are better than rules
+
+Unfortunately, life is not simply black and white. There is a full spectrum of grey in between. People are going to have different viewpoints with regards to human nature. The thing about human beings is they are capable of unbelievable goodness, and they are also capable of unspeakable evil. 
 
 ## Wrapping up
 
