@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On video games, user experience and modern life"
+title: "On video games and modern life"
 date: March 23, 2016
 tags: [opinion]
 ---
@@ -23,9 +23,42 @@ The article emphasises that modelling players are not *afraid* to learn somethin
 
 ### The explicit tutorial level
 
+This is probably more prevalent in older games, but these games will have a tutorial level that you choose from the game's start menu. Examples are Settlers 3, Half-life and Jamestown. Players who wanted a wading pool style introduction to the game would consciously make a decision to play that level, while people who just wanted to jump in the deep end would ignore it. I personally felt that this style of tutorial was very well suited to strategy games, but the Half-life tutorial was pretty well done too, in my book.
+
 ### The built-in tutorial
+
+I personally think this is the most common style of tutorial, where the first level is meant to teach you most of what you need to know to play the game proper. However, to make it less boring, game designers try to make that level as fun as the rest of the game, at least, most do. So many games take this approach, Fallout 3, Portal 2, Far Cry 3: Blood Dragon, Shovel Knight, I could go on and on but those are the few I thought were exceptional.
+
+## I've fallen and I can't get up
+
+But say somebody thought the tutorial would be boring and just skipped the level, only to find they didn't know how things worked in the game. What then? I can't speak for others, but I have done the following things. 
+
+- Open the game menu and find the controls option to see which buttons did what.
+- Save the current game (if possible), then go out and replay the tutorial
+- Google the damn thing, in this day and age, odds are somebody has put out a video or asked the same question in a forum
+
+Nowadays, I think most people would go straight for option 3 or say "Screw this" and turn off the game altogether. And here was the thought that triggered this entire post: our attention spans are now so short that we don't even bother with figuring out how a game works on our own. Or it could be that we have so many things competing for our attention that we would eschew anything that requires extra effort.
+
+The pace of modern life has made it such that people rely more on heuristics and snap judgements than taking the time to understand and think through what they are consuming, be it news, opinions, even food. There is a lot less "right now" and a lot more "what's next". Is it a coincidence journalistic inaccuracies are more prevalent than ever before? I suggest reading [Trust Me, I'm Lying](http://trustmeimlying.com/) by [Ryan Holiday](http://ryanholiday.net/) for a full length exposé of the digital media industry. And to provide a viewpoint that will make you doubt everything, here's [an article](http://www.poynter.org/2012/telling-the-truth-about-media-manipulator-ryan-holiday/181742/) by [Craig Silverman](http://www.craigsilverman.ca/) which calls him out for applying media manipulation principles to boost sales of aforementioned book. 
+
+## What does this have to do with video games?
+
+Not much actually. It was just a thought that decided to run amok. You know how when Simpsons episodes start off, the initial opening scene often has nothing to do with the main storyline of the episode? Exactly like that. Do I have a solution for short attention spans? No. In fact, I'm consciously aware that my attention span is much shorter now than it was when I was a kid. Surprising? Probably not. When I was a kid, I didn't mind spending hours replaying a level until I got through it but now if I keep dying, I'll probably turn the game off and go do something else for a bit.
+
+I do make it a point to reconsider my snap judgements, especially on controversial issues, because we *all* make snap judgements based on past biases and superficial factors. The problem is when we don't bother to consider things on a deeper level. What makes things worse is when we just spread these snap judgements around like free tacos to the people around us. Everybody is contributing to the information overload. I think everyone is entitled to their opinion, but shoving your opinion down someone else's throat is not cool. 
+
+## How many of us consider views the oppose our own?
+
+Social media actually makes this worse. Facebook, Amazon and nowadays Twitter want to filter the information you see and only serve you what you want to see. Is it any mystery that people nowadays are more polarised than ever before? [Confirmation bias](http://youarenotsosmart.com/2010/06/23/confirmation-bias/) is a real human fallacy. It used to be people sought out information that supported their own views, now you don't even have to expend effort to do that. Social media does that for you.
+
+Again, I think it's important to know where you stand on various issues. But if you don't expose yourself to as wide a range of viewpoints as possible, your stance may end up being very narrow indeed. I think that the root of all conflict is the lack of communication and understanding. The world is rich with different cultures, beliefs and ideas. But often, we huddle together with people who share the same views as ourselves, and see those with opposing viewpoints as adversarial. What is with this them versus us mentality? We are ultimately the same species, we're all mammals, we all bleed red, and if we don't take care of our planet, we will all die together.
+
+## Wrapping up
+
+
 
 ## Further reading
 
-[Tutorials: Learning To Play](http://www.gamasutra.com/view/feature/134531/tutorials_learning_to_play.php) by [Sheri Graner Ray](http://sherigranerray.com/)
-[Product Onboarding and Video Games](https://medium.com/@gauravkulkarni/product-onboarding-and-video-games-4fcdbaeece60#.ebk0pj8jl) by [Gaurav Kulkarni](https://www.facebook.com/gaurav.kulkarni)
+- [Tutorials: Learning To Play](http://www.gamasutra.com/view/feature/134531/tutorials_learning_to_play.php) by [Sheri Graner Ray](http://sherigranerray.com/)
+- [Product Onboarding and Video Games](https://medium.com/@gauravkulkarni/product-onboarding-and-video-games-4fcdbaeece60#.ebk0pj8jl) by [Gaurav Kulkarni](https://www.facebook.com/gaurav.kulkarni)
+- [Confirmation Bias](http://youarenotsosmart.com/2010/06/23/confirmation-bias/) by [David McCraney](http://davidmcraney.com/)
