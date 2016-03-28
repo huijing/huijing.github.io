@@ -10,6 +10,10 @@ If you've been following along my latest exploits (though I doubt anyone is), yo
 
 Since we're a CSS-centric meet-up, the website must have some CSS-related mojo going on, right? (Just kidding, no voodoo involved, just cool code). I'm one of those people who still uses an RSS feed reader. Between that and Twitter, I come across many interesting CSS articles every day. And this website turned out to be the perfect playground for me to try out a lot of the things I read about.
 
+## Basic stuff
+
+
+
 http://bitsofco.de/styling-broken-images/
 http://codepen.io/jakealbaugh/post/css4-variables-and-sass
 https://pixelambacht.nl/2016/building-bixa-color/
