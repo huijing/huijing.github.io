@@ -1,3 +1,6 @@
+client-work:
+  name: Client work
+
 css:
   name: CSS
 
@@ -49,11 +52,14 @@ podcasts:
 projects:
   name: Projects
 
-sysadmin:
-  name: SysAdmin
+side-project:
+  name: Side project
 
 site-building:
   name: Site building
+
+sysadmin:
+  name: SysAdmin
 
 theming:
   name: Theming

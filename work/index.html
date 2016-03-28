@@ -8,7 +8,7 @@ title: Work
 
 <h2>Client work</h2>
 <div class="grid-flex">
-  {% for post in site.tags.projects %}
+  {% for post in site.tags.client-work %}
   <div class="project grid-flex__item">
     <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
       <img class="project__image" src="{{ site.url }}/images/posts/{{ post.image }}" alt="{{ post.image }}"/>
@@ -19,4 +19,15 @@ title: Work
   <div class="project"></div>
 </div>
 
-<!-- <h2>Random side projects</h2> -->
+<h2>Random side projects</h2>
+<div class="grid-flex">
+  {% for post in site.tags.side-project %}
+  <div class="project grid-flex__item">
+    <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
+      <img class="project__image" src="{{ site.url }}/images/posts/{{ post.image }}" alt="{{ post.image }}"/>
+      <h3 class="project__title no-margin">{{ post.project }}</h3>
+    </a>
+  </div>
+  {% endfor %}
+  <div class="project"></div>
+</div>

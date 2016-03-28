@@ -4,7 +4,7 @@ title: "The one where I grok MVC"
 date: Feb 19, 2016
 project: SG50 Time Machine
 image: project-11.jpg
-tags: [kohana, projects]
+tags: [kohana, client-work]
 ---
 
 Earlier this year, I mentioned that I was starting out with the [Kohana](https://kohanaframework.org/) framework. Actually, my team uses a heavily modified version of the Kohana framework as a starter for all our projects. In addition to the Kohana base architecture, our framework had a bunch of goodies built in, like lazy-loading, a run-time Sass compiler and so on. But I digress. We had been tasked to build the website for Audi's SG50 Time Machine campaign. 
