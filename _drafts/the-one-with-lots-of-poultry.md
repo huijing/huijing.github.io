@@ -12,6 +12,6 @@ Most of the projects I worked on in 2015 were either Facebook applications (yes,
 
 Sadia is an international food company which specialises in chilled and frozen foods. We were engaged to create regional websites for Sadia Singapore and Sadia Hong Kong. On the surface this project didn't seem overly-complicated. Each site would have country-specific domain names. The Hong Kong site would be a multi-lingual implementation but the Singapore site would be single language. In the initial brief, both sites would have almost the same content, but as requirements were being clarified, it seemed that the amount of shared content was much less than initially expected.
 
-## Technical architecture
+## Decisions...decisions...
 
 Based on my prior experience with the [Xinmsn]({{ site.url }}/blog/the-one-on-the-tightest-of-deadlines/) project, I knew that it would be important to make the correct architectural call at the start of the project. And after thinking through the requirements, plus some discussion with the team, we decided to go with a multi-site implementation with separate databases but a single code-base.
