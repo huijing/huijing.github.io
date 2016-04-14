@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Drupal 101: Setting up i18n"
-date: Apr 13, 2016
+date: April 13, 2016
 tags: [drupal7, i18n, site-building]
 category: planet-drupal
 ---
