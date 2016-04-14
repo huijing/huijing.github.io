@@ -45,9 +45,13 @@ picture img {
 }
 
 .emoji {
-  @include responsive-text-size(hecto);
+  font-size: 1.294rem;
   display: inline-block;
   vertical-align: middle;
+
+  @include respond-above(large) {
+    font-size: 1.618rem;
+  }
 }
 
 .kaomoji {
