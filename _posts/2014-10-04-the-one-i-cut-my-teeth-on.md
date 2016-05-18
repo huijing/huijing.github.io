@@ -19,7 +19,7 @@ The extent of my Drupal knowledge was the creation of basic pages and I had no i
 
 This was also my first taste of using feeds to import content. Let's just say it was an exercise in patience and persistence. Though I must say, all the time spent wrangling spreadsheets and levelling up my Excel-fu during my previous job came in very handy. I document my extensive feeds experience in [this post]({{ site.url }}/blog/drupal-101-what-i-learnt-from-hours-of-troubleshooting-feeds/).
 
-This site also required [overriding the node template with panels](/placeholder-post.html), [content filtering with facets](/placeholder-post.html) and [a simple image gallery with lightbox](/placeholder-post.html). After all that came the custom theme, which was actually just a sub-theme off of Zen (eventually, I would come to a point when I decided to write my own base theme, but that's for a future post). 
+This site also required [overriding the node template with panels](/placeholder-post/), [content filtering with facets](/placeholder-post/) and [a simple image gallery with lightbox](/placeholder-post/). After all that came the custom theme, which was actually just a sub-theme off of Zen (eventually, I would come to a point when I decided to write my own base theme, but that's for a future post). 
 
 <img src="{{ site.url }}/images/posts/sgcc/sgcc-ba.jpg" alt="SGCC homepage after theming"/>
 
