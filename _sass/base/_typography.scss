@@ -22,21 +22,30 @@ body {
 h1 {
   @include responsive-text-size(kilo);
   font-family: $header-font;
-  margin: 0 auto rhythm(1);
+
+  @include respond-above(medium) {
+    margin: 0 auto rhythm(1);
+  }
 }
 
 h2 {
   @include responsive-text-size(hecto);
   font-family: $header-font;
-  margin: 0 auto rhythm(0.5);
+
+  @include respond-above(medium) {
+    margin: 0 auto rhythm(0.5);
+  }
 }
 
 h3 {
   @include responsive-text-size(deca);
   font-family: $header-font;
-  margin: 0 auto rhythm(0.5);
 
-  0.site-footer & {
+  @include respond-above(medium) {
+    margin: 0 auto rhythm(0.5);
+  }
+
+  .site-footer & {
     font-family: $display-font;
   }
 }
@@ -44,13 +53,19 @@ h3 {
 h4 {
   @include responsive-text-size(base);
   font-family: $header-font;
-  margin: 0 auto rhythm(0.5);
+
+  @include respond-above(medium) {
+    margin: 0 auto rhythm(0.5);
+  }
 }
 
 h5 {
   @include responsive-text-size(base);
   font-family: $header-font;
+
+  @include respond-above(medium) {
   margin: 0 auto rhythm(0.5);
+}
 }
 
 h6 {
