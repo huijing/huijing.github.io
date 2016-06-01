@@ -1,4 +1,6 @@
 hr {
-  @include trailing-border();
+  border-bottom-width: 0.05rem;
+  border-bottom-style: solid;
   border-color: color('silver-chalice');
+  margin-bottom: rhythm(1);
 }
