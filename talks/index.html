@@ -4,47 +4,20 @@ title: Talks
 ---
 <p>Sometimes, I'm so overwhelmed by my love for all things HTML and CSS that I feel compelled to tell a large group of people about it.</p>
 <div class="grid-3">
+    {% for slide in site.data.slides %}
     <div class="talk grid-3__item">
-        <a class="no-underline" href="{{ site.baseurl }}/slides/responsive-images">
-        <img srcset="{{ site.baseurl }}/images/slides/resp-imgs@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/resp-imgs.jpg" alt="Using responsive images (now)"/>
+        <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.id }}">
+        <img srcset="{{ site.baseurl }}/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
         </a>
-        <p class="no-margin"><a class="talk__video" href="https://engineers.sg/video/using-responsive-images-now-talk-js--269">Watch video</a></p>
-        <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/resp-imgs.pdf">Download PDF</a></p>
-    </div>
-    <div class="talk grid-3__item">
-        <a class="no-underline" href="{{ site.baseurl }}/slides/css-shapes">
-        <img srcset="{{ site.baseurl }}/images/slides/css-shapes@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/css-shapes.jpg" alt="Why you should be excited about CSS shapes"/>
-        </a>
-        <p class="no-margin"><a class="talk__video" href="https://engineers.sg/video/css-shapes-singapore-css--432">Watch video</a></p>
-        <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/css-shapes.pdf">Download PDF</a></p>
-    </div>
-    <div class="talk grid-3__item">
-        <a class="no-underline" href="{{ site.baseurl }}/slides/css-triggers">
-        <img srcset="{{ site.baseurl }}/images/slides/css-triggers@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/css-triggers.jpg" alt="Let's ⚡ talk about CSS triggers"/>
-        </a>
-        <p class="no-margin"><a class="talk__video" href="https://engineers.sg/video/tips-on-eliminating-jank-talk-css--505">Watch video</a></p>
-        <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/css-triggers.pdf">Download PDF</a></p>
-    </div>
-    <div class="talk grid-3__item">
-        <a class="no-underline" href="{{ site.baseurl }}/slides/intro-html-css">
-        <img srcset="{{ site.baseurl }}/images/slides/intro-html-css@2x.jpeg 2x" src="{{ site.baseurl }}/images/slides/intro-html-css.jpeg" alt="Web development: breaking it down"/>
-        </a>
+        {% if slide.video.size %}
+        <p class="no-margin"><a class="talk__video" href="{{ slide.video }}">
+        Watch video</a></p>
+        {% else %}
         <p class="no-margin">No video <span class="emoji">😐</span></p>
-        <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/intro-html-css.pdf">Download PDF</a></p>
+        {% endif %}
+        <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/{{ slide.id }}.pdf">Download PDF</a></p>
     </div>
-    <div class="talk grid-3__item">
-        <a class="no-underline" href="{{ site.baseurl }}/slides/begin-html-css">
-        <img srcset="{{ site.baseurl }}/images/slides/begin-html-css@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/begin-html-css.jpg" alt="Coding for beginners: HTML and CSS"/>
-        </a>
-        <p class="no-margin">No video <span class="emoji">😐</span></p>
-        <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/begin-html-css.pdf">Download PDF</a></p>
-    </div>
-    <div class="talk grid-3__item">
-        <a class="no-underline" href="{{ site.baseurl }}/slides/git-bomb">
-        <img srcset="{{ site.baseurl }}/images/slides/git-bomb@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/git-bomb.jpg" alt="The epic git bomb"/>
-        </a>
-        <p class="no-margin"><a class="talk__video" href="https://engineers.sg/video/an-epic-git-bomb-git-meetup-0-4-0--630">Watch video</a></p>
-        <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/git-bomb.pdf">Download PDF</a></p>
-    </div>
+    {% endfor %}
 </div>
+
 <p>Kudos to <a href="http://engineers.sg/conferences">Engineers.SG</a>, which records videos of almost every local tech meet-up in Singapore.</p>
