@@ -10,7 +10,7 @@ Through my experience of building various responsive designs, I learnt a lot abo
 
 We can't talk about *display* without mentioning something called a [box tree](https://drafts.csswg.org/css-display/#box-tree). Basically the browser parses CSS and renders it by generating a box tree, which represents the formatting structure of the rendered document. The *display* property defines the box's display type. 
 
-The topic of how browsers render stuff on the screen is a really fascinating one and I highly suggest reading [How Browsers Work: Behind the scenes of modern web browsers](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) by [Talia Garsiel](http://taligarsiel.com/).
+The topic of how browsers render stuff on the screen is a really fascinating one and I highly suggest reading [How Browsers Work: Behind the scenes of modern web browsers](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/) by [Talia Garsiel](http://taligarsiel.com/). Another must-read is [Evolution of CSS Layout: 1990s to the Future](http://fantasai.inkedblade.net/weblog/2012/css-layout-evolution/) by [Fantasai](http://fantasai.inkedblade.net/), who works on CSS specifications at W3C. It's actually a talk she gave at the [Emerging Technologies for the Enterprise](http://2016.phillyemergingtech.com/2012/) conference, but there's a full transcript if video is not your thing.
 
 ## Those we know quite well already
 
@@ -289,7 +289,7 @@ For anything related to the Grid layout, I always refer to [Rachel Andrew](https
 
 ### display: run-in;
 
-Now this is a fun one I hadn't heard of until I started reading the CSS Display specification. It is meant . Unfortunately, it seems that browser vendors are not fond of this specification at all, 
+Now this is a fun one I hadn't heard of until I started reading the CSS Display specification. Unfortunately, it seems that browser vendors are not fond of this specification at all, so you can think of this as an alternate reality specification <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
 
 ### display: ruby;
 
@@ -301,6 +301,7 @@ According to [caniuse.com](http://caniuse.com/#feat=ruby), there is at least par
 
 ## Further reading
 
+- [Evolution of CSS Layout: 1990s to the Future](http://fantasai.inkedblade.net/weblog/2012/css-layout-evolution/) by [Fantasai](http://fantasai.inkedblade.net/)
 - [CSS Display Module Level 3](http://www.w3.org/TR/css-display-3/)
 - [MDN CSS display reference](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
 - [CSS Run-in Display Value](https://css-tricks.com/run-in/)
