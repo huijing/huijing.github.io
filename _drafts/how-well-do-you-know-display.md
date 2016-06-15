@@ -16,7 +16,7 @@ The topic of how browsers render stuff on the screen is a really fascinating one
 
 Fun fact: the *display* values we use all the time are actually short-hand. For example, `block` is actually short-hand for `block flow`. Refer to [specification](https://drafts.csswg.org/css-display/#propdef-display) for full list.
 
-All elements has a default *display* value, but they can be overridden by explicitly setting the *display* value to something else.
+All elements have a default *display* value, but they can be overridden by explicitly setting the *display* value to something else.
 
 ### display: none;
 
@@ -289,7 +289,15 @@ For anything related to the Grid layout, I always refer to [Rachel Andrew](https
 
 ### display: run-in;
 
-Now this is a fun one I hadn't heard of until I started reading the CSS Display specification. Unfortunately, it seems that browser vendors are not fond of this specification at all, so you can think of this as an alternate reality specification <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
+Now this is a fun one I hadn't heard of until I started reading the [CSS Display specification](http://www.w3.org/TR/css-display-3/). And I also uncovered the 2010 article, [CSS Run-in Display Value](https://css-tricks.com/run-in/) by [Chris Coyier](http://chriscoyier.net/). Unfortunately, it seems that browser vendors are not fond of this specification at all and it has since been removed from all browsers, so you can think of this as an alternate reality specification <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
+
+Theoretically, if you set an element's *display* property to `run-in`, it renders as a **run-in box**. The use-case is to have a native method to create run-in headings, which in graphic design parlance is a heading positioned on the same line as the next line of body copy.
+
+<p><svg viewBox="0 0 280 128" width="320"><defs><path id="a" d="M0 0h280v127.17H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><path fill="#D8D8D8" stroke="#979797" stroke-width="2" d="M0 0h280v127.17H0z" mask="url(#b)"/><text fill="#202020" font-family="Helvetica-Bold, Helvetica" font-size="14.682" font-weight="bold"><tspan x="9.803" y="25.058">Sameen Shaw.</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="116.024" y="25.359">Also known as</tspan></text><text fill="#202020" font-family="Helvetica-Bold, Helvetica" font-size="9.788" font-weight="bold"><tspan x="181.955" y="25.359">Indigo Five Alpha</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="263.649" y="25.359">,</tspan></text><text fill="#202020" font-family="Helvetica-Bold, Helvetica" font-size="9.788" font-weight="bold"><tspan x="9.803" y="40.103">Dr. Sameen Shaw</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="94.795" y="40.103">or simply</tspan></text><text fill="#202020" font-family="Helvetica-Bold, Helvetica" font-size="9.788" font-weight="bold"><tspan x="136.736" y="40.103">Shaw</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="162.339" y="40.103">, is a physician and a</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="9.803" y="54.848">former operative for the U.S. Army</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="161.798" y="54.848">Intelligence Support</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="9.803" y="69.592">Activity</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="40.849" y="69.592">. Prior to joining the team Shaw was part of an</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="9.803" y="84.337">operation known as Catalyst Indigo, responsible for acting</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="9.803" y="99.081">on relevant list intelligence delivered by</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="183.089" y="99.081">the Machine</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="236.494" y="99.081">, which</tspan></text><text fill="#202020" font-family="Helvetica" font-size="9.788"><tspan x="9.803" y="113.826">she knew only as &quot;Research&quot;.</tspan></text></g></svg></p>
+
+You could use floats to achieve a similar effect, but it is sort of a hack-ish method. Lining up the baseline of the header with the body copy is quite challenging, as you have to tweak the font-size of the header and the line-height of the body copy until they match up. And there may be situations where the header just 'catches' more than a single line.
+
+If you want to use `display: inline` on the header instead, it won't work unless you nest the header element in the paragraph element of body copy (because `p` is a block element), and that is semantically incorrect. So I personally would have liked to see this implemented, but I suppose the browser vendors have more high priority specifications to worry about at the moment.
 
 ### display: ruby;
 
@@ -297,15 +305,26 @@ As a native Mandarin speaker, I can see the relevance of this property. If you h
 
 ![Ruby diagram]({{ site.url }}/images/posts/display/display-ruby.gif "Ruby diagram")
 
-According to [caniuse.com](http://caniuse.com/#feat=ruby), there is at least partial support for all major browsers, with Firefox fully supporting this property. No love from Opera Mini though. 
+According to [caniuse.com](http://caniuse.com/#feat=ruby), there is at least partial support for all major browsers, with Firefox fully supporting this property. No love from Opera Mini though.
+
+### display: content;
+
+> The element itself does not generate any boxes, but its children and pseudo-elements still generate boxes as normal. For the purposes of box generation and layout, the element must be treated as if it had been replaced with its children and pseudo-elements in the document tree.  
+> - CSS Display Module Level 3
+
+What the specification is trying to say is that, when you set `display: contents` on an element, it will disappear from the DOM but all its children remain and take up the space it occupied. Unfortunately, this specification is only supported by Firefox for now. Resize the [full size CodePen](http://codepen.io/huijing/full/wWWzmd/) in Firefox to get a feel of how it works.
+
+<p data-height="319" data-theme-id="9162" data-slug-hash="wWWzmd" data-default-tab="result" data-user="huijing" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/huijing/pen/wWWzmd/">CSS display: contents</a> by Chen Hui Jing (<a href="http://codepen.io/huijing">@huijing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+
+I've managed to uncover 2 articles that talk about this display property thus far, [Firefox is releasing support for CSS display: contents](https://samrueby.com/2015/02/09/firefox-is-releasing-support-for-css-display-contents/) by [Sam Rueby](https://samrueby.com/) and [Vanishing boxes with display contents](https://rachelandrew.co.uk/archives/2016/01/29/vanishing-boxes-with-display-contents/) by [Rachel Andrew](https://rachelandrew.co.uk/). Rachel Andrew also presents a fantastic use-case for this property with flex-items. Do check out both articles.
 
 ## Further reading
 
-- [Evolution of CSS Layout: 1990s to the Future](http://fantasai.inkedblade.net/weblog/2012/css-layout-evolution/) by [Fantasai](http://fantasai.inkedblade.net/)
-- [CSS Display Module Level 3](http://www.w3.org/TR/css-display-3/)
-- [MDN CSS display reference](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
-- [CSS Run-in Display Value](https://css-tricks.com/run-in/)
-- [Vanishing boxes with display contents](https://rachelandrew.co.uk/archives/2016/01/29/vanishing-boxes-with-display-contents/) by [Rachel Andrew](https://rachelandrew.co.uk/)
+<ul>
+  <li class="no-margin"><a href="http://fantasai.inkedblade.net/weblog/2012/css-layout-evolution/">Evolution of CSS Layout: 1990s to the Future</a> by <a href="http://fantasai.inkedblade.net/">Fantasai</a></li>
+  <li class="no-margin"><a href="http://www.w3.org/TR/css-display-3/">CSS Display Module Level 3</a></li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">MDN CSS display reference</a></li>
+</ul>
 
 
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>

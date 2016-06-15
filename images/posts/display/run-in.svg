@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 457 207" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M0 0h457v207H0z"/>
+    <mask id="b" width="457" height="207" x="0" y="0" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#D8D8D8" stroke="#979797" stroke-width="2" mask="url(#b)" xlink:href="#a"/>
+    <text font-family="Helvetica-Bold, Helvetica" font-size="16" font-weight="bold">
+      <tspan x="16" y="40" fill="#000"> </tspan> <tspan x="189.367" y="40" fill="#202020" font-family="Helvetica" font-weight="normal">Also known as </tspan> <tspan x="296.977" y="40" fill="#202020">Indigo Five Alpha</tspan> <tspan x="430.313" y="40" fill="#202020" font-family="Helvetica" font-weight="normal">, </tspan> <tspan x="16" y="64" fill="#202020">Dr. Sameen Shaw </tspan> <tspan x="154.719" y="64" fill="#202020" font-family="Helvetica" font-weight="normal">or simply </tspan> <tspan x="223.172" y="64" fill="#202020">Shaw</tspan> <tspan x="264.961" y="64" fill="#202020" font-family="Helvetica" font-weight="normal">, is a physician and a </tspan> <tspan x="16" y="88" fill="#202020" font-family="Helvetica" font-weight="normal">former operative for the U.S. Army </tspan> <tspan x="264.078" y="88" fill="#202020" font-family="Helvetica" font-weight="normal">Intelligence Support </tspan> <tspan x="16" y="112" fill="#202020" font-family="Helvetica" font-weight="normal">Activity</tspan> <tspan x="66.672" y="112" fill="#202020" font-family="Helvetica" font-weight="normal">. Prior to joining the team Shaw was part of an </tspan> <tspan x="16" y="136" fill="#202020" font-family="Helvetica" font-weight="normal">operation known as Catalyst Indigo, responsible for acting </tspan> <tspan x="16" y="160" fill="#202020" font-family="Helvetica" font-weight="normal">on relevant list intelligence delivered by </tspan> <tspan x="298.828" y="160" fill="#202020" font-family="Helvetica" font-weight="normal">the Machine</tspan> <tspan x="385.992" y="160" fill="#202020" font-family="Helvetica" font-weight="normal">, which </tspan> <tspan x="16" y="184" fill="#202020" font-family="Helvetica" font-weight="normal">she knew only as &quot;Research&quot;.</tspan>
+    </text>
+    <text fill="#202020" font-family="Helvetica-Bold, Helvetica" font-size="24" font-weight="bold">
+      <tspan x="16" y="41">Sameen Shaw. </tspan>
+    </text>
+  </g>
+</svg>
