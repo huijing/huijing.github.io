@@ -305,6 +305,14 @@ As a native Mandarin speaker, I can see the relevance of this property. If you h
 
 ![Ruby diagram]({{ site.url }}/images/posts/display/display-ruby.gif "Ruby diagram")
 
+HTML `<ruby>` elements are short runs of text alongside the base text, usually used in East Asian documents to guide pronunciation or provide short annotations. Refer to [the full specification at W3C](https://www.w3.org/TR/ruby/) for details.
+
+<pre><code class="language-markup">&lt;ruby&gt;
+  &lt;rb&gt;WWW&lt;/rb&gt;
+  &lt;rt&gt;World Wide Web&lt;/rt&gt;
+&lt;/ruby&gt;
+</code></pre>
+
 According to [caniuse.com](http://caniuse.com/#feat=ruby), there is at least partial support for all major browsers, with Firefox fully supporting this property. No love from Opera Mini though.
 
 ### display: content;
