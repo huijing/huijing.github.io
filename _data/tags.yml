@@ -31,6 +31,9 @@ github-pages:
 hackathon:
   name: Hackathon
 
+html:
+  name: HTML
+
 i18n:
   name: I18n
 

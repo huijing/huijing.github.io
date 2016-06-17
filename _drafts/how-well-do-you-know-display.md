@@ -3,6 +3,7 @@ layout: post
 title: "How well do you know the display property"
 date: Jun 13, 2016
 tags: [css]
+custom-css: resptbls
 ---
 The *display* property is one of the most important CSS properties we use for layout. Most of us would have used `block`, `inline` and `none`. `table` and `inline-block` are also quite common. The new darling is definitely `flex`, because it's a display property that was created specifically for layout. The upcoming `grid` (currently still being actively worked on) is another layout-specific property that we'll soon have in our arsenal as well.
 
@@ -58,7 +59,7 @@ There are a set of *display* values that allow your elements to behave just like
 
 Although most of us no longer use table-based layouts, `display: table` is still pretty useful in certain cases. For example, if you wanted to have tables only on wider layouts, but retain a typical block layout on smaller widths. This can be achieved with a combination of media queries and *display* (with some pseudo-elements thrown in for good measure), just resize this window to see how it works.
 
-<div class="table">
+<div class="table display">
   <div class="tr">
     <div class="th td">table</div>
     <div class="td">Corresponds to the <code>&lt;table&gt;</code> HTML element. It defines a block-level box.</div>
@@ -220,7 +221,7 @@ By declaring `display: flex` on an element, it becomes a flex container, and its
 
 <p class="no-margin"><strong>Properties for flex container</strong></p>
 
-<div class="table">
+<div class="table display">
   <div class="tr">
     <div class="th td">flex-direction</div>
     <div class="td">Defines the main axis and direction of the flex items. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction">Full list of flex-direction values</a>.</div>
@@ -249,7 +250,7 @@ By declaring `display: flex` on an element, it becomes a flex container, and its
 
 <p class="no-margin"><strong>Properties for flex items</strong></p>
 
-<div class="table">
+<div class="table display">
   <div class="tr">
     <div class="th td">order</div>
     <div class="td">Specifies the order of how flex items are laid out, in ascending order of the order value. Flex items with the same order value are laid out according to source order. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/order">Full list of order values</a></div>
@@ -301,19 +302,7 @@ If you want to use `display: inline` on the header instead, it won't work unless
 
 ### display: ruby;
 
-As a native Mandarin speaker, I can see the relevance of this property. If you have seen how East Asian glyphs are annotated with pronunciation guides, then this should be pretty familiar to you, if not, here's an image.
-
-![Ruby diagram]({{ site.url }}/images/posts/display/display-ruby.gif "Ruby diagram")
-
-HTML `<ruby>` elements are short runs of text alongside the base text, usually used in East Asian documents to guide pronunciation or provide short annotations. Refer to [the full specification at W3C](https://www.w3.org/TR/ruby/) for details.
-
-<pre><code class="language-markup">&lt;ruby&gt;
-  &lt;rb&gt;WWW&lt;/rb&gt;
-  &lt;rt&gt;World Wide Web&lt;/rt&gt;
-&lt;/ruby&gt;
-</code></pre>
-
-According to [caniuse.com](http://caniuse.com/#feat=ruby), there is at least partial support for all major browsers, with Firefox fully supporting this property. No love from Opera Mini though.
+This particular property needs an introduction to the &lt;ruby&gt; element for it to make sense to you. In a nutshell, there is an element for displaying annotations alongside a base line of text, usually to help with pronunciation. They're a pretty common sight for East Asian languages, like Chinese or Japanese. Most of the articles I came across during my research were dated around 2010, so I wrote about the [2016 state of HTML &lt;ruby&gt;](({{ site.url }}/blog/html-ruby/)).
 
 ### display: content;
 

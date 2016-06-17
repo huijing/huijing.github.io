@@ -68,3 +68,10 @@ figure {
     flex: 0 0 span(4 of 12);
   }
 }
+
+.grid-inline {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: rhythm(1);
+}

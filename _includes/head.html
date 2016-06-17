@@ -65,6 +65,13 @@
         loadJS("{{ '/js/respimage.min.js' | prepend: site.baseurl }}");
     }
   </script>
-  <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+
+  {% if page.custom-css %}
+    {% for stylesheet in page.custom-css %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/styles+{{ stylesheet }}.css">
+    {% endfor %}
+  {% else %}
+    <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+  {% endif %}
 
 </head>
