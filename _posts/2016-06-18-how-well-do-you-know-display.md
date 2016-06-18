@@ -389,6 +389,31 @@ If you want to use `display: inline` on the header instead, it won't work unless
 
 This particular property needs an introduction to the &lt;ruby&gt; element for it to make sense to you. In a nutshell, there is an element for displaying annotations alongside a base line of text, usually to help with pronunciation. They're a pretty common sight for East Asian languages, like Chinese or Japanese. Most of the articles I came across during my research were dated around 2010, so I wrote about the [2016 state of HTML &lt;ruby&gt;](({{ site.url }}/blog/html-ruby/)).
 
+There are some parallels between `display: ruby;` and `display: table;`, but the specification strongly discourages applying ruby display values to non-ruby elements like `span` to display ruby text. Rather, we should markup our content using the HTML ruby elements so screen readers and non-CS renderers can interpret the ruby structures.
+
+<div class="table display">
+  <div class="tr">
+    <div class="th td">ruby</div>
+    <div class="td">Corresponds to the <code>&lt;ruby&gt;</code> HTML element. It generates a ruby container box, which establishes a ruby formatting context for child elements marked as internal ruby boxes.</div>
+  </div>
+  <div class="tr">
+    <div class="th td">ruby-base</div>
+    <div class="td">Corresponds to the <code>&lt;rb&gt;</code> HTML element. An internal ruby box in the ruby formatting context.</div>
+  </div>
+  <div class="tr">
+    <div class="th td">ruby-text</div>
+    <div class="td">Corresponds to the <code>&lt;rt&gt;</code> HTML element. An internal ruby box in the ruby formatting context.</div>
+  </div>
+  <div class="tr">
+    <div class="th td">ruby-base-container</div>
+    <div class="td">Corresponds to the <code>&lt;rbc&gt;</code> HTML element. An internal ruby box in the ruby formatting context.</div>
+  </div>
+  <div class="tr">
+    <div class="th td">ruby-text-container</div>
+    <div class="td">Corresponds to the <code>&lt;rtc&gt;</code> HTML element. An internal ruby box in the ruby formatting context.</div>
+  </div>
+</div>
+
 ### display: contents;
 
 > The element itself does not generate any boxes, but its children and pseudo-elements still generate boxes as normal. For the purposes of box generation and layout, the element must be treated as if it had been replaced with its children and pseudo-elements in the document tree.  
