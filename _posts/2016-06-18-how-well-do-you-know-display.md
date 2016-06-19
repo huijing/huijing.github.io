@@ -437,5 +437,6 @@ Whew, that ended up being way longer than I initially expected. So a big thank y
   <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">MDN CSS display reference</a></li>
 </ul>
 
+<em><small>Credits: OG:image from <a href="https://dribbble.com/shots/1612749-Design-layout-for-a-book">Design layout for a book</a> by Olivier Reynaud</small></em>
 
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
