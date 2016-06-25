@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Basics of web typography: @font-face"
-date: August 20, 2015
+title: "CSS font features"
+date: June 26, 2016
 tags: [css, typography, design]
 ---
 
