@@ -15,5 +15,6 @@ Typeface
 https://ia.net/know-how/the-web-is-all-about-typography-period
 http://webtypography.net/toc
 https://viewsourc.es/2015/09/18/episode-13-typography/
-fes
 https://dev.opera.com/articles/state-of-web-type/
+
+https://webkit.org/blog/6643/improved-font-loading/
