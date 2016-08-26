@@ -24,7 +24,7 @@ title: Résumé
 
 ### Work experience
 
-**OA Labs**  
+**Deep Labs**  
 (March 2016 - Present)  
 I am a **Front-end engineer** focused on the development of user interfaces and front-end development of web and mobile applications. My responsibilities include:
 
@@ -55,7 +55,7 @@ I was a **Front-end developer** and worked on a variety of projects with several
   <li class="no-margin">Design responsive layouts, typography and site components for optimal user experience</li>
   <li class="no-margin">Develop responsive custom Drupal themes written in Sass and Susy</li>
   <li class="no-margin">Build, deploy and maintain Drupal sites using best practices to ensure scalability and security</li>
-  <li class="no-margin">Submit of patches and bug fixes to contrib modules</li>
+  <li class="no-margin">Submit patches and bug fixes to contrib modules</li>
   <li class="no-margin">Develop and continually tweak a <a href="https://www.drupal.org/sandbox/hj_chen/2345293">minimal base-theme</a> to facilitate custom theme development</li>
   <li class>Write blog posts on Drupal and other web-related topics</li>
 </ul>
@@ -65,8 +65,6 @@ I was a **Front-end developer** and worked on a variety of projects with several
 <ul>
   <li class="no-margin"><a href="{{ site.url }}/blog/the-one-in-many-languages/">SFO China</a></li>
   <li class="no-margin"><a href="{{ site.url }}/blog/the-one-on-the-tightest-of-deadlines/">xinMSN migration</a></li>
-  <li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-people-get-a-say/">DrupalCamp Singapore 2014 website</a></li>
-  <li class="no-margin"><a href="{{ site.url }}/blog/the-one-where-i-grok-jquery/">EMBA refresh</a></li>
   <li><a href="{{ site.url }}/blog/the-one-built-from-128-pictures-of-cakes/">7Love Bakery website</a></li>
 </ul>
 
