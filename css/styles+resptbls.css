@@ -1250,6 +1250,7 @@ picture img {
 
 .emoji {
   font-size: 1.294rem;
+  font-style: normal;
   display: inline-block;
   vertical-align: middle; }
   @media screen and (min-width: 820px) {
@@ -1257,7 +1258,8 @@ picture img {
       font-size: 1.618rem; } }
 
 .kaomoji {
-  white-space: nowrap; }
+  white-space: nowrap;
+  font-style: normal; }
 
 .cp_embed_iframe {
   float: none;
