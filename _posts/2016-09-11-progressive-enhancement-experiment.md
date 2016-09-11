@@ -2,7 +2,7 @@
 layout: post
 title: "Fun with CSS: NBA edition"
 date: 11 September, 2016
-image: .jpg
+image: pwd.jpg
 tags: [css, design]
 ---
 This is my second "Fun with CSS" post, maybe this should become a series. But anyway, I had watched the video of [Ethan Marcotte](http://ethanmarcotte.com/)'s talk at [An Event Apart](http://aneventapart.com/) called [Laziness in the Time of Responsive Design](https://vimeo.com/165061923), and was fascinated by his progressive enhancement demo. It starts at around the 48 minute mark where he starts covering animation.
