@@ -192,11 +192,13 @@ Styles for the buttons were also similar, in that, they too would be big and rou
   color: #FDBB30;
   cursor: pointer;
   
-  :hover {
+  &:hover {
     background-color: #FDBB30;
     color: #860038;
   }
 }</code></pre>
+
+*Update: thanks to [@maxlibin](https://twitter.com/maxlibin/) for pointing out my missing & on the :hover pseudo-class*
 
 For most cases, setting both properties to `inherit` should make the text in your buttons match the rest of your site. In my quest for making this a responsive project, I chose to use vw as my unit of choice, tempered with a base size of 1em. I'd love to be more scientific about this but did I mention my penchant for sloth? I can, however, refer you to [Precise control over responsive typography](https://madebymike.com.au/writing/precise-control-responsive-typography/) by [Mike Riethmuller](https://madebymike.com.au/).
 
