@@ -1,4 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+bash+git+markdown+php+scss&plugins=line-numbers */
+/* http://prismjs.com/download.html?themes=prism-okaidia&languages=markup+css+clike+javascript+apacheconf+bash+git+markdown+php+scss&plugins=line-numbers */
 /**
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
@@ -8,21 +8,30 @@
 code[class*="language-"],
 pre[class*="language-"] {
   color: #f8f8f2;
+  background: none;
   text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  direction: ltr;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
+  word-wrap: normal;
   line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
   tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
   hyphens: none;
 }
 
 /* Code blocks */
 pre[class*="language-"] {
   padding: 1em;
-  margin: 0.5em 0 1.5rem;
+  margin: .5em 0;
   overflow: auto;
   border-radius: 0.3em;
 }
@@ -34,8 +43,9 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-  padding: 0.1em;
-  border-radius: 0.3em;
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
 }
 
 .token.comment,
@@ -50,7 +60,7 @@ pre[class*="language-"] {
 }
 
 .namespace {
-  opacity: 0.7;
+  opacity: .7;
 }
 
 .token.property,
@@ -78,8 +88,8 @@ pre[class*="language-"] {
 .token.operator,
 .token.entity,
 .token.url,
-.language-css 0.token.string,
-.style 0.token.string,
+.language-css .token.string,
+.style .token.string,
 .token.variable {
   color: #f8f8f2;
 }
@@ -121,7 +131,7 @@ pre.line-numbers > code {
   position: relative;
 }
 
-.line-numbers 0.line-numbers-rows {
+.line-numbers .line-numbers-rows {
   position: absolute;
   pointer-events: none;
   top: 0;
@@ -130,19 +140,24 @@ pre.line-numbers > code {
   width: 3em; /* works for line-numbers below 1000 lines */
   letter-spacing: -1px;
   border-right: 1px solid #999;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
+
 }
 
-.line-numbers-rows > span {
-  pointer-events: none;
-  display: block;
-  counter-increment: linenumber;
-}
+  .line-numbers-rows > span {
+    pointer-events: none;
+    display: block;
+    counter-increment: linenumber;
+  }
 
-.line-numbers-rows > span:before {
-  content: counter(linenumber);
-  color: #999;
-  display: block;
-  padding-right: 0.8em;
-  text-align: right;
-}
+    .line-numbers-rows > span:before {
+      content: counter(linenumber);
+      color: #999;
+      display: block;
+      padding-right: 0.8em;
+      text-align: right;
+    }
