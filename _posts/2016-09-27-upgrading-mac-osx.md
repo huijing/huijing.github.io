@@ -2,7 +2,7 @@
 layout: post
 title: "Upgrading to macOS Sierra"
 date: 27 September, 2016
-image: tl-ws2.jpg
+image: macossierra.jpg
 tags: [devlife]
 ---
 macOS Sierra was officially released on 20 September 2016. That's 1 week ago at time of writing. The day of the release, there were loads of articles appearing in my RSS feed (yes, I still use one, stop judging <span class="emoji">😠</span>) with the title "Should you upgrade to macOS Sierra?" or something along those lines. 
