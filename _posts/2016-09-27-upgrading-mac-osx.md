@@ -54,15 +54,15 @@ The only thing that stumped me this time was the ssh configuration. macOS Sierra
 
 If you use AWS, you'll probably have a bunch of `.pem` files in your `.ssh` folder in addition to the standard `id_rsa` and `id_rsa.pub`. I didn't realise anything was wrong because I could continue ssh-ing into my servers but when I attempted to push code to my company's git server, I kept getting the dreaded `Permission denied (publickey).` error.
 
-Turns out I had taken for granted that the `id_rsa` file was loaded into the ssh-agent by default previously. When I finally got round to examining the ssh configuration file, I realised everything in there had been commented out. 
+Turns out I had taken for granted that the `id_rsa` file was loaded into the ssh-agent by default previously. When I finally got round to examining the ssh configuration file, I realised everything in there had been commented out.
 
-1. I like to use Sublime Text to edit my configuration files but you can use whatever you want. Open the ssh_config file for editing.
-    <pre><code class="language-bash">sudo sublime /etc/ssh/ssh_config</code></pre>
+*Update: my friend [Sahil](http://sahil.me/) advised me that my original solution of editing the global ssh_config file wasn't such a great idea, so the post has been changed to reflect the better solution.*
 
-2. Uncomment the line that specifies id_rsa as the private key you want to use for authentication.
+1. I like to use Sublime Text to edit my configuration files but you can use whatever you want. Create a *config* file in your `~/.ssh` folder if you don't have one already. Note there are no file extensions here.
+    <pre><code class="language-bash">sudo sublime ~/.ssh/config</code></pre>
+
+2. Add the line that specifies id_rsa as the private key you want to use for authentication. The good part about having this *config* file is that you can add other authentication keys here too so you don't have to manually add them to your ssh-agent every time you start a new session.
     <pre><code class="language-bash">IdentityFile ~/.ssh/id_rsa</code></pre>
-
-Someone please advise otherwise if this is a security hazard, or if there is a better best-practice method for this.
 
 ## Wrapping up
 
