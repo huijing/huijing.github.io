@@ -44,7 +44,6 @@ My usual workflow starts off with plain HTML elements, without classes or even w
       &lt;img src="https://www.chenhuijing.com/filerepo/feels.jpg" alt="The Feelz"&gt;
       &lt;span&gt;The Feelz&lt;/span&gt;
     &lt;/label&gt;
-    &lt;/div&gt;
 
     &lt;button type="reset"&gt;Cancel&lt;/button&gt;
     &lt;button&gt;OK&lt;/button&gt;
@@ -162,7 +161,6 @@ I used vw as the unit because I wanted the images to resize nicely as the screen
   margin-bottom: 1em;
   border-radius: 50%;
   border: 4px solid #FDBB30;
-  pointer-events: none; /* we'll talk about this line later too */
 }</code></pre>
 
 The buttons also needed their own wrapper, because the styles I used require a parent div to work. Don't get too confused by the name spacing of classes, I'll cover it a bit more later.
@@ -326,6 +324,16 @@ We make use of the `:not` pseudo-class to target all the options which weren't s
 When the `.is-active` selector is in play, the buttons need to be on the topmost layer, and only the selected option should be visible. The `nth-child` selectors come in very handy here, because the selected option will always appear second from the left, while the other options remain constant. Depending on the source order of the option, the relevant translation rule will kick in and shift the option to the second position every time <span class="emoji">😎</span>.
 
 I added in a logo image just to fill in the blank space in the first position after an option was selected, and it lives in the buttons wrapper. I think if I were using Grid I would have been able to specify the I wanted the logo in the first column, while the *Cancel* and *OK* buttons were in the third and fourth columns respectively. But you can't do this simply with flexbox so I cheated and used translate to kick it to the left instead. <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
+
+## The stuff I said I would talk about later
+
+Remember that line all the way up the the post that looked something like:
+
+<pre><code class="language-css">font-size: calc(3vw + 1em);</code></pre>
+
+I got this idea from [Mike Riethmuller](https://madebymike.com.au/), who has wrote about this topic quite extensively [on his own blog](https://madebymike.com.au/writing/precise-control-responsive-typography/) as well as for [Smashing Magazine](https://www.smashingmagazine.com/2016/05/fluid-typography/). He gets around the issue of CSS not having a minimum font size property with the `calc()` function.
+
+An issue with using purely viewport units for your font-size is that there will be a point where the font size becomes unacceptably small. Using a `calc()` expression allows us to set a minimum size (in the above example, 1em) to prevent that.
 
 ## Wrapping up
 
