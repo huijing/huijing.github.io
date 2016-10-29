@@ -35,6 +35,12 @@ h2 {
   @include respond-above(medium) {
     margin: 0 auto rhythm(0.5);
   }
+
+  small {
+    font-size: 0.5em;
+    font-weight: 400;
+    text-align: right;
+  }
 }
 
 h3 {

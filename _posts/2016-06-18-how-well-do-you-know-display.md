@@ -375,7 +375,7 @@ To try to cover grid in this short subsection is really doing the specification 
 
 ### display: run-in;
 
-Now this is a fun one I hadn't heard of until I started reading the [CSS Display specification](http://www.w3.org/TR/css-display-3/). And I also uncovered the 2010 article, [CSS Run-in Display Value](https://css-tricks.com/run-in/) by [Chris Coyier](http://chriscoyier.net/). Unfortunately, it seems that browser vendors are not fond of this specification at all and it has since been removed from all browsers, so you can think of this as an alternate reality specification <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
+Now this is a fun one I hadn't heard of until I started reading the [CSS Display specification](http://www.w3.org/TR/css-display-3/). And I also uncovered the 2010 article, [CSS Run-in Display Value](https://css-tricks.com/run-in/) by [Chris Coyier](http://chriscoyier.net/). Unfortunately, it seems that browser vendors are not fond of this specification at all and it has since been removed from all browsers, so you can think of this as an alternate reality specification. <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
 
 Theoretically, if you set an element's *display* property to `run-in`, it renders as a **run-in box**. The use-case is to have a native method to create run-in headings, which in graphic design parlance is a heading positioned on the same line as the next line of body copy.
 

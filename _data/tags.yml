@@ -35,7 +35,7 @@ html:
   name: HTML
 
 i18n:
-  name: I18n
+  name: i18n
 
 jekyll:
   name: Jekyll
@@ -66,6 +66,9 @@ sysadmin:
 
 theming:
   name: Theming
+
+typography:
+  name: Typography
 
 workflow:
   name: Workflow
