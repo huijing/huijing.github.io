@@ -13,7 +13,12 @@ Again, this is one of those posts that grew from a cute little cub into a full f
 ## Table of contents
 
 <ul>
-  <li><a href="#but-firsta-little-history">But first...a little history</a></li>
+  <li><a href="#some-background-and-history">Some background and history</a>
+    <ul>
+      <li class="no-margin"><a href="#writing-systems">Writing systems</a></li>
+      <li><a href="#a-little-chinese-history">A little Chinese history</a></li>
+    </ul>
+  </li>
   <li><a href="#research-triggered-brain-dump">Research-triggered brain dump</a>
     <ul>
       <li class="no-margin"><a href="#do-you-au">Do you AU?</a></li>
@@ -21,12 +26,17 @@ Again, this is one of those posts that grew from a cute little cub into a full f
     </ul>
   </li>
   <li><a href="#chinese-fonts-offline-and-online">Chinese fonts, offline and online</a></li>
-  <li><a href="#laying-out-chinese-fonts-on-the-web">Laying out Chinese fonts on the web</a>
+  <li><a href="#laying-out-chinese-fonts">Laying out Chinese fonts on the web</a>
     <ul>
       <li class="no-margin"><a href="#basic-terminology">Basic terminology</a></li>
     </ul>
   </li>
-  <li><a href="#lets-build-a-demo">Let's build a demo</a></li>
+  <li><a href="#lets-build-a-demo">Let's build a demo</a>
+    <ul>
+      <li class="no-margin"><a href="#typographic-styles-for-chinese-text">Typographic styles for Chinese text</a></li>
+      <li><a href="#mode-switcher-anyone">Mode switcher? Anyone?</a></li>
+    </ul>
+  </li>
   <li><a href="#wrapping-up">Wrapping up</a></li>
   <li><a href="#further-reading">Further reading</a>
     <ul>
@@ -37,7 +47,20 @@ Again, this is one of those posts that grew from a cute little cub into a full f
   </li>
 </ul>
 
-## But first...a little history <small><a href="#research-triggered-brain-dump">(skip to next section)</a></small>
+<h2 id="some-background-and-history">Some background and history <small><a href="#research-triggered-brain-dump">(skip to next section)</a></small></h2>
+
+### Writing systems
+
+There are more than [6000 languages in the world today](http://www.linguisticsociety.org/content/how-many-languages-are-there-world) and hence many different writing systems. Not every writing system utilises a left-to-right, downward block flow direction that is commonly seen in Latin-based systems. For example, Arabic-based scripts and the Hebrew alphabet are written from right-to-left with a downward block flow direction, while Han-based scripts can be written from left-to-right with a downward block flow OR from top-to-bottom with a leftward block flow direction. 
+
+<figure>
+    <figcaption>Writing directions of the world</figcaption>
+    <img src="{{ site.url }}/images/posts/zh-type/writing-directions.svg" />
+</figure>
+
+The purpose of the internet is to connect people around the world, and to do that, the Web needs to cater for the various writing systems out there. The [W3C Internationalization (i18n) Activity](https://www.w3.org/International/) serves this purpose, to make it possible to use Web technologies with different languages, scripts and cultures.
+
+### A little Chinese history
 
 To be fair, Chinese history is too vast a subject for a blog post. It warrants an encyclopaedic series of tomes. Instead, let's talk a bit about Chinese characters. Chinese is a logographic writing system, whereby each character itself holds meaning, whether alone or as part of a phrase. Until I researched this topic, I didn't realise that Chinese is the only logographic writing system left that is widely used in the modern world.
 
@@ -60,7 +83,7 @@ Interesting fact, the founder of my alma mater, 陈嘉庚 (Tan Kah Kee), first p
 
 The 19th and 20th centuries was a tumultuous time for China, and the aforementioned New Cultural Movement not only triggered a pivot in text layout, it also saw the introduction of simplified glyphs. 钱玄同 (Qian Xuantong), who was one of the key figures of the New Cultural Movement, played a pivotal role in this endeavour. As a result, we now have 2 "versions" of Chinese glyphs, simplified and traditional. The former used widely in China and Singapore, while the latter is commonly used in Taiwan and somewhat in Malaysia.
 
-## Research-triggered brain dump <small><a href="#chinese-fonts-offline-and-online">(skip to next section)</a></small>
+<h2 id="research-triggered-brain-dump">Research-triggered brain dump <small><a href="#chinese-fonts-offline-and-online">(skip to next section)</a></small></h2>
 
 As mentioned, I seem to be awfully fond of going down rabbit holes and often barely 20% of what I read and discover end up in the article. What started out as a brief foray into the history of Chinese writing ended up becoming a deep dive into how the world ended up the way it is. There are a lot of ideas that popped into my head during this process and I'm just going to dump them here. Feel free to skip forward (but <span class="emoji">😘</span> if you read through).
 
@@ -94,7 +117,7 @@ As the language evolved, the spoken version of Chinese started to diverge from t
 
 Part of the New Cultural Movement also involved the spread of vernacular Chinese as the mainstream form of written Chinese, in a bid to increase literary rates among the people. As much of this linguistic development was modelled after Western doctrines, punctuation found its way into written Chinese texts.
 
-## Chinese fonts offline and online <small><a href="#laying-out-chinese-fonts-on-the-web">(skip to next section)</a></small>
+<h2 id="chinese-fonts-offline-and-online">Chinese fonts offline and online <small><a href="#laying-out-chinese-fonts">(skip to next section)</a></small></h2>
 
 The details are fuzzy to me now, but I do recall hours spent troubleshooting why Chinese wouldn't display correctly on the various computers I was tasked to fix years ago. Text would appear as 乱码, each character displayed as a rectangular block instead of legible text. Chinese input was sketchy on Windows 95, so we used a software called Chinese Star instead. 
 
@@ -104,7 +127,7 @@ A common term when discussing Chinese fonts is CJK, which simply stands for Chin
 
 My go-to resource for all things Chinese fonts online is UI consultant, [Kendra Schaefer](http://www.kendraschaefer.com/). She wrote very comprehensive posts on [using Chinese web fonts on her own blog](http://www.kendraschaefer.com/2012/06/chinese-standard-web-fonts-the-ultimate-guide-to-css-font-family-declarations-for-web-design-in-simplified-chinese/) and [a complete primer to Chinese typography for Sitepoint](https://webdesign.tutsplus.com/articles/the-complete-beginners-guide-to-chinese-fonts--cms-23444). You should really read them. If you want to use Chinese web fonts for your project, she's got you covered.
 
-## Laying out Chinese fonts <small><a href="#lets-build-a-demo">(skip to next section)</a></small>
+<h2 id="laying-out-chinese-fonts">Laying out Chinese fonts <small><a href="#lets-build-a-demo">(skip to next section)</a></small></h2>
 
 But we want to talk about layout for Chinese fonts, using CSS. The [CSS Writing Modes Level 3 module](https://drafts.csswg.org/css-writing-modes-3/) covers CSS support for various international writing modes, from left-to-right, right-to-left, bidirectional and vertical. The specification has some terminology that describes the flow of text for writing systems.
 
@@ -118,9 +141,7 @@ The **typographic mode** is applicable to vertical scripts (think traditional Ch
 
 There are 2 writing modes, **horizontal writing mode** has horizontal lines of text which flows from top to bottom, **vertical writing mode** has vertical lines of text which can flow from left to right or right to left.
 
-### 
-
-## Let's build a demo!
+<h2 id="lets-build-a-demo">Let's build a demo! <small><a href="#wrapping-up">(skip to next section)</a></small></h2>
 
 [Typochina](http://www.comdesignlab.com/typochina/) is a research group out of [Comdesign Lab](http://www.comdesignlab.com/), a design research institution established by the School of Design of Hunan University. They've published a number of articles about the history, various resources and research on Han characters. If you can read Chinese, you definitely should check it out. I've used the article [文字的故事](http://www.comdesignlab.com/typochina/chinese/archives/393) for this typographical experiment.
 
@@ -131,7 +152,9 @@ There are 2 writing modes, **horizontal writing mode** has horizontal lines of t
 
 ### Typographic styles for Chinese text
 
-I came across this fantastic project called [汉字标准格式](http://hanzi.pro/manual/) which is a CSS typography framework optimised for Hanzi. For my demo, I didn't need such an extensive framework but I did use it for reference when it came to writing my own styles. My typographic styles are very basic, covering fonts, line height, margins and spacing, without the use of any resets. I left most of the default browser styles in place.
+I came across this fantastic project called [汉字标准格式](http://hanzi.pro/manual/) which is a CSS typography framework optimised for Hanzi. For my demo, I didn't need such an extensive framework but I did use it for reference when it came to writing my own styles. 
+
+My main source of reference was [W3C's Requirements for Chinese Text Layout](https://www.w3.org/TR/clreq/#major_differences_between_horizontal_and_vertical_writing_modes). My typographic styles are very basic, covering fonts, line height, margins and spacing, without the use of any resets. I left most of the default browser styles in place.
 
 I also changed the text from Simplified Chinese to Traditional Chinese, this is more of a personal style preference. For Traditional Chinese fonts, the punctuation is positioned in the middle of the bounding box, while Simplified Chinese fonts have the punctuation skewed to the left-bottom corner. I felt it looked better for the punctuation to be centred for the vertical layout. Besides, it's more common to see Traditional Chinese laid out vertically than Simplified Chinese anyway.
 
@@ -141,7 +164,7 @@ I found out that if you don't explicitly set a Traditional Chinese font, the pun
   font-family: "Microsoft JhengHei", "微軟正黑體", "Heiti TC", "黑體-繁", sans-serif;
 }</code></pre>
 
-The line-height was set to 2, given that Chinese text is visually more dense, more breathing room is necessary. Chinese fonts do not have italics, so for my figcaptions, I chose a different font family instead. I set the line-height a little closer for figcaptions, because there is less text there and also to differentiate them from the body copy a bit more.
+The `line-height` was set to 2, given that Chinese text is visually more dense, more breathing room is necessary. As per the layout requirements, `text-align` was set to justify. Chinese fonts do not have italics, so for my figcaptions, I chose a different font family instead. I set the `line-height` a little tighter for figcaptions, because there is less text there and also to differentiate them from the body copy a bit more.
 
 <pre><code class="language-css">figcaption {
   font-family: "MingLiU", "微軟新細明體", "Apple LiSung", serif;
@@ -150,7 +173,7 @@ The line-height was set to 2, given that Chinese text is visually more dense, mo
 
 Cross-browser font support is a bit tricky when it comes to mobile devices, because it seems that there is no 宋体 (Chinese equivalent of serif) for iOS or Android. So that's that. This warrants further confirmation with someone more experienced than me, so I might update this part in future. 
 
-The suggested line length for Latin-based scripts is around 45-75 characters per line, but for Chinese characters, that's a little too long. I found that around 30-40 characters per line works out quite well. I guess I took reference from print, in commonly seen book heights and line lengths for popular paperback novels.
+The suggested line length for Latin-based scripts is around 45-75 characters per line, but for Chinese characters, that's a little too long. I found that around 30-40 characters per line works out quite well. I took some reference from print, in commonly seen book heights and line lengths for popular paperback novels.
 
 ### Mode switcher? Anyone?
 
