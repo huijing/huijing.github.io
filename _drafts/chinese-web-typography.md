@@ -41,6 +41,11 @@ Again, this is one of those posts that grew from a cute little cub into a full f
 
 To be fair, Chinese history is too vast a subject for a blog post. It warrants an encyclopaedic series of tomes. Instead, let's talk a bit about Chinese characters. Chinese is a logographic writing system, whereby each character itself holds meaning, whether alone or as part of a phrase. Until I researched this topic, I didn't realise that Chinese is the only logographic writing system left that is widely used in the modern world.
 
+<figure>
+    <figcaption>甲骨文</figcaption>
+    <img srcset="{{ site.url }}/images/posts/zh-type/jgw-480.jpg 480w, {{ site.url }}/images/posts/zh-type/jgw-640.jpg 640w, {{ site.url }}/images/posts/zh-type/jgw-960.jpg 960w, {{ site.url }}/images/posts/zh-type/jgw-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/zh-type/jgw-640.jpg" alt="甲骨文 (Oracle bone script)" />
+</figure>
+
 A [common misconception about the origin of Chinese writing](http://www.comdesignlab.com/typochina/chinese/archives/98) is that 甲骨文 (literally translates to Oracle bone script) was the earliest form of Chinese characters. These characters were carved onto animal bones or turtle shells, and mainly used for divination during the Shang dynasty. However, given its level of sophistication, Professor Zheng Huisheng posited Chinese writing had its roots in an earlier form, 陶文 (script etched on ancient pottery). Regardless, Chinese script underwent thousands of years of evolution over the dynasties before maturing into the form we know and use today.
 
 Besides the characters themselves, there's also the issue of how these characters were laid out into texts. Traditionally, Chinese characters were written from top to bottom, right to left. Nowadays, it is quite common to see Chinese texts being laid out in a typical Western horizontal layout, and read from left-to-right instead. The first known publication that utilised a horizontal layout was 《科学》, a science magazine which, in its inaugural issue on January 1915, attributed the choice of horizontal layout purely for the sake of convenience of printing formulae.
@@ -65,6 +70,11 @@ My understanding about the history of computing came from reading books and watc
 
 [Before the Great Divergence: The modernity of China at the onset of the industrial revolution](http://voxeu.org/article/why-china-missed-industrial-revolution) by [Jan Luiten van Zanden](http://www.uu.nl/staff/JLvanZanden/0) proposed that China didn't 'miss' the Industrial Revolution, rather it did not need it at the time. China was one of the most technologically advanced civilisations for a large swath of human history, and perhaps this may have been it's disadvantage as well. Innovation is often borne from necessity, and I'd like to think that the Chinese invention of printing was a prime example of that kind of innovation.
 
+<figure>
+    <figcaption>毕昇插图</figcaption>
+    <img src="{{ site.url }}/images/posts/zh-type/bisheng.jpg" srcset="{{ site.url }}/images/posts/zh-type/bisheng@2x.jpg 2x" alt="Illustration of 毕升"/>
+</figure>
+
 *FYI, printing was invented by 毕昇 (Bi Sheng) during the Song dynasty. Not much is known about the details of his life, but it seemed he worked at a print shop. It was there he created the first movable type system using clay types.*
 
 Imagine an alternate universe where Eastern culture reigned supreme. How would we code if Chinese was the universally used language of choice. I find this almost as abstract as imagining higher dimensions. Because I'm already so anchored by code being written in alphabets, I wonder how code would have been written using a logographic writing system. Perhaps the keyboard wouldn't be the primary input mechanism at all. How differently would the world have developed?
@@ -74,6 +84,11 @@ Imagine an alternate universe where Eastern culture reigned supreme. How would w
 I also wandered down the rabbit hole of punctuation, largely because I often swap between Chinese and English when messaging my friends and punctuation using Chinese language input is mono-spaced. I use the ellipsis way too much than I should and end up switching inputs simply to type in 3 periods in my Chinese conversation. So I wondered if Chinese language originally had punctuation to begin with. As far as I knew, the ancient scrolls I saw in museum exhibits never had commas or periods.
 
 Traditionally, Chinese was written in its classical form, known as 文言文 (possibly translated as Literary Chinese, I think). It's beauty is in that a lot of meaning can be expressed in very few words. Punctuation was generally not required as the necessary pauses could be inferred from standardised sentence structures and phrases used, giving a natural cadence when read.
+
+<figure>
+    <figcaption>戏本子</figcaption>
+    <img src="{{ site.url }}/images/posts/zh-type/punctuation.jpg" srcset="{{ site.url }}/images/posts/zh-type/punctuation@2x.jpg 2x" alt="When computers were human"/>
+</figure>
 
 As the language evolved, the spoken version of Chinese started to diverge from this classical style and eventually became quite distinct. Even though some well-known novels like were written in vernacular Chinese, formal texts were written in classical Chinese. Hence, a majority of the population who weren't educated in classical Chinese could not understand much of the printed texts.
 
@@ -107,24 +122,60 @@ There are 2 writing modes, **horizontal writing mode** has horizontal lines of t
 
 ## Let's build a demo!
 
-If you do not declare a Chinese font, punctuation may render oddly on Chrome and Safari
-Simplified and Traditional chinese punctuation positions differ
-Flexbox is great for centering images
-No italics, and sometimes no bold, change font style instead?
-ideal line length? no idea, took reference from print, commonly seen book heights and line lengths
+[Typochina](http://www.comdesignlab.com/typochina/) is a research group out of [Comdesign Lab](http://www.comdesignlab.com/), a design research institution established by the School of Design of Hunan University. They've published a number of articles about the history, various resources and research on Han characters. If you can read Chinese, you definitely should check it out. I've used the article [文字的故事](http://www.comdesignlab.com/typochina/chinese/archives/393) for this typographical experiment.
 
+<figure>
+    <figcaption>Here be <a href="{{ site.url }}/zh-type">the demo</a>.</figcaption>
+    <img srcset="{{ site.url }}/images/posts/zh-type/demo-480.jpg 480w, {{ site.url }}/images/posts/zh-type/demo-640.jpg 640w, {{ site.url }}/images/posts/zh-type/demo-960.jpg 960w, {{ site.url }}/images/posts/zh-type/demo-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/zh-type/demo-640.jpg" alt="Demo screenshot" />
+</figure>
+
+### Typographic styles for Chinese text
+
+I came across this fantastic project called [汉字标准格式](http://hanzi.pro/manual/) which is a CSS typography framework optimised for Hanzi. For my demo, I didn't need such an extensive framework but I did use it for reference when it came to writing my own styles. My typographic styles are very basic, covering fonts, line height, margins and spacing, without the use of any resets. I left most of the default browser styles in place.
+
+I also changed the text from Simplified Chinese to Traditional Chinese, this is more of a personal style preference. For Traditional Chinese fonts, the punctuation is positioned in the middle of the bounding box, while Simplified Chinese fonts have the punctuation skewed to the left-bottom corner. I felt it looked better for the punctuation to be centred for the vertical layout. Besides, it's more common to see Traditional Chinese laid out vertically than Simplified Chinese anyway.
+
+I found out that if you don't explicitly set a Traditional Chinese font, the punctuation will always be in the Simplified Chinese style (spent way too much time figuring this one out <span class="emoji">😭</span>). If you read the previous section on Chinese web fonts, you'll know that custom fonts are huge. So system fonts are preferable. I chose to use 黑体 (Chinese version of sans-serif) as the body font. Font stack looks like this:
+
+<pre><code class="language-css">body {
+  font-family: "Microsoft JhengHei", "微軟正黑體", "Heiti TC", "黑體-繁", sans-serif;
+}</code></pre>
+
+The line-height was set to 2, given that Chinese text is visually more dense, more breathing room is necessary. Chinese fonts do not have italics, so for my figcaptions, I chose a different font family instead. I set the line-height a little closer for figcaptions, because there is less text there and also to differentiate them from the body copy a bit more.
+
+<pre><code class="language-css">figcaption {
+  font-family: "MingLiU", "微軟新細明體", "Apple LiSung", serif;
+  line-height: 1.5;
+}</code></pre>
+
+Cross-browser font support is a bit tricky when it comes to mobile devices, because it seems that there is no 宋体 (Chinese equivalent of serif) for iOS or Android. So that's that. This warrants further confirmation with someone more experienced than me, so I might update this part in future. 
+
+The suggested line length for Latin-based scripts is around 45-75 characters per line, but for Chinese characters, that's a little too long. I found that around 30-40 characters per line works out quite well. I guess I took reference from print, in commonly seen book heights and line lengths for popular paperback novels.
+
+### Mode switcher? Anyone?
+
+I also thought it'd be interesting to add a mode switcher (seemed like a good idea at the time) so people can swap between horizontal and vertical layouts. This switcher would be on top of the page, the first element in the body. Naturally, when you toggle the layout, the switcher jumps to the right of the page instead. Fixing its position on the top left corner of the page was probably a better idea.
+
+The switcher utilises the checkbox hack to trigger the switch in writing-mode. After a LOT of experimenting, I ran into a couple of issues. Firstly, when the writing-mode changes from horizontal to vertical, the scrolling still starts from left to right. This means users see the end of the article when I switch to vertical right-to-left mode and need to scroll all the way to the right to get to the start of the content.
+
+Another issue was related to art-direction of the images on the page. I started off the design for a vertical layout, so my images were portrait-oriented (is that even a term?). But when the layout switches to horizontal mode, the images look out of place. I wish the picture element took writing-mode as a media query, but I suppose this use-case is quite niche. Who on earth would want to switch text orientation? <span class="emoji">🙋</span>
+
+My end solution is more of a hack than a solution, but I categorised the images into 3 groups, rotatable, stackable and square. Let me explain. Rotatable means that the image works simply by rotating it 90 degrees. Stackable is actually 2 images that are stacked when vertical and side-by-side when horizontal, and square just means the image can be used for both vertical and horizontal layouts. As I said, this is a hack.
+
+Flexbox was pretty useful for my art direction problem. As I mentioned, there is a stacked category of images, and activating flex-wrap to wrap on the vertical layout did the trick.
 
 ## Wrapping up
 
 What started out as an article to explore the CSS writing mode property grew into an exploration of Chinese history and the key circumstances that led to the China that we know of today. But it also made me realise that a lot of the articles and books I read are very skewed towards western and American perspectives (not that it's a bad thing, just an observation). 
 
-I'm lucky enough to be fluent in Chinese, and hence there is a wealth of resources written from an Eastern perspective (okay, mainly Chinese) that are accessible to me. But this also made me realise that the onus is on me to seek out perspectives that are different from what I'm familiar with. Middle eastern design and typography is definitely something I'll be looking into moving forward. Fun times ahead, people.
+I'm lucky enough to be fluent in Chinese, and hence there is a wealth of resources written from an Eastern perspective (okay, mainly Chinese) that are accessible to me. But this also made me realise that the onus is on me to seek out perspectives that are different from what I'm familiar with. There are so many different writing systems and scripts other than those I'm familiar with, and I'll definitely be looking into those moving forward. Fun times ahead, people.
 
 ## Further reading
 
 ### For historical context
 
 <ul>
+  <li class="no-margin"><a href="http://globalization.icaap.org/content/v4.2/bosworth.html">Globalization in the Information Age: Western, Chinese and Arabic Writing Systems</a></li>
   <li><a href="http://www.shobserver.com/news/detail?id=1563">中文书啥时开始“变横”的？</a></li>
 </ul>
 
