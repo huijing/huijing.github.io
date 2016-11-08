@@ -23,11 +23,11 @@ I learned pretty early on that trying to do everything at once is a recipe for f
 Think of it this way. It's like when you're playing Assassin's Creed, you don't jump into an area filled with enemy guards, get yourself surrounded and take a beating. It's much easier to pick them off one by one. Same principle. Video games mirror life, people.
 
 <div class="figure-wrapper">
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>Overwhelming</figcaption>
         <img src="{{ site.url }}/images/posts/life-lessons/ac1.jpg" srcset="{{ site.url }}/images/posts/life-lessons/ac1@2x.jpg 2x" alt="Surrounded by enemies"/>
     </figure>
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>Not so overwhelming</figcaption>
         <img src="{{ site.url }}/images/posts/life-lessons/ac2.jpg" srcset="{{ site.url }}/images/posts/life-lessons/ac2@2x.jpg 2x" alt="Stealth kill"/>
     </figure>

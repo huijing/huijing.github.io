@@ -76,11 +76,11 @@ There were a lot of educational games in the Chen household. But I found them fu
 It wasn't until I read the book [Gamers at Work](http://www.apress.com/9781430233510) that I realised Broderbund was acquired by The Learning Company in 1998. Another publisher whose games I really loved was Sierra, which made the Dr. Brain series, as well the slew of city-building games which began with Caesar back in 1992.
 
 <div class="figure-wrapper">
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>Classic Carmen Sandiego</figcaption>
          <img src="{{ site.url }}/images/posts/vintage/carmen.jpg" srcset="{{ site.url }}/images/posts/vintage/carmen@2x.jpg 2x" alt="Where in the world is Carmen Sandiego"/>
     </figure>
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>Among many in the series</figcaption>
          <img src="{{ site.url }}/images/posts/vintage/treasure-mtn.jpg" srcset="{{ site.url }}/images/posts/vintage/treasure-mtn@2x.jpg 2x" alt="Treasure Mountain"/>
     </figure>
@@ -89,11 +89,11 @@ It wasn't until I read the book [Gamers at Work](http://www.apress.com/978143023
 Of course we had more than just educational games. Side-scrollers were all the rage back then, Cosmo's Cosmic Adventure and Commander Keen were among my favourites. There wasn't any DRM stuff back then so whenever we went to visit my cousins, we'd just copy games onto 3.5 inch floppies and bring em' home. I think most of our games were shareware anyway, because I distinctly remember only being able to play the first episode of Doom and replayed it so many times I could speed-run through it.
 
 <div class="figure-wrapper">
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>Side-scrollers were the best</figcaption>
          <img src="{{ site.url }}/images/posts/vintage/cosmo.jpg" srcset="{{ site.url }}/images/posts/vintage/cosmo@2x.jpg 2x" alt="Cosmo's Cosmic Adventure"/>
     </figure>
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>This had interesting save features</figcaption>
          <img src="{{ site.url }}/images/posts/vintage/prehistorik.jpg" srcset="{{ site.url }}/images/posts/vintage/prehistorik@2x.jpg 2x" alt="Prehistorik 2"/>
     </figure>
@@ -106,11 +106,11 @@ We moved on to Windows 3.1 eventually and that brought along another set of game
 If you haven't played Ski Free before, it's really simple. You control this ski-er zooming downhill but you get points for doing tricks on jumps. But it was compellingly addictive. In fact, this probably explains why I loved the SSX series much later when I finally got a Playstation. <span class="emoji">😱</span> Revelations!
 
 <div class="figure-wrapper">
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>So many hours on this</figcaption>
          <img src="{{ site.url }}/images/posts/vintage/tetris.jpg" srcset="{{ site.url }}/images/posts/vintage/tetris@2x.jpg 2x" alt="Tetris"/>
     </figure>
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>Surprisingly addictive this one</figcaption>
          <img src="{{ site.url }}/images/posts/vintage/skifree.jpg" srcset="{{ site.url }}/images/posts/vintage/skifree@2x.jpg 2x" alt="Ski Free"/>
     </figure>

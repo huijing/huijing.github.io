@@ -17,11 +17,11 @@ We worked very closely with the team who built the original SFO site, [Proof Int
 ## Homepage redesign
 
 <div class="figure-wrapper">
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>English site on flysfo.com</figcaption>
         <img src="{{ site.url }}/images/posts/sfo/sfo-hp.jpg" alt="flysfo.com homepage"/>
     </figure>
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>China site on flysfo.cn</figcaption>
         <img src="{{ site.url }}/images/posts/sfo/sfo-hp2.jpg" alt="flysfo.cn homepage"/>
     </figure>

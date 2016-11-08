@@ -44,11 +44,11 @@ So the point is, decide on the frequency of your meet-up, then **just pick a day
 For people who don't care for gardening, Gardenia plants have these glossy green leaves and beautiful scented waxy white flowers. They are also very high maintenance, requiring specific growing conditions and lots of tender loving care. Cacti, on the other hand, can put up with quite a lot of neglect before dying on you (Don't be that guy, take care of your plants!).
 
 <div class="figure-wrapper">
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>This be a Gardenia plant</figcaption>
         <img src="{{ site.url }}/images/posts/organiser/gardenia.jpg" srcset="{{ site.url }}/images/posts/organiser/gardenia@2x.jpg 2x" alt="Gardenias"/>
     </figure>
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>And this be Cacti</figcaption>
         <img src="{{ site.url }}/images/posts/organiser/cactus.jpg" srcset="{{ site.url }}/images/posts/organiser/cactus@2x.jpg 2x" alt="Cacti"/>
     </figure>

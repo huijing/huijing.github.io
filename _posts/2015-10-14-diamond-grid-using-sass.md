@@ -11,11 +11,11 @@ Since I started my career on the web, I've been building websites that follow st
 On the first pass, I hadn't gotten my hands on the actual design yet, but started experimenting with HTML and CSS first, just to try out a few ideas I had. The first thing that came to mind was using **CSS transforms**, considering I had already [written about it]({{ site.url }}/blog/basics-of-css-transforms/) earlier. Nothing a little `transform: rotate(45deg)` couldn't do, right? Unfortunately, things weren't all that straightforward. The general layout consisted of 2 small diamonds, 2 medium diamonds and 1 large diamond, all aligned to relative to each other on the grid. There would also be an alternate layout to switch things up a bit.
 
 <div class="figure-wrapper">
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>Main layout</figcaption>
         <img src="{{ site.url }}/images/posts/diamond/layout-1.jpg" srcset="{{ site.url }}/images/posts/diamond/layout-1@2x.jpg 2x" alt="Layout 1"/>
     </figure>
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>Alternate layout</figcaption>
         <img src="{{ site.url }}/images/posts/diamond/layout-2.jpg" srcset="{{ site.url }}/images/posts/diamond/layout-2@2x.jpg 2x" alt="Layout 2"/>
     </figure>
@@ -64,11 +64,11 @@ $large: $gridUnit * 4;
 Some of you who are much smarter than me would immediately recognise that this method would <strong>NOT</strong> work, at least not without some trigonometry, because you can't just rotate a bunch of positioned squares and expect them to end up aligned just right.
 
 <div class="figure-wrapper">
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>Piece of cake, just apply rotation...</figcaption>
         <img src="{{ site.url }}/images/posts/diamond/attempt1a.jpg" srcset="{{ site.url }}/images/posts/diamond/attempt1a@2x.jpg 2x" alt="Attempt 1"/>
     </figure>
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>Crap... ಠ_ಠ</figcaption>
         <img src="{{ site.url }}/images/posts/diamond/attempt1b.jpg" srcset="{{ site.url }}/images/posts/diamond/attempt1b@2x.jpg 2x" alt="Attempt 1 fail"/>
     </figure>

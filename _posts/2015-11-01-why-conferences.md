@@ -50,11 +50,11 @@ What we lack in volume, we make up in quality. Although we don't have a big-name
 <img srcset="{{ site.url }}/images/posts/conference/devfest-450.ong 1.5x, {{ site.url }}/images/posts/conference/devfest-600.png 2x" src="{{ site.url }}/images/posts/conference/devfest-300.png" alt="Dev.Fest 2015 logo" />
 
 <div class="figure-wrapper">
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>CSSConf.Asia 2015</figcaption>
         <img src="{{ site.url }}/images/posts/conference/cssconfasia.svg" alt="CSSConf.Asia 2015">
     </figure>
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>JSConf.Asia 2015</figcaption>
         <img src="{{ site.url }}/images/posts/conference/jsconfasia-140.jpg" srcset="{{ site.url }}/images/posts/conference/jsconfasia-210.jpg 1.5x, {{ site.url }}/images/posts/conference/jsconfasia-280.jpg 2x" alt="JSConf.Asia 2015"/>
     </figure>

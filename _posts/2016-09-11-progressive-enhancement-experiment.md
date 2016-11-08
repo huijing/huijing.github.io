@@ -70,11 +70,11 @@ Okay, so the basic version in the video was a row of radio buttons with images i
 In hindsight, the work needed from style-less to slightly-more-enhanced styles was a little more work that I expected. But it did give me a good chance to refresh my knowledge on CSS properties.
 
 <div class="figure-wrapper">
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>No styles at all</figcaption>
          <img src="{{ site.url }}/images/posts/pwd/nostyles.jpg" srcset="{{ site.url }}/images/posts/pwd/nostyles@2x.jpg 2x" alt="Style-less before version"/>
     </figure>
-    <figure class="two-col">
+    <figure class="multiple">
         <figcaption>Slightly-more-enhanced</figcaption>
          <img src="{{ site.url }}/images/posts/pwd/styled.jpg" srcset="{{ site.url }}/images/posts/pwd/styled@2x.jpg 2x" alt="Styled after version"/>
     </figure>

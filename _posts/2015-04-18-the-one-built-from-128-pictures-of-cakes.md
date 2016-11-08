@@ -50,11 +50,11 @@ The bakery was essentially a one-woman operation, and cakes were made to order a
 My go-to resource for textures is [Subtle Patterns](http://subtlepatterns.com/). Their name is self-explanatory. All the textures are free and you get both the normal and 2x versions in your download. 
 
 <div class="figure-wrapper">
-<figure class="two-col">
+<figure class="multiple">
 <figcaption>Canvas texture with stitching effect</figcaption>
 <img src="{{ site.url }}/images/posts/7love/canvas.jpg" alt="Header texture"/>
 </figure>
-<figure class="two-col">
+<figure class="multiple">
 <figcaption>CSS border images for the win!</figcaption>
 <img src="{{ site.url }}/images/posts/7love/awning.jpg" alt="Wavy border"/>
 </figure>

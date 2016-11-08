@@ -13,11 +13,11 @@ The first thing I did was to read the [W3C spec](http://www.w3.org/TR/css-shapes
 Before CSS shapes came along, we were more or less locked into standard layouts of rectangular columns. We had to explain to designers who came from print design that no, we can't make the text flow around your beautifully cropped image of Beyoncé.
 
 <div class="figure-wrapper">
-<figure class="two-col">
+<figure class="multiple">
 <figcaption>You want this?</figcaption>
 <img src="{{ site.url }}/images/posts/css-shapes/magazine-layout.jpg" alt="Magazine layout"/>
 </figure>
-<figure class="two-col">
+<figure class="multiple">
 <figcaption>Sorry, you get this.</figcaption>
 <img src="{{ site.url }}/images/posts/css-shapes/web-layout.jpg" alt="Web layout"/>
 </figure>
@@ -124,11 +124,11 @@ It took me a bit more time to wrap my head around the inset() function, but what
 The <code class="language-css">shape-arg</code> takes in variables the way we write the shorthand for margin or padding, in the order of top, right, bottom then left. So you can pass in 1 value, 2 values or 4 values. Inset is applied from the edge of the element inwards toward the centre.
 
 <div class="figure-wrapper">
-<figure class="two-col">
+<figure class="multiple">
 <figcaption>When <code class="language-css">shape-arg</code> is set to 0px</figcaption>
 <img src="{{ site.url }}/images/posts/css-shapes/inset-example-2.jpg" alt="CSS shapes inset example 2"/>
 </figure>
-<figure class="two-col">
+<figure class="multiple">
 <figcaption>When <code class="language-css">shape-arg</code> is set to 15px</figcaption>
 <img src="{{ site.url }}/images/posts/css-shapes/inset-example-3.jpg" alt="CSS shapes inset example 3"/>
 </figure>
