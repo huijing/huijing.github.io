@@ -190,13 +190,13 @@ This property dictates whether lines of text in a block are laid out horizontall
     <div class="th td">vertical-rl</div>
     <div class="td">Text is rendered from <em>top-to-bottom</em>, with a <em>right-to-left</em> block flow direction. Both the writing-mode and typographic-mode are <em>vertical</em>.
     <br><strong>Live example:</strong>
-    <br><span style="writing-mode:vertical-lr; height:3.5em;">从1987到现在</span></div>
+    <br><span style="writing-mode:vertical-rl; height:3.5em;">从1987到现在</span></div>
   </div>
   <div class="tr">
     <div class="th td">vertical-lr</div>
     <div class="td">Text is rendered from <em>top-to-bottom</em>, with a <em>left-to-right</em> block flow direction. Both the writing-mode and typographic-mode are <em>vertical</em>.
     <br><strong>Live example:</strong>
-    <br><span style="writing-mode:vertical-rl; height:3.5em;">从1987到现在</span>
+    <br><span style="writing-mode:vertical-lr; height:3.5em;">从1987到现在</span>
     </div>
   </div>
   <div class="tr">
