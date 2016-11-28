@@ -3,9 +3,9 @@ layout: page
 title: Talks
 ---
 <p>Sometimes, I'm so overwhelmed by my love for all things HTML and CSS that I feel compelled to tell a large group of people about it.</p>
-<div class="grid-3">
+<div class="grid-flex">
     {% for slide in site.data.slides %}
-    <div class="talk grid-3__item">
+    <div class="talk">
         <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.id }}">
         <img srcset="{{ site.baseurl }}/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
         </a>

@@ -1,0 +1,33 @@
+.podcast {
+  margin-bottom: rhythm(0.5);
+  text-align: center;
+
+  img {
+    box-shadow: 2px 2px 4px color('abbey');
+  }
+}
+
+.newsletter {
+  margin-bottom: rhythm(0.5);
+  text-align: center;
+
+  img {
+    position: relative;
+    width: 100%;
+    min-height: 5em;
+    width: 12em;
+
+    &::after {
+      content: attr(alt);
+      display: block;
+      padding: 0.5em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: color(sugarcane);
+      box-shadow: 2px 2px 4px color('abbey');
+    }
+  }
+}

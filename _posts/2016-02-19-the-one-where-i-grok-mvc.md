@@ -3,7 +3,7 @@ layout: post
 title: "The one where I grok MVC"
 date: Feb 19, 2016
 project: SG50 Time Machine
-image: project-11.jpg
+image: project-11
 tags: [kohana, client-work]
 ---
 

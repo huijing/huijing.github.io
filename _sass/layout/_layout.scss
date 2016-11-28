@@ -31,42 +31,15 @@ figure {
   }
 }
 
-.grid-3 {
-  @include cf;
-}
-
-.grid-3__item {
-  @media (min-width: 575px) and (max-width: 820px) {
-    @include span(6 of 12);
-    &:nth-child(2n) {
-      @include last;
-    }
-  }
-
-  @include respond-above(large) {
-    @include span(4 of 12);
-    &:nth-child(3n) {
-      @include last;
-    }
-  }
-}
-
 .grid-flex {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.grid-flex__item {
-  flex: 0 0 100%;
-
-  @media (min-width: 575px) and (max-width: 820px) {
-    flex: 0 0 span(6 of 12);
-  }
-
-  @include respond-above(large) {
-    flex: 0 0 span(4 of 12);
-  }
+.grid-flex__3item {
+  flex: 1 0 12em;
+  margin: 1%;
 }
 
 .grid-inline {

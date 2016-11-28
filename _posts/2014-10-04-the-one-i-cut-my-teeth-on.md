@@ -3,7 +3,7 @@ layout: post
 title: "The one I cut my teeth on"
 date: October 04, 2014
 project: Singapore Gastric Cancer Consortium
-image: project-2.jpg
+image: project-2
 description: The first project counted as a warmup, but this is the real thing. My first solo flight covered everything from site functionality to custom theme. Baby steps, people.
 tags: [drupal7, client-work]
 ---

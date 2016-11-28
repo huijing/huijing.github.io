@@ -24,7 +24,10 @@
     {% else %}
     <meta content="{{ page.content | strip_html | truncatewords:20}}" property="og:description">
     {% endif %}
-    {% else %}
+    {% if page.project %}
+    <meta content="{{ site.url }}/images/posts/projects/{{ page.image }}.png" property="og:image">
+    {% endif %}
+  {% else %}
     <meta content="{{ site.description }}" property="og:description">
   {% endif %}
   {% if page.url %}
@@ -35,7 +38,9 @@
     <meta content="{{ site.url }}/about/" property="article:author">
   {% endif %}
   {% if page.image %}
+    {% unless page.project %}
     <meta content="{{ site.url }}/images/posts/{{ page.image }}" property="og:image">
+    {% endunless %}
   {% else %}
     <meta content="{{ site.url }}/images/avatar.jpg" property="og:image">
   {% endif %}

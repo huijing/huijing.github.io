@@ -9,25 +9,23 @@ title: Work
 <h2>Client work</h2>
 <div class="grid-flex">
   {% for post in site.tags.client-work %}
-  <div class="project grid-flex__item">
+  <div class="project grid-flex__3item">
     <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
-      <img class="project__image" src="{{ site.url }}/images/posts/{{ post.image }}" alt="{{ post.image }}"/>
+      <img class="project__image" srcset="{{ site.url }}/images/posts/projects/{{ post.image }}@2x.png 2x" src="{{ site.url }}/images/posts/projects/{{ post.image }}.png" alt="{{ post.image }}"/>
       <h3 class="project__title no-margin">{{ post.project }}</h3>
     </a>
   </div>
   {% endfor %}
-  <div class="project"></div>
 </div>
 
 <h2>Random side projects</h2>
 <div class="grid-flex">
   {% for post in site.tags.side-project %}
-  <div class="project grid-flex__item">
+  <div class="project grid-flex__3item">
     <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
-      <img class="project__image" src="{{ site.url }}/images/posts/{{ post.image }}" alt="{{ post.image }}"/>
+      <img class="project__image" srcset="{{ site.url }}/images/posts/projects/{{ post.image }}@2x.png 2x" src="{{ site.url }}/images/posts/projects/{{ post.image }}.png" alt="{{ post.image }}"/>
       <h3 class="project__title no-margin">{{ post.project }}</h3>
     </a>
   </div>
   {% endfor %}
-  <div class="project"></div>
 </div>
