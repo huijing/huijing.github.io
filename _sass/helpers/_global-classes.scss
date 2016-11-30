@@ -1,15 +1,3 @@
-.element-invisible {
-  @include element-invisible;
-}
-
-.element-visible {
-  @include element-visible;
-}
-
-.hide {
-  display: none !important;
-}
-
 .no-margin {
   margin-bottom: 0;
 }
@@ -25,4 +13,3 @@ a.no-underline:hover {
 .no-list-style {
   list-style: none;
 }
-

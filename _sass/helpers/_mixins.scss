@@ -45,73 +45,6 @@
 }
 
 // ==========
-// HIDE ELEMENT
-// -----
-// To make element invisible on screen but visible for accessibility
-// Reference from http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-// ==========
-@mixin element-invisible {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  margin: -1px;
-  padding: 0;
-  width: 1px;
-  height: 1px;
-  border: 0;
-}
-
-// Turns off the element-invisible effect.
-@mixin element-visible {
-  position: static;
-  clip: auto;
-  height: auto;
-  width: auto;
-  overflow: auto;
-}
-
-// ==========
-// RETINA IMAGES
-// -----
-// To serve retina background images
-// Reference from https://signalvnoise.com/posts/3271-easy-retina-ready-images-using-scss
-// ==========
-@mixin image-2x($image, $width, $height) {
-  @media (min--moz-device-pixel-ratio: 1.3),
-         (-o-min-device-pixel-ratio: 2.6/2),
-         (-webkit-min-device-pixel-ratio: 1.3),
-         (min-device-pixel-ratio: 1.3),
-         (min-resolution: 1.3dppx) {
-    background-image: url($image);
-    background-size: $width $height;
-  }
-}
-
-// ==========
-// CSS SHAPE MIXINS
-// -----
-// Mixins to help create shapes like circles and triangles
-// ==========
-@mixin circle($width) {
-  width: $width;
-  height: $width;
-  border-radius: 100%;
-}
-
-@mixin triangle($dir, $size, $color) {
-  border: $size transparent solid;
-  @if $dir == 'top' or $dir == 'up' {
-    border-bottom-color: $color;
-  } @else if $dir == 'right' or $dir == 'after' {
-    border-left-color: $color;
-  } @else if $dir == 'bottom' or $dir == 'down' {
-    border-top-color: $color;
-  } @else if $dir == 'left' or $dir == 'before' {
-    border-right-color: $color;
-  }
-}
-
-// ==========
 // BREAKPOINTS
 // -----
 // Basic breakpoint mixin for writing media queries
@@ -159,43 +92,6 @@
       @include respond-above($breakpoint-name) {
         @include text-size($text-size, $breakpoint-name);
       }
-    }
-  }
-}
-
-// ==========
-// VERTICAL ALIGN
-// -----
-// Referenced from http://blog.siftscience.com/blog/2015/the-sass-mixinsplaceholders-i-cant-live-without-for-responsive-web-design
-// ==========
-@mixin image-spacer($ar: 1, $max-height: 600px, $min-height: 0, $container-width: 1) {
-  @if $min-height <= 1 and $min-height > 0 {
-    $container-width: $min-height;
-    $min-height: 0;
-  }
-
-  &::before {
-    content: '';
-    display: inline-block;
-    padding-top: $ar * 100%;
-    vertical-align: middle;
-  }
-
-  @media (min-width: ($max-height / ($container-width * $ar))) {
-    height: $max-height;
-
-    &::before {
-      height: 100%;
-      padding-top: 0;
-    }
-  }
-
-  @media (max-width: ($min-height / ($container-width * $ar))) {
-    height: $min-height;
-
-    &::before {
-      height: 100%;
-      padding-top: 0;
     }
   }
 }

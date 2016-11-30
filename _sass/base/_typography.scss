@@ -56,30 +56,6 @@ h3 {
   }
 }
 
-h4 {
-  @include responsive-text-size(base);
-  font-family: $header-font;
-
-  @include respond-above(medium) {
-    margin: 0 auto rhythm(0.5);
-  }
-}
-
-h5 {
-  @include responsive-text-size(base);
-  font-family: $header-font;
-
-  @include respond-above(medium) {
-  margin: 0 auto rhythm(0.5);
-}
-}
-
-h6 {
-  @include responsive-text-size(base);
-  font-family: $header-font;
-  margin: 0 auto rhythm(1);
-}
-
 strong {
   font-weight: 700;
 }
@@ -90,17 +66,6 @@ em {
 
 .small {
   @include responsive-text-size(deci);
-}
-
-pre,
-code {
-  @include responsive-text-size(deci);
-  font-family: $code-font;
-  background: #272822;
-  padding: 0.1em 0.2em;
-  border-radius: 0.3em;
-  color: #f8f8f2;
-  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
 }
 
 blockquote {
