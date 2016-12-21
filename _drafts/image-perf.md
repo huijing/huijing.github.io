@@ -1,12 +1,16 @@
 ---
 layout: post
-title: "Why image performance matters"
-date: October 14, 2016
+title: "Images, the web's nutrition problem"
+date: December 14, 2016
 tags: [css, html, optimisation]
 ---
-Let's face it. The web has an obesity problem. [Statistics from the httparchive](http://httparchive.org/interesting.php) shows that, as of 15 Sep 2016, the average size of a web page is 2.48mb, and 1.598mb (or 64.4%) of that is made up of images. [The httparchive](http://httparchive.org/interesting.php) has been keeping statistics on page weight since 15 Nov 2010, and the trend over the past 6 years is slightly alarming.
+Okay, that wasn't my best headline, writing is hard. But let's face it, the web has an obesity problem. I remember the first time I did some research for a talk I gave at Talk.JS back in 2015, and found [the httparchive](http://httparchive.org/interesting.php), which had statistics on web page sizes since 2010. I said that exact phrase during the talk, and let's just say I don't think the web has started on its diet plan or gym membership yet. 
+
+And because I'm a weirdo who likes charts, I wanted to see how this weight gain happened over the past 6 years. It probably crept up on us, I mean, you can't just wake up 30 pounds heavier overnight. As of 15 Nov 2016, the average size of a web page is 2.47mb, and 1.615mb (or 65.4%) of that is made up of images. So I plotted the weights of different content types over time to how the trend looked. If images were donuts, the web was eating more and more of them over time.
 
 <img srcset="{{ site.url }}/images/posts/image-perf/page-weight-480.jpg 480w, {{ site.url }}/images/posts/image-perf/page-weight-640.jpg 640w, {{ site.url }}/images/posts/image-perf/page-weight-960.jpg 960w, {{ site.url }}/images/posts/image-perf/page-weight-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/image-perf/page-weight-640.jpg" alt="Page weight trends" />
+
+
 
 [Research conducted by FT.com](http://engineroom.wpengine.com/2016/04/04/a-faster-ft-com/) revealed that a slowdown of 3 seconds on page load time caused a mean percentage drop of 7.9% in article views over a period of 28 days. From an ecommerce perspective, Akamai conducted a survey back in 2009 which showed that consumers start to get impatient when pages take longer than 2 seconds to load. Mozilla managed to [increase download conversions by 15.4%](https://blog.mozilla.org/metrics/2010/04/05/firefox-page-load-speed-%E2%80%93-part-ii/) by shaving 2.2 seconds off their landing page load time back in 2010.
 
@@ -101,10 +105,6 @@ GIF is also a lossless file format, and has been around for a long time, hence h
 
 Ideally, you'd want to export your images using your image editor's "Save for Web" (or similar functionality) as demonstrated earlier, then run them through a specialised image optimiser. There are plenty of options for that, either online or as installed applications, like [FileOptimizer](http://nikkhokkho.sourceforge.net/static.php?page=FileOptimizer) for Windows or [ImageOptim](https://imageoptim.com/) for Mac and Linux.
 
-There is also the option of using an online service like [Cloudinary](https://cloudinary.com/). Cloudinary supports a wide range of development platforms by offering client-side integration libraries and SDKs. 
-
-If you are building a static site without any frameworks, you still upload images to your Cloudinary account and use them as your image source like you would any image hosting service. The added plus is that you can utilise the Cloudinary API to resize and transform the images you uploaded using simple URL parameters. You can even specify different image formats (Cloudinary supports even the latest ones) and all the processing is taken care of by Cloudinary's servers.
-
 ## New file formats
 
 There are also a number of new formats being developed that offer higher quality at lower file sizes. As of now, these formats are far from being universally supported. Still, it's good to know about their existence and follow their development as we go along.
@@ -120,73 +120,6 @@ There are also a number of new formats being developed that offer higher quality
 ### BPG (Better Portable Graphics)
 
 [BPG](http://bellard.org/bpg/) is a new image format meant to replace the JPEG image format. It has a high compression ratio and unlike JPEG, supports transparency. To use BPG, you will need to integrate a Javascript BPG decoder (56kb gzipped) in your site for browsers to recognise the image.
-
-## Using the picture element and srcset attribute
-
-The problem of responsive images has been around for quite a while now, and developers have come up with a myriad of methods to serve images appropriate to the screen size they are being displayed on. Considering the sheer number of screen sizes being used to view web pages on, this is a very tall ask. But with the introduction of the picture element and the srcset attribute, we now have a native solution to tackle this thorny problem. If you're interested, [Ars Technica](http://arstechnica.com/) published a feature on the [origin story of the picture element](http://arstechnica.com/information-technology/2014/09/how-a-new-html-element-will-make-the-web-faster/).
-
-The picture element, srcset and sizes attributes have been drafted into the HTML 5.1 specification and as of October 2016, all major browsers, except Internet Explorer and Opera Mini, fully support both [picture](http://caniuse.com/#search=picture) and [srcset](http://caniuse.com/#search=srcset). The specification was developed off [practical use cases for responsive images](https://www.w3.org/TR/respimg-usecases/) and tackles the following issues:
-
-<ul>
-  <li class="no-margin">Device-pixel-ratio-based selection</li>
-  <li class="no-margin">Viewport-based selection</li>
-  <li class="no-margin">Art direction-based selection</li>
-  <li>Image format-based selection</li>
-</ul>
-
-Just to clarify, `picture` is a HTML element, while `srcset` and `sizes` are attributes for the `img` element. Depending on your use case, you may not need the `picture` element to use responsive images.
-
-Before this specification existed, browsers had no way of knowing the image size relative to the viewport or the source files' dimensions, making it impossible for the browser to intelligently serve the appropriately sized image. With `srcset`, we can declare a set of image sources complete with pixel-density and width information to the browser using `x` and `w` descriptors respectively. And the `sizes` attribute lets us tell the browser what size the image should be at a particular viewport width.
-
-The `picture` element is a wrapper for the image element and its sources. The `source` element, in this case, will be familiar to you if you've used the `video` or `audio` elements before. We can use multiple `source` elements to specify multiple media resources for use.
-
-If you want to serve the exact same image but in different sizes or pixel-densities, then you should use an `img` element with the `srcset` attribute defined. If you want to serve a specific image at a specific breakpoint, or serve images in one of the newer formats, then you should use the `picture` element instead.
-
-Note that for all the use cases, whether you're using `picture` or `srcset` and `sizes`, the image `src` attribute MUST be present. Alternative text should be applied to the `img` element not the `picture` tag. If an older browser encounters such code, it will just read off the image's `src` attribute like any other image, so your image won't be broken.
-
-### Code Examples
-
-1. Device-pixel-ratio-based selection
-
-    <pre><code class="language-markup">&lt;img srcset="mark-383.jpg 1.5x, mark-510.jpg 2x" src="mark-255.jpg" alt="Outsider's mark" /&gt;</code></pre>
-2. Viewport-based selection
-
-    <pre><code class="language-markup">&lt;img srcset="kaldwin-480.jpg 480w, 
-                kaldwin-640.jpg 640w, 
-                kaldwin-960.jpg 960w,
-                kaldwin-1280.jpg 1280w" 
-         sizes="(max-width: 400px) 100vw, 
-                (max-width: 960px) 75vw, 
-                640px" 
-           src="kaldwin-640.jpg" alt="Emily Kaldwin"&gt;</code></pre>
-3. Art direction-based selection
-
-    <pre><code class="language-markup">&lt;picture&gt;
-  &lt;source media="(min-width: 960px)" srcset="karnaca-large.jpg"&gt;
-  &lt;source media="(min-width: 575px)" srcset="karnaca-medium.jpg"&gt;
-  &lt;img src="karnaca-small.jpg" alt="City of Karnaca"&gt;
-&lt;/picture&gt;</code></pre>
-
-4. Image format-based selection
-
-    <pre><code class="language-markup">&lt;picture&gt;
-  &lt;source type="image/vnd.ms-photo" src="far-reach.jxr"&gt;
-  &lt;source type="image/jp2" src="far-reach.jp2"&gt;
-  &lt;source type="image/webp" src="far-reach.webp"&gt;
-  &lt;img src="far-reach.png" alt="Emily's power: Far reach"&gt;
-&lt;/picture&gt;</code></pre>
-
-Cloudinary's URL-based API comes in really handy for these use cases because you can upload a single high-resolution image then define all the different sizes and formats you need by adding the necessary parameters to the image source URL. So for a viewport-based image selection use case, the code will look like this:
-
-<pre><code class="language-markup">&lt;img srcset="http://res.cloudinary.com/huijing/image/upload/w_480/v1476458602/karnaca_fj968w.jpg 480w,
-             http://res.cloudinary.com/huijing/image/upload/w_640/v1476458602/karnaca_fj968w.jpg 640w,
-             http://res.cloudinary.com/huijing/image/upload/w_960/v1476458602/karnaca_fj968w.jpg 960w,
-             http://res.cloudinary.com/huijing/image/upload/w_1280/v1476458602/karnaca_fj968w.jpg 1280w"
-      sizes="(max-width: 400px) 100vw, 
-             (max-width: 960px) 75vw, 
-             640px" 
-        src="http://res.cloudinary.com/huijing/image/upload/w_640/v1476458602/karnaca_fj968w.jpg"
-        alt="Coast of Karnaca City"&gt;</code></pre>
 
 ## Wrapping up
 
