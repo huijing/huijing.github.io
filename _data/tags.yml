@@ -46,6 +46,9 @@ kohana:
 opinion:
   name: Opinion
 
+optimisation:
+  name: Optimisation
+
 performance:
   name: Performance
 
