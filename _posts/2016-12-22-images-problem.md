@@ -97,15 +97,15 @@ With JPEG, you shouldn’t save the same image file again and again because doin
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Original</figcaption>
-        <img src="{{ site.url }}/images/posts/image-perf/headshot.jpg" srcset="{{ site.url }}/images/posts/image-perf/headshot@2x.jpg 2x" alt="Original"/>
+        <img src="{{ site.url }}/images/posts/image-perf/orig.jpg" srcset="{{ site.url }}/images/posts/image-perf/orig@2x.jpg 2x" alt="Original"/>
     </figure>
     <figure class="multiple">
         <figcaption>Save for Web</figcaption>
-        <img src="{{ site.url }}/images/posts/image-perf/orig.jpg" srcset="{{ site.url }}/images/posts/image-perf/orig@2x.jpg 2x" alt="Save for Web"/>
+        <img src="{{ site.url }}/images/posts/image-perf/opt.jpg" srcset="{{ site.url }}/images/posts/image-perf/opt@2x.jpg 2x" alt="Save for Web"/>
     </figure>
 </div>
 
-The original image on the left clocked in at 87 KB, but after using the *Save for Web* option in Adobe Photoshop at 60 percent quality, the file size was halved, but the difference is barely discernible (I'm sorry you had to download an unoptimised image for this). 
+The original image on the left clocked in at 79kb, but after using the *Save for Web* option in Adobe Photoshop at 60 percent quality, the file size was halved, but the difference is barely discernible (I'm sorry you had to download an unoptimised image for this). 
 
 There are more objective methods than “eye-balling it” to determine the appropriate quality level, however. For example, you can use open source tool [Butteraugli](https://github.com/google/butteraugli) as a quality metric for lossy image compression.
 
