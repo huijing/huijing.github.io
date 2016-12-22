@@ -2,6 +2,7 @@
 layout: post
 title: "Images, the web's nutrition problem"
 date: December 22, 2016
+image: image-problem.png
 tags: [css, html, optimisation]
 ---
 Okay, that wasn't my best headline, writing is hard <span class="emoji">🤷‍♀️</span>. But let's face it, the web has an obesity problem. I remember the first time I did some research for [a talk I gave at Talk.JS](https://youtu.be/LLxg2H4Tk8s) back in 2015, and found [the httparchive](http://httparchive.org/interesting.php), which had statistics on web page sizes since 2010. I said that exact phrase during the talk, and let's just say I don't think the web has started on its diet plan or gym membership yet. 
