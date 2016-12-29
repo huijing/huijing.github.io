@@ -16,6 +16,9 @@ drupal8:
 devlife:
   name: Developer life
 
+emoji:
+  name: Emoji
+
 frameworks:
   name: Frameworks
 
