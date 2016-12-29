@@ -3,6 +3,7 @@ layout: post
 title: "East Asian character emojis ㊗️ 🈶 🈯 ️🈳"
 date: December 29, 2016
 tags: [emoji]
+image: emoji.jpg
 ---
 I am an unabashed lover of emojis. Just read anything I write, there's almost always at least 1 emoji thrown in there somewhere. I can't help myself, they are just so...apt. Do you know that the [Full Emoji Data](http://unicode.org/emoji/charts/full-emoji-list.html) actually loads super-quick when I visit because I go there so often most of the data is cached my browser already. My state of mind was <span class="emoji">🎉</span> when the <span class="emoji">🤷‍♀️</span> and <span class="emoji">🤦‍♀️</span> emojis were released.
 
