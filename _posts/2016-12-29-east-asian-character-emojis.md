@@ -15,7 +15,7 @@ Maybe if you don't read any of the CJK (Chinese, Japanese, Korean) languages, th
 
 Let's go back to the beginning. The word *Emoji* is Japanese.
 
-> 绘 (**e**) &#8776; picture) 文 (**mo** &#8776; writing) 字 (**ji** &#8776; character)
+> 絵 (**e**) &#8776; picture) 文 (**mo** &#8776; writing) 字 (**ji** &#8776; character)
 
 Emojis were invented by [Shigetaka Kurita](http://d.hatena.ne.jp/sigekun/) as a solution to the 250 character limit on [i-mode](https://www.nttdocomo.co.jp/english/service/imode/), NTT DoCoMo's new mobile internet system (back in 1999). Most of the 176 original emojis were designed for the Japanese market, largely because nobody expected them to explode on the a global scale. Soon after their release, there was [a proposal to encode these emoji in Unicode](http://www.unicode.org/L2/L2000/00152-pictographs.txt) by Graham Asher in 2000, but nothing happened because people weren't sure if emoji would be popular or not.
 
