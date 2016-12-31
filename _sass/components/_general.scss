@@ -49,6 +49,7 @@ picture img {
   font-style: normal;
   display: inline-block;
   vertical-align: middle;
+  font-family: 'Segoe UI Emoji';
 
   @include respond-above(large) {
     font-size: 1.618rem;
