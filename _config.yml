@@ -17,6 +17,8 @@ drupalorg_username: huijing
 about: "I'm Hui Jing, a designer and front-end developer who believes HTML and CSS are the foundation of the web."
 
 # Build settings
+highlighter: none
+
 gems:
   - jekyll-sitemap
   - jekyll-paginate
@@ -28,3 +30,9 @@ defaults:
       type: posts   # limit to posts
     values:
       is_post: true # automatically set is_post=true for all posts
+
+# Exclude files and folder
+exclude:
+  - node_modules
+  - gulpfile.js
+  - package.json
