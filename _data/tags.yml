@@ -7,14 +7,14 @@ css:
 design:
   name: Design
 
+devlife:
+  name: Developer life
+
 drupal7:
   name: Drupal 7
 
 drupal8:
   name: Drupal 8
-
-devlife:
-  name: Developer life
 
 emoji:
   name: Emoji
@@ -25,14 +25,11 @@ frameworks:
 git:
   name: Git
 
-github:
-  name: GitHub
-
 github-pages:
   name: GitHub Pages
 
-hackathon:
-  name: Hackathon
+gitlab-pages:
+  name: GitLab Pages
 
 html:
   name: HTML
@@ -49,9 +46,6 @@ kohana:
 opinion:
   name: Opinion
 
-optimisation:
-  name: Optimisation
-
 performance:
   name: Performance
 
@@ -66,9 +60,6 @@ side-project:
 
 site-building:
   name: Site building
-
-sysadmin:
-  name: SysAdmin
 
 theming:
   name: Theming
