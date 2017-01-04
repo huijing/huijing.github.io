@@ -17,7 +17,7 @@ drupalorg_username: huijing
 about: "I'm Hui Jing, a designer and front-end developer who believes HTML and CSS are the foundation of the web."
 
 # Build settings
-highlighter: none
+highlighter: null
 
 gems:
   - jekyll-sitemap
