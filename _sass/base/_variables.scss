@@ -33,47 +33,43 @@ $breakpoints: (
 
 // Imported fonts
 @font-face {
-  font-family: 'Palo Alto';
-  src: url('../fonts/palo-alto.eot');
-  src: url('../fonts/palo-alto.eot?#iefix') format('embedded-opentype'),
-     url('../fonts/palo-alto.woff2') format('woff2'),
-     url('../fonts/palo-alto.woff') format('woff'),
-     url('../fonts/palo-alto.ttf') format('truetype');
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat-bold.eot');
+  src: url('../fonts/montserrat-bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/montserrat-bold.woff2') format('woff2'),
+     url('../fonts/montserrat-bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto Slab';
-  src: url('../fonts/robotoslab-light.eot');
-  src: url('../fonts/robotoslab-light.eot?#iefix') format('embedded-opentype'),
-     url('../fonts/robotoslab-light.woff2') format('woff2'),
-     url('../fonts/robotoslab-light.woff') format('woff'),
-     url('../fonts/robotoslab-light.ttf') format('truetype');
+  font-family: 'Arvo';
+  src: url('../fonts/arvo-regular.eot');
+  src: url('../fonts/arvo-regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/arvo-regular.woff2') format('woff2'),
+     url('../fonts/arvo-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto Slab';
-  src: url('../fonts/robotoslab-bold.eot');
-  src: url('../fonts/robotoslab-bold.eot?#iefix') format('embedded-opentype'),
-     url('../fonts/robotoslab-bold.woff2') format('woff2'),
-     url('../fonts/robotoslab-bold.woff') format('woff'),
-     url('../fonts/robotoslab-bold.ttf') format('truetype');
+  font-family: 'Arvo';
+  src: url('../fonts/arvo-bold.eot');
+  src: url('../fonts/arvo-bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/arvo-bold.woff2') format('woff2'),
+     url('../fonts/arvo-bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Droid Sans Mono';
-  src: url('../fonts/droidsansmono.eot');
-  src: url('../fonts/droidsansmono.eot?#iefix') format('embedded-opentype'),
-     url('../fonts/droidsansmono.woff2') format('woff2'),
-     url('../fonts/droidsansmono.woff') format('woff'),
-     url('../fonts/droidsansmono.ttf') format('truetype');
+  font-family: 'Arvo';
+  src: url('../fonts/arvo-italic.eot');
+  src: url('../fonts/arvo-italic.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/arvo-italic.woff2') format('woff2'),
+     url('../fonts/arvo-italic.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
+  font-style: italic;
 }
 
 @font-face {
@@ -81,8 +77,7 @@ $breakpoints: (
   src: url('../fonts/eightbitoperatorplus8-bold-webfont.eot');
   src: url('../fonts/eightbitoperatorplus8-bold-webfont.eot?#iefix') format('embedded-opentype'),
      url('../fonts/eightbitoperatorplus8-bold-webfont.woff2') format('woff2'),
-     url('../fonts/eightbitoperatorplus8-bold-webfont.woff') format('woff'),
-     url('../fonts/eightbitoperatorplus8-bold-webfont.ttf') format('truetype');
+     url('../fonts/eightbitoperatorplus8-bold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
@@ -92,16 +87,14 @@ $breakpoints: (
   src: url('../fonts/eightbitoperatorplus-regular-webfont.eot');
   src: url('../fonts/eightbitoperatorplus-regular-webfont.eot?#iefix') format('embedded-opentype'),
      url('../fonts/eightbitoperatorplus-regular-webfont.woff2') format('woff2'),
-     url('../fonts/eightbitoperatorplus-regular-webfont.woff') format('woff'),
-     url('../fonts/eightbitoperatorplus-regular-webfont.ttf') format('truetype');
+     url('../fonts/eightbitoperatorplus-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 // Base font stacks
-$base-font: 'Roboto Slab', Rockwell, serif;
-$header-font: 'Palo Alto';
-$code-font: 'Droid Sans Mono', 'Lucida Console', Monaco, 'Courier New', Courier, monospace;
+$base-font: 'Arvo', Rockwell, serif;
+$header-font: 'Montserrat';
 $display-font: 'Eight-bit';
 
 // Base font sizes and line heights

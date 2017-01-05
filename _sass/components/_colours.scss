@@ -3,7 +3,7 @@
 }
 
 .abbey {
-  color: color('abbey');
+  color: lighten(color('abbey'), 20%);
 }
 
 .sugarcane {

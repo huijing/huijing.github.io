@@ -17,7 +17,7 @@ var messages = {
  */
 gulp.task('jekyll-dev', function (done) {
   browserSync.notify(messages.jekyllDev);
-  return cp.spawn('jekyll', ['build', '--drafts', '--future', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'})
+  return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--drafts', '--future', '--config=_config.yml,_config_dev.yml'], {stdio: 'inherit'})
     .on('close', done);
 });
 
@@ -47,7 +47,7 @@ gulp.task('sass', function () {
       includePaths: ['scss'],
       onError: browserSync.notify
     }))
-    .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+    .pipe(prefix(['last 3 versions', '> 1%', 'ie 8'], { cascade: true }))
     .pipe(gulp.dest('_site/css/'))
     .pipe(browserSync.reload({stream:true}))
     .pipe(gulp.dest('css'));
@@ -112,7 +112,7 @@ gulp.task('comments', ['comments']);
  */
 gulp.task('jekyll-prod', function (done) {
   browserSync.notify(messages.jekyllProd);
-  return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+  return cp.spawn('bundle', ['exec', 'jekyll', 'build'], {stdio: 'inherit'})
     .on('close', done);
 });
 
@@ -125,7 +125,7 @@ gulp.task('sass-prod', function () {
       includePaths: ['scss'],
       onError: browserSync.notify
     }))
-    .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+    .pipe(prefix(['last 3 versions', '> 1%', 'ie 8'], { cascade: true }))
     .pipe(cssnano())
     .pipe(gulp.dest('_site/css/'))
     .pipe(gulp.dest('css'));

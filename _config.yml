@@ -6,7 +6,6 @@ baseurl: ""
 url: "https://www.chenhuijing.com" 
 enforce_ssl: www.chenhuijing.com   # without any protocol
 
-relative_permalinks: false
 permalink: /blog/:title/
 paginate: 8
 paginate_path: "/blog/page:num"
