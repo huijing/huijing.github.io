@@ -36,6 +36,11 @@ In my first [writing-mode demo]({{ site.url }}/zh-type), I had a checkbox that t
 
 This site utilised a similar concept, in that there would be a toggle, but this time it'd be to switch between 2 blocks of content. The same technique used for [pure CSS tabs](http://codepen.io/huijing/pen/qOLXmy), just that the "tabs" would be styled to look like buttons.
 
+<figure>
+  <figcaption>Clicky-clicky</figcaption>
+  <video style="max-width: 20em" src="{{ site.url }}/videos/toggle.mp4" controls></video>
+</figure>
+
 <pre><code class="language-markup">&lt;section class="c-intro"&gt;
   &lt;input type="radio" name="language" id="lang-en" class="l-toggle__en" /&gt;
   &lt;label for="lang-en"&gt;
