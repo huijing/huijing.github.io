@@ -5,7 +5,7 @@ date: 27 September, 2016
 image: macossierra.jpg
 tags: [devlife]
 ---
-macOS Sierra was officially released on 20 September 2016. That's 1 week ago at time of writing. The day of the release, there were loads of articles appearing in my RSS feed (yes, I still use one, stop judging <span class="emoji">😠</span>) with the title "Should you upgrade to macOS Sierra?" or something along those lines. 
+macOS Sierra was officially released on 20 September 2016. That's 1 week ago at time of writing. The day of the release, there were loads of articles appearing in my RSS feed (yes, I still use one, stop judging <span class="emoji">&#x1F620;</span>) with the title "Should you upgrade to macOS Sierra?" or something along those lines. 
 
 I skimmed through those articles but nothing significant jumped out at me other that some people had issues with their Keychain access or something. But given I was in the midst of crunch time for a project, I held off on upgrading until yesterday. Given my machine is an early-2015 MacBook Pro running El Capitan, I thought it wouldn't be much trouble to upgrade.
 
@@ -70,4 +70,4 @@ All in all, this update was pretty trouble-free. Nothing really broke. So it's e
 
 <img src="{{ site.url }}/images/posts/sierra/good-sign.jpg" srcset="{{ site.url }}/images/posts/sierra/good-sign@2x.jpg 2x" alt="This is a good sign"/>
 
-So make your own decision whether to upgrade or not, and may the odds ever be in your favour <span class="emoji">😈</span>.
+So make your own decision whether to upgrade or not, and may the odds ever be in your favour <span class="emoji">&#x1F608;</span>.

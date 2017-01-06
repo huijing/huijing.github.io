@@ -16,7 +16,7 @@ But I knew that I wanted the ball in my hands. I was going to have an impact on 
 
 **Life lesson #1:** Things don't always go your way. Pick yourself up, dust yourself off and move on.
 
-I had a 2-hour commute to and from school at the time. And remember Asian values? I landed my ass in a pretty strong academic school and so, schoolwork + basketball + travel-time = 😱.
+I had a 2-hour commute to and from school at the time. And remember Asian values? I landed my ass in a pretty strong academic school and so, schoolwork + basketball + travel-time = &#x1F631;.
 
 I learned pretty early on that trying to do everything at once is a recipe for failure. You'll just end up feeling so overwhelmed that you can't finish anything at all. But the ridiculous schedule meant I was forced to learn how to prioritise early on in my life. 
 

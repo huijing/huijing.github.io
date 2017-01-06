@@ -5,7 +5,7 @@ date: December 22, 2016
 image: image-problem.png
 tags: [css, html, performance]
 ---
-Okay, that wasn't my best headline, writing is hard <span class="emoji">🤷‍♀️</span>. But let's face it, the web has an obesity problem. I remember the first time I did some research for [a talk I gave at Talk.JS](https://youtu.be/LLxg2H4Tk8s) back in 2015, and found [the httparchive](http://httparchive.org/interesting.php), which had statistics on web page sizes since 2010. I said that exact phrase during the talk, and let's just say I don't think the web has started on its diet plan or gym membership yet. 
+Okay, that wasn't my best headline, writing is hard <span class="emoji">&#x1F937;</span>. But let's face it, the web has an obesity problem. I remember the first time I did some research for [a talk I gave at Talk.JS](https://youtu.be/LLxg2H4Tk8s) back in 2015, and found [the httparchive](http://httparchive.org/interesting.php), which had statistics on web page sizes since 2010. I said that exact phrase during the talk, and let's just say I don't think the web has started on its diet plan or gym membership yet. 
 
 And because I'm a weirdo who likes charts, I wanted to see how this weight gain happened over the past 6 years. It probably crept up on us, I mean, you can't just wake up 30 pounds heavier overnight. As of 2 Dec 2016, the average size of a web page is 2.46mb, and 1.623mb (or 65.9%) of that is made up of images. So I plotted the weights of different content types over time to how the trend looked. If images were donuts, the web was eating more and more of them over time.
 
@@ -21,9 +21,9 @@ But the matter of fact is [only 15% of the world's citizens have access to affor
 
 Besides, the average internet user is no longer someone who's sitting at a desk, tapping away on a keyboard. People are using the internet from their smartphones and tablets, scrolling through their newsfeeds on the toilet, watching videos on the bus, sending chat messages while walking down the street. 
 
-And because they are mobile, a stable and fast internet connection is not guaranteed. [Google's analysis of mobile latency](https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/) published in September 2016 showed that the average load time for mobile sites is 19 seconds over 3G connections. Usain Bolt can run 200m in that time <span class="emoji">🏃🏿</span>.
+And because they are mobile, a stable and fast internet connection is not guaranteed. [Google's analysis of mobile latency](https://www.doubleclickbygoogle.com/articles/mobile-speed-matters/) published in September 2016 showed that the average load time for mobile sites is 19 seconds over 3G connections. Usain Bolt can run 200m in that time <span class="emoji">&#x1F3C3;&#x1F3FF;</span>.
 
-Anyway, the point is, big images + spotty connection = <span class="emoji">💩</span> experience.
+Anyway, the point is, big images + spotty connection = <span class="emoji">&#x1F4A9;</span> experience.
 
 ## But we must have images...
 

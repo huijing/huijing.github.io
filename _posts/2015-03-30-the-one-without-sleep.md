@@ -33,7 +33,7 @@ Shortly into the hackathon, we hit our first snag. The internet access went out.
 
 No internet also meant no way to download modules. Luckily for me, I had a bunch of local development sites still sitting in my hard drive, and a majority of the module files I needed were in there somewhere. Sure, they were outdated, but beggars can't be choosers. The organisers were working hard to fix the problem, so I figured I'd just download the newer versions when we got back online. The moral of the story is: Don't delete all your old development sites, you never know when they might come in handy.
 
-I'll admit I got a little grumpy about the situation, but pouting wasn't going to solve anything, so why not take a little time to chill with the Dinosaur Game? Just in case you didn't know, as of version 39, the guys at Chrome [snuck an easter egg](http://thenextweb.com/google/2014/09/25/googles-latest-chrome-build-hidden-game-can-play-offline/) into the browser. *Useless trivia: I eventually got to a 1045 high score* <span class="emoji">😆</span>
+I'll admit I got a little grumpy about the situation, but pouting wasn't going to solve anything, so why not take a little time to chill with the Dinosaur Game? Just in case you didn't know, as of version 39, the guys at Chrome [snuck an easter egg](http://thenextweb.com/google/2014/09/25/googles-latest-chrome-build-hidden-game-can-play-offline/) into the browser. *Useless trivia: I eventually got to a 1045 high score* <span class="emoji">&#x1F606;</span>
 
 <img src="{{ site.url }}/images/posts/battlehack/dino-game.jpg" alt="Chrome Dinosaur Game"/>
 

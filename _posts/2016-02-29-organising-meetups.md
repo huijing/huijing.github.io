@@ -37,7 +37,7 @@ So the point is, decide on the frequency of your meet-up, then **just pick a day
 4. Based on your findings from step #2 and #3, determine the best day for your own meet-up.  
 *Note: it will be very challenging to find a day that doesn't clash with another meet-up, so try to not to schedule on the same day as a meet-up which shares the same audience as yours*.
 5. If you already have a venue, great! If not, refer to the list of [events by location](https://data.webuild.sg/dataset/events-per-location/). Contact the organisers of past meet-ups to ask for venue contacts. (*You may have to zoom in the map, Singapore isn't very big* <span class="kaomoji">¯\\\_(ツ)\_/¯</span>)
-6. Check the [event duration](https://data.webuild.sg/dataset/events-per-duration/) data to help you decide how long your meet-up should be. Ideally, we'd like to have things wrap up within 2 hours so people can hang out *AFTER* the meet-up. Tired people tend to go home immediately after the meet-up <span class="emoji">😭</span>.
+6. Check the [event duration](https://data.webuild.sg/dataset/events-per-duration/) data to help you decide how long your meet-up should be. Ideally, we'd like to have things wrap up within 2 hours so people can hang out *AFTER* the meet-up. Tired people tend to go home immediately after the meet-up <span class="emoji">&#x1F62D;</span>.
 
 ### More Gardenia than Cactus
 

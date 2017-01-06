@@ -4,7 +4,7 @@ title: "The one on the cutting edge"
 date: March 31, 2016
 project: Talk.CSS
 image: project-13
-tags: [jekyll, side-project]
+tags: [jekyll, side-project, css]
 ---
 If you've been following along my latest exploits (though I doubt anyone is), you may know that I'm the co-organiser of [Talk.CSS](http://singaporecss.github.io), the first CSS-centric [meet-up group](http://www.meetup.com/SingaporeCSS/) in Singapore. We've been in existence for around 5 months now and some time last month I thought it'd be a good idea to build a website for our little meet-up group. Sort of a place where people can find out more about us, and check out what happened during our previous meet-ups. Okay fine, it was an excuse for me to build another website, but with the freedom to try all sorts of new technologies.
 
@@ -84,7 +84,7 @@ Earlier in March, [Roel Nieskens](https://twitter.com/pixelambacht) released [Bi
 
 ### Flexbox
 
-This site is not complicated. I could probably get away with almost no layout at all, but some things still need to fall in line. Might as well throw in some flexbox, right? TL:DR is, flexbox plus media queries = win! <span class="emoji">😎</span>
+This site is not complicated. I could probably get away with almost no layout at all, but some things still need to fall in line. Might as well throw in some flexbox, right? TL:DR is, flexbox plus media queries = win! <span class="emoji">&#x1F60E;</span>
 
 <figure>
     <figcaption>Look at those beautiful faces.</figcaption>

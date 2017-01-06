@@ -88,5 +88,5 @@ Any values greater than one will grow the element while values between zero and 
 
 ## Part 1 Wrap-up
 
-That was a lot of the basics and simple 2D transforms. Hopefully this has convinced you that CSS transforms is something you should to your CSS toolkit. Of course, a lot of the exciting and fun stuff will be about 3D transforms and animation, which will be covered in the next part. Stay tuned, people <span class="emoji">😄</span>.
+That was a lot of the basics and simple 2D transforms. Hopefully this has convinced you that CSS transforms is something you should to your CSS toolkit. Of course, a lot of the exciting and fun stuff will be about 3D transforms and animation, which will be covered in the next part. Stay tuned, people <span class="emoji">&#x1F601;</span>.
 

@@ -4,7 +4,7 @@ title: "The one about home"
 date: January 06, 2017
 image: project-14
 project: Penang Hokkien
-tags: [css, side-project]
+tags: [css, side-project, jekyll]
 ---
 At the end of 2016, I published a website called [Penang Hokkien 槟城福建话](http://penang-hokkien.gitlab.io). Just a few months prior, I had started playing around with the CSS writing-mode property after having a random thought on my daily bicycle commute to work. That grew into a really long blog post on [Chinese typography on the web]({{ site.url }}/blog/chinese-web-typography/), and an experimental [layout-switching demo](https://www.chenhuijing.com/zh-type/). During that period, I also discovered the [Penang Hokkien Podcast](http://penanghokkien.com/).
 
@@ -14,7 +14,7 @@ Given that building websites is one of those things that I'm sort of decent at, 
 
 ## Some logistical decisions
 
-All my previous demos and random side-projects were hosted on GitHub as project pages tied to my user account. I'm too cheap to buy additional domain names, so all of them are subsites of www.chenhuijing.com <span class="emoji">🤷‍♀️</span>. But I really wanted this site to stand alone. 
+All my previous demos and random side-projects were hosted on GitHub as project pages tied to my user account. I'm too cheap to buy additional domain names, so all of them are subsites of www.chenhuijing.com <span class="emoji">&#x1F937;</span>. But I really wanted this site to stand alone. 
 
 Sometime last year, I learned that [GitLab](https://about.gitlab.com/gitlab-com/) had [GitLab Pages](https://pages.gitlab.io/) and always wanted to try it out, but never had a compelling reason to. Until now. It wasn't the smoothest experience (largely due to my own ineptitude), but it wasn't terrible either. And I kinda like GitLab to begin with anyway. I [wrote about the experience]({{ site.url }}/blog/hosting-static-site-gitlab-pages/) as well.
 
@@ -22,7 +22,7 @@ Sometime last year, I learned that [GitLab](https://about.gitlab.com/gitlab-com/
 
 Content creation is not easy. If you find it easy, well, good for you then. I tend to write English more often, simply because English is the main language used in my industry. I use Chinese mostly when speaking, or messaging my friends. And I speak Hokkien with family or go back to Penang.
 
-Even though I'm lucky enough to have learnt English and Chinese reasonably well, I sometimes still fall into the trap of direct translation. It depends on whether I'm thinking in English or Chinese at the time. Most of the time, I'll catch these when I do a second read-through. In fact, the best thing to do (at least for me) is to do the editing after taking a nap. <span class="emoji">🙃</span>
+Even though I'm lucky enough to have learnt English and Chinese reasonably well, I sometimes still fall into the trap of direct translation. It depends on whether I'm thinking in English or Chinese at the time. Most of the time, I'll catch these when I do a second read-through. In fact, the best thing to do (at least for me) is to do the editing after taking a nap. <span class="emoji">&#x1F643;</span>
 
 There are also times when you find there is no good English equivalent for a certain Chinese phrase or vice versa. Those are the times that make my brain hurt. And because I made the ridiculous decision to record a Penang Hokkien version of each story, there's a second round to translation to be done. So content creation for this site was quite the workout for the linguistic part of my brain.
 
@@ -71,7 +71,7 @@ The <code>writing-mode</code> property was applied to the Chinese content wrappe
 
 The trickiest part about having mixed writing-modes is centring content. I'm guessing mixed writing-modes is not a common use case and the behaviour is pretty inconsistent across browsers. My primary development environment is Chrome on Mac OS, and things tend to render nicely in this environment. So if you play around with experimental features, be sure to check other browsers frequently.
 
-### I <span class="emoji">❤️</span> neon lights
+### I <span class="emoji">&#x2764;&#xFE0F;</span> neon lights
 
 For the *About* page, I applied the <code>writing-mode: vertical-rl</code> property to the entire <code>&lt;main&gt;</code> element instead, then modified individual bits to display horizontally where needed. And here I saw an opportunity to put in some CSS fanciness for the page title.
 
@@ -128,9 +128,9 @@ If you've never heard of feature queries before, you definitely must read [Jen S
 
 ### Javascript-less modal
 
-A last minute edition was a contact form. Some people are going to be horrified that I didn't plan the content of the site out before actually designing and building the thing. But I found it easier (and much faster) to just design and tweak as I built <span class="emoji">🤷‍♀️</span>.
+A last minute edition was a contact form. Some people are going to be horrified that I didn't plan the content of the site out before actually designing and building the thing. But I found it easier (and much faster) to just design and tweak as I built <span class="emoji">&#x1F937;</span>.
 
-It occurred to me that I ought to include some sort of contact information somewhere on the site, and I really didn't have a good place to chuck this form. So I decided to make it a modal, which was triggered when someone clicked on the envelope icon in the footer. Could I have put in somewhere more obvious? Sure, if I had thought this through, but I didn't. <span class="emoji">💩</span> happens.
+It occurred to me that I ought to include some sort of contact information somewhere on the site, and I really didn't have a good place to chuck this form. So I decided to make it a modal, which was triggered when someone clicked on the envelope icon in the footer. Could I have put in somewhere more obvious? Sure, if I had thought this through, but I didn't. <span class="emoji">&#x1F4A9;</span> happens.
 
 I found out about the `:target` trick from [Heydon Pickering](http://www.heydonworks.com/)'s post on [Reimagining Single-Page Applications With Progressive Enhancement](https://www.smashingmagazine.com/2015/12/reimagining-single-page-applications-progressive-enhancement/) and thought it'd be cool to build a CSS-only modal with it.
 
@@ -148,9 +148,9 @@ I found out about the `:target` trick from [Heydon Pickering](http://www.heydonw
 
 In short, `:target` is a pseudo-selector which is activated when the id of an element matches the hash in the URL. So I gave the links that were supposed to trigger the modal an `href` of `#contact` and they triggered the styles that made my contact form element visible. Also, I'm using [Formspree](https://formspree.io/) to handle the submissions, this being a static site and all. 
 
-## OMG so many bugs <span class="emoji">😭</span>
+## OMG so many bugs <span class="emoji">&#x1F62D;</span>
 
-SO. MANY. CROSS-BROWSER. BUGS. <span class="emoji">🐞</span>
+SO. MANY. CROSS-BROWSER. BUGS. <span class="emoji">&#x1F41E;</span>
 
 Browser behaviour is super inconsistent for mixing writing-modes, especially in terms of overall page layout. Chrome, Safari and Opera on Mac OS all seemed to behave reasonably well. On Firefox, `writing-mode` doesn't play well with `display: flex` and I think Firefox doesn't handle child elements with a different writing-mode from its parent the same way as the other 3 browsers. And don't get me started on the Microsoft browsers.
 

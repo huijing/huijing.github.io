@@ -56,14 +56,14 @@ The progressive enhancement for my experiment is definitely not as robust as it 
 
 *Intermission time...  
 Speaking of really old browsers, I recently attended the [Vintage Computing edition](http://www.meetup.com/Hackware/events/233881260/) of [Hackware](http://www.meetup.com/Hackware/), which is a monthly meet-up for hardware developers and enthusiasts.  
-And my brilliant friend, [Kheng Meng](http://yeokhengmeng.com/) managed to get Windows 3.1 running on modern hardware, it was brilliant. We realised that IE5 does not support HTTPS, rendering many websites unusable. Guess who works perfectly? Google.com! <span class="emoji">👏</span> for backward compatibility.*
+And my brilliant friend, [Kheng Meng](http://yeokhengmeng.com/) managed to get Windows 3.1 running on modern hardware, it was brilliant. We realised that IE5 does not support HTTPS, rendering many websites unusable. Guess who works perfectly? Google.com! <span class="emoji">&#x1F44F;</span> for backward compatibility.*
 
 ## Add a little style...
 
 Okay, so the basic version in the video was a row of radio buttons with images in the labels, plus some styles for the buttons at the bottom. I simply didn't feel like writing extra styles for that so I skipped straight to the big round image-as-selectors version. #imalazygudetama
 
 <figure>
-    <figcaption>*rolls up sleeves attempting to code*...then<span class="emoji">🚶</span></figcaption>
+    <figcaption>*rolls up sleeves attempting to code*...then<span class="emoji">&#x1F6B6;</span></figcaption>
     <img srcset="{{ site.url }}/images/posts/pwd/basic-480.jpg 480w, {{ site.url }}/images/posts/pwd/basic-640.jpg 640w, {{ site.url }}/images/posts/pwd/basic-960.jpg 960w, {{ site.url }}/images/posts/pwd/basic-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/pwd/basic-640.jpg" alt="Basic styles" />
 </figure>
 
@@ -113,7 +113,7 @@ h1 {
 
 ## ITCSS (or at least I try to)
 
-ITCSS is the CSS architectural style I aspire toward, though it still doesn't come easy to me. I've bookmarked [More Transparent UI Code with Namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) and refer back to it constantly. It's a long article but really worth your time to read through and understand the principles behind this style of architecting your CSS. Admittedly I don't think I have gotten everything down pat, so please ping me if you have suggestions on how to make my code better <span class="emoji">😌</span>. 
+ITCSS is the CSS architectural style I aspire toward, though it still doesn't come easy to me. I've bookmarked [More Transparent UI Code with Namespaces](http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/) and refer back to it constantly. It's a long article but really worth your time to read through and understand the principles behind this style of architecting your CSS. Admittedly I don't think I have gotten everything down pat, so please ping me if you have suggestions on how to make my code better <span class="emoji">&#x1F60C;</span>. 
 
 ### O is for object
 
@@ -135,7 +135,7 @@ Here's the end markup for the options (I only show 1 for brevity), which include
   &lt;/label&gt;
 &lt;/div&gt;</code></pre>
 
-Since the labels are all linked to their respective radio buttons, we can safely hide them away. But we can still utilise the pseudo-class `:checked` to indicate when an option is selected. In this case, the ordering of my elements within the label starts with radio element, then image, then text. So I used the adjacent sibling selector to target the image, and the general sibling selector for the text. Yes, it would still work if I used the general sibling selector for both elements. Somebody please tell me if there are performance implications or any browser bugs with regards to these 2 types of sibling selectors <span class="emoji">🙏</span>.
+Since the labels are all linked to their respective radio buttons, we can safely hide them away. But we can still utilise the pseudo-class `:checked` to indicate when an option is selected. In this case, the ordering of my elements within the label starts with radio element, then image, then text. So I used the adjacent sibling selector to target the image, and the general sibling selector for the text. Yes, it would still work if I used the general sibling selector for both elements. Somebody please tell me if there are performance implications or any browser bugs with regards to these 2 types of sibling selectors <span class="emoji">&#x1F64F;</span>.
 
 <pre><code class="language-css">.o-option__input {
   opacity: 0;
@@ -321,7 +321,7 @@ We make use of the `:not` pseudo-class to target all the options which weren't s
   }
 }</code></pre>
 
-When the `.is-active` selector is in play, the buttons need to be on the topmost layer, and only the selected option should be visible. The `nth-child` selectors come in very handy here, because the selected option will always appear second from the left, while the other options remain constant. Depending on the source order of the option, the relevant translation rule will kick in and shift the option to the second position every time <span class="emoji">😎</span>.
+When the `.is-active` selector is in play, the buttons need to be on the topmost layer, and only the selected option should be visible. The `nth-child` selectors come in very handy here, because the selected option will always appear second from the left, while the other options remain constant. Depending on the source order of the option, the relevant translation rule will kick in and shift the option to the second position every time <span class="emoji">&#x1F60E;</span>.
 
 I added in a logo image just to fill in the blank space in the first position after an option was selected, and it lives in the buttons wrapper. I think if I were using Grid I would have been able to specify the I wanted the logo in the first column, while the *Cancel* and *OK* buttons were in the third and fourth columns respectively. But you can't do this simply with flexbox so I cheated and used translate to kick it to the left instead. <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
 
@@ -342,4 +342,4 @@ An issue with using purely viewport units for your font-size is that there will 
 
 The entire demo is on Codepen, so feel free to do whatever you want with it. This post definitely turned out much longer than I anticipated, largely because I ramble a lot #selfaware. But I did learn a lot from building it, especially the ITCSS structuring portion. I mean, I could have chucked everything into large monolithic components and still got everything work, BUT I DIDN'T.
 
-The moral of the story is, the best way to learn something is to write a blog post about it AND imagine that it'll be read by a lot of people (even if you know odds are only 10 people will). That way you'll feel obliged to actually do some proper research and put in a decent amount of effort to clean up your code <span class="emoji">😈</span>.
+The moral of the story is, the best way to learn something is to write a blog post about it AND imagine that it'll be read by a lot of people (even if you know odds are only 10 people will). That way you'll feel obliged to actually do some proper research and put in a decent amount of effort to clean up your code <span class="emoji">&#x1F608;</span>.

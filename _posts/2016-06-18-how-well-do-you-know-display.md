@@ -8,7 +8,7 @@ custom-css: resptbls
 ---
 The *display* property is one of the most important CSS properties we use for layout. Most of us would have used `block`, `inline` and `none`. `table` and `inline-block` are also quite common. The new darling is definitely `flex`, because it's a display property that was created specifically for layout. The upcoming `grid` (currently still being actively worked on) is another layout-specific property that we'll soon have in our arsenal as well.
 
-This post grew much longer than I initially expected so feel free to skip to a subsection if you wish. Though I would really appreciate it if you took the time to read the whole post <span class="emoji">😁</span>.
+This post grew much longer than I initially expected so feel free to skip to a subsection if you wish. Though I would really appreciate it if you took the time to read the whole post <span class="emoji">&#x1F601;</span>.
 
 ## Table of contents
 
