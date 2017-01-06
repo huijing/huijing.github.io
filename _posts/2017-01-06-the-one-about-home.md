@@ -209,5 +209,5 @@ It had been a while since I built something for myself, so this was a fun projec
   <li class="no-margin"><a href="https://www.w3.org/TR/css-writing-modes-3/">CSS Writing Modes Level 3</a></li>
   <li class="no-margin"><a href="https://24ways.org/2016/css-writing-modes/">CSS Writing Modes</a></li>
   <li class="no-margin"><a href="https://hacks.mozilla.org/2016/08/using-feature-queries-in-css/">Using Feature Queries in CSS</a></li>
-  <li><a href="http://tategaki.github.io/awards/">たてよこＷｅｂアワード</a></li>
+  <li><a href="http://tategaki.github.io/awards/">たてよこWebアワード</a></li>
 </ul>
