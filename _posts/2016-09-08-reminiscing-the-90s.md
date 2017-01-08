@@ -5,7 +5,7 @@ date: 8 September, 2016
 image: vintage.jpg
 tags: [opinion]
 ---
-So I'm fresh off the latest iteration of [Hackware](http://www.meetup.com/Hackware/), a monthly meetup for hardware developers and enthusiasts in Singapore and the theme for this round was Vintage Computing. I can't tell you how much I appreciate and love vintage technology, but generally my face goes <span class="emoji">&#x1F60D;</span> when the topic comes up.
+So I'm fresh off the latest iteration of [Hackware](http://www.meetup.com/Hackware/), a monthly meetup for hardware developers and enthusiasts in Singapore and the theme for this round was Vintage Computing. I can't tell you how much I appreciate and love vintage technology, but generally my face goes <span class="emoji" role="img" tabindex="0" aria-label="smiling face with heart-eyes">&#x1F60D;</span> when the topic comes up.
 
 The event reminded me of a really long conversation I had with a friend a couple months ago. We hadn’t met in a while and our conversation veered all over the place. But one of the things we talked about was computers. Specifically, how some people are just averse to figuring out computers, that it’s a specific personality that can become “IT folk”.
 
@@ -103,7 +103,7 @@ You can imagine how ecstatic I was when I discovered this marvellous app known a
 
 We moved on to Windows 3.1 eventually and that brought along another set of games into my life. There was this Tetris clone called Faces that somehow left a pretty lasting impression. But speaking of Tetris, I can't tell you how many hours I spent on that. There was one point where when I closed my eyes I could see those falling blocks. There was also this golf game I can't really remember and Ski Free!
 
-If you haven't played Ski Free before, it's really simple. You control this ski-er zooming downhill but you get points for doing tricks on jumps. But it was compellingly addictive. In fact, this probably explains why I loved the SSX series much later when I finally got a Playstation. <span class="emoji">&#x1F631;</span> Revelations!
+If you haven't played Ski Free before, it's really simple. You control this ski-er zooming downhill but you get points for doing tricks on jumps. But it was compellingly addictive. In fact, this probably explains why I loved the SSX series much later when I finally got a Playstation. <span class="emoji" role="img" tabindex="0" aria-label="face screaming in fear">&#x1F631;</span> Revelations!
 
 <div class="figure-wrapper">
     <figure class="multiple">
@@ -118,6 +118,6 @@ If you haven't played Ski Free before, it's really simple. You control this ski-
 
 ## Wrapping up
 
-Well, that was my trip down memory lane. I don't actually personally know that many people who love old games, come to think of it. So that's probably why this post grew so long, years of conversation about vintage games just tumbling out from my brain. <span class="emoji">&#x1F913;</span>
+Well, that was my trip down memory lane. I don't actually personally know that many people who love old games, come to think of it. So that's probably why this post grew so long, years of conversation about vintage games just tumbling out from my brain. <span class="emoji" role="img" tabindex="0" aria-label="nerd face">&#x1F913;</span>
 
 Anyway, if you're remotely interested in hardware and are currently in or will be in Singapore, check out [Hackware](http://www.meetup.com/Hackware/) or any other of the local tech meetups from [webuild.sg](https://webuild.sg/).

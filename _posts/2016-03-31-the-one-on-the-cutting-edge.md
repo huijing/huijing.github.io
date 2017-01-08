@@ -84,7 +84,7 @@ Earlier in March, [Roel Nieskens](https://twitter.com/pixelambacht) released [Bi
 
 ### Flexbox
 
-This site is not complicated. I could probably get away with almost no layout at all, but some things still need to fall in line. Might as well throw in some flexbox, right? TL:DR is, flexbox plus media queries = win! <span class="emoji">&#x1F60E;</span>
+This site is not complicated. I could probably get away with almost no layout at all, but some things still need to fall in line. Might as well throw in some flexbox, right? TL:DR is, flexbox plus media queries = win! <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span>
 
 <figure>
     <figcaption>Look at those beautiful faces.</figcaption>

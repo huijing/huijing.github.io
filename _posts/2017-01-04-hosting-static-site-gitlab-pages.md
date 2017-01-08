@@ -4,7 +4,7 @@ title: "Hosting a Jekyll site on GitLab Pages"
 date: January 04, 2017
 tags: [gitlab-pages]
 ---
-I've always hosted my static site projects on [GitHub Pages](https://pages.github.com/) and honestly, it's been great. Setup takes no time (maybe because I've done it so many times before), especially since GitHub [simplified the publishing process](https://github.com/blog/2228-simpler-github-pages-publishing). But because <span class="emoji">&#x1F3B6;</span> I'm just a sucker for pain <span class="emoji">&#x1F3B6;</span>(*insert music to Sucker for Pain from the Suicide Squad OST* ), I decided to give [GitLab Pages](https://pages.gitlab.io/) a try instead.
+I've always hosted my static site projects on [GitHub Pages](https://pages.github.com/) and honestly, it's been great. Setup takes no time (maybe because I've done it so many times before), especially since GitHub [simplified the publishing process](https://github.com/blog/2228-simpler-github-pages-publishing). But because <span class="emoji" role="img" tabindex="0" aria-label="musical notes">&#x1F3B6;</span> I'm just a sucker for pain <span class="emoji" role="img" tabindex="0" aria-label="musical notes">&#x1F3B6;</span>(*insert music to Sucker for Pain from the Suicide Squad OST* ), I decided to give [GitLab Pages](https://pages.gitlab.io/) a try instead.
 
 It's not that GitLab Pages is bad, far from it. But doing anything for the first time (even setting up GitHub Pages) will be a little bit tricky. Also, GitLab Pages is slightly harder to setup but provides much more flexibility, so weigh your pros and cons. [Jekyll](https://jekyllrb.com/) is my static site generator of choice.
 
@@ -72,7 +72,7 @@ exclude:
 
     <pre><code class="language-yaml">exclude: [vendor, "Gemfile", "Gemfile.lock", node_modules, "gulpfile.js", "package.json"]</code></pre>
 
-5. Push your files up to GitLab and watch it run in the pipeline page. If you run into a `Could not find a Javascript runtime.` error, which I somehow did, you may need to include the line `gem 'therubyracer'` in your `Gemfile`. [Relevant issue log here](https://github.com/jekyll/jekyll/issues/2327). Why is a Javascript runtime needed for a Jekyll site you may ask? It's most probably not needed, but something up with my site's files <span class="emoji">&#x1F937;</span>.
+5. Push your files up to GitLab and watch it run in the pipeline page. If you run into a `Could not find a Javascript runtime.` error, which I somehow did, you may need to include the line `gem 'therubyracer'` in your `Gemfile`. [Relevant issue log here](https://github.com/jekyll/jekyll/issues/2327). Why is a Javascript runtime needed for a Jekyll site you may ask? It's most probably not needed, but something up with my site's files <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>.
 
 ## Wrapping up
 

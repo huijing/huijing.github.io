@@ -5,7 +5,7 @@ date: 22 August, 2016
 image: tl-ws2.jpg
 tags: [css, design]
 ---
-So there's this thing going on known as the [TechLadies Bootcamp](http://www.techladies.co/). TechLadies is a community-led initiative for women in Asia to connect, learn, and advance as programmers in the tech industry (I lifted that verbatim from the website <span class="emoji">&#x1F61B;</span>). I was helping out with one of the pre-bootcamp workshops covering, what else, HTML and CSS.
+So there's this thing going on known as the [TechLadies Bootcamp](http://www.techladies.co/). TechLadies is a community-led initiative for women in Asia to connect, learn, and advance as programmers in the tech industry (I lifted that verbatim from the website <span class="emoji" role="img" tabindex="0" aria-label="face with stuck-out tongue">&#x1F61B;</span>). I was helping out with one of the pre-bootcamp workshops covering, what else, HTML and CSS.
 
 The goal of the workshop was to introduce the basics of the Internet, plus an introduction to HTML and CSS. Our task for the day was to style a simple Ruby application, called Guess The Number. Although the application was built in Ruby, the participants only needed to concern themselves with the views portion.
 
@@ -13,7 +13,7 @@ Given I was supposed to be teaching this workshop, I figured I'd better do some 
 
 ## Application mark-up  
 
-The [base application](https://github.com/TechLadies/guess-the-number-sinatra) was written by [Gabe Hollombe](http://avantbard.com/), probably in 5 minutes with one hand tied behind his back, because he's brilliant like that <span class="emoji">&#x1F60E;</span>. There were 3 main views, the start page, play page and win page. Excellent, because it provided just enough material to cover for a beginner's workshop.
+The [base application](https://github.com/TechLadies/guess-the-number-sinatra) was written by [Gabe Hollombe](http://avantbard.com/), probably in 5 minutes with one hand tied behind his back, because he's brilliant like that <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span>. There were 3 main views, the start page, play page and win page. Excellent, because it provided just enough material to cover for a beginner's workshop.
 
 <p class="no-margin"><strong>index.html</strong></p>
 <pre><code class="language-markup">&lt;body class="flex start"&gt;
@@ -174,7 +174,7 @@ If you wanted to do something like a rainbow-layered block effect, then your cod
 
 By right, CSS gradients are cannot be animated. But by left, we can sort of hack it to work. Note the term hack. This particular hack I'm using is a performance killer, which means I need to research a bit further on more performant techniques, maybe involving `will-change` or some way of manipulating an extra `div` or 2 with `transform: translate()` instead. Stay tuned, folks.
 
-But for now, as I ask for forgiveness from the performance gods, hacky method it is. The trick involves animating the `background-position` property (which is extremely resource-heavy because it's triggering a repaint for every frame of the animation <span class="emoji">&#x1F614;</span>.
+But for now, as I ask for forgiveness from the performance gods, hacky method it is. The trick involves animating the `background-position` property (which is extremely resource-heavy because it's triggering a repaint for every frame of the animation <span class="emoji" role="img" tabindex="0" aria-label="pensive face">&#x1F614;</span>.
 
 <pre><code class="language-css">body {
   height: 100%;

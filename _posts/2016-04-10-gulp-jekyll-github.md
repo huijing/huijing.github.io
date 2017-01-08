@@ -209,7 +209,7 @@ var cp          = require('child_process');&#10;</code></pre>
         <pre><code class="language-javascript">gulp.task('default', ['browser-sync', 'watch']);
     - Build task, run using `gulp build` to compile Sass and Javascript ready for deployment.
         <pre><code class="language-javascript">gulp.task('build', ['scripts-prod', 'sass-prod', 'jekyll-prod']);</code></pre>
-4. Run `npm install` to install all the required node modules, then run `gulp` to spin up the BrowserSync server and start building your site with the advantage of live reload whenever you save your working files. <span class="emoji">&#x1F60E;</span>
+4. Run `npm install` to install all the required node modules, then run `gulp` to spin up the BrowserSync server and start building your site with the advantage of live reload whenever you save your working files. <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span>
 
 *Disclaimer: I'm pretty sure lots of people have much better workflows that the one outlined above. I know someone who uses just npm scripts to do something similar. Unfortunately, I'm not at that level of ninja yet. But you'd like to suggest improvements, I'd love to hear them.*
 

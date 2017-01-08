@@ -56,6 +56,36 @@ picture img {
   }
 }
 
+span[role=img][aria-label],
+span[role=img][aria-label] {
+  position: relative;
+}
+
+span[role=img][aria-label]:focus::after,
+span[role=img][aria-label]:hover::after {
+  font-size: 50%;
+  font-family: $base-font;
+  font-weight: 400;
+  position: absolute;
+  display: block;
+  line-height: 1.2;
+  content: attr(aria-label);
+  z-index: 1;
+  bottom: 2.5em;
+  left: 0;
+  background: color('english-walnut');
+  color: color('white');
+  padding: 0.25em;
+  border: 1px solid color('white');
+  box-shadow: 2px 2px 4px color('english-walnut');
+}
+
+@media print {
+  span[role=img][aria-label]::after {
+    content: " (" attr(aria-label) ") ";
+  }
+}
+
 .kaomoji {
   white-space: nowrap;
   font-style: normal;

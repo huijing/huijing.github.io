@@ -91,7 +91,7 @@ The 19th and 20th centuries was a tumultuous time for China, and the aforementio
 
 <h2 id="research-triggered-brain-dump">Research-triggered brain dump <small><a href="#chinese-fonts-offline-and-online">(skip to next section)</a></small></h2>
 
-As mentioned, I seem to be awfully fond of going down rabbit holes and often barely 20% of what I read and discover end up in the article. What started out as a brief foray into the history of Chinese writing ended up becoming a deep dive into how the world ended up the way it is. There are a lot of ideas that popped into my head during this process and I'm just going to dump them here. Feel free to skip forward (but <span class="emoji">&#x1F618;</span> if you read through).
+As mentioned, I seem to be awfully fond of going down rabbit holes and often barely 20% of what I read and discover end up in the article. What started out as a brief foray into the history of Chinese writing ended up becoming a deep dive into how the world ended up the way it is. There are a lot of ideas that popped into my head during this process and I'm just going to dump them here. Feel free to skip forward (but <span class="emoji" role="img" tabindex="0" aria-label="face blowing a kiss">&#x1F618;</span> if you read through).
 
 ### Do you AU?
 
@@ -300,7 +300,7 @@ My main source of reference was [W3C's Requirements for Chinese Text Layout](htt
 
 I also changed the text from Simplified Chinese to Traditional Chinese, this is more of a personal style preference. For Traditional Chinese fonts, the punctuation is positioned in the middle of the bounding box, while Simplified Chinese fonts have the punctuation skewed to the left-bottom corner. I felt it looked better for the punctuation to be centred for the vertical layout. Besides, it's more common to see Traditional Chinese laid out vertically than Simplified Chinese anyway.
 
-I found out that if you don't explicitly set a Traditional Chinese font, the punctuation will always be in the Simplified Chinese style (spent way too much time figuring this one out <span class="emoji">&#x1F62D;</span>). If you read the previous section on Chinese web fonts, you'll know that custom fonts are huge. So system fonts are preferable. I chose to use 黑体 (Chinese version of sans-serif) as the body font. Font stack looks like this:
+I found out that if you don't explicitly set a Traditional Chinese font, the punctuation will always be in the Simplified Chinese style (spent way too much time figuring this one out <span class="emoji" role="img" tabindex="0" aria-label="loudly crying face">&#x1F62D;</span>). If you read the previous section on Chinese web fonts, you'll know that custom fonts are huge. So system fonts are preferable. I chose to use 黑体 (Chinese version of sans-serif) as the body font. Font stack looks like this:
 
 <pre><code class="language-css">body {
   font-family: "Microsoft JhengHei", "微軟正黑體", "Heiti TC", "黑體-繁", sans-serif;
@@ -323,7 +323,7 @@ I also thought it'd be interesting to add a mode switcher (seemed like a good id
 
 The switcher utilises the checkbox hack to trigger the switch in writing-mode. After a LOT of experimenting, I ran into a couple of issues. Firstly, when the writing-mode changes from horizontal to vertical, the scrolling still starts from left to right. This means users see the end of the article when I switch to vertical right-to-left mode and need to scroll all the way to the right to get to the start of the content.
 
-Another issue was related to art-direction of the images on the page. I started off the design for a vertical layout, so my images were portrait-oriented (is that even a term?). But when the layout switches to horizontal mode, the images look out of place. I wish the picture element took writing-mode as a media query, but I suppose this use-case is quite niche. Who on earth would want to switch text orientation? <span class="emoji">&#x1F64B;</span>
+Another issue was related to art-direction of the images on the page. I started off the design for a vertical layout, so my images were portrait-oriented (is that even a term?). But when the layout switches to horizontal mode, the images look out of place. I wish the picture element took writing-mode as a media query, but I suppose this use-case is quite niche. Who on earth would want to switch text orientation? <span class="emoji" role="img" tabindex="0" aria-label="person raising hand">&#x1F64B;</span>
 
 My end solution is more of a hack than a solution, but I categorised the images into 3 groups, rotatable, stackable and square. Let me explain. Rotatable means that the image works simply by rotating it 90 degrees. Stackable is actually 2 images that are stacked when vertical and side-by-side when horizontal, and square just means the image can be used for both vertical and horizontal layouts. As I said, this is a hack.
 
