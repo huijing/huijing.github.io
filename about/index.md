@@ -12,7 +12,7 @@ From there, I discovered the existence of content management systems and migrate
 
 After a 4-year sabbatical (from web development), I decided to restart this journey by diving in head-first this time. In September of 2013, I got a job in the web industry and this website chronicles my experiences as I learn new things, fail spectacularly and make cool stuff along the way.
 
-I also co-organise Talk.CSS, a meetup around all things CSS, with [Chris Lienert](https://twitter.com/cliener). The idea for Talk.CSS was born on the [Kopi.JS](http://kopijs.org/) slack channel on October 26, 2015 and within 2 hours, we had a [logo](https://github.com/Singapore-CSS/logo), a [Gitter channel](https://gitter.im/Singapore-CSS/discussions), a [Meetup.com](http://www.meetup.com/Singapore-CSS/) account, a venue for the meetup and a couple speakers. Colour us efficient <span class="emoji">&#x1F60E;</span>.
+I also co-organise Talk.CSS, a meetup around all things CSS, with [Chris Lienert](https://twitter.com/cliener). The idea for Talk.CSS was born on the [Kopi.JS](http://kopijs.org/) slack channel on October 26, 2015 and within 2 hours, we had a [logo](https://github.com/Singapore-CSS/logo), a [Gitter channel](https://gitter.im/Singapore-CSS/discussions), a [Meetup.com](http://www.meetup.com/Singapore-CSS/) account, a venue for the meetup and a couple speakers. Colour us efficient <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span>.
 
 ### Anything not related to the web?
 
@@ -26,7 +26,7 @@ Oh, and I cycle everywhere on my trusty second-hand Muji commuter bicycle.
 
 ### Elsewhere on the interwebs
 
-<p class="no-margin">Some lovely human beings were willing to hear what I had to say, or thought I was reasonably interesting to write about, so thank you to these people. <span class="emoji">🤗</span></p>
+<p class="no-margin">Some lovely human beings were willing to hear what I had to say, or thought I was reasonably interesting to write about, so thank you to these people. <span class="emoji" role="img" tabindex="0" aria-label="hugging face">&#x1F917;</span></p>
 
 <ul>
   <li class="no-margin"><a href="https://web.archive.org/web/20170105035545/http://www.tomboy-tarts.com/tomboy-tirade-ep-72-comedy-podcast-beam-me-up-f-sayanee-basu-and-chen-huijing/">Ep 72: Beam me up f. Sayanee Basu and Chen Hui Jing</a></li>
