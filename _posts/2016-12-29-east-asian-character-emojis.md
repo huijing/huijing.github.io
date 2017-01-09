@@ -45,13 +45,13 @@ These emojis came from the [Association of Radio Industries and Businesses (ARIB
 
 ## The Dumpling Emoji Project
 
-I must highlight the existence of this project. It was started by [Jennifer 8. Lee](http://www.jennifer8lee.com/) and [Yiying Lu](http://www.yiyinglu.com/) who were appalled by the fact we do not have a dumpling emoji (I love dumplings, so I'm appalled too). But when they looked into the emoji proposal process, they found that the Unicode Consortium was actually controlled by a handful of [multinational American tech corporations](http://www.unicode.org/consortium/members.html). And membership is quite pricey.
+I must highlight the existence of this project. It was started by [Jennifer 8. Lee](http://www.jennifer8lee.com/) and [Yiying Lu](http://www.yiyinglu.com/) who were appalled by the fact that we do not have a dumpling emoji (I love dumplings, so I'm appalled too). But when they looked into the emoji proposal process, they found that the Unicode Consortium was actually controlled by a handful of [multinational American tech corporations](http://www.unicode.org/consortium/members.html). And membership is quite pricey.
 
 > The decision makers along the way are overwhelmingly male, overwhelming white and overwhelmingly engineers. They specialize in encoding. Such a review process certainly is less than ideal for promoting a vibrant visual language used throughout the world.
 
-So they came up with a Kickstarter project called [Where Is the Dumpling Emoji?](https://www.kickstarter.com/projects/657685639/where-is-the-dumpling-emoji) to raise enough funds to get non-voting affiliate membership on Unicode, and eventually create a system where popular emoji requests (\#emojirequest) can systematically bubble up and transformed into proper proposals for the Unicode Consortium.
+So they came up with a Kickstarter project called [Where Is the Dumpling Emoji?](https://www.kickstarter.com/projects/657685639/where-is-the-dumpling-emoji) to raise enough funds to get non-voting affiliate membership in the Unicode Consortium, and eventually create a system where popular emoji requests (\#emojirequest) can systematically bubble up and get transformed into proper proposals for the Unicode Consortium.
 
-And by golly, they did it! With the amount of publicity their campaign generated and support like-minded emoji-loving people, [Unicode v10.0, slated for release in June 2017](http://www.unicode.org/emoji/charts/emoji-candidates.html), will include the Dumpling, Takeout box, Fortune cookie and Chopsticks emojis. As a side note, I'm excited because the "Face with one eyebrow raised" emoji also made the cut.
+And by golly, they did it! With the amount of publicity their campaign generated and support from like-minded emoji-loving people, [Unicode v10.0, slated for release in June 2017](http://www.unicode.org/emoji/charts/emoji-candidates.html), will include the Dumpling, Takeout box, Fortune cookie and Chopsticks emojis. As a side note, I'm excited because the "Face with one eyebrow raised" emoji also made the cut.
 
 I love a happy ending <span class="emoji" role="img" tabindex="0" aria-label="confetti ball">&#x1F38A;</span>.  Here's the link to the actual [Dumpling Emoji Submission](http://www.unicode.org/L2/L2016/16024-dumpling-emoji.pdf) that was proposed earlier this year.
 
