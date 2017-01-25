@@ -9,13 +9,14 @@ One of the best things about Drupal is its robust multilingual support. If you n
 
 <p class="no-margin"><strong>Required modules</strong></p>
 <ul>
-<li class="no-margin">Locale <em>(core module)</em></li>
-<li class="no-margin">Content translation <em>(core module)</em></li>
-<li class="no-margin"><a href="https://www.drupal.org/project/i18n">Internationalization</a></li>
-<li><a href="https://www.drupal.org/project/variable">Variable</a><em> (dependency for Internationalization)</em></li>
+    <li class="no-margin">Locale <em>(core module)</em></li>
+    <li class="no-margin">Content translation <em>(core module)</em></li>
+    <li class="no-margin"><a href="https://www.drupal.org/project/i18n">Internationalization</a></li>
+    <li><a href="https://www.drupal.org/project/variable">Variable</a><em> (dependency for Internationalization)</em></li>
 </ul>
 
-###Making your site multi-lingual
+### Making your site multi-lingual
+
 1. Install and enable the required modules.
     <pre><code class="language-bash">drush en i18n i18n_node -y</code></pre>
     This will enable i18n and its dependencies. The i18n module comes with a number of sub-modules, which you can enable based on your requirements. For now, just enable `i18n_node` for content translation. Go [here](http://evolvingweb.ca/story/drupal-7-multilingual-whats-new-i18n) for a comprehensive write-up of all the sub-modules.
@@ -24,8 +25,9 @@ One of the best things about Drupal is its robust multilingual support. If you n
     <img src="{{ site.url }}/images/posts/sfo/add-language.jpg" alt="Add language"/>
 
 
-###Further reading
+### Further reading
+
 <ul>
-<li class="no-margin"><a href="http://evolvingweb.ca/story/drupal-7-multilingual-whats-new-i18n">Drupal 7 Multilingual: What's new in i18n</a></li>
-<li><a href="http://www.garfieldtech.com/blog/mvc-vs-pac">MVC vs. PAC</a></li>
+    <li class="no-margin"><a href="http://evolvingweb.ca/story/drupal-7-multilingual-whats-new-i18n">Drupal 7 Multilingual: What's new in i18n</a></li>
+    <li><a href="http://www.garfieldtech.com/blog/mvc-vs-pac">MVC vs. PAC</a></li>
 </ul>

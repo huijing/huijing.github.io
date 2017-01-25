@@ -79,7 +79,7 @@ blockquote {
     font-size: 4em;
     line-height: 0.1em;
     margin-right: 0.1em;
-    vertical-align: -0.5em;
+    vertical-align: -0.25em;
     color: color('royal-blue');
     content: '\201C';
     font-family: $display-font;
@@ -88,7 +88,6 @@ blockquote {
   &::after {
     font-size: 4em;
     line-height: 0.1em;
-    margin-left: 0.1em;
     vertical-align: -0.5em;
     color: color('royal-blue');
     content: '\201D';
@@ -146,6 +145,17 @@ kbd {
   margin: 0 0.1em;
   padding: 0.1em 0.6em;
   text-shadow: 0 1px 0 color('white');
+}
+
+.note {
+  background: url('/images/bg-note.jpg');
+  border-left: 10px solid color('winter-hazel');
+  padding: rhythm(0.5);
+  margin-bottom: rhythm(1);
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .site-branding__title a {
