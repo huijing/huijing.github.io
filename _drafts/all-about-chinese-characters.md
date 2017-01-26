@@ -31,12 +31,6 @@ Provided the planet still exists.
 
 Oh, was that too morbid? What can I say? I'm genuinely worried we're going to blow ourselves up <span class="emoji" role="img" tabindex="0" aria-label="pensive face">&#x1F614;</span>. Anyway, moving on...
 
-One of the most significant developments in Chinese civilisation is the standardisation of the Chinese language by the First Emperor of Qin (秦始皇), after he successfully conquered all the other states and unified China.
-
-<div class="note">
-    <p>test test test</p>
-</div>
-
 ### Pottery etchings (陶文)
 
 *insert timeline portion*
@@ -48,7 +42,14 @@ Professor Zheng Huisheng (郑慧生老师) from Henan University posited that [C
     <img src="{{ site.url }}/images/posts/zh-type/liuwan.png" srcset="{{ site.url }}/images/posts/zh-type/liuwan@2x.png 2x" />
 </figure>
 
-### Oracle bone script (甲骨文)
+### Seal script (篆书)
+
+One of the most significant developments in Chinese civilisation is the standardisation of the Chinese language by the First Emperor of Qin (秦始皇), after he successfully conquered all the other states and unified China in 221 BCE. Before that, things were pretty fragmented, both geographically as well as in terms of language
+
+Seal script can be broadly categorised into Large Seal (大篆) and Small Seal (小篆). Large seal is the precursor to Small seal. after western zhou, spring summer and warring states period messy, all the states had their own style of writing and some words were pronounced differently too, scripts like Stone Drum script (石鼓文) Bird Worm script (鸟虫书) etc
+李斯tasked to come up with a standardised script with large seal as the base, take in the good parts of the other states' script basically clean up the warring states variants, Small seal became the official script during the Qin dynasty, while the scripts that came before it are known as large seal.
+
+#### Oracle bone script (甲骨文)
 
 *insert timeline portion*
 
@@ -67,12 +68,105 @@ Oracle bone script is very pictographic in nature, for example, the word for sun
 
 The thin strokes and limited curves stem from the fact that turtle plastrons and animal bones are very hard and thus aren't easy to carve. As mentioned earlier, Oracle bone script as a language was pretty sophisticated already, complete with verbs and pronouns. Although the characters themselves were far from the standardised characters we see today. I mean, everyone draws a bird or fish differently <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>.
 
-### Bronze script
+#### Bronze script (金文)
 
 *insert timeline portion*
 
+from middle Shang till Western Zhou
+bronze ware was made from copper and tin
+used mainly as elites ancestral worship, status symbol
+words were inscribed into these bronze ritual vessels
+~3700 different chinese glyphs
+script had a majestic feel
+evolution of oracle bone script
+more uniform, less pictogram
+late western zhou period bronze script, strokes were thicker, more curves
+
+script was written in clay moulds using a brush then carefully carved, words cast onto bronze ware
+engravings 铭文 less common during shang, more during western zhou, earliest long form writing
+still a lot of variant glyphs and pictographic, start of combination glyphs
+historical records of shang and western zhou on bronze script how zhou defeated shang
+
+#### Other Large Seal scripts
+
+During the spring autumn and warring states, there were several variant scripts like stone drum script and bird worm script. Stone drum script duringwarring states, more than 700 characters on the hunting activeities of empreror qin more calligraphic than bronze script 10 of these stone drumbs in beijing 故宫博物院 
+
+#### Small seal script (小篆)
+
+simplified, more distinct radicals, less strokes standardised after the discarding of variant glyphs more phonograms
+reduced pictographic properties, less like pictures more symbol less picture
+neater, arguably the most artistic of all the scripts, but also slow to write, curves and strokes are elegant
+used throughout han dynasty, fell out of fashion during three kingdoms 魏晋时期
+ 许慎《说文解字》中叙“自尔秦书有八体：一曰大篆；二曰小篆；三曰刻符；四曰蟲書；五曰摹印；六曰署書；七曰殳書；八曰隸書
+
+### Clerical script (隶书)
+
+evolved from small seal, end of qin, reached peak during east han 东汉时期, 汉隶唐楷 
+simplification of strokes, from round to square, from the round curves of seal to angled lines of clerical
+continuous strokes to 断笔 calligraphic qualities, 起笔 顿笔 吞头燕尾 一波三折 
+glyphs were wide, longer horizontal and shorter vertical 秦隶 汉隶
+quicker to write, distinct strokes used today developed
+small script was official script during qin, among the people there was a quicker writing script: clerical sript
+people wrote using brushes on bamboo and wood, modified the curves to straight strokes for quicker writing, simplified storkes, 徒隶 so called clerical
+clerical script was used during qin, only officials used small seal
+both were accepted
+han dynasty, everyone used clerical
+can be seen on engravings, bamboo, silk
+from long and thin to wide and short to fit onto bamboo strips
+from curved to straight for faster writing
+long strokes broken up to 点横竖撇捺
+thick and thin because brush strikes
+further simplication of glyph strokes, significant structrual modifications from small seal, introduction of standardised radicals
+no longer pictographs, become stroke based symbol, clerical script marked the end of pictographic nature
+隶变 the chasm between old chinese and modern chinese
+
+Rapid script 草书
+
+popular among the people cursive script 章草 今草 -> no standardisation, became even more messy after tang dynasty's 狂草 more form than function 行草
+
+章草
+隶草 during the transition from qin to han
+east han primary school curriculum, has seal script flavour
+sui dynasty has 楷书 flavour
+song yuan dynasty has 行楷 flavour
+spanned 3 styles of scripts
+今草
+east han widely used, 东晋 became more mature, inherited some charcteristics of 章草, simplify strokes, suited for writing fast
+replaced individual strokes like 撇捺勾横折弯 with loops
+characters were not standard size, broke out of the "grid"
+very rhythmic and artistic
+
+狂草
+evolved from 今草 breaks the mold of square characters, matured during tang dynasty, unique free flow 
+simplified the strokes almost excessively
+totally artistic, no standard restricted forms, curves and strokes flow like water
+however it's not just draw whatever you want, the trick is to respect the basic tenets of rapid script, which is you can't make arbitrary changes to the characters as you please
+
+行草
+based on model script uses 今草 skeleton and stroke technique 
+
+made for speed writing, 书画家 write and draw, write always comes first
+cursives' legibility suffer but look pretty
 
 
+### Model script (楷书)
+
+neat and square, hence model, strokes are mostly straight
+end of han, 3 kingdoms 
+tang dynasty mature calligraphy
+techniques for writing large characters and small characters are different
+大字难于结密而无间，小字难于宽绰有余
+song dynasty printing, model script and resulting variants are the font of choice
+used in modern day
+
+Running script 行书
+end of han based on model script
+between model script and 草书
+increase writing speed while avoiding the legibility issues of 草书
+not as messy as 草书 but not as rigid and neat as model script
+reached height in song dynasty
+never died out
+from 魏晋,隋唐 till now
 ## References
 
 - <span id="ref1">1</span> - [Early Pottery at 20,000 Years Ago in Xianrendong Cave, China
