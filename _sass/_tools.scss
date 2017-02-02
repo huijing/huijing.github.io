@@ -1,0 +1,45 @@
+// =====
+// Tools
+// =====
+// Mixins
+@mixin cf {
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+@mixin center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin image-replacement {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+@mixin z-index($layer, $position:relative) {
+  position: $position;
+  z-index: layer-index($layer);
+}
+
+// Functions
+@function color($color, $map: $colors) {
+  @return map-get($colors, $color);
+}
+
+@function layer-index($layer) {
+  @return index($layers, $layer);
+}
+
+@function text-color($color) {
+  @if (lightness($color) > 49) {
+    @return color(txt-dark); // Lighter background, return dark color
+  } @else {
+    @return color(txt-light); // Darker background, return light color
+  }
+}

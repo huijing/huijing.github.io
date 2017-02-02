@@ -1,0 +1,85 @@
+// =======
+// Objects
+// =======
+.icon {
+  > svg {
+    display: inline-block;
+    height: 1em;
+    vertical-align: middle;
+    width: 1em;
+
+    path {
+      fill: color('apple');
+    }
+
+    a & path {
+      fill: color('apple');
+
+      &:hover {
+        fill: lighten(color('apple'), 20%);
+      }
+    }
+  }
+}
+
+.icon--title {
+  > svg {
+    height: 1.25em;
+    width: 1.25em;
+    display: inline-block;
+    vertical-align: middle;
+
+    @include mappy-bp(medium) {
+      height: 1.5em;
+      width: 1.5em;
+    }
+
+    path {
+      fill: color('mineshaft');
+    }
+  }
+}
+
+.emoji {
+  font-size: 1.294rem;
+  line-height: 1;
+  font-style: normal;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Segoe UI Emoji';
+}
+
+span[role=img][aria-label],
+span[role=img][aria-label] {
+  position: relative;
+}
+
+span[role=img][aria-label]:focus::after,
+span[role=img][aria-label]:hover::after {
+  font-size: 50%;
+  font-family: $base-font;
+  font-weight: 400;
+  position: absolute;
+  display: block;
+  line-height: 1.2;
+  content: attr(aria-label);
+  z-index: 1;
+  bottom: 2.5em;
+  left: 0;
+  background: color('english-walnut');
+  color: color('white');
+  padding: 0.25em;
+  border: 1px solid color('white');
+  box-shadow: 2px 2px 4px color('english-walnut');
+}
+
+@media print {
+  span[role=img][aria-label]::after {
+    content: " (" attr(aria-label) ") ";
+  }
+}
+
+.post-meta {
+  font-size: 75%;
+  color: lighten(color('abbey'), 20%);
+}

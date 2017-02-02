@@ -34,7 +34,7 @@ gulp.task('jekyll-rebuild', ['jekyll-dev'], function () {
 gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-dev'], function() {
   browserSync.init({
     server: "_site",
-    port: 1234
+    port: 4321
   });
 });
 
@@ -42,7 +42,7 @@ gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-dev'], function() {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-  return gulp.src(['_sass/styles.scss', '_sass/styles+resptbls.scss'])
+  return gulp.src(['_sass/pages.scss', '_sass/posts.scss'])
     .pipe(sass({
       includePaths: ['scss'],
       onError: browserSync.notify
@@ -54,10 +54,10 @@ gulp.task('sass', function () {
 });
 
 /**
- * Compile files from _js/lib into both _site/js (for live injecting) and site (for future jekyll builds)
+ * Compile files from _js into both _site/js (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('scripts', function() {
-  return gulp.src(['_js/lib/*.js'])
+  return gulp.src(['_js/lib/*.js', '_js/custom.js'])
     .pipe(concat('scripts.js'))
     .pipe(gulp.dest('_site/js'))
     .pipe(browserSync.reload({stream:true}))
@@ -75,39 +75,6 @@ gulp.task('watch', function () {
 });
 
 /**
- * Get comments from Poole
- */
-gulp.task("comments", function() {
-  var options = {
-    hostname: 'pooleapp.com',
-    port: 80,
-    path: '/data/b9795210-2fdf-4d80-8dfe-31ed93a0ea24.yaml',
-    method: 'GET'
-  };
-  // Go and get data
-  require('http').get(options, function(res) {
-    var body = '';
-    res.on('data', function(chunk) {
-        body += chunk;
-    });
-    res.on('end', function() {
-      // Save the comments for jekyll to use as a data source
-      require('fs').writeFile('./_data/rawcomments.yml', body, function(err) {
-        if(err) {
-          console.log(err);
-        } else {
-          console.log("Comments data saved.");
-        }
-      });
-    });
-  }).on('error', function(e) {
-    console.log("Got error: ", e);
-  });
-});
-
-gulp.task('comments', ['comments']);
-
-/**
  * Build the Jekyll Site in production mode
  */
 gulp.task('jekyll-prod', function (done) {
@@ -120,7 +87,7 @@ gulp.task('jekyll-prod', function (done) {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass-prod', function () {
-  return gulp.src(['_sass/styles.scss', '_sass/styles+resptbls.scss'])
+  return gulp.src(['_sass/pages.scss', '_sass/posts.scss'])
     .pipe(sass({
       includePaths: ['scss'],
       onError: browserSync.notify
@@ -132,10 +99,10 @@ gulp.task('sass-prod', function () {
 });
 
 /**
- * Compile files from _js/lib into both _site/js (for live injecting) and site (for future jekyll builds)
+ * Compile files from _js into both _site/js (for live injecting) and site (for future jekyll builds)
  */
-gulp.task('scripts-prod', function() {
-  return gulp.src(['_js/lib/*.js'])
+ gulp.task('scripts-prod', function() {
+  return gulp.src(['_js/lib/*.js', '_js/custom.js'])
     .pipe(concat('scripts.js'))
     .pipe(uglify())
     .pipe(gulp.dest('_site/js'))

@@ -1,0 +1,251 @@
+// CSS architecture for Talk.CSS website
+// Developed by Chen Hui Jing <kakyou_tensai@yahoo.com>
+// -----
+// Structure based on ITCSS by Harry Roberts
+// http://csswizardry.net/talks/2014/11/itcss-dafed.pdf
+// Rationale for class name-spacing can be found at
+// http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
+
+// ==========
+// SETTINGS - Global variables, config switches
+// ==========
+@import 'settings';
+// ==========
+// TOOLS - Default mixins and functions
+// ==========
+@import 'tools';
+// ==========
+// GENERIC - Ground-zero styles (Normalize.css, resets, box-sizing)
+// ==========
+@import 'generic';
+// ==========
+// BASE - Unclassed HTML elements (type selectors)
+// ==========
+@import 'base';
+// ==========
+// OBJECTS - Cosmetic-free design patterns
+// ==========
+@import 'objects';
+// ==========
+// COMPONENTS - Designed components, chunks of UI
+// ==========
+@import 'component-header';
+@import 'component-footer';
+
+.grid-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.grid-flex__3item {
+  flex: 1 0 12em;
+}
+
+.page-header {
+  margin-bottom: 0.5em;
+}
+
+.tag-title {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.5em;
+}
+
+.more-link {
+  text-align: right;
+}
+
+.external-url {
+  &::before,
+  &::after {
+    content: '';
+    display: inline-block;
+    height: 0.8em;
+    width: 0.8em;
+  }
+
+  &::before {
+    margin-right: 0.5em;
+  }
+
+  &::after {
+    background: url('/images/icons/icon-link.svg') no-repeat;
+    background-size: cover;
+    margin-left: 0.5em;
+  }
+}
+
+.alistapart::before {
+  background: url('/images/icons/icon-ala.png') no-repeat;
+  background-size: cover;
+}
+
+.post-list a {
+  color: color('english-walnut');
+}
+
+.rss-subscribe {
+  font-size: 75%;
+}
+
+.profile-image {
+  @include center;
+  border-radius: 20px;
+  display: block;
+
+  @include mappy-bp(small) {
+    float: right;
+    margin-left: 0.5em;
+  }
+}
+
+.project {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.project__image {
+  margin-bottom: 0.25em;
+}
+
+.talk {
+  text-align: center;
+}
+
+.pagination {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.paginator {
+  padding: 0 0.5em;
+}
+
+label {
+  display: block;
+  font-size: 85%;
+}
+
+input[type=text],
+input[type=email] {
+  border: 1px solid color('silver-chalice');
+  height: 1rem;
+  margin-bottom: 1em;
+  max-width: 18em;
+  padding: 0.5em;
+  transition: border 0.3s;
+  width: 100%;
+
+  &:focus {
+    border: 1px solid color(walnut);
+  }
+}
+
+textarea {
+  border: 1px solid color('silver-chalice');
+  display: block;
+  margin-bottom: 1em;
+  max-width: 26em;
+  min-height: 5em;
+  padding: 0.5em;
+  transition: border 0.3s;
+  width: 100%;
+
+  &:hover {
+    border: 1px solid color('silver-chalice');
+  }
+
+  &:focus {
+    border: 1px solid color(walnut);
+  }
+}
+
+input[type=submit] {
+  color: color('white');
+  background-color: color('apple');
+  padding: 0.25em 0.5em;
+  transition: background-color 0.15s linear;
+  border: 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken(color('apple'), 20%);
+  }
+}
+
+.message-wrapper {
+  margin-bottom: 1em;
+}
+
+.success {
+  display: inline-block;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+.podcast {
+  margin-bottom: 0.5em;
+  text-align: center;
+
+  img {
+    box-shadow: 2px 2px 4px color('abbey');
+  }
+}
+
+.newsletter {
+  margin-bottom: 1.5em;
+  text-align: center;
+
+  img {
+    position: relative;
+    width: 100%;
+    min-height: 4em;
+    width: 11em;
+
+    &::after {
+      content: attr(alt);
+      display: block;
+      padding: 0.5em;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: color(sugarcane);
+      box-shadow: 2px 2px 4px color('abbey');
+    }
+  }
+}
+
+.error__wrapper {
+  display: block;
+
+  @include mappy-bp(medium) {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+}
+
+.error__image {
+  @include mappy-bp(medium) {
+    flex: 1 0 436px;
+    height: auto;
+  }
+}
+
+.error__text {
+  @include mappy-bp(medium) {
+    flex: 1 1 auto;
+  }
+}
+
+
+// ==========
+// TRUMPS - Helpers and overrides
+// ==========
+@import 'trumps';
+// ==========
+// SHAME - For ad-hoc debugging or testing. Should be empty by default.
+// ==========
+@import 'shame';

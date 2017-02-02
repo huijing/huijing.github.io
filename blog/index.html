@@ -8,7 +8,7 @@ title: Blog
     {% for post in paginator.posts %}
     <li class="no-list-style">
       <span class="post-meta abbey">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h2 class="no-margin">
+      <h2>
         {% if post.external_url %}
         <a class="external-url post-link no-underline english-walnut {{ post.external_site }}" href="{{ post.external_url }}">{{ post.title }}</a>
         {% else %}

@@ -1,0 +1,159 @@
+// CSS architecture for Talk.CSS website
+// Developed by Chen Hui Jing <kakyou_tensai@yahoo.com>
+// -----
+// Structure based on ITCSS by Harry Roberts
+// http://csswizardry.net/talks/2014/11/itcss-dafed.pdf
+// Rationale for class name-spacing can be found at
+// http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
+
+// ==========
+// SETTINGS - Global variables, config switches
+// ==========
+@import 'settings';
+// ==========
+// TOOLS - Default mixins and functions
+// ==========
+@import 'tools';
+// ==========
+// VENDOR LIBRARIES - Third-party stylesheets
+// ==========
+@import 'lib/prism';
+// ==========
+// GENERIC - Ground-zero styles (Normalize.css, resets, box-sizing)
+// ==========
+@import 'generic';
+// ==========
+// BASE - Unclassed HTML elements (type selectors)
+// ==========
+@import 'base';
+// ==========
+// OBJECTS - Cosmetic-free design patterns
+// ==========
+@import 'objects';
+// ==========
+// COMPONENTS - Designed components, chunks of UI
+// ==========
+@import 'component-header';
+@import 'component-footer';
+
+.post-content {
+  @include center;
+  max-width: 36rem;
+}
+
+.figure-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @include mappy-bp(small) {
+    flex-flow: row nowrap;
+    margin-bottom: 1.5em;
+  }
+}
+
+figure {
+  margin-bottom: 1.5em;
+  font-size: 85%;
+
+  iframe {
+    margin-bottom: 0;
+  }
+}
+
+.multiple {
+  margin: 0 1.5em 1.5em;
+
+  @include mappy-bp(small) {
+    flex-flow: row nowrap;
+    margin: 0 1.5em;
+  }
+}
+
+.twitter-tweet {
+  margin-bottom: 1.5em !important;
+}
+
+.shape {
+  float: left;
+  shape-image-threshold: 0.5;
+  shape-margin: 1em;
+  shape-outside: url('/images/posts/css-shapes/beyonce.png');
+  width: 50%;
+
+  @include mappy-bp(small) {
+    width: auto;
+  }
+}
+
+.table {
+  margin-bottom: 1.5em;
+
+  @include mappy-bp(medium) {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+  }
+}
+
+.tr {
+  margin-bottom: 1.5em;
+
+  @include mappy-bp(medium) {
+    display: table-row;
+  }
+}
+
+.td {
+  @include mappy-bp(medium) {
+    display: table-cell;
+    border: #f0f0f0 1px solid;
+    padding: 0.5em;
+  }
+}
+
+.th {
+  font-family: $header-font;
+
+  @include mappy-bp(medium) {
+    font-family: $base-font;
+    font-weight: 700;
+  }
+}
+
+.display {
+  .th {
+    &::before {
+      content: 'display: ';
+
+      @include mappy-bp(medium) {
+        content: '';
+      }
+    }
+
+    &::after {
+      content: ';';
+
+      @include mappy-bp(medium) {
+        content: '';
+      }
+    }
+  }
+
+  .td {
+    &:first-child {
+      width: 11em;
+    }
+  }
+}
+
+
+// ==========
+// TRUMPS - Helpers and overrides
+// ==========
+@import 'trumps';
+// ==========
+// SHAME - For ad-hoc debugging or testing. Should be empty by default.
+// ==========
+@import 'shame';

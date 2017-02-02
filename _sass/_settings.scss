@@ -1,0 +1,115 @@
+// ========
+// Settings
+// ========
+// Breakpoints
+@import 'lib/mappy-bp';
+$breakpoints: (
+  small:    575px,
+  medium:   720px,
+  large:    820px,
+  x-large:  960px
+);
+
+// Responsive typography
+$min-width: 320;
+$max-width: 960;
+$min-font: 18;
+$max-font: 22;
+
+:root {
+  font-size: #{$min-font}px;
+}
+
+@media (min-width: #{$min-width}px) and (max-width: #{$max-width}px) {
+  :root {
+    font-size: calc( #{$min-font}px + (#{$max-font} - #{$min-font}) * ( (100vw - #{$min-width}px) / ( #{$max-width} - #{$min-width})));
+  }
+}
+
+@media (min-width: #{$max-width}px) {
+  :root {
+    font-size: #{$max-font}px;
+  }
+}
+
+// Fonts
+@charset 'utf-8';
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat-bold.eot');
+  src: url('../fonts/montserrat-bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/montserrat-bold.woff2') format('woff2'),
+     url('../fonts/montserrat-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arvo';
+  src: url('../fonts/arvo-regular.eot');
+  src: url('../fonts/arvo-regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/arvo-regular.woff2') format('woff2'),
+     url('../fonts/arvo-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arvo';
+  src: url('../fonts/arvo-bold.eot');
+  src: url('../fonts/arvo-bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/arvo-bold.woff2') format('woff2'),
+     url('../fonts/arvo-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arvo';
+  src: url('../fonts/arvo-italic.eot');
+  src: url('../fonts/arvo-italic.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/arvo-italic.woff2') format('woff2'),
+     url('../fonts/arvo-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Eight-bit';
+  src: url('../fonts/eightbitoperatorplus8-bold-webfont.eot');
+  src: url('../fonts/eightbitoperatorplus8-bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/eightbitoperatorplus8-bold-webfont.woff2') format('woff2'),
+     url('../fonts/eightbitoperatorplus8-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Eight-bit';
+  src: url('../fonts/eightbitoperatorplus-regular-webfont.eot');
+  src: url('../fonts/eightbitoperatorplus-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/eightbitoperatorplus-regular-webfont.woff2') format('woff2'),
+     url('../fonts/eightbitoperatorplus-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Base font stacks
+$base-font: 'Arvo', 'Rockwell', 'Courier New', 'Hei', 'Microsoft YaHei', serif;
+$header-font: 'Montserrat', 'Arial Black', sans-serif;
+$display-font: 'Eight-bit', 'Lucida Console', 'Lucida Sans Typewriter', monospace;
+
+// Colours
+$colors: (
+  'abbey': rgba(83, 87, 89, 1),
+  'black-alpha2': rgba(0, 0, 0, 0.2),
+  'english-walnut': rgba(55, 40, 34, 1),
+  'winter-hazel': rgba(210, 203, 148, 1),
+  'apple': rgba(74, 188, 65, 1),
+  'sugarcane': rgba(250, 255, 250, 1),
+  'mineshaft': rgba(42, 42, 42, 1),
+  'royal-blue': rgba(76, 131, 225, 1),
+  'silver-chalice': rgba(166, 166, 166, 0.5),
+  'white': rgba(255, 255, 255, 1)
+);

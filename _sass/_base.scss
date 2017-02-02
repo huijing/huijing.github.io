@@ -1,0 +1,161 @@
+// ====
+// Base
+// ====
+h1 {
+  font-size: 185%;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 150%;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+
+  small {
+    font-size: 0.5em;
+    font-weight: 400;
+    text-align: right;
+  }
+}
+
+h3 {
+  font-size: 125%;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: color('apple');
+  transition: all 0.15s linear;
+  border-bottom: 1px dashed color('apple');
+
+  &:hover {
+    color: darken(color('apple'), 20%);
+    border-bottom: 1px solid darken(color('apple'), 20%);
+  }
+}
+
+ol {
+  counter-reset: list;
+  margin-left: 1em;
+
+  li {
+    list-style: none;
+    margin-bottom: 1.5em;
+    position: relative;
+
+    &::before {
+      content: counter(list) '.';
+      counter-increment: list;
+      font-weight: bold;
+      left: -1.5em;
+      position: absolute;
+      top: 0;
+    }
+  }
+
+  ul {
+    li {
+      list-style: disc;
+
+      &::before {
+        content: '';
+        counter-increment: none;
+      }
+    }
+  }
+}
+
+ul {
+  list-style: disc;
+  margin-left: 1em;
+
+  ul {
+    list-style: square;
+  }
+}
+
+li {
+  margin-bottom: 1.5em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+code {
+  background-color: lighten(color('silver-chalice'), 10%);
+  color: color('royal-blue');
+  border-radius: 0.25em;
+  padding: 2px;
+}
+
+small {
+  font-size: 75%;
+}
+
+blockquote {
+  background: url('/images/bg-quotes.jpg');
+  border-left: 10px solid color('royal-blue');
+  padding: 1em;
+  margin-bottom: 1.5em;
+  font-style: italic;
+
+  &::before {
+    font-size: 2.5em;
+    line-height: 0.1em;
+    margin-right: 0.1em;
+    vertical-align: -0.25em;
+    color: color('royal-blue');
+    content: '\201C';
+    font-family: $display-font;
+  }
+
+  &::after {
+    font-size: 2.5em;
+    line-height: 0.1em;
+    vertical-align: -0.5em;
+    color: color('royal-blue');
+    content: '\201D';
+    font-family: $display-font;
+  }
+
+  p {
+    display: inline;
+    line-height: 1.7rem;
+    margin-bottom: 0;
+  }
+
+  a {
+    color: inherit;
+    border-bottom: 1px dashed color(mine-shaft);
+  }
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+kbd {
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 color('black-alpha2'), 0 0 0 2px color('white') inset;
+  display: inline-block;
+  margin: 0 0.1em;
+  padding: 0.1em 0.6em;
+  text-shadow: 0 1px 0 color('white');
+}
+
+iframe {
+  margin-bottom: 1.5em;
+}
+
+picture img {
+  margin-bottom: 1.5em;
+}

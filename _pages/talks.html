@@ -1,0 +1,24 @@
+---
+layout: page
+title: Talks
+permalink: /talks/
+---
+<p>Sometimes, I'm so overwhelmed by my love for all things HTML and CSS that I feel compelled to tell a large group of people about it.</p>
+<div class="grid-flex">
+    {% for slide in site.data.slides %}
+    <div class="talk">
+        <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.id }}">
+        <img srcset="{{ site.baseurl }}/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
+        </a>
+        {% if slide.video.size %}
+        <p class="no-margin"><a class="talk__video" href="{{ slide.video }}">
+        Watch video</a></p>
+        {% else %}
+        <p class="no-margin">No video <span class="emoji" role="img" tabindex="0" aria-label="neutral face">&#x1F610;</span></p>
+        {% endif %}
+        <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/{{ slide.id }}.pdf">Download PDF</a></p>
+    </div>
+    {% endfor %}
+</div>
+
+<p>Kudos to <a href="http://engineers.sg/conferences">Engineers.SG</a>, which records videos of almost every local tech meet-up in Singapore.</p>

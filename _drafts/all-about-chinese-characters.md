@@ -25,7 +25,7 @@ Chinese civilisation has a very long history dating back to the Mesolithic age, 
 
 *Insert timeline here*
 
-So for the longest time, Chinese civilisations were ruled by dynasties. Dynasties which rose and fell over those thousands of years, which kinda puts things into perspective, at least for myself. On the one hand, it might just be that I'm in the middle of a lull period for China, and who knows how the next century will play out? 
+So for the longest time, Chinese civilisations were ruled by dynasties. Dynasties which rose and fell over those thousands of years, which kinda puts things into perspective, given our apparent inability to have [historical perspective beyond 50-100 years](https://medium.com/@theonlytoby/history-tells-us-what-will-happen-next-with-brexit-trump-a3fefd154714#.gkpucxbnw). Maybe we're in the middle of a lull period for China, who knows how the next century will play out?
 
 Provided the planet still exists.
 
@@ -44,9 +44,11 @@ Professor Zheng Huisheng (郑慧生老师) from Henan University posited that [C
 
 ### Seal script (篆书)
 
-One of the most significant developments in Chinese civilisation is the standardisation of the Chinese language by the First Emperor of Qin (秦始皇), after he successfully conquered all the other states and unified China in 221 BCE. Before that, things were pretty fragmented, both geographically as well as in terms of language
+One of the most significant developments in Chinese civilisation is the standardisation of the Chinese language by the First Emperor of Qin (秦始皇), after he successfully conquered all the other states and unified China in 221 BCE. Before that, things were pretty fragmented, both geographi&shy;cally as well as in terms of language.
 
-Seal script can be broadly categorised into Large Seal (大篆) and Small Seal (小篆). Large seal is the precursor to Small seal. after western zhou, spring summer and warring states period messy, all the states had their own style of writing and some words were pronounced differently too, scripts like Stone Drum script (石鼓文) Bird Worm script (鸟虫书) etc
+<p class="note">As a side note, the more I read up about ancient China, the more I realised just how much palace intrigue and power politics were involved in the Imperial Chinese courts. Turns out those television dramas on Imperial China practically wrote their own plots.</p>
+
+Seal script can be broadly categorised into Large Seal (大篆) and Small Seal (小篆). Large Seal is the precursor to Small Seal. after western zhou, spring summer and warring states period messy, all the states had their own style of writing and some words were pronounced differently too, scripts like Stone Drum script (石鼓文) Bird Worm script (鸟虫书) etc
 李斯tasked to come up with a standardised script with large seal as the base, take in the good parts of the other states' script basically clean up the warring states variants, Small seal became the official script during the Qin dynasty, while the scripts that came before it are known as large seal.
 
 #### Oracle bone script (甲骨文)

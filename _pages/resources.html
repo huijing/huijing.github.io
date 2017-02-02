@@ -1,0 +1,37 @@
+---
+layout: page
+title: Resources
+permalink: /resources/
+---
+<p>I listen to a lot of podcasts, subscribe to a bunch of newsletters and RSS feeds and read quite a few books in an attempt to become a real-life web developer. These resources really helped me a lot and I thought I’d share them here.</p>
+
+<h2>Newsletters I subscribe to</h2>
+
+<div class="grid-flex newsletters">
+    {% for newsletter in site.data.newsletters %}
+    <div class="newsletter">
+        <a class="no-underline" href="{{ newsletter.website }}">
+        <img src="{{ newsletter.image }}" alt="{{ newsletter.title }}"/>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+<hr>
+
+<h2>Books I read and want to read</h2>
+
+<hr>
+
+<h2>Podcasts I listen to</h2>
+
+<div class="grid-flex podcasts">
+    {% for podcast in site.data.podcasts %}
+    <div class="podcast">
+        <a class="no-underline" href="{{ podcast.website }}">
+        <img src="{{ podcast.image }}" alt="{{ podcast.title }}"/>
+        </a>
+        <a href="https://itunes.apple.com/podcast/{{ podcast.itunes }}">iTunes link</a>
+    </div>
+    {% endfor %}
+</div>

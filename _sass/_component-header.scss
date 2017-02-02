@@ -1,0 +1,103 @@
+// Header styles
+.site-header {
+  background: url('/images/bg-header.jpg');
+}
+
+.site-header__wrapper {
+  @include center;
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 52em;
+  padding: 1em;
+
+  @include mappy-bp(x-large) {
+    flex-flow: row nowrap;
+
+    .site-branding {
+      flex: 3 1 70%;
+    }
+
+    .site-nav {
+      flex: 1 1 30%;
+    }
+  }
+}
+
+.site-branding__image {
+  @include image-replacement;
+  background: url('/images/retropc-static.png');
+  background-size: cover;
+  display: block;
+  height: 90px;
+  min-width: 90px;
+  width: 90px;
+
+  @include mappy-bp(medium) {
+    height: 120px;
+    width: 120px;
+  }
+
+  &::before {
+    content: url('/images/retropc-dynamic.gif');
+    height: 0;
+    visibility: hidden;
+    width: 0;
+  }
+
+  &:hover {
+    background: url('/images/retropc-dynamic.gif');
+    background-size: cover;
+  }
+}
+
+.site-branding {
+  align-items: center;
+  display: flex;
+}
+
+.site-branding__wrapper {
+  margin-left: 1em;
+}
+
+.site-branding__title {
+  margin-bottom: 0.25rem;
+
+   a {
+    font-size: 85%;
+    font-family: $display-font;
+    color: color('english-walnut');
+
+    &:hover {
+      color: color('english-walnut');
+    }
+  }
+}
+
+.site-branding__description {
+  font-size: 75%;
+  font-family: $display-font;
+  line-height: 2;
+}
+
+.site-nav {
+  display: flex;
+  margin-top: 1em;
+  width: 100%;
+  font-family: $display-font;
+  font-size: 90%;
+
+  @include mappy-bp(x-large) {
+    margin-top: 0;
+  }
+
+  a {
+    flex: auto;
+    text-align: center;
+    color: color('english-walnut');
+  }
+}
+
+.site-nav__link:hover {
+  color: color('english-walnut');
+}

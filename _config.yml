@@ -21,6 +21,7 @@ highlighter: null
 gems:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-feed
 
 defaults:
   -
@@ -30,8 +31,12 @@ defaults:
     values:
       is_post: true # automatically set is_post=true for all posts
 
+include: ["_pages"]
+
 # Exclude files and folder
 exclude:
   - node_modules
   - gulpfile.js
   - package.json
+  - Gemfile
+  - Gemfile.lock
