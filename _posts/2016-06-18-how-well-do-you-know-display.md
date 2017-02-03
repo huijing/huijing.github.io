@@ -4,7 +4,6 @@ title: "How well do you know CSS display?"
 date: Jun 18, 2016
 tags: [css]
 image: display.jpg
-custom-css: resptbls
 ---
 The *display* property is one of the most important CSS properties we use for layout. Most of us would have used `block`, `inline` and `none`. `table` and `inline-block` are also quite common. The new darling is definitely `flex`, because it's a display property that was created specifically for layout. The upcoming `grid` (currently still being actively worked on) is another layout-specific property that we'll soon have in our arsenal as well.
 

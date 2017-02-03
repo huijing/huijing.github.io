@@ -39,6 +39,23 @@ a {
   }
 }
 
+small {
+  font-size: 75%;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 1em;
+
+  ul {
+    list-style: square;
+  }
+}
+
+li {
+  margin-bottom: 1.5em;
+}
+
 ol {
   counter-reset: list;
   margin-left: 1em;
@@ -61,30 +78,13 @@ ol {
   ul {
     li {
       list-style: disc;
+    }
 
-      &::before {
-        content: '';
-        counter-increment: none;
-      }
+    li::before {
+      content: '';
+      counter-increment: none;
     }
   }
-}
-
-ul {
-  list-style: disc;
-  margin-left: 1em;
-
-  ul {
-    list-style: square;
-  }
-}
-
-li {
-  margin-bottom: 1.5em;
-}
-
-dt {
-  font-weight: bold;
 }
 
 code {
@@ -92,10 +92,6 @@ code {
   color: color('royal-blue');
   border-radius: 0.25em;
   padding: 2px;
-}
-
-small {
-  font-size: 75%;
 }
 
 blockquote {

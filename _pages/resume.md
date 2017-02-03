@@ -5,7 +5,7 @@ permalink: /resume/
 ---
 ### Summary
 
-<ul class="summary">
+<ul>
   <li class="no-margin">I am a self-taught designer and developer, based in Singapore.</li>
   <li class="no-margin">I believe that great design is timeless, intuitive and aesthetic.</li>
   <li class="no-margin">I have learnt that coding standards and best practices are absolutely critical for the long-term success of any software project.</li>
@@ -15,7 +15,7 @@ permalink: /resume/
 
 ### Skills
 
-<ul class="skills">
+<ul>
   <li class="no-margin">Knowledge of <strong>UX methods</strong> like competitive analysis, task flows, user scenarios, personas and interviewing for the creation and testing of UX deliverables</li>
   <li class="no-margin">Highly proficient in <strong>HTML and CSS (with Sass)</strong> for <strong>rapid prototyping</strong> in the browser</li>
   <li class="no-margin">Good knowledge of <strong>jQuery</strong> and <strong>Javascript</strong>, as well as version control using <strong>Git</strong></li>
@@ -29,7 +29,7 @@ permalink: /resume/
 (March 2016 - Present)  
 I am a **Front-end engineer** focused on the development of user interfaces and front-end development of web and mobile applications. My responsibilities include:
 
-<ul class="oa-labs">
+<ul>
   <li class="no-margin">Providing input and developing user interfaces for each phase of the application development life cycle, from ideation to design and development till release and support</li>
   <li class="no-margin">Assisting in building prototypes or proof-of-concept systems for explorative research projects</li>
   <li>Working closely with other team members across various disciplines to develop software applications</li>
@@ -39,7 +39,7 @@ I am a **Front-end engineer** focused on the development of user interfaces and 
 (May 2015 - February 2016)  
 I was a **Senior developer** responsible for planning and architecting website implementation projects, as well as management of resources. I focused on all things front-end related, making sure our code base adhered to the latest web standards and was performant and accessible. A typical day in the office usually involved:
 
-<ul class="exp-nurun">
+<ul>
   <li class="no-margin">Working closely with designers, providing direction on the viability of proposed designs</li>
   <li class="no-margin">Planning and designing front-end architecture for scalability and maintainability</li>
   <li class="no-margin">Re-factoring and resurrecting legacy code to adhere to modern web standards</li>
@@ -52,7 +52,7 @@ I was a **Senior developer** responsible for planning and architecting website i
 (Oct 2013 – May 2015)  
 I was a **Front-end developer** and worked on a variety of projects with several major clients, including DBS bank, Mediacorp and Microsoft as well as the San Francisco International Airport. I honed all my web development chops here and this was what I spent my time doing:
 
-<ul class="exp-po">
+<ul>
   <li class="no-margin">Design responsive layouts, typography and site components for optimal user experience</li>
   <li class="no-margin">Develop responsive custom Drupal themes written in Sass and Susy</li>
   <li class="no-margin">Build, deploy and maintain Drupal sites using best practices to ensure scalability and security</li>

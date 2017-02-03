@@ -5,12 +5,12 @@ layout: default
 <ul class="post-list">
   {% for post in site.posts limit:7 %}
     <li class="no-list-style">
-      <span class="post-meta abbey small">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       <h2>
       {% if post.external_url %}
-      <a class="external-url no-underline english-walnut {{ post.external_site }}" href="{{ post.external_url }}">{{ post.title }}</a>
+      <a class="external-url no-underline {{ post.external_site }}" href="{{ post.external_url }}">{{ post.title }}</a>
       {% else %}
-      <a class="no-underline english-walnut" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       {% endif %}
       </h2><span aria-hidden="true" class="post-status"></span>
     </li>
@@ -20,4 +20,4 @@ layout: default
   <p><a class="no-underline" href="/blog/">more &#10142;</a></p>
 </div>
 
-<p class="rss-subscribe small">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
