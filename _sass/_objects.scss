@@ -79,6 +79,11 @@ span[role=img][aria-label]:hover::after {
   }
 }
 
+.kaomoji {
+  white-space: nowrap;
+  font-family: Arial, sans-serif;
+}
+
 .post-meta {
   font-size: 75%;
   color: lighten(color('abbey'), 20%);
