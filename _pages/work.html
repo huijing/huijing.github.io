@@ -8,7 +8,7 @@ permalink: /work/
 <p>This approach worked pretty well because I've been lucky enough to work on a wide range of projects. While we're on the topic of work, I actually do have a <a class="no-underline" href="/resume/">résumé</a>, if you're interested.</p>
 
 <h2>Client work</h2>
-<div class="grid-flex">
+<div class="grid-flex projects">
   {% for post in site.tags.client-work %}
   <div class="project grid-flex__3item">
     <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
@@ -19,8 +19,8 @@ permalink: /work/
   {% endfor %}
 </div>
 
-<h2>Random side projects</h2>
-<div class="grid-flex">
+<h2>Side projects</h2>
+<div class="grid-flex projects">
   {% for post in site.tags.side-project %}
   <div class="project grid-flex__3item">
     <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
@@ -29,4 +29,11 @@ permalink: /work/
     </a>
   </div>
   {% endfor %}
+</div>
+
+<div class="projects">
+  <a href="/demos/">
+    <img srcset="{{ site.url }}/images/yoshi-480.png 480w, {{ site.url }}/images/yoshi-640.png 640w, {{ site.url }}/images/yoshi-960.png 960w, {{ site.url }}/images/yoshi-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/yoshi-640.png" alt="Yoshi's island remix" />
+    <h2>The land of random demos</h2>
+  </a>
 </div>

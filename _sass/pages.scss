@@ -100,13 +100,21 @@
   }
 }
 
+.projects {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
 .project {
   margin-bottom: 1em;
-  text-align: center;
 }
 
 .project__image {
   margin-bottom: 0.25em;
+}
+
+.project__title {
+  line-height: 1.2;
 }
 
 .talk {

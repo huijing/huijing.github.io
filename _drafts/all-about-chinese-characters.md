@@ -48,7 +48,9 @@ One of the most significant developments in Chinese civilisation is the standard
 
 <p class="note">As a side note, the more I read up about ancient China, the more I realised just how much palace intrigue and power politics were involved in the Imperial Chinese courts. Turns out those television dramas on Imperial China practically wrote their own plots.</p>
 
-Seal script can be broadly categorised into Large Seal (大篆) and Small Seal (小篆). Large Seal is the precursor to Small Seal. after western zhou, spring summer and warring states period messy, all the states had their own style of writing and some words were pronounced differently too, scripts like Stone Drum script (石鼓文) Bird Worm script (鸟虫书) etc
+Seal script can be broadly categorised into Large Seal (大篆) and Small Seal (小篆). Large Seal is the precursor to Small Seal. After the Western Zhou 
+
+after western zhou, spring summer and warring states period messy, all the states had their own style of writing and some words were pronounced differently too, scripts like Stone Drum script (石鼓文) Bird Worm script (鸟虫书) etc
 李斯tasked to come up with a standardised script with large seal as the base, take in the good parts of the other states' script basically clean up the warring states variants, Small seal became the official script during the Qin dynasty, while the scripts that came before it are known as large seal.
 
 #### Oracle bone script (甲骨文)
