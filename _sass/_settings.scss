@@ -95,10 +95,21 @@ $max-font: 22;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans-lightitalic.eot');
+  src: url('../fonts/opensans-lightitalic.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/opensans-lightitalic.woff2') format('woff2'),
+     url('../fonts/opensans-lightitalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
 // Base font stacks
 $base-font: 'Arvo', 'Rockwell', 'Courier New', 'Hei', 'Microsoft YaHei', serif;
 $header-font: 'Montserrat', 'Arial Black', sans-serif;
 $display-font: 'Eight-bit', 'Lucida Console', 'Lucida Sans Typewriter', monospace;
+$special-font: 'Open Sans', sans-serif;
 
 // Colours
 $colors: (

@@ -58,6 +58,12 @@ html {
   height: 100%;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   background: url('/images/bg-body.jpg');
   min-width: calc(320em / 18);
