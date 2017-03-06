@@ -36,10 +36,12 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-}
+  margin: -1em 0 1em -0.5em;
 
-.grid-flex__3item {
-  flex: 1 0 12em;
+  div {
+    padding: 1em 0 0 0.5em;
+    flex: 1 0 12.5em;
+  }
 }
 
 .page-header {
