@@ -15,7 +15,32 @@ title: Blog
         <a class="post-link no-underline english-walnut" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         {% endif %}
       </h2>
-      <p class="post-summary">{{ post.content | strip_html | truncatewords:40}}</p>
+      <p class="post-summary no-margin">{{ post.content | strip_html | truncatewords:40}}</p>
+      {% if post.tags.size > 0 %}
+        {% capture tags_content %}{% if post.tags.size == 1 %}
+        <span class="icon icon--tag">
+          <svg viewBox="0 0 544 512"><path d="M496,32H384c-26.4,0-63.273,15.273-81.941,33.941L113.941,254.059c-18.667,18.667-18.667,49.214,0,67.882l140.118,140.115 c18.667,18.668,49.214,18.668,67.882,0l188.115-188.115C528.727,255.273,544,218.4,544,192V80C544,53.6,522.4,32,496,32z M432,192 c-26.51,0-48-21.49-48-48s21.49-48,48-48s48,21.49,48,48S458.51,192,432,192z"/></svg>
+        </span>
+
+        {% else %}
+        <span class="icon icon--tags">
+          <svg viewBox="0 0 544 512"><path d="M496,32H384c-26.4,0-63.273,15.273-81.941,33.941L113.941,254.059c-18.667,18.667-18.667,49.214,0,67.882l140.118,140.116 c18.667,18.668,49.214,18.668,67.882,0l188.116-188.116C528.727,255.273,544,218.4,544,192V80C544,53.6,522.4,32,496,32z M432,192 c-26.51,0-48-21.49-48-48s21.49-48,48-48s48,21.49,48,48S458.51,192,432,192z M43.313,299.312l171.189,171.189 c-18.132,9.58-41.231,6.77-56.443-8.444L17.941,321.941c-18.667-18.668-18.667-49.215,0-67.882L206.059,65.941 C224.727,47.273,261.6,32,288,32L43.313,276.686C37.091,282.909,37.091,293.09,43.313,299.312z"/></svg>
+        </span>
+        {% endif %}{% endcapture %}
+
+        {% for post_tag in post.tags %}
+          {% assign tag = site.data.tags[post_tag] %}
+          {% if tag %}{% capture tags_content_temp %}
+            {{ tags_content }}
+            <a class="post-content__tag small" href="/blog/{{ post_tag }}/">{{ tag.name }}</a>
+            {% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        {% assign tags_content = '' %}
+      {% endif %}
+      <p class="post-meta">{{ tags_content }}</p>
     </li>
     {% endfor %}
   {% else %}
