@@ -64,90 +64,90 @@ Quick primer on written Japanese characters. There are 3 character types: *Hirag
 *Hiragana* is curved and flowing, and mainly used for native Japanese words and word-endings. *Katakana* is simple and angular, and mainly used for writing of loanwords, scientific or technical terms. *Kanji* are Han characters, adopted from Chinese characters. Now that that's out of the way, here we go.
 
 <ul>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-here-button">&#x1F201;&#xFE0F; Japanese “here” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-service-charge-button">&#x1F202;&#xFE0F; Japanese “service charge” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-monthly-amount-button">&#x1F237;&#xFE0F; Japanese “monthly amount” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-not-free-of-charge-button">&#x1F236;&#xFE0F; Japanese “not free of charge” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-reserved-button">&#x1F22F;&#xFE0F; Japanese “reserved” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-bargain-button">&#x1F250;&#xFE0F; Japanese “bargain” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-discount-button">&#x1F239;&#xFE0F; Japanese “discount” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-free-of-charge-button">&#x1F21A;&#xFE0F; Japanese “free of charge” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-prohibited-button">&#x1F232;&#xFE0F; Japanese “prohibited” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-acceptable-button">&#x1F251;&#xFE0F; Japanese “acceptable” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-application-button">&#x1F238;&#xFE0F; Japanese “application” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-passing-grade-button">&#x1F234;&#xFE0F; Japanese “passing grade” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-vacancy-button">&#x1F233;&#xFE0F; Japanese “vacancy” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-congratulations-button">&#x3297;&#xFE0F; Japanese “congratulations” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-secret-button">&#x3299;&#xFE0F; Japanese “secret” button</a></li>
-  <li class="no-margin"><a href="#span-classemojispan-japanese-open-for-business-button">&#x1F23A;&#xFE0F; Japanese “open for business” button</a></li>
-  <li><a href="#span-classemojispan-japanese-no-vacancy-button">&#x1F235;&#xFE0F; Japanese “no vacancy” button</a></li>
+  <li class="no-margin"><a href="#japanese-here-button">&#x1F201;&#xFE0F; Japanese “here” button</a></li>
+  <li class="no-margin"><a href="#japanese-service-charge-button">&#x1F202;&#xFE0F; Japanese “service charge” button</a></li>
+  <li class="no-margin"><a href="#japanese-monthly-amount-button">&#x1F237;&#xFE0F; Japanese “monthly amount” button</a></li>
+  <li class="no-margin"><a href="#japanese-not-free-of-charge-button">&#x1F236;&#xFE0F; Japanese “not free of charge” button</a></li>
+  <li class="no-margin"><a href="#japanese-reserved-button">&#x1F22F;&#xFE0F; Japanese “reserved” button</a></li>
+  <li class="no-margin"><a href="#japanese-bargain-button">&#x1F250;&#xFE0F; Japanese “bargain” button</a></li>
+  <li class="no-margin"><a href="#japanese-discount-button">&#x1F239;&#xFE0F; Japanese “discount” button</a></li>
+  <li class="no-margin"><a href="#japanese-free-of-charge-button">&#x1F21A;&#xFE0F; Japanese “free of charge” button</a></li>
+  <li class="no-margin"><a href="#japanese-prohibited-button">&#x1F232;&#xFE0F; Japanese “prohibited” button</a></li>
+  <li class="no-margin"><a href="#japanese-acceptable-button">&#x1F251;&#xFE0F; Japanese “acceptable” button</a></li>
+  <li class="no-margin"><a href="#japanese-application-button">&#x1F238;&#xFE0F; Japanese “application” button</a></li>
+  <li class="no-margin"><a href="#japanese-passing-grade-button">&#x1F234;&#xFE0F; Japanese “passing grade” button</a></li>
+  <li class="no-margin"><a href="#japanese-vacancy-button">&#x1F233;&#xFE0F; Japanese “vacancy” button</a></li>
+  <li class="no-margin"><a href="#japanese-congratulations-button">&#x3297;&#xFE0F; Japanese “congratulations” button</a></li>
+  <li class="no-margin"><a href="#japanese-secret-button">&#x3299;&#xFE0F; Japanese “secret” button</a></li>
+  <li class="no-margin"><a href="#japanese-open-for-business-button">&#x1F23A;&#xFE0F; Japanese “open for business” button</a></li>
+  <li><a href="#japanese-no-vacancy-button">&#x1F235;&#xFE0F; Japanese “no vacancy” button</a></li>
 </ul>
 
-### <span class="emoji" role="img" tabindex="0" aria-label="ココ">&#x1F201;&#xFE0F;</span> Japanese “here” button
+<h3 id="japanese-here-button"><span class="emoji" role="img" tabindex="0" aria-label="ココ">&#x1F201;&#xFE0F;</span> Japanese “here” button</h3>
 
 Also known as "Squared Katakana Koko", read as "ko-ko", and means "here" in Japanese. Written as ここ in Hiragana. Given this is a Japanese word, there's only the Japanese context. It seems like it's typically written as Hiragana in everyday use, like ここです (koko desu, meaning "it's/I'm here"). Personally, I suspect the Katakana style is easier to render in the space of that tiny glyph.
 
-### <span class="emoji" role="img" tabindex="0" aria-label="サ">&#x1F202;&#xFE0F;</span> Japanese “service charge” button
+<h3 id="japanese-service-charge-button"><span class="emoji" role="img" tabindex="0" aria-label="サ">&#x1F202;&#xFE0F;</span> Japanese “service charge” button</h3>
 
 Also known as "Squared Katakana Sa", read as "sa". Written as さ in Hiragana. Again, this is a Japanese word, with only the Japanese context. It's one of the basic Japanese kana. Most likely derived from the word "service" as in "サービス"
 
-### <span class="emoji" role="img" tabindex="0" aria-label="月">&#x1F237;&#xFE0F;</span> Japanese “monthly amount” button
+<h3 id="japanese-monthly-amount-button"><span class="emoji" role="img" tabindex="0" aria-label="月">&#x1F237;&#xFE0F;</span> Japanese “monthly amount” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-6708". It's a Kanji character, read as "tsuki" in Japanese, and "yue" in Chinese, and can mean "monthly" or "moon" in both languages.
 
-### <span class="emoji" role="img" tabindex="0" aria-label="有">&#x1F236;&#xFE0F;</span> Japanese “not free of charge” button
+<h3 id="japanese-not-free-of-charge-button"><span class="emoji" role="img" tabindex="0" aria-label="有">&#x1F236;&#xFE0F;</span> Japanese “not free of charge” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-6709". It's a Kanji character, read as "yuu" in Japanese, and "you" in Chinese, and means "to have" in both languages. In Chinese, this word can be used standalone, for example, if someone asks you if you have any spare change (你身上有没有零钱？), you can answer with a simple 有，to say yes, you do have spare change. In Japanese, it's used as part of a phrase, which can give you a myriad of meanings, like "有名" (famous) or "有用" (useful). I think this particular emoji came from the phrase "有料", which means "toll" or "charge".
 
-### <span class="emoji" role="img" tabindex="0" aria-label="指">&#x1F22F;&#xFE0F;</span> Japanese “reserved” button
+<h3 id="japanese-reserved-button"><span class="emoji" role="img" tabindex="0" aria-label="指">&#x1F22F;&#xFE0F;</span> Japanese “reserved” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-6307". It's a Kanji character, read as "yubi" in Japanese, and "zhi" in Chinese, and means "finger" or "point" in both languages. It can also mean "toe" when combined with the word "foot", so it's "脚指" in Chinese and "足の指" in Japanese. Original television symbol for "designated hitter" or "指名打者" (yes, the baseball kind).
 
-### <span class="emoji" role="img" tabindex="0" aria-label="得">&#x1F250;&#xFE0F;</span> Japanese “bargain” button
+<h3 id="japanese-bargain-button"><span class="emoji" role="img" tabindex="0" aria-label="得">&#x1F250;&#xFE0F;</span> Japanese “bargain” button</h3>
 
 Also known as "Circled Ideograph Advantage". It's a Kanji character, read as "toku" in Japanese, and "de" in Chinese, and means "gain" in both languages. Again, it's usually found as part of a phrase, which then modifies its meaning somewhat. Like "得意" means proud of oneself, in both languages.
 
-### <span class="emoji" role="img" tabindex="0" aria-label="割">&#x1F239;&#xFE0F;</span> Japanese “discount” button
+<h3 id="japanese-discount-button"><span class="emoji" role="img" tabindex="0" aria-label="割">&#x1F239;&#xFE0F;</span> Japanese “discount” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-5272". It's a Kanji character, read as "wari" in Japanese and "ge" (hard G-sound) in Chinese. It means "split" in Japanese, and can have several other meanings when used as part of a phrase. It means "cut" in Chinese. This particular emoji comes from the phrase "割引", which means "discount". 
 
-### <span class="emoji" role="img" tabindex="0" aria-label="無">&#x1F21A;&#xFE0F;</span> Japanese “free of charge” button
+<h3 id="japanese-free-of-charge-button"><span class="emoji" role="img" tabindex="0" aria-label="無">&#x1F21A;&#xFE0F;</span> Japanese “free of charge” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-7121". It is a Kanji character, read as "mu" in Japanese and "wu" in Chinese, and means "nothing" in both languages. Original television symbol for "free broadcasting service".
 
-### <span class="emoji" role="img" tabindex="0" aria-label="禁">&#x1F232;&#xFE0F;</span> Japanese “prohibited” button
+<h3 id="japanese-prohibited-button"><span class="emoji" role="img" tabindex="0" aria-label="禁">&#x1F232;&#xFE0F;</span> Japanese “prohibited” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-7981". It is a Kanji character, read as "kin" in Japanese and "jin" in Chinese, and means "forbidden" in both languages. Mostly used in signage that indicates something is prohibited, like "禁烟" (Chinese) or "禁煙" (Japanese) means "no smoking".
 
-### <span class="emoji" role="img" tabindex="0" aria-label="可">&#x1F251;&#xFE0F;</span> Japanese “acceptable” button
+<h3 id="japanese-acceptable-button"><span class="emoji" role="img" tabindex="0" aria-label="可">&#x1F251;&#xFE0F;</span> Japanese “acceptable” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-7981". It is a Kanji character, read as "ka" in Japanese and "ke" in Chinese, and means "acceptable" in both languages in the context of the phrase "许可". Almost always used as part of a phrase, like "可能" (possible) or "可爱" (cute).
 
-### <span class="emoji" role="img" tabindex="0" aria-label="申">&#x1F238;&#xFE0F;</span> Japanese “application” button
+<h3 id="japanese-application-button"><span class="emoji" role="img" tabindex="0" aria-label="申">&#x1F238;&#xFE0F;</span> Japanese “application” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-7533". It is a Kanji character, read as "saru" in Japanese and "shen" in Chinese, and means "application" in both languages in the context of the phrase "申請". Fun fact, the word is also representative of the Monkey in the Zodiac system.
 
-### <span class="emoji" role="img" tabindex="0" aria-label="合">&#x1F234;&#xFE0F;</span> Japanese “passing grade” button
+<h3 id="japanese-passing-grade-button"><span class="emoji" role="img" tabindex="0" aria-label="合">&#x1F234;&#xFE0F;</span> Japanese “passing grade” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-5408". It is a Kanji character, read as "go" in Japanese and "he" in Chinese, and means "unite" or "join" in both languages. This emoji comes from the phrase "合格", which means "passed" in both languages. 
 
-### <span class="emoji" role="img" tabindex="0" aria-label="空">&#x1F233;&#xFE0F;</span> Japanese “vacancy” button
+<h3 id="japanese-vacancy-button"><span class="emoji" role="img" tabindex="0" aria-label="空">&#x1F233;&#xFE0F;</span> Japanese “vacancy” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-7a7a". It is a Kanji character, read as "sora" in Japanese and "kong" in Chinese, and can mean "empty" in both languages. In Japanese, it can also mean "sky". The concept of "空" is an integral part of Buddhism. One of the most well-known lines from the Heart Sutra is "舍利子，色不異空，空不異色；色即是空，空即是色。" which means "form is emptiness, and emptiness is form". This particular emoji comes from the phrase "空席", which means "vacancy".
 
-### <span class="emoji" role="img" tabindex="0" aria-label="祝">&#x3297;&#xFE0F;</span> Japanese “congratulations” button
+<h3 id="japanese-congratulations-button"><span class="emoji" role="img" tabindex="0" aria-label="祝">&#x3297;&#xFE0F;</span> Japanese “congratulations” button</h3>
 
 Also known as "Circled Ideograph Congratulation". It is a Kanji character, read as "i-wai" in Japanese and "zhu" in Chinese, and means "congratulations" in both languages. It has a celebratory connotation, and is commonly used in the phrase "祝福", which means "blessings" in both languages.
 
-### <span class="emoji" role="img" tabindex="0" aria-label="秘">&#x3299;&#xFE0F;</span> Japanese “secret” button
+<h3 id="japanese-secret-button"><span class="emoji" role="img" tabindex="0" aria-label="秘">&#x3299;&#xFE0F;</span> Japanese “secret” button</h3>
 
 Also known as "Circled Ideograph Secret". It is a Kanji character, read as "hee" in Japanese and "mee" in Chinese, and means "secret" in both languages, from the phrase "秘密". It is also used in several other phrases with completely different meanings, like "秘書", which means "secretary".
 
-### <span class="emoji" role="img" tabindex="0" aria-label="営">&#x1F23A;&#xFE0F;</span> Japanese “open for business” button
+<h3 id="japanese-open-for-business-button"><span class="emoji" role="img" tabindex="0" aria-label="営">&#x1F23A;&#xFE0F;</span> Japanese “open for business” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-55b6". It is a Kanji character, read as "ei" in Japanese and "yin" in Chinese, and as a noun can mean "camp" in both languages. This character is only used in Japanese, even though it is a recognised Chinese character, it is always written as "营", with the exact same meaning. This particular emoji probably comes from "営業", which means "business is operational" and its Chinese equivalent is "营业". 
 
-### <span class="emoji" role="img" tabindex="0" aria-label="満">&#x1F235;&#xFE0F;</span> Japanese “no vacancy” button
+<h3 id="japanese-no-vacancy-button"><span class="emoji" role="img" tabindex="0" aria-label="満">&#x1F235;&#xFE0F;</span> Japanese “no vacancy” button</h3>
 
 Also known as "Squared CJK Unified Ideograph-6e80". It is a Kanji character, read as "mitsuru" and "mun" (as in "bun") in Chinese, and means "full" in both languages. This is also a Japanese only character, as the Chinese equivalent is "满", which means the same thing. Its usage as part of other phrases is similar in Japanese and Chinese, like "満足" or "满足" means "satisfied".
 
