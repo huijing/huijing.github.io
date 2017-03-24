@@ -121,9 +121,20 @@ blockquote {
   }
 
   p {
-    display: inline;
     line-height: 1.7rem;
-    margin-bottom: 0;
+  }
+
+  p:first-child,
+  p:last-child {
+    display: inline;
+  }
+
+  p:nth-child(2) {
+    margin-top: 1em;
+  }
+
+  p ~ p {
+    display: block;
   }
 
   a {
