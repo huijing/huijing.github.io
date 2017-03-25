@@ -49,10 +49,12 @@
     {% unless page.project %}
       <meta content="{{ site.url }}/images/posts/{{ page.image }}" property="og:image">
       <meta name="twitter:image" content="{{ site.url }}/images/posts/{{ page.image }}" />
+      <meta name="twitter:card" content="summary_large_image">
     {% endunless %}
   {% else %}
     <meta content="{{ site.url }}/images/avatar.jpg" property="og:image">
     <meta name="twitter:image" content="{{ site.url }}/images/avatar.jpg" />
+    <meta name="twitter:card" content="summary">
   {% endif %}
 
   {% if page.categories %}
