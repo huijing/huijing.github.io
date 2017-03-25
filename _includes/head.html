@@ -4,60 +4,71 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.about }}{% endif %}">
+
   {% if page.noindex %}
-  <meta name="robots" content="noindex" />
+    <meta name="robots" content="noindex" />
   {% endif %}
+
   <meta content="{{ site.title }}" property="og:site_name">
+
   {% if page.title %}
     <meta content="{{ page.title }}" property="og:title">
-  {% else %}
-    <meta content="{{ site.title }}" property="og:title">
-  {% endif %}
-  {% if page.title %}
     <meta content="article" property="og:type">
   {% else %}
+    <meta content="{{ site.title }}" property="og:title">
     <meta content="website" property="og:type">
   {% endif %}
+
   {% if page.is_post %}
     {% if page.description %}
-    <meta content="{{ page.description }}" property="og:description">
+      <meta content="{{ page.description }}" property="og:description">
     {% else %}
-    <meta content="{{ page.content | strip_html | truncatewords:20}}" property="og:description">
+      <meta content="{{ page.content | strip_html | truncatewords:20}}" property="og:description">
     {% endif %}
+
     {% if page.project %}
-    <meta content="{{ site.url }}/images/posts/projects/{{ page.image }}.png" property="og:image">
+      <meta content="{{ site.url }}/images/posts/projects/{{ page.image }}.png" property="og:image">
     {% endif %}
   {% else %}
     <meta content="{{ site.description }}" property="og:description">
   {% endif %}
+
   {% if page.url %}
     <meta content="{{ site.url }}{{ page.url }}" property="og:url">
   {% endif %}
+
   {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
     <meta content="{{ site.url }}/about/" property="article:author">
   {% endif %}
+
   {% if page.image %}
     {% unless page.project %}
-    <meta content="{{ site.url }}/images/posts/{{ page.image }}" property="og:image">
+      <meta content="{{ site.url }}/images/posts/{{ page.image }}" property="og:image">
+      <meta name="twitter:image" content="{{ site.url }}/images/posts/{{ page.image }}" />
     {% endunless %}
   {% else %}
     <meta content="{{ site.url }}/images/avatar.jpg" property="og:image">
+    <meta name="twitter:image" content="{{ site.url }}/images/avatar.jpg" />
   {% endif %}
+
   {% if page.categories %}
     {% for category in page.categories limit:1 %}
-    <meta content="{{ category }}" property="article:section">
+      <meta content="{{ category }}" property="article:section">
     {% endfor %}
   {% endif %}
+
   {% if page.tags %}
     {% for tag in page.tags %}
-    <meta content="{{ tag }}" property="article:tag">
+      <meta content="{{ tag }}" property="article:tag">
     {% endfor %}
   {% endif %}
+
+  <meta name="twitter:site" content="@hj_chen" />
   <meta name="p:domain_verify" content="6d83e92af56b4f550a0310e631e5fb1e"/>
-  
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.about }}{% endif %}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
