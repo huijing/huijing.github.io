@@ -47,8 +47,8 @@
 
   {% if page.image %}
     {% unless page.project %}
-      <meta content="{{ site.url }}/images/posts/{{ page.image }}" property="og:image">
-      <meta name="twitter:image" content="{{ site.url }}/images/posts/{{ page.image }}" />
+      <meta content="{{ site.url }}/images/posts/{{ page.image }}.jpg" property="og:image">
+      <meta name="twitter:image" content="{{ site.url }}/images/posts/{{ page.image }}.jpg" />
       <meta name="twitter:card" content="summary_large_image">
     {% endunless %}
   {% else %}
