@@ -10,16 +10,16 @@
   itunes: https://itunes.apple.com/podcast/id464936442
   category: Web development
 
-- title: ShopTalk Show
-  image: http://is1.mzstatic.com/image/thumb/Music6/v4/fe/e7/b2/fee7b2f8-da6f-90e9-0cfb-b283c72b1882/source/170x170bb.jpg
-  website: http://shoptalkshow.com/
-  itunes: id493890455
-  category: Web development
-
 - title: Code Podcast
   image: http://is4.mzstatic.com/image/thumb/Music71/v4/28/8d/a0/288da09d-74ec-6f3e-11ff-dadd5685ea32/source/170x170bb.jpg
   website: http://codepodcast.com/
   itunes: id1078095408
+  category: Software engineering
+
+- title: 内核恐慌
+  image: http://is3.mzstatic.com/image/thumb/Music71/v4/c4/bf/e1/c4bfe187-9648-7290-e9c0-82910cec2093/source/170x170bb.jpg
+  website: https://ipn.li/kernelpanic/
+  itunes: id928916244
   category: Software engineering
 
 - title: Toolsday
@@ -70,18 +70,6 @@
   itunes: id931714873
   category: Web development
 
-- title: Immutable
-  image: http://is2.mzstatic.com/image/thumb/Music62/v4/b1/b4/22/b1b42218-080a-8c5b-6ed1-e78015958d80/source/170x170bb.jpg
-  website: https://spec.fm/podcasts/immutable
-  itunes: id1035147995
-  category: Web development
-
-- title: Does Not Compute
-  image: http://is4.mzstatic.com/image/thumb/Music71/v4/03/30/70/033070b7-01dc-c8c8-eca2-0d4816ce11c7/source/170x170bb.jpg
-  website: https://spec.fm/podcasts/does-not-compute
-  itunes: id1048731980
-  category: Web development
-
 - title: Design Details
   image: http://is5.mzstatic.com/image/thumb/Music62/v4/d4/f6/5e/d4f65e90-3190-4926-a9db-8f4bdd416925/source/170x170bb.jpg
   website: https://spec.fm/podcasts/design-details
@@ -110,6 +98,12 @@
   image: http://is2.mzstatic.com/image/thumb/Music71/v4/64/8f/46/648f4644-b97b-a060-cd9a-1c83714bedf7/source/170x170bb.jpg
   website: http://www.debbiemillman.com/designmatters/
   itunes: id328074695
+  category: Design
+
+- title: The Limit Does Not Exist
+  image: http://is3.mzstatic.com/image/thumb/Music122/v4/d4/9e/c9/d49ec989-cb88-080d-6cdb-8c007203ebd4/source/170x170bb.jpg
+  website: https://www.forbes.com/podcasts/the-limit-does-not-exist/#344dd0d0b832
+  itunes: id1102773207
   category: Design
 
 - title: The Observatory
