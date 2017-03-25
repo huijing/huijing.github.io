@@ -3,7 +3,7 @@ layout: post
 title: "The one without sleep"
 date: March 30, 2015
 project: Clinic finder
-image: project-6
+image: project-6@2x
 tags: [drupal7, side-project]
 category: planet-drupal
 ---

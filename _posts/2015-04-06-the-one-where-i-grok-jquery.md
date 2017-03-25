@@ -3,7 +3,7 @@ layout: post
 title: "The one where I grok jQuery"
 date: April 06, 2015
 project: EMBA (Temple.sg)
-image: project-7
+image: project-7@2x
 tags: [drupal7, client-work, design]
 ---
 My next assignment was actually with the very first client I ever worked with. Repeat client! This time, the task was to revamp two key sections of the website. If you read my [previous account]({{ site.url }}/blog/the-one-that-came-first/) of the first project, you may remember that this site was a direct port from HTML. There wasn't much design input on our part then, as the objective was to get the site up and functioning. Now that everything was working properly, it was time to implement some design improvements.

@@ -3,7 +3,7 @@ layout: post
 title: "The one built from 128 pictures of cakes"
 date: April 18, 2015
 project: 7love Bakery
-image: project-8
+image: project-8@2x
 tags: [drupal7, client-work]
 ---
 I have a habit of saying yes to requests before I realise I have never done said request before. I acknowledge that this is not an optimal strategy to adopt, and some day I'll get in trouble for this, but this post is about a time when things went right (well, let's just say nothing burned down). A close friend of mine makes customised cakes and needed a website, so I figured I'd [build her one](http://www.7lovebakery.com).
