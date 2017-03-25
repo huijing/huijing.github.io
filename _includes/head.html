@@ -31,6 +31,7 @@
 
     {% if page.project %}
       <meta content="{{ site.url }}/images/posts/projects/{{ page.image }}.png" property="og:image">
+      <meta name="twitter:card" content="summary_large_image">
     {% endif %}
   {% else %}
     <meta content="{{ site.description }}" property="og:description">
