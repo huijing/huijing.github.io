@@ -13,22 +13,25 @@ layout: default
   {% for post in site.tags[page.tag] %}
     {% capture post_year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% if forloop.first %}
-      <span class="post-meta">{{ post_year }}</span><div class="post-list">
+      <span class="post-meta">{{ post_year }}</span>
+      <div class="post-list">
     {% endif %}
     
     {% if forloop.first == false %}
       {% assign previous_index = forloop.index0 | minus: 1 %}
       {% capture previous_post_year %}{{ site.tags[page.tag][previous_index].date | date: '%Y' }}{% endcapture %}
       {% if post_year != previous_post_year %}
-        </div><span class="post-meta">{{ post_year }}</span><div class="post-list">
+      </div>
+      <span class="post-meta">{{ post_year }}</span>
+      <div class="post-list">
       {% endif %}
     {% endif %}
     
-    <h3 class="no-margin">
-      <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h3>
+        <h3 class="no-margin">
+          <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
 
-    <p class="post-summary">{{ post.content | strip_html | truncatewords:40}}</p>
+        <p class="post-summary">{{ post.content | strip_html | truncatewords:20}}</p>
     
     {% if forloop.last %}
       </div>

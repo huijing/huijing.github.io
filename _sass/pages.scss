@@ -83,8 +83,20 @@
   background-size: cover;
 }
 
+.post-item {
+  font-family: $header-font;
+}
+
+.post-list:last-of-type {
+  margin-bottom: 1em;
+}
+
 .post-link {
   color: color('english-walnut');
+}
+
+.post-summary {
+  margin-bottom: 0.25em;
 }
 
 .rss-subscribe {
