@@ -3,7 +3,7 @@ layout: post
 title: "The one in many languages"
 date: June 28, 2015
 project: SFO China
-image: project-10@2x
+image: project-10
 tags: [drupal7, client-work, i18n]
 ---
 I've always heard that Drupal did multi-language well, but you know when you hear about something and think, I know of it, but I don't know much else about it? That's exactly how multi-lingual Drupal was for me. Until we got to work on the [SFO China site](http://www.flysfo.cn/), which by the way, is one of the finalists for [Acquia's 2015 Partner Site of The Year](https://www.acquia.com/blog/acquia%27s-2015-partner-site-of-the-year-finalists/26/06/2015/3285191).

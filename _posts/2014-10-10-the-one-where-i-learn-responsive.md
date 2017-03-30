@@ -3,7 +3,7 @@ layout: post
 title: "The one where I learn responsive"
 date: October 06, 2014
 project: Pixel Onion Pte Ltd
-image: project-4@2x
+image: project-4
 description: You really can't be serious about building websites these days they're not optimised for mobile so it was high time I grok-ed the key concepts of responsive design. 
 tags: [drupal7, client-work]
 ---

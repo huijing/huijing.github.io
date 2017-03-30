@@ -2,7 +2,7 @@
 layout: post
 title: "The one about home"
 date: January 06, 2017
-image: project-14@2x
+image: project-14
 project: Penang Hokkien
 tags: [css, side-project, jekyll]
 ---
