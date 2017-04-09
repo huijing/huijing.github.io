@@ -2,6 +2,7 @@
 layout: page
 title: Blog
 ---
+{% include tagcloud.html %}
 
 {% for post in site.posts  %}
   {% capture this_year %}
@@ -16,23 +17,21 @@ title: Blog
   <ul class="post-list">
   {% endif %}
 
-  <li class="no-list-style no-margin post-item">
-    {% if post.external_url %}
-    <a class="external-url no-underline {{ post.external_site }}" href="{{ post.external_url }}">{{ post.title }}</a>
-    {% else %}
-    <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    {% endif %}
-  </li>
+    <li class="no-list-style no-margin post-item">
+      {% if post.external_url %}
+      <a class="external-url no-underline {{ post.external_site }}" href="{{ post.external_url }}">{{ post.title }}</a>
+      {% else %}
+      <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      {% endif %}
+    </li>
 
   {% if forloop.last %}
   </ul>
-  {% else %}
-    {% if this_year != next_year %}
-    </ul>
-    <span class="post-meta">{{next_year}}</span>
-    <ul class="post-list">
-    {% endif %}
-  {% endif %}
+  {% else %}{% if this_year != next_year %}
+  </ul>
+  <span class="post-meta">{{next_year}}</span>
+  <ul class="post-list">
+  {% endif %}{% endif %}
 {% endfor %}
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

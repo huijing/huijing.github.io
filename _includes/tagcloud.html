@@ -1,0 +1,8 @@
+<div class="post-tags">
+  {% assign tags = site.tags | sort %}
+  {% for tag in tags %}
+    <a href="/blog/{{ tag | first | slugify }}/" class="no-underline tag-link">
+      <span class="tag-name">{{ tag[0] }}</span> <span class="tag-count">({{ tag | last | size }})</span>
+    </a>
+  {% endfor %}
+</div>

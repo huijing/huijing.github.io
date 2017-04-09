@@ -18,3 +18,10 @@ Based on my prior experience with the [Xinmsn]({{ site.url }}/blog/the-one-on-th
 
 This meant maintenance of 2 separate sites, one for Sadia Singapore, which would be a mono-lingual English site, and one for Sadia Hong Kong, a bi-lingual English/Chinese site. The English language content for both sites would be almost identical, and I understood this meant a duplication of effort for the content creators but this was a con we could live with.
 
+## Developing a multi-site implementation
+
+I set up my local machine using [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/doc.html) so all the folders in my `Sites` folder, if require an AMP stack, can be accessed just by appending a `.dev` behind the folder name. There's probably some configuration I could do to have the configuration point to the subdirectories of the 2 sites but I didn't take the time to research it and just manually changed the database in the default `settings.php` file if I needed to switch sites.
+
+Admittedly not my finest solution, but you know, pros and cons. To get the multi-site 
+
+## 

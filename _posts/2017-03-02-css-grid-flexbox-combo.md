@@ -2,8 +2,10 @@
 layout: post
 title: "Grid + Flexbox: the best 1-2 punch in web layout"
 date: Mar 2, 2017
-tags: [css]
+tags: [css, translated]
 ---
+*This article has been translated to French by [Pierre Choffé](https://twitter.com/pierrechoffe) on [La Cascade](https://la-cascade.io/grid-et-flexbox-le-duo-gagnant/).*
+
 We're 5 days away from the stable release of Firefox 52. Do you know what this means? This means in 5 days, CSS Grids will be supported, And Chrome 57 will follow close behind on March 14, then Safari 10.1 and hopefully Edge, before the end of 2017.
 
 I'm so excited.

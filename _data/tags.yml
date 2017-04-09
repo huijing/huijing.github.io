@@ -64,6 +64,9 @@ site-building:
 theming:
   name: Theming
 
+translated:
+  name: Translated
+
 typography:
   name: Typography
 

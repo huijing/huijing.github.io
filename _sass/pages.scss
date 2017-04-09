@@ -99,6 +99,21 @@
   margin-bottom: 0.25em;
 }
 
+.post-tags {
+  margin-bottom: 1em;
+  font-size: 75%;
+}
+
+.tag-link {
+  display: inline-block;
+  white-space: nowrap;
+  background: color('apple');
+  color: color('sugarcane');
+  padding: 0.125em 0.25em;
+  margin: 0.25em 0.125em;
+  border-radius: 0.25em;
+}
+
 .rss-subscribe {
   font-size: 75%;
 }
