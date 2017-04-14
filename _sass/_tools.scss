@@ -32,6 +32,14 @@
   @return map-get($colors, $color);
 }
 
+@function text-color($color) {
+  @if (lightness($color) > 60) {
+    @return #000; // Lighter backgorund, return dark color
+  } @else {
+    @return #fff; // Darker background, return light color
+  }
+}
+
 @function layer-index($layer) {
   @return index($layers, $layer);
 }

@@ -1,6 +1,9 @@
 client-work:
   name: Client work
 
+codrops:
+  name: Codrops
+
 css:
   name: CSS
 
