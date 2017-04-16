@@ -28,10 +28,14 @@ layout: default
       <div class="post-list">
       {% endif %}
     {% endif %}
-    
-        <h3 class="no-margin">
-          <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
+
+      <h3 class="no-margin">
+        {% if post.external_url %}
+        <a class="external-url no-underline {{ post.external_site }}" href="{{ post.external_url }}">{{ post.title }}</a>
+        {% else %}
+        <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {% endif %}
+      </h3>
 
         <p class="post-summary">{{ post.content | strip_html | truncatewords:20}}</p>
     

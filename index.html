@@ -5,7 +5,7 @@ layout: default
   {% for post in site.posts limit:10 %}
     <li class="no-list-style">
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h2 class="no-margin">
+      <h2 class="post-title">
       {% if post.external_url %}
       <a class="post-link external-url no-underline {{ post.external_site }}" href="{{ post.external_url }}">{{ post.title }}</a>
       {% else %}

@@ -11,7 +11,11 @@ permalink: /work/
 <div class="grid-flex projects">
   {% for post in site.tags.client-work %}
   <div class="project">
+    {% if post.external_url %}
+    <a class="no-underline" href="{{ post.external_url }}">
+    {% else %}
     <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
+    {% endif %}
       <img class="project__image" srcset="{{ site.url }}/images/posts/projects/{{ post.image }}@2x.png 2x" src="{{ site.url }}/images/posts/projects/{{ post.image }}.png" alt="{{ post.image }}"/>
       <h3 class="project__title no-margin">{{ post.project }}</h3>
     </a>

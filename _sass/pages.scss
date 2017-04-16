@@ -88,6 +88,15 @@
   background-size: cover;
 }
 
+.wismut::before {
+  background: url('/images/icons/icon-wismut.svg') no-repeat;
+  background-size: cover;
+}
+
+.post-title {
+  margin-bottom: 0.25rem;
+}
+
 .post-item {
   font-family: $header-font;
 }
