@@ -4,7 +4,7 @@ title: "The one in a minimalist hacker chic"
 date: March 29, 2017
 project: Epyphite
 image: project-15
-tags: [client-work]
+tags: [typography, design, client-work]
 ---
 I have an Argentinian friend. Not an acquaintance. A proper good friend. This is highly improbable, at least in my mind. Argentina is about 15,690km away from Singapore. In a different continent, across a large ocean, with a different culture. But by a random twist of fate, and an honest mistake, I gained a friend from halfway around the world, who is also a developer.
 
