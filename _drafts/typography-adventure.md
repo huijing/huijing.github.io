@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A typography adventure in Argentina"
-date: January 16, 2017
+date: May 1, 2017
 tags: [typography, design]
 ---
 I went to Argentina for vacation last year and it was splendid. One of the places we went was the [Cementerio de la Recoleta](https://turismo.buenosaires.gob.ar/en/otros-establecimientos/recoleta-cemetery) in Buenos Aires. Originally the garden of [Basílica Nuestra Señora del Pilar](http://www.basilicadelpilar.org.ar/), it became the city's first public cemetery back in 17 November 1822, and was designed by French engineer, Próspero Catelin.
