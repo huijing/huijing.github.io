@@ -32,8 +32,8 @@ Oh, and I cycle everywhere on my trusty second-hand Muji commuter bicycle.
 <ul>
   <li class="no-margin"><a href="https://web.archive.org/web/20170105035545/http://www.tomboy-tarts.com/tomboy-tirade-ep-72-comedy-podcast-beam-me-up-f-sayanee-basu-and-chen-huijing/">Ep 72: Beam me up f. Sayanee Basu and Chen Hui Jing</a></li>
   <li class="no-margin"><a href="https://web.archive.org/web/20170105034900/http://compassloft.com/2016/11/07/from-ball-to-code/">From Ball to Code</a></li>
-  <li><a href="https://web.archive.org/web/20170105040057/https://live.webuild.sg/040-huijing-chen/">We Build LIVE 040 Huijing Chen</a></li>
-  <li class="no-margin"><a href="https://www.techinasia.com/talk/developer-spotlight-chen-huijing">Basketball led her to front-end engineering. Passion kept her there.</a></li>
+  <li class="no-margin"><a href="https://web.archive.org/web/20170105040057/https://live.webuild.sg/040-huijing-chen/">We Build LIVE 040 Huijing Chen</a></li>
+  <li><a href="https://www.techinasia.com/talk/developer-spotlight-chen-huijing">Basketball led her to front-end engineering. Passion kept her there.</a></li>
 </ul>
 
 ### So how was this site built?
