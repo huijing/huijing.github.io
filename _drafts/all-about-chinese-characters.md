@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "All about Chinese characters"
-date: Apr 15, 2017
+date: May 03, 2017
 tags: [design, typography]
 ---
 *This is the first post of a multi-part series about Chinese typography, from the history of Chinese characters, to printing, to digitisation.*
