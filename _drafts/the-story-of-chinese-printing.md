@@ -26,3 +26,7 @@ Stencils were created from sheets of thick paper perforated with needles to crea
 
 ## Woodblock printing
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Gjs5VfyZmoA" frameborder="0" allowfullscreen></iframe>
+
+http://gallica.bnf.fr/ark:/12148/btv1b6300067k
+
