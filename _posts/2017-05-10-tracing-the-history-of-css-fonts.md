@@ -7,7 +7,7 @@ tags: [typography, specifications]
 ---
 I love a good origin story, like the origin of Batman in Detective Comics #33, or Kate Kane (the modern version, introduced in 52, not the 1956 one). It gives us greater insight into the motivations and characteristics of any particular thing, be it a character or a specification. Segue! <span class="emoji" role="img" tabindex="0" aria-label="smiling face with horns">&#x1F608;</span>
 
-As part of my perpetual obsession with typography, as well as CSS, I've been looking into how we got to having more webfonts than we can shake a stick at. What I love about how the W3C does things is that there are always links to previous versions of the specification, all the way back to the first drafts.
+As part of my perpetual obsession with typography, as well as CSS, I've been looking into how we got to having more web fonts than we can shake a stick at. What I love about how the W3C does things is that there are always links to previous versions of the specification, all the way back to the first drafts.
 
 Although those are missing the full picture of the various discussions and meetings among all the individuals involved in crafting and implementing the specifications, it does offer some clues to how things got to where there are.
 
