@@ -64,6 +64,9 @@ side-project:
 site-building:
   name: Site building
 
+specifications:
+  name: Specifications
+
 theming:
   name: Theming
 
