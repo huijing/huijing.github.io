@@ -179,6 +179,7 @@ No, what we get to do for a living, is a blessing. And making valuable informati
   <li class="no-margin"><a href="https://dev.opera.com/articles/opera-mini-and-javascript/">Opera Mini and JavaScript</a> by <a href="https://twitter.com/webinista">Tiffany Brown</a></li>
   <li class="no-margin"><a href="http://www.opera.com/help/mini/android#secure">Is Opera Mini secure?</a></li>
   <li class="no-margin"><a href="https://www.smashingmagazine.com/2017/03/world-wide-web-not-wealthy-western-web-part-1/">World Wide Web, Not Wealthy Western Web (Part 1)</a> by <a href="http://www.brucelawson.co.uk/">Bruce Lawson</a></li>
+  <li class="no-margin"><a href="https://dev.opera.com/articles/making-sites-work-opera-mini/">Making websites that work well on Opera Mini</a> by <a href="http://www.brucelawson.co.uk/">Bruce Lawson</a></li>
   <li><a href="https://hacks.mozilla.org/2017/03/doubling-down-on-cross-browser-testing/">Doubling Down on Cross-Browser Testing</a></li>
 </ul>
 
