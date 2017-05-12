@@ -147,9 +147,9 @@ Oh, don't give me that look.
 <ul>
   <li class="no-margin">Made same-origin wording normative and marked it at-risk</li>
   <li class="no-margin">Simplified definition of subscript/superscript variant property</li>
-  <li class="no-margin">Trimmed some font-variant property values and renamed others</li>
+  <li class="no-margin">Trimmed some <code>font-variant</code> property values and renamed others</li>
   <li class="no-margin">Added more examples for various font variant value types</li>
-  <li>Added DOM interface definitions for `@font-feature-values` rules</li>
+  <li>Added DOM interface definitions for <code>@font-feature-values</code> rules</li>
 </ul>
 
 <p class="no-margin"><a href="https://www.w3.org/TR/2012/WD-css3-fonts-20120823/">23 August 2012</a> - <strong>CSS Fonts Module Level 3 Working Draft</strong></p>
@@ -166,7 +166,7 @@ Oh, don't give me that look.
 
 <p class="no-margin"><a href="https://www.w3.org/TR/2012/WD-css3-fonts-20121211/">11 December 2012</a> - <strong>CSS Fonts Module Level 3 Working Draft</strong></p>
 <ul>
-  <li class="no-margin">Tightened description and fixed errors in description of font-variant-caps</li>
+  <li class="no-margin">Tightened description and fixed errors in description of <code>font-variant-caps</code></li>
   <li class="no-margin">Added <code>auto</code> value to <code>font-size-adjust</code></li>
   <li class="no-margin">Added definition of font load events</li>
   <li class="no-margin">Defined explicit steps for font matching grapheme clusters</li>
@@ -220,8 +220,8 @@ Regardless, these documents are still interesting to read because they give us a
 
 <p class="no-margin">For the CSS Fonts Module Level 3, a few changes have been made in the <a href="https://drafts.csswg.org/css-fonts/">latest Editor’s Draft</a> dated 19 January 2016, as of time of writing. So if you’re reading this far in the future, the link probably won’t be dated as such any more.</p>
 <ul>
-  <li class="no-margin">add omitted ‘font-variant-position’ values to ‘font-variant’ shorthand</li>
-  <li class="no-margin">make negative values for font-size-adjust invalid, along with negative percentage font-size values</li>
+  <li class="no-margin">add omitted <code>font-variant-position</code> values to <code>font-variant</code> shorthand</li>
+  <li class="no-margin">make negative values for <code>font-size-adjust</code> invalid, along with negative percentage <code>font-size</code> values</li>
   <li class="no-margin">remove the requirement that user agents use OS/2 table subscript/superscript metrics</li>
   <li>minor editorial cleanups</li>
 </ul>
