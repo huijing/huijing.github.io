@@ -26,8 +26,8 @@ permalink: /resume/
 ### Work experience
 
 **Deep Labs**  
-(March 2016 - Present)  
-I am a **Front-end engineer** focused on the development of user interfaces and front-end development of web and mobile applications. My responsibilities include:
+(March 2016 - April 2017)  
+I was a **Front-end engineer** focused on the development of user interfaces and front-end development of web and mobile applications. My responsibilities included:
 
 <ul>
   <li class="no-margin">Providing input and developing user interfaces for each phase of the application development life cycle, from ideation to design and development till release and support</li>
