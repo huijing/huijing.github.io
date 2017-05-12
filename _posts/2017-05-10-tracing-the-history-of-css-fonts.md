@@ -105,7 +105,7 @@ The first revision of CSS2 (aka CSS2.1) was meant to correct errors in the CSS2 
 As mentioned, the cut bits from the CSS2.1 specification went in here, so everything with regards to `@font-face` and the font descriptors for font selection, as well as font characteristics could be found in this specification. The extended font matching algorithm was also defined here.
 
 [2 August 2002](https://www.w3.org/TR/2002/WD-css3-fonts-20020802/) - **CSS3 Fonts Working Draft**  
-This was quite a day, as the CSS3 Fonts Working Draft was also updated and now included a section on Font Decoration, with some interesting properties like `font-effect`, `font-smooth`, `font-emphasize-style`, `font-emphasize-position` and the `font-emphasize` shorthand. *\*Spoiler alert: they've been dropped, and technically don't exist\**
+This was quite a day, as the CSS3 Fonts Working Draft was also updated and now included a section on Font Decoration, with some interesting properties like `font-effect`, `font-smooth`, `font-emphasize-style`, `font-emphasize-position` and the `font-emphasize` shorthand. *\*Spoiler alert: `font-effect` has been dropped, and technically doesn't exist, while others have been moved to other modules\**
 
 <p class="no-margin"><a href="https://www.w3.org/TR/2006/WD-CSS21-20061106/fonts.html">06 November 2006</a> - <strong>CSS2.1 Working Draft</strong><br> 
 Finally, some action in the CSS2.1 Working Draft fonts section. The <code>font-family</code> section expanded with details on generic font families. The five generic font families are <code>serif</code>, <code>sans-serif</code>, <code>cursive</code>, <code>fantasy</code> and <code>monospace</code>.<br>
