@@ -50,7 +50,7 @@ I was a **Senior developer** responsible for planning and architecting website i
 
 **Pixel Onion Pte Ltd**  
 (Oct 2013 – May 2015)  
-I was a **Front-end developer** and worked on a variety of projects with several major clients, including DBS bank, Mediacorp and Microsoft as well as the San Francisco International Airport. I honed all my web development chops here and this was what I spent my time doing:
+I was a **Drupal architect** and worked on a variety of projects with several major clients, including DBS bank, Mediacorp and Microsoft as well as the San Francisco International Airport. I honed all my web development chops here and this was what I spent my time doing:
 
 <ul>
   <li class="no-margin">Design responsive layouts, typography and site components for optimal user experience</li>
@@ -71,7 +71,7 @@ I was a **Front-end developer** and worked on a variety of projects with several
 
 **Aristal Solutions Sdn Bhd**  
 (Feb 2012 – Oct 2013)  
-I was part of the Project Management Office on a Core Banking Implementation for a Major Banking Group in Malaysia as an **Associate consultant**. Working with a team of more than a hundred strong, highlighted the importance of accountability, communication and documentation. I managed the overall project issue log as well as prepared weekly updates to project leadership. I was also responsible for defect analysis, and liaised with the developers to facilitate issue resolution.
+I was part of the Project Management Office on a Core Banking Implementation for a Major Banking Group in Malaysia as an **Associate consultant**. Working with a team of more than a hundred strong highlighted the importance of accountability, communication and documentation. I managed the overall project issue log as well as prepared weekly updates to project leadership. I was also responsible for defect analysis, and liaised with the developers to facilitate issue resolution.
 
 **Free-Lance Work**  
 (2006 – 2011)  
