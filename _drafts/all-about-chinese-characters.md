@@ -93,7 +93,7 @@ historical records of shang and western zhou on bronze script how zhou defeated 
 
 #### Other Large Seal scripts
 
-During the spring autumn and warring states, there were several variant scripts like stone drum script and bird worm script. Stone drum script duringwarring states, more than 700 characters on the hunting activeities of empreror qin more calligraphic than bronze script 10 of these stone drumbs in beijing 故宫博物院 
+During the spring autumn and warring states, there were several variant scripts like stone drum script and bird worm script. Stone drum script during warring states, more than 700 characters on the hunting activities of emperor qin more calligraphic than bronze script 10 of these stone drums in beijing 故宫博物院 
 
 #### Small seal script (小篆)
 
@@ -120,7 +120,7 @@ from long and thin to wide and short to fit onto bamboo strips
 from curved to straight for faster writing
 long strokes broken up to 点横竖撇捺
 thick and thin because brush strikes
-further simplication of glyph strokes, significant structrual modifications from small seal, introduction of standardised radicals
+further simplification of glyph strokes, significant structural modifications from small seal, introduction of standardised radicals
 no longer pictographs, become stroke based symbol, clerical script marked the end of pictographic nature
 隶变 the chasm between old chinese and modern chinese
 
@@ -135,13 +135,13 @@ sui dynasty has 楷书 flavour
 song yuan dynasty has 行楷 flavour
 spanned 3 styles of scripts
 今草
-east han widely used, 东晋 became more mature, inherited some charcteristics of 章草, simplify strokes, suited for writing fast
+east han widely used, 东晋 became more mature, inherited some characteristics of 章草, simplify strokes, suited for writing fast
 replaced individual strokes like 撇捺勾横折弯 with loops
 characters were not standard size, broke out of the "grid"
 very rhythmic and artistic
 
 狂草
-evolved from 今草 breaks the mold of square characters, matured during tang dynasty, unique free flow 
+evolved from 今草 breaks the mould of square characters, matured during tang dynasty, unique free flow 
 simplified the strokes almost excessively
 totally artistic, no standard restricted forms, curves and strokes flow like water
 however it's not just draw whatever you want, the trick is to respect the basic tenets of rapid script, which is you can't make arbitrary changes to the characters as you please
