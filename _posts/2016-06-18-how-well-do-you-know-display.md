@@ -418,7 +418,7 @@ There are some parallels between `display: ruby;` and `display: table;`, but the
 ### display: contents;
 
 > The element itself does not generate any boxes, but its children and pseudo-elements still generate boxes as normal. For the purposes of box generation and layout, the element must be treated as if it had been replaced with its children and pseudo-elements in the document tree.  
-> - CSS Display Module Level 3
+—CSS Display Module Level 3
 
 What the specification is trying to say is that, when you set `display: contents` on an element, it will disappear from the DOM but all its children remain and take up the space it occupied. Unfortunately, this specification is only supported by Firefox for now. Resize the [full size CodePen](http://codepen.io/huijing/full/wWWzmd/) in Firefox to get a feel of how it works.
 
