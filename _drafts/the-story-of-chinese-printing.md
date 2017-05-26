@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "The story of Chinese printing"
-date: Apr 15, 2017
+date: Jul 15, 2017
 tags: [design, typography]
 ---
-*This is the third post of a multi-part series about Chinese typography, from the history of Chinese characters, to printing, to digitisation.*
+*This is the second post of a multi-part series about Chinese typography, from the history of Chinese characters, to printing, to digitisation.*
 
 https://www.pastemagazine.com/articles/2017/01/the-font-wars.html
 https://www.typenetwork.com/news/article/opentype-at-work-standard-ligatures
@@ -30,7 +30,6 @@ Stencils were created from sheets of thick paper perforated with needles to crea
 
 http://gallica.bnf.fr/ark:/12148/btv1b6300067k
 
-
 Of course, this also had an impact on the methods of duplication for text. The most basic copying technology is simply transcription, which was the de facto method of duplication in Europe before printing. Medieval transcription culture blossomed during the Middle Ages as demand for texts increased. This is evidenced by the large collection of medieval manuscripts that are still preserved in various national museums, libraries and universities all across Europe.
 
 Transcription was also popular in the East, but as demand for books grew, the invention of printing technology was inevitable. The earliest mechanical printing method for duplication of texts was woodblock printing, invented in China during the Tang dynasty, one of the most prosperous eras in Chinese history between 618-907AD. 玄奘, who went to India on a pilgrimage to retrieve the Buddhist sutras, returned to China in 645AD, and proceeded to translate them, as well as print and distribute images of Samantabhadra（普贤菩萨）on huifeng paper（回锋纸）.
@@ -41,7 +40,15 @@ Woodblock printing was introduced to Europe through Russia, likely by the Mongol
 
 Moveable type was too pioneered in China. Invented by an ordinary citizen, 毕昇, during the 庆历 reign from 1041-1048. 毕昇's invention was recorded in 梦溪笔谈 by 沈括, using ceramics to manufacture his types. The Chinese used a variety of other materials for making types, like clay, wood, bronze, tin and even lead. Moveable-type printing had a number of advantages, mainly its speed and flexibility in typesetting, making it possible to print all types of books. Moveable types could also be shared between printers. Travelling craftsmen could just carry a load of wood types and set up wherever they could.
 
-Korea adopted 毕昇's idea of moveable-type printing during the Kingdom of Goryeo (koh-ryah) and brought it to new heights during the Kingdom of Joseon (cho-san). The government set up Chuja-so or the Bureau of Type Casting, which casted hundreds and thousands of metal types, as well as official printing offices in every province. The hallmark of Korean printing was the mass production of metal types, mostly bronze, by casting. This technique of casting was pioneered by the Koreans, with cast metal types being in use before 1239. And with the volume of types cast, they'd honed their techniques to levels far beyond that of other countries. Records have shown that Choe Yun-ui (chue-yon-ne), a Korean civil minister, printed Sangjeong Gogeum Yemun in 1234. And the earliest moveable-type printed book still in existence today, is Jikji, a Korean Buddhist text, dated 1377, three-quarters of a century before Gutenberg.
+Korea adopted 毕昇's idea of moveable-type printing during the Kingdom of Goryeo (koh-ryah) and brought it to new heights during the Kingdom of Joseon (cho-san). Moveable type developed in Korea almost out of necessity. The royal palace library had been destroyed in fires during 1126 and 1170. There was also the war in China between the Song and the Chin that made it impossible to import books.
+
+Yi Seonggye, who founded the Joseon dynasty, wished to implement a new national policy, giving rise to the need to publish large numbers of books. The government set up Chuja-so or the Bureau of Type Casting, which casted hundreds and thousands of metal types, as well as official printing offices in every province. 
+
+The hallmark of Korean printing was the mass production of metal types, mostly bronze, by casting. This technique of casting was pioneered by the Goryeo craftsman, with cast metal types being in use before 1239. They had previously mastered a manufacturing technique via sand moulds. They also developed an ink which was less oily than the kind used for woodblock printing, which adhered much better to paper.
+
+Records have shown that Choe Yun-ui (chue-yon-ne), a Korean civil minister, printed Sangjeong Gogeum Yemun in 1234. And the earliest moveable-type printed book still in existence today, is Jikji, a Korean Buddhist text, dated 1377, three-quarters of a century before Gutenberg. And with the volume of types cast, the Koreans honed their techniques to levels far beyond that of other countries. 
+
+Korea's golden age of scientific progress took place during the reign of King Sejong from 1418-1450. The king held printing in high regard, pushing for the development of a new series of very thin and very small type, with his officials supporting and directing the endeavour. gyemi ja improved to gyeongja ja, then another founding to bring perfection to the sahpe and size of gyeongja ja. gabin ja next evolution, no longer needed to be set in beeswax. 
 
 However, moveable-type printing never really took off in China, and there are various reasons for this. 
 1. Moveable type was widely used across Korea, but barely used at all in China. 
