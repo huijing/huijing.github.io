@@ -1,60 +1,97 @@
 - title: Using responsive images (now)
   id: resp-imgs
   video: https://engineers.sg/video/using-responsive-images-now-talk-js--269
+  event: talk.js
+  type: meetup
 
 - title: Why you should be excited about CSS shapes
   id: css-shapes
   video: https://engineers.sg/video/css-shapes-singapore-css--432
+  event: Talk.CSS
+  type: meetup
 
 - title: Let's ⚡ talk about CSS triggers
   id: css-triggers
   video: https://engineers.sg/video/tips-on-eliminating-jank-talk-css--505
+  event: Talk.CSS
+  type: meetup
 
 - title: "Web development: breaking it down"
   id: intro-html-css
+  event: General Assembly
+  type: workshop
 
 - title: "Coding for beginners: HTML and CSS"
   id: begin-html-css
+  event: General Assembly
+  type: workshop
 
 - title: The epic git bomb
   id: git-bomb
   video: https://engineers.sg/video/an-epic-git-bomb-git-meetup-0-4-0--630
+  event: Grumpy Gits
+  type: meetup
 
 - title: "Code in One Day: HTML & CSS Crash Course"
   id: code-crash-course
+  event: General Assembly
+  type: workshop
 
 - title: "So your designer wants a masthead"
   id: build-masthead
+  event: Talk.CSS
+  type: meetup
 
 - title: "TechLadies Pre-Bootcamp Workshop #2"
   id: tl-workshop-2
   video: https://engineers.sg/video/techladies-pre-bootcamp-workshop-2-front-end-development--965
+  event: TechLadies
+  type: workshop
 
 - title: "A Chinese typography experiment"
   id: zh-type
   video: https://engineers.sg/video/a-chinese-typography-experiment-talk-css--1273
+  event: Talk.CSS
+  type: meetup
 
 - title: "How I learn to CSS"
   id: css-conf-2016
   video: https://youtu.be/gJA5sdyCWNQ
+  event: CSSConf.Asia 2016
+  website: https://2016.cssconf.asia/
+  type: conference
 
 - title: "CSS grid + writing-mode = 🎉"
   id: css-grid
   video: https://engineers.sg/video/css-grid-writing-mode-singaporecss--1384
+  event: Talk.CSS
+  type: meetup
 
 - title: "TechLadies in KL 🇲🇾"
   id: tl-in-kl
+  event: TechLadies
+  type: workshop
 
 - title: "Deciphering the CSS property syntax"
   id: css-syntax
   video: https://engineers.sg/video/deciphering-the-css-property-syntax-in-specifications-singaporecss--1453
+  event: Talk.CSS
+  type: meetup
 
 - title: "What the web means to me"
   id: wwc-2017
   video: https://engineers.sg/video/what-the-web-means-to-me-women-who-code-singapore--1609
+  event: Women Who Code
+  type: meetup
 
 - title: "Web typography: East meets West"
   id: webconf-asia-2017
+  event: Webconf.asia 2017
+  website: https://webconf.asia/
+  type: conference
 
 - title: "Chinese typography on the web"
   id: chinese-web-typography
+  event: pitercss conference
+  website: https://pitercss.com/
+  type: conference

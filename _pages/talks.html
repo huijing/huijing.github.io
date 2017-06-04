@@ -3,9 +3,12 @@ layout: page
 title: Talks
 permalink: /talks/
 ---
-<p>Sometimes, I'm so overwhelmed by my love for all things HTML and CSS that I feel compelled to tell a large group of people about it.</p>
+<p>Sometimes, I'm so overwhelmed by my love for all things HTML and CSS that I feel compelled to tell a large group of people about it. All slides are created with <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>, so you can go ahead and click on the slide image to see the full presentation. Source code is available on <a href="https://github.com/huijing/slides">GitHub</a>.</p>
+
+<h2>Conferences</h2>
 <div class="grid-flex">
     {% for slide in site.data.slides %}
+    {% if slide.type == 'conference' %}
     <div class="talk">
         <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.id }}">
         <img srcset="{{ site.baseurl }}/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
@@ -18,6 +21,27 @@ permalink: /talks/
         {% endif %}
         <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/{{ slide.id }}.pdf">Download PDF</a></p>
     </div>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<h2>Meet-ups & Workshops</h2>
+<div class="grid-flex">
+    {% for slide in site.data.slides %}
+    {% unless slide.type == 'conference' %}
+    <div class="talk">
+        <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.id }}">
+        <img srcset="{{ site.baseurl }}/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
+        </a>
+        {% if slide.video.size %}
+        <p class="no-margin"><a class="talk__video" href="{{ slide.video }}">
+        Watch video</a></p>
+        {% else %}
+        <p class="no-margin">No video <span class="emoji" role="img" tabindex="0" aria-label="neutral face">&#x1F610;</span></p>
+        {% endif %}
+        <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/{{ slide.id }}.pdf">Download PDF</a></p>
+    </div>
+    {% endunless %}
     {% endfor %}
 </div>
 

@@ -35,7 +35,7 @@ Oh, was that too morbid? What can I say? I'm genuinely worried we're going to bl
 
 *insert timeline portion*
 
-Professor Zheng Huisheng (郑慧生老师) from Henan University posited that [Chinese writing had its roots in 陶文](http://www.comdesignlab.com/typochina/chinese/archives/98) (script etched on ancient pottery), which came about during the Neolithic age. The script was comprised of line symbols and pictographs which were used to convey message and meaning.
+Professor Zheng Huisheng (郑慧生老师) from Henan University posited that [Chinese writing had its roots in 陶文](http://www.comdesignlab.com/typochina/chinese/archives/98) (script etched on ancient pottery), which came about during the Neolithic age. The script was comprised of line symbols and pictographs which were used to convey message and meaning. There is no definitive proof that these symbols were used as a formal writing system already, as some researchers also make the case that these symbols 
 
 <figure>
     <figcaption>Glyphs from excavated ancient Liuwan pottery (<a href="http://web.archive.org/web/20170120090334/http://c19680213.blog.163.com/blog/static/1091357332016128112347771/">Source</a>)</figcaption>
@@ -48,9 +48,12 @@ One of the most significant developments in Chinese civilisation is the standard
 
 <p class="note">As a side note, the more I read up about ancient China, the more I realised just how much palace intrigue and power politics were involved in the Imperial Chinese courts. Turns out those television dramas on Imperial China practically wrote their own plots.</p>
 
-Seal script can be broadly categorised into Large Seal (大篆) and Small Seal (小篆). Large Seal is the precursor to Small Seal. After the Western Zhou 
+Seal script can be broadly categorised into Large Seal (大篆) and Small Seal (小篆). Large Seal is the precursor to Small Seal. After the Western Zhou dynasty, there was a period of relative chaos as states were fragmented during the Spring-Autumn period and Warring States period. Each state developed their own style of writing and dialects.
 
 after western zhou, spring summer and warring states period messy, all the states had their own style of writing and some words were pronounced differently too, scripts like Stone Drum script (石鼓文) Bird Worm script (鸟虫书) etc
+
+李斯 was tasked to come up with a standardised script. With 大篆 as the base, he then adopted the good parts of other states' scripts 
+
 李斯tasked to come up with a standardised script with large seal as the base, take in the good parts of the other states' script basically clean up the warring states variants, Small seal became the official script during the Qin dynasty, while the scripts that came before it are known as large seal.
 
 #### Oracle bone script (甲骨文)
