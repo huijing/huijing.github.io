@@ -21,9 +21,14 @@ A language is closely intertwined with the culture, history and identity of the 
     <img src="{{ site.url }}/images/posts/zh-type/xianrendong.jpg" srcset="{{ site.url }}/images/posts/zh-type/xianrendong@2x.jpg 2x" />
 </figure>
 
-Chinese civilisation has a very long history dating back to the Mesolithic age, based on prehistoric pottery shards found in Jiangxi, China<sup><a href="#ref1">[1]</a></sup>. In fact, China can be considered the oldest continuous civilisation in the world. Here's a general timeline, because visualisations help comprehension (who said that? I did <span class="emoji" role="img" tabindex="0" aria-label="smirking face">&#x1F60F;</span>).
+Chinese civilisation has a very long history dating back to the Mesolithic age, based on prehistoric pottery shards found in Jiangxi, China<sup><a href="#ref1">[1]</a></sup>. In fact, China can be considered the oldest continuous civilisation in the world. Here's a highly simplified timeline, because visualisations help comprehension (who said that? I did <span class="emoji" role="img" tabindex="0" aria-label="smirking face">&#x1F60F;</span>). You'll need to scroll, a lot, because the Chinese have a long history.
 
-*Insert timeline here*
+<figure style="margin-left:0;margin-right:0;">
+    <figcaption>Simplified timeline of Dynasties (dates may not be definitive)</figcaption>
+    <div style="overflow-x:scroll;">
+        <img style="width:3000px;max-width:none;" src="{{ site.url }}/images/posts/zh-story/timeline.svg" />
+    </div>
+</figure>
 
 So for the longest time, Chinese civilisations were ruled by dynasties. Dynasties which rose and fell over those thousands of years, which kinda puts things into perspective, given our apparent inability to have [historical perspective beyond 50-100 years](https://medium.com/@theonlytoby/history-tells-us-what-will-happen-next-with-brexit-trump-a3fefd154714#.gkpucxbnw). Maybe we're in the middle of a lull period for China, who knows how the next century will play out?
 
@@ -48,9 +53,7 @@ One of the most significant developments in Chinese civilisation is the standard
 
 <p class="note">As a side note, the more I read up about ancient China, the more I realised just how much palace intrigue and power politics were involved in the Imperial Chinese courts. Turns out those television dramas on Imperial China practically wrote their own plots.</p>
 
-Seal script can be broadly categorised into Large Seal (大篆) and Small Seal (小篆). Large Seal is the precursor to Small Seal. After the Western Zhou dynasty, there was a period of relative chaos as states were fragmented during the Spring-Autumn period and Warring States period. Each state developed their own style of writing and dialects.
-
-after western zhou, spring summer and warring states period messy, all the states had their own style of writing and some words were pronounced differently too, scripts like Stone Drum script (石鼓文) Bird Worm script (鸟虫书) etc
+Seal script can be broadly categorised into Large Seal (大篆) and Small Seal (小篆). Large Seal is the precursor to Small Seal. After the Western Zhou dynasty, there was a period of relative chaos as states were fragmented during the Spring-Autumn period and Warring States period. Each state developed their own style of writing and dialects and these scripts are sometimes known as the script of the six states (六国文字).
 
 李斯 was tasked to come up with a standardised script. With 大篆 as the base, he then adopted the good parts of other states' scripts 
 
