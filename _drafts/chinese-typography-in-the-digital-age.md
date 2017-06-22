@@ -14,3 +14,6 @@ http://www.alphabettes.org/japanese-typography-motogi/
 Before China was linked to the Internet in 1994, Chinese-language works had appeared in the online newletters, newsgroups, and magazines run and distributed by Chinese students and scholars overseas. First set up in the late 1980s and early 1990s, these were the earliest Chinese-language publications and forums on the Internet.
 
 China was connected to the Internet in 1994 via the American National Science Foundation Network, and the earliest works of Chinese-language Internet literature had already appeared overseas. Starting in 1998, with the rapid diffusion of the Internet in China, personal websites and bulletin boards blossomed. Under the Banyan Tree, launched in 1997 and incorporated in 1999, was the first major website devoted fully to Internet literature.
+
+https://www.typeisbeautiful.com/2013/12/6983/
+https://blog.readmoo.com/2013/11/25/octw-typesetting/
