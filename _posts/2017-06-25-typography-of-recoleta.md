@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The typography of Recoleta"
+title: "The typefaces of Recoleta"
 date: Jun 25, 2017
 tags: [typography, design]
 ---
