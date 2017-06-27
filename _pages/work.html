@@ -33,6 +33,14 @@ permalink: /work/
     </a>
   </div>
   {% endfor %}
+  {% for project in site.data.projects %}
+  <div class="project grid-flex__3item">
+    <a class="no-underline" href="{{ site.url }}/{{ project.id }}">
+      <img class="project__image" srcset="{{ site.url }}/images/posts/projects/{{ project.image }}@2x.png 2x" src="{{ site.url }}/images/posts/projects/{{ project.image }}.png" alt="{{ project.image }}"/>
+      <h3 class="project__title no-margin">{{ project.title }}</h3>
+    </a>
+  </div>
+  {% endfor %}
 </div>
 
 <div class="projects">
