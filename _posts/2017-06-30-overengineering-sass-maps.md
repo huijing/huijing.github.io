@@ -285,6 +285,7 @@ I'm fairly confident there's a much better way to get this done , as proven by m
 ## Further resources
 
 <ul>
+  <li class="no-margin"><a href="http://sass-lang.com/documentation/file.SASS_REFERENCE.html">Sass official documentation</a></li>
   <li class="no-margin"><a href="https://www.youtube.com/watch?v=kZOJCVvyF-4">Lea Verou: CSS Variables: var(–subtitle)</a></li>
   <li class="no-margin"><a href="https://madebymike.com.au/writing/using-css-variables/">Using CSS variables correctly</a></li>
   <li class="no-margin"><a href="https://una.im/local-css-vars/">Locally Scoped CSS Variables: What, How, and Why</a></li>
