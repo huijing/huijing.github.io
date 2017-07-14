@@ -43,6 +43,9 @@ html:
 i18n:
   name: i18n
 
+javascript:
+  name: Javascript
+
 jekyll:
   name: Jekyll
 

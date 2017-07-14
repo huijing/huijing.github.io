@@ -5,6 +5,7 @@ date: Feb 15, 2016
 image: base.jpg
 tags: [kohana]
 ---
+*Update: The Kohana framework has been deprecated and the last stable version was 3.3.6 released on 25 July 2006.*
 
 I had previously only ever had experience with Drupal, which isn't an MVC (Model-View-Controller) framework. I had heard of MVC frameworks and even googled what it meant, but somehow it just did not click. After more than 2 years since my first professional start in web development, I'm more certain than ever that if I don't build something for real, my brain just refuses to learn. <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
 
@@ -199,6 +200,6 @@ That's pretty much it in terms of using the framework from a front-end developer
 ## Further reading
 
 <ul>
-  <li class="no-margin"><a href="https://kohanaframework.org/3.3/guide/kohana/">Kohana Official Documentation</a></li>
+  <li class="no-margin"><a href="https://web.archive.org/web/20161201193601/http://kohanaframework.org:80/3.3/guide/kohana/">Kohana Official Documentation</a></li>
   <li><a href="http://zackperdue.com/tutorials/understanding-kohana-routes">Understanding Kohana Routes</a></li>
 </ul>

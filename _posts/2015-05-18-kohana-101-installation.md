@@ -4,6 +4,8 @@ title: "Kohana 101: Installation and setup"
 date: May 18, 2015
 tags: [kohana]
 ---
+*Update: The Kohana framework has been deprecated and the last stable version was 3.3.6 released on 25 July 2006.*
+
 I'm starting on something completely new to me: the [Kohana](https://kohanaframework.org/) framework, and this is my attempt to document everything I'm learning. When I started this blog, I was already one year into Drupal, and so a lot of the things I struggled with as a noob had more or less evaporated from my mind. For Kohana, I'm a complete noob once again, so hopefully this will be helpful to somebody who's starting from zero as well.
 
 <p class="no-margin">As of time of writing, the latest stable version of Kohana is v3.3.3.1. There are 2 ways to install Kohana on your system, either download the .zip file from the homepage or get the files via git. If you choose the first option, extract the contents of the .zip file into your local web root. If you choose the second option, navigate to your local web root and run the following:</p>
