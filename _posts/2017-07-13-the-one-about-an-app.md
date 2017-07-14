@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The one about an app"
-date: Aug 31, 2017
+date: Jul 13, 2017
 project: Library app
 image: project-24
 tags: [side-project, javascript]
