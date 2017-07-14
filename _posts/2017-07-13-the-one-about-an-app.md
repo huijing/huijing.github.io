@@ -10,7 +10,7 @@ It's finally happened. I did a proper Javascript thing. Now before you start to 
 
 In fact, my superficial need for external validation made me so self-concious about using jQuery in 2015 that I soon treated [Ray Nicholus's](@RayNicholus) [You Don't Need jQuery!](https://blog.garstasio.com/you-dont-need-jquery/) like some holy reference for a while until I weaned myself off jQuery.
 
-But that's beside the point. Up till now, I've always been doing client-side Javascript. I'd partner up with a “Javascript person” who would handle the middleware-side of things, and write the nice APIs I would consume and be on my merry way. I'm pretty much known for my inordinate love of all things CSS, because I took to it like a duck to water. 
+But that's beside the point. Up till now, I've always been doing client-side Javascript. I'd partner up with a “Javascript person” who would handle the middleware-side of things, and write the nice APIs I would consume and be on my merry way. I'm pretty much known for my inordinate love of all things CSS, because I took to it like a duck to water <span class="emoji" role="img" tabindex="0" aria-label="duck">&#x1F986;</span>. 
 
 Learning Javascript was like being a duck trying to fly. Zoology lesson: ducks can fly! It's just that they're not optimised for flying at will. [But on the whole, it is obvious that ducks can fly and may even take wing at a fast pace of about 50 miles per hour](http://birdsflight.com/can-ducks-fly-do-ducks-fly-flying-ducks/). So after a couple years, I felt it was time to stand on my own two feet and figure out how this middleware-server-api-routing stuff worked.
 
