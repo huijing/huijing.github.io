@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Challenge of digital transformation"
-date: Apr 15, 2016
+date: Jul 15, 2017
 tags: [opinion, design]
 ---
 
@@ -21,4 +21,3 @@ haven't found an effective replacement for pen and paper
 form design is ux
 do the people making executive decisions use the platform itself?
 boils down to culture
-
