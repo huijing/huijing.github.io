@@ -97,8 +97,11 @@ I made the decision to handle performance optimisation through Drupal itself. Dr
   <li class="no-margin"><a href="https://www.npmjs.com/package/gulp-sass">gulp-sass</a> - To compile Sass into CSS</li>
   <li class="no-margin"><a href="https://www.npmjs.com/package/gulp-autoprefixer">gulp-autoprefixer</a> - To add vendor-prefixes based on the latest specifications</li>
   <li class="no-margin"><a href="https://www.npmjs.com/package/browser-sync">browser-sync</a> - To live-reload the browser</li>
-  <li><a href="https://www.npmjs.com/package/gulp-shell">gulp-shell</a> - To run drush for clearing caches</li>
+  <li style="text-decoration:line-through"><a href="https://www.npmjs.com/package/gulp-shell">gulp-shell</a> - To run drush for clearing caches</li>
 </ul>
+
+*Update: gulp-shell is [apparently an anti-pattern](https://github.com/sun-zheng-an/gulp-shell/issues/55) that has ceased to be supported from gulp 4 onwards. Use child-process instead. The package.json and gulpfile.js has been updated accordingly.*
+
 <p class="no-margin">This is what the final <code>package.json</code> looks like:</p>
 <pre><code class="language-bash">{
   "name": "godzilla",
@@ -110,7 +113,6 @@ I made the decision to handle performance optimisation through Drupal itself. Dr
         "gulp": "^3.9.0",
         "gulp-autoprefixer": "^2.3.1",
         "gulp-sass": "^2.0.4",
-        "gulp-shell": "^0.4.2"
   },
   "scripts": {
         "postinstall": "find node_modules/ -name '*.info' -type f -delete"
@@ -135,7 +137,7 @@ Make sure that `node_modules` is added to your `.gitignore` file because we do *
        browserSync = require('browser-sync'),
        sass        = require('gulp-sass'),
        prefix      = require('gulp-autoprefixer'),
-       shell       = require('gulp-shell');</code></pre>
+       cp          = require('child_process');</code></pre>
 
 2. **Creating tasks**  
     We'll start off by creating a task to **compile Sass into CSS**. We'll also use [Autoprefixer](https://github.com/sindresorhus/gulp-autoprefixer) to add vendor-prefixes to the file before it gets output as a CSS file in the `css` folder. Finally, we want the new styles to be injected into the browser (no more ⌘-⇧-R〈( ^.^)ノ). Just check that your file paths are correct.
@@ -153,30 +155,29 @@ gulp.task('sass', function () {
     
     <p class="no-margin">We'll also want a task for our favourite drush command, <code>drush cc all</code>. <strong>Clearing cache</strong> is the Drupal equivalent of <em>"Did you turn it off and on again?"</em>. I don't know about you but if I had a dollar for every time I ran this command, I'd be sipping Piña coladas <span class="emoji" role="img" tabindex="0" aria-label="cocktail glass">&#x1F378;</span> all day on a beach in the Caribbean <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span> by now. If you aren't using Drush, you really should. <a href="{{ site.url }}/blog/team-drupal-development#installing-drush">Here’s</a> an earlier post on how to get set up with Drush.</p>
     <pre><code class="language-javascript">/**
- * @task clearcache
- * Clear all caches
- */
-gulp.task('clearcache', function() {
-  return shell.task([
-      'drush cc all'
-  ]);
+ &ast; @task clearcache
+ &ast; Clear all caches
+ &ast;/
+gulp.task('clearcache', function(done) {
+  return cp.spawn('drush', ['cc all'], {stdio: 'inherit'})
+  .on('close', done);
 });</code></pre>
 
     <p class="no-margin">After clearing the cache, we'll also want to <strong>reload the page</strong>. <code class="language-javascript">gulp.task()</code> accepts three parameters, the task name (which is a string), an array of tasks to be completed before the current task can begin, and the function that holds the logic of the task. The array is an optional argument, so it's common to see gulp tasks with only two parameters defined. Here I want the <code class="language-javascript">'clearcache'</code> task to complete before reloading the page.</p> 
     <pre><code class="language-javascript">/**
- * @task reload
- * Refresh the page after clearing cache
- */
+ &ast; @task reload
+ &ast; Refresh the page after clearing cache
+ &ast;/
 gulp.task('reload', ['clearcache'], function () {
   browserSync.reload();
 });</code></pre>
 
     <p class="no-margin">We want the <code class="language-javascript">'sass'</code> task to trigger when we've made changes to our .scss files and the <code class="language-javascript">'clearcache'</code> task to trigger when we've made changes to our template files. So we write another task to watch those files and trigger their respective tasks when changes have been made.</p>
     <pre><code class="language-javascript">/**
- * @task watch
- * Watch scss files for changes & recompile
- * Clear cache when Drupal related files are changed
- */
+ &ast; @task watch
+ &ast; Watch scss files for changes & recompile
+ &ast; Clear cache when Drupal related files are changed
+ &ast;/
 gulp.task('watch', function () {
   gulp.watch(['scss/*.scss', 'scss/**/*.scss'], ['sass']);
   gulp.watch('**/*.{php,inc,info}',['reload']);
@@ -192,8 +193,8 @@ gulp.task('watch', function () {
 
     <p class="no-margin">The task to <strong>launch the Browsersync server</strong> should look something like this:</p>
     <pre><code class="language-javascript">/**
- * Launch the Server
- */
+ &ast; Launch the Server
+ &ast;/
  gulp.task('browser-sync', ['sass'], function() {
     browserSync.init({
       // Change as required
@@ -210,9 +211,9 @@ gulp.task('watch', function () {
 
     <p class="no-margin">Lastly, we're going to put everything together and write the task that runs all the things. This task will launch the Browsersync server and watch our files for changes. Each individual gulp task can be called with the command <code>gulp TASK_NAME</code>, by naming this task <code class="language-javascript">'default'</code>, we can run it by just typing <code>gulp</code>.</p>
     <pre><code class="language-javascript">/**
- * Default task, running just `gulp` will 
- * compile Sass files, launch Browsersync & watch files.
- */
+ &ast; Default task, running just `gulp` will 
+ &ast; compile Sass files, launch Browsersync & watch files.
+ &ast;/
 gulp.task('default', ['browser-sync', 'watch']);</code></pre>
 
     <p class="no-margin">My <code>gulpfile.js</code> in its entirety looks like this:</p>
@@ -220,10 +221,10 @@ gulp.task('default', ['browser-sync', 'watch']);</code></pre>
        browserSync = require('browser-sync'),
        sass        = require('gulp-sass'),
        prefix      = require('gulp-autoprefixer'),
-       shell       = require('gulp-shell');&NewLine;
+       cp          = require('child_process');&NewLine;
 /**
- * Launch the Server
- */
+ &ast; Launch the Server
+ &ast;/
  gulp.task('browser-sync', ['sass'], function() {
     browserSync.init({
       // Change as required
@@ -238,9 +239,9 @@ gulp.task('default', ['browser-sync', 'watch']);</code></pre>
     });
 });&NewLine;
 /**
- * @task sass
- * Compile files from scss
- */
+ &ast; @task sass
+ &ast; Compile files from scss
+ &ast;/
 gulp.task('sass', function () {
   return gulp.src('scss/styles.scss')
   .pipe(sass())
@@ -249,34 +250,33 @@ gulp.task('sass', function () {
   .pipe(browserSync.reload({stream:true}))
 });&NewLine;
 /**
- * @task clearcache
- * Clear all caches
- */
-gulp.task('clearcache', function() {
-  return shell.task([
-    'drush cc all'
-  ]);
+ &ast; @task clearcache
+ &ast; Clear all caches
+ &ast;/
+gulp.task('clearcache', function(done) {
+  return cp.spawn('drush', ['cc all'], {stdio: 'inherit'})
+  .on('close', done);
 });&NewLine;
 /**
- * @task reload
- * Refresh the page after clearing cache
- */
+ &ast; @task reload
+ &ast; Refresh the page after clearing cache
+ &ast;/
 gulp.task('reload', ['clearcache'], function () {
   browserSync.reload();
 });&NewLine;
 /**
- * @task watch
- * Watch scss files for changes & recompile
- * Clear cache when Drupal related files are changed
- */
+ &ast; @task watch
+ &ast; Watch scss files for changes & recompile
+ &ast; Clear cache when Drupal related files are changed
+ &ast;/
 gulp.task('watch', function () {
   gulp.watch(['scss/*.scss', 'scss/**/*.scss'], ['sass']);
   gulp.watch('**/*.{php,inc,info}',['reload']);
 });&NewLine;
 /**
- * Default task, running just `gulp` will 
- * compile Sass files, launch BrowserSync & watch files.
- */
+ &ast; Default task, running just `gulp` will 
+ &ast; compile Sass files, launch BrowserSync & watch files.
+ &ast;/
 gulp.task('default', ['browser-sync', 'watch']);</code></pre>
 
 ### Up and running with Gulp
