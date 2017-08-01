@@ -7,6 +7,8 @@ description: "If you write a lot of custom Drupal themes, gulp can really help s
 tags: [theming, drupal7, workflow]
 category: planet-drupal
 ---
+*Update: There's a newer post that covers the [gulp setup for theming Drupal 8]({{ site.url }}/blog/drupal-101-theming-with-gulp-again/) which highlights a few changes from this post. Don't worry, the changes are rather minor and most of this post is still relevant.*
+
 I still remember the first Drupal 7 theme I built. It was for the [Singapore Gastric Cancer Consortium website]({{ site.url }}/blog/the-one-i-cut-my-teeth-on/), and at the time I barely knew my way around HTML and CSS. I used the [Zen](https://www.drupal.org/project/zen) theme as my starter theme, and unknowingly wrote my CSS in `.scss` files without realising the distinction. I was a little bit confused to why I needed to install a software called Codekit to make everything work but was too busy trying to get the theme up and running to worry about it at the time.
 
 ## Let's talk about that thing called Sass
