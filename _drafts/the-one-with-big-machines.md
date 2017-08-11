@@ -10,4 +10,12 @@ It's time for my annual Drupal project again. I had actually got my start in web
 
 Sinvict Technology is a company that manufactures CNC (Computer Numerical Control) machinery, as well as repairs and servicing for those machines. With their main client base in the South-east Asia region, one of their key concerns was to have their website be performant on dodgy network connections, as their existing site was around 11mb and took 1 minute to load. (I know this because I checked it, to prove a point <span class="emoji" role="img" tabindex="0" aria-label="smiling face with horns">&#x1F608;</span>)
 
-The site requirements were not overly complicated and I was also working with a designer I was familiar with, so things were a little smoother than if it was a complete stranger. Sinvict did not have an IT department, nor a dedicated staff member to be in charge of the website. Given such circumstances, I decided to host them on [Pantheon](https://pantheon.io/).
+The site requirements were not overly complicated and I was also working with a designer I was familiar with, so things were a little smoother than if it was a complete stranger. Sinvict did not have an IT department, nor a dedicated staff member to be in charge of the website. Given such circumstances, I decided to host them on [Pantheon](https://pantheon.io/), and then proceeded to write a blog post about it.
+
+## General requirements
+
+- Website performance score should be at least 75 and above
+- Responsive site that works well on mobile
+- Non-technical users can add and update content
+
+
