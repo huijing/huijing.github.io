@@ -4,6 +4,7 @@ title: "Drupal 7 versus Drupal 8"
 date: August 11, 2017
 image: drupal7v8
 tags: [drupal8, opinion]
+category: planet-drupal
 ---
 I've recently embarked on my first official Drupal 8 project, for Sinvict Technology (case study when the project launches), and it was interesting to see how certain things changed for the better, certain things stayed familiar and certain things seemed slightly worse off. I thought I'd write up some comparison notes between the two versions. This is my personal opinion based on my experiences. You should have your own opinion too.
 
