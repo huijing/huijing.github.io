@@ -2,7 +2,7 @@
 layout: post
 title: "Rethinking web design"
 date: August 12, 2017
-image: new-normal.jpg
+image: new-normal
 tags: [design, css, opinion]
 ---
 I've been thinking a lot about web design lately. Actually I've been thinking about web design ever since I started working on the web. But it was upon learning more about browsers' layout engines, how rendering works and their relationship with HTML and CSS that has shaped my current opinion of web design.

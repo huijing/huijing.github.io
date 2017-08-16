@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 7 versus Drupal 8"
 date: August 11, 2017
-image: drupal7v8.jpg
+image: drupal7v8
 tags: [drupal8, opinion]
 category: planet-drupal
 ---

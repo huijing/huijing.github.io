@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: Theming Drupal 8 with gulp"
 date: August 1, 2017
-image: drupal-gulp.jpg
+image: drupal-gulp
 description: "If you write a lot of custom Drupal themes, gulp can really help streamline your workflow. Every second saved counts."
 tags: [theming, drupal8, workflow]
 category: planet-drupal
