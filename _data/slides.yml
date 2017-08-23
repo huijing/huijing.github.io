@@ -95,3 +95,15 @@
   event: pitercss conference
   website: https://pitercss.com/
   type: conference
+
+- title: "Say no to cookie cutter web layouts"
+  id: ffc-2017
+  event: Form, Function, Class 8
+  website: http://2017.formfunctionclass.com/
+  type: conference
+
+- title: "Be like water"
+  id: moz-roadshow-2017
+  event: Mozilla Developer Roadshow Asia 2017
+  website: https://mozilla.github.io/devroadshow2017/
+  type: conference
