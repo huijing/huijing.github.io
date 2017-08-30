@@ -96,6 +96,11 @@
   website: https://pitercss.com/
   type: conference
 
+- title: "CSS fonts trivia"
+  id: css-fonts
+  event: Talk.CSS
+  type: meetup
+
 - title: "Say no to cookie cutter web layouts"
   id: ffc-2017
   event: Form, Function, Class 8
