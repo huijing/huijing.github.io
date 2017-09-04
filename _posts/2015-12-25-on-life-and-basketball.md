@@ -40,8 +40,8 @@ As a forward/centre, I usually play in the post. The post players and perimeter 
 That was, how shall we put it, an interesting experience. The post players realised how stressful it was to try to make that entry pass to the post while a defender was draped all over you. And the perimeter players realised how much physicality was required to actually pin the defender behind you for those couple of seconds to get open for the pass. 
 
 <figure>
-<figcaption>This is much harder than it looks. For both parties.</figcaption>
-<video src="{{ site.url }}/videos/pass.mp4" controls></video>
+    <figcaption>This is much harder than it looks. For both parties.</figcaption>
+    <video src="{{ site.url }}/videos/pass.mp4" controls></video>
 </figure>
 
 If you don't care for basketball at all, that probably didn't make any sense to you whatsoever. But the point is, when conflicts arise, try to put yourself in that other person's shoes. They have their struggles on the other side as well. Could you do what they are doing right now?
