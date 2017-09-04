@@ -3,7 +3,7 @@ layout: post
 title: "The one with big machines"
 date: September 4, 2017
 project: Sinvict Technology
-image: project-25
+image: project-26
 tags: [drupal8, client-work]
 ---
 It's time for my annual Drupal project again. I had actually got my start in web development with Drupal and although I've left agency life, it seems that I'd still end up with at least one Drupal project a year. Largely because when someone needs a CMS, I tend to lean toward Drupal, it's like Linus and his blanket <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>.
