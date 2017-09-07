@@ -2,7 +2,7 @@
 layout: post
 title: "All about Chinese characters"
 date: Jul 15, 2017
-tags: [design, typography]
+tags: [design, typography, i18n]
 ---
 *This is the first post of a multi-part series about Chinese typography, from the history of Chinese characters, to printing, to digitisation.*
 
@@ -21,7 +21,7 @@ A language is closely intertwined with the culture, history and identity of the 
     <img src="{{ site.url }}/images/posts/zh-type/xianrendong.jpg" srcset="{{ site.url }}/images/posts/zh-type/xianrendong@2x.jpg 2x" />
 </figure>
 
-Chinese civilisation has a very long history dating back to the Mesolithic age, based on prehistoric pottery shards found in Jiangxi, China<sup><a href="#ref1">[1]</a></sup>. In fact, China can be considered the oldest continuous civilisation in the world. Here's a highly simplified timeline, because visualisations help comprehension (who said that? I did <span class="emoji" role="img" tabindex="0" aria-label="smirking face">&#x1F60F;</span>). You'll need to scroll, a lot, because the Chinese have a long history.
+Chinese civilisation has a very long history dating back to the Mesolithic age, based on [prehistoric pottery shards found in Jiangxi, China](http://science.sciencemag.org/content/336/6089/1696). In fact, China can be considered the oldest continuous civilisation in the world. Here's a highly simplified timeline, because visualisations help comprehension (who said that? I did <span class="emoji" role="img" tabindex="0" aria-label="smirking face">&#x1F60F;</span>). You'll need to scroll, a lot, because the Chinese have a long history.
 
 <figure style="margin-left:0;margin-right:0;">
     <figcaption>Simplified timeline of Dynasties (dates may not be definitive)</figcaption>
@@ -38,7 +38,7 @@ Oh, was that too morbid? What can I say? I'm genuinely worried we're going to bl
 
 ### Pottery etchings (陶文)
 
-*insert timeline portion*
+<img style="height:4em;" src="{{ site.url }}/images/posts/zh-story/taowen.svg" />
 
 Professor Zheng Huisheng (郑慧生老师) from Henan University posited that [Chinese writing had its roots in 陶文](http://www.comdesignlab.com/typochina/chinese/archives/98) (script etched on ancient pottery), which came about during the Neolithic age. The script was comprised of line symbols and pictographs which were used to convey message and meaning. There is no definitive proof that these symbols were used as a formal writing system already, as some researchers also make the case that these symbols 
 
@@ -49,25 +49,19 @@ Professor Zheng Huisheng (郑慧生老师) from Henan University posited that [C
 
 ### Seal script (篆书)
 
-One of the most significant developments in Chinese civilisation is the standardisation of the Chinese language by the First Emperor of Qin (秦始皇), after he successfully conquered all the other states and unified China in 221 BCE. Before that, things were pretty fragmented, both geographi&shy;cally as well as in terms of language.
-
-<p class="note">As a side note, the more I read up about ancient China, the more I realised just how much palace intrigue and power politics were involved in the Imperial Chinese courts. Turns out those television dramas on Imperial China practically wrote their own plots.</p>
-
-Seal script can be broadly categorised into Large Seal (大篆) and Small Seal (小篆). Large Seal is the precursor to Small Seal. After the Western Zhou dynasty, there was a period of relative chaos as states were fragmented during the Spring-Autumn period and Warring States period. Each state developed their own style of writing and dialects and these scripts are sometimes known as the script of the six states (六国文字).
-
-李斯 was tasked to come up with a standardised script. With 大篆 as the base, he then adopted the good parts of other states' scripts 
-
-李斯tasked to come up with a standardised script with large seal as the base, take in the good parts of the other states' script basically clean up the warring states variants, Small seal became the official script during the Qin dynasty, while the scripts that came before it are known as large seal.
+Seal script is the all-encompassing category that covers scripts before the advent of the Clerical script (隶书). Seal script can be broadly categorised into Large Seal (大篆) and Small Seal (小篆). Large Seal is the precursor to Small Seal, and refers to all the scripts that came about before the First Emperor of Qin (秦始皇) decreed the standardisation of Chinese writing. 
 
 #### Oracle bone script (甲骨文)
 
-*insert timeline portion*
+<img style="height:4em;" src="{{ site.url }}/images/posts/zh-story/jiaguwen.svg" />
 
-By the Shang dynasty, the writing system had developed into a reasonably sophisticated script. Oracle bone script（甲骨文）was discovered by Wang Yirong（王懿荣）, a historian and scholar in the late Qing dynasty. He was also an avid collector of cultural relics and became intrigued with an ingredient called "Dragon bone" used in one of his traditional Chinese medical prescriptions. 
+By the Shang dynasty, the writing system had developed into a reasonably sophisticated script. Oracle bone script (甲骨文) was discovered by Wang Yirong (王懿荣), a historian and scholar in the late Qing dynasty. He was also an avid collector of cultural relics and became intrigued with an ingredient called "Dragon bone" used in one of his traditional Chinese medical prescriptions. 
 
 After further procuring a batch of these "Dragon bones", he was able to discern that they were actually turtle shells, specifically, turtle plastrons (just a fancy way of referring to the underside of the shell) and there were many glyphs etched on them. Upon careful inspection, he noticed that some of the glyphs bore resemblance to modern Chinese characters.
 
-There is a monumental tome of ancient Chinese history called the Records of the Grand Historian（太史公书）, now known as 史记. It was started by Sima Tan（司马谈） and finished by his son, Sima Qian（司马迁）, during the Han dynasty. It records the history of China from the Yellow Emperor（黄帝）to Emperor Wu of Han（汉武帝）. This is relevant because it helped Wang Yirong figure out these turtle plastrons were used by the ancient Chinese for divination purposes (turns out the ancient Chinese of the Shang were a superstitious bunch).
+There is a monumental tome of ancient Chinese history called the Records of the Grand Historian (太史公书), now known as 史记. It was started by Sima Tan (司马谈) and finished by his son, Sima Qian (司马迁), during the Han dynasty. It records the history of China from the Yellow Emperor (黄帝) to Emperor Wu of Han (汉武帝).
+
+This is relevant because it helped Wang Yirong figure out these turtle plastrons were used by the ancient Chinese for divination purposes (turns out the ancient Chinese of the Shang were a superstitious bunch).
 
 Oracle bone script is very pictographic in nature, for example, the word for sun kinda looks like a sun, and the world for mountain looks like 3 peaks. Here are the glyphs for sun, mountain, moon, paddy field, rice grains and home respectively.
 
@@ -80,28 +74,35 @@ The thin strokes and limited curves stem from the fact that turtle plastrons and
 
 #### Bronze script (金文)
 
-*insert timeline portion*
+<img style="height:4em;" src="{{ site.url }}/images/posts/zh-story/jingwen.svg" />
 
-from middle Shang till Western Zhou
-bronze ware was made from copper and tin
-used mainly as elites ancestral worship, status symbol
-words were inscribed into these bronze ritual vessels
-~3700 different chinese glyphs
-script had a majestic feel
-evolution of oracle bone script
-more uniform, less pictogram
-late western zhou period bronze script, strokes were thicker, more curves
+Bronze script was developed during the middle of the Shang dynasty and was in use all the way until the Qin dynasty. It was mainly used to record the lives and everyday happenings of society's elites. These records were inscribed onto bronzeware made from copper and tin, especially bronze ritual vessels. Such vessels were seen as status symbols, used by elites for ancestral worship.
 
-script was written in clay moulds using a brush then carefully carved, words cast onto bronze ware
-engravings 铭文 less common during shang, more during western zhou, earliest long form writing
-still a lot of variant glyphs and pictographic, start of combination glyphs
-historical records of shang and western zhou on bronze script how zhou defeated shang
+There are an estimated 3700 different glyphs written in this style discovered thus far, and it is an evolution of the Oracle Bone Script. Bronze script has a majestic feel, and is more uniform and less pictographic than its predecessor. Bronze script itself underwent some evolution, and by the late Western Zhou period, its strokes were thicker with more curves.
+
+The script was written in clay moulds with a brush, then carefully carved onto bronze. This was considered the earliest instances of long-form writing, and historical records dated to the Shang and Western Zhou periods depict how Zhou defeated Shang.
 
 #### Other Large Seal scripts
 
-During the spring autumn and warring states, there were several variant scripts like stone drum script and bird worm script. Stone drum script during warring states, more than 700 characters on the hunting activities of emperor qin more calligraphic than bronze script 10 of these stone drums in beijing 故宫博物院 
+<img style="height:4em;" src="{{ site.url }}/images/posts/zh-story/dazhuan.svg" />
+
+There were several variant scripts like Stone Drum Script (石鼓文) and Bird Worm Script (鸟虫书). Stone drum script during warring states, more than 700 characters on the hunting activities of emperor qin more calligraphic than bronze script 10 of these stone drums in beijing 故宫博物院 
+
+After the Western Zhou dynasty, there was a period of relative chaos as states were fragmented during the Spring-Autumn period and Warring States period. Each state developed their own style of writing and dialects and these scripts are sometimes known as the script of the six states (六国文字).
+
+
 
 #### Small seal script (小篆)
+
+<img style="height:4em;" src="{{ site.url }}/images/posts/zh-story/xiaozhuan.svg" />
+
+One of the most significant developments in Chinese civilisation is the standardisation of the Chinese language by the First Emperor of Qin (秦始皇), after he successfully conquered all the other states and unified China in 221 BCE.
+
+<p class="note">As a side note, the more I read up about ancient China, the more I realised just how much palace intrigue and power politics were involved in the Imperial Chinese courts. Turns out those television dramas on Imperial China practically wrote their own plots.</p>
+
+李斯 was tasked to come up with a standardised script. With 大篆 as the base, he then adopted the good parts of other states' scripts 
+
+李斯tasked to come up with a standardised script with large seal as the base, take in the good parts of the other states' script basically clean up the warring states variants, Small seal became the official script during the Qin dynasty, while the scripts that came before it are known as large seal.
 
 simplified, more distinct radicals, less strokes standardised after the discarding of variant glyphs more phonograms
 reduced pictographic properties, less like pictures more symbol less picture
@@ -110,6 +111,10 @@ used throughout han dynasty, fell out of fashion during three kingdoms 魏晋时
  许慎《说文解字》中叙“自尔秦书有八体：一曰大篆；二曰小篆；三曰刻符；四曰蟲書；五曰摹印；六曰署書；七曰殳書；八曰隸書
 
 ### Clerical script (隶书)
+
+<div style="overflow-x:scroll;">
+    <img style="width:770px;max-width:none;height:4em;" src="{{ site.url }}/images/posts/zh-story/lishu.svg" />
+</div>
 
 evolved from small seal, end of qin, reached peak during east han 东汉时期, 汉隶唐楷 
 simplification of strokes, from round to square, from the round curves of seal to angled lines of clerical
@@ -177,9 +182,8 @@ not as messy as 草书 but not as rigid and neat as model script
 reached height in song dynasty
 never died out
 from 魏晋,隋唐 till now
-## References
 
-- <span id="ref1">1</span> - [Early Pottery at 20,000 Years Ago in Xianrendong Cave, China
-](http://science.sciencemag.org/content/336/6089/1696)
+## Related reading
 
-https://www.historians.org/about-aha-and-membership/aha-history-and-archives/gi-roundtable-series/pamphlets/our-chinese-ally
+- [Our Chinese Ally](https://www.historians.org/about-aha-and-membership/aha-history-and-archives/gi-roundtable-series/pamphlets/our-chinese-ally)
+- Chen, N. (2014). Han zi de you huo. Wuhan: Hubei mei shu chu ban she.
