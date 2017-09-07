@@ -6,7 +6,7 @@ permalink: /talks/
 <p>Sometimes, I'm so overwhelmed by my love for all things HTML and CSS that I feel compelled to tell a large group of people about it. All slides are created with <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>, so you can go ahead and click on the slide image to see the full presentation. Source code is available on <a href="https://github.com/huijing/slides">GitHub</a>.</p>
 
 <h2>Conferences</h2>
-<div class="grid-flex">
+<div class="grid">
     {% for slide in site.data.slides %}
     {% if slide.type == 'conference' %}
     <div class="talk">
@@ -26,7 +26,7 @@ permalink: /talks/
 </div>
 
 <h2>Meet-ups & Workshops</h2>
-<div class="grid-flex">
+<div class="grid">
     {% for slide in site.data.slides %}
     {% unless slide.type == 'conference' %}
     <div class="talk">

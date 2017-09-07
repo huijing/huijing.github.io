@@ -32,7 +32,7 @@
 @import 'component-header';
 @import 'component-footer';
 
-.grid-flex {
+.grid {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -40,7 +40,14 @@
 
   div {
     padding: 1em 0 0 0.5em;
-    flex: 1 0 12.5em;
+    flex: 1 0 32%;
+  }
+}
+
+@supports (display:grid) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
   }
 }
 
