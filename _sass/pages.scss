@@ -40,7 +40,19 @@
 
   div {
     padding: 1em 0 0 0.5em;
-    flex: 1 0 32%;
+    flex: 1 0 100%;
+  }
+
+  @include mappy-bp(small medium) {
+    div {
+      flex: 1 0 50%;
+    }
+  }
+
+  @include mappy-bp(medium) {
+    div {
+      flex: 1 0 32%;
+    }
   }
 }
 
