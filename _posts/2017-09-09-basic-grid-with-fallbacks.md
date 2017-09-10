@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Basic grid layout with fallbacks using feature queries"
-date: Sep 10, 2017
+date: Sep 9, 2017
 tags: [css, design]
 ---
 I've been using CSS grid (which henceforth will be referred to as Grid) for quite a bit now, and although I often talk about how we can use grid to make all kinds of creative layouts, I'm fully aware that a basic grid is still a design pattern that is very much in demand on the web.
