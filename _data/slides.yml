@@ -113,3 +113,9 @@
   event: Mozilla Developer Roadshow Asia 2017
   website: https://mozilla.github.io/devroadshow2017/
   type: conference
+
+- title: "2017: The Year of CSS Grid"
+  id: yglf-2017
+  event: You Gotta Love Frontend 2017
+  website: https://yougottalovefrontend.com/
+  type: conference

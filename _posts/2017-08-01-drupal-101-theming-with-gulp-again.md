@@ -54,7 +54,7 @@ To prevent triggering a segmentation fault when running Drush, we need to add a 
   <li class="no-margin"><a href="https://www.npmjs.com/package/browser-sync">browser-sync</a> - To live-reload the browser</li>
   <li class="no-margin"><a href="https://www.npmjs.com/package/gulp-concat">gulp-concat</a> - To concatenate all your different Javascript files into one big one</li>
   <li class="no-margin"><a href="https://www.npmjs.com/package/gulp-babel">gulp-babel</a> - To write ES6 and transpile it so browsers can understand what you're writing</li>
-  <li><a href="https://www.npmjs.com/package/gulp-babel">babel-preset-es2015</a> - Part of gulp-babel, but has to be installed as well</li>
+  <li><a href="https://www.npmjs.com/package/babel-preset-es2015">babel-preset-es2015</a> - Part of gulp-babel, but has to be installed as well</li>
 </ul>
 
 <p class="no-margin">This is what the final <code>package.json</code> looks like:</p>
