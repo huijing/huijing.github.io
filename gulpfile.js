@@ -114,4 +114,4 @@ gulp.task('sass-prod', function () {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['browser-sync', 'watch']);
-gulp.task('build', ['scripts-prod', 'sass-prod', 'jekyll-prod']);
+gulp.task('build', ['scripts-prod', 'sass', 'jekyll-prod']);

@@ -411,6 +411,8 @@ It just so happens that the browsers that do support feature queries recognise `
 
 Again, it's your call on whether having the orphaned items display differently is acceptable or not. It might be alright if your layout items don't have an image that spans the full width of the item, or it might not. Every context is different.
 
+> Websites do NOT need to look the same on every browser.
+
 ## Why hello, Grid, you revolutionary, you...
 
 There's so much I want to say about Grid, but I will hold it all in and only cover what is necessary to achieve the basic grid layout within the scope of this post.
@@ -520,9 +522,13 @@ The final layout code ends up looking like this, based on my decisions to use th
 
 If you ask me, I don't think this is an excessive amount of code. But of course, you're free to disagree. I hope that this will convince you that progressively enhancing your CSS is a valuable design pattern to add to your repertoire.
 
-And also, to start reading the specifications if you haven't. They are the root of how browsers are supposed to behave so if you do find a behaviour that doesn't seem right, it might very well be a browser bug. We can raise those with the respective browser vendors. And voilà! You've just made the web better <span class="emoji" role="img" tabindex="0" aria-label="confetti ball">&#x1F38A;</span>.
+Also, start reading the specifications if you haven't done so before. They are the root of how browsers are supposed to behave so if you do find a behaviour that doesn't seem right, it might very well be a browser bug. We can raise those with the respective browser vendors. And voilà! You've just made the web better <span class="emoji" role="img" tabindex="0" aria-label="confetti ball">&#x1F38A;</span>.
 
-Until the next one <span class="emoji" role="img" tabindex="0" aria-label="hugging face">&#x1F917;</span>!
+Lastly, and say it with me...
+
+> Websites do NOT need to look the same on every browser.
+
+Until the next one! <span class="emoji" role="img" tabindex="0" aria-label="hugging face">&#x1F917;</span>
 
 ## Useful resources
 
