@@ -173,3 +173,7 @@ The development of Chinese type started in the United States no later than the s
     <li>Park, H. O. (2014). <em>The History of Pre-Gutenberg Woodblock and Movable Type Printing in Korea</em>. International Journal of Humanities and Social Science, 4(9), 1.</li>
     <li>Park, S. (2005). <em>Science and technology in Korean history: excursions, innovations, and issues</em>. Fremont (Calif.): Jain Publishing Company.</li>
 </ul>
+
+
+
+http://lithub.com/to-abolish-the-chinese-language-on-a-century-of-reformist-rhetoric/
