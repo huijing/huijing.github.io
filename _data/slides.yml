@@ -132,7 +132,7 @@
   event: Mozilla Developer Roadshow Asia 2017
   website: https://mozilla.github.io/devroadshow2017/
   type: conference
-  released: false
+  released: true
 
 - title: "2017: The Year of CSS Grid"
   id: yglf-2017
