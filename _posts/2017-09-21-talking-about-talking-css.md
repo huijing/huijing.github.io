@@ -45,7 +45,6 @@ Speaking [FFC8](http://2017.formfunctionclass.com/) is definitely going to rank 
     <img srcset="{{ site.url }}/images/posts/talking-css/ffc8-480.jpg 480w, {{ site.url }}/images/posts/talking-css/ffc8-640.jpg 640w, {{ site.url }}/images/posts/talking-css/ffc8-960.jpg 960w, {{ site.url }}/images/posts/talking-css/ffc8-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/ffc8-640.jpg" alt="On stage at FFC8" />
 </figure>
 
-
 Even though I rehearsed the talk a number of times, there were no guarantees that things wouldn't go wrong and there was a bit of a snag in terms of the set up. But I changed how the code was presented at the last minute so there was way less typing involved. Really relieved things didn't go badly <span class="emoji" role="img" tabindex="0" aria-label="relieved face">&#x1F60C;</span>.
 
 What I did not expect, was the overwhelming response when I finished my session (a few people at the back actually stood up <span class="emoji" role="img" tabindex="0" aria-label="smiling face with heart-eyes">&#x1F60D;</span>). I was just hoping that the audience wouldn't find my talk boring (because I have had people fall asleep in front my face, <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>) so this was amazing. It might have also been the fact that I managed to weave in Beyoncé into the talk somehow <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span>, so I would also like to thank Queen Bey for this successful talk.
@@ -75,7 +74,24 @@ Jeremy also suggested to do this recap of the Roadshow experience and so I'm wri
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Vietnam">&#x1F1FB;&#x1F1F3;</span> @ Mozilla Dev Roadshow Ho Chi Minh
 
-Updates after the event...
+Next stop, Vietnam! I'd only ever been in Ho Chi Minh for a grand total of 6 hours before this, so it was nice to be able spend a bit more time here. One thing that I tell every one who will listen is that Vietnam has a lot of talented developers, who are working on really cool projects that make use of cutting edge technologies, it's just that nobody has really shone a spotlight on this region. Yet.
+
+We had the chance to meet with teams working on VR projects, and even though what we played with were prototypes, they felt way more polished than some commercial products I've seen before. The audience was smaller than in Singapore, but that also gave everyone more time to connect with each other and try out the webVR kits and play around with [A-Painter](https://aframe.io/a-painter/).
+
+I tried A-Painter for the first time ever, and it was amazing. To quote [Fabien Benetou](https://fabien.benetou.fr/):
+
+> You may think you know VR, but until you put on the headset, you don't.
+
+As someone who played a lot of video games growing up, using the controllers was super intuitive. Think Nintendo Wii style nunchucks (but not really), in both hands. It's really fun to be able to draw and create in a 3-dimensional space. But my favourite thing (because I'm weird) was the teleportation function, where after you draw a bunch of stuff, you can just teleport yourself some distance away to admire your handiwork.
+
+<figure>
+    <figcaption>No idea what I found so fascinating on the floor though</figcaption>
+    <img srcset="{{ site.url }}/images/posts/talking-css/moz-hcm-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-hcm-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-hcm-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-hcm-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-hcm-640.jpg" alt="Trying out A-Painter for the first time" />
+</figure>
+
+Now that I've done the semi live-coding thing on my slides twice before, I was less nervous about the setup not going to plan, because yet again, my extended screen glitched and I ended up having to look at the main screen and type with one hand (because microphone). Turns out the first time in Manila was the most successful attempt <span class="emoji" role="img" tabindex="0" aria-label="ROFL">&#x1F923;</span>.
+
+Also met a fellow Malaysian, [Ondris Pui](https://twitter.com/ondrispui), who's currently lecturing at the Ho Chi Minh campus of RMIT, as well as [Jolanda Tromp](https://twitter.com/jolandatromp), who's a researcher at Duy Tan University focused on user-centred AR/VR. Lots of interesting conversations with interesting people doing interesting stuff.
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> @ Mozilla Dev Roadshow Kuala Lumpur
 
