@@ -55,7 +55,7 @@ There are [lots of photos](https://www.facebook.com/171813495550/photos/?tab=alb
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span> @ Mozilla Dev Roadshow Singapore
 
-Landed back home for a couple days and also the very first stop of the Mozilla Developer Roadshow. Because Singapore is my home base, I naturally strong-armed everyone I knew to show up for this. Why I still have friends left is a mystery to me <span class="emoji" role="img" tabindex="0" aria-label="smiling face with horns">&#x1F608;</span>.
+Landed back home for a couple days and also the very first stop of the Mozilla Developer Roadshow. Because Singapore is sort of my home base, I naturally strong-armed everyone I knew to show up for this. Why I still have friends left is a mystery to me <span class="emoji" role="img" tabindex="0" aria-label="smiling face with horns">&#x1F608;</span>.
 
 The line-up for the Singapore stop was packed, and we had THE [Jeremy Keith](https://adactio.com/) doing what I personally think is one of the most inspirational tech talks I've ever heard, on Evaluating Technologies. And to hear it live was such a wonderful experience.
 
@@ -95,7 +95,30 @@ Also met a fellow Malaysian, [Ondris Pui](https://twitter.com/ondrispui), who's 
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> @ Mozilla Dev Roadshow Kuala Lumpur
 
-Updates after the event...
+Even though the event is said to be in Kuala Lumpur, a local will tell you, technically Cyberjaya isn't really KL. But tomayto, tomahto <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>. This is the only weekend event scheduled, and it was a full-day thing, with 3 talks in the morning, a nice leisurely lunch break, then 3 more in the afternoon.
+
+<figure>
+    <figcaption>So glad that there was time for David's talk this time</figcaption>
+    <img srcset="{{ site.url }}/images/posts/talking-css/moz-kl2-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-kl2-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-kl2-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-kl2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-kl2-640.jpg" alt="David Bryant on emerging technologies" />
+</figure>
+
+[David Bryant](https://twitter.com/david_bryant) rejoined our motley crew and gave a longer version of the emerging technologies talk, which included a fascinating section on [WebAssembly](http://webassembly.org/), as well as the research coming out of Mozilla on [speech interfaces](https://research.mozilla.org/machine-learning/). Also, Dietrich joined us for this leg of the roadshow! And somehow I was scheduled immediately after him again <span class="emoji" role="img" tabindex="0" aria-label="ROFL">&#x1F923;</span>.
+
+<figure>
+    <figcaption>Class photo time! (someone is missing)</figcaption>
+    <img srcset="{{ site.url }}/images/posts/talking-css/moz-kl-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-kl-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-kl-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-kl-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-kl-640.jpg" alt="Almost every one for the KL roadshow" />
+</figure>
+
+And I didn't anticipate this at all, but there was a warm, fuzzy feeling to speaking in my own country <span class="emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span>. It was the first time I did a talk in Malaysia. I don't expect everyone to understand this, but that moment when I mentioned “Saya bangga jadi anak Malaysia”, and the audience applauded, will be one of the highlights of this roadshow for me.
+
+As someone who had the privilege and honour of representing the Malaysia women's basketball team once in my life, I suppose this idea of being a representative for your country is a bit more emotional to me than most other people. Maybe. (Or I'm just a weird person)
+
+<figure>
+    <figcaption>Feeding the cats...</figcaption>
+    <img srcset="{{ site.url }}/images/posts/talking-css/moz-kl3-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-kl3-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-kl3-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-kl3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-kl3-640.jpg" alt="Dinner in KL, like really KL city" />
+</figure>
+
+Anyway, my overly complicated talk setup went wrong again, this time, the resolution on the iPad was so off that I couldn't read a single word of my speaker notes. Guess it's a good thing I already did this talk a few times. But flying blind meant that I probably didn't keep to time that strictly. I just want the setup to work perfectly once. Just one time on this hectic tour <span class="emoji" role="img" tabindex="0" aria-label="crossed fingers">&#x1F91E;</span>.
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> @ Mozilla Dev Roadshow Penang
 
