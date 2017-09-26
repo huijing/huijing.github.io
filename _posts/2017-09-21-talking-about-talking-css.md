@@ -122,7 +122,32 @@ Anyway, my overly complicated talk setup went wrong again, this time, the resolu
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> @ Mozilla Dev Roadshow Penang
 
-Updates after the event...
+Penang has and will always have a special place in my heart. Even though my family moved away from Penang when I was 4, our household was completely Penangite. I remember learning to read English with my mum, and learning to write Chinese with my grandma, but I came out of the womb speaking Penang Hokkien.
+
+Penang Hokkien is very distinct, and because it's not commonly heard outside Penang, I'm very attuned to anyone speaking it. Imagine being constantly surrounded by people speaking differently from you almost all the time, then suddenly finding yourself surrounded by people speaking exactly the same way you do. It's an indescribable feeling.
+
+<figure>
+    <figcaption>Penang is all about the food</figcaption>
+    <img srcset="{{ site.url }}/images/posts/talking-css/moz-pen3-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-pen3-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-pen3-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-pen3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-pen3-640.jpg" alt="Audience at the Penang event" />
+</figure>
+
+We had a new friend join us on this leg of the tour, Mozilla representative and Infosec researcher, [Mijanur Rahman Rayhan](https://reps.mozilla.org/u/mijanur/), who is based in Bangladesh. He kicked things off with a great talk about privacy and security. Be sure to check out [his blog](https://rayhanroot.wordpress.com/) too!
+
+Remember how my talk setup has never worked correctly? Ever? Well, turns out fourth time's the charm! <span class="emoji" role="img" tabindex="0" aria-label="person gesturing ok">&#x1F646;</span> This time, the screen resolution was perfect, nothing died mid-way while I was speaking, and the talk went pretty smoothly. And I made sure to weave in 「我是庇能出世的孩子」(of course spoken in Penang Hokkien) into my introduction. *(translates to “I was born in Penang”)*
+
+<figure>
+    <figcaption>Charis in action!</figcaption>
+    <video src="{{ site.url }}/videos/moz-pen.mp4" controls></video>
+</figure>
+
+Dietrich was super entertaining as usual, and we had to say good bye after this because he was off to India next. We also had a super cool local artist, [Charis Loke](https://www.charisloke.com/) doing a live demo of A-Painter, her artwork was fantastic. And it was all live!
+
+<figure>
+    <figcaption>Lovely people who came to the event</figcaption>
+    <img srcset="{{ site.url }}/images/posts/talking-css/moz-pen2-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-pen2-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-pen2-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-pen2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-pen2-640.jpg" alt="Audience at the Penang event" />
+</figure>
+
+I also got the chance to chat with lots of lovely Penangites after the talks were over, about Penang, about speaking, about tech in Penang and Malaysia in general, and all sorts of other things. I might be part of DevFest Penang (I think that's what it's going to be called) in November as well. We'll see how that goes <span class="emoji" role="img" tabindex="0" aria-label="upside-down face">&#x1F643;</span>.
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> @ Mozilla Dev Roadshow Hong Kong
 
