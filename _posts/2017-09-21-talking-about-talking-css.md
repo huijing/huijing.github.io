@@ -151,7 +151,34 @@ I also got the chance to chat with lots of lovely Penangites after the talks wer
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> @ Mozilla Dev Roadshow Hong Kong
 
-Updates after the event...
+It's the grand finale of the Mozilla Developer Asia Roadshow and it has been an amazing experience all around, with some fantastic people. I had recently been in Hong Kong, back in June, for [Webconf.asia](https://webconf.asia/), which was my first ever full-length tech talk. That talk went reasonably well, and I was pretty happy to be back here again.
+
+<figure>
+    <figcaption>Have to get some exercise in with Fabien and Markus</figcaption>
+    <img srcset="{{ site.url }}/images/posts/talking-css/moz-hk-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-hk-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-hk-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-hk-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-hk-640.jpg" alt="Hiked around Victoria Peak" />
+</figure>
+
+The gang wasn't all staying at the same hotel this time because of some booking issues but we were still in close enough proximity with each other. If you've never been to Asia, and hear that Hong Kong and Singapore are the same, you're sadly mistaken. Asia (and to be fair, almost anywhere else in the world) is like VR, until you've experienced it first-hand, you don't know what it is.
+
+The vibe that I get from Hong Kong is that it's a bustling, modern city, and yet it retains a lot of its unique flavour, from the narrow alleyways, neon billboards and shop signage. It has a much more organic feel than Singapore, with old sidled right up with new. If I was a better writer, I'd have better words to explain this, but I'm not, so <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>.
+
+For this stop, we had [Brian Birtles](https://birtles.wordpress.com/) and [Daisuke Akatsuka](http://minism.jp/) presenting on web animations as well as the Firefox Devtools that let us troubleshoot them. Totally blew my mind. I had been using Nightly since last year, so I felt like I had been living under a rock because I sort of always just glazed over the *Animations* panel and went straight for the *Layout* panel.
+
+<figure>
+    <figcaption>Really informational AND fun talk on web animations</figcaption>
+    <img srcset="{{ site.url }}/images/posts/talking-css/moz-hk2-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-hk2-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-hk2-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-hk2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-hk2-640.jpg" alt="Audience coded along with the talk" />
+</figure>
+
+One of the best parts of this roadshow is the opportunity to meet really interesting people, and Hong Kong definitely did not disappoint. We went out for food and drinks after the event with [Jason Li](http://www.hongkonggong.com/) and [Tricia Ling](http://www.tricialing.com/). Jason is a cartoonist and designer who is based in Hong Kong at the moment, and he's working on a graphic novel called [The House on Horse Mountain](). He also made really cool sketchnotes of the entire event <span class="emoji" role="img" tabindex="0" aria-label="smiling face with heart-eyes">&#x1F60D;</span>!
+
+<figure>
+    <figcaption>Sketchnotes for the win!</figcaption>
+    <img src="{{ site.url }}/images/posts/talking-css/sketchnotes.jpg" srcset="{{ site.url }}/images/posts/talking-css/sketchnotes@2x.jpg 2x" alt="Jason Li's sketchnotes of the event"/>
+</figure>
+
+As the roadshow draws to a close, I must say that this has been a fantastic experience. It was intense and a little bit hectic, but I learned a lot, not only about technical stuff like webVR and animations, but also things like video editing, organising events, how to make your talk more compelling and so on.
+
+I really appreciate the opportunity to be part of this roadshow and it has been a privilege to get to know each and every person on this team. [Barry Munsterteiger](https://twitter.com/instig8creative), who literally made movie magic with all the footage we got. [Sandra Persing](https://twitter.com/SandraPersing) and [Ali Spivak](https://twitter.com/alispivak), who put this whole event together. [Markus Seyfferth](https://twitter.com/indysigner), who gave me really great advice on improving my talk and my presentation slides. And all the other speakers, [Fabien Benetou](https://twitter.com/utopiah), [Jeremy Keith](https://twitter.com/adactio), [Vitaly Friedman](https://twitter.com/smashingmag), [Dietrich Ayala](https://twitter.com/dietrich), [David Bryant](https://twitter.com/david_bryant), [Mijanur Rahman](https://twitter.com/mijanurrax), [Brian Birtles](https://twitter.com/brianskold) and [Daisuke Akatsuka](https://twitter.com/dadaaism), I loved meeting all of you <span class="emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span><span class="emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span><span class="emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span>.
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> @ Habour Front
 
