@@ -134,9 +134,22 @@
   type: conference
   released: true
 
-- title: "2017: The Year of CSS Grid"
+- title: "Say no to cookie cutter web layouts extended"
+  id: web-layouts-hk
+  event: Harbour Front
+  type: meetup
+  released: true
+
+- title: "When East meets West"
   id: yglf-2017
   event: You Gotta Love Frontend 2017
   website: https://yougottalovefrontend.com/
+  type: conference
+  released: false
+
+- title: "2017: The Year of CSS Grid"
+  id: gdaygt-2017
+  event: DevFest & GDay 2017 George Town
+  website: http://www.gdggeorgetown.com/
   type: conference
   released: false
