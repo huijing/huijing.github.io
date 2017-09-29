@@ -14,7 +14,7 @@ tags: [css, design, opinion]
 - [Mozilla Developer Roadshow @ <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> (Kuala Lumpur)](#--mozilla-dev-roadshow-kuala-lumpur)
 - [Mozilla Developer Roadshow @ <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> (Penang)](#--mozilla-dev-roadshow-penang)
 - [Mozilla Developer Roadshow @ <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span>](#--mozilla-dev-roadshow-hong-kong)
-- [Habour Front @ <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span>](#--habour-front)
+- [Harbour Front @ <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span>](#--harbour-front)
 
 ## About speaking at conferences
 
@@ -180,6 +180,28 @@ As the roadshow draws to a close, I must say that this has been a fantastic expe
 
 I really appreciate the opportunity to be part of this roadshow and it has been a privilege to get to know each and every person on this team. [Barry Munsterteiger](https://twitter.com/instig8creative), who literally made movie magic with all the footage we got. [Sandra Persing](https://twitter.com/SandraPersing) and [Ali Spivak](https://twitter.com/alispivak), who put this whole event together. [Markus Seyfferth](https://twitter.com/indysigner), who gave me really great advice on improving my talk and my presentation slides. And all the other speakers, [Fabien Benetou](https://twitter.com/utopiah), [Jeremy Keith](https://twitter.com/adactio), [Vitaly Friedman](https://twitter.com/smashingmag), [Dietrich Ayala](https://twitter.com/dietrich), [David Bryant](https://twitter.com/david_bryant), [Mijanur Rahman](https://twitter.com/mijanurrax), [Brian Birtles](https://twitter.com/brianskold) and [Daisuke Akatsuka](https://twitter.com/dadaaism), I loved meeting all of you <span class="emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span><span class="emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span><span class="emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span>.
 
-## <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> @ Habour Front
+## <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> @ Harbour Front
 
-Updates after the event...
+If the Mozilla Developer Asia Roadshow was a concert tour, then the Harbour Front meetup was an unplugged session. No video crew, no fanfare, just you, me and some CSS. I re-did the talk I gave at Form Function Class, but added a bit about [Viewport-percentage lengths](https://www.w3.org/TR/css3-values/#viewport-relative-lengths).
+
+It wasn't the rehearsed, down to the minute, polished version of the talk. I just riffed off whatever came up on the slides and talked about CSS and web layouts like I would in a casual conversation. The vibe was more relaxed and it was nice to have that after the intensity of the roadshow.
+
+<figure>
+    <figcaption>Regardless of setting, the hands gotta flail</figcaption>
+    <img src="{{ site.url }}/images/posts/talking-css/harbourfront.jpg" srcset="{{ site.url }}/images/posts/talking-css/harbourfront@2x.jpg 2x" alt="Unplugged about web layouts"/>
+</figure>
+
+The venue was at [the Hive](http://thehive.com.hk/) in Wan Chai, and it wasn't a very big space, which made the whole feel more intimate. Using someone else's laptop to present was also fun, because there were several instances of browser inconsistency bugs in my slides <span class="emoji" role="img" tabindex="0" aria-label="relieved face">&#x1F60C;</span>.
+
+Also had some nice conversations with a few designers and developers, and managed to help out someone who was trying to build a music app that displayed chords above song lyrics. Turns out the [HTML ruby element](https://www.w3.org/wiki/HTML/Elements/ruby) could be a potential solution for his use case.
+
+Anyway, it was my last night in Hong Kong, as well as the last night of this whirlwind of a tour. No better way to end the trip than at the tallest sky bar in the world (at least for now), with a great view and even better company <span class="emoji" role="img" tabindex="0" aria-label="face blowing a kiss">&#x1F618;</span>.
+
+<figure>
+    <figcaption>Quite a few from 490m up</figcaption>
+    <img srcset="{{ site.url }}/images/posts/talking-css/ozone-480.jpg 480w, {{ site.url }}/images/posts/talking-css/ozone-640.jpg 640w, {{ site.url }}/images/posts/talking-css/ozone-960.jpg 960w, {{ site.url }}/images/posts/talking-css/ozone-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/ozone-640.jpg" alt="Drinks at Ozone" />
+</figure>
+
+## Wrapping up
+
+So that's it. 15 exciting days that literally just flew by. It was a super rewarding experience and will definitely be one of the highlights of my 2017. I'm a little bit talked-out for now, but no worries, after a brief hibernation period, I'll be back at it again with added gusto (because Jeremy thinks I “[presented with gusto](https://adactio.com/journal/12894)”) <span class="emoji" role="img" tabindex="0" aria-label="face with stuck-out tongue & closed eyes">&#x1F606;</span>.
