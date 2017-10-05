@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building a CSS-only image gallery (with fallbacks)"
-date: Sep 21, 2017
+date: Oct 07, 2017
 tags: [design, css]
 ---
 Sometimes, we get handed a project in which we have almost complete creative control and free-reign to do pretty much whatever. I consider myself pretty lucky to have had 2 such projects since the start of my web development career. The latest one being the website for [Wismut Labs](https://www.wismutlabs.com).

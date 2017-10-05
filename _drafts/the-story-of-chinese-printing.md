@@ -177,3 +177,5 @@ The development of Chinese type started in the United States no later than the s
 
 
 http://lithub.com/to-abolish-the-chinese-language-on-a-century-of-reformist-rhetoric/
+
+https://fontbureau.typenetwork.com/news/article/when-lines-roamed-the-earth

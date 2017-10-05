@@ -51,7 +51,7 @@ What I did not expect, was the overwhelming response when I finished my session 
 
 There are [lots of photos](https://www.facebook.com/171813495550/photos/?tab=album&album_id=10159393074875551) of the conference on Facebook, and here's a highlight video.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MOWwDj1K66M?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe style="margin-bottom:2em;" width="560" height="315" src="https://www.youtube.com/embed/MOWwDj1K66M?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span> @ Mozilla Dev Roadshow Singapore
 
@@ -71,6 +71,10 @@ Jeremy also suggested to do this recap of the Roadshow experience and so I'm wri
     <figcaption>“You know it's big business when Huijing Chen styles her hair and says no hokkien.” (photo credit: Elisha)</figcaption>
     <img src="{{ site.url }}/images/posts/talking-css/moz-sin.jpg" srcset="{{ site.url }}/images/posts/talking-css/moz-sin@2x.jpg 2x" alt="Speaking at Singapore stop of Mozilla Developer Roadshow"/>
 </figure>
+
+There's also a fantastic team working on capturing the best parts of the entire roadshow. I think full length talks will be released as well, so stay tuned. [Subscribe to the Mozilla Hacks Youtube channel](https://www.youtube.com/channel/UCijjo5gfAscWgNCKFHWm1EA?sub_confirmation=1)!
+
+<iframe style="margin-bottom:2em;" width="560" height="315" src="https://www.youtube.com/embed/Fun1UWhwO0g?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Vietnam">&#x1F1FB;&#x1F1F3;</span> @ Mozilla Dev Roadshow Ho Chi Minh
 
@@ -92,6 +96,8 @@ As someone who played a lot of video games growing up, using the controllers was
 Now that I've done the semi live-coding thing on my slides twice before, I was less nervous about the setup not going to plan, because yet again, my extended screen glitched and I ended up having to look at the main screen and type with one hand (because microphone). Turns out the first time in Manila was the most successful attempt <span class="emoji" role="img" tabindex="0" aria-label="ROFL">&#x1F923;</span>.
 
 Also met a fellow Malaysian, [Ondris Pui](https://twitter.com/ondrispui), who's currently lecturing at the Ho Chi Minh campus of RMIT, as well as [Jolanda Tromp](https://twitter.com/jolandatromp), who's a researcher at Duy Tan University focused on user-centred AR/VR. Lots of interesting conversations with interesting people doing interesting stuff.
+
+<iframe style="margin-bottom:2em;" width="560" height="315" src="https://www.youtube.com/embed/VRW2igNFSn8?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> @ Mozilla Dev Roadshow Kuala Lumpur
 
@@ -119,6 +125,8 @@ As someone who had the privilege and honour of representing the Malaysia women's
 </figure>
 
 Anyway, my overly complicated talk setup went wrong again, this time, the resolution on the iPad was so off that I couldn't read a single word of my speaker notes. Guess it's a good thing I already did this talk a few times. But flying blind meant that I probably didn't keep to time that strictly. I just want the setup to work perfectly once. Just one time on this hectic tour <span class="emoji" role="img" tabindex="0" aria-label="crossed fingers">&#x1F91E;</span>.
+
+<iframe style="margin-bottom:2em;" width="560" height="315" src="https://www.youtube.com/embed/4uhbvlR3nhk?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> @ Mozilla Dev Roadshow Penang
 
@@ -148,6 +156,8 @@ Dietrich was super entertaining as usual, and we had to say good bye after this 
 </figure>
 
 I also got the chance to chat with lots of lovely Penangites after the talks were over, about Penang, about speaking, about tech in Penang and Malaysia in general, and all sorts of other things. I might be part of DevFest Penang (I think that's what it's going to be called) in November as well. We'll see how that goes <span class="emoji" role="img" tabindex="0" aria-label="upside-down face">&#x1F643;</span>.
+
+<iframe style="margin-bottom:2em;" width="560" height="315" src="https://www.youtube.com/embed/P3s6QwThdBM?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> @ Mozilla Dev Roadshow Hong Kong
 
@@ -198,7 +208,7 @@ Also had some nice conversations with a few designers and developers, and manage
 Anyway, it was my last night in Hong Kong, as well as the last night of this whirlwind of a tour. No better way to end the trip than at the tallest sky bar in the world (at least for now), with a great view and even better company <span class="emoji" role="img" tabindex="0" aria-label="face blowing a kiss">&#x1F618;</span>.
 
 <figure>
-    <figcaption>Quite a few from 490m up</figcaption>
+    <figcaption>Quite a view from 490m up</figcaption>
     <img srcset="{{ site.url }}/images/posts/talking-css/ozone-480.jpg 480w, {{ site.url }}/images/posts/talking-css/ozone-640.jpg 640w, {{ site.url }}/images/posts/talking-css/ozone-960.jpg 960w, {{ site.url }}/images/posts/talking-css/ozone-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/ozone-640.jpg" alt="Drinks at Ozone" />
 </figure>
 
