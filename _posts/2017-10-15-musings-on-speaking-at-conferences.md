@@ -8,31 +8,31 @@ tags: [opinion]
 
 I have a friend, a close friend, called [Aysha](https://aysha.me/). She is an awesome human being, and we have pretty similar personalities and viewpoints (which is probably why we get along so well). She's also a fellow Malaysian, who happens to be a front-end developer as well as a speaker at web conferences, checking the same boxes as myself.
 
-We recently got together after our respective speaking stints, mine being [the road-trip around South-east Asia](https://www.chenhuijing.com/blog/talking-about-talking-css/), and hers being at [Mobile Era](https://mobileera.rocks/) in Oslo, Norway. And one of the things we talked about over dinner was how we felt about speaking at conferences, as women from South-east Asia.
+We recently got together after our respective speaking stints, mine being [the road-trip around Southeast Asia](https://www.chenhuijing.com/blog/talking-about-talking-css/), and hers being at [Mobile Era](https://mobileera.rocks/) in Oslo, Norway. And one of the things we talked about over dinner was how we felt about speaking at conferences, as women from Southeast Asia.
 
 ## A brief Geography lesson
 
-<img srcset="{{ site.url }}/images/posts/speaking/worldmap-480.png 480w, {{ site.url }}/images/posts/speaking/worldmap-640.png 640w, {{ site.url }}/images/posts/speaking/worldmap-960.png 960w, {{ site.url }}/images/posts/speaking/worldmap-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/speaking/worldmap-640.png" alt="Southeast-Asia on the world map" />
+<img srcset="{{ site.url }}/images/posts/speaking/worldmap-480.png 480w, {{ site.url }}/images/posts/speaking/worldmap-640.png 640w, {{ site.url }}/images/posts/speaking/worldmap-960.png 960w, {{ site.url }}/images/posts/speaking/worldmap-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/speaking/worldmap-640.png" alt="Southeast Asia on the world map" />
 
-Although I'd like to believe that most people know where South-east Asia is, as my coach always tells our team, hope for the best but prepare for the worst. So that's us marked on the map above, relative to wherever else you may be on this planet.
+Although I'd like to believe that most people know where Southeast Asia is, as my coach always tells our team, hope for the best but prepare for the worst. So that's us marked on the map above, relative to wherever else you may be on this planet.
 
-South-east Asia is made up of 11 sovereign nations, namely Brunei, Cambodia, East Timor, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam. And whether we like it or not, English seems to be the de facto global language and it is taught in schools across Southeast-Asia, either with the entire curriculum being in English, or as a standalone language module.
+Southeast Asia is made up of 11 sovereign nations, namely Brunei, Cambodia, East Timor, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam. And whether we like it or not, English seems to be the de facto global language and it is taught in schools across Southeast Asia, either with the entire curriculum being in English, or as a standalone language module.
 
 So yes, many of us can speak English, some of us even speak it rather well. And no, none of us are part of China or Japan. Case in point, this interview question for Michelle Yeoh (who means the world to me, might I add) that starts at 3.10:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0b6HxVA_q2U?rel=0&amp;showinfo=0&amp;start=190" frameborder="0" allowfullscreen></iframe>
 
-The aftermath of colonialism from the 16th century to the mid-20th century is that we now live in a world that plays by Western rules. You could even say that it is a white man's world. Southeast-Asia was one of the regions that was heavily colonised by European powers. And this has long-reaching social consequences, even today, after we have gained sovereignty. Because you cannot just declare independence and expect the culture and mindset of people who were occupied for generations to change overnight.
+The aftermath of colonialism from the 16th century to the mid-20th century is that we now live in a world that plays by Western rules. You could even say that it is a white man's world. Southeast Asia was one of the regions that was heavily colonised by European powers. And this has long-reaching social consequences, even today, after we have gained sovereignty. Because you cannot just declare independence and expect the culture and mindset of people who were occupied for generations to change overnight.
 
 Like I mentioned before [in a previous post]({{ site.url }}/blog/css-writing-mode-personal-identity), we all perceive the world and our place in it differently. And these are my views of the world and my place in it, formed as a result of my personal experiences. You will have your own views and opinions, which may or may not disagree with mine.
 
 ## A logistical issue
 
-Most web development conferences take place in North America or Europe. This is not surprising given that both the Internet and the World Wide Web originated from that part of the world. If you remember the world map earlier in this post, you'll notice that we are pretty far away from North America and Europe. Keep this in mind when I say I haven't seen that many speakers from Southeast-Asia at big name web conferences.
+Most web development conferences take place in North America or Europe. This is not surprising given that both the Internet and the World Wide Web originated from that part of the world. If you remember the world map earlier in this post, you'll notice that we are pretty far away from North America and Europe. Keep this in mind when I say I haven't seen that many speakers from Southeast Asia at big name web conferences.
 
-I have been involved in helping out with conference organisation before, so I'm perfectly aware of how much time, effort and money it takes to hold a large conference. So one of the probable reasons you don't see many Southeast-Asian speakers is because flying us out costs a lot of money.
+I have been involved in helping out with conference organisation before, so I'm perfectly aware of how much time, effort and money it takes to hold a large conference. So one of the probable reasons you don't see many Southeast Asian speakers is because flying us out costs a lot of money.
 
-Now tie that in with the notion that people from Southeast-Asia don't speak English well (refer to video above), and you'll see that we seem to be in quite a hole here. As a conference organiser, you want to have excellent speakers with high quality content to make the conference a success. Would you take a chance on an unproven speaker from halfway around the world?
+Now tie that in with the notion that people from Southeast Asia don't speak English well (refer to video above), and you'll see that we seem to be in quite a hole here. As a conference organiser, you want to have excellent speakers with high quality content to make the conference a success. Would you take a chance on an unproven speaker from halfway around the world?
 
 It's a bit of a chicken and egg problem we have here. Definitely not something that can be solved with a simple solution. But I hope this sets some context for some of my subsequent (potentially controversial) viewpoints.
 
@@ -44,7 +44,7 @@ Because I am lucky enough to be in Singapore, where almost every tech meetup is 
 
 [Charis Rooda](https://imakewebsites.hk/), organiser of [Webconf.Asia](https://webconf.asia/) gave me my first shot at a full-length conference talk, and put me in a stellar line-up which included [Bruce Lawson](http://www.brucelawson.co.uk/), [Heydon Pickering](http://www.heydonworks.com/) and [Andrew Betts](https://trib.tv/) (just to name a few). The conference paid for my flight and accommodation, which honestly was good enough for me. I know some experienced speakers can wing it and still give a great talk, but I'm not one of them. Maybe some day, but not today.
 
-I finished writing my talk a month before the conference and I rehearsed the shit out of it. Because I felt an added responsibility of representing Southeast-Asia to the best of my ability, due to the fact that there simply aren't that many of us on the international stage. **In my mind, I cannot just be average or good, I have to aim for perfect, because I don't want to mess it up for the rest of us.**
+I finished writing my talk a month before the conference and I rehearsed the shit out of it. Because I felt an added responsibility of representing Southeast Asia to the best of my ability, due to the fact that there simply aren't that many of us on the international stage. **In my mind, I cannot just be average or good, I have to aim for perfect, because I don't want to mess it up for the rest of us.**
 
 I definitely don't want audiences walking away thinking that female speaker from who-knows-where was probably just a diversity invite. I wanted it to be that if you didn't know where Malaysia was before, I would guarantee that after my session, you will remember me as that woman from Malaysia who gave a surprisingly excellent and informative talk.
 
