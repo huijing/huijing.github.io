@@ -38,6 +38,8 @@ It's a bit of a chicken and egg problem we have here. Definitely not something t
 
 At this point, I want to express my immense gratitude to the organisers who chose to take a chance on me. 2017 was my inaugural year of speaking at web conferences. But I started out at a local meetup in 2015, when a friend of mine asked me to talk about an article I wrote that was published on A List Apart.
 
+One thing led to another and before I knew it, I got my first hosting gig as the MC for [CSSConf.Asia 2015](https://2015.cssconf.asia/) from [Thomas Gorissen](https://twitter.com/serrynaimo). That was how I got to know Aysha in the first place (I still remember exactly where and when we met <span class="emoji" role="img" tabindex="0" aria-label="person gesturing ok">&#x1F646;</span>). The following year, I did a short talk at [CSSConf.Asia 2016](https://2016.cssconf.asia/) which was in turn MC-ed by Aysha and another good friend of mine, Zell.
+
 Because I am lucky enough to be in Singapore, where almost every tech meetup is recorded, I ended up with a number of videos of my talks I could refer to when submitting CFPs. But I still needed people to take a chance on me.
 
 ## This is ten percent luck
