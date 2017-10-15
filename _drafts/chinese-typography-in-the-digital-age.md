@@ -17,3 +17,5 @@ China was connected to the Internet in 1994 via the American National Science Fo
 
 https://www.typeisbeautiful.com/2013/12/6983/
 https://blog.readmoo.com/2013/11/25/octw-typesetting/
+
+https://www.typemag.org/home/2017/10/6/the-faces-of-microsoft

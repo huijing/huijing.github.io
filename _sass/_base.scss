@@ -116,7 +116,7 @@ blockquote {
   &::after {
     font-size: 2.5em;
     line-height: 0.1em;
-    vertical-align: -0.5em;
+    vertical-align: -0.25em;
     color: color('royal-blue');
     content: '\201D';
     font-family: $display-font;
