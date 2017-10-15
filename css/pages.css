@@ -297,7 +297,6 @@ picture img {
   line-height: 1;
   font-style: normal;
   display: inline-block;
-  vertical-align: middle;
   font-family: 'Segoe UI Emoji'; }
 
 span[role=img][aria-label],
