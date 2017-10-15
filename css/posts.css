@@ -436,7 +436,11 @@ picture img {
   line-height: 1;
   font-style: normal;
   display: inline-block;
+  vertical-align: middle;
   font-family: 'Segoe UI Emoji'; }
+
+_:-ms-lang(x), .emoji {
+  vertical-align: top; }
 
 span[role=img][aria-label],
 span[role=img][aria-label] {
