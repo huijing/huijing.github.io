@@ -65,7 +65,7 @@
   released: true
 
 - title: "How I learn to CSS"
-  id: css-conf-2016
+  id: cssconf-2016
   video: https://youtu.be/gJA5sdyCWNQ
   event: CSSConf.Asia 2016
   website: https://2016.cssconf.asia/
@@ -152,5 +152,12 @@
   id: gdaygt-2017
   event: DevFest & GDay 2017 George Town
   website: http://devfest-gday.gdggeorgetown.com/
+  type: conference
+  released: false
+
+- title: "When East meets West"
+  id: cssconf-2018
+  event: JSConf.Asia 2018
+  website: https://2018.jsconf.asia/
   type: conference
   released: false
