@@ -92,7 +92,7 @@ regions[footer] = Footer</code></pre>
 |
 `-- templates/</code></pre>
 
-The default theme engine for Drupal 7 is [PHPTemplate](https://www.drupal.org/phptemplate), written by [Adrian Rossouw](http://daemon.co.za/). Although the template files are recognised as PHP, they are actually a HTML scaffold that utilise PHP statements and variables to pull dynamic data from the database. So if you're familiar with HTML, you'll be just fine, don't be intimidated by all the `<?php ?>` stuff in there. 
+The default theme engine for Drupal 7 is [PHPTemplate](https://web.archive.org/web/20150906003104/https://www.drupal.org/phptemplate), written by [Adrian Rossouw](http://daemon.co.za/). Although the template files are recognised as PHP, they are actually a HTML scaffold that utilise PHP statements and variables to pull dynamic data from the database. So if you're familiar with HTML, you'll be just fine, don't be intimidated by all the `<?php ?>` stuff in there. 
 
 I personally chose to override two template files for my theme, the `html.tpl.php` and the `page.tpl.php`. Quick aside, in order to learn all this, I built my own starter theme called [Clarus](https://www.drupal.org/sandbox/hj_chen/2345293) and now use it to start all my custom Drupal 7 themes. 
 

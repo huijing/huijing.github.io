@@ -61,7 +61,7 @@ Unfortunately, I couldn't solve the issue with using Sass colour functions, as t
 
 ### Font-weight on hover trick
 
-Instead I used a technique I recently learned from reading [Quick Tip: Fixing the font-weight Problem on Hover States](http://www.sitepoint.com/quick-tip-fixing-font-weight-problem-hover-states/) by [George Martsoukos](http://www.georgemarts.com/). The article suggested using the `text-shadow` property to simulate the effect of increasing the `font-weight` on hover, and I think it works fairly well.
+Instead I used a technique I recently learned from reading [Quick Tip: Fixing the font-weight Problem on Hover States](http://www.sitepoint.com/quick-tip-fixing-font-weight-problem-hover-states/) by [George Martsoukos](http://georgemartsoukos.com/). The article suggested using the `text-shadow` property to simulate the effect of increasing the `font-weight` on hover, and I think it works fairly well.
 
 <pre><code class="language-scss">a {
   color: map-get($colors,main);
@@ -161,7 +161,7 @@ This was a really fun project because I got to play with all the new and shiny s
 <ul>
   <li class="no-margin"><a href="http://philipwalton.com/articles/why-im-excited-about-native-css-variables/">Why I’m Excited About Native CSS Variables</a> by <a href="https://twitter.com/philwalton">Philip Walton</a></li>
   <li class="no-margin"><a href="http://codepen.io/jakealbaugh/post/css4-variables-and-sass">CSS4 variables and SASS</a> by <a href="https://twitter.com/jake_albaugh">Jake Albaugh</a></li>
-  <li class="no-margin"><a href="http://www.sitepoint.com/quick-tip-fixing-font-weight-problem-hover-states/">Quick Tip: Fixing the font-weight Problem on Hover States</a> by <a href="http://www.georgemarts.com/">George Martsoukos</a></li>
+  <li class="no-margin"><a href="http://www.sitepoint.com/quick-tip-fixing-font-weight-problem-hover-states/">Quick Tip: Fixing the font-weight Problem on Hover States</a> by <a href="http://georgemartsoukos.com/">George Martsoukos</a></li>
   <li class="no-margin"><a href="https://pixelambacht.nl/2016/building-bixa-color/">Building Bixa Color, a color font for the web</a> by <a href="https://twitter.com/pixelambacht">Roel Nieskens</a></li>
   <li><a href="http://bitsofco.de/styling-broken-images/">Styling Broken Images</a> by <a href="https://twitter.com/ireaderinokun">Ire Aderinokun</a></li>
 </ul>

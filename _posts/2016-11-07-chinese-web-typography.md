@@ -366,5 +366,3 @@ I'm lucky enough to be fluent in Chinese, and hence there is a wealth of resourc
   <li class="no-margin"><a href="https://www.smashingmagazine.com/author/kendraschaefer/?rel=author">On China’s Bleeding Edge: Web Design Trends 2015</a></li>
   <li><a href="http://dangrover.com/blog/2016/01/31/more-chinese-mobile-ui-trends.html">More Chinese Mobile UI Trends</a></li>
 </ul>
-
-<em><small>Credits: OG:image from <a href="http://www.xueguoxue.net/news_detail.php?aId=30461">有汉字美才有书法美</a></small></em>

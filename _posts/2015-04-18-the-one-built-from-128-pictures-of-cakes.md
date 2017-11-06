@@ -6,7 +6,7 @@ project: 7love Bakery
 image: project-8
 tags: [drupal7, client-work]
 ---
-I have a habit of saying yes to requests before I realise I have never done said request before. I acknowledge that this is not an optimal strategy to adopt, and some day I'll get in trouble for this, but this post is about a time when things went right (well, let's just say nothing burned down). A close friend of mine makes customised cakes and needed a website, so I figured I'd [build her one](http://www.7lovebakery.com).
+I have a habit of saying yes to requests before I realise I have never done said request before. I acknowledge that this is not an optimal strategy to adopt, and some day I'll get in trouble for this, but this post is about a time when things went right (well, let's just say nothing burned down). A close friend of mine makes customised cakes and needed a website, so I figured I'd [build her one](https://web.archive.org/web/20151023084253/http://www.7lovebakery.com:80/).
 
 <img src="{{ site.url }}/images/posts/7love/7love.jpg" alt="7lovebakery.com"/>
 

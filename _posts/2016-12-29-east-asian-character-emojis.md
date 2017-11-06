@@ -51,7 +51,7 @@ I must highlight the existence of this project. It was started by [Jennifer 8. L
 
 So they came up with a Kickstarter project called [Where Is the Dumpling Emoji?](https://www.kickstarter.com/projects/657685639/where-is-the-dumpling-emoji) to raise enough funds to get non-voting affiliate membership in the Unicode Consortium, and eventually create a system where popular emoji requests (\#emojirequest) can systematically bubble up and get transformed into proper proposals for the Unicode Consortium.
 
-And by golly, they did it! With the amount of publicity their campaign generated and support from like-minded emoji-loving people, [Unicode v10.0, slated for release in June 2017](http://www.unicode.org/emoji/charts/emoji-candidates.html), will include the Dumpling, Takeout box, Fortune cookie and Chopsticks emojis. As a side note, I'm excited because the "Face with one eyebrow raised" emoji also made the cut.
+And by golly, they did it! With the amount of publicity their campaign generated and support from like-minded emoji-loving people, [Unicode v10.0, slated for release in June 2017](https://web.archive.org/web/20161217073210/http://www.unicode.org/emoji/charts/emoji-candidates.html), will include the Dumpling, Takeout box, Fortune cookie and Chopsticks emojis. As a side note, I'm excited because the "Face with one eyebrow raised" emoji also made the cut.
 
 I love a happy ending <span class="emoji" role="img" tabindex="0" aria-label="confetti ball">&#x1F38A;</span>.  Here's the link to the actual [Dumpling Emoji Submission](http://www.unicode.org/L2/L2016/16024-dumpling-emoji.pdf) that was proposed earlier this year.
 

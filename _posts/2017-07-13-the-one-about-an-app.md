@@ -8,7 +8,7 @@ tags: [side-project, javascript]
 ---
 It's finally happened. I did a proper Javascript thing. Now before you start to judge me, let me clarify that although I've never written a Javascript post ever, it's not like I don't know how to use it, okay? Sure I started out with jQuery back in 2015, big whoop, almost everybody I know has used jQuery at some point in their careers <span class="emoji" role="img" tabindex="0" aria-label="mad face">&#x1F624;</span>.
 
-In fact, my superficial need for external validation made me so self-concious about using jQuery in 2015 that I soon treated [Ray Nicholus's](@RayNicholus) [You Don't Need jQuery!](https://blog.garstasio.com/you-dont-need-jquery/) like some holy reference for a while until I weaned myself off jQuery.
+In fact, my superficial need for external validation made me so self-concious about using jQuery in 2015 that I soon treated [Ray Nicholus's](https://twitter.com/raynicholus) [You Don't Need jQuery!](https://blog.garstasio.com/you-dont-need-jquery/) like some holy reference for a while until I weaned myself off jQuery.
 
 But that's beside the point. Up till now, I've always been doing client-side Javascript. I'd partner up with a “Javascript person” who would handle the middleware-side of things, and write the nice APIs I would consume and be on my merry way. I'm pretty much known for my inordinate love of all things CSS, because I took to it like a duck to water <span class="emoji" role="img" tabindex="0" aria-label="duck">&#x1F986;</span>. 
 

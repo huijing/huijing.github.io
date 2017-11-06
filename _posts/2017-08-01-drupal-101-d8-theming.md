@@ -106,7 +106,7 @@ regions:
 
 ## Twig template files
 
-[PHPTemplate](https://www.drupal.org/phptemplate) has now been replaced by [Twig](https://twig.symfony.com/), so instead of `*.tpl.php` template files, they are now all `*.html.twig` template files. But the underlying mechanism of overriding templates with increasing specificity (based on naming convention) still apply in the world of Drupal 8. How this works is [covered right here](https://www.drupal.org/docs/8/theming/twig/working-with-twig-templates).
+[PHPTemplate](https://web.archive.org/web/20150906003104/https://www.drupal.org/phptemplate) has now been replaced by [Twig](https://twig.symfony.com/), so instead of `*.tpl.php` template files, they are now all `*.html.twig` template files. But the underlying mechanism of overriding templates with increasing specificity (based on naming convention) still apply in the world of Drupal 8. How this works is [covered right here](https://www.drupal.org/docs/8/theming/twig/working-with-twig-templates).
 
 I'm not going to repeat the documentation, but I have to mention the most useful feature my noob ass fell in love with. Twig debugging! But before that, I hope you have a `settings.local.php` file already, because that's good practice, folks. Drupal 8 has a pretty aggressive caching strategy, which is great for performance, but a bit of a hassle during development. But that's what development settings are for.
 

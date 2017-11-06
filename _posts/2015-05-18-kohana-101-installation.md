@@ -14,7 +14,7 @@ cd kohana/
 git submodule init
 git submodule update</code></pre>
 
-Note: If you need to use a version of Kohana other than the latest stable version, you can try downloading it from the [archives](https://kohanaframework.org/download), but the last I tried, the archives were offline. Your best bet is to get it from Kohana's [GitHub repository](https://github.com/kohana/kohana). 
+Note: If you need to use a version of Kohana other than the latest stable version, you can try downloading it from the [archives](https://web.archive.org/web/20170606095640/http://kohanaframework.org/download), but the last I tried, the archives were offline. Your best bet is to get it from Kohana's [GitHub repository](https://github.com/kohana/kohana). 
 
 <p class="no-margin">For installation via git, there is an extra step to switch git branches if you need an earlier version.</p>
 <pre><code class="language-bash">git clone git://github.com/kohana/kohana.git

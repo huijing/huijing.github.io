@@ -5,7 +5,7 @@ date: April 06, 2015
 tags: [drupal7, site-building]
 category: planet-drupal
 ---
-Accordions are commonly used graphical control element. The [Yahoo Design Pattern Library](https://developer.yahoo.com/ypatterns/navigation/accordion.html) has a good explanation on the purpose of accordions, as well as recommendations on their usage. Accordions are usually used when you have limited space and a long list of related items. Seriously, the [Yahoo Design Pattern Library](https://developer.yahoo.com/ypatterns/) is a valuable reference for all designers. I recommend you bookmark it.
+Accordions are commonly used graphical control element. The [Yahoo Design Pattern Library](https://web.archive.org/web/20160529103142/https://developer.yahoo.com/ypatterns/navigation/accordion.html) has a good explanation on the purpose of accordions, as well as recommendations on their usage. Accordions are usually used when you have limited space and a long list of related items. Seriously, the [Yahoo Design Pattern Library](https://web.archive.org/web/20160404131912/https://developer.yahoo.com/ypatterns/) is a valuable reference for all designers. I recommend you bookmark it.
 
 There are a number of Drupal modules that help implement accordions (just google drupal accordion), but they didn't really fit my particular use-case, so I did my accordions differently. This method was a little complicated and required some jQuery, but fit my use-case well.
 

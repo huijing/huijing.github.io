@@ -25,7 +25,7 @@ Drupal also requires a database server, the recommended one being [MySQL](http:/
 
 <p class="no-margin">Regardless of the option you choose, follow the instructions provided by the software manufacturer to install your software bundle of choice on your machine. If you're on a Mac and feeling adventurous, these are the resources I used to set up my development environment:</p>
 <ul>
-  <li class="no-margin"><a href="https://echo.co/blog/os-x-1010-yosemite-local-development-environment-apache-php-and-mysql-homebrew">OS X 10.10 Yosemite Local Development Environment: Apache, PHP, and MySQL with Homebrew</a></li>
+  <li class="no-margin"><a href="https://web.archive.org/web/20150321085601/http://echo.co/blog/os-x-1010-yosemite-local-development-environment-apache-php-and-mysql-homebrew">OS X 10.10 Yosemite Local Development Environment: Apache, PHP, and MySQL with Homebrew</a></li>
   <li class="no-margin"><a href="http://passingcuriosity.com/2013/dnsmasq-dev-osx/">Using Dnsmasq for local development on OS X</a></li>
   <li><a href="https://mallinson.ca/osx-web-development/">The Perfect Web Development Environment for Your New Mac</a></li>
 </ul>
@@ -36,7 +36,7 @@ Installing all these programs alone is not the end of it. These programs, specif
 <ul>
   <li class="no-margin"><a href="https://blog.udemy.com/xampp-tutorial/">XAMPP Tutorial: How to Use XAMPP to Run Your Own Web Server</a></li>
   <li class="no-margin"><a href="http://www.jenlampton.com/blog/using-mamp-local-drupal-development">Using MAMP for local Drupal development</a></li>
-  <li><a href="http://klausharris.de/blog/install-drupal-7-wamp.html">How to install Drupal 7 on WAMP</a></li>
+  <li><a href="https://web.archive.org/web/20151015070853/http://klausharris.de:80/blog/install-drupal-7-wamp.html">How to install Drupal 7 on WAMP</a></li>
 </ul>
 
 ## Must-have tools
@@ -65,7 +65,7 @@ Admittedly, we developers love our tools. But if something can streamline your w
 <p class="no-margin">You may also need to develop multiple sites concurrently on your machine, and this will require more steps to setup that I will not cover here, but you can check out the following articles to point you in the right direction.</p>
 <ul>
   <li class="no-margin"><a href="http://www.geeksengine.com/article/apache-multiple-local-websites.html">How to use Apache Virtual Host to run multiple local websites on Windows</a></li>
-  <li class="no-margin"><a href="http://brockboland.com/2009/12/running-multiple-sites-mamp/">Running Multiple Sites in MAMP</a></li>
+  <li class="no-margin"><a href="https://web.archive.org/web/20161227221914/http://brockboland.com/2009/12/running-multiple-sites-mamp">Running Multiple Sites in MAMP</a></li>
   <li><a href="http://www.wpwhitesecurity.com/wordpress-tips-webmasters/multiple-websites-xampp/">How to run multiple websites on XAMPP on Windows</a></li>
 </ul>
 
