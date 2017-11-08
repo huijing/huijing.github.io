@@ -8,7 +8,7 @@ tags: [opinion]
 
 I have a friend, a close friend, called [Aysha](https://aysha.me/). She is an awesome human being, and we have pretty similar personalities and viewpoints (which is probably why we get along so well). She's also a fellow Malaysian, who happens to be a front-end developer as well as a speaker at web conferences, checking the same boxes as myself.
 
-We recently got together after our respective speaking stints, mine being [the road-trip around Southeast Asia](https://www.chenhuijing.com/blog/talking-about-talking-css/), and hers being at [Mobile Era](https://mobileera.rocks/) in Oslo, Norway. And one of the things we talked about over dinner was how we felt about speaking at conferences, as women from Southeast Asia.
+We recently got together after our respective speaking stints, mine being [the road-trip around Southeast Asia]({{ site.url }}/blog/talking-about-talking-css/), and hers being at [Mobile Era](https://mobileera.rocks/) in Oslo, Norway. And one of the things we talked about over dinner was how we felt about speaking at conferences, as women from Southeast Asia.
 
 ## A brief Geography lesson
 

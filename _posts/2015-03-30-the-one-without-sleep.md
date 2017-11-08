@@ -7,7 +7,7 @@ image: project-6
 tags: [drupal7, side-project]
 category: planet-drupal
 ---
-So I recently participated in my first ever hackathon over the weekend of March 28. [Battlehack Singapore](https://web.archive.org/web/20150328170549/https://2015.battlehack.org/singapore) to be exact (oddly, there was another [hackathon](http://mastersofcode.com/event/singapore/) taking place at the same time). A UX designer friend of mine had told me about the event and asked if I wanted to join as a team.  
+So I recently participated in my first ever hackathon over the weekend of March 28. [Battlehack Singapore](https://web.archive.org/web/20150328170549/https://2015.battlehack.org/singapore) to be exact (oddly, there was another [hackathon](https://web.archive.org/web/20160313223556/http://mastersofcode.com/event/singapore/) taking place at the same time). A UX designer friend of mine had told me about the event and asked if I wanted to join as a team.  
 Me: Is there gonna be food at this thing?  
 Her: Erm...yes.  
 Me: Sold!  
