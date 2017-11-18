@@ -153,7 +153,7 @@
   event: DevFest & GDay 2017 George Town
   website: http://devfest-gday.gdggeorgetown.com/
   type: conference
-  released: false
+  released: true
 
 - title: "When East meets West"
   id: cssconf-2018
