@@ -6,7 +6,7 @@ tags: [css, design, typography]
 ---
 About year ago, I [wrote about the findings]({{ site.url }}/blog/chinese-web-typography/) from an exercise in attempting to typeset Chinese vertically on the web. What came out of that was [a bare-bones demo]({{ site.url }}/zh-type) that allowed you to switch between writing modes using the checkbox hack.
 
-I met Yoav Weiss a little while back and we chatted a little about the [Responsive Images Community Group](http://ricg.io/) because I mentioned how I thought it would be nice if there could be some media query for `writing-mode` with the `picture` element so I didn't have to do some mildly hackish transforms on my images when I switched modes. And he suggested I write it up as [an use-case for responsive images](https://github.com/ResponsiveImagesCG/ri-usecases/issues/63).
+I met [Yoav Weiss](https://blog.yoav.ws/) a little while back and we chatted a little about the [Responsive Images Community Group](http://ricg.io/) because I mentioned how I thought it would be nice if there could be some media query for `writing-mode` with the `picture` element so I didn't have to do some mildly hackish transforms on my images when I switched modes. And he suggested I write it up as [a use-case for responsive images](https://github.com/ResponsiveImagesCG/ri-usecases/issues/63).
 
 But when I reopened this demo that I hadn't touched in a year, my face went from <span class="emoji" role="img" tabindex="0" aria-label="face with raised eyebrow">&#x1F928;</span> to <span class="emoji" role="img" tabindex="0" aria-label="face screaming in fear">&#x1F631;</span> to <span class="emoji" role="img" tabindex="0" aria-label="cursing face">&#x1F92C;</span> to <span class="emoji" role="img" tabindex="0" aria-label="weary face">&#x1F629;</span> within the first 5 minutes (what can I say? I have an expressive face <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>). So for catharsis, I'm going to write down my play-by-play of trying to figure out who (i.e. browsers) broke what and hopefully how to mitigate it, for now. 
 
@@ -58,13 +58,13 @@ I'm only looking at the browsers I have immediate access to. Because I have othe
 
 <img srcset="{{ site.url }}/images/posts/vertical-typesetting/chrome-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/chrome-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/chrome-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/chrome-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/chrome-640.jpg" alt="vertical-rl on Chrome" />
 
-Okay, doesn't look too bad, actually. A bit of vertical overflow, will have to check that, maybe scrollbar height or something. But entire text is accounted for, no major rendering problems.
+Okay, this looks perfectly fine. I was sort of exaggerating when I said everything was broken. All the text and images are accounted for, no major rendering problems in vertical writing mode. Good job, Chrome.
 
 <img srcset="{{ site.url }}/images/posts/vertical-typesetting/chrome2-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/chrome2-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/chrome2-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/chrome2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/chrome2-640.jpg" alt="horizontal-tb on Chrome" />
 
-Now we've toggled the switcher, and things are kicked over to the right. I remember that trying to horizontally centre something in vertical writing-mode was really painful, so this must have been some hack I tried in the first pass that didn't go so well.
+Toggling the switcher kicks things over to the right though. I remember that trying to horizontally centre something in vertical writing-mode was really painful, so this must have been some hack I tried in the first pass that didn't go so well.
 
-It definitely worked at near the beginning of the 2017 because I made this screencast for my Webconf.Asia slides. Pretty sure it was using Chrome at the time. It's amazing what a few months will do to a demo. My senior once mentioned a phrase called “code rot”, I wonder if this is it.
+It definitely worked at near the beginning of the 2017 because I made [this screencast](https://www.chenhuijing.com/slides/webconf-asia-2017/videos/mode-switcher.mp4) for my Webconf.Asia slides. Pretty sure it was using Chrome at the time. It's amazing what a few months will do to a demo. My senior once mentioned a phrase called “code rot”, I wonder if this is it.
 
 ### Firefox (59.0a1 Nightly)
 
@@ -162,7 +162,7 @@ And herein lies the complications. Having a mixture of different nested writing-
     <img style="max-width: 25em;" src="{{ site.url }}/images/posts/vertical-typesetting/diagram.svg" />
 </figure>
 
-I set the default writing-mode to `vertical-rl` on the `body` element, then use the checkbox to toggle the writing-mode of the `main` element. But it seems like everyone (browser rendering engines) handles nested writing-modes differently, as seen by the catalogue of screenshots above.
+In the original demo, I set the default writing-mode to `vertical-rl` on the `body` element, then used the checkbox to toggle the writing-mode of the `main` element. But it seems like everyone (browser rendering engines) handles nested writing-modes differently, as seen by the catalogue of screenshots above.
 
 ### Debugging 101: Reset to baseline
 
@@ -186,9 +186,9 @@ body {
   text-align: justify;
 }</code></pre>
 
-This is almost become the de-facto starting point of all my projects. Set everything to `border-box`, and usually I'll add in `margin: 0` and `padding: 0` to the universal selector block as my baseline reset. But for this demo, I'll just let the browser keep its spacings and just reset the `body` element.
+This has almost become the de-facto starting point of all my projects. Set everything to `border-box`, and usually I'll add in `margin: 0` and `padding: 0` to the universal selector block as my baseline reset. But for this demo, I'll let the browser keep its spacings and just reset the `body` element.
 
-This demo is almost purely Chinese, so I just put in Chinese fonts in my font stack and left the system sans-serif as the fallback. For most cases though, it is a general consensus to put your Latin-based font of choice first. The reasoning being, Chinese fonts will have support for basic Latin characters, but not the other way around.
+This demo is almost purely Chinese, so I put in only Chinese fonts in my font stack and left the system sans-serif as the fallback. For most cases though, it is a general consensus to put your Latin-based font of choice first. The reasoning being, Chinese fonts will have support for basic Latin characters, but not the other way around.
 
 When the browser encounters any Chinese characters, it won't find them in the Latin-based font family, so it will fallback to the next in line until it finds a font that does. If you list the Chinese font first, the browser will use the Latin-based characters found in the Chinese font, and sometimes these glyphs aren't that polished and don't look so good, especially on Windows.
 
@@ -222,9 +222,9 @@ If we set the `writing-mode` to `vertical-rl` on the `main` element, all the tex
 
 <img srcset="{{ site.url }}/images/posts/vertical-typesetting/main-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/main-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/main-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/main-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/main-640.jpg" alt="vertical-rl on the main element" />
 
-But the issue with having the `main` element in vertical writing mode, but the document itself being in horizontal writing mode means that the content starts on the left and we end up seeing the end of the article on first load instead of the beginning.
+The issue with having the `main` element in vertical writing mode, but the document itself being in horizontal writing mode means that the content starts on the left and we end up seeing the end of the article on first load instead.
 
-So let's move it up one level, and set `writing-mode: vertical-rl` on the `body` element instead. Chrome, Safari and Edge render the content from right-to-left, which is what we want. However, Firefox still shows the end of the article, although this did fix the scrollbar overflow issue. This looks most relevant to [Bug 1102175](https://bugzilla.mozilla.org/show_bug.cgi?id=1102175).
+So let's move things up one level, and set `writing-mode: vertical-rl` on the `body` element instead. Chrome, Safari and Edge render the content from right-to-left, which is what we want. However, Firefox still shows the end of the article, although this did fix the scrollbar overflow issue. This looks most relevant to [Bug 1102175](https://bugzilla.mozilla.org/show_bug.cgi?id=1102175).
 
 <img srcset="{{ site.url }}/images/posts/vertical-typesetting/body-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/body-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/body-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/body-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/body-640.jpg" alt="vertical-rl on the body element" />
 
@@ -333,21 +333,21 @@ To horizontally centre our `main` element when vertical writing mode is toggled,
   transform: translateX(50%);
 }</code></pre>
 
-This works for Chrome, Firefox and Safari. Unfortunately, it was kind of wonky on Edge, it just got skewed to somewhere in the middle of the page and to the left.
+This works for Chrome, Firefox and Safari. Unfortunately, it was kind of wonky on Edge when I first tested it, things got skewed to somewhere in the middle of the page and to the left.
 
 <img srcset="{{ site.url }}/images/posts/vertical-typesetting/troublemaker-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/troublemaker-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/troublemaker-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/troublemaker-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/troublemaker-640.jpg" alt="Seems to be buggy on Edge" />
 
-**Day 2 update:** It's no longer broken on Edge. I lost the bug. I don't know what I did, but all I have left of the bug is the screenshot above. And yes, this post took multiple days to write, and during that journey, I LOST THE BUG!! I don't know what to feel right now <span class="emoji" role="img" tabindex="0" aria-label="confused face">&#x1F615;</span>.
+**Day 2 update:** It's no longer broken on Edge. I lost the bug. I don't know what I did, but all I have left of the bug is the screenshot above. And yes, this post took multiple days to write. Somehow, during that journey, I LOST THE BUG!! I don't know what to feel right now <span class="emoji" role="img" tabindex="0" aria-label="confused face">&#x1F615;</span>.
 
 ## Handling image alignment
 
-Okay, moving on. When in vertical writing mode, I wanted the figures with 2 images to display them stacked and while in horizontal mode, display them side by side when space permits. Ideally, the figures (image and captions) would be centralised in their respective writing modes.
+Okay, moving on. When in vertical writing mode, I wanted the figures with 2 images to display stacked and while in horizontal mode, be side-by-side when space permits. Ideally, the figures (image and captions) would be centre-aligned in their respective writing modes.
 
 ### Old school properties
 
-Now that we're operating on a clean slate, let's just try the most basic of centring techniques, `text-align`. Images and text are, by default, inline elements anyway. Apply `text-align: center` to the figure element, and, oh my god, it worked <span class="emoji" role="img" tabindex="0" aria-label="incredulous face">&#x1F631;</span>!
+Now that we're operating on a clean slate, let's just try the most basic of centring techniques: `text-align`. Images and text are, by default, inline elements. Apply `text-align: center` to the figure element, and, oh my god, it worked <span class="emoji" role="img" tabindex="0" aria-label="incredulous face">&#x1F631;</span>!
 
-Images on both horizontal and vertical writing mode are now centred with no issues. I'm now very concerned about my state of mind a year ago when I was building this. Clearly flexbox was unnecessary for my intents and purposes. I reached for the new shiny first and it bit me in the ass.
+Images on both horizontal and vertical writing mode have been successfully centred with no issues. I'm now very concerned about my state of mind a year ago when I was building this. Clearly flexbox was unnecessary for my intents and purposes. I reached for the new shiny first and it bit me in the ass.
 
 I am shook. I need a drink <span class="emoji" role="img" tabindex="0" aria-label="tumbler glass">&#x1F943;</span>.
 
@@ -370,7 +370,9 @@ On horizontal writing mode, nothing much needed to be added. Just a simple `marg
   }
 }</code></pre>
 
-This is specifically the use case I will be writing up for the RICG. So the idea is, if there was some sort of media query for writing-mode, I could define a portrait image and a landscape image using the `srcset` attribute then serve the appropriate image accordingly.
+Thing is, when you rotate an element, the browser still recognises it's original width and height values (I think), so for my demo, when the viewport gets real narrow, it triggers a horizontal overflow. Maybe there's a fix for that, or I'm doing things wrongly. Advice welcome.
+
+This is specifically the use case I will be writing up for the RICG. The idea being, if there was some sort of media query for writing-mode, I could define a portrait image and a landscape image using the `srcset` attribute then serve the appropriate image accordingly.
 
 For vertical writing mode, we generally want the text to be justified, or at least aligned top for those semi-orphaned characters on short lines. And for breathing room, the margin is applied to the left instead of the bottom.
 
@@ -397,7 +399,7 @@ But taking a look at my original code, I realised that I had applied a `display:
 
 <img srcset="{{ site.url }}/images/posts/vertical-typesetting/ffbug-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/ffbug-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/ffbug-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/ffbug-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/ffbug-640.jpg" alt="Flexbox issue with vertical writing-mode on Firefox" />
 
-When using this approach, things look fine and dandy for the versions of Chrome, Edge and Safari I tested (refer to list above) whereby the images were centre-aligned on both vertical and horizontal, which is nice. But they're not in Firefox, like literally, the images aren't visible on my page when vertical writing mode is toggled. It's fine in horizontal though.
+When using this approach, things look fine and dandy for the versions of Chrome, Edge and Safari I tested (refer to list above) whereby the images were centre-aligned on both vertical and horizontal, and that is nice. But they're not in Firefox, like literally, the images aren't visible on my page when vertical writing mode is toggled. It's fine in horizontal though.
 
 <img srcset="{{ site.url }}/images/posts/vertical-typesetting/ffbug2-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/ffbug2-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/ffbug2-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/ffbug2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/ffbug2-640.jpg" alt="Flexbox issue with vertical writing-mode on Firefox" />
 
