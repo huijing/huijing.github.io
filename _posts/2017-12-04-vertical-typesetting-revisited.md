@@ -333,11 +333,9 @@ To horizontally centre our `main` element when vertical writing mode is toggled,
   transform: translateX(50%);
 }</code></pre>
 
-This works for Chrome, Firefox and Safari. Unfortunately, it was kind of wonky on Edge when I first tested it, things got skewed to somewhere in the middle of the page and to the left.
+This works for Chrome, Firefox and Safari. Unfortunately, it was kind of wonky on Edge, things are skewed to somewhere in the middle of the page and to the left. Time to file a bug with Edge. Also, the scrollbar appears on the left instead of the right.
 
 <img srcset="{{ site.url }}/images/posts/vertical-typesetting/troublemaker-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/troublemaker-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/troublemaker-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/troublemaker-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/troublemaker-640.jpg" alt="Seems to be buggy on Edge" />
-
-**Day 2 update:** It's no longer broken on Edge. I lost the bug. I don't know what I did, but all I have left of the bug is the screenshot above. And yes, this post took multiple days to write. Somehow, during that journey, I LOST THE BUG!! I don't know what to feel right now <span class="emoji" role="img" tabindex="0" aria-label="confused face">&#x1F615;</span>.
 
 ## Handling image alignment
 
@@ -389,7 +387,7 @@ For vertical writing mode, we generally want the text to be justified, or at lea
   }
 }</code></pre>
 
-We can pretty much call it a day now. It's done. This is the target end result already. I want to add that this works exactly the same for both the Javascript implementation and the checkbox hack implementation. There was apparently a bug on Edge, but I lost it, so that's that.
+We can pretty much call it a day now. It's done. This is the target end result already. I want to add that this works exactly the same for both the Javascript implementation and the checkbox hack implementation, except for the Edge bug I mentioned earlier.
 
 ### Using flexbox for centring
 
@@ -490,7 +488,7 @@ I need to create a simplified test case for using grid with vertical writing mod
 
 ## Winning solution?
 
-The currently active implementation of my [stand-alone demo](https://www.chenhuijing.com/zh-type/) is the checkbox hack without flexbox solution. But the flexbox one, if you don't mind the extra wrappers, works fine as well. I suppose the markup for the Javascript implementation looks nicer, because you can wrap the toggle in a `div` and style that.
+The currently active implementation of my [stand-alone demo](https://www.chenhuijing.com/zh-type/) is the checkbox hack without flexbox solution. I'm retaining the checkbox hack version to track the Edge bug. But the flexbox solution, if you don't mind the extra wrappers, works fine as well. The markup for the Javascript implementation also looks nicer, because you can wrap the toggle in a `div` and style that.
 
 But at the end of the day, there are so many ways to achieve the same end result. It's fine to copy code from elsewhere, but the trouble comes when something does go wrong and you can't figure out why. You don't have to write everything from scratch, but make sure there's no “magic” that you can't decipher. 
 
