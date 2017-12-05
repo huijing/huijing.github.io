@@ -2,8 +2,10 @@
 layout: post
 title: "Basic grid layout with fallbacks using feature queries"
 date: Sep 9, 2017
-tags: [css, design]
+tags: [css, design, translated]
 ---
+*This article has been translated to Japanese on [SeleQt](https://www.seleqt.net/programming/basic-grid-layout-with-fallbacks-using-feature-queries/).*
+
 I've been using CSS grid (which henceforth will be referred to as Grid) for quite a bit now, and although I often talk about how we can use grid to make all kinds of creative layouts, I'm fully aware that a basic grid is still a design pattern that is very much in demand on the web.
 
 Many conversations with fellow developers about using Grid involve the dreaded “but” statement, i.e. “but what about older browsers? I have to support \**INSERT_RANDOM_OLD_BROWSER_HERE*\*”. And it's totally understandable, because I also realised that not enough people know about the magic that is [Feature Queries](https://drafts.csswg.org/css-conditional-3/#at-supports).
