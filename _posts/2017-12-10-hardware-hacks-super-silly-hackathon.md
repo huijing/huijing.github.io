@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hardware hacks: Super Silly Hackathon"
+image: team486
 date: Dec 10, 2017
 tags: [hardware, retrotech]
 ---
