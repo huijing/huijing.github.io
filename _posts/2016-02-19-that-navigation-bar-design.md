@@ -5,7 +5,6 @@ date: February 19, 2016
 image: box-model.jpg
 tags: [css]
 ---
-
 Working in an agency means that most of the work I do is project-based. This means building a new design every couple of months (or less, if you know what I mean). The interesting part is, after a while, I discover each designer's style and preferences. An example would be the navigation UI, I had three consecutive projects where the navigation UI had a similar style. This particular element stood out to me, not only because I'd seen it twice before, but because I found that it touched almost every aspect of the box model.
 
 ## "So the navigation needs to look like this"

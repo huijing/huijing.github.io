@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: A simple image carousel"
 date: February 23, 2015
-tags: [drupal7, site-building, css]
+tags: [css, drupal7, site-building]
 category: planet-drupal
 ---
 The [first Drupal 7 project]({{ site.url }}/blog/the-one-that-came-first/) I worked on had to have an image carousel with one of those dot pagers on its homepage. I may have been a Drupal newbie then, but I knew for a fact that Drupal did not come with that function built in.

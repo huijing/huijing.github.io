@@ -6,7 +6,6 @@ tags: [css, performance]
 external_url: http://alistapart.com/article/using-responsive-images-now
 external_site: alistapart
 ---
-
 When the concept of responsive design came about, developers and designers have been trying to find ways to deal with the issue of responsive images. It's honestly a [hard problem](https://css-tricks.com/responsive-images-hard/) to solve, because we're serving the same website, with the same image sources, across a wide range of device widths. Do you want a blurry, pixelated image on a large display? Or do you want to load a huge (but oh so pretty) image on your mobile phone? Talk about being stuck between a rock and a hard place.
 
 Loads of smart people, namely the [Responsive Issues Community Group (RICG)](https://www.w3.org/community/respimg/) have been working together to solve this problem. Which is why we now have the `<picture>` element and the `srcset` and `sizes` attributes being drafted into the [HTML 5.1 specification](http://www.w3.org/TR/html51/). Because we cannot predict where and how users are going to view our websites, we need the browsers themselves to pick the best image for the situation. That's what the proposed solution is trying to do. With reference to the HTML5.1 working draft (as of 9 July 2015), the new specification will address the following issues:

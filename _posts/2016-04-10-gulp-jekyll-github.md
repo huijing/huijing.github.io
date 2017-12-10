@@ -2,7 +2,7 @@
 layout: post
 title: "Gulp, Jekyll and GitHub (pages)"
 date: April 10, 2016
-tags: [github-pages, jekyll, gulp]
+tags: [github-pages, gulp, jekyll]
 ---
 After more than a year with Jekyll, I've settled into a workflow that allows me to spin up and develop new sites really quickly with the help of gulp. Normally my sites are project pages, because GitHub only allows one user/organisation page but unlimited project pages, but the setup process only differs slightly for the two. An additional step is needed to create an orphan `gh-pages` branch for project pages.
 

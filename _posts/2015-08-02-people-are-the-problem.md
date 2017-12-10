@@ -3,7 +3,7 @@ layout: post
 title: "Frameworks and libraries are not the problem, people are"
 date: August 02, 2015
 image: framework-problem.jpg
-tags: [opinion, workflow, frameworks, translated]
+tags: [frameworks, opinion, translated, workflow]
 ---
 *This article has been translated to Vietnamese by [Ha Pham](https://mahpahh.com/) on [https://mahpahh.com/](http://mahpahh.com/van-de-nam-o-con-nguoi/).*
 

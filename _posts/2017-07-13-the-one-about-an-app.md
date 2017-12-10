@@ -4,7 +4,7 @@ title: "The one about an app"
 date: Jul 13, 2017
 project: Library app
 image: project-24
-tags: [side-project, javascript]
+tags: [javascript, side-project]
 ---
 It's finally happened. I did a proper Javascript thing. Now before you start to judge me, let me clarify that although I've never written a Javascript post ever, it's not like I don't know how to use it, okay? Sure I started out with jQuery back in 2015, big whoop, almost everybody I know has used jQuery at some point in their careers <span class="emoji" role="img" tabindex="0" aria-label="mad face">&#x1F624;</span>.
 

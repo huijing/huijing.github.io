@@ -37,6 +37,9 @@ gitlab-pages:
 gulp:
   name: Gulp
 
+hardware:
+  name: Hardware
+
 html:
   name: HTML
 
@@ -60,6 +63,9 @@ performance:
 
 podcasts:
   name: Podcasts
+
+retrotech:
+  name: Retro tech
 
 side-project:
   name: Side project

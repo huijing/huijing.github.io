@@ -2,7 +2,7 @@
 layout: post
 title: "The typefaces of Recoleta"
 date: Jun 25, 2017
-tags: [typography, design]
+tags: [design, typography]
 ---
 *I have a soft spot for stone engravings and whenever I get the chance to travel to a location that has some sort of cemetery or burial ground that is open to the public, I will go check it out. This will probably become a series, so here's the first entry.*
 

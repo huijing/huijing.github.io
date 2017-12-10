@@ -3,7 +3,7 @@ layout: post
 title: "Reminiscing the 90s and other random thoughts"
 date: 8 September, 2016
 image: vintage.jpg
-tags: [opinion]
+tags: [hardware, opinion, retrotech]
 ---
 So I'm fresh off the latest iteration of [Hackware](http://www.meetup.com/Hackware/), a monthly meetup for hardware developers and enthusiasts in Singapore and the theme for this round was Vintage Computing. I can't tell you how much I appreciate and love vintage technology, but generally my face goes <span class="emoji" role="img" tabindex="0" aria-label="smiling face with heart-eyes">&#x1F60D;</span> when the topic comes up.
 

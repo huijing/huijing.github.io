@@ -4,7 +4,7 @@ title: "Building for cross-browser compatibility"
 date: April 24, 2017
 project: Wismut Labs
 image: project-16
-tags: [design, typography, client-work]
+tags: [client-work, design, typography]
 external_url: https://www.wismutlabs.com/blog/building-for-cross-browser-compatibility/
 external_site: wismut
 ---

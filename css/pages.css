@@ -657,6 +657,10 @@ span[role=img][aria-label]:hover::after {
   background: url("/images/icons/icon-smashing.svg") no-repeat;
   background-size: cover; }
 
+.alphabettes::before {
+  background: url("/images/icons/icon-alphabettes.svg") no-repeat;
+  background-size: cover; }
+
 .post-title {
   margin-bottom: 0.25rem; }
 

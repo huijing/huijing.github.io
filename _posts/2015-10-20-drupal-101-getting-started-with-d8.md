@@ -5,7 +5,6 @@ date: October 20, 2015
 tags: [drupal8, site-building]
 category: planet-drupal
 ---
-
 For people who may not be entirely familiar with the software development process, understand that it's not like we start off with a fixed pool of issues which gets smaller as issues are resolved. For a relatively large project like Drupal, on-going development will inevitably introduce new issues. But if you take a look at the issue logs, the issues have been steadily trending downward since we started, and RC1 was finally released on October 7.
 
 I first took a peek at Drupal 8 over a year ago when it was at alpha9 just out of curiosity. At that time in my career, I was barely getting the hang of Drupal 7, so I didn't really explore very much beyond clicking around the interface and trying to create some content. With RC1 fresh out of the oven, and looking pretty good to me, I figured it'd be a good time to go through the process of building a Drupal 8 site and documenting the experience. Because, why not?

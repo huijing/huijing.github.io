@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: Getting started with Drupal 8 theming"
 date: August 1, 2017
-tags: [theming, drupal8]
+tags: [drupal8, theming]
 category: planet-drupal
 ---
 Yes, I've finally got around to digging my mitts into Drupal 8, and building custom themes for Drupal 8. I have this bare-bones starter theme called [Clarus](https://www.drupal.org/sandbox/hj_chen/2345293) that I developed back in the day when I was theming Drupal 7 sites willy-nilly. I thought I'd keep it, and develop a Drupal 8 branch rather than start a new project.

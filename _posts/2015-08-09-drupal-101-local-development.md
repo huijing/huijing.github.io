@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: Starting Drupal development"
 date: August 09, 2015
-tags: [workflow, drupal7]
+tags: [drupal7, workflow]
 category: planet-drupal
 ---
 I recently moved from an agency specialising in building Drupal sites to one which is platform-agnostic, and uses all variety of technologies. As my team was not very familiar with Drupal, I started writing some documentation on setting up locally, installing Drush and commonly used modules, and some other stuff so everyone could get up and running quickly. I've modified it to be even more beginner-friendly, for people who've never built websites before. This is sort of opinionated so feel free not to follow along exactly.

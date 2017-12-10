@@ -4,7 +4,7 @@ title: "The one about home"
 date: January 06, 2017
 image: project-14
 project: Penang Hokkien
-tags: [css, side-project, jekyll]
+tags: [css, jekyll, side-project]
 ---
 At the end of 2016, I published a website called [Penang Hokkien 槟城福建话](http://penang-hokkien.gitlab.io). Just a few months prior, I had started playing around with the CSS writing-mode property after having a random thought on my daily bicycle commute to work. That grew into a really long blog post on [Chinese typography on the web]({{ site.url }}/blog/chinese-web-typography/), and an experimental [layout-switching demo](https://www.chenhuijing.com/zh-type/). During that period, I also discovered the [Penang Hokkien Podcast](http://penanghokkien.com/).
 

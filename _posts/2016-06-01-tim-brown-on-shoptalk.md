@@ -2,7 +2,7 @@
 layout: post
 title: "Tim Brown on Shoptalk Ep. 218"
 date: June 1, 2016
-tags: [css, typography, design]
+tags: [css, design, typography]
 ---
 [Episode 218](http://shoptalkshow.com/episodes/218-rapidfire-60/) of [Shoptalk](http://shoptalkshow.com/) featured an audio clip by one of my favourite designers, [Tim Brown](http://tbrown.org/). It's a short clip, but it really resonated with me, and I thought I'd share it with everyone. You should really listen to the podcast in its entirety. In fact, subscribe to it in the pod-catcher of your choice, you have nothing to lose and everything to gain. Anyway, here's the full transcript of what he said.
 

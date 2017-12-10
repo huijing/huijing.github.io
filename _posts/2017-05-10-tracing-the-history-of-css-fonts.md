@@ -3,7 +3,7 @@ layout: post
 title: "Tracing the history of CSS fonts"
 date: May 10, 2017
 image: css-fonts
-tags: [typography, specifications]
+tags: [specifications, typography]
 ---
 I love a good origin story, like the origin of Batman in Detective Comics #33, or Kate Kane (the modern version, introduced in 52, not the 1956 one). It gives us greater insight into the motivations and characteristics of any particular thing, be it a character or a specification. Segue! <span class="emoji" role="img" tabindex="0" aria-label="smiling face with horns">&#x1F608;</span>
 

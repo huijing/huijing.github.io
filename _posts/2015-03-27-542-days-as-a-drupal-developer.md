@@ -3,7 +3,7 @@ layout: post
 title: "542 days as a Drupal developer"
 date: March 27, 2015
 image: day-542.jpg
-tags: [drupal7, podcasts, opinion]
+tags: [drupal7, opinion, podcasts]
 category: planet-drupal
 ---
 I've just listened to the latest episode of the [Modules Unraveled](https://modulesunraveled.com/) podcast by [Bryan Lewis](https://twitter.com/ModsUnraveled), which talked about [The current job market in Drupal](https://modulesunraveled.com/podcast/131-job-market-drupal-mike-anello-modules-unraveled-podcast). And it made me think about my own journey as a Drupal developer, from zero to reasonably competent (I hope). The thing about this industry is that everything seems to move faster and faster. There's a best new tool or framework released every other day. Developers are creating cool things all the time. And I feel like I'm constantly playing catch-up. But looking back to Day 1, I realised that I did make quite a bit of progress since then.

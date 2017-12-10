@@ -3,7 +3,7 @@ layout: post
 title: "Chinese language on the web"
 date: November 7, 2016
 image: zh-type.jpg
-tags: [css, typography, design, i18n]
+tags: [css, design, i18n, typography]
 ---
 If you hadn't realised by now, I am Chinese. I was born in Malaysia, then studied and now work in Singapore. Like many others with similar backgrounds, we speak both English and Chinese with native fluency, plus a smattering of other languages and dialects here and there. 
 
