@@ -49,6 +49,8 @@ Kheng Meng had way more hardware than I did, and did a bit of experimentation be
 - Sound Blaster 16 card
 - VGA Graphics
 
+*Update: Kheng Meng adds that the [Am5x86](https://en.wikichip.org/wiki/amd/am5x86) is AMD's high performance clone of the Intel 80486. Because most people associate 486 chips with Intel but no, my friends, I did not make a typo when I said the chip was an AMD.*
+
 It's quite a high-end machine for its time but we were trying to run relatively modern software on it, so the hunt for smallest Linux distros began. Kheng Meng did some research and found people with success on the 486 using [Gentoo Linux](https://www.gentoo.org/). We also considered [Slackware](http://www.slackware.com/). But turns out our machine couldn't handle either of those.
 
 I remembered installing [Damn Small Linux](http://www.damnsmalllinux.org/) on an old Pentium 2 a number of years ago, but it hadn't been updated in a while. So we looked at [Tiny Core Linux](https://mirrors.dotsrc.org/tinycorelinux/) instead. Kheng Meng had prepped a number of boot discs beforehand, but also brought along his trusty Thinkpad T430, which could multi-boot into Linux Mint, Windows 10, Windows XP and FreeDos (just because).
