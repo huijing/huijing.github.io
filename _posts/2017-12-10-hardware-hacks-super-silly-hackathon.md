@@ -48,8 +48,9 @@ Kheng Meng had way more hardware than I did, and did a bit of experimentation be
 - 171 mb Hard Drive
 - Sound Blaster 16 card
 - VGA Graphics
+- 10Mbps 3Com Etherlink III 3c509B
 
-*Update: Kheng Meng adds that the [Am5x86](https://en.wikichip.org/wiki/amd/am5x86) is AMD's high performance clone of the Intel 80486. Because most people associate 486 chips with Intel but no, my friends, I did not make a typo when I said the chip was an AMD.*
+*Update: Kheng Meng adds that the [Am5x86](https://en.wikichip.org/wiki/amd/am5x86) is AMD's high performance clone of the Intel 80486. Because most people associate 486 chips with Intel but no, my friends, I did not make a typo when I said the chip was an AMD. Also, the machine does not have a PCI bus at all. The network card uses the ISA slot.*
 
 It's quite a high-end machine for its time but we were trying to run relatively modern software on it, so the hunt for smallest Linux distros began. Kheng Meng did some research and found people with success on the 486 using [Gentoo Linux](https://www.gentoo.org/). We also considered [Slackware](http://www.slackware.com/). But turns out our machine couldn't handle either of those.
 
@@ -209,6 +210,10 @@ There were quite a lot of teams, and many with really funny and ridiculous ideas
     <figcaption>And the flailing hands are out</figcaption>
     <img srcset="{{ site.url }}/images/posts/supersilly/presentation-480.jpg 480w, {{ site.url }}/images/posts/supersilly/presentation-640.jpg 640w, {{ site.url }}/images/posts/supersilly/presentation-960.jpg 960w, {{ site.url }}/images/posts/supersilly/presentation-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/supersilly/presentation-640.jpg" alt="Show and tell time" />
 </figure>
+
+*Update: the video of the presentation has been released. This is the most classic example of how Singlish sounds like for everyone who is not from Singapore or Malaysia, and don't know what this glorious language is.*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w-RN0EkxWxA?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 The overall mood of the hackathon was really light and fun, so the crowd response was way more enthusiastic than a typical meetup. It's not a bad thing per se, but a normal meetup audience in Singapore and Malaysia (my anecdotal experience, take with pinches of salt) is quite reserved, with minimal questions or comments. Not tonight though <span class="emoji" role="img" tabindex="0" aria-label="face with stuck-out tongue & closed eyes">&#x1F606;</span>.
 
