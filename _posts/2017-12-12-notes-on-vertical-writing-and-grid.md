@@ -178,4 +178,3 @@ If you were wondering (probably not, but still), I am currently at Mozilla All H
 
 Breakfast time! Until the next one.
 
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
