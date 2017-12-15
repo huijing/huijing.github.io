@@ -3,6 +3,7 @@ layout: post
 title: "Notes on vertical writing and CSS grid"
 date: Dec 11, 2017
 tags: [css]
+hastweet: true
 ---
 When I was [working out the kinks]({{ site.url }}/blog/vertical-typesetting-revisited/) in my year-old vertical typesetting demo, I attempted to use CSS grid as one of the options for handling layout, but didn't get very far, because at that point, my brain had pretty much melted down <span class="emoji" role="img" tabindex="0" aria-label="confused face">&#x1F615;</span>. But I'm on a plane now, surrounded by people who are staring at code, so I felt sort of motivated to do something useful as well.
 
@@ -177,4 +178,3 @@ I kinda like it. So TIL, the issue isn't with writing-mode, it's with the Grid I
 If you were wondering (probably not, but still), I am currently at Mozilla All Hands in Austin, Texas and I'm super excited, but also super jet-lagged, which is why this post is being written at 4am. Does anyone care about this vertical writing mode stuff? I don't know, but I sure do.
 
 Breakfast time! Until the next one.
-
