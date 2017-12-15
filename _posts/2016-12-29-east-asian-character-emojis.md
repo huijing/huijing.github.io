@@ -4,6 +4,7 @@ title: "East Asian character emojis &#x3297;&#xFE0F; &#x1F236;&#xFE0F; &#x1F22F;
 date: December 29, 2016
 tags: [emoji]
 image: emoji.jpg
+hastweet: true
 ---
 I am an unabashed lover of emojis. Just read anything I write, there's almost always at least 1 emoji thrown in there somewhere. I can't help myself, they are just so...apt. Do you know that the [Full Emoji Data](http://unicode.org/emoji/charts/full-emoji-list.html) actually loads super-quick when I visit because I go there so often most of the data is cached my browser already. My state of mind was <span class="emoji" role="img" tabindex="0" aria-label="party popper">&#x1F389;</span> when the <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span> and <span class="emoji" role="img" tabindex="0" aria-label="person facepalming">&#x1F926;&#x200D;&#x2640;&#xFE0F;</span> emojis were released.
 
@@ -158,12 +159,10 @@ So that's 17 East Asian character emojis covered. Plus the short version of the 
 <p class="no-margin">There are lots of people, like the aforementioned Jennifer 8. Lee and Yiying Lu, who love emojis. So here's a shout-out to 2 of my favourite emoji people. First is <a href="http://jeremyburge.com/">Jeremy Burge</a>, Founder and Chief Emoji Officer at <a href="http://emojipedia.org/">Emojipedia</a>.</p>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Not going to lie, it might be the best job too <a href="https://t.co/SHnqyBD9Ee">https://t.co/SHnqyBD9Ee</a></p>&mdash; Jeremy Burge (@jeremyburge) <a href="https://twitter.com/jeremyburge/status/803620892437782528">November 29, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <p class="no-margin">And <a href="https://meowni.ca/">Monica Dinculescu</a>, who builds lots of wonderful emoji-related side projects and created the original emojis as a font that all of us can use if we want to.</p>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">🔥 I recreated the original DoCoMo emoji set and shipped it as a font that you can use! 🎁<a href="https://t.co/Lhq25y3OkT">https://t.co/Lhq25y3OkT</a> <a href="https://t.co/sWCPYP9LO3">pic.twitter.com/sWCPYP9LO3</a></p>&mdash; Monica Dinosaurescu (@notwaldorf) <a href="https://twitter.com/notwaldorf/status/783355711367421952">October 4, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 2016 hasn't been the best of years, to be honest. But let's all hang in there. Here's to the dawn that comes after the darkest of nights <span class="emoji" role="img" tabindex="0" aria-label="wine glass">&#x1F377;</span>.
 

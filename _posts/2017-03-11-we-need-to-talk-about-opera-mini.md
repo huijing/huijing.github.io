@@ -4,6 +4,8 @@ title: "We need to talk about Opera Mini"
 date: Mar 11, 2017
 image: opera-mini
 tags: [css, opinion]
+hastweet: true
+hascaniuse: true
 ---
 Earlier this year, [Jen Simmons](http://jensimmons.com/) asked the following question:
 
@@ -200,6 +202,3 @@ No, what we get to do for a living, is a blessing. And making valuable informati
   <li class="no-margin"><a href="https://dev.opera.com/articles/making-sites-work-opera-mini/">Making websites that work well on Opera Mini</a> by <a href="http://www.brucelawson.co.uk/">Bruce Lawson</a></li>
   <li><a href="https://hacks.mozilla.org/2017/03/doubling-down-on-cross-browser-testing/">Doubling Down on Cross-Browser Testing</a></li>
 </ul>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script async src="//cdn.jsdelivr.net/caniuse-embed/1.0.1/caniuse-embed.min.js"></script>

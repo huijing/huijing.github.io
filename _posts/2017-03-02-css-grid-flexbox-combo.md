@@ -3,6 +3,7 @@ layout: post
 title: "Grid + Flexbox: the best 1-2 punch in web layout"
 date: Mar 2, 2017
 tags: [css, translated]
+hascodepen: true
 ---
 *This article has been translated to French by [Pierre Choffé](https://twitter.com/pierrechoffe) on [La Cascade](https://la-cascade.io/grid-et-flexbox-le-duo-gagnant/).*
 
@@ -188,6 +189,4 @@ The gear body and the 4 compass direction gear teeth were made with a single `di
 ## Wrapping up
 
 I find Grid really awesome, and I'm obviously not the only person who thinks so. [Jen Simmons](http://jensimmons.com/) has compiled a list of really good Grid resources so check out [Learn CSS Grid](http://jensimmons.com/post/feb-27-2017/learn-css-grid) and try building something with Grid. You won't regret it. <span class="emoji" role="img" tabindex="0" aria-label="grinning face with smiling eyes">&#x1F601;</span>
-
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 

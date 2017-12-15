@@ -3,6 +3,7 @@ layout: post
 title: "Building a CSS-only image gallery (with fallbacks)"
 date: Oct 08, 2017
 tags: [css, design, translated]
+hascodepen: true
 ---
 *This article has been translated to Japanese on [SeleQt](https://www.seleqt.net/programming/bulding-a-css-only-image-gallery-with-fallbacks/).*
 
@@ -285,5 +286,3 @@ Integrating someone else's code seamlessly into your own project is an underrate
 As I continue to delve and experiment with various CSS properties, feature queries will remain a key ingredient in my code. I can't force anybody to use feature queries, but I do hope a handful of people who read this or see some of my demos feel curious enough to try them out.
 
 I'm no expert, so I'm constantly tweaking, building and breaking stuff as I attempt to code whatever tickles my fancy at the moment. Did you know someone once said, the only way to get better at CSS is to CSS more (actually no, he was talking about running, but running...CSS...same difference, no? <span class="emoji" role="img" tabindex="0" aria-label="face with stuck-out tongue">&#x1F61B;</span>) Till the next one!
-
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

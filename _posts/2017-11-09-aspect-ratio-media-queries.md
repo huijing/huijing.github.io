@@ -3,6 +3,8 @@ layout: post
 title: "Practical uses for the aspect-ratio media query"
 date: Nov 9, 2017
 tags: [css, design]
+hascaniuse: true
+hascodepen: true
 ---
 Back in 2016, during my first ever conference talk (albeit a sort of lightning talk) at [CSSConf.Asia 2016](https://2016.cssconf.asia/), I said that “I just like to CSS.” I wasn't lying, CSS is really my hobby. And for most of 2017, I've been ‘collecting’ interesting layouts I come across and trying to build them on the web.
 
@@ -80,7 +82,5 @@ Or not.
 
 Whatever.
 
-You do you, my lovelies <span class="emoji" role="img" tabindex="0" aria-label="cocktail glass">&#x1F378;</span>. 
+You do you, my lovelies <span class="emoji" role="img" tabindex="0" aria-label="cocktail glass">&#x1F378;</span>.
 
-<script async src="//cdn.jsdelivr.net/caniuse-embed/1.0.1/caniuse-embed.min.js"></script>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>

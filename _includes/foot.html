@@ -4,6 +4,14 @@
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {% endif %}
 
+{% if page.is_post and page.hascaniuse %}
+<script async src="//cdn.jsdelivr.net/caniuse-embed/1.0.1/caniuse-embed.min.js"></script>
+{% endif %}
+
+{% if page.is_post and page.hascodepen %}
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+{% endif %}
+
 </body>
 
 </html>

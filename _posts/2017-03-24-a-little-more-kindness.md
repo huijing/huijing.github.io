@@ -4,6 +4,7 @@ title: "Be kinder to each other"
 date: Mar 24, 2017
 image: kindness
 tags: [opinion]
+hastweet: true
 ---
 The month of March has seen a mini-burst of hype around CSS grid, with Mozilla kicking things off by releasing Firefox 52, closely followed by Google with Chrome 57. Even Safari has gotten in on the grid game, which is scheduled to ship in the upcoming 10.1. Microsoft has the *Update CSS Grid* task marked as *On the backlog*.
 
@@ -38,7 +39,5 @@ Microsoft is a big corporation and I'm sure everyone has their own perception an
 I can't speak for the Edge team because I don't personally know any of them. But what I do know is that they too are developers like you and I. They too are somebody's son or daughter, friend or lover, and they definitely have feelings. Before we project our own frustrations onto others, we have to understand that we are seeing things from our perspective but not theirs.
 
 Yes, it is important to provide feedback, but we can choose how we want to word that feedback. At the very least, be respectful and be kind. Imagine how you would feel if that nasty comment was directed to yourself. Then also think about how you would feel if somebody said something nice to you. These little things matter more than you think.
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <em><small>Credits: OG:image by <a href="http://chibird.com/post/115989272724/i-try-to-live-by-this-as-much-as-possible-u-i">Chibird</a></small></em>

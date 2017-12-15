@@ -5,6 +5,7 @@ date: Dec 01, 2017
 tags: [css, design]
 external_url: https://24ways.org/2017/cascading-web-design/
 external_site: 24ways
+hascaniuse: true
 ---
 Feature queries, AKA the `@supports` rule, were introduced as an extension to the CSS2 as part of the CSS Conditional Rules Module Level 3, which was first published as a [working draft in 2011](https://www.w3.org/TR/2011/WD-css3-conditional-20110901/). It is a conditional group rule that tests if the browser's user agent supports CSS `property:value` pairs, and arbitrary conjunctions (`and`), disjunctions (`or`), and negations (`not`) of them.
 
@@ -151,5 +152,3 @@ In the following example, the layout on the left is what IE11 users will see, th
 With the release of CSS grid this year, we've hit another milestone in the evolution of the web as a medium. The beauty of the web is its backwards compatibility and generous fault tolerance. Browser features are largely additive, holding onto the good parts and building on top of them, while deprecating the bits that didn't work well.
 
 Feature queries allow us to progressively enhance our CSS, establishing a basic level of user experience across the widest range of browsers, while building in more advanced functionality for browsers who can use them. And hopefully, this will allow more of us to create designs that truly embrace the nature of the web.
-
-<script async src="//cdn.jsdelivr.net/caniuse-embed/1.0.1/caniuse-embed.min.js"></script>

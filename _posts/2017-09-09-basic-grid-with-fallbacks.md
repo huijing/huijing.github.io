@@ -3,6 +3,8 @@ layout: post
 title: "Basic grid layout with fallbacks using feature queries"
 date: Sep 9, 2017
 tags: [css, design, translated]
+hastweet: true
+hascaniuse: true
 ---
 *This article has been translated to Japanese on [SeleQt](https://www.seleqt.net/programming/basic-grid-layout-with-fallbacks-using-feature-queries/).*
 
@@ -543,6 +545,3 @@ Until the next one! <span class="emoji" role="img" tabindex="0" aria-label="hugg
   <li class="no-margin"><a href="http://igalia.github.io/css-grid-layout/">CSS Grid Layout Examples</a></li>
   <li><a href="https://codepen.io/collection/XRRJGq/">CSS Grid Layout CodePen collection</a></li>
 </ul>
-
-<script async src="//cdn.jsdelivr.net/caniuse-embed/1.0.1/caniuse-embed.min.js"></script>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
