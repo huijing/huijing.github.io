@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remember December: The typefaces of Tikhvin Cemetery"
-date: Dec 27, 2017
+date: Dec 17, 2017
 tags: [design, typography]
 external_site: alphabettes
 external_url: http://www.alphabettes.org/remember-december-the-typefaces-of-tikhvin-cemetery/
