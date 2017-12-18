@@ -175,6 +175,6 @@ I kinda like it. So TIL, the issue isn't with writing-mode, it's with the Grid I
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">YES! I wish I were there with you. Tomorrow. :D <br><br>We *have* to sit around and hack on demos this week. :D <br><br>Also, our Grid Inspector doesn’t properly work w/ non-horizontal LTR writing modes yet, but the team is on it. We should track down the engineers working on it this week.</p>&mdash; Jen Simmons (@jensimmons) <a href="https://twitter.com/jensimmons/status/940455924111630336?ref_src=twsrc%5Etfw">12 December 2017</a></blockquote>
 
-If you were wondering (probably not, but still), I am currently at Mozilla All Hands in Austin, Texas and I'm super excited, but also super jet-lagged, which is why this post is being written at 4am. Does anyone care about this vertical writing mode stuff? I don't know, but I sure do.
+If you were wondering (probably not, but still), I am currently at Mozilla All Hands in Austin, Texas and I'm super excited, but also super jet-lagged, which is why this post is being completed at 4am. Does anyone care about this vertical writing mode stuff? I don't know, but I sure do.
 
 Breakfast time! Until the next one.
