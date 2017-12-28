@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building a webic community"
-date: Dec 31, 2017
+date: Dec 28, 2017
 tags: [css, design, opinion]
 hastweet: true
 ---
