@@ -156,7 +156,7 @@
   released: true
 
 - title: "When East meets West"
-  id: cssconf-2018
+  id: jsconf-2018
   event: JSConf.Asia 2018
   website: https://2018.jsconf.asia/
   type: conference
