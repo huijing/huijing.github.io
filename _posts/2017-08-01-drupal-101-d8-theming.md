@@ -51,7 +51,7 @@ For the purposes of theming, this should always be set to <em>theme</em>.</p>
 Optional but recommended to have. This is a brief description of your theme, which shows up below your theme name on the <em>Administration > Appearance</em> screen.</p>
 <pre><code class="language-yaml">description: 'A custom responsive Godzilla-based theme'</code></pre>
 
-<img srcset="{{ site.url }}/images/posts/d8-theming/info-480.jpg 480w, {{ site.url }}/images/posts/d8-theming/info-640.jpg 640w, {{ site.url }}/images/posts/d8-theming/info-960.jpg 960w, {{ site.url }}/images/posts/d8-theming/info-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/d8-theming/info-640.jpg" alt="Theme selection" />
+<img srcset="{{ site.url }}/assets/images/posts/d8-theming/info-480.jpg 480w, {{ site.url }}/assets/images/posts/d8-theming/info-640.jpg 640w, {{ site.url }}/assets/images/posts/d8-theming/info-960.jpg 960w, {{ site.url }}/assets/images/posts/d8-theming/info-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/d8-theming/info-640.jpg" alt="Theme selection" />
 
 <p class="no-margin"><strong>core</strong> <em>(required)</em><br>
 Indicates what major version of Drupal the theme is compatible with. If this does not match the version of Drupal installed, the theme will be disabled.</p>
@@ -148,8 +148,8 @@ services:
 
 This has activated twig debug mode, which means that if you check DevTools, there will be a bunch of comments that tell you which template is loaded as well as the file name suggestions you can use. This is pretty helpful for when you realise you need to add or change classes during the course of developing your theme.
 
-<img srcset="{{ site.url }}/images/posts/d8-theming/twigdebug-480.jpg 480w, {{ site.url }}/images/posts/d8-theming/twigdebug-640.jpg 640w, {{ site.url }}/images/posts/d8-theming/twigdebug-960.jpg 960w, {{ site.url }}/images/posts/d8-theming/twigdebug-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/d8-theming/twigdebug-640.jpg" alt="Theme selection" />
+<img srcset="{{ site.url }}/assets/images/posts/d8-theming/twigdebug-480.jpg 480w, {{ site.url }}/assets/images/posts/d8-theming/twigdebug-640.jpg 640w, {{ site.url }}/assets/images/posts/d8-theming/twigdebug-960.jpg 960w, {{ site.url }}/assets/images/posts/d8-theming/twigdebug-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/d8-theming/twigdebug-640.jpg" alt="Theme selection" />
 
 ## Now you can start CSS-ing
 
-Like I mentioned before, those of you who write plain vanilla CSS are free to start theming away. If you happen to use a workflow that involves Sass and gulp, I cover that bit on my updated [theming Drupal with gulp post]({{ site.url }}/blog/drupal-101-theming-with-gulp-again/). Oh, and don't forget to take a screenshot of your theme, name it `screenshot.png` and place it in the root of your theme folder. Just makes things look nicer. Happy Drupal-ing!
+Like I mentioned before, those of you who write plain vanilla CSS are free to start theming away. If you happen to use a workflow that involves Sass and gulp, I cover that bit on my updated [theming Drupal with gulp post]({{ site.url }}/assets/blog/drupal-101-theming-with-gulp-again/). Oh, and don't forget to take a screenshot of your theme, name it `screenshot.png` and place it in the root of your theme folder. Just makes things look nicer. Happy Drupal-ing!

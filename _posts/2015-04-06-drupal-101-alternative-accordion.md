@@ -24,17 +24,17 @@ There are a number of Drupal modules that help implement accordions (just google
     <pre><code class="language-bash">drush en field_collection entity -y</code></pre>
 3. Go to <code class="language-bash">admin/structure/types/add</code> and create a new content type, called Accordion.
 4. Add a new field of type *Field collection* and set *Widget* to *Embedded*.You should also remove the default *Body* field as it won't be used. 
-    <img src="{{ site.url }}/images/posts/accordion/content-type.jpg" alt="Create content type"/>
+    <img src="{{ site.url }}/assets/images/posts/accordion/content-type.jpg" alt="Create content type"/>
 5. Set *Number of values* to *Unlimited*, because you want to be able to create as many accordion sections as you need.
-    <img src="{{ site.url }}/images/posts/accordion/accordion-settings.jpg" alt="Accordion field settings"/>
+    <img src="{{ site.url }}/assets/images/posts/accordion/accordion-settings.jpg" alt="Accordion field settings"/>
 6. Go to <code class="language-bash">admin/structure/field-collections</code> and you should see your newly created field.
-    <img src="{{ site.url }}/images/posts/accordion/field-collection.jpg" alt="Create field collection field"/>
+    <img src="{{ site.url }}/assets/images/posts/accordion/field-collection.jpg" alt="Create field collection field"/>
 7. Click on *manage fields* and add the fields you require. I only needed a title and body field.
-    <img src="{{ site.url }}/images/posts/accordion/accordion-fields.jpg" alt="Create accordion fields"/>
+    <img src="{{ site.url }}/assets/images/posts/accordion/accordion-fields.jpg" alt="Create accordion fields"/>
 8. Click on *Manage display* and hide the labels for both fields. You probably should do the same for the *Accordion* content type.
-    <img src="{{ site.url }}/images/posts/accordion/accordion-display.jpg" alt="Hide labels"/>
+    <img src="{{ site.url }}/assets/images/posts/accordion/accordion-display.jpg" alt="Hide labels"/>
 9. *Optional steps: To setup display for the new content type*
-    You can choose to use the default Drupal markup to write your accordion. But I find it neater to tweak the markup via Display Suite first. You don't have to do this if you don't want to. Instructions [here]({{ site.url }}/blog/drupal-101-display-suite-field-settings/).
+    You can choose to use the default Drupal markup to write your accordion. But I find it neater to tweak the markup via Display Suite first. You don't have to do this if you don't want to. Instructions [here]({{ site.url }}/assets/blog/drupal-101-display-suite-field-settings/).
 
 ## Writing the accordion functionality
 
@@ -89,18 +89,18 @@ The field collection module comes with some default styles that you may wish to 
 My preferred method requires a module called [Magic](https://www.drupal.org/project/magic). It's one of my favourite modules. You'll see why once you visit the project page. Magic provides a simple way to remove exclude stylesheets from core and contrib modules. You can also use the hook_css_alter() function to exclude stylesheets, but unless you need to exclude stylesheets from libraries, Magic works brilliantly. 
 
 Even when making changes to only one or two selectors, I still prefer to exclude the original stylesheet, then copy the required styles into my theme. I have a thing against repeating selectors to override them. Anyway, style your accordion any way you like. I chose to add an <code class="language-markup">active</code> class to the active accordion item for easier styling.
-<img src="{{ site.url }}/images/posts/accordion/styles.jpg" alt="Styling accordion"/>
+<img src="{{ site.url }}/assets/images/posts/accordion/styles.jpg" alt="Styling accordion"/>
 
 ## Using the accordion with panels
 
 *I'm assuming a level of familiarity with using Panels to display content.*
 
 1. Navigate to the *Content* section of your panel, and click the gear icon on the top left corner to add content.
-    <img src="{{ site.url }}/images/posts/accordion/panel-content.jpg" alt="Add panel content"/>
+    <img src="{{ site.url }}/assets/images/posts/accordion/panel-content.jpg" alt="Add panel content"/>
 2. Click on *Existing node* and enter the NID of the required accordion. Set *Build mode* to *Full content*, unless you have a specific view mode for how the accordion should be displayed.
-    <img src="{{ site.url }}/images/posts/accordion/configure-node.jpg" alt="Configure node"/>
+    <img src="{{ site.url }}/assets/images/posts/accordion/configure-node.jpg" alt="Configure node"/>
 3. You should see the title of your node in the layout. Remember to click *Update and save*.
-    <img src="{{ site.url }}/images/posts/accordion/panel-layout.jpg" alt="Panel layout"/>
+    <img src="{{ site.url }}/assets/images/posts/accordion/panel-layout.jpg" alt="Panel layout"/>
 
 ## Wrapping things up
 

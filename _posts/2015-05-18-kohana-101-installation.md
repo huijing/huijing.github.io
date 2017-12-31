@@ -22,7 +22,7 @@ cd kohana/</code></pre>
 
 <p class="no-margin">To see all the branches, run the following:</p>
 <pre><code class="language-bash">git branch -a</code></pre>
-<img src="{{ site.url }}/images/posts/kohana-install/installation-3.jpg" alt="Git branch list"/>
+<img src="{{ site.url }}/assets/images/posts/kohana-install/installation-3.jpg" alt="Git branch list"/>
 
 <p class="no-margin">For example, if you need v3.0, run:</p>
 <pre><code class="language-bash">git checkout 3.0/master</code></pre>
@@ -55,13 +55,13 @@ Kohana::modules(array(
     ));</code></pre>
 
 If you navigate to the site root from your browser, you should see this:
-<img src="{{ site.url }}/images/posts/kohana-install/installation.jpg" alt="Environment ready"/>
+<img src="{{ site.url }}/assets/images/posts/kohana-install/installation.jpg" alt="Environment ready"/>
 
 <p class="no-margin">You need to adjust the permissions on the <code class="language-bash">cache</code> and <code class="language-bash">logs</code> folders. From your terminal, navigate to the <code class="language-bash">application</code> folder and run the following:</p>
 <pre><code class="language-bash">sudo chmod 777 cache/ logs/</code></pre>
 
 Refresh the page and you should now see:
-<img src="{{ site.url }}/images/posts/kohana-install/installation-2.jpg" alt="Initial screen"/>
+<img src="{{ site.url }}/assets/images/posts/kohana-install/installation-2.jpg" alt="Initial screen"/>
 
 <p class="no-margin">Delete the <code class="language-bash">install.php</code> file from the root folder via your favourite method. I just use:</p>
 <pre><code class="language-bash">rm install.php</code></pre>

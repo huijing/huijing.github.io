@@ -8,7 +8,7 @@ After more than a year with Jekyll, I've settled into a workflow that allows me 
 
 As an aside, I couldn't help but think of Snap, Crackle and Pop when writing the title for this post. 
 
-<img srcset="{{ site.url }}/images/posts/github-jekyll/scp-480.jpg 480w, {{ site.url }}/images/posts/github-jekyll/scp-640.jpg 640w, {{ site.url }}/images/posts/github-jekyll/scp-960.jpg 960w, {{ site.url }}/images/posts/github-jekyll/scp-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/github-jekyll/scp-640.jpg" alt="Snap, Crackle, Pop" />
+<img srcset="{{ site.url }}/assets/images/posts/github-jekyll/scp-480.jpg 480w, {{ site.url }}/assets/images/posts/github-jekyll/scp-640.jpg 640w, {{ site.url }}/assets/images/posts/github-jekyll/scp-960.jpg 960w, {{ site.url }}/assets/images/posts/github-jekyll/scp-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/github-jekyll/scp-640.jpg" alt="Snap, Crackle, Pop" />
 
 Snap, Crackle, Pop. 
 
@@ -33,7 +33,7 @@ git push -u origin master</code></pre>
 5. Navigate to *http://singaporecss.github.io* and check the page. Whatever was put in the `index.html` file should load up in the browser.
     <figure>
         <figcaption>Something like this.</figcaption>
-        <img src="{{ site.url }}/images/posts/talk-css/initial-commit.jpg" srcset="{{ site.url }}/images/posts/talk-css/initial-commit@2x.jpg 2x" alt="Test index.html file"/>
+        <img src="{{ site.url }}/assets/images/posts/talk-css/initial-commit.jpg" srcset="{{ site.url }}/assets/images/posts/talk-css/initial-commit@2x.jpg 2x" alt="Test index.html file"/>
     </figure>
 
 Now that things are linked up correctly, it's time to get building. The test `index.html` can be nuked now.

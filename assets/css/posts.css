@@ -256,7 +256,7 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: url("/images/bg-body.jpg");
+  background: url("/assets/images/bg-body.jpg");
   min-width: calc(320em / 18); }
 
 main {
@@ -351,7 +351,7 @@ code {
   font-size: 85%; }
 
 blockquote {
-  background: url("/images/bg-quotes.jpg");
+  background: url("/assets/images/bg-quotes.jpg");
   border-left: 0.5em solid #4c83e1;
   padding: 1em;
   margin-bottom: 1em;
@@ -478,7 +478,7 @@ span[role=img][aria-label]:hover::after {
   color: #858a8d; }
 
 .site-header {
-  background: url("/images/bg-header.jpg"); }
+  background: url("/assets/images/bg-header.jpg"); }
 
 .site-header__wrapper {
   float: none;
@@ -515,7 +515,7 @@ span[role=img][aria-label]:hover::after {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  background: url("/images/retropc-static.png");
+  background: url("/assets/images/retropc-static.png");
   background-size: cover;
   display: block;
   height: 90px;
@@ -526,12 +526,12 @@ span[role=img][aria-label]:hover::after {
       height: 120px;
       width: 120px; } }
   .site-branding__image::before {
-    content: url("/images/retropc-dynamic.gif");
+    content: url("/assets/images/retropc-dynamic.gif");
     height: 0;
     visibility: hidden;
     width: 0; }
   .site-branding__image:hover {
-    background: url("/images/retropc-dynamic.gif");
+    background: url("/assets/images/retropc-dynamic.gif");
     background-size: cover; }
 
 .site-branding {
@@ -587,10 +587,10 @@ span[role=img][aria-label]:hover::after {
     color: #91d78c; }
 
 .site-footer__wrapper--main {
-  background: url("/images/bg-footer-2.jpg"); }
+  background: url("/assets/images/bg-footer-2.jpg"); }
 
 .site-footer__wrapper--secondary {
-  background: url("/images/bg-footer.jpg"); }
+  background: url("/assets/images/bg-footer.jpg"); }
 
 .footer-main {
   float: none;
@@ -771,8 +771,8 @@ figure {
           shape-image-threshold: 0.5;
   -webkit-shape-margin: 1em;
           shape-margin: 1em;
-  -webkit-shape-outside: url("/images/posts/css-shapes/beyonce.png");
-          shape-outside: url("/images/posts/css-shapes/beyonce.png");
+  -webkit-shape-outside: url("/assets/images/posts/css-shapes/beyonce.png");
+          shape-outside: url("/assets/images/posts/css-shapes/beyonce.png");
   width: 50%; }
   @media all and (min-width: 35.9375em) {
     .shape {
@@ -831,7 +831,7 @@ figure {
   height: 421px !important; }
 
 .note {
-  background: url("/images/bg-note.jpg");
+  background: url("/assets/images/bg-note.jpg");
   padding: 0.5em 1em;
   font-size: 85%;
   border-left: 0.5em solid #d2cb94; }

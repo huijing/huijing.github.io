@@ -11,7 +11,7 @@ My first assignment as a web developer was to style the theme for the [Temple Un
 
 My team’s solution to this sticky situation was to clone the HTML of the original site using wGet and use that to rebuild the whole site from scratch using Drupal. My job was to make this replacement site look like the original.
 
-<img src="{{ site.url }}/images/posts/temple/temple.jpg" alt="Temple.sg homepage"/>
+<img src="{{ site.url }}/assets/images/posts/temple/temple.jpg" alt="Temple.sg homepage"/>
 
 An experienced front-end developer could probably do this in an hour, with one hand tied behind his back. I, on the other hand, was anything but experienced. In fact, I was probably closer to the moon than to being experienced. The matter of the fact was I had a sketchy concept of HTML and no idea what CSS was before I got this job. 
 
@@ -23,10 +23,10 @@ A ninja-level friend of mine recommended [Bento](http://www.bentobox.io), which 
 
 I also managed to get my hands on a copy of [John Duckett’s HTML & CSS](http://www.htmlandcssbook.com/), and promptly devoured that too. This may sound like overkill to some of you, but I was not the kind of genius who got things a first glance. Constant reinforcement is the key, for me at least. At the end of all that, I got myself a pretty solid understanding of the basics of HTML and CSS.
 
-The trickiest part of this project for me at the time was styling the pager for the homepage carousel. [Here's]({{ site.url }}/blog/drupal-101-simple-image-carousel/) how I did it.
+The trickiest part of this project for me at the time was styling the pager for the homepage carousel. [Here's]({{ site.url }}/assets/blog/drupal-101-simple-image-carousel/) how I did it.
 <figure>
 <figcaption>This definitely did not come out of the box.</figcaption>
-<img src="{{ site.url }}/images/posts/temple/temple-pager.jpg" alt="Temple.sg carousel pager"/>
+<img src="{{ site.url }}/assets/images/posts/temple/temple-pager.jpg" alt="Temple.sg carousel pager"/>
 </figure>
 
 Working with the original live website as a visual guide, I tweaked the clone's CSS bit by bit and managed to get the job done within a week. The website launched as planned, with me breathing a huge sigh of relief. I got through my first project and nothing exploded! 

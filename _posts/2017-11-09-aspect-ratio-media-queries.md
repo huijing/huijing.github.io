@@ -16,9 +16,9 @@ When I see an interesting layout (usually on print), my mind immediately starts 
 
 Designing layouts on the web requires interpolative thinking, on multiple levels. Web layouts can and most probably should morph as the viewport size changes. Our job is to make sure the layout is most effective in the space it has to perform in.
 
-While preparing the talks for my [Southeast Asia CSS roadtrip]({{ site.url }}/blog/talking-about-talking-css/), I built a number of layout demos. One of my favourites is based off the following design from [The Yellow Issue](http://kiyoshi.de/the-yellow-issue) by [Kiyoshi Stelzner](http://kiyoshi.de/):
+While preparing the talks for my [Southeast Asia CSS roadtrip]({{ site.url }}/assets/blog/talking-about-talking-css/), I built a number of layout demos. One of my favourites is based off the following design from [The Yellow Issue](http://kiyoshi.de/the-yellow-issue) by [Kiyoshi Stelzner](http://kiyoshi.de/):
 
-<img srcset="{{ site.url }}/images/posts/aspect-ratio/yellow-480.jpg 480w, {{ site.url }}/images/posts/aspect-ratio/yellow-640.jpg 640w, {{ site.url }}/images/posts/aspect-ratio/yellow-960.jpg 960w, {{ site.url }}/images/posts/aspect-ratio/yellow-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/aspect-ratio/yellow-640.jpg" alt="The Yellow Issue" />
+<img srcset="{{ site.url }}/assets/images/posts/aspect-ratio/yellow-480.jpg 480w, {{ site.url }}/assets/images/posts/aspect-ratio/yellow-640.jpg 640w, {{ site.url }}/assets/images/posts/aspect-ratio/yellow-960.jpg 960w, {{ site.url }}/assets/images/posts/aspect-ratio/yellow-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/aspect-ratio/yellow-640.jpg" alt="The Yellow Issue" />
 
 This layout works nicely in a landscape orientation on the web, but as the viewport narrowed, things started to break down. But that's what media queries were for, right? But instead of regular old width-based media queries, I tried the aspect-ratio media query instead. Because I was sizing my grid with flexible units, relative proportions were important.
 
@@ -26,7 +26,7 @@ This particular layout involving overlap, vertical white-space and transforms wo
 
 <p data-height="441" data-theme-id="9162" data-slug-hash="PKOeQV" data-default-tab="result" data-user="huijing" data-embed-version="2" data-pen-title="Grid layout with overlaps" class="codepen">See the Pen <a href="https://codepen.io/huijing/pen/PKOeQV/">Grid layout with overlaps</a> by Chen Hui Jing (<a href="https://codepen.io/huijing">@huijing</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
-The demo is more fun in a standalone window, so this is [the self-hosted version]({{ site.url }}/demos/grids-overlap-2/).
+The demo is more fun in a standalone window, so this is [the self-hosted version]({{ site.url }}/assets/demos/grids-overlap-2/).
 
 Viewport units can be challenging to use because everything is relative to the viewport, not particular containers within the layout, so scaling can be tricky sometimes. It's a flexible unit, and would work well with the aspect-ratio media query for situations where we want to keep proportions.
 
@@ -38,14 +38,14 @@ But Dieter Rams is legit German, and his work at Braun is pretty iconic, IMHO. S
 
 <figure>
     <figcaption>Braun HiFi studio Anlagen regie 501 poster</figcaption>
-    <img srcset="{{ site.url }}/images/posts/aspect-ratio/anlagen-480.jpg 480w, {{ site.url }}/images/posts/aspect-ratio/anlagen-640.jpg 640w, {{ site.url }}/images/posts/aspect-ratio/anlagen-960.jpg 960w, {{ site.url }}/images/posts/aspect-ratio/anlagen-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/aspect-ratio/anlagen-640.jpg" alt="Braun HiFi studio Anlagen" />
+    <img srcset="{{ site.url }}/assets/images/posts/aspect-ratio/anlagen-480.jpg 480w, {{ site.url }}/assets/images/posts/aspect-ratio/anlagen-640.jpg 640w, {{ site.url }}/assets/images/posts/aspect-ratio/anlagen-960.jpg 960w, {{ site.url }}/assets/images/posts/aspect-ratio/anlagen-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/aspect-ratio/anlagen-640.jpg" alt="Braun HiFi studio Anlagen" />
 </figure>
 
 <p data-height="464" data-theme-id="9162" data-slug-hash="xPEjWb" data-default-tab="css,result" data-user="huijing" data-embed-version="2" data-pen-title="Braun HiFi studio Anlagen" class="codepen">See the Pen <a href="https://codepen.io/huijing/pen/xPEjWb/">Braun HiFi studio Anlagen</a> by Chen Hui Jing (<a href="https://codepen.io/huijing">@huijing</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 <figure>
     <figcaption>Braun HiFi Steuergerät audio 300 poster</figcaption>
-    <img srcset="{{ site.url }}/images/posts/aspect-ratio/steuergerät-480.jpg 480w, {{ site.url }}/images/posts/aspect-ratio/steuergerät-640.jpg 640w, {{ site.url }}/images/posts/aspect-ratio/steuergerät-960.jpg 960w, {{ site.url }}/images/posts/aspect-ratio/steuergerät-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/aspect-ratio/steuergerät-640.jpg" alt="Braun HiFi Steuergerät audio 300" />
+    <img srcset="{{ site.url }}/assets/images/posts/aspect-ratio/steuergerät-480.jpg 480w, {{ site.url }}/assets/images/posts/aspect-ratio/steuergerät-640.jpg 640w, {{ site.url }}/assets/images/posts/aspect-ratio/steuergerät-960.jpg 960w, {{ site.url }}/assets/images/posts/aspect-ratio/steuergerät-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/aspect-ratio/steuergerät-640.jpg" alt="Braun HiFi Steuergerät audio 300" />
 </figure>
 
 <p data-height="451" data-theme-id="9162" data-slug-hash="zPoGXw" data-default-tab="css,result" data-user="huijing" data-embed-version="2" data-pen-title="Braun HiFi Steuergerät audio 300" class="codepen">See the Pen <a href="https://codepen.io/huijing/pen/zPoGXw/">Braun HiFi Steuergerät audio 300</a> by Chen Hui Jing (<a href="https://codepen.io/huijing">@huijing</a>) on <a href="https://codepen.io">CodePen</a>.</p>
@@ -70,7 +70,7 @@ With `object-fit`, I could make the images fill up the entire grid area they wer
 
 This is my latest quotable CSS quote. I've come to the conclusion that CSS is ultimately a holistic technology, in that, even though you can use properties in isolation, the full power of CSS shines through when used in combination.
 
-<img srcset="{{ site.url }}/images/posts/aspect-ratio/team-layout-480.png 480w, {{ site.url }}/images/posts/aspect-ratio/team-layout-640.png 640w, {{ site.url }}/images/posts/aspect-ratio/team-layout-960.png 960w, {{ site.url }}/images/posts/aspect-ratio/team-layout-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/aspect-ratio/team-layout-640.png" alt="Team Layout" />
+<img srcset="{{ site.url }}/assets/images/posts/aspect-ratio/team-layout-480.png 480w, {{ site.url }}/assets/images/posts/aspect-ratio/team-layout-640.png 640w, {{ site.url }}/assets/images/posts/aspect-ratio/team-layout-960.png 960w, {{ site.url }}/assets/images/posts/aspect-ratio/team-layout-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/aspect-ratio/team-layout-640.png" alt="Team Layout" />
 
 Sure, doing layout on the web usually starts off with using the `display` property. But we definitely use a whole suite of properties that number more than players on a basketball team. I call the above, Team Layout, and it isn't even an exhaustive list of layout-related properties.
 

@@ -18,7 +18,7 @@ Similar to GitHub Pages, GitLab Pages also allows you to have a single user site
 
 2. Create a `.gitlab-ci.yml` file. This file controls the build process for your site. Every push to the Git repository will trigger the runner and you can check its progress on the `/pipelines` page of your project.
 
-    <img srcset="{{ site.url }}/images/posts/gitlab-pages/pipeline-480.png 480w, {{ site.url }}/images/posts/gitlab-pages/pipeline-640.png 640w, {{ site.url }}/images/posts/gitlab-pages/pipeline-960.png 960w, {{ site.url }}/images/posts/gitlab-pages/pipeline-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/gitlab-pages/pipeline-640.png" alt="Pipeline option on toolbar" />
+    <img srcset="{{ site.url }}/assets/images/posts/gitlab-pages/pipeline-480.png 480w, {{ site.url }}/assets/images/posts/gitlab-pages/pipeline-640.png 640w, {{ site.url }}/assets/images/posts/gitlab-pages/pipeline-960.png 960w, {{ site.url }}/assets/images/posts/gitlab-pages/pipeline-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/gitlab-pages/pipeline-640.png" alt="Pipeline option on toolbar" />
 
     *Note: I wish I had found this page when I was setting up, but I somehow missed it. So I'm highlighting it to you now. Refer to [Build Jekyll with Bundler](https://gitlab.com/jekyll-themes/default-bundler) if you're using Jekyll as your static site generator.*
 

@@ -40,7 +40,7 @@ Granted, there is still a significant number of organisations that require suppo
 Jen Simmons wrote an extensive article called [Using Feature Queries in CSS](https://hacks.mozilla.org/2016/08/using-feature-queries-in-css/) which discussed a matrix of potential situations when it comes to the usage of feature queries. The following image is a summary of the aforementioned matrix.
 
 <figure>
-    <img src="{{ site.url }}/images/posts/opera-mini/matrix.png" srcset="{{ site.url }}/images/posts/opera-mini/matrix@2x.png 2x" alt="Matrix of @supports"/>
+    <img src="{{ site.url }}/assets/images/posts/opera-mini/matrix.png" srcset="{{ site.url }}/assets/images/posts/opera-mini/matrix@2x.png 2x" alt="Matrix of @supports"/>
     <figcaption>Uni-kitty &copy; Jen Simmons</figcaption>
 </figure>
 
@@ -133,11 +133,11 @@ With the maturation of web standards, browser behaviour is less unpredictable th
 
 The following example is a basic, responsive grid layout of items laid out with flexbox, as viewed on IE11.
 
-<img srcset="{{ site.url }}/images/posts/feature-queries/basic-layout-480.jpg 480w, {{ site.url }}/images/posts/feature-queries/basic-layout-640.jpg 640w, {{ site.url }}/images/posts/feature-queries/basic-layout-960.jpg 960w, {{ site.url }}/images/posts/feature-queries/basic-layout-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/feature-queries/basic-layout-640.jpg" alt="Fallback grid layout" />
+<img srcset="{{ site.url }}/assets/images/posts/feature-queries/basic-layout-480.jpg 480w, {{ site.url }}/assets/images/posts/feature-queries/basic-layout-640.jpg 640w, {{ site.url }}/assets/images/posts/feature-queries/basic-layout-960.jpg 960w, {{ site.url }}/assets/images/posts/feature-queries/basic-layout-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/feature-queries/basic-layout-640.jpg" alt="Fallback grid layout" />
 
 We can add a block of styles within an `@supports` rule to apply CSS grid properties for browsers that support them to enhance this layout, like so:
 
-<img srcset="{{ site.url }}/images/posts/feature-queries/enhanced-layout-480.jpg 480w, {{ site.url }}/images/posts/feature-queries/enhanced-layout-640.jpg 640w, {{ site.url }}/images/posts/feature-queries/enhanced-layout-960.jpg 960w, {{ site.url }}/images/posts/feature-queries/enhanced-layout-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/feature-queries/enhanced-layout-640.jpg" alt="Enhanced grid layout" />
+<img srcset="{{ site.url }}/assets/images/posts/feature-queries/enhanced-layout-480.jpg 480w, {{ site.url }}/assets/images/posts/feature-queries/enhanced-layout-640.jpg 640w, {{ site.url }}/assets/images/posts/feature-queries/enhanced-layout-960.jpg 960w, {{ site.url }}/assets/images/posts/feature-queries/enhanced-layout-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/feature-queries/enhanced-layout-640.jpg" alt="Enhanced grid layout" />
 
 The web is not a static medium. It is dynamic and interactive and we manipulate this medium by writing code to tell the browser what we want it to do. Rather than micromanaging the pixels in our designs, maybe it's time we cede control of our designs to the browsers that render them. This means being okay with your designs looking different across browsers and devices.
 
@@ -147,7 +147,7 @@ Such an approach requires interpolative thinking, on multiple levels. As web des
 
 In the following example, the layout on the left is what IE11 users will see, the one in the middle is what Firefox users will see, because Firefox doesn't support CSS shapes yet, but once it does, it will then look like the layout on the right, which is what Chrome users see now.
 
-<img srcset="{{ site.url }}/images/posts/feature-queries/cascading-layout-480.jpg 480w, {{ site.url }}/images/posts/feature-queries/cascading-layout-640.jpg 640w, {{ site.url }}/images/posts/feature-queries/cascading-layout-960.jpg 960w, {{ site.url }}/images/posts/feature-queries/cascading-layout-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/feature-queries/cascading-layout-640.jpg" alt="Embracing variant browser support" />
+<img srcset="{{ site.url }}/assets/images/posts/feature-queries/cascading-layout-480.jpg 480w, {{ site.url }}/assets/images/posts/feature-queries/cascading-layout-640.jpg 640w, {{ site.url }}/assets/images/posts/feature-queries/cascading-layout-960.jpg 960w, {{ site.url }}/assets/images/posts/feature-queries/cascading-layout-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/feature-queries/cascading-layout-640.jpg" alt="Embracing variant browser support" />
 
 With the release of CSS grid this year, we've hit another milestone in the evolution of the web as a medium. The beauty of the web is its backwards compatibility and generous fault tolerance. Browser features are largely additive, holding onto the good parts and building on top of them, while deprecating the bits that didn't work well.
 

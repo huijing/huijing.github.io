@@ -15,7 +15,7 @@ Well, first of all, nerds are essentially the ones running this planet already, 
 
 I haven't been to conferences in other industries so I'm not sure how things work there, but for developer conferences, a lot of value comes from the content. The pace of our industry ensures that there will always be fresh content on new technologies, the latest practices and innovative techniques. Most people are caught up in the daily grind of their 9-to-5 (or 9-to-9 for that matter), and don't have time to read articles, tutorials and books. Attending a conference is like receiving an instant power-up. 
 
-<img srcset="{{ site.url }}/images/posts/conference/powerup-480.jpg 480w, {{ site.url }}/images/posts/conference/powerup-640.jpg 640w, {{ site.url }}/images/posts/conference/powerup-960.jpg 960w, {{ site.url }}/images/posts/conference/powerup-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/conference/powerup-640.jpg" alt="Instant power-up" />
+<img srcset="{{ site.url }}/assets/images/posts/conference/powerup-480.jpg 480w, {{ site.url }}/assets/images/posts/conference/powerup-640.jpg 640w, {{ site.url }}/assets/images/posts/conference/powerup-960.jpg 960w, {{ site.url }}/assets/images/posts/conference/powerup-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/conference/powerup-640.jpg" alt="Instant power-up" />
 
 Of course, you won't become an expert just by showing up, but it really helps bring you up to speed so you can explore using these new technologies and techniques moving forward. That's infinitely better than not being aware of them at all.
 
@@ -23,7 +23,7 @@ Of course, you won't become an expert just by showing up, but it really helps br
 
 Although a lot of developers work in tech companies, there are a lot of us out there who work in other industries as well. I actually work in Advertising (keep the snarky comments to yourself, thanks). Our development team of 4 is pretty tiny in the grand scheme of things. And almost everyone outside the development team don't really understand what's going on in our day-to-day. When my team and I talk shop, I can literally see their eyes glaze over. I mean, they sort of know what it is we do (type cryptic-looking text onto our screens while mumbling to ourselves) but not how it is we do it.
 
-![Magic]({{ site.url }}/images/posts/conference/magic.gif)
+![Magic]({{ site.url }}/assets/images/posts/conference/magic.gif)
 
 This is why I love going to meet-ups. It's not just talking about code (although that's often my favourite part), but also discovering different perspectives and approaches, learning about how other teams work, methods of collaboration, project architecture, workflows, this list will be endless. If you haven't been to a meet-up, you really should try it. A conference is essentially a 10x-ed meet-up.
 
@@ -47,16 +47,16 @@ The insights we can glean, the knowledge and techniques we pick up, the potentia
 
 What we lack in volume, we make up in quality. Although we don't have a big-name conference every other fortnight, we do have an awesome event this year. [Dev.Fest Asia 2015](http://2015.devfest.asia/index.html) is Southeast Asia's first community organized web developer festival taking place from **Nov 12 till Nov 22**. It's a week-long event filled with workshops and meet-ups, building up to the main events of [CSSConf.Asia 2015](http://2015.cssconf.asia/) on **Nov 18** and [JSConf.Asia 2015](http://2015.jsconf.asia/) on **Nov 19-20**. 
 
-<img srcset="{{ site.url }}/images/posts/conference/devfest-450.ong 1.5x, {{ site.url }}/images/posts/conference/devfest-600.png 2x" src="{{ site.url }}/images/posts/conference/devfest-300.png" alt="Dev.Fest 2015 logo" />
+<img srcset="{{ site.url }}/assets/images/posts/conference/devfest-450.ong 1.5x, {{ site.url }}/assets/images/posts/conference/devfest-600.png 2x" src="{{ site.url }}/assets/images/posts/conference/devfest-300.png" alt="Dev.Fest 2015 logo" />
 
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>CSSConf.Asia 2015</figcaption>
-        <img src="{{ site.url }}/images/posts/conference/cssconfasia.svg" alt="CSSConf.Asia 2015">
+        <img src="{{ site.url }}/assets/images/posts/conference/cssconfasia.svg" alt="CSSConf.Asia 2015">
     </figure>
     <figure class="multiple">
         <figcaption>JSConf.Asia 2015</figcaption>
-        <img src="{{ site.url }}/images/posts/conference/jsconfasia-140.jpg" srcset="{{ site.url }}/images/posts/conference/jsconfasia-210.jpg 1.5x, {{ site.url }}/images/posts/conference/jsconfasia-280.jpg 2x" alt="JSConf.Asia 2015"/>
+        <img src="{{ site.url }}/assets/images/posts/conference/jsconfasia-140.jpg" srcset="{{ site.url }}/assets/images/posts/conference/jsconfasia-210.jpg 1.5x, {{ site.url }}/assets/images/posts/conference/jsconfasia-280.jpg 2x" alt="JSConf.Asia 2015"/>
     </figure>
 </div>
 

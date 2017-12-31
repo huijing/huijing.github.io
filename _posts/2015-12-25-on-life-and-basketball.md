@@ -25,11 +25,11 @@ Think of it this way. It's like when you're playing Assassin's Creed, you don't 
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Overwhelming</figcaption>
-        <img src="{{ site.url }}/images/posts/life-lessons/ac1.jpg" srcset="{{ site.url }}/images/posts/life-lessons/ac1@2x.jpg 2x" alt="Surrounded by enemies"/>
+        <img src="{{ site.url }}/assets/images/posts/life-lessons/ac1.jpg" srcset="{{ site.url }}/assets/images/posts/life-lessons/ac1@2x.jpg 2x" alt="Surrounded by enemies"/>
     </figure>
     <figure class="multiple">
         <figcaption>Not so overwhelming</figcaption>
-        <img src="{{ site.url }}/images/posts/life-lessons/ac2.jpg" srcset="{{ site.url }}/images/posts/life-lessons/ac2@2x.jpg 2x" alt="Stealth kill"/>
+        <img src="{{ site.url }}/assets/images/posts/life-lessons/ac2.jpg" srcset="{{ site.url }}/assets/images/posts/life-lessons/ac2@2x.jpg 2x" alt="Stealth kill"/>
     </figure>
 </div>
 
@@ -41,7 +41,7 @@ That was, how shall we put it, an interesting experience. The post players reali
 
 <figure>
     <figcaption>This is much harder than it looks. For both parties.</figcaption>
-    <video src="{{ site.url }}/videos/pass.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/pass.mp4" controls></video>
 </figure>
 
 If you don't care for basketball at all, that probably didn't make any sense to you whatsoever. But the point is, when conflicts arise, try to put yourself in that other person's shoes. They have their struggles on the other side as well. Could you do what they are doing right now?
@@ -76,7 +76,7 @@ I wished I had at least showed her videos of my games, but I always thought I wa
 
 <figure>
 <figcaption>The one game I wished I could have told my grandmother about.</figcaption>
-<img src="{{ site.url }}/images/posts/life-lessons/mnbl.jpg" alt="MNBL 2012">
+<img src="{{ site.url }}/assets/images/posts/life-lessons/mnbl.jpg" alt="MNBL 2012">
 </figure>
 
 **Life lesson #6:** If you have something you want to say or show to a loved one, do it now. There might not be a tomorrow.

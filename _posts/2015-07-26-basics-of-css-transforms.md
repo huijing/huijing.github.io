@@ -40,7 +40,7 @@ One thing to note is that transforms **don't work on inline elements**. The [spe
 
 Coordinate systems are how the browser knows where everything is supposed to be laid out. Every document viewport has its own coordinate system. The x-axis goes from left to right, while the y-axis goes from top to bottom. The top left corner is represented by (0, 0). There is also a z-axis, which goes into the screen from the perspective of the user. An element with a transform property establishes its own local coordinate system, with an origin point right on the centre of the element, (50%, 50%). 
 
-<img srcset="{{ site.url }}/images/posts/css-transforms/origin@2x.jpg 2x" src="{{ site.url }}/images/posts/css-transforms/origin@1x.jpg" alt="Transform default origin" />
+<img srcset="{{ site.url }}/assets/images/posts/css-transforms/origin@2x.jpg 2x" src="{{ site.url }}/assets/images/posts/css-transforms/origin@1x.jpg" alt="Transform default origin" />
 
 <p class="no-margin">You can change this origin point using the `transform-origin` property as follows:</p>
 <pre><code class="language-css">.some-element {
@@ -48,7 +48,7 @@ Coordinate systems are how the browser knows where everything is supposed to be 
 }</code></pre>
 *Note: I use Autoprefixer when I compile my Sass files so my syntax will be prefix-free in all the examples.*
 
-<img srcset="{{ site.url }}/images/posts/css-transforms/origin2@2x.jpg 2x" src="{{ site.url }}/images/posts/css-transforms/origin2@1x.jpg" alt="Transform origin at (70px 100px)" />
+<img srcset="{{ site.url }}/assets/images/posts/css-transforms/origin2@2x.jpg 2x" src="{{ site.url }}/assets/images/posts/css-transforms/origin2@1x.jpg" alt="Transform origin at (70px 100px)" />
 
 Any coordinates specified will be computed based on the transform origin at (100px 25px), as seen from the second point in the diagram.
 

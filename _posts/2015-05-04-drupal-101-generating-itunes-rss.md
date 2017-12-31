@@ -51,7 +51,7 @@ Podcast listenership has been steadily increasing in recent years, and some are 
 
     If you already have a content type that has an audio file field, you can skip this. Otherwise, when creating the new file field, make sure you change the allowed file extensions accordingly. iTunes accepts m4a, mp3, mov, mp4, m4v, pdf, epub.
 
-    <img src="{{ site.url }}/images/posts/itunes/file-types.jpg" alt="Allowed file extensions"/>
+    <img src="{{ site.url }}/assets/images/posts/itunes/file-types.jpg" alt="Allowed file extensions"/>
 
 ## Create the Feed view
 
@@ -59,10 +59,10 @@ For this example, I'll be recreating the sample feed from the [Making a Podcast]
 
 1. Create a new view for your content type.
  
-    <img src="{{ site.url }}/images/posts/itunes/new-view.jpg" alt="Create new view"/>
+    <img src="{{ site.url }}/assets/images/posts/itunes/new-view.jpg" alt="Create new view"/>
 2. Add a feed view display. Specify the file name of your feed file, <code class="language-bash">podcast.rss</code> is a good option.
 
-    <img src="{{ site.url }}/images/posts/itunes/feed-display.jpg" alt="Create feed display"/>
+    <img src="{{ site.url }}/assets/images/posts/itunes/feed-display.jpg" alt="Create feed display"/>
 3. Under *Format*, select *RSS Feed - Fields* as the format. The Views add-on for iTunes elements provides fields for all the available tags, and you can decide which ones you want to use. The module also helpfully points out which ones are required by Apple. For now, just click *Apply* on the *Settings* interface because we need to add the necessary fields first.
 4. There are quite a number of fields to add and I'll go through each one as some of them need tweaking to ensure the feed will validate properly. For all the fields, uncheck *Create a label*.
     - **Content: Title** maps to **item &lt;title&gt;**  
@@ -122,7 +122,7 @@ For this example, I'll be recreating the sample feed from the [Making a Podcast]
 1. There are a couple ways you can do this. I exported my podcast.rss file and hosted it on my GitHub account, but you can host it anywhere you want. If you have a staging site to deploy to for testing, even better. Go to [Cast Feed Validator](http://castfeedvalidator.com/) and enter the URL to your feed file.
 2. If all goes well, you should see something like this:
 
-    <img src="{{ site.url }}/images/posts/itunes/validation.jpg" alt="Feed validation"/>
+    <img src="{{ site.url }}/assets/images/posts/itunes/validation.jpg" alt="Feed validation"/>
 3. Note that if you exported your podcast.rss file from local development, and your site domain isn't a legit domain (I use **.dev** on my local), your feed will not validate. But this can be ignored because once you deploy to an actual site, this issue will be resolved.
 
 ## If you run into AJAX errors...

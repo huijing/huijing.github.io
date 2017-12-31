@@ -117,7 +117,7 @@ html {
           box-sizing: inherit; }
 
 body {
-  background: url("/images/bg-body.jpg");
+  background: url("/assets/images/bg-body.jpg");
   min-width: calc(320em / 18); }
 
 main {
@@ -212,7 +212,7 @@ code {
   font-size: 85%; }
 
 blockquote {
-  background: url("/images/bg-quotes.jpg");
+  background: url("/assets/images/bg-quotes.jpg");
   border-left: 0.5em solid #4c83e1;
   padding: 1em;
   margin-bottom: 1em;
@@ -339,7 +339,7 @@ span[role=img][aria-label]:hover::after {
   color: #858a8d; }
 
 .site-header {
-  background: url("/images/bg-header.jpg"); }
+  background: url("/assets/images/bg-header.jpg"); }
 
 .site-header__wrapper {
   float: none;
@@ -376,7 +376,7 @@ span[role=img][aria-label]:hover::after {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  background: url("/images/retropc-static.png");
+  background: url("/assets/images/retropc-static.png");
   background-size: cover;
   display: block;
   height: 90px;
@@ -387,12 +387,12 @@ span[role=img][aria-label]:hover::after {
       height: 120px;
       width: 120px; } }
   .site-branding__image::before {
-    content: url("/images/retropc-dynamic.gif");
+    content: url("/assets/images/retropc-dynamic.gif");
     height: 0;
     visibility: hidden;
     width: 0; }
   .site-branding__image:hover {
-    background: url("/images/retropc-dynamic.gif");
+    background: url("/assets/images/retropc-dynamic.gif");
     background-size: cover; }
 
 .site-branding {
@@ -448,10 +448,10 @@ span[role=img][aria-label]:hover::after {
     color: #91d78c; }
 
 .site-footer__wrapper--main {
-  background: url("/images/bg-footer-2.jpg"); }
+  background: url("/assets/images/bg-footer-2.jpg"); }
 
 .site-footer__wrapper--secondary {
-  background: url("/images/bg-footer.jpg"); }
+  background: url("/assets/images/bg-footer.jpg"); }
 
 .footer-main {
   float: none;
@@ -633,32 +633,32 @@ span[role=img][aria-label]:hover::after {
   margin-right: 0.25em; }
 
 .external-url::after {
-  background: url("/images/icons/icon-link.svg") no-repeat;
+  background: url("/assets/images/icons/icon-link.svg") no-repeat;
   background-size: cover;
   margin-left: 0.25em; }
 
 .alistapart::before {
-  background: url("/images/icons/icon-ala.png") no-repeat;
+  background: url("/assets/images/icons/icon-ala.png") no-repeat;
   background-size: cover; }
 
 .codrops::before {
-  background: url("/images/icons/icon-codrops.svg") no-repeat;
+  background: url("/assets/images/icons/icon-codrops.svg") no-repeat;
   background-size: cover; }
 
 .wismut::before {
-  background: url("/images/icons/icon-wismut.svg") no-repeat;
+  background: url("/assets/images/icons/icon-wismut.svg") no-repeat;
   background-size: cover; }
 
 .\32 4ways::before {
-  background: url("/images/icons/icon-24ways.png") no-repeat;
+  background: url("/assets/images/icons/icon-24ways.png") no-repeat;
   background-size: cover; }
 
 .smashing::before {
-  background: url("/images/icons/icon-smashing.svg") no-repeat;
+  background: url("/assets/images/icons/icon-smashing.svg") no-repeat;
   background-size: cover; }
 
 .alphabettes::before {
-  background: url("/images/icons/icon-alphabettes.svg") no-repeat;
+  background: url("/assets/images/icons/icon-alphabettes.svg") no-repeat;
   background-size: cover; }
 
 .post-title {

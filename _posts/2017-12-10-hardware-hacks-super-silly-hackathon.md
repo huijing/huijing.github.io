@@ -15,7 +15,7 @@ Long story short, my friends held a hackathon that was inspired by [Stupid Shit 
 
 <figure>
     <figcaption>Unicat says meow</figcaption>
-    <img style="max-height:10em;" src="{{ site.url }}/images/posts/supersilly/unicat.svg" alt="Unicat"/>
+    <img style="max-height:10em;" src="{{ site.url }}/assets/images/posts/supersilly/unicat.svg" alt="Unicat"/>
 </figure>
 
 ## Team 486
@@ -24,16 +24,16 @@ There had always been a computer in my house, from way before I was born. Accord
 
 <figure>
     <figcaption>Direct Access, the DOS menuing shell by Delta Technology International</figcaption>
-    <img srcset="{{ site.url }}/images/posts/vintage/da2-480.jpg 480w, {{ site.url }}/images/posts/vintage/da2-640.jpg 640w, {{ site.url }}/images/posts/vintage/da2-960.jpg 960w, {{ site.url }}/images/posts/vintage/da2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vintage/da2-640.jpg" alt="Direct Access" />
+    <img srcset="{{ site.url }}/assets/images/posts/vintage/da2-480.jpg 480w, {{ site.url }}/assets/images/posts/vintage/da2-640.jpg 640w, {{ site.url }}/assets/images/posts/vintage/da2-960.jpg 960w, {{ site.url }}/assets/images/posts/vintage/da2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vintage/da2-640.jpg" alt="Direct Access" />
 </figure>
 
-I talked a lot about that when I [reminisced about the 90s]({{ site.url }}/blog/reminiscing-the-90s/) last year. That was when I got to know a fellow retrotech enthusiast, [Yeo Kheng Meng](http://yeokhengmeng.com/). He is the most awesome guy, because he managed to get [Windows 3.11 working on modern hardware](http://yeokhengmeng.com/2016/09/windows-for-workgroups-3-11-on-vintage-and-modern-hardware-in-2016/), and presented it at [Hackware](https://www.meetup.com/Hackware/), Singapore's monthly hardware hacks meetup. That's not the only thing he's awesome for, just one of many.
+I talked a lot about that when I [reminisced about the 90s]({{ site.url }}/assets/blog/reminiscing-the-90s/) last year. That was when I got to know a fellow retrotech enthusiast, [Yeo Kheng Meng](http://yeokhengmeng.com/). He is the most awesome guy, because he managed to get [Windows 3.11 working on modern hardware](http://yeokhengmeng.com/2016/09/windows-for-workgroups-3-11-on-vintage-and-modern-hardware-in-2016/), and presented it at [Hackware](https://www.meetup.com/Hackware/), Singapore's monthly hardware hacks meetup. That's not the only thing he's awesome for, just one of many.
 
 Anyway, I had been planning to show up at this hackathon and just muck around but then Kheng Meng asked if I was interested in trying to run a modern Linux system on an old 486. Of course the answer was a resounding YES. He'd bought the old machine online, somewhere, and after some quick discussion, we decided to go ahead with the plan.
 
 <figure>
     <figcaption>Look at this beauty</figcaption>
-    <img srcset="{{ site.url }}/images/posts/supersilly/486-480.jpg 480w, {{ site.url }}/images/posts/supersilly/486-640.jpg 640w, {{ site.url }}/images/posts/supersilly/486-960.jpg 960w, {{ site.url }}/images/posts/supersilly/486-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/supersilly/486-640.jpg" alt="The 486" />
+    <img srcset="{{ site.url }}/assets/images/posts/supersilly/486-480.jpg 480w, {{ site.url }}/assets/images/posts/supersilly/486-640.jpg 640w, {{ site.url }}/assets/images/posts/supersilly/486-960.jpg 960w, {{ site.url }}/assets/images/posts/supersilly/486-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/supersilly/486-640.jpg" alt="The 486" />
 </figure>
 
 The name of the team came much later, when we were told we had to have a name. Naming things is hard. So we went with the obvious. Team 486.
@@ -66,7 +66,7 @@ First problem of the day, like 15 minutes in. The monitor couldn't read our 486'
 
 <figure>
     <figcaption>Hijack them ports!</figcaption>
-    <img srcset="{{ site.url }}/images/posts/supersilly/location-480.jpg 480w, {{ site.url }}/images/posts/supersilly/location-640.jpg 640w, {{ site.url }}/images/posts/supersilly/location-960.jpg 960w, {{ site.url }}/images/posts/supersilly/location-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/supersilly/location-640.jpg" alt="Best location at the venue" />
+    <img srcset="{{ site.url }}/assets/images/posts/supersilly/location-480.jpg 480w, {{ site.url }}/assets/images/posts/supersilly/location-640.jpg 640w, {{ site.url }}/assets/images/posts/supersilly/location-960.jpg 960w, {{ site.url }}/assets/images/posts/supersilly/location-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/supersilly/location-640.jpg" alt="Best location at the venue" />
 </figure>
 
 After we finally got the display to output, the next step was to boot and install Linux. Our choice of OS was Tiny Core Linux, and we had 2 versions burned to disc, Tiny Core and Micro Core. We started off with Tiny Core, but it wouldn't take. The machine rebooted every time it tried to boot the kernel.
@@ -79,7 +79,7 @@ I always use Quicktime to do my video edits, and one of the features I'm fond of
 
 <figure>
     <figcaption>When your eyes are not fast enough...</figcaption>
-    <img srcset="{{ site.url }}/images/posts/supersilly/quicktime-480.jpg 480w, {{ site.url }}/images/posts/supersilly/quicktime-640.jpg 640w, {{ site.url }}/images/posts/supersilly/quicktime-960.jpg 960w, {{ site.url }}/images/posts/supersilly/quicktime-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/supersilly/quicktime-640.jpg" alt="Troubleshooting with video" />
+    <img srcset="{{ site.url }}/assets/images/posts/supersilly/quicktime-480.jpg 480w, {{ site.url }}/assets/images/posts/supersilly/quicktime-640.jpg 640w, {{ site.url }}/assets/images/posts/supersilly/quicktime-960.jpg 960w, {{ site.url }}/assets/images/posts/supersilly/quicktime-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/supersilly/quicktime-640.jpg" alt="Troubleshooting with video" />
 </figure>
 
 Googling wasn't particularly helpful and so we decided to give Damn Small Linux (DSL) a try, since it was relatively older, it perhaps would work better with the 486, who knows? So we burned the image to a rewritable CD and tried again.
@@ -98,7 +98,7 @@ After mucking around a bunch of boot options for another half and hour or so, we
 
 <figure>
     <figcaption>Oh, just, come on...</figcaption>
-    <img srcset="{{ site.url }}/images/posts/supersilly/install2-480.png 480w, {{ site.url }}/images/posts/supersilly/install2-640.png 640w, {{ site.url }}/images/posts/supersilly/install2-960.png 960w, {{ site.url }}/images/posts/supersilly/install2-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/supersilly/install2-640.png" alt="Missed this line the first time" />
+    <img srcset="{{ site.url }}/assets/images/posts/supersilly/install2-480.png 480w, {{ site.url }}/assets/images/posts/supersilly/install2-640.png 640w, {{ site.url }}/assets/images/posts/supersilly/install2-960.png 960w, {{ site.url }}/assets/images/posts/supersilly/install2-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/supersilly/install2-640.png" alt="Missed this line the first time" />
 </figure>
 
 But it's all good. Such things are expected when it comes to doing unorthodox things to hardware. Wait till you see all the other snags we hit. It's all part of the fun, my friends.
@@ -107,7 +107,7 @@ Before installing onto disc, we wiped the existing content and repartitioned the
 
 <figure>
     <figcaption>This won't be the last time</figcaption>
-    <img srcset="{{ site.url }}/images/posts/supersilly/install-480.jpg 480w, {{ site.url }}/images/posts/supersilly/install-640.jpg 640w, {{ site.url }}/images/posts/supersilly/install-960.jpg 960w, {{ site.url }}/images/posts/supersilly/install-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/supersilly/install-640.jpg" alt="First pass HDD install" />
+    <img srcset="{{ site.url }}/assets/images/posts/supersilly/install-480.jpg 480w, {{ site.url }}/assets/images/posts/supersilly/install-640.jpg 640w, {{ site.url }}/assets/images/posts/supersilly/install-960.jpg 960w, {{ site.url }}/assets/images/posts/supersilly/install-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/supersilly/install-640.jpg" alt="First pass HDD install" />
 </figure>
 
 It took soooo long to write. AND I think I screwed up the part where it asked if a boot loader should be installed, and I pressed <kbd>Enter</kbd>, assuming the default option of `(y)` would be selected, instead of explicitly entering <kbd>y</kbd>. So it's either the boot loader wasn't installed, or we allocated too much space for the system to recognise. I think it was the former. But regardless, the system wouldn't boot from HDD, so Take 2.
@@ -118,7 +118,7 @@ This time we allocated a lot less space for both partitions, and boy did that sp
 
 <figure>
     <figcaption>We lived and learned</figcaption>
-    <img srcset="{{ site.url }}/images/posts/supersilly/install3-480.jpg 480w, {{ site.url }}/images/posts/supersilly/install3-640.jpg 640w, {{ site.url }}/images/posts/supersilly/install3-960.jpg 960w, {{ site.url }}/images/posts/supersilly/install3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/supersilly/install3-640.jpg" alt="Second time hard drive install" />
+    <img srcset="{{ site.url }}/assets/images/posts/supersilly/install3-480.jpg 480w, {{ site.url }}/assets/images/posts/supersilly/install3-640.jpg 640w, {{ site.url }}/assets/images/posts/supersilly/install3-960.jpg 960w, {{ site.url }}/assets/images/posts/supersilly/install3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/supersilly/install3-640.jpg" alt="Second time hard drive install" />
 </figure>
 
 ## Our baby has come to play
@@ -134,11 +134,11 @@ And we were in business! Sort of. Even though the router had internet access, it
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>That's us!</figcaption>
-         <img src="{{ site.url }}/images/posts/supersilly/hijack.jpg" srcset="{{ site.url }}/images/posts/supersilly/hijack@2x.jpg 2x" alt="Using the venue projectors as output"/>
+         <img src="{{ site.url }}/assets/images/posts/supersilly/hijack.jpg" srcset="{{ site.url }}/assets/images/posts/supersilly/hijack@2x.jpg 2x" alt="Using the venue projectors as output"/>
     </figure>
     <figure class="multiple">
         <figcaption>Providing live updates all day</figcaption>
-         <img src="{{ site.url }}/images/posts/supersilly/hijack2.jpg" srcset="{{ site.url }}/images/posts/supersilly/hijack2@2x.jpg 2x" alt="Using the venue projectors as output"/>
+         <img src="{{ site.url }}/assets/images/posts/supersilly/hijack2.jpg" srcset="{{ site.url }}/assets/images/posts/supersilly/hijack2@2x.jpg 2x" alt="Using the venue projectors as output"/>
     </figure>
 </div>
 
@@ -148,7 +148,7 @@ We also started up the SSH client for file transfer and concurrent access. Turns
 
 <figure>
     <figcaption>Biggest table. All the hardware.</figcaption>
-    <img srcset="{{ site.url }}/images/posts/supersilly/hustling-480.jpg 480w, {{ site.url }}/images/posts/supersilly/hustling-640.jpg 640w, {{ site.url }}/images/posts/supersilly/hustling-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/supersilly/hustling-640.jpg" alt="Lots of Googling" />
+    <img srcset="{{ site.url }}/assets/images/posts/supersilly/hustling-480.jpg 480w, {{ site.url }}/assets/images/posts/supersilly/hustling-640.jpg 640w, {{ site.url }}/assets/images/posts/supersilly/hustling-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/supersilly/hustling-640.jpg" alt="Lots of Googling" />
 </figure>
 
 My portable wifi router was called into play to set up a separate network (unfortunately not connected to the internet), uncreatively called 486, for other devices to access our machine.
@@ -197,7 +197,7 @@ I also learned how to set the background to a solid colour using
 
 <figure>
     <figcaption>We should have taken more photos</figcaption>
-    <img srcset="{{ site.url }}/images/posts/supersilly/neon-480.jpg 480w, {{ site.url }}/images/posts/supersilly/neon-640.jpg 640w, {{ site.url }}/images/posts/supersilly/neon-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/supersilly/neon-640.jpg" alt="Red is green" />
+    <img srcset="{{ site.url }}/assets/images/posts/supersilly/neon-480.jpg 480w, {{ site.url }}/assets/images/posts/supersilly/neon-640.jpg 640w, {{ site.url }}/assets/images/posts/supersilly/neon-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/supersilly/neon-640.jpg" alt="Red is green" />
 </figure>
 
 Once the colours came in, it seemed that the Desktop environment stabilised itself as well, and we could use all the apps that were installed without them crashing. Trade-offs, I suppose. There's a life lesson in here somewhere.
@@ -208,7 +208,7 @@ There were quite a lot of teams, and many with really funny and ridiculous ideas
 
 <figure>
     <figcaption>And the flailing hands are out</figcaption>
-    <img srcset="{{ site.url }}/images/posts/supersilly/presentation-480.jpg 480w, {{ site.url }}/images/posts/supersilly/presentation-640.jpg 640w, {{ site.url }}/images/posts/supersilly/presentation-960.jpg 960w, {{ site.url }}/images/posts/supersilly/presentation-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/supersilly/presentation-640.jpg" alt="Show and tell time" />
+    <img srcset="{{ site.url }}/assets/images/posts/supersilly/presentation-480.jpg 480w, {{ site.url }}/assets/images/posts/supersilly/presentation-640.jpg 640w, {{ site.url }}/assets/images/posts/supersilly/presentation-960.jpg 960w, {{ site.url }}/assets/images/posts/supersilly/presentation-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/supersilly/presentation-640.jpg" alt="Show and tell time" />
 </figure>
 
 *Update: the video of the presentation has been released. This is the most classic example of how Singlish sounds like for everyone who is not from Singapore or Malaysia, and don't know what this glorious language is.*
@@ -221,5 +221,5 @@ At the end of it, we managed to garner enough votes for third place! Snacks for 
 
 <figure>
     <figcaption>Team 486!</figcaption>
-    <img srcset="{{ site.url }}/images/posts/supersilly/team486-480.jpg 480w, {{ site.url }}/images/posts/supersilly/team486-640.jpg 640w, {{ site.url }}/images/posts/supersilly/team486-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/supersilly/team486-640.jpg" alt="Team photo" />
+    <img srcset="{{ site.url }}/assets/images/posts/supersilly/team486-480.jpg 480w, {{ site.url }}/assets/images/posts/supersilly/team486-640.jpg 640w, {{ site.url }}/assets/images/posts/supersilly/team486-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/supersilly/team486-640.jpg" alt="Team photo" />
 </figure>

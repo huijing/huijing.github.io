@@ -64,7 +64,7 @@ Okay, so the basic version in the video was a row of radio buttons with images i
 
 <figure>
     <figcaption>*rolls up sleeves attempting to code*...then<span class="emoji" role="img" tabindex="0" aria-label="person walking">&#x1F6B6;</span></figcaption>
-    <img srcset="{{ site.url }}/images/posts/pwd/basic-480.jpg 480w, {{ site.url }}/images/posts/pwd/basic-640.jpg 640w, {{ site.url }}/images/posts/pwd/basic-960.jpg 960w, {{ site.url }}/images/posts/pwd/basic-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/pwd/basic-640.jpg" alt="Basic styles" />
+    <img srcset="{{ site.url }}/assets/images/posts/pwd/basic-480.jpg 480w, {{ site.url }}/assets/images/posts/pwd/basic-640.jpg 640w, {{ site.url }}/assets/images/posts/pwd/basic-960.jpg 960w, {{ site.url }}/assets/images/posts/pwd/basic-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/pwd/basic-640.jpg" alt="Basic styles" />
 </figure>
 
 In hindsight, the work needed from style-less to slightly-more-enhanced styles was a little more work that I expected. But it did give me a good chance to refresh my knowledge on CSS properties.
@@ -72,11 +72,11 @@ In hindsight, the work needed from style-less to slightly-more-enhanced styles w
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>No styles at all</figcaption>
-         <img src="{{ site.url }}/images/posts/pwd/nostyles.jpg" srcset="{{ site.url }}/images/posts/pwd/nostyles@2x.jpg 2x" alt="Style-less before version"/>
+         <img src="{{ site.url }}/assets/images/posts/pwd/nostyles.jpg" srcset="{{ site.url }}/assets/images/posts/pwd/nostyles@2x.jpg 2x" alt="Style-less before version"/>
     </figure>
     <figure class="multiple">
         <figcaption>Slightly-more-enhanced</figcaption>
-         <img src="{{ site.url }}/images/posts/pwd/styled.jpg" srcset="{{ site.url }}/images/posts/pwd/styled@2x.jpg 2x" alt="Styled after version"/>
+         <img src="{{ site.url }}/assets/images/posts/pwd/styled.jpg" srcset="{{ site.url }}/assets/images/posts/pwd/styled@2x.jpg 2x" alt="Styled after version"/>
     </figure>
 </div>
 
@@ -271,7 +271,7 @@ If the browser supports animations, the script will add a `has-animations` class
 
 <figure>
   <figcaption>End result should look like this.</figcaption>
-  <video src="{{ site.url }}/videos/animation.mp4" controls></video>
+  <video src="{{ site.url }}/assets/videos/animation.mp4" controls></video>
 </figure>
 
 From a layout perspective, the buttons section becomes positioned directly beneath the options section. The key to this animation is the `z-index` property. What we want is that when nothing is selected, all 4 options are clickable and sitting on the topmost layer, while the buttons hidden away below them. When something is selected, 2 classes are triggered. The parent wrappers for options and buttons both get an `is-active` class and the selected option gets an `is-selected` class.

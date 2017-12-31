@@ -42,7 +42,7 @@ I came across this page from Malerei, Fotografie, Film by László Moholy-Nagy w
 
 <figure>
     <figcaption>Page 126 of Malerei, Fotografie, Film</figcaption>
-     <img srcset="{{ site.url }}/images/posts/bauhaus/126-480.jpg 480w, {{ site.url }}/images/posts/bauhaus/126-640.jpg 640w, {{ site.url }}/images/posts/bauhaus/126-960.jpg 960w, {{ site.url }}/images/posts/bauhaus/126-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/bauhaus/126-640.jpg" alt="Page 126 of Malerei, Fotografie, Film" />
+     <img srcset="{{ site.url }}/assets/images/posts/bauhaus/126-480.jpg 480w, {{ site.url }}/assets/images/posts/bauhaus/126-640.jpg 640w, {{ site.url }}/assets/images/posts/bauhaus/126-960.jpg 960w, {{ site.url }}/assets/images/posts/bauhaus/126-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/bauhaus/126-640.jpg" alt="Page 126 of Malerei, Fotografie, Film" />
 </figure>
 
 ## Bauhaus in my browser
@@ -63,7 +63,7 @@ The Bauhaus design has a lot of striking black borders around each grid cell. Th
 
 <figure>
     <figcaption>These are not the borders you're looking for</figcaption>
-     <img style="max-height:15em;" src="{{ site.url }}/images/posts/bauhaus/fit.svg" alt="Diagram of grid items fitting to content size" />
+     <img style="max-height:15em;" src="{{ site.url }}/assets/images/posts/bauhaus/fit.svg" alt="Diagram of grid items fitting to content size" />
 </figure>
 
 ## Flexbox to the rescue
@@ -72,7 +72,7 @@ By default, all grid items behave as if their alignment had been set to `stretch
 
 <figure>
     <figcaption>That's more like it</figcaption>
-     <img style="max-height:15em;" src="{{ site.url }}/images/posts/bauhaus/flex.svg" alt="Diagram of grid items fitting to content size" />
+     <img style="max-height:15em;" src="{{ site.url }}/assets/images/posts/bauhaus/flex.svg" alt="Diagram of grid items fitting to content size" />
 </figure>
 
 <pre><code class="language-css">.grid__item:nth-child(5) {

@@ -16,7 +16,7 @@ permalink: /work/
     {% else %}
     <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
     {% endif %}
-      <img class="project__image" srcset="{{ site.url }}/images/posts/projects/{{ post.image }}@2x.png 2x" src="{{ site.url }}/images/posts/projects/{{ post.image }}.png" alt="{{ post.image }}"/>
+      <img class="project__image" srcset="{{ site.url }}/assets/images/posts/projects/{{ post.image }}@2x.png 2x" src="{{ site.url }}/assets/images/posts/projects/{{ post.image }}.png" alt="{{ post.image }}"/>
       <h3 class="project__title no-margin">{{ post.project }}</h3>
     </a>
   </div>
@@ -28,15 +28,15 @@ permalink: /work/
   {% for post in site.tags.side-project %}
   <div class="project">
     <a class="no-underline" href="{{ post.url | prepend: site.baseurl }}">
-      <img class="project__image" srcset="{{ site.url }}/images/posts/projects/{{ post.image }}@2x.png 2x" src="{{ site.url }}/images/posts/projects/{{ post.image }}.png" alt="{{ post.image }}"/>
+      <img class="project__image" srcset="{{ site.url }}/assets/images/posts/projects/{{ post.image }}@2x.png 2x" src="{{ site.url }}/assets/images/posts/projects/{{ post.image }}.png" alt="{{ post.image }}"/>
       <h3 class="project__title no-margin">{{ post.project }}</h3>
     </a>
   </div>
   {% endfor %}
   {% for project in site.data.projects %}
   <div class="project">
-    <a class="no-underline" href="{{ site.url }}/{{ project.id }}">
-      <img class="project__image" srcset="{{ site.url }}/images/posts/projects/{{ project.image }}@2x.png 2x" src="{{ site.url }}/images/posts/projects/{{ project.image }}.png" alt="{{ project.image }}"/>
+    <a class="no-underline" href="{{ site.url }}/assets/{{ project.id }}">
+      <img class="project__image" srcset="{{ site.url }}/assets/images/posts/projects/{{ project.image }}@2x.png 2x" src="{{ site.url }}/assets/images/posts/projects/{{ project.image }}.png" alt="{{ project.image }}"/>
       <h3 class="project__title no-margin">{{ project.title }}</h3>
     </a>
   </div>
@@ -45,7 +45,7 @@ permalink: /work/
 
 <div class="projects">
   <a href="/demos/">
-    <img srcset="{{ site.url }}/images/yoshi-480.png 480w, {{ site.url }}/images/yoshi-640.png 640w, {{ site.url }}/images/yoshi-960.png 960w, {{ site.url }}/images/yoshi-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/yoshi-640.png" alt="Yoshi's island remix" />
+    <img srcset="{{ site.url }}/assets/images/yoshi-480.png 480w, {{ site.url }}/assets/images/yoshi-640.png 640w, {{ site.url }}/assets/images/yoshi-960.png 960w, {{ site.url }}/assets/images/yoshi-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/yoshi-640.png" alt="Yoshi's island remix" />
     <h2>The land of random demos</h2>
   </a>
 </div>

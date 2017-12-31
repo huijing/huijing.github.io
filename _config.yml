@@ -44,3 +44,4 @@ exclude:
   - package.json
   - Gemfile
   - Gemfile.lock
+  - yarn.lock

@@ -67,7 +67,7 @@ Before we go into this, I want to emphasise that *implementing* layout on the we
 
 This degree of separation between the canvas and our input means that we must have knowledge of the workings of the browser that will render our code on the screen, a clear understanding of how the code we write will be interpreted.
 
-A little more than a year ago, I asked the question, [How well do you know CSS display?]({{ site.url }}/blog/how-well-do-you-know-display/) That was the first time I sat down and really read the [CSS Display Module Level 3](https://www.w3.org/TR/css-display-3/) specification. Layout is quite a large topic and crosses multiple specifications, including the [CSS Positioned Layout Module Level 3](https://www.w3.org/TR/css-position-3/), [CSS Box Alignment Module Level 3](https://www.w3.org/TR/css-align-3/), [CSS Intrinsic & Extrinsic Sizing Module Level 3](https://www.w3.org/TR/css-sizing-3/) and so on. You get the picture.
+A little more than a year ago, I asked the question, [How well do you know CSS display?]({{ site.url }}/assets/blog/how-well-do-you-know-display/) That was the first time I sat down and really read the [CSS Display Module Level 3](https://www.w3.org/TR/css-display-3/) specification. Layout is quite a large topic and crosses multiple specifications, including the [CSS Positioned Layout Module Level 3](https://www.w3.org/TR/css-position-3/), [CSS Box Alignment Module Level 3](https://www.w3.org/TR/css-align-3/), [CSS Intrinsic & Extrinsic Sizing Module Level 3](https://www.w3.org/TR/css-sizing-3/) and so on. You get the picture.
 
 The specifications themselves refer to each other liberally, and thus reading one of them can result in your browser tab collection growing exponentially as you get linked to more and more related specifications (or maybe it's just me) <span class="emoji" role="img" tabindex="0" aria-label="smiling face with horns">&#x1F608;</span>. 
 
@@ -128,7 +128,7 @@ Because I'm a stickler for punishment, this basic layout was tested to be workin
 
 <figure>
     <figcaption>This is actually kinda responsive (on IE8 no less)</figcaption>
-    <video src="{{ site.url }}/videos/gb-inlineblock.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gb-inlineblock.mp4" controls></video>
 </figure>
 
 The code for this isn't very complicated, as the layout container is set to `display: inline-block`, centring involves using `text-align: center` on its parent, in this case, the `body` element.
@@ -153,7 +153,7 @@ This method works reasonably well if you want all the items in your grid to be t
 
 <figure>
     <figcaption>Well, some people might not like this</figcaption>
-    <video src="{{ site.url }}/videos/gb-inlineblock2.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gb-inlineblock2.mp4" controls></video>
 </figure>
 
 I'll cover the image handling issue in a different post, but for support that goes back to IE8, we can't use the current markup. Also, if the last row has less items that the total number of columns, they will end up centre-aligned regardless, and maybe you don't want that either.
@@ -170,7 +170,7 @@ And because of the heavy reliance on media queries, a lot of designers just chos
 
 <figure>
     <figcaption>Flexi-floaty layout of cards</figcaption>
-    <video src="{{ site.url }}/videos/gb-float.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gb-float.mp4" controls></video>
 </figure>
 
 Just wanted to add that, if we wanted to make the `inline-block` layout items take up the width of the viewport, we too can chuck in the same slew of media queries instead of using a fixed width.
@@ -266,11 +266,11 @@ A common issue I hear is that it's difficult to create a grid system with Flexbo
 <div class="figure-wrapper">
     <figure class="multiple" style="width: 100%;">
         <figcaption>Either in rows...</figcaption>
-        <img style="max-height: 17em;" src="{{ site.url }}/images/posts/grid-basic/daisychain-r.svg" />
+        <img style="max-height: 17em;" src="{{ site.url }}/assets/images/posts/grid-basic/daisychain-r.svg" />
     </figure>
     <figure class="multiple" style="width: 100%;">
         <figcaption>...or in columns</figcaption>
-        <img style="max-height: 18em;" src="{{ site.url }}/images/posts/grid-basic/daisychain-c.svg" />
+        <img style="max-height: 18em;" src="{{ site.url }}/assets/images/posts/grid-basic/daisychain-c.svg" />
     </figure>
 </div>
 
@@ -291,7 +291,7 @@ So keep in mind that Flexbox isn't exactly good at being a proper grid. It doesn
 
 <figure>
     <figcaption>Well, we did tell ‘em to be flexible</figcaption>
-    <video src="{{ site.url }}/videos/gb-flex.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gb-flex.mp4" controls></video>
 </figure>
 
 We can resolve this by doing the same thing we did for floats, and that is, introduce a slew of media queries, like so:
@@ -326,7 +326,7 @@ We can resolve this by doing the same thing we did for floats, and that is, intr
 
 Another option is to cap the maximum width of each layout item, so the orphaned items don't grow to ridiculous sizes. However, by default, everything will align left, and there may be instances where you have an excess of white space on the right of the layout container.
 
-<img srcset="{{ site.url }}/images/posts/grid-basic/flex-orphan-480.jpg 480w, {{ site.url }}/images/posts/grid-basic/flex-orphan-640.jpg 640w, {{ site.url }}/images/posts/grid-basic/flex-orphan-960.jpg 960w, {{ site.url }}/images/posts/grid-basic/flex-orphan-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-basic/flex-orphan-640.jpg" alt="Flex items on last row" />
+<img srcset="{{ site.url }}/assets/images/posts/grid-basic/flex-orphan-480.jpg 480w, {{ site.url }}/assets/images/posts/grid-basic/flex-orphan-640.jpg 640w, {{ site.url }}/assets/images/posts/grid-basic/flex-orphan-960.jpg 960w, {{ site.url }}/assets/images/posts/grid-basic/flex-orphan-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-basic/flex-orphan-640.jpg" alt="Flex items on last row" />
 
 If you're okay with that, awesome. But anecdotally, most people would like to centre things. <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>
 
@@ -345,30 +345,30 @@ Why not use horizontal and vertical axis? Because these physical directions may 
 <div class="figure-wrapper">
     <figure class="multiple" style="width:33%;">
         <figcaption>flex-direction: row</figcaption>
-        <img src="{{ site.url }}/images/posts/grid-basic/flexrow.svg" />
+        <img src="{{ site.url }}/assets/images/posts/grid-basic/flexrow.svg" />
     </figure>
     <figure class="multiple" style="width:33%;">
         <figcaption>horizontal-tb (ltr)</figcaption>
-        <img src="{{ site.url }}/images/posts/grid-basic/htblr.svg" />
+        <img src="{{ site.url }}/assets/images/posts/grid-basic/htblr.svg" />
     </figure>
     <figure class="multiple" style="width:33%;">
         <figcaption>horizontal-tb (rtl)</figcaption>
-        <img src="{{ site.url }}/images/posts/grid-basic/htbrl.png" srcset="{{ site.url }}/images/posts/grid-basic/htbrl@2x.png 2x" />
+        <img src="{{ site.url }}/assets/images/posts/grid-basic/htbrl.png" srcset="{{ site.url }}/assets/images/posts/grid-basic/htbrl@2x.png 2x" />
     </figure>
 </div>
 
 <div class="figure-wrapper">
     <figure class="multiple" style="width:33%;">
         <figcaption>flex-direction: column</figcaption>
-        <img src="{{ site.url }}/images/posts/grid-basic/flexcol.svg" />
+        <img src="{{ site.url }}/assets/images/posts/grid-basic/flexcol.svg" />
     </figure>
     <figure class="multiple" style="width:33%;">
         <figcaption>vertical-rl</figcaption>
-        <img src="{{ site.url }}/images/posts/grid-basic/vrl.png" srcset="{{ site.url }}/images/posts/grid-basic/vrl@2x.png 2x" />
+        <img src="{{ site.url }}/assets/images/posts/grid-basic/vrl.png" srcset="{{ site.url }}/assets/images/posts/grid-basic/vrl@2x.png 2x" />
     </figure>
     <figure class="multiple" style="width:33%;">
         <figcaption>vertical-lr</figcaption>
-        <img src="{{ site.url }}/images/posts/grid-basic/vlr.png" srcset="{{ site.url }}/images/posts/grid-basic/vlr@2x.png 2x" />
+        <img src="{{ site.url }}/assets/images/posts/grid-basic/vlr.png" srcset="{{ site.url }}/assets/images/posts/grid-basic/vlr@2x.png 2x" />
     </figure>
 </div>
 
@@ -380,15 +380,15 @@ Those values prefixed with `flex-` only apply to flex containers, but otherwise 
 
 For distribution, `stretch` is treated the same as `flex-start`. The difference between the other three is the amount of space between each item. `space-between` will result in the first and last items of the row being flush with the edges of the container.
 
-<img srcset="{{ site.url }}/images/posts/grid-basic/space-between-480.jpg 480w, {{ site.url }}/images/posts/grid-basic/space-between-640.jpg 640w, {{ site.url }}/images/posts/grid-basic/space-between-960.jpg 960w, {{ site.url }}/images/posts/grid-basic/space-between-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-basic/space-between-640.jpg" alt="space-between value" />
+<img srcset="{{ site.url }}/assets/images/posts/grid-basic/space-between-480.jpg 480w, {{ site.url }}/assets/images/posts/grid-basic/space-between-640.jpg 640w, {{ site.url }}/assets/images/posts/grid-basic/space-between-960.jpg 960w, {{ site.url }}/assets/images/posts/grid-basic/space-between-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-basic/space-between-640.jpg" alt="space-between value" />
 
 `space-around` gives each item an equal amount of space around themselves.
 
-<img srcset="{{ site.url }}/images/posts/grid-basic/space-around-480.jpg 480w, {{ site.url }}/images/posts/grid-basic/space-around-640.jpg 640w, {{ site.url }}/images/posts/grid-basic/space-around-960.jpg 960w, {{ site.url }}/images/posts/grid-basic/space-around-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-basic/space-around-640.jpg" alt="space-around value" />
+<img srcset="{{ site.url }}/assets/images/posts/grid-basic/space-around-480.jpg 480w, {{ site.url }}/assets/images/posts/grid-basic/space-around-640.jpg 640w, {{ site.url }}/assets/images/posts/grid-basic/space-around-960.jpg 960w, {{ site.url }}/assets/images/posts/grid-basic/space-around-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-basic/space-around-640.jpg" alt="space-around value" />
 
 `space-evenly`, which is only supported by Firefox as of time of writing, distributes all the items evenly on the row, so the space between the first and last items and the edge of the container is the same as between items.
 
-<img srcset="{{ site.url }}/images/posts/grid-basic/space-evenly-480.jpg 480w, {{ site.url }}/images/posts/grid-basic/space-evenly-640.jpg 640w, {{ site.url }}/images/posts/grid-basic/space-evenly-960.jpg 960w, {{ site.url }}/images/posts/grid-basic/space-evenly-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-basic/space-evenly-640.jpg" alt="space-evenly value" />
+<img srcset="{{ site.url }}/assets/images/posts/grid-basic/space-evenly-480.jpg 480w, {{ site.url }}/assets/images/posts/grid-basic/space-evenly-640.jpg 640w, {{ site.url }}/assets/images/posts/grid-basic/space-evenly-960.jpg 960w, {{ site.url }}/assets/images/posts/grid-basic/space-evenly-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-basic/space-evenly-640.jpg" alt="space-evenly value" />
 
 Personally, I will go for the `justify-content: space-around` option and hence my flexbox code will end up looking like this:
 
@@ -436,7 +436,7 @@ Grid is different from all the layout techniques we've used in the past because 
 
 <figure>
     <figcaption>Now that's good behaviour</figcaption>
-    <video src="{{ site.url }}/videos/gb-grid.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gb-grid.mp4" controls></video>
 </figure>
 
 Another fantastic functionality that only pertains to Grid (at the moment), is `grid-gap`. We can now tell the browser that we want gaps between the items in our layout and the browser will figure the math out. And we have this feature because Rachel Andrew pushed for it at CSS Day and specification author, [Elika J. Etemad](http://fantasai.inkedblade.net/) (AKA Fantasai), who was in the audience, wrote it into the specification. [Detailed story here](https://rachelandrew.co.uk/archives/2015/11/03/three-years-with-css-grid-layout/).

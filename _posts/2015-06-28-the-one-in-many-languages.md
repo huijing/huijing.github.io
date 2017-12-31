@@ -8,7 +8,7 @@ tags: [client-work, drupal7, i18n]
 ---
 I've always heard that Drupal did multi-language well, but you know when you hear about something and think, I know of it, but I don't know much else about it? That's exactly how multi-lingual Drupal was for me. Until we got to work on the [SFO China site](http://www.flysfo.cn/), which by the way, is one of the finalists for [Acquia's 2015 Partner Site of The Year](https://www.acquia.com/blog/acquia%27s-2015-partner-site-of-the-year-finalists/26/06/2015/3285191).
 
-<img src="{{ site.url }}/images/posts/sfo/sfo.jpg" alt="flysfo.cn"/>
+<img src="{{ site.url }}/assets/images/posts/sfo/sfo.jpg" alt="flysfo.cn"/>
 
 At the time, the main SFO site was a single-language implementation. There was some form of multi-language support, but it did not take advantage of Drupal's multi-lingual infrastructure. We were brought in to build the entire Chinese language site, as well as ensure the infrastructure was in place so additional languages could be implemented easily.
 
@@ -19,11 +19,11 @@ We worked very closely with the team who built the original SFO site, [Proof Int
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>English site on flysfo.com</figcaption>
-        <img src="{{ site.url }}/images/posts/sfo/sfo-hp.jpg" alt="flysfo.com homepage"/>
+        <img src="{{ site.url }}/assets/images/posts/sfo/sfo-hp.jpg" alt="flysfo.com homepage"/>
     </figure>
     <figure class="multiple">
         <figcaption>China site on flysfo.cn</figcaption>
-        <img src="{{ site.url }}/images/posts/sfo/sfo-hp2.jpg" alt="flysfo.cn homepage"/>
+        <img src="{{ site.url }}/assets/images/posts/sfo/sfo-hp2.jpg" alt="flysfo.cn homepage"/>
     </figure>
 </div>
 There were slight differences in the functionality available for the Chinese site and as a result we redesigned the home page for the Chinese site. We laid out the most commonly used links in three panels on the homepage for ease of access. The three major categories in each of these panels were flight information, passenger information and transport information. 

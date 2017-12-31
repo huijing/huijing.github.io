@@ -21,7 +21,7 @@ So my steps essentially were:
 4. Using your terminal, git clone said repository to wherever you do local development on your machine, for me, it would be my <code class="language-bash">Sites</code> folder. The command will look something like this:
     <pre><code class="language-git">git clone https://github.com/YOUR_GITHUB_USER_NAME/YOUR_GITHUB_USER_NAME.github.io.git</code></pre>
 The actual URL can be found from your Github user page.
-<img src="{{ site.url }}/images/posts/github-jekyll/github.jpg" alt="Git clone repo"/>
+<img src="{{ site.url }}/assets/images/posts/github-jekyll/github.jpg" alt="Git clone repo"/>
 5. Create a basic <code class="language-bash">index.html</code> in the folder you just cloned.
 6. Navigate to the folder you just cloned, then run the following:
     <pre><code class="language-git">git add –-all

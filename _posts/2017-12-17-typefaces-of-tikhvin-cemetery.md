@@ -10,7 +10,7 @@ I got the chance to travel to Saint Petersburg, Russia in June earlier this year
 
 Saint Petersburg was one such location. I was staying near the city centre and at the end of Nevsky Prospekt (the main street of the city), was the State Museum of Urban Sculpture. There are four historic cemeteries in this area, Lazarevskoe, Tikhvinskoe, Nikolskoe, and Kazache (Cossack).
 
-<img srcset="{{ site.url }}/images/posts/tikhvin/river-480.jpg 480w, {{ site.url }}/images/posts/tikhvin/river-640.jpg 640w, {{ site.url }}/images/posts/tikhvin/river-960.jpg 960w, {{ site.url }}/images/posts/tikhvin/river-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/tikhvin/river-640.jpg" alt="View of the Alexander Nevsky Monastery" />
+<img srcset="{{ site.url }}/assets/images/posts/tikhvin/river-480.jpg 480w, {{ site.url }}/assets/images/posts/tikhvin/river-640.jpg 640w, {{ site.url }}/assets/images/posts/tikhvin/river-960.jpg 960w, {{ site.url }}/assets/images/posts/tikhvin/river-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/tikhvin/river-640.jpg" alt="View of the Alexander Nevsky Monastery" />
 
 The Lazarevskoe cemetery is now known as the Necropolis of the 18th century and it has more than 1000 gravestones from the 18th to 20th century. The Tikhvinskoe cemetery is now known as the Necropolis of Artists and houses the graves of famous artists, musicians and scientists.
 
@@ -22,7 +22,7 @@ The main writing script in Russia is Cyrillic, and as someone who has never been
 
 <figure>
     <figcaption>Cyrillic used in yellow portion (image credit: https://www.worldstandards.eu/alphabets/)</figcaption>
-    <img srcset="{{ site.url }}/images/posts/tikhvin/world-scripts-480.jpg 480w, {{ site.url }}/images/posts/tikhvin/world-scripts-640.jpg 640w, {{ site.url }}/images/posts/tikhvin/world-scripts-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/tikhvin/world-scripts-640.jpg" alt="Scripts around the world" />
+    <img srcset="{{ site.url }}/assets/images/posts/tikhvin/world-scripts-480.jpg 480w, {{ site.url }}/assets/images/posts/tikhvin/world-scripts-640.jpg 640w, {{ site.url }}/assets/images/posts/tikhvin/world-scripts-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/tikhvin/world-scripts-640.jpg" alt="Scripts around the world" />
 </figure>
 
 Serifs on stone engravings seem like the most natural combination, like wine and cheese or tea and mooncakes. There have been [several theories proposed](https://books.google.com.sg/books?id=oHNtDQAAQBAJ&pg=PA24&lpg=PA24&dq=origin+of+serifs&source=bl&ots=kDt23rt6Ds&sig=GLNSxFg6qX8wvnfH3I7y4am_44Y&hl=en&sa=X&ved=0ahUKEwi176_D6NLUAhXEso8KHSIMAJw4ChDoAQg8MAc#v=onepage&q=origin%20of%20serifs&f=false) on the origins of serifs. The inking theory suggests serifs were added to repair extra ink instances on straight lines, while the carving theory posits that widening the ends of straight lines on engravings compensates for the illusion of bulging in the middle.
@@ -31,26 +31,26 @@ And tombs, being mostly made of some kind of stone, have serif inscriptions in s
 
 <figure>
     <figcaption>Serifs on stone engravings</figcaption>
-    <img srcset="{{ site.url }}/images/posts/tikhvin/serifs-480.png 480w, {{ site.url }}/images/posts/tikhvin/serifs-640.png 640w, {{ site.url }}/images/posts/tikhvin/serifs-960.png 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/tikhvin/serifs-640.png" alt="Serifs on stone" />
+    <img srcset="{{ site.url }}/assets/images/posts/tikhvin/serifs-480.png 480w, {{ site.url }}/assets/images/posts/tikhvin/serifs-640.png 640w, {{ site.url }}/assets/images/posts/tikhvin/serifs-960.png 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/tikhvin/serifs-640.png" alt="Serifs on stone" />
 </figure>
 
 <figure>
     <figcaption>Less common serifs in relief</figcaption>
-    <img srcset="{{ site.url }}/images/posts/tikhvin/serif-relief-480.png 480w, {{ site.url }}/images/posts/tikhvin/serif-relief-640.png 640w, {{ site.url }}/images/posts/tikhvin/serif-relief-960.png 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/tikhvin/serif-relief-640.png" alt="Serifs in relief" />
+    <img srcset="{{ site.url }}/assets/images/posts/tikhvin/serif-relief-480.png 480w, {{ site.url }}/assets/images/posts/tikhvin/serif-relief-640.png 640w, {{ site.url }}/assets/images/posts/tikhvin/serif-relief-960.png 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/tikhvin/serif-relief-640.png" alt="Serifs in relief" />
 </figure>
 
 There were sans-serif typefaces being engraved as well, but they were either on more modern designs, or resembled the earliest Etruscan mono-line engravings, which provided an interesting visual contrast as I explored the area.
 
 <figure>
     <figcaption>Sans-serif engravings</figcaption>
-    <img srcset="{{ site.url }}/images/posts/tikhvin/sans-480.png 480w, {{ site.url }}/images/posts/tikhvin/sans-640.png 640w, {{ site.url }}/images/posts/tikhvin/sans-960.png 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/tikhvin/sans-640.png" alt="Sans-serif engravings" />
+    <img srcset="{{ site.url }}/assets/images/posts/tikhvin/sans-480.png 480w, {{ site.url }}/assets/images/posts/tikhvin/sans-640.png 640w, {{ site.url }}/assets/images/posts/tikhvin/sans-960.png 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/tikhvin/sans-640.png" alt="Sans-serif engravings" />
 </figure>
 
 As mentioned, I had visited the Recoleta cemetery earlier in the year, and I didn't remember seeing that many script fonts on the tombs there. But there were a number of tombs that used script fonts in Lazarevskoe and Tikhvinskoe, and they were for long-form text.
 
 <figure>
     <figcaption>Script style fonts columns and memorials</figcaption>
-    <img srcset="{{ site.url }}/images/posts/tikhvin/script-480.png 480w, {{ site.url }}/images/posts/tikhvin/script-640.png 640w, {{ site.url }}/images/posts/tikhvin/script-960.png 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/tikhvin/script-640.png" alt="Script-style engravings" />
+    <img srcset="{{ site.url }}/assets/images/posts/tikhvin/script-480.png 480w, {{ site.url }}/assets/images/posts/tikhvin/script-640.png 640w, {{ site.url }}/assets/images/posts/tikhvin/script-960.png 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/tikhvin/script-640.png" alt="Script-style engravings" />
 </figure>
 
 Even though I didn't understand the text, it felt regal and elegant, suitable as a memorial to somebody who has passed. Again, I have no idea what the actual words meant.
@@ -59,14 +59,14 @@ Then, there were the ornamental type fonts, that weren't common at all. But I su
 
 <figure>
     <figcaption>Ornamental fonts</figcaption>
-    <img src="{{ site.url }}/images/posts/tikhvin/ornament.png" alt="Ornamental fonts engraved in stone" />
+    <img src="{{ site.url }}/assets/images/posts/tikhvin/ornament.png" alt="Ornamental fonts engraved in stone" />
 </figure>
 
 Lastly, the most memorable tombstone I saw on this trip was one which had Chinese characters on it, simply because I did not expect it. The Chinese words on the tombstone read 無時勤勞，垂光史冊, and it was upon googling this phrase that I found out it was the tombstone of one of the founding fathers of Sinology, [Nikita Yakovlevich Bichurin](https://en.wikipedia.org/wiki/Hyacinth_(Bichurin)), better known by his monastic name, Hyacinth.
 
 <figure>
     <figcaption>Tombstone of Nikita Yakovlevich Bichurin</figcaption>
-    <img src="{{ site.url }}/images/posts/tikhvin/chinese.jpg" alt="Tombstone of Nikita Yakovlevich Bichurin" />
+    <img src="{{ site.url }}/assets/images/posts/tikhvin/chinese.jpg" alt="Tombstone of Nikita Yakovlevich Bichurin" />
 </figure>
 
 If you can read Chinese, there is a [write-up](http://epaper.gmw.cn/gmrb/html/2012-11/26/nw.D110000gmrb_20121126_1-12.htm) about Nikita Yakovlevich Bichurin's life and accomplishments. 

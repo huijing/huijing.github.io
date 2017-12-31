@@ -68,6 +68,6 @@ Turns out I had taken for granted that the `id_rsa` file was loaded into the ssh
 
 All in all, this update was pretty trouble-free. Nothing really broke. So it's either I'm kinda lucky, or this update is kinda safe.
 
-<img src="{{ site.url }}/images/posts/sierra/good-sign.jpg" srcset="{{ site.url }}/images/posts/sierra/good-sign@2x.jpg 2x" alt="This is a good sign"/>
+<img src="{{ site.url }}/assets/images/posts/sierra/good-sign.jpg" srcset="{{ site.url }}/assets/images/posts/sierra/good-sign@2x.jpg 2x" alt="This is a good sign"/>
 
 So make your own decision whether to upgrade or not, and may the odds ever be in your favour <span class="emoji" role="img" tabindex="0" aria-label="smiling face with horns">&#x1F608;</span>.

@@ -39,7 +39,7 @@ One thing I wanted to experiment with was to keep the aspect-ratio true to the o
 
 <figure>
     <figcaption>This is Chinese supermodel, Liu Wen, who features in this demo</figcaption>
-    <img src="{{ site.url }}/images/posts/responsive-slider/liuwen.jpg" srcset="{{ site.url }}/images/posts/responsive-slider/liuwen@2x.jpg 2x" alt="Liu Wen"/>
+    <img src="{{ site.url }}/assets/images/posts/responsive-slider/liuwen.jpg" srcset="{{ site.url }}/assets/images/posts/responsive-slider/liuwen@2x.jpg 2x" alt="Liu Wen"/>
 </figure>
 
 <p class="no-margin">The markup for the gallery involves 2 lists of images, the display images and the thumbnails:</p>
@@ -268,7 +268,7 @@ The end result looked something like the video below (I'm not good at doing scre
 
 <figure>
     <figcaption>Sorry, this is a terrible screen recording</figcaption>
-    <video src="{{ site.url }}/videos/css-slider.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/css-slider.mp4" controls></video>
 </figure>
 
 There may be instances where the component you're trying to build works incrementally for the CSS properties required. In that case, you may have multiple feature queries, providing an even more nuanced level of feature support.

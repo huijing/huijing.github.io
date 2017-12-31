@@ -60,7 +60,7 @@ There are more than [6000 languages in the world today](http://www.linguisticsoc
 
 <figure>
     <figcaption>Writing directions of the world</figcaption>
-    <img src="{{ site.url }}/images/posts/zh-type/writing-directions.svg" />
+    <img src="{{ site.url }}/assets/images/posts/zh-type/writing-directions.svg" />
 </figure>
 
 The purpose of the internet is to connect people around the world, and to do that, the Web needs to cater for the various writing systems out there. The [W3C Internationalization (i18n) Activity](https://www.w3.org/International/) serves this purpose, to make it possible to use Web technologies with different languages, scripts and cultures.
@@ -71,7 +71,7 @@ To be fair, Chinese history is too vast a subject for a blog post. It warrants a
 
 <figure>
     <figcaption>甲骨文 (Oracle bone script)</figcaption>
-    <img srcset="{{ site.url }}/images/posts/zh-type/jgw-480.jpg 480w, {{ site.url }}/images/posts/zh-type/jgw-640.jpg 640w, {{ site.url }}/images/posts/zh-type/jgw-960.jpg 960w, {{ site.url }}/images/posts/zh-type/jgw-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/zh-type/jgw-640.jpg" />
+    <img srcset="{{ site.url }}/assets/images/posts/zh-type/jgw-480.jpg 480w, {{ site.url }}/assets/images/posts/zh-type/jgw-640.jpg 640w, {{ site.url }}/assets/images/posts/zh-type/jgw-960.jpg 960w, {{ site.url }}/assets/images/posts/zh-type/jgw-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/zh-type/jgw-640.jpg" />
 </figure>
 
 A [common misconception about the origin of Chinese writing](http://www.comdesignlab.com/typochina/chinese/archives/98) is that 甲骨文 (literally translates to Oracle bone script) was the earliest form of Chinese characters. These characters were carved onto animal bones or turtle shells, and mainly used for divination during the Shang dynasty. However, given its level of sophistication, Professor Zheng Huisheng (郑慧生老师) from Henan University posited Chinese writing had its roots in an earlier form, 陶文 (script etched on ancient pottery). Regardless, Chinese script underwent thousands of years of evolution over the dynasties before maturing into the form we know and use today.
@@ -100,7 +100,7 @@ My understanding about the history of computing came from reading books and watc
 
 <figure>
     <figcaption>毕昇插图</figcaption>
-    <img src="{{ site.url }}/images/posts/zh-type/bisheng.jpg" srcset="{{ site.url }}/images/posts/zh-type/bisheng@2x.jpg 2x" />
+    <img src="{{ site.url }}/assets/images/posts/zh-type/bisheng.jpg" srcset="{{ site.url }}/assets/images/posts/zh-type/bisheng@2x.jpg 2x" />
 </figure>
 
 *FYI, printing was invented by 毕昇 (Bi Sheng) during the Song dynasty. Not much is known about the details of his life, but it seemed he worked at a print shop. It was there he created the first movable type system using clay types.*
@@ -115,7 +115,7 @@ Traditionally, Chinese was written in its classical form, known as 文言文 (po
 
 <figure>
     <figcaption>戏本子</figcaption>
-    <img src="{{ site.url }}/images/posts/zh-type/punctuation.jpg" srcset="{{ site.url }}/images/posts/zh-type/punctuation@2x.jpg 2x" />
+    <img src="{{ site.url }}/assets/images/posts/zh-type/punctuation.jpg" srcset="{{ site.url }}/assets/images/posts/zh-type/punctuation@2x.jpg 2x" />
 </figure>
 
 As the language evolved, the spoken version of Chinese started to diverge from this classical style and eventually became quite distinct. Even though some well-known novels like 红楼梦 (Dream of the Red Chamber) and 西游记 (Journey to the West) were written in vernacular Chinese, formal texts were written in classical Chinese. Hence, a majority of the population who weren't educated in classical Chinese could not understand much of the printed texts.
@@ -145,15 +145,15 @@ The **block flow direction** refers to the direction block-level boxes stack and
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Vertical left-to-right</figcaption>
-         <img src="{{ site.url }}/images/posts/zh-type/v-ltr.svg" />
+         <img src="{{ site.url }}/assets/images/posts/zh-type/v-ltr.svg" />
     </figure>
     <figure class="multiple">
         <figcaption>Vertical right-to-left</figcaption>
-         <img src="{{ site.url }}/images/posts/zh-type/v-rtl.svg" />
+         <img src="{{ site.url }}/assets/images/posts/zh-type/v-rtl.svg" />
     </figure>
     <figure class="multiple">
         <figcaption>Horizontal left-to-right</figcaption>
-         <img src="{{ site.url }}/images/posts/zh-type/h-ltr.svg" />
+         <img src="{{ site.url }}/assets/images/posts/zh-type/h-ltr.svg" />
     </figure>
 </div>
 
@@ -287,8 +287,8 @@ This property also only applies to vertical writing modes. It combines multiple 
 [Typochina](http://www.comdesignlab.com/typochina/) is a research group out of [Comdesign Lab](http://www.comdesignlab.com/), a design research institution established by the School of Design of Hunan University. They've published a number of articles about the history, various resources and research on Han characters. If you can read Chinese, you definitely should check it out. I've used the article [文字的故事](http://www.comdesignlab.com/typochina/chinese/archives/393) for this typographical experiment.
 
 <figure>
-    <figcaption>Here be <a href="{{ site.url }}/zh-type">the demo</a>.</figcaption>
-    <img srcset="{{ site.url }}/images/posts/zh-type/demo-480.jpg 480w, {{ site.url }}/images/posts/zh-type/demo-640.jpg 640w, {{ site.url }}/images/posts/zh-type/demo-960.jpg 960w, {{ site.url }}/images/posts/zh-type/demo-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/zh-type/demo-640.jpg" alt="Demo screenshot" />
+    <figcaption>Here be <a href="{{ site.url }}/assets/zh-type">the demo</a>.</figcaption>
+    <img srcset="{{ site.url }}/assets/images/posts/zh-type/demo-480.jpg 480w, {{ site.url }}/assets/images/posts/zh-type/demo-640.jpg 640w, {{ site.url }}/assets/images/posts/zh-type/demo-960.jpg 960w, {{ site.url }}/assets/images/posts/zh-type/demo-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/zh-type/demo-640.jpg" alt="Demo screenshot" />
 </figure>
 
 ### Typographic styles for Chinese text

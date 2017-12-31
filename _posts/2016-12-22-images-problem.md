@@ -9,7 +9,7 @@ Okay, that wasn't my best headline, writing is hard <span class="emoji" role="im
 
 And because I'm a weirdo who likes charts, I wanted to see how this weight gain happened over the past 6 years. It probably crept up on us, I mean, you can't just wake up 30 pounds heavier overnight. As of 2 Dec 2016, the average size of a web page is 2.46mb, and 1.623mb (or 65.9%) of that is made up of images. So I plotted the weights of different content types over time to how the trend looked. If images were donuts, the web was eating more and more of them over time.
 
-<img srcset="{{ site.url }}/images/posts/image-perf/page-weight-480.png 480w, {{ site.url }}/images/posts/image-perf/page-weight-640.png 640w, {{ site.url }}/images/posts/image-perf/page-weight-960.png 960w, {{ site.url }}/images/posts/image-perf/page-weight-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/image-perf/page-weight-640.png" alt="Page weight trends" />
+<img srcset="{{ site.url }}/assets/images/posts/image-perf/page-weight-480.png 480w, {{ site.url }}/assets/images/posts/image-perf/page-weight-640.png 640w, {{ site.url }}/assets/images/posts/image-perf/page-weight-960.png 960w, {{ site.url }}/assets/images/posts/image-perf/page-weight-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/image-perf/page-weight-640.png" alt="Page weight trends" />
 
 ## Throwing numbers like I just don't care
 
@@ -50,11 +50,11 @@ Let's talk about the art direction of the images themselves first. There are cer
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Marketing image</figcaption>
-        <img src="{{ site.url }}/images/posts/image-perf/coffee.jpg" srcset="{{ site.url }}/images/posts/image-perf/coffee@2x.jpg 2x" alt="Original"/>
+        <img src="{{ site.url }}/assets/images/posts/image-perf/coffee.jpg" srcset="{{ site.url }}/assets/images/posts/image-perf/coffee@2x.jpg 2x" alt="Original"/>
     </figure>
     <figure class="multiple">
         <figcaption>Product shot</figcaption>
-        <img src="{{ site.url }}/images/posts/image-perf/sneakers.jpg" srcset="{{ site.url }}/images/posts/image-perf/sneakers@2x.jpg 2x" alt="Save for Web"/>
+        <img src="{{ site.url }}/assets/images/posts/image-perf/sneakers.jpg" srcset="{{ site.url }}/assets/images/posts/image-perf/sneakers@2x.jpg 2x" alt="Save for Web"/>
     </figure>
 </div>
 
@@ -65,11 +65,11 @@ Grey-scale images have smaller file sizes than colour images, hence if art direc
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption><a href="http://blank.com.pt/">Blank Art Direction</a></figcaption>
-        <img src="{{ site.url }}/images/posts/image-perf/blank.png" srcset="{{ site.url }}/images/posts/image-perf/blank@2x.png 2x" alt="Blank"/>
+        <img src="{{ site.url }}/assets/images/posts/image-perf/blank.png" srcset="{{ site.url }}/assets/images/posts/image-perf/blank@2x.png 2x" alt="Blank"/>
     </figure>
     <figure class="multiple">
         <figcaption><a href="http://mulberrystreetcreative.com/">Mulberry Street Creative</a></figcaption>
-        <img src="{{ site.url }}/images/posts/image-perf/msc.jpg" srcset="{{ site.url }}/images/posts/image-perf/msc@2x.jpg 2x" alt="Mulberry Street Creative"/>
+        <img src="{{ site.url }}/assets/images/posts/image-perf/msc.jpg" srcset="{{ site.url }}/assets/images/posts/image-perf/msc@2x.jpg 2x" alt="Mulberry Street Creative"/>
     </figure>
 </div>
 
@@ -98,11 +98,11 @@ With JPEG, you shouldn’t save the same image file again and again because doin
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Original</figcaption>
-        <img src="{{ site.url }}/images/posts/image-perf/orig.jpg" srcset="{{ site.url }}/images/posts/image-perf/orig@2x.jpg 2x" alt="Original"/>
+        <img src="{{ site.url }}/assets/images/posts/image-perf/orig.jpg" srcset="{{ site.url }}/assets/images/posts/image-perf/orig@2x.jpg 2x" alt="Original"/>
     </figure>
     <figure class="multiple">
         <figcaption>Save for Web</figcaption>
-        <img src="{{ site.url }}/images/posts/image-perf/opt.jpg" srcset="{{ site.url }}/images/posts/image-perf/opt@2x.jpg 2x" alt="Save for Web"/>
+        <img src="{{ site.url }}/assets/images/posts/image-perf/opt.jpg" srcset="{{ site.url }}/assets/images/posts/image-perf/opt@2x.jpg 2x" alt="Save for Web"/>
     </figure>
 </div>
 

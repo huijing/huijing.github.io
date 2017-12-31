@@ -30,7 +30,7 @@
     {% endif %}
 
     {% if page.project %}
-      <meta content="{{ site.url }}/images/posts/projects/{{ page.image }}.png" property="og:image">
+      <meta content="{{ site.url }}/assets/images/posts/projects/{{ page.image }}.png" property="og:image">
       <meta name="twitter:card" content="summary_large_image">
     {% endif %}
   {% else %}
@@ -43,18 +43,18 @@
 
   {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-    <meta content="{{ site.url }}/about/" property="article:author">
+    <meta content="{{ site.url }}/assets/about/" property="article:author">
   {% endif %}
 
   {% if page.image %}
     {% unless page.project %}
-      <meta content="{{ site.url }}/images/posts/{{ page.image }}.jpg" property="og:image">
-      <meta name="twitter:image" content="{{ site.url }}/images/posts/{{ page.image }}.jpg" />
+      <meta content="{{ site.url }}/assets/images/posts/{{ page.image }}.jpg" property="og:image">
+      <meta name="twitter:image" content="{{ site.url }}/assets/images/posts/{{ page.image }}.jpg" />
       <meta name="twitter:card" content="summary_large_image">
     {% endunless %}
   {% else %}
-    <meta content="{{ site.url }}/images/avatar.jpg" property="og:image">
-    <meta name="twitter:image" content="{{ site.url }}/images/avatar.jpg" />
+    <meta content="{{ site.url }}/assets/images/avatar.jpg" property="og:image">
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/avatar.jpg" />
     <meta name="twitter:card" content="summary">
   {% endif %}
 
@@ -78,18 +78,18 @@
   <link href="https://micro.blog/huijing" rel="me" />
 
   {% if page.is_post %}
-    <link rel="stylesheet" href="{{ "/css/posts.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/posts.css" | prepend: site.baseurl }}">
   {% else %}
-    <link rel="stylesheet" href="{{ "/css/pages.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/assets/css/pages.css" | prepend: site.baseurl }}">
   {% endif %}
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/favicons/manifest.json">
-  <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#009418">
-  <link rel="shortcut icon" href="/favicons/favicon.ico">
-  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#009418">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
 </head>

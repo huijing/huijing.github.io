@@ -8,7 +8,7 @@ tags: [client-work, drupal8]
 ---
 It's time for my annual Drupal project again. I had actually got my start in web development with Drupal and although I've left agency life, it seems that I'd still end up with at least one Drupal project a year. Largely because when someone needs a CMS, I tend to lean toward Drupal, it's like Linus and his blanket <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>.
 
-<img srcset="{{ site.url }}/images/posts/sinvict/sinvict-480.jpg 480w, {{ site.url }}/images/posts/sinvict/sinvict-640.jpg 640w, {{ site.url }}/images/posts/sinvict/sinvict-960.jpg 960w, {{ site.url }}/images/posts/sinvict/sinvict-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/sinvict/sinvict-640.jpg" alt="Sinvict Technology" />
+<img srcset="{{ site.url }}/assets/images/posts/sinvict/sinvict-480.jpg 480w, {{ site.url }}/assets/images/posts/sinvict/sinvict-640.jpg 640w, {{ site.url }}/assets/images/posts/sinvict/sinvict-960.jpg 960w, {{ site.url }}/assets/images/posts/sinvict/sinvict-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/sinvict/sinvict-640.jpg" alt="Sinvict Technology" />
 
 Sinvict Technology is a company that manufactures CNC (Computer Numerical Control) machinery, as well as repairs and servicing for those machines. With their main client base in the South-east Asia region, one of their key concerns was to have their website be performant on dodgy network connections, as their existing site was around 11mb and took 1 minute to load. (I know this because I checked it, to prove a point <span class="emoji" role="img" tabindex="0" aria-label="smiling face with horns">&#x1F608;</span>)
 
@@ -51,7 +51,7 @@ A major change from Drupal 7 to Drupal 8 is the use of Twig as the templating la
 
 A really helpful developer tweak is the ability to turn on debug mode, which adds comments when you inspect through DevTools that indicate which template suggestions work best for the specific section you're trying to customise.
 
-<img srcset="{{ site.url }}/images/posts/sinvict/twig-debug-480.jpg 480w, {{ site.url }}/images/posts/sinvict/twig-debug-640.jpg 640w, {{ site.url }}/images/posts/sinvict/twig-debug-960.jpg 960w, {{ site.url }}/images/posts/sinvict/twig-debug-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/sinvict/twig-debug-640.jpg" alt="Twig debugging in Drupal 8" />
+<img srcset="{{ site.url }}/assets/images/posts/sinvict/twig-debug-480.jpg 480w, {{ site.url }}/assets/images/posts/sinvict/twig-debug-640.jpg 640w, {{ site.url }}/assets/images/posts/sinvict/twig-debug-960.jpg 960w, {{ site.url }}/assets/images/posts/sinvict/twig-debug-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/sinvict/twig-debug-640.jpg" alt="Twig debugging in Drupal 8" />
 
 Drupal 8 has pretty much has a revamped file and folder structure, so custom themes now go into the `/themes` folder, which to me, is much more intuitive. All the core files can be found in the `/core` folder, default themes and modules included. 
 
@@ -61,14 +61,14 @@ We put in some little animations to spruce things up a bit, with this particular
 
 <figure>
     <figcaption>Flippy flippy.</figcaption>
-    <video src="{{ site.url }}/videos/flipper.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/flipper.mp4" controls></video>
 </figure>
 
 There was also liberal use of viewport units throughout the entire theme. The quote marks on the About page are pseudo-elements placed behind the quote text, and they adjust themselves because, you know, media queries. And if you play the short video below, you'll notice use of the `picture` element where two different iamges are used for the banner depending on the screen width.
 
 <figure>
     <figcaption>Gotta have a good quote.</figcaption>
-    <video src="{{ site.url }}/videos/quotemarks.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/quotemarks.mp4" controls></video>
 </figure>
 
 ## Page performance
@@ -78,11 +78,11 @@ So one of the requirements was to NOT have the page be like 11mb and take 1 minu
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>WebPageTest</figcaption>
-        <img src="{{ site.url }}/images/posts/sinvict/perf.jpg" srcset="{{ site.url }}/images/posts/sinvict/perf@2x.jpg 2x" />
+        <img src="{{ site.url }}/assets/images/posts/sinvict/perf.jpg" srcset="{{ site.url }}/assets/images/posts/sinvict/perf@2x.jpg 2x" />
     </figure>
     <figure class="multiple">
         <figcaption>GTMetrix</figcaption>
-        <img src="{{ site.url }}/images/posts/sinvict/perf2.jpg" srcset="{{ site.url }}/images/posts/sinvict/perf2@2x.jpg 2x" />
+        <img src="{{ site.url }}/assets/images/posts/sinvict/perf2.jpg" srcset="{{ site.url }}/assets/images/posts/sinvict/perf2@2x.jpg 2x" />
     </figure>
 </div>
 

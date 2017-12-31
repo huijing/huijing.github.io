@@ -34,7 +34,7 @@ When she started talking about telling a story through the lens of a 16mm camera
 
 <figure>
     <figcaption>Took some DevTools manipulation to get this screenshot...</figcaption>
-    <img srcset="{{ site.url }}/images/posts/webic-community/webic-language-480.jpg 480w, {{ site.url }}/images/posts/webic-community/webic-language-640.jpg 640w, {{ site.url }}/images/posts/webic-community/webic-language-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/webic-community/webic-language-640.jpg" alt="Jen Simmons UX Burlington slide on developing a webic language" />
+    <img srcset="{{ site.url }}/assets/images/posts/webic-community/webic-language-480.jpg 480w, {{ site.url }}/assets/images/posts/webic-community/webic-language-640.jpg 640w, {{ site.url }}/assets/images/posts/webic-community/webic-language-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/webic-community/webic-language-640.jpg" alt="Jen Simmons UX Burlington slide on developing a webic language" />
 </figure>
 
 The reason I find Jen so compelling, is that she isn't prescriptive when she shares her ideas. She does not go around telling people that this one way is the best way to do something. Instead, she encourages her audience to think further, to figure things out together, to build on top of each other's creativity.
@@ -51,7 +51,7 @@ The field of front-end has yet to be defined, because our industry moves too qui
 
 <figure>
     <figcaption>Convergence (1952) by Jackson Pollock</figcaption>
-    <img srcset="{{ site.url }}/images/posts/webic-community/convergence-480.jpg 480w, {{ site.url }}/images/posts/webic-community/convergence-640.jpg 640w, {{ site.url }}/images/posts/webic-community/convergence-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/webic-community/convergence-640.jpg" alt="Convergence (1952) by Jackson Pollock" />
+    <img srcset="{{ site.url }}/assets/images/posts/webic-community/convergence-480.jpg 480w, {{ site.url }}/assets/images/posts/webic-community/convergence-640.jpg 640w, {{ site.url }}/assets/images/posts/webic-community/convergence-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/webic-community/convergence-640.jpg" alt="Convergence (1952) by Jackson Pollock" />
 </figure>
 
 The front-end skill set is not discrete, where you only do one thing. Neither is it a spectrum, where you do several things that are adjacent to each other. It's more like a Jackson Pollock painting (during his drip period), sprawling and all over the place.
@@ -81,7 +81,7 @@ This is why Talk.CSS want to have more people who identify as designers in our a
 
 <figure>
     <figcaption>Banner designed and maintained in the browser</figcaption>
-    <img srcset="{{ site.url }}/images/posts/webic-community/talkcss-480.png 480w, {{ site.url }}/images/posts/webic-community/talkcss-640.png 640w, {{ site.url }}/images/posts/webic-community/talkcss-960.png 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/webic-community/talkcss-640.png" alt="Talk.CSS #24 banner" />
+    <img srcset="{{ site.url }}/assets/images/posts/webic-community/talkcss-480.png 480w, {{ site.url }}/assets/images/posts/webic-community/talkcss-640.png 640w, {{ site.url }}/assets/images/posts/webic-community/talkcss-960.png 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/webic-community/talkcss-640.png" alt="Talk.CSS #24 banner" />
 </figure>
 
 We didn't plan for it to turn out this way, but it just so happened that the first Talk.CSS of 2018 will be our biggest event to date. It's part of [DevFest.Asia 2018](https://2018.jsconf.asia/#events), which is the week of tech meetups that lead up to [JSConf.Asia 2018](https://2018.jsconf.asia/) and we've managed to snag [Mandy Michael](http://batmandy.com/), [Andy Clarke](https://stuffandnonsense.co.uk/) and [John Allsop](http://johnfallsopp.com/), in addition of our own [Zell Liew](https://zellwk.com/) and [Sebastiaan Deckers](https://twitter.com/sebdeckers) for a full 3-hour design and CSS extravaganza.
@@ -94,7 +94,7 @@ I'm constantly saying to anyone who will listen, that Singapore has one of the s
 
 <figure>
     <figcaption>Geekbrunch, because we like to gather, eat and talk</figcaption>
-    <img srcset="{{ site.url }}/images/posts/webic-community/geekbrunch-480.jpg 480w, {{ site.url }}/images/posts/webic-community/geekbrunch-640.jpg 640w, {{ site.url }}/images/posts/webic-community/geekbrunch-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/webic-community/geekbrunch-640.jpg" alt="Geekbrunch #5" />
+    <img srcset="{{ site.url }}/assets/images/posts/webic-community/geekbrunch-480.jpg 480w, {{ site.url }}/assets/images/posts/webic-community/geekbrunch-640.jpg 640w, {{ site.url }}/assets/images/posts/webic-community/geekbrunch-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/webic-community/geekbrunch-640.jpg" alt="Geekbrunch #5" />
 </figure>
 
 The tech industry [needs design more than ever](https://m.signalvnoise.com/move-slowly-and-fix-things-e5a560fd928b) and Southeast Asia is brimming with talented designers and developers who can definitely make a difference and offer an alternative perspective. Nobody is going to hand us a seat at the table, but we have to make our voices heard. Maybe it'll work, maybe it won't. But shame on me if I didn't even try.

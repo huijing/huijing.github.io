@@ -31,7 +31,7 @@ They have collectively been implemented into a stand-alone Layout panel, which a
 
 <figure>
     <figcaption>Firefox DevTools layout panel in 58.0a1</figcaption>
-    <img srcset="{{ site.url }}/images/posts/grid-inspector/layout-panel-480.png 480w, {{ site.url }}/images/posts/grid-inspector/layout-panel-640.png 640w, {{ site.url }}/images/posts/grid-inspector/layout-panel-960.png 960w, {{ site.url }}/images/posts/grid-inspector/layout-panel-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-inspector/layout-panel-640.png" alt="Firefox DevTools layout panel" />
+    <img srcset="{{ site.url }}/assets/images/posts/grid-inspector/layout-panel-480.png 480w, {{ site.url }}/assets/images/posts/grid-inspector/layout-panel-640.png 640w, {{ site.url }}/assets/images/posts/grid-inspector/layout-panel-960.png 960w, {{ site.url }}/assets/images/posts/grid-inspector/layout-panel-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-inspector/layout-panel-640.png" alt="Firefox DevTools layout panel" />
 </figure>
 
 ### Overlay Grid
@@ -40,28 +40,28 @@ The first section you will see in the layout panel is **Overlay Grid**, which wi
 
 <figure>
     <figcaption>Toggle grid overlay</figcaption>
-    <video src="{{ site.url }}/videos/gi-name-tooltip.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gi-name-tooltip.mp4" controls></video>
 </figure>
 
 Every additional grid will have a different colour from the default purple, but you are free to change the colours of your grid overlays by clicking on the coloured circle on the right of each grid element. The grid overlay will show all the grid tracks and grid gaps of the selected grid.
 
 <figure>
     <figcaption>Customise the grid overlay if you want to</figcaption>
-    <img srcset="{{ site.url }}/images/posts/grid-inspector/grid-colour-480.png 480w, {{ site.url }}/images/posts/grid-inspector/grid-colour-640.png 640w, {{ site.url }}/images/posts/grid-inspector/grid-colour-960.png 960w, {{ site.url }}/images/posts/grid-inspector/grid-colour-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-inspector/grid-colour-640.png" alt="Change the colours on the grid overlay" />
+    <img srcset="{{ site.url }}/assets/images/posts/grid-inspector/grid-colour-480.png 480w, {{ site.url }}/assets/images/posts/grid-inspector/grid-colour-640.png 640w, {{ site.url }}/assets/images/posts/grid-inspector/grid-colour-960.png 960w, {{ site.url }}/assets/images/posts/grid-inspector/grid-colour-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-inspector/grid-colour-640.png" alt="Change the colours on the grid overlay" />
 </figure>
 
 Once you select a grid, a rendering of the selected grid will appear in the space below in the colour of the grid overlay. This rendering will show you each section of the grid you defined and hovering over any section will highlight its corresponding area on the actual page. There will also be a tool-tip that shows you the line number of the row and column of the highlighted grid item.
 
 <figure>
     <figcaption>Visual highlighting tool</figcaption>
-    <video src="{{ site.url }}/videos/gi-area-highlight.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gi-area-highlight.mp4" controls></video>
 </figure>
 
 Most of us would be in the *Rules* panel when examining the CSS on our site, and you can toggle the grid overlay from there as well. Select the element which has `display: grid` applied to it, and click on the waffle-like icon on the property. The options for display of line numbers or grid area names that have been set on the *Layout Panel* will be respected when the grid overlay is toggled in this manner.
 
 <figure>
     <figcaption>Toggle Grid overlay via Rules panel</figcaption>
-    <img srcset="{{ site.url }}/images/posts/grid-inspector/waffle-480.png 480w, {{ site.url }}/images/posts/grid-inspector/waffle-640.png 640w, {{ site.url }}/images/posts/grid-inspector/waffle-960.png 960w, {{ site.url }}/images/posts/grid-inspector/waffle-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-inspector/waffle-640.png" alt="Click on the waffle-like icon" />
+    <img srcset="{{ site.url }}/assets/images/posts/grid-inspector/waffle-480.png 480w, {{ site.url }}/assets/images/posts/grid-inspector/waffle-640.png 640w, {{ site.url }}/assets/images/posts/grid-inspector/waffle-960.png 960w, {{ site.url }}/assets/images/posts/grid-inspector/waffle-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-inspector/waffle-640.png" alt="Click on the waffle-like icon" />
 </figure>
 
 ### Grid Display Settings
@@ -72,7 +72,7 @@ The basic premise of how Grid works is that you first define a grid, then procee
 
 <figure>
     <figcaption>Toggling line numbers on the grid overlay</figcaption>
-    <video src="{{ site.url }}/videos/gi-line-numbers.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gi-line-numbers.mp4" controls></video>
 </figure>
 
 Once *Display line numbers* is active, the selected grid overlay will display the line numbers of the grid in the colour of each respective grid overlay. Each grid has their own numerical grid index which starts from 1, different grids will not share the same numerical grid index.
@@ -80,11 +80,11 @@ Once *Display line numbers* is active, the selected grid overlay will display th
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Line numbers cut off at the top edge</figcaption>
-        <img src="{{ site.url }}/images/posts/grid-inspector/cut-off1.png" srcset="{{ site.url }}/images/posts/grid-inspector/cut-off1@2x.png 2x" />
+        <img src="{{ site.url }}/assets/images/posts/grid-inspector/cut-off1.png" srcset="{{ site.url }}/assets/images/posts/grid-inspector/cut-off1@2x.png 2x" />
     </figure>
     <figure class="multiple">
         <figcaption>Line numbers cut off at the side edge</figcaption>
-        <img src="{{ site.url }}/images/posts/grid-inspector/cut-off2.png" srcset="{{ site.url }}/images/posts/grid-inspector/cut-off2@2x.png 2x" />
+        <img src="{{ site.url }}/assets/images/posts/grid-inspector/cut-off2.png" srcset="{{ site.url }}/assets/images/posts/grid-inspector/cut-off2@2x.png 2x" />
     </figure>
 </div>
 
@@ -106,28 +106,28 @@ This creates a 3 by 3 grid and each section is named according to how they are l
 
 <figure>
     <figcaption>Grid area name tool-tip</figcaption>
-    <video src="{{ site.url }}/videos/gi-name-tooltip.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gi-name-tooltip.mp4" controls></video>
 </figure>
 
 We can also toggle display of the grid area names on the grid overlay by checking that option in **Grid Display Settings**. According to Mozilla, this feature was inspired by [CSS Grid Template Builder](https://codepen.io/anthonydugois/full/RpYBmy), which was created by [Anthony Dugois](http://anthonydugois.com/).
 
 <figure>
     <figcaption>Toggle display of grid area names</figcaption>
-    <video src="{{ site.url }}/videos/gi-area-name.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gi-area-name.mp4" controls></video>
 </figure>
 
 Fun fact. You can use emojis for grid area names and everything will work just fine.
 
 <figure>
     <figcaption>Grid area names work with emoji</figcaption>
-    <img srcset="{{ site.url }}/images/posts/grid-inspector/area-name-480.png 480w, {{ site.url }}/images/posts/grid-inspector/area-name-640.png 640w, {{ site.url }}/images/posts/grid-inspector/area-name-960.png 960w, {{ site.url }}/images/posts/grid-inspector/area-name-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-inspector/area-name-640.png" alt="View grid area names on grid overlay" />
+    <img srcset="{{ site.url }}/assets/images/posts/grid-inspector/area-name-480.png 480w, {{ site.url }}/assets/images/posts/grid-inspector/area-name-640.png 640w, {{ site.url }}/assets/images/posts/grid-inspector/area-name-960.png 960w, {{ site.url }}/assets/images/posts/grid-inspector/area-name-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-inspector/area-name-640.png" alt="View grid area names on grid overlay" />
 </figure>
 
 The last option you can toggle is to extend grid lines indefinitely. By default, the grid lines on each grid are constrained to within the bounds of the grid container. But sometimes it can be useful to see how the grid aligns in the context of the entire page.
 
 <figure>
     <figcaption>Extend grid lines indefinitely</figcaption>
-    <video src="{{ site.url }}/videos/gi-extend-lines.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gi-extend-lines.mp4" controls></video>
 </figure>
 
 ## A better Box Model tool
@@ -138,7 +138,7 @@ The computed value of the height and width of the selected element and its curre
 
 <figure>
     <figcaption>Tweak properties directly from box model panel</figcaption>
-    <video src="{{ site.url }}/videos/gi-box-model.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gi-box-model.mp4" controls></video>
 </figure>
 
 If you use CSS lengths other than pixels, the DevTools will convert the values into pixels automatically based on the computed value, which is really nifty.
@@ -149,7 +149,7 @@ There are many instances where Grid will be used in combination with other CSS l
 
 <figure>
     <figcaption>Grid and Transforms are a great combination</figcaption>
-    <video src="{{ site.url }}/videos/gi-transforms.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/gi-transforms.mp4" controls></video>
 </figure>
 
 ## Help make the Grid Inspector tool better
@@ -160,7 +160,7 @@ The metabug, which tracks all Grid Inspector related issues, is [Bug 1181227](ht
 
 <figure>
     <figcaption>Search for <em>Grid Inspector</em> on Bugzilla</figcaption>
-    <img srcset="{{ site.url }}/images/posts/grid-inspector/bugzilla-480.png 480w, {{ site.url }}/images/posts/grid-inspector/bugzilla-640.png 640w, {{ site.url }}/images/posts/grid-inspector/bugzilla-960.png 960w, {{ site.url }}/images/posts/grid-inspector/bugzilla-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-inspector/bugzilla-640.png" alt="Raise any issues you find at Bugzilla" />
+    <img srcset="{{ site.url }}/assets/images/posts/grid-inspector/bugzilla-480.png 480w, {{ site.url }}/assets/images/posts/grid-inspector/bugzilla-640.png 640w, {{ site.url }}/assets/images/posts/grid-inspector/bugzilla-960.png 960w, {{ site.url }}/assets/images/posts/grid-inspector/bugzilla-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-inspector/bugzilla-640.png" alt="Raise any issues you find at Bugzilla" />
 </figure>
 
 If you have any suggestions or feedback on the Grid Inspector tool, or the Firefox DevTools in general, Mozilla is on [Discourse](https://discourse.mozilla.org/c/devtools). Or you can also tweet at [@FirefoxDevTools](https://twitter.com/FirefoxDevTools).

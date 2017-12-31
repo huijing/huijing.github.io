@@ -12,7 +12,7 @@ So my friend runs [Epyphite](https://www.epyphite.com/), a technology company fo
 
 One fine day, I found myself with a spare afternoon, and decided to do something about the Epyphite website, which he was more than happy to let me run riot on. He just mentioned that the guys liked the existing colour scheme. Great, with that in mind, let's see what could be done in one afternoon. *Spoiler alert: <span class="emoji" role="img" tabindex="0" aria-label="pointing down">&#x1F447;</span>*
 
-<img srcset="{{ site.url }}/images/posts/epyphite/epyphite-480.jpg 480w, {{ site.url }}/images/posts/epyphite/epyphite-640.jpg 640w, {{ site.url }}/images/posts/epyphite/epyphite-960.jpg 960w, {{ site.url }}/images/posts/epyphite/epyphite-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/epyphite/epyphite-640.jpg" alt="Epyphite" />
+<img srcset="{{ site.url }}/assets/images/posts/epyphite/epyphite-480.jpg 480w, {{ site.url }}/assets/images/posts/epyphite/epyphite-640.jpg 640w, {{ site.url }}/assets/images/posts/epyphite/epyphite-960.jpg 960w, {{ site.url }}/assets/images/posts/epyphite/epyphite-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/epyphite/epyphite-640.jpg" alt="Epyphite" />
 
 ## Phase 1: Evaluating the present
 
@@ -22,7 +22,7 @@ The way the site was setup, it was pretty easy to see where the relevant files a
 
 I wasn't joking when I said the site was slapped together. There were a lot of files and libraries that were not relevant in the slightest. The site itself didn't look *that* bad, but it definitely could be better.
 
-<img srcset="{{ site.url }}/images/posts/epyphite/before-480.png 480w, {{ site.url }}/images/posts/epyphite/before-640.png 640w, {{ site.url }}/images/posts/epyphite/before-960.png 960w, {{ site.url }}/images/posts/epyphite/before-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/epyphite/before-640.png" alt="epyphite chicken" />
+<img srcset="{{ site.url }}/assets/images/posts/epyphite/before-480.png 480w, {{ site.url }}/assets/images/posts/epyphite/before-640.png 640w, {{ site.url }}/assets/images/posts/epyphite/before-960.png 960w, {{ site.url }}/assets/images/posts/epyphite/before-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/epyphite/before-640.png" alt="epyphite chicken" />
 
 **Conclusion:** wipe everything from those 2 folders and rewrite from scratch.
 
@@ -67,11 +67,11 @@ According to Wikipedia, an epiphyte is a plant that grows harmlessly upon anothe
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Original stock photo</figcaption>
-        <img src="{{ site.url }}/images/posts/epyphite/stock.jpg" srcset="{{ site.url }}/images/posts/epyphite/stock@2x.jpg 2x" />
+        <img src="{{ site.url }}/assets/images/posts/epyphite/stock.jpg" srcset="{{ site.url }}/assets/images/posts/epyphite/stock@2x.jpg 2x" />
     </figure>
     <figure class="multiple">
         <figcaption>Magic of Photoshop</figcaption>
-        <img src="{{ site.url }}/images/posts/epyphite/manip.jpg" srcset="{{ site.url }}/images/posts/epyphite/manip@2x.jpg 2x" />
+        <img src="{{ site.url }}/assets/images/posts/epyphite/manip.jpg" srcset="{{ site.url }}/assets/images/posts/epyphite/manip@2x.jpg 2x" />
     </figure>
 </div>
 
@@ -87,7 +87,7 @@ The original layout was, how shall we put this, rather repetitive. Each piece of
 
 <figure>
     <figcaption>I spy a pattern all the way down</figcaption>
-    <img src="{{ site.url }}/images/posts/epyphite/pattern.png" srcset="{{ site.url }}/images/posts/epyphite/pattern@2x.png 2x" />
+    <img src="{{ site.url }}/assets/images/posts/epyphite/pattern.png" srcset="{{ site.url }}/assets/images/posts/epyphite/pattern@2x.png 2x" />
 </figure> 
 
 The markup for the site was rewritten to minimise nesting and have a proper structural hierarchy. You can see the outline from the [Nu HTML Checker](https://validator.w3.org/nu/?showoutline=yes&doc=https%3A%2F%2Fwww.epyphite.com%2F), which I find kinda nifty. Following that, the entire layout and design would be fully handled by CSS.
@@ -131,7 +131,7 @@ Since we have flexbox in our toolbox, I wanted to do a layout that was quite the
 
 <figure>
     <figcaption>A diagram is probably easier to understand</figcaption>
-    <img style="width:50%;" src="{{ site.url }}/images/posts/epyphite/diagram.svg"/>
+    <img style="width:50%;" src="{{ site.url }}/assets/images/posts/epyphite/diagram.svg"/>
 </figure> 
 
 It used to be a pain to this using a plethora of floats. Changing the markup structure wasn't a great idea either, the sections wouldn't stack nicely on a narrow screen. But now, we have flexbox, and life is different. With the `order` property, I could do get that pattern on a wide screen without messing up the source order.
@@ -139,11 +139,11 @@ It used to be a pain to this using a plethora of floats. Changing the markup str
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Wide screen</figcaption>
-        <img src="{{ site.url }}/images/posts/epyphite/products-wide.png" srcset="{{ site.url }}/images/posts/epyphite/products-wide@2x.png 2x" />
+        <img src="{{ site.url }}/assets/images/posts/epyphite/products-wide.png" srcset="{{ site.url }}/assets/images/posts/epyphite/products-wide@2x.png 2x" />
     </figure>
     <figure class="multiple">
         <figcaption>Narrow screen</figcaption>
-        <img src="{{ site.url }}/images/posts/epyphite/products-narrow.png" srcset="{{ site.url }}/images/posts/epyphite/products-narrow@2x.png 2x" />
+        <img src="{{ site.url }}/assets/images/posts/epyphite/products-narrow.png" srcset="{{ site.url }}/assets/images/posts/epyphite/products-narrow@2x.png 2x" />
     </figure>
 </div>
 

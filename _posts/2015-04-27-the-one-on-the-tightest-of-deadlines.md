@@ -66,7 +66,7 @@ By the end of Phase 1, the team of content migrators could start porting over th
 This was one of the most challenging projects I've ever worked on. And yes, it was a stressful endeavour (I'd like to think I'm not the only person who thinks 27 sites in 30 days is challenging) but I learnt so much from this experience.
 <figure>
     <figcaption><strong>Magazine sites</strong></figcaption>
-    <img src="{{ site.url }}/images/posts/xinmsn/magazines.jpg" alt="Magazine sites"/>
+    <img src="{{ site.url }}/assets/images/posts/xinmsn/magazines.jpg" alt="Magazine sites"/>
 </figure>
 
 I can't say enough about the importance of planning. And yet, it must be expected that things will not go according to plan. For all the preparation in the world, you will never be able to predict what happens during the game. The key to winning the game is the ability to react to game situations. Preparation provides the confidence required to make those game-time decisions.
@@ -75,7 +75,7 @@ There were certain things that deviated from the original project plan because a
 
 <figure>
     <figcaption><strong>Radio sites</strong></figcaption>
-    <img src="{{ site.url }}/images/posts/xinmsn/radios.jpg" alt="Radio sites"/>
+    <img src="{{ site.url }}/assets/images/posts/xinmsn/radios.jpg" alt="Radio sites"/>
 </figure>
 
 This project would not have been successful without the cooperation and collaboration between all involved parties. The client was responsive and understanding. Most importantly, they trusted us to do our job well. And in return, it was our responsibility to keep them in the loop and updated throughout the entire process. Open communication, as well as always being cognizant of the project goal, was what kept us on track.

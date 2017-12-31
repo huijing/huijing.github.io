@@ -16,7 +16,7 @@ I've become pretty fond of [Jekyll](https://jekyllrb.com/) to spin up simple web
 
 Anyway, if you're curious, [StaticGen](https://www.staticgen.com/) lists all the open-source static site generators out there by GitHub stars. So the site is built on Jekyll, and hosted on GitHub pages, because we're too poor for paid hosting. Nor did we have the funds to purchase a domain name. Life. <span class="kaomoji">¯\\\_(ツ)\_/¯</span> 
 
-If you're interested in my Jekyll site workflow, check out [this post]({{ site.url }}/blog/gulp-jekyll-github/) which covers all the steps from setting up the repository to the gulp-run workflow.
+If you're interested in my Jekyll site workflow, check out [this post]({{ site.url }}/assets/blog/gulp-jekyll-github/) which covers all the steps from setting up the repository to the gulp-run workflow.
 
 I don't know about you, but I'm one of those people who can spend hours happily searching for a font that feels right. [Abduzeedo's](http://abduzeedo.com/) [Friday Fresh Free Font](http://abduzeedo.com/tags/ffff) segment has a lot of solid fonts. There are also those ever-so-popular listicle-style posts which feature new and noteworthy fonts. I originally wanted to use [Ahamono](https://www.behance.net/gallery/19532783/AhamonoMonospaced) but the kerning didn't feel right on the body copy, and the stylised descenders looked a bit odd. I eventually settled for [Hack](http://sourcefoundry.org/hack/).
 
@@ -79,7 +79,7 @@ Instead I used a technique I recently learned from reading [Quick Tip: Fixing th
 Earlier in March, [Roel Nieskens](https://twitter.com/pixelambacht) released [Bixa Color](https://bixacolor.com/), the first chromatic webfont as a collaboration with [Novo Typo](http://www.novotypo.nl/). Ever since I heard [Chris Lilley](https://twitter.com/svgeesus) (another man you really should follow) talk about [webfonts at CSSConf.Asia](https://www.youtube.com/watch?v=Mho5DIT6MWM) last year, I was intrigued by the concept of chromatic fonts. Bixa Color is definitely a display font, so I just used it for the site title. Right now it's only viewable on Firefox, but the built-in fallback (black) works on every other browser.
 <figure>
     <figcaption>For the benefit of people without Firefox.</figcaption>
-    <img src="{{ site.url }}/images/posts/talk-css/bixa.jpg" srcset="{{ site.url }}/images/posts/talk-css/bixa@2x.jpg 2x" alt="Bixa Color font"/>
+    <img src="{{ site.url }}/assets/images/posts/talk-css/bixa.jpg" srcset="{{ site.url }}/assets/images/posts/talk-css/bixa@2x.jpg 2x" alt="Bixa Color font"/>
 </figure>
 
 ### Flexbox
@@ -88,7 +88,7 @@ This site is not complicated. I could probably get away with almost no layout at
 
 <figure>
     <figcaption>Look at those beautiful faces.</figcaption>
-    <img src="{{ site.url }}/images/posts/talk-css/flexbox.jpg" srcset="{{ site.url }}/images/posts/talk-css/flexbox@2x.jpg 2x" alt="3 column grid"/>
+    <img src="{{ site.url }}/assets/images/posts/talk-css/flexbox.jpg" srcset="{{ site.url }}/assets/images/posts/talk-css/flexbox@2x.jpg 2x" alt="3 column grid"/>
 </figure>
 
 <pre><code class="language-scss">.o-flex {
@@ -117,7 +117,7 @@ First point, we can style the alternative text by applying typography-related pr
 
 <figure>
     <figcaption>So you screwed up and broke your images. Pre-emptive styling ftw!</figcaption>
-    <img src="{{ site.url }}/images/posts/talk-css/broken-image.jpg" srcset="{{ site.url }}/images/posts/talk-css/broken-image@2x.jpg 2x" alt="Styled broken image"/>
+    <img src="{{ site.url }}/assets/images/posts/talk-css/broken-image.jpg" srcset="{{ site.url }}/assets/images/posts/talk-css/broken-image@2x.jpg 2x" alt="Styled broken image"/>
 </figure>
 
 <pre><code class="language-scss">.c-video__img {

@@ -5,7 +5,7 @@ date: Dec 11, 2017
 tags: [css]
 hastweet: true
 ---
-When I was [working out the kinks]({{ site.url }}/blog/vertical-typesetting-revisited/) in my year-old vertical typesetting demo, I attempted to use CSS grid as one of the options for handling layout, but didn't get very far, because at that point, my brain had pretty much melted down <span class="emoji" role="img" tabindex="0" aria-label="confused face">&#x1F615;</span>. But I'm on a plane now, surrounded by people who are staring at code, so I felt sort of motivated to do something useful as well.
+When I was [working out the kinks]({{ site.url }}/assets/blog/vertical-typesetting-revisited/) in my year-old vertical typesetting demo, I attempted to use CSS grid as one of the options for handling layout, but didn't get very far, because at that point, my brain had pretty much melted down <span class="emoji" role="img" tabindex="0" aria-label="confused face">&#x1F615;</span>. But I'm on a plane now, surrounded by people who are staring at code, so I felt sort of motivated to do something useful as well.
 
 The thing I want to work out is how CSS grid works when the writing mode is vertical, and how that affects Firefox's Grid Inspector as well. Since I wrote a reasonably in-depth post on the Firefox Grid Inspector, I figured I'd better understand it as thoroughly as I could.
 
@@ -34,7 +34,7 @@ I started off with the most basic of markup structures. Because reduced test cas
 
 <figure>
     <figcaption>Basic markup structure (vertical-rl on html element)</figcaption>
-    <img srcset="{{ site.url }}/images/posts/grid-vertical/markup-480.jpg 480w, {{ site.url }}/images/posts/grid-vertical/markup-640.jpg 640w, {{ site.url }}/images/posts/grid-vertical/markup-960.jpg 960w, {{ site.url }}/images/posts/grid-vertical/markup-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-vertical/markup-640.jpg" alt="Basic markup structure" />
+    <img srcset="{{ site.url }}/assets/images/posts/grid-vertical/markup-480.jpg 480w, {{ site.url }}/assets/images/posts/grid-vertical/markup-640.jpg 640w, {{ site.url }}/assets/images/posts/grid-vertical/markup-960.jpg 960w, {{ site.url }}/assets/images/posts/grid-vertical/markup-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-vertical/markup-640.jpg" alt="Basic markup structure" />
 </figure>
 
 I didn't know how grid rows and grid columns would work in vertical mode, so let's take a look at the specification.
@@ -43,7 +43,7 @@ I didn't know how grid rows and grid columns would work in vertical mode, so let
 
 I interpret this as, when the document has been set to `vertical-rl`, grid columns run top-to-bottom while grid rows run right-to-left like so:
 
-<img style="max-height:15em;" src="{{ site.url }}/images/posts/grid-vertical/grid-lines.svg" alt="Vertical writing-mode grid lines" />
+<img style="max-height:15em;" src="{{ site.url }}/assets/images/posts/grid-vertical/grid-lines.svg" alt="Vertical writing-mode grid lines" />
 
 Let's see if that's the case by creating a layout with the `figure` element as the grid container. I want the 2 images to stack on top of each other, and the caption to stretch the length below (i.e. to the left) both images.
 
@@ -59,20 +59,20 @@ figure {
 
 Let's visualise my target end-result and their corresponding line numbers.
 
-<img style="max-height:15em;" src="{{ site.url }}/images/posts/grid-vertical/simple.svg" alt="Basic grid layout" />
+<img style="max-height:15em;" src="{{ site.url }}/assets/images/posts/grid-vertical/simple.svg" alt="Basic grid layout" />
 
 There seems to be some issues with the Grid Inspector tool here. I guess we'll be flying blind from here on out.
 
 <figure>
     <figcaption>Something doesn't seem quite right here...</figcaption>
-    <img srcset="{{ site.url }}/images/posts/grid-vertical/problem-480.jpg 480w, {{ site.url }}/images/posts/grid-vertical/problem-640.jpg 640w, {{ site.url }}/images/posts/grid-vertical/problem-960.jpg 960w, {{ site.url }}/images/posts/grid-vertical/problem-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-vertical/problem-640.jpg" alt="Grid inspector tool issue" />
+    <img srcset="{{ site.url }}/assets/images/posts/grid-vertical/problem-480.jpg 480w, {{ site.url }}/assets/images/posts/grid-vertical/problem-640.jpg 640w, {{ site.url }}/assets/images/posts/grid-vertical/problem-960.jpg 960w, {{ site.url }}/assets/images/posts/grid-vertical/problem-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-vertical/problem-640.jpg" alt="Grid inspector tool issue" />
 </figure>
 
 Before I started using the Grid Inspector tool, I would apply borders to the grid items. It wasn't the best solution, because I couldn't actually see the grid tracks, but it'd have to do for now.
 
 <figure>
     <figcaption>Borders, borders everywhere!</figcaption>
-    <img srcset="{{ site.url }}/images/posts/grid-vertical/borders-480.jpg 480w, {{ site.url }}/images/posts/grid-vertical/borders-640.jpg 640w, {{ site.url }}/images/posts/grid-vertical/borders-960.jpg 960w, {{ site.url }}/images/posts/grid-vertical/borders-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-vertical/borders-640.jpg" alt="Borders around grid items" />
+    <img srcset="{{ site.url }}/assets/images/posts/grid-vertical/borders-480.jpg 480w, {{ site.url }}/assets/images/posts/grid-vertical/borders-640.jpg 640w, {{ site.url }}/assets/images/posts/grid-vertical/borders-960.jpg 960w, {{ site.url }}/assets/images/posts/grid-vertical/borders-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-vertical/borders-640.jpg" alt="Borders around grid items" />
 </figure>
 
 Okay, this reduced test case looks like Grid is working just fine in vertical writing-mode. So this is the code that will give me the layout I wanted in my earlier write-up (ignore the `border` code).
@@ -96,7 +96,7 @@ figcaption {
 
 <figure>
     <figcaption>Here we go</figcaption>
-    <img srcset="{{ site.url }}/images/posts/grid-vertical/aligned-480.png 480w, {{ site.url }}/images/posts/grid-vertical/aligned-640.png 640w, {{ site.url }}/images/posts/grid-vertical/aligned-960.png 960w, {{ site.url }}/images/posts/grid-vertical/aligned-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/grid-vertical/aligned-640.png" alt="Aligned grid items" />
+    <img srcset="{{ site.url }}/assets/images/posts/grid-vertical/aligned-480.png 480w, {{ site.url }}/assets/images/posts/grid-vertical/aligned-640.png 640w, {{ site.url }}/assets/images/posts/grid-vertical/aligned-960.png 960w, {{ site.url }}/assets/images/posts/grid-vertical/aligned-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-vertical/aligned-640.png" alt="Aligned grid items" />
 </figure>
 
 ## Expanded test case

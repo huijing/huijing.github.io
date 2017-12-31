@@ -30,22 +30,22 @@ There are 4 Operating Systems that can run Opera Mini: Android, iOS, J2ME and Wi
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>iOS</figcaption>
-        <img src="{{ site.url }}/images/posts/opera-mini/ios.png" srcset="{{ site.url }}/images/posts/opera-mini/ios@2x.png 2x" />
+        <img src="{{ site.url }}/assets/images/posts/opera-mini/ios.png" srcset="{{ site.url }}/assets/images/posts/opera-mini/ios@2x.png 2x" />
     </figure>
     <figure class="multiple">
         <figcaption>Android</figcaption>
-        <img src="{{ site.url }}/images/posts/opera-mini/android.png" srcset="{{ site.url }}/images/posts/opera-mini/android@2x.png 2x" />
+        <img src="{{ site.url }}/assets/images/posts/opera-mini/android.png" srcset="{{ site.url }}/assets/images/posts/opera-mini/android@2x.png 2x" />
     </figure>
 </div>
 
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>J2ME</figcaption>
-        <img src="{{ site.url }}/images/posts/opera-mini/j2me.png" srcset="{{ site.url }}/images/posts/opera-mini/j2me@2x.png 2x" />
+        <img src="{{ site.url }}/assets/images/posts/opera-mini/j2me.png" srcset="{{ site.url }}/assets/images/posts/opera-mini/j2me@2x.png 2x" />
     </figure>
     <figure class="multiple">
         <figcaption>Windows 10</figcaption>
-        <img src="{{ site.url }}/images/posts/opera-mini/win10.png" srcset="{{ site.url }}/images/posts/opera-mini/win10@2x.png 2x" />
+        <img src="{{ site.url }}/assets/images/posts/opera-mini/win10.png" srcset="{{ site.url }}/assets/images/posts/opera-mini/win10@2x.png 2x" />
     </figure>
 </div>
 
@@ -59,7 +59,7 @@ Opera Mini can act as a proxy browser, meaning the requests from the browser wil
 
 <figure>
     <figcaption>Opera Mini architecture diagram</figcaption>
-    <img src="{{ site.url }}/images/posts/opera-mini/architecture.svg" />
+    <img src="{{ site.url }}/assets/images/posts/opera-mini/architecture.svg" />
 </figure>
 
 The transcoding process involves parsing of HTML and CSS, as well as execution of Javascript. What is received by Opera Mini at the end of it is an “interactive snapshot of the document's state”. The data savings from this can be up to 90% over the network, but the downsides are standards support is limited, hence quite a few CSS properties are not supported and Javascript may not behave in ways you expect.
@@ -121,7 +121,7 @@ Yes, it will be a bit tricky when it comes to using `@supports` for certain feat
 Jen Simmons wrote an extensive article called [Using Feature Queries in CSS](https://hacks.mozilla.org/2016/08/using-feature-queries-in-css/) which discussed such tricky situations, specifically “Browsers that support do not Feature Queries, yet do support the feature in question”.
 
 <figure>
-    <img src="{{ site.url }}/images/posts/opera-mini/matrix.png" srcset="{{ site.url }}/images/posts/opera-mini/matrix@2x.png 2x" alt="Matrix of @supports"/>
+    <img src="{{ site.url }}/assets/images/posts/opera-mini/matrix.png" srcset="{{ site.url }}/assets/images/posts/opera-mini/matrix@2x.png 2x" alt="Matrix of @supports"/>
     <figcaption>Uni-kitty &copy; Jen Simmons</figcaption>
 </figure>
 
@@ -176,7 +176,7 @@ That approach would also turn off the language switcher feature from IE11, becau
 If you look at my [source code](https://gitlab.com/penang-hokkien/penang-hokkien.gitlab.io), you will notice lots of browser hacks here and there. This is largely due to the fact that there are still a bunch of `writing-mode` bugs in different browsers. I have styles that are Firefox-specific, Edge-specific, IE11-specific and so on. Is it more code? Yes. I cannot deny that. But at least I get to use the latest CSS features and stil deliver a readable experience to browsers that don't support them.
 
 <figure>
-    <img src="{{ site.url }}/images/posts/opera-mini/opera-mini.png" srcset="{{ site.url }}/images/posts/opera-mini/opera-mini@2x.png 2x" />
+    <img src="{{ site.url }}/assets/images/posts/opera-mini/opera-mini.png" srcset="{{ site.url }}/assets/images/posts/opera-mini/opera-mini@2x.png 2x" />
     <figcaption>It doesn't look great, but all the content is readable</figcaption>
 </figure>
 

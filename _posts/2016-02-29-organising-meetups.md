@@ -46,11 +46,11 @@ For people who don't care for gardening, Gardenia plants have these glossy green
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>This be a Gardenia plant</figcaption>
-        <img src="{{ site.url }}/images/posts/organiser/gardenia.jpg" srcset="{{ site.url }}/images/posts/organiser/gardenia@2x.jpg 2x" alt="Gardenias"/>
+        <img src="{{ site.url }}/assets/images/posts/organiser/gardenia.jpg" srcset="{{ site.url }}/assets/images/posts/organiser/gardenia@2x.jpg 2x" alt="Gardenias"/>
     </figure>
     <figure class="multiple">
         <figcaption>And this be Cacti</figcaption>
-        <img src="{{ site.url }}/images/posts/organiser/cactus.jpg" srcset="{{ site.url }}/images/posts/organiser/cactus@2x.jpg 2x" alt="Cacti"/>
+        <img src="{{ site.url }}/assets/images/posts/organiser/cactus.jpg" srcset="{{ site.url }}/assets/images/posts/organiser/cactus@2x.jpg 2x" alt="Cacti"/>
     </figure>
 </div>
 
@@ -75,7 +75,7 @@ In theatre, an understudy is the actor who learns all the lines, dances and song
 
 <figure>
     <figcaption>This is not the swing you're looking for</figcaption>
-    <img src="{{ site.url }}/images/posts/organiser/swing.jpeg" srcset="{{ site.url }}/images/posts/organiser/swing@2x.jpeg 2x" alt="Random swing"/>
+    <img src="{{ site.url }}/assets/images/posts/organiser/swing.jpeg" srcset="{{ site.url }}/assets/images/posts/organiser/swing@2x.jpeg 2x" alt="Random swing"/>
 </figure>
 
 Things may not go according to plan, and your speakers may be sick or unavailable. I like to have at least a couple topics in my back pocket to do an impromptu talk to fill in the extra time, so the attendees aren't being short-changed. Or have some other contingency plan, like maybe a quiz or a mini-hack session or something.

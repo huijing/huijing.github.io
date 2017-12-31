@@ -5,7 +5,7 @@ date: August 11, 2015
 tags: [drupal7, theming]
 category: planet-drupal
 ---
-*Update: I finally got around to writing that [Drupal 8 theming post]({{ site.url }}/blog/drupal-101-d8-theming/) after two years.*
+*Update: I finally got around to writing that [Drupal 8 theming post]({{ site.url }}/assets/blog/drupal-101-d8-theming/) after two years.*
 
 With Drupal 8 just around the corner, it may seem odd that I would write a post about Drupal 7 theming, but I figured it would take some time for Drupal 8 to really become mainstream. Also, when I do write that Drupal 8 theming post (coming soon), we can do some one to one comparisons on the things that have changed. Trust me, there are a lot of differences between the two.
 
@@ -34,7 +34,7 @@ Defines the human-readable version of your theme name. This is the name that sho
 Optional but recommended to have. This is a brief description of your theme, which shows up below your theme name on the <em>Administration > Appearance</em> screen.</p>
 <pre><code class="language-markup">description = A custom responsive Godzilla-based theme</code></pre>
 
-<img srcset="{{ site.url }}/images/posts/d7-theming/info-480.jpg 480w, {{ site.url }}/images/posts/d7-theming/info-640.jpg 640w, {{ site.url }}/images/posts/d7-theming/info-960.jpg 960w, {{ site.url }}/images/posts/d7-theming/info-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/d7-theming/info-640.jpg" alt="Theme selection" />
+<img srcset="{{ site.url }}/assets/images/posts/d7-theming/info-480.jpg 480w, {{ site.url }}/assets/images/posts/d7-theming/info-640.jpg 640w, {{ site.url }}/assets/images/posts/d7-theming/info-960.jpg 960w, {{ site.url }}/assets/images/posts/d7-theming/info-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/d7-theming/info-640.jpg" alt="Theme selection" />
 
 <p class="no-margin"><strong>core</strong> <em>(required)</em><br>
 Indicates what major version of Drupal the theme is compatible with. If this does not match the version of Drupal installed, the theme will be disabled.</p>

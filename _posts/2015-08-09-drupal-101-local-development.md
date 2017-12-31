@@ -41,7 +41,7 @@ Installing all these programs alone is not the end of it. These programs, specif
 
 ## Must-have tools
 
-Admittedly, we developers love our tools. But if something can streamline your workflow and reduce your development time, why not? Don't worry, this is not a long list, there are only two tools we really need. Git and Drush. I've already written about these two tools and how to install them in a previous post about [developing Drupal sites as a team]({{ site.url }}/blog/team-drupal-development/). You can skip straight to the parts on [installing Drush]({{ site.url }}/blog/team-drupal-development/#installing-drush) and [installing Git]({{ site.url }}/blog/team-drupal-development/#installing-git).
+Admittedly, we developers love our tools. But if something can streamline your workflow and reduce your development time, why not? Don't worry, this is not a long list, there are only two tools we really need. Git and Drush. I've already written about these two tools and how to install them in a previous post about [developing Drupal sites as a team]({{ site.url }}/assets/blog/team-drupal-development/). You can skip straight to the parts on [installing Drush]({{ site.url }}/assets/blog/team-drupal-development/#installing-drush) and [installing Git]({{ site.url }}/assets/blog/team-drupal-development/#installing-git).
 
 ## Installing Drupal locally
 
@@ -53,13 +53,13 @@ Admittedly, we developers love our tools. But if something can streamline your w
 4. Depending on what you use to manage databases, create a new mySQL database. You should have a user name and password which you set up when you installed MySQL on your system earlier. These credentials have to be entered when you install Drupal via the browser interface in the next steps.
 5. On your browser, navigate to the root of the site, in this case, `http://localhost`.
     - You will be redirected to the `install.php` page. Select *Standard* and continue.
-    <img srcset="{{ site.url }}/images/posts/local-dev/local-dev-480.jpg 480w, {{ site.url }}/images/posts/local-dev/local-dev-640.jpg 640w, {{ site.url }}/images/posts/local-dev/local-dev-960.jpg 960w, {{ site.url }}/images/posts/local-dev/local-dev-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/local-dev/local-dev-640.jpg" alt="Install" />
+    <img srcset="{{ site.url }}/assets/images/posts/local-dev/local-dev-480.jpg 480w, {{ site.url }}/assets/images/posts/local-dev/local-dev-640.jpg 640w, {{ site.url }}/assets/images/posts/local-dev/local-dev-960.jpg 960w, {{ site.url }}/assets/images/posts/local-dev/local-dev-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/local-dev/local-dev-640.jpg" alt="Install" />
     - Choose the default language and click next. For the database setup, enter the name of the database you created earlier, with your MySQL credentials. The advanced options can be left as default.
-    <img srcset="{{ site.url }}/images/posts/local-dev/local-dev2-480.jpg 480w, {{ site.url }}/images/posts/local-dev/local-dev2-640.jpg 640w, {{ site.url }}/images/posts/local-dev/local-dev2-960.jpg 960w, {{ site.url }}/images/posts/local-dev/local-dev2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/local-dev/local-dev2-640.jpg" alt="Database setup" />
+    <img srcset="{{ site.url }}/assets/images/posts/local-dev/local-dev2-480.jpg 480w, {{ site.url }}/assets/images/posts/local-dev/local-dev2-640.jpg 640w, {{ site.url }}/assets/images/posts/local-dev/local-dev2-960.jpg 960w, {{ site.url }}/assets/images/posts/local-dev/local-dev2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/local-dev/local-dev2-640.jpg" alt="Database setup" />
     - Drupal should start installing. 
-    <img srcset="{{ site.url }}/images/posts/local-dev/local-dev3-480.jpg 480w, {{ site.url }}/images/posts/local-dev/local-dev3-640.jpg 640w, {{ site.url }}/images/posts/local-dev/local-dev3-960.jpg 960w, {{ site.url }}/images/posts/local-dev/local-dev3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/local-dev/local-dev3-640.jpg" alt="Installation running" />
+    <img srcset="{{ site.url }}/assets/images/posts/local-dev/local-dev3-480.jpg 480w, {{ site.url }}/assets/images/posts/local-dev/local-dev3-640.jpg 640w, {{ site.url }}/assets/images/posts/local-dev/local-dev3-960.jpg 960w, {{ site.url }}/assets/images/posts/local-dev/local-dev3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/local-dev/local-dev3-640.jpg" alt="Installation running" />
     - Set up the user 1 account. This account is the superadmin account which can access everything on the site.
-    <img srcset="{{ site.url }}/images/posts/local-dev/local-dev4-480.jpg 480w, {{ site.url }}/images/posts/local-dev/local-dev4-640.jpg 640w, {{ site.url }}/images/posts/local-dev/local-dev4-960.jpg 960w, {{ site.url }}/images/posts/local-dev/local-dev4-1168.jpg 1168w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/local-dev/local-dev4-640.jpg" alt="Install" />
+    <img srcset="{{ site.url }}/assets/images/posts/local-dev/local-dev4-480.jpg 480w, {{ site.url }}/assets/images/posts/local-dev/local-dev4-640.jpg 640w, {{ site.url }}/assets/images/posts/local-dev/local-dev4-960.jpg 960w, {{ site.url }}/assets/images/posts/local-dev/local-dev4-1168.jpg 1168w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/local-dev/local-dev4-640.jpg" alt="Install" />
     - Your site should be successfully set up.
 
 <p class="no-margin">You may also need to develop multiple sites concurrently on your machine, and this will require more steps to setup that I will not cover here, but you can check out the following articles to point you in the right direction.</p>
@@ -76,7 +76,7 @@ To double check that Drush is installed correctly on your system, navigate to th
 <pre><code class="language-bash">drush status</code></pre>
 
 You should see something like this:
-  <img srcset="{{ site.url }}/images/posts/local-dev/drush-480.jpg 480w, {{ site.url }}/images/posts/local-dev/drush-640.jpg 640w, {{ site.url }}/images/posts/local-dev/drush-960.jpg 960w, {{ site.url }}/images/posts/local-dev/drush-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/local-dev/drush-640.jpg" alt="Install" />
+  <img srcset="{{ site.url }}/assets/images/posts/local-dev/drush-480.jpg 480w, {{ site.url }}/assets/images/posts/local-dev/drush-640.jpg 640w, {{ site.url }}/assets/images/posts/local-dev/drush-960.jpg 960w, {{ site.url }}/assets/images/posts/local-dev/drush-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/local-dev/drush-640.jpg" alt="Install" />
 
 <p class="no-margin">The modules are as follows:</p>
 <ul>

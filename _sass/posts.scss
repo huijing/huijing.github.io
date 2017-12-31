@@ -79,7 +79,7 @@ figure {
   float: left;
   shape-image-threshold: 0.5;
   shape-margin: 1em;
-  shape-outside: url('/images/posts/css-shapes/beyonce.png');
+  shape-outside: url('/assets/images/posts/css-shapes/beyonce.png');
   width: 50%;
 
   @include mappy-bp(small) {
@@ -166,7 +166,7 @@ figure {
 }
 
 .note {
-  background: url('/images/bg-note.jpg');
+  background: url('/assets/images/bg-note.jpg');
   padding: 0.5em 1em;
   font-size: 85%;
   border-left: 0.5em solid color('winter-hazel');

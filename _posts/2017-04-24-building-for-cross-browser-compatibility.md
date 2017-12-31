@@ -10,7 +10,7 @@ external_site: wismut
 ---
 *This is the third post of a multi-part series about developing the brand identity for Wismut Labs.*
 
-The [previous post]({{ site.url }}/blog/designing-for-the-web-in-the-browser/) covered a number of design decisions made with regards to the overall style of the Wismut Labs brand. This post will focus on the actual building of the Wismut Labs website.
+The [previous post]({{ site.url }}/assets/blog/designing-for-the-web-in-the-browser/) covered a number of design decisions made with regards to the overall style of the Wismut Labs brand. This post will focus on the actual building of the Wismut Labs website.
 
 ## We don't need no database
 
@@ -25,7 +25,7 @@ The [Liquid templating language](https://github.com/Shopify/liquid) confers a nu
 All developers have their preferred way of working, be it on our own, or as part of a team, regardless of programming language or domain. For web development, a tool that I've found indispensable is [Browsersync](https://www.browsersync.io/). It allows for the synchronised testing of websites across different devices as long as they are all on the same local network, as well as live reloading.
 
 <figure>
-    <img src="{{ site.url }}/assets/img/posts/fe-sitebuilding/browsersync.jpg" srcset="{{ site.url }}/assets/img/posts/fe-sitebuilding/browsersync@2x.jpg 2x" />
+    <img src="{{ site.url }}/assets/assets/img/posts/fe-sitebuilding/browsersync.jpg" srcset="{{ site.url }}/assets/assets/img/posts/fe-sitebuilding/browsersync@2x.jpg 2x" />
     <figcaption>Browsers, browsers everywhere</figcaption>
 </figure>
 
@@ -146,15 +146,15 @@ For browsers that don't support CSS shapes, there is a different set of styles a
 
 <div class="l-figwrapper">
     <figure class="l-multiple u-hidden@small">
-        <img src="{{ site.url }}/assets/img/posts/fe-designingweb/layout3.png" srcset="{{ site.url }}/assets/img/posts/fe-designingweb/layout3@2x.png 2x" />
+        <img src="{{ site.url }}/assets/assets/img/posts/fe-designingweb/layout3.png" srcset="{{ site.url }}/assets/assets/img/posts/fe-designingweb/layout3@2x.png 2x" />
         <figcaption>Narrow screens</figcaption>
     </figure>
     <figure class="l-multiple">
-        <img src="{{ site.url }}/assets/img/posts/fe-designingweb/layout2.png" srcset="{{ site.url }}/assets/img/posts/fe-designingweb/layout2@2x.png 2x" />
+        <img src="{{ site.url }}/assets/assets/img/posts/fe-designingweb/layout2.png" srcset="{{ site.url }}/assets/assets/img/posts/fe-designingweb/layout2@2x.png 2x" />
         <figcaption>Widescreen on browsers without CSS shapes support</figcaption>
     </figure>
     <figure class="l-multiple">
-        <img src="{{ site.url }}/assets/img/posts/fe-designingweb/layout1.png" srcset="{{ site.url }}/assets/img/posts/fe-designingweb/layout1@2x.png 2x" />
+        <img src="{{ site.url }}/assets/assets/img/posts/fe-designingweb/layout1.png" srcset="{{ site.url }}/assets/assets/img/posts/fe-designingweb/layout1@2x.png 2x" />
         <figcaption>Widescreen on browsers supporting CSS shapes</figcaption>
     </figure>
 </div>
@@ -165,11 +165,11 @@ CSS serves to enhance the look and feel of a website, but the underlying structu
 
 <div class="l-figwrapper">
     <figure class="multiple">
-        <img src="{{ site.url }}/assets/img/posts/fe-sitebuilding/lynx.png" srcset="{{ site.url }}/assets/img/posts/fe-sitebuilding/lynx@2x.png 2x" />
+        <img src="{{ site.url }}/assets/assets/img/posts/fe-sitebuilding/lynx.png" srcset="{{ site.url }}/assets/assets/img/posts/fe-sitebuilding/lynx@2x.png 2x" />
         <figcaption>Works on Lynx</figcaption>
     </figure>
     <figure class="multiple">
-        <img src="{{ site.url }}/assets/img/posts/fe-sitebuilding/operamini.png" srcset="{{ site.url }}/assets/img/posts/fe-sitebuilding/operamini@2x.png 2x" />
+        <img src="{{ site.url }}/assets/assets/img/posts/fe-sitebuilding/operamini.png" srcset="{{ site.url }}/assets/assets/img/posts/fe-sitebuilding/operamini@2x.png 2x" />
         <figcaption>Also looks decent on Opera Mini</figcaption>
     </figure>
 </div>
@@ -180,5 +180,5 @@ There are many considerations when it comes to designing and building a website.
 
 And with that, we've reached the end of this series. Hopefully, this has given you a better understanding of the values our company is built on, as well as some insight into the process of developing the brand identity for Wismut Labs.
 
-*Read Part 1: [What's in a name? Behind the branding of Wismut Labs]({{ site.url }}/blog/whats-in-a-name/)*  
-*Read Part 2: [Designing for the web in the browser]({{ site.url }}/blog/designing-for-the-web-in-the-browser/)*
+*Read Part 1: [What's in a name? Behind the branding of Wismut Labs]({{ site.url }}/assets/blog/whats-in-a-name/)*  
+*Read Part 2: [Designing for the web in the browser]({{ site.url }}/assets/blog/designing-for-the-web-in-the-browser/)*

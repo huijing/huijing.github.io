@@ -8,16 +8,16 @@ Since I started my career on the web, I've been building websites that follow st
 
 ## Attempt 1: Just rotate them divs
 
-On the first pass, I hadn't gotten my hands on the actual design yet, but started experimenting with HTML and CSS first, just to try out a few ideas I had. The first thing that came to mind was using **CSS transforms**, considering I had already [written about it]({{ site.url }}/blog/basics-of-css-transforms/) earlier. Nothing a little `transform: rotate(45deg)` couldn't do, right? Unfortunately, things weren't all that straightforward. The general layout consisted of 2 small diamonds, 2 medium diamonds and 1 large diamond, all aligned to relative to each other on the grid. There would also be an alternate layout to switch things up a bit.
+On the first pass, I hadn't gotten my hands on the actual design yet, but started experimenting with HTML and CSS first, just to try out a few ideas I had. The first thing that came to mind was using **CSS transforms**, considering I had already [written about it]({{ site.url }}/assets/blog/basics-of-css-transforms/) earlier. Nothing a little `transform: rotate(45deg)` couldn't do, right? Unfortunately, things weren't all that straightforward. The general layout consisted of 2 small diamonds, 2 medium diamonds and 1 large diamond, all aligned to relative to each other on the grid. There would also be an alternate layout to switch things up a bit.
 
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Main layout</figcaption>
-        <img src="{{ site.url }}/images/posts/diamond/layout-1.jpg" srcset="{{ site.url }}/images/posts/diamond/layout-1@2x.jpg 2x" alt="Layout 1"/>
+        <img src="{{ site.url }}/assets/images/posts/diamond/layout-1.jpg" srcset="{{ site.url }}/assets/images/posts/diamond/layout-1@2x.jpg 2x" alt="Layout 1"/>
     </figure>
     <figure class="multiple">
         <figcaption>Alternate layout</figcaption>
-        <img src="{{ site.url }}/images/posts/diamond/layout-2.jpg" srcset="{{ site.url }}/images/posts/diamond/layout-2@2x.jpg 2x" alt="Layout 2"/>
+        <img src="{{ site.url }}/assets/images/posts/diamond/layout-2.jpg" srcset="{{ site.url }}/assets/images/posts/diamond/layout-2@2x.jpg 2x" alt="Layout 2"/>
     </figure>
 </div>
 
@@ -66,17 +66,17 @@ Some of you who are much smarter than me would immediately recognise that this m
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Piece of cake, just apply rotation...</figcaption>
-        <img src="{{ site.url }}/images/posts/diamond/attempt1a.jpg" srcset="{{ site.url }}/images/posts/diamond/attempt1a@2x.jpg 2x" alt="Attempt 1"/>
+        <img src="{{ site.url }}/assets/images/posts/diamond/attempt1a.jpg" srcset="{{ site.url }}/assets/images/posts/diamond/attempt1a@2x.jpg 2x" alt="Attempt 1"/>
     </figure>
     <figure class="multiple">
         <figcaption>Crap... ಠ_ಠ</figcaption>
-        <img src="{{ site.url }}/images/posts/diamond/attempt1b.jpg" srcset="{{ site.url }}/images/posts/diamond/attempt1b@2x.jpg 2x" alt="Attempt 1 fail"/>
+        <img src="{{ site.url }}/assets/images/posts/diamond/attempt1b.jpg" srcset="{{ site.url }}/assets/images/posts/diamond/attempt1b@2x.jpg 2x" alt="Attempt 1 fail"/>
     </figure>
 </div>
 
 ## Attempt 2: Clip off them divs
 
-That didn't go so well. Next idea on the list, **CSS clip-path**. This CSS property allows us to define a specified clipping region to be displayed. Anything outside this region will 'clipped' and won't be seen. The clipping region can be a path specified as a URL referencing an inline SVG or an external SVG. It can also be a shape method, like those used for [CSS shapes]({{ site.url }}/blog/why-you-should-be-excited-about-css-shapes/). Unfortunately, support for CSS clip-path is non-existent for any version of Internet Explorer. Firefox only supports the url() syntax, while Chrome supports shapes and inline SVG for the url() syntax, but not external SVG. I managed to find a cross-browser [polyfill for CSS clip-path](https://github.com/AlfonsoFilho/ClipPath), which should help.
+That didn't go so well. Next idea on the list, **CSS clip-path**. This CSS property allows us to define a specified clipping region to be displayed. Anything outside this region will 'clipped' and won't be seen. The clipping region can be a path specified as a URL referencing an inline SVG or an external SVG. It can also be a shape method, like those used for [CSS shapes]({{ site.url }}/assets/blog/why-you-should-be-excited-about-css-shapes/). Unfortunately, support for CSS clip-path is non-existent for any version of Internet Explorer. Firefox only supports the url() syntax, while Chrome supports shapes and inline SVG for the url() syntax, but not external SVG. I managed to find a cross-browser [polyfill for CSS clip-path](https://github.com/AlfonsoFilho/ClipPath), which should help.
 
 The idea is that each diamond is actually just a square unit with its corners clipped off, so the length of one square is the diagonal of the diamond. Tweak the variables a little bit, and voila:
 
@@ -96,7 +96,7 @@ Okay, back to the drawing board.
 
 My third attempt was actually just a reboot of the first attempt. These diamonds are simply squares that got rotated, so I had the benefit of working with isosceles right triangles, which made calculations much neater.
 
-<img srcset="{{ site.url }}/images/posts/diamond/trigonometry@2x.jpg 2x" src="{{ site.url }}/images/posts/diamond/trigonometry.jpg" alt="Isosceles right triangle" />
+<img srcset="{{ site.url }}/assets/images/posts/diamond/trigonometry@2x.jpg 2x" src="{{ site.url }}/assets/images/posts/diamond/trigonometry.jpg" alt="Isosceles right triangle" />
 
 Since the adjacent and opposite sides of the triangle were equal, the width of each diamond would be the length of the hypotenuse (or the side of the square) divided by the square root of 2. Now here's the tricky part, there is no direct way to calculate the square root of a number using CSS or Sass. Sorry, no `Math.sqrt()` for you. <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
 

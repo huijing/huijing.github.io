@@ -42,7 +42,7 @@ Speaking [FFC8](http://2017.formfunctionclass.com/) is definitely going to rank 
 
 <figure>
     <figcaption>Wondering what past me was thinking when I thought live-coding was a good idea, haha (joking...a little bit)</figcaption>
-    <img srcset="{{ site.url }}/images/posts/talking-css/ffc8-480.jpg 480w, {{ site.url }}/images/posts/talking-css/ffc8-640.jpg 640w, {{ site.url }}/images/posts/talking-css/ffc8-960.jpg 960w, {{ site.url }}/images/posts/talking-css/ffc8-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/ffc8-640.jpg" alt="On stage at FFC8" />
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css/ffc8-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css/ffc8-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css/ffc8-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css/ffc8-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css/ffc8-640.jpg" alt="On stage at FFC8" />
 </figure>
 
 Even though I rehearsed the talk a number of times, there were no guarantees that things wouldn't go wrong and there was a bit of a snag in terms of the set up. But I changed how the code was presented at the last minute so there was way less typing involved. Really relieved things didn't go badly <span class="emoji" role="img" tabindex="0" aria-label="relieved face">&#x1F60C;</span>.
@@ -69,7 +69,7 @@ Jeremy also suggested to do this recap of the Roadshow experience and so I'm wri
 
 <figure>
     <figcaption>“You know it's big business when Huijing Chen styles her hair and says no hokkien.” (photo credit: Elisha)</figcaption>
-    <img src="{{ site.url }}/images/posts/talking-css/moz-sin.jpg" srcset="{{ site.url }}/images/posts/talking-css/moz-sin@2x.jpg 2x" alt="Speaking at Singapore stop of Mozilla Developer Roadshow"/>
+    <img src="{{ site.url }}/assets/images/posts/talking-css/moz-sin.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css/moz-sin@2x.jpg 2x" alt="Speaking at Singapore stop of Mozilla Developer Roadshow"/>
 </figure>
 
 There's also a fantastic team working on capturing the best parts of the entire roadshow. I think full length talks will be released as well, so stay tuned. [Subscribe to the Mozilla Hacks Youtube channel](https://www.youtube.com/channel/UCijjo5gfAscWgNCKFHWm1EA?sub_confirmation=1)!
@@ -90,7 +90,7 @@ As someone who played a lot of video games growing up, using the controllers was
 
 <figure>
     <figcaption>No idea what I found so fascinating on the floor though</figcaption>
-    <img srcset="{{ site.url }}/images/posts/talking-css/moz-hcm-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-hcm-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-hcm-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-hcm-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-hcm-640.jpg" alt="Trying out A-Painter for the first time" />
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css/moz-hcm-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css/moz-hcm-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css/moz-hcm-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css/moz-hcm-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css/moz-hcm-640.jpg" alt="Trying out A-Painter for the first time" />
 </figure>
 
 Now that I've done the semi live-coding thing on my slides twice before, I was less nervous about the setup not going to plan, because yet again, my extended screen glitched and I ended up having to look at the main screen and type with one hand (because microphone). Turns out the first time in Manila was the most successful attempt <span class="emoji" role="img" tabindex="0" aria-label="ROFL">&#x1F923;</span>.
@@ -105,14 +105,14 @@ Even though the event is said to be in Kuala Lumpur, a local will tell you, tech
 
 <figure>
     <figcaption>So glad that there was time for David's talk this time</figcaption>
-    <img srcset="{{ site.url }}/images/posts/talking-css/moz-kl2-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-kl2-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-kl2-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-kl2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-kl2-640.jpg" alt="David Bryant on emerging technologies" />
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css/moz-kl2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css/moz-kl2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css/moz-kl2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css/moz-kl2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css/moz-kl2-640.jpg" alt="David Bryant on emerging technologies" />
 </figure>
 
 [David Bryant](https://twitter.com/david_bryant) rejoined our motley crew and gave a longer version of the emerging technologies talk, which included a fascinating section on [WebAssembly](http://webassembly.org/), as well as the research coming out of Mozilla on [speech interfaces](https://research.mozilla.org/machine-learning/). Also, Dietrich joined us for this leg of the roadshow! And somehow I was scheduled immediately after him again <span class="emoji" role="img" tabindex="0" aria-label="ROFL">&#x1F923;</span>.
 
 <figure>
     <figcaption>Class photo time! (someone is missing)</figcaption>
-    <img srcset="{{ site.url }}/images/posts/talking-css/moz-kl-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-kl-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-kl-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-kl-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-kl-640.jpg" alt="Almost every one for the KL roadshow" />
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css/moz-kl-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css/moz-kl-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css/moz-kl-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css/moz-kl-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css/moz-kl-640.jpg" alt="Almost every one for the KL roadshow" />
 </figure>
 
 And I didn't anticipate this at all, but there was a warm, fuzzy feeling to speaking in my own country <span class="emoji" role="img" tabindex="0" aria-label="red heart">&#x2764;&#xFE0F;</span>. It was the first time I did a talk in Malaysia. I don't expect everyone to understand this, but that moment when I mentioned “Saya bangga jadi anak Malaysia”, and the audience applauded, will be one of the highlights of this roadshow for me.
@@ -121,7 +121,7 @@ As someone who had the privilege and honour of representing the Malaysia women's
 
 <figure>
     <figcaption>Feeding the cats...</figcaption>
-    <img srcset="{{ site.url }}/images/posts/talking-css/moz-kl3-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-kl3-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-kl3-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-kl3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-kl3-640.jpg" alt="Dinner in KL, like really KL city" />
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css/moz-kl3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css/moz-kl3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css/moz-kl3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css/moz-kl3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css/moz-kl3-640.jpg" alt="Dinner in KL, like really KL city" />
 </figure>
 
 Anyway, my overly complicated talk setup went wrong again, this time, the resolution on the iPad was so off that I couldn't read a single word of my speaker notes. Guess it's a good thing I already did this talk a few times. But flying blind meant that I probably didn't keep to time that strictly. I just want the setup to work perfectly once. Just one time on this hectic tour <span class="emoji" role="img" tabindex="0" aria-label="crossed fingers">&#x1F91E;</span>.
@@ -136,7 +136,7 @@ Penang Hokkien is very distinct, and because it's not commonly heard outside Pen
 
 <figure>
     <figcaption>Penang is all about the food</figcaption>
-    <img srcset="{{ site.url }}/images/posts/talking-css/moz-pen3-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-pen3-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-pen3-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-pen3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-pen3-640.jpg" alt="Audience at the Penang event" />
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css/moz-pen3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css/moz-pen3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css/moz-pen3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css/moz-pen3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css/moz-pen3-640.jpg" alt="Audience at the Penang event" />
 </figure>
 
 We had a new friend join us on this leg of the tour, Mozilla representative and Infosec researcher, [Mijanur Rahman Rayhan](https://reps.mozilla.org/u/mijanur/), who is based in Bangladesh. He kicked things off with a great talk about privacy and security. Be sure to check out [his blog](https://rayhanroot.wordpress.com/) too!
@@ -145,14 +145,14 @@ Remember how my talk setup has never worked correctly? Ever? Well, turns out fou
 
 <figure>
     <figcaption>Charis in action!</figcaption>
-    <video src="{{ site.url }}/videos/moz-pen.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/moz-pen.mp4" controls></video>
 </figure>
 
 Dietrich was super entertaining as usual, and we had to say good bye after this because he was off to India next. We also had a super cool local artist, [Charis Loke](https://www.charisloke.com/) doing a live demo of A-Painter, her artwork was fantastic. And it was all live!
 
 <figure>
     <figcaption>Lovely people who came to the event</figcaption>
-    <img srcset="{{ site.url }}/images/posts/talking-css/moz-pen2-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-pen2-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-pen2-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-pen2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-pen2-640.jpg" alt="Audience at the Penang event" />
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css/moz-pen2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css/moz-pen2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css/moz-pen2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css/moz-pen2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css/moz-pen2-640.jpg" alt="Audience at the Penang event" />
 </figure>
 
 I also got the chance to chat with lots of lovely Penangites after the talks were over, about Penang, about speaking, about tech in Penang and Malaysia in general, and all sorts of other things. I might be part of DevFest Penang (I think that's what it's going to be called) in November as well. We'll see how that goes <span class="emoji" role="img" tabindex="0" aria-label="upside-down face">&#x1F643;</span>.
@@ -165,7 +165,7 @@ It's the grand finale of the Mozilla Developer Asia Roadshow and it has been an 
 
 <figure>
     <figcaption>Have to get some exercise in with Fabien and Markus</figcaption>
-    <img srcset="{{ site.url }}/images/posts/talking-css/moz-hk-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-hk-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-hk-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-hk-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-hk-640.jpg" alt="Hiked around Victoria Peak" />
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css/moz-hk-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css/moz-hk-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css/moz-hk-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css/moz-hk-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css/moz-hk-640.jpg" alt="Hiked around Victoria Peak" />
 </figure>
 
 The gang wasn't all staying at the same hotel this time because of some booking issues but we were still in close enough proximity with each other. If you've never been to Asia, and hear that Hong Kong and Singapore are the same, you're sadly mistaken. Asia (and to be fair, almost anywhere else in the world) is like VR, until you've experienced it first-hand, you don't know what it is.
@@ -176,14 +176,14 @@ For this stop, we had [Brian Birtles](https://birtles.wordpress.com/) and [Daisu
 
 <figure>
     <figcaption>Really informational AND fun talk on web animations</figcaption>
-    <img srcset="{{ site.url }}/images/posts/talking-css/moz-hk2-480.jpg 480w, {{ site.url }}/images/posts/talking-css/moz-hk2-640.jpg 640w, {{ site.url }}/images/posts/talking-css/moz-hk2-960.jpg 960w, {{ site.url }}/images/posts/talking-css/moz-hk2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/moz-hk2-640.jpg" alt="Audience coded along with the talk" />
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css/moz-hk2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css/moz-hk2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css/moz-hk2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css/moz-hk2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css/moz-hk2-640.jpg" alt="Audience coded along with the talk" />
 </figure>
 
 One of the best parts of this roadshow is the opportunity to meet really interesting people, and Hong Kong definitely did not disappoint. We went out for food and drinks after the event with [Jason Li](http://www.hongkonggong.com/) and [Tricia Ling](http://www.tricialing.com/). Jason is a cartoonist and designer who is based in Hong Kong at the moment, and he's working on a graphic novel called [The House on Horse Mountain](). He also made really cool sketchnotes of the entire event <span class="emoji" role="img" tabindex="0" aria-label="smiling face with heart-eyes">&#x1F60D;</span>!
 
 <figure>
     <figcaption>Sketchnotes for the win!</figcaption>
-    <img src="{{ site.url }}/images/posts/talking-css/sketchnotes.jpg" srcset="{{ site.url }}/images/posts/talking-css/sketchnotes@2x.jpg 2x" alt="Jason Li's sketchnotes of the event"/>
+    <img src="{{ site.url }}/assets/images/posts/talking-css/sketchnotes.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css/sketchnotes@2x.jpg 2x" alt="Jason Li's sketchnotes of the event"/>
 </figure>
 
 As the roadshow draws to a close, I must say that this has been a fantastic experience. It was intense and a little bit hectic, but I learned a lot, not only about technical stuff like webVR and animations, but also things like video editing, organising events, how to make your talk more compelling and so on.
@@ -200,7 +200,7 @@ It wasn't the rehearsed, down to the minute, polished version of the talk. I jus
 
 <figure>
     <figcaption>Regardless of setting, the hands gotta flail</figcaption>
-    <img src="{{ site.url }}/images/posts/talking-css/harbourfront.jpg" srcset="{{ site.url }}/images/posts/talking-css/harbourfront@2x.jpg 2x" alt="Unplugged about web layouts"/>
+    <img src="{{ site.url }}/assets/images/posts/talking-css/harbourfront.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css/harbourfront@2x.jpg 2x" alt="Unplugged about web layouts"/>
 </figure>
 
 The venue was at [the Hive](http://thehive.com.hk/) in Wan Chai, and it wasn't a very big space, which made the whole feel more intimate. Using someone else's laptop to present was also fun, because there were several instances of browser inconsistency bugs in my slides <span class="emoji" role="img" tabindex="0" aria-label="relieved face">&#x1F60C;</span>.
@@ -211,7 +211,7 @@ Anyway, it was my last night in Hong Kong, as well as the last night of this whi
 
 <figure>
     <figcaption>Quite a view from 490m up</figcaption>
-    <img srcset="{{ site.url }}/images/posts/talking-css/ozone-480.jpg 480w, {{ site.url }}/images/posts/talking-css/ozone-640.jpg 640w, {{ site.url }}/images/posts/talking-css/ozone-960.jpg 960w, {{ site.url }}/images/posts/talking-css/ozone-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/talking-css/ozone-640.jpg" alt="Drinks at Ozone" />
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css/ozone-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css/ozone-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css/ozone-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css/ozone-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css/ozone-640.jpg" alt="Drinks at Ozone" />
 </figure>
 
 ## Wrapping up

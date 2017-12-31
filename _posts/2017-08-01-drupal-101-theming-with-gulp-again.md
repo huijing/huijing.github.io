@@ -7,11 +7,11 @@ description: "If you write a lot of custom Drupal themes, gulp can really help s
 tags: [drupal8, theming, workflow]
 category: planet-drupal
 ---
-Around two years ago, I wrote a post called [Drupal 101: Theming Drupal 7 with gulp]({{ site.url }}/blog/drupal-101-theming-with-gulp/), which covered some basics about Sass and gulp. I'm not going to repeat myself, so if you can read that article if you're interested. This one is going to cover the delta for the `gulpfile.js` setup in Drupal 8.
+Around two years ago, I wrote a post called [Drupal 101: Theming Drupal 7 with gulp]({{ site.url }}/assets/blog/drupal-101-theming-with-gulp/), which covered some basics about Sass and gulp. I'm not going to repeat myself, so if you can read that article if you're interested. This one is going to cover the delta for the `gulpfile.js` setup in Drupal 8.
 
 ## gulp-ify your Drupal theme
 
-If you're just starting out with Drupal 8 theming, you can read my previous post on exactly that [right here]({{ site.url }}/blog/drupal-101-d8-theming/). I'm going to cover the gulp tasks that are relevant to my way of working, which is a whole lot less than what most other people do with gulp.
+If you're just starting out with Drupal 8 theming, you can read my previous post on exactly that [right here]({{ site.url }}/assets/blog/drupal-101-d8-theming/). I'm going to cover the gulp tasks that are relevant to my way of working, which is a whole lot less than what most other people do with gulp.
 
 I only use gulp to compile Sass, handle ES6 and clear the cache when I update Twig templates. No minification because Drupal does that already.
 
@@ -23,11 +23,11 @@ This part is completely replicated from the Drupal 7 post. Screenshots are tedio
 <pre><code class="language-bash">npm init</code></pre>
 This will trigger a series of prompts for the generation of a `package.json` file. This file will store all the information about the required node packages for your project. 
 
-<img srcset="{{ site.url }}/images/posts/drupal-gulp/npm-init-480.jpg 480w, {{ site.url }}/images/posts/drupal-gulp/npm-init-640.jpg 640w, {{ site.url }}/images/posts/drupal-gulp/npm-init-960.jpg 960w, {{ site.url }}/images/posts/drupal-gulp/npm-init-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/drupal-gulp/npm-init-640.jpg" alt="npm init" />
+<img srcset="{{ site.url }}/assets/images/posts/drupal-gulp/npm-init-480.jpg 480w, {{ site.url }}/assets/images/posts/drupal-gulp/npm-init-640.jpg 640w, {{ site.url }}/assets/images/posts/drupal-gulp/npm-init-960.jpg 960w, {{ site.url }}/assets/images/posts/drupal-gulp/npm-init-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/drupal-gulp/npm-init-640.jpg" alt="npm init" />
 
 Most of the prompts are pretty intuitive, and if you leave any of the fields blank, default values will be used. You can always change those values later. Set the entry point to `gulpfile.js` , and add information like the git repository if you wish.
 
-<img srcset="{{ site.url }}/images/posts/drupal-gulp/package-json-480.jpg 480w, {{ site.url }}/images/posts/drupal-gulp/package-json-640.jpg 640w, {{ site.url }}/images/posts/drupal-gulp/package-json-960.jpg 960w, {{ site.url }}/images/posts/drupal-gulp/package-json-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/drupal-gulp/package-json-640.jpg" alt="npm init" />
+<img srcset="{{ site.url }}/assets/images/posts/drupal-gulp/package-json-480.jpg 480w, {{ site.url }}/assets/images/posts/drupal-gulp/package-json-640.jpg 640w, {{ site.url }}/assets/images/posts/drupal-gulp/package-json-960.jpg 960w, {{ site.url }}/assets/images/posts/drupal-gulp/package-json-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/drupal-gulp/package-json-640.jpg" alt="npm init" />
 
 <span class="emoji" role="img" tabindex="0" aria-label="exclamation mark">&#x2757;</span> **Important: Preventing segmentation fault**    
 To prevent triggering a segmentation fault when running Drush, we need to add a script to the `package.json` file that will remove all `.info` files from the `node_modules` folder. Each node package has it's own `.info` file and it turns out that Drush thinks that they are all part of Drupal. Unfortunately, they are not in a format that Drush recognises and hence everything blows up badly. The `.info` files are not necessary for gulp to run properly so it's safe to remove them.
@@ -82,7 +82,7 @@ To prevent triggering a segmentation fault when running Drush, we need to add a 
 
 ### gulpfile.js setup
 
-The Drupal 7 post goes into a lot more detail on creating tasks and what each of the tasks does, and installing stuff, and if that's what you need, [head on over there]({{ site.url }}/blog/drupal-101-theming-with-gulp/). This is simply the updated `gulpfile.js` for Drupal 8.
+The Drupal 7 post goes into a lot more detail on creating tasks and what each of the tasks does, and installing stuff, and if that's what you need, [head on over there]({{ site.url }}/assets/blog/drupal-101-theming-with-gulp/). This is simply the updated `gulpfile.js` for Drupal 8.
 
 <pre><code class="language-javascript">var gulp        = require('gulp'),
     browserSync = require('browser-sync'),

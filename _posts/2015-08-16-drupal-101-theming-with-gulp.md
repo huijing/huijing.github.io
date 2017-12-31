@@ -7,9 +7,9 @@ description: "If you write a lot of custom Drupal themes, gulp can really help s
 tags: [drupal7, theming, workflow]
 category: planet-drupal
 ---
-*Update: There's a newer post that covers the [gulp setup for theming Drupal 8]({{ site.url }}/blog/drupal-101-theming-with-gulp-again/) which highlights a few changes from this post. Don't worry, the changes are rather minor and most of this post is still relevant.*
+*Update: There's a newer post that covers the [gulp setup for theming Drupal 8]({{ site.url }}/assets/blog/drupal-101-theming-with-gulp-again/) which highlights a few changes from this post. Don't worry, the changes are rather minor and most of this post is still relevant.*
 
-I still remember the first Drupal 7 theme I built. It was for the [Singapore Gastric Cancer Consortium website]({{ site.url }}/blog/the-one-i-cut-my-teeth-on/), and at the time I barely knew my way around HTML and CSS. I used the [Zen](https://www.drupal.org/project/zen) theme as my starter theme, and unknowingly wrote my CSS in `.scss` files without realising the distinction. I was a little bit confused to why I needed to install a software called Codekit to make everything work but was too busy trying to get the theme up and running to worry about it at the time.
+I still remember the first Drupal 7 theme I built. It was for the [Singapore Gastric Cancer Consortium website]({{ site.url }}/assets/blog/the-one-i-cut-my-teeth-on/), and at the time I barely knew my way around HTML and CSS. I used the [Zen](https://www.drupal.org/project/zen) theme as my starter theme, and unknowingly wrote my CSS in `.scss` files without realising the distinction. I was a little bit confused to why I needed to install a software called Codekit to make everything work but was too busy trying to get the theme up and running to worry about it at the time.
 
 ## Let's talk about that thing called Sass
 
@@ -43,7 +43,7 @@ gulp is based on [Node.js](https://nodejs.org/). Node.js is an open source Javas
 <pre><code class="language-bash">brew doctor</code></pre>
 If it returns `Your system is ready to brew` then you're good to go. And now we finally get to install Node.js. Node.js comes with <abbr title="Node Package Manager">NPM</abbr>, which handles all your Node packages, like Gulp and Browsersync. To verify your installation, run `node -v` and `npm -v` in your Terminal. Both command should return the respective version numbers of each package.
 
-<img srcset="{{ site.url }}/images/posts/drupal-gulp/node-install-810.jpg 1.5x, {{ site.url }}/images/posts/drupal-gulp/node-install-1080.jpg 2x" src="{{ site.url }}/images/posts/drupal-gulp/node-install-540.jpg" alt="Check node install" />
+<img srcset="{{ site.url }}/assets/images/posts/drupal-gulp/node-install-810.jpg 1.5x, {{ site.url }}/assets/images/posts/drupal-gulp/node-install-1080.jpg 2x" src="{{ site.url }}/assets/images/posts/drupal-gulp/node-install-540.jpg" alt="Check node install" />
 
 ### gulp
 
@@ -53,7 +53,7 @@ The `-g` flag installs gulp globally on your system, allowing it to be used as a
 
 ## gulp-ify your Drupal theme
 
-If you're just starting out with Drupal theming, you can read my previous post on exactly that [right here]({{ site.url }}/blog/drupal-101-d7-theming/). The setup for this workflow is going to be different from the typical gulp tutorials you see on the web. Because Drupal has it's own quirks, you know. 
+If you're just starting out with Drupal theming, you can read my previous post on exactly that [right here]({{ site.url }}/assets/blog/drupal-101-d7-theming/). The setup for this workflow is going to be different from the typical gulp tutorials you see on the web. Because Drupal has it's own quirks, you know. 
 
 ### Setting up the package.json file
 
@@ -61,11 +61,11 @@ If you're just starting out with Drupal theming, you can read my previous post o
 <pre><code class="language-bash">npm init</code></pre>
 This will trigger a series of prompts for the generation of a `package.json` file. This file will store all the information about the required node packages for your project. 
 
-<img srcset="{{ site.url }}/images/posts/drupal-gulp/npm-init-480.jpg 480w, {{ site.url }}/images/posts/drupal-gulp/npm-init-640.jpg 640w, {{ site.url }}/images/posts/drupal-gulp/npm-init-960.jpg 960w, {{ site.url }}/images/posts/drupal-gulp/npm-init-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/drupal-gulp/npm-init-640.jpg" alt="npm init" />
+<img srcset="{{ site.url }}/assets/images/posts/drupal-gulp/npm-init-480.jpg 480w, {{ site.url }}/assets/images/posts/drupal-gulp/npm-init-640.jpg 640w, {{ site.url }}/assets/images/posts/drupal-gulp/npm-init-960.jpg 960w, {{ site.url }}/assets/images/posts/drupal-gulp/npm-init-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/drupal-gulp/npm-init-640.jpg" alt="npm init" />
 
 Most of the prompts are pretty intuitive, and if you leave any of the fields blank, default values will be used. You can always change those values later. Set the entry point to `gulpfile.js` , and add information like the git repository if you wish.
 
-<img srcset="{{ site.url }}/images/posts/drupal-gulp/package-json-480.jpg 480w, {{ site.url }}/images/posts/drupal-gulp/package-json-640.jpg 640w, {{ site.url }}/images/posts/drupal-gulp/package-json-960.jpg 960w, {{ site.url }}/images/posts/drupal-gulp/package-json-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/drupal-gulp/package-json-640.jpg" alt="npm init" />
+<img srcset="{{ site.url }}/assets/images/posts/drupal-gulp/package-json-480.jpg 480w, {{ site.url }}/assets/images/posts/drupal-gulp/package-json-640.jpg 640w, {{ site.url }}/assets/images/posts/drupal-gulp/package-json-960.jpg 960w, {{ site.url }}/assets/images/posts/drupal-gulp/package-json-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/drupal-gulp/package-json-640.jpg" alt="npm init" />
 
 <span class="emoji" role="img" tabindex="0" aria-label="exclamation mark">&#x2757;</span> **Important: Preventing segmentation fault**    
 To prevent triggering a segmentation fault when running Drush, we need to add a script to the `package.json` file that will remove all `.info` files from the `node_modules` folder. Each node package has it's own `.info` file and it turns out that Drush thinks that they are all part of Drupal. Unfortunately, they are not in a format that Drush recognises and hence everything blows up badly. The `.info` files are not necessary for gulp to run properly so it's safe to remove them.
@@ -155,7 +155,7 @@ gulp.task('sass', function () {
   .pipe(browserSync.reload({stream:true})) // reload the stream
 });</code></pre>
     
-    <p class="no-margin">We'll also want a task for our favourite drush command, <code>drush cc all</code>. <strong>Clearing cache</strong> is the Drupal equivalent of <em>"Did you turn it off and on again?"</em>. I don't know about you but if I had a dollar for every time I ran this command, I'd be sipping Piña coladas <span class="emoji" role="img" tabindex="0" aria-label="cocktail glass">&#x1F378;</span> all day on a beach in the Caribbean <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span> by now. If you aren't using Drush, you really should. <a href="{{ site.url }}/blog/team-drupal-development#installing-drush">Here’s</a> an earlier post on how to get set up with Drush.</p>
+    <p class="no-margin">We'll also want a task for our favourite drush command, <code>drush cc all</code>. <strong>Clearing cache</strong> is the Drupal equivalent of <em>"Did you turn it off and on again?"</em>. I don't know about you but if I had a dollar for every time I ran this command, I'd be sipping Piña coladas <span class="emoji" role="img" tabindex="0" aria-label="cocktail glass">&#x1F378;</span> all day on a beach in the Caribbean <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span> by now. If you aren't using Drush, you really should. <a href="{{ site.url }}/assets/blog/team-drupal-development#installing-drush">Here’s</a> an earlier post on how to get set up with Drush.</p>
     <pre><code class="language-javascript">/**
  &ast; @task clearcache
  &ast; Clear all caches
@@ -191,7 +191,7 @@ gulp.task('watch', function () {
     <pre><code class="language-javascript">drush en browsersync -y</code></pre>
     Then go to *Appearance > YOUR_THEME* and check *Enable Browsersync*, and you should be all set. On the gulpfile.js side of things, set the proxy to whatever alias your Drupal site is on. For the domain, just set it to localhost:3000, which is the Browsersync default. When you need to do testing on other devices, replace the IP address with the one shown in your Terminal window after running gulp.
 
-    <img srcset="{{ site.url }}/images/posts/drupal-gulp/gulp-480.jpg 480w, {{ site.url }}/images/posts/drupal-gulp/gulp-640.jpg 640w, {{ site.url }}/images/posts/drupal-gulp/gulp-960.jpg 960w, {{ site.url }}/images/posts/drupal-gulp/gulp-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/drupal-gulp/gulp-640.jpg" alt="npm init" />
+    <img srcset="{{ site.url }}/assets/images/posts/drupal-gulp/gulp-480.jpg 480w, {{ site.url }}/assets/images/posts/drupal-gulp/gulp-640.jpg 640w, {{ site.url }}/assets/images/posts/drupal-gulp/gulp-960.jpg 960w, {{ site.url }}/assets/images/posts/drupal-gulp/gulp-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/drupal-gulp/gulp-640.jpg" alt="npm init" />
 
     <p class="no-margin">The task to <strong>launch the Browsersync server</strong> should look something like this:</p>
     <pre><code class="language-javascript">/**

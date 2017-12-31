@@ -15,11 +15,11 @@ The creator of the base framework (who also used to be my boss) had expressed in
 
 The framework is based on Kohana, which is an MVC (Model-View-Controller) framework. It's unimaginatively called the **Base Framework**. Having been "brought up" on Drupal, I had been shielded from a lot of things, like routing. Drupal handles routing without me having to even think twice about it. A static site doesn't really use any routing (I think), so I hadn't been exposed to the intricacies of routing up till that point. Imagine my surprise when I realised that typing the URL of the page I just created gave me this wonderful error screen.
 
-<img srcset="{{ site.url }}/images/posts/base-framework/error-480.jpeg 480w, {{ site.url }}/images/posts/base-framework/error-640.jpeg 640w, {{ site.url }}/images/posts/base-framework/error-960.jpeg 960w, {{ site.url }}/images/posts/base-framework/error-1280.jpeg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/base-framework/error-640.jpeg" alt="Controller not found error" />
+<img srcset="{{ site.url }}/assets/images/posts/base-framework/error-480.jpeg 480w, {{ site.url }}/assets/images/posts/base-framework/error-640.jpeg 640w, {{ site.url }}/assets/images/posts/base-framework/error-960.jpeg 960w, {{ site.url }}/assets/images/posts/base-framework/error-1280.jpeg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/base-framework/error-640.jpeg" alt="Controller not found error" />
 
 My boss gave me a look reminiscent of one a renowned and powerful Jedi master gave his protégé.
 
-<img srcset="{{ site.url }}/images/posts/base-framework/padawan@2x.jpg 2x" src="{{ site.url }}/images/posts/base-framework/padawan.jpeg" alt="Much to learn you still have" />
+<img srcset="{{ site.url }}/assets/images/posts/base-framework/padawan@2x.jpg 2x" src="{{ site.url }}/assets/images/posts/base-framework/padawan.jpeg" alt="Much to learn you still have" />
 
 My role was mainly front-end development, which meant that anything related to the Views was my domain. But that didn't mean I could get away with not understanding how the framework worked in totality. As I was wrapping my head around it, I figured I'd document my thoughts into some official-looking front-end developers documentation, which I am re-purposing into this blog post. *#whynot*
 

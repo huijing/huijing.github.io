@@ -18,11 +18,11 @@ No, but seriously, this medium that has taken over the world in less than 30 yea
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>OA-1008 Situation Display</figcaption>
-         <img src="{{ site.url }}/images/posts/new-normal/sage.jpg" srcset="{{ site.url }}/images/posts/new-normal/sage@2x.jpg 2x" alt="OA-1008 Situation Display for AN/FSQ-7"/>
+         <img src="{{ site.url }}/assets/images/posts/new-normal/sage.jpg" srcset="{{ site.url }}/assets/images/posts/new-normal/sage@2x.jpg 2x" alt="OA-1008 Situation Display for AN/FSQ-7"/>
     </figure>
     <figure class="multiple">
         <figcaption>PDP-1</figcaption>
-         <img src="{{ site.url }}/images/posts/new-normal/pdp1.jpg" srcset="{{ site.url }}/images/posts/new-normal/pdp1@2x.jpg 2x" alt="PDP-1"/>
+         <img src="{{ site.url }}/assets/images/posts/new-normal/pdp1.jpg" srcset="{{ site.url }}/assets/images/posts/new-normal/pdp1@2x.jpg 2x" alt="PDP-1"/>
     </figure>
 </div>
 
@@ -37,11 +37,11 @@ However, because of the additional degree of separation between the creator and 
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Physical media</figcaption>
-         <img style="height: 4em;" src="{{ site.url }}/images/posts/new-normal/physical.svg"/>
+         <img style="height: 4em;" src="{{ site.url }}/assets/images/posts/new-normal/physical.svg"/>
     </figure>
     <figure class="multiple">
         <figcaption>Digital media</figcaption>
-         <img style="height: 4em;" src="{{ site.url }}/images/posts/new-normal/digital.svg"/>
+         <img style="height: 4em;" src="{{ site.url }}/assets/images/posts/new-normal/digital.svg"/>
     </figure>
 </div>
 
@@ -51,7 +51,7 @@ My point is, designing for the web requires an intimate knowledge of the browser
 
 When browsers first started out, they couldn't do much except display text and maybe images if you were lucky. Like a baby, that hasn't developed the motor skills to even sit up yet. But over the years, browsers have become more mature and vastly more capable. And when it comes to layout on the web, I feel that the release of CSS grid is like the web finally getting it's driver's license.
 
-<img src="{{ site.url }}/images/posts/new-normal/license.gif" alt="Driver's license GIF"/>
+<img src="{{ site.url }}/assets/images/posts/new-normal/license.gif" alt="Driver's license GIF"/>
 
 There are still a lot of legacy expectations brought over from print that cause designers a lot of frustration when designing for the web. I know, because I'd given my fair share of grief to them when I said, no, we can't build that because it requires resorting to measures of extreme-hackishness.
 
@@ -70,15 +70,15 @@ Browsers operate on an evergreen update model now, so features and bug fixes get
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Chrome</figcaption>
-         <img src="{{ site.url }}/images/posts/new-normal/chrome.jpg"/>
+         <img src="{{ site.url }}/assets/images/posts/new-normal/chrome.jpg"/>
     </figure>
     <figure class="multiple">
         <figcaption>Firefox</figcaption>
-         <img src="{{ site.url }}/images/posts/new-normal/firefox.jpg"/>
+         <img src="{{ site.url }}/assets/images/posts/new-normal/firefox.jpg"/>
     </figure>
     <figure class="multiple">
         <figcaption>IE11</figcaption>
-         <img src="{{ site.url }}/images/posts/new-normal/ie11.jpg"/>
+         <img src="{{ site.url }}/assets/images/posts/new-normal/ie11.jpg"/>
     </figure>
 </div>
 

@@ -8,7 +8,7 @@ tags: [client-work, drupal7]
 ---
 I have a habit of saying yes to requests before I realise I have never done said request before. I acknowledge that this is not an optimal strategy to adopt, and some day I'll get in trouble for this, but this post is about a time when things went right (well, let's just say nothing burned down). A close friend of mine makes customised cakes and needed a website, so I figured I'd [build her one](https://web.archive.org/web/20151023084253/http://www.7lovebakery.com:80/).
 
-<img src="{{ site.url }}/images/posts/7love/7love.jpg" alt="7lovebakery.com"/>
+<img src="{{ site.url }}/assets/images/posts/7love/7love.jpg" alt="7lovebakery.com"/>
 
 All I had to start with, was 128 pictures of cakes and confectioneries. This made things really interesting. The good part about this project was that my friend was a great client. She trusted me to do my job well, and was always available to answer any questions I had about her business.
 
@@ -52,17 +52,17 @@ My go-to resource for textures is [Subtle Patterns](http://subtlepatterns.com/).
 <div class="figure-wrapper">
 <figure class="multiple">
 <figcaption>Canvas texture with stitching effect</figcaption>
-<img src="{{ site.url }}/images/posts/7love/canvas.jpg" alt="Header texture"/>
+<img src="{{ site.url }}/assets/images/posts/7love/canvas.jpg" alt="Header texture"/>
 </figure>
 <figure class="multiple">
 <figcaption>CSS border images for the win!</figcaption>
-<img src="{{ site.url }}/images/posts/7love/awning.jpg" alt="Wavy border"/>
+<img src="{{ site.url }}/assets/images/posts/7love/awning.jpg" alt="Wavy border"/>
 </figure>
 </div>
 
 Continuing with the theme of old-school bakery, I decided on using wood textures for all the buttons and icons. 
 
-<img src="{{ site.url }}/images/posts/7love/buttons.jpg" alt="Wood texture buttons"/>
+<img src="{{ site.url }}/assets/images/posts/7love/buttons.jpg" alt="Wood texture buttons"/>
 
 I was never formally trained in design school, so the idea of creating static mock-ups in Photoshop was, to me, a tiresome affair. By now, I had created quite a number of custom responsive themes from my [starter-kit](https://www.drupal.org/sandbox/hj_chen/2345293) so I was able to set it up quickly and make all my design decisions from the browser itself. I'd like to take the time to show my appreciation for the fact that CSS can now do so many things and that devtools exist. 
 
@@ -86,16 +86,16 @@ If a larger budget was available, I'd actually go for a dedicated Drupal hosting
 
 ## Site optimisations and performance
 
-Aside the from [basic site optimisations]({{ site.url }}/blog/drupal-101-basic-site-optimisations/) I do for every Drupal site I deploy, I also made use of [Cloudflare](https://www.cloudflare.com/) to speed it up. In this day and age, we can't have resource heavy sites clogging up our browser experience. All images used were run through Drupal's own image processor. I find it useful to run the site through performance tests just to check if there are any optimisations that I missed out.
+Aside the from [basic site optimisations]({{ site.url }}/assets/blog/drupal-101-basic-site-optimisations/) I do for every Drupal site I deploy, I also made use of [Cloudflare](https://www.cloudflare.com/) to speed it up. In this day and age, we can't have resource heavy sites clogging up our browser experience. All images used were run through Drupal's own image processor. I find it useful to run the site through performance tests just to check if there are any optimisations that I missed out.
 
 <figure>
 <figcaption>Pingdom speed test</figcaption>
-<img src="{{ site.url }}/images/posts/7love/pingdom.jpg" alt="Pingdom speed test"/>
+<img src="{{ site.url }}/assets/images/posts/7love/pingdom.jpg" alt="Pingdom speed test"/>
 </figure>
 
 <figure>
 <figcaption>GTMetrix test</figcaption>
-<img src="{{ site.url }}/images/posts/7love/gtmetrix.jpg" alt="GTMetrix speed test"/>
+<img src="{{ site.url }}/assets/images/posts/7love/gtmetrix.jpg" alt="GTMetrix speed test"/>
 </figure>
 
 ## Wrap-up

@@ -6,7 +6,7 @@ image: project-14
 project: Penang Hokkien
 tags: [css, jekyll, side-project]
 ---
-At the end of 2016, I published a website called [Penang Hokkien 槟城福建话](http://penang-hokkien.gitlab.io). Just a few months prior, I had started playing around with the CSS writing-mode property after having a random thought on my daily bicycle commute to work. That grew into a really long blog post on [Chinese typography on the web]({{ site.url }}/blog/chinese-web-typography/), and an experimental [layout-switching demo](https://www.chenhuijing.com/zh-type/). During that period, I also discovered the [Penang Hokkien Podcast](http://penanghokkien.com/).
+At the end of 2016, I published a website called [Penang Hokkien 槟城福建话](http://penang-hokkien.gitlab.io). Just a few months prior, I had started playing around with the CSS writing-mode property after having a random thought on my daily bicycle commute to work. That grew into a really long blog post on [Chinese typography on the web]({{ site.url }}/assets/blog/chinese-web-typography/), and an experimental [layout-switching demo](https://www.chenhuijing.com/zh-type/). During that period, I also discovered the [Penang Hokkien Podcast](http://penanghokkien.com/).
 
 Penang Hokkien is a variant of the Hokkien dialect that is unique to the northern states of Malaysia, and is essentially the lingua franca of Penang. It is also my mother tongue, and the main language spoken within my household. Penang Hokkien holds a special place in my heart. It represents where I come, where I belong, it is the language of home.
 
@@ -16,7 +16,7 @@ Given that building websites is one of those things that I'm sort of decent at, 
 
 All my previous demos and random side-projects were hosted on GitHub as project pages tied to my user account. I'm too cheap to buy additional domain names, so all of them are subsites of www.chenhuijing.com <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>. But I really wanted this site to stand alone. 
 
-Sometime last year, I learned that [GitLab](https://about.gitlab.com/gitlab-com/) had [GitLab Pages](https://pages.gitlab.io/) and always wanted to try it out, but never had a compelling reason to. Until now. It wasn't the smoothest experience (largely due to my own ineptitude), but it wasn't terrible either. And I kinda like GitLab to begin with anyway. I [wrote about the experience]({{ site.url }}/blog/hosting-static-site-gitlab-pages/) as well.
+Sometime last year, I learned that [GitLab](https://about.gitlab.com/gitlab-com/) had [GitLab Pages](https://pages.gitlab.io/) and always wanted to try it out, but never had a compelling reason to. Until now. It wasn't the smoothest experience (largely due to my own ineptitude), but it wasn't terrible either. And I kinda like GitLab to begin with anyway. I [wrote about the experience]({{ site.url }}/assets/blog/hosting-static-site-gitlab-pages/) as well.
 
 ## Flexing the brain muscles
 
@@ -32,13 +32,13 @@ I wanted the site to be fully-responsive and cross-browser compatible. It defini
 
 ### Switchy-switchy
 
-In my first [writing-mode demo]({{ site.url }}/zh-type), I had a checkbox that toggled between horizontal and vertical writing modes. In that case, it was the same block of content, displayed differently (via a CSS class).
+In my first [writing-mode demo]({{ site.url }}/assets/zh-type), I had a checkbox that toggled between horizontal and vertical writing modes. In that case, it was the same block of content, displayed differently (via a CSS class).
 
 This site utilised a similar concept, in that there would be a toggle, but this time it'd be to switch between 2 blocks of content. The same technique used for [pure CSS tabs](http://codepen.io/huijing/pen/qOLXmy), just that the "tabs" would be styled to look like buttons.
 
 <figure>
   <figcaption>Clicky-clicky</figcaption>
-  <video style="max-width: 20em" src="{{ site.url }}/videos/toggle.mp4" controls></video>
+  <video style="max-width: 20em" src="{{ site.url }}/assets/videos/toggle.mp4" controls></video>
 </figure>
 
 <pre><code class="language-markup">&lt;section class="c-intro"&gt;
@@ -80,11 +80,11 @@ I first learned about Chromatic Fonts on the web back in March 2016 from [Roel N
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Wide screen view</figcaption>
-         <img src="{{ site.url }}/images/posts/pghk/about-wide.jpg" srcset="{{ site.url }}/images/posts/pghk/about-wide@2x.jpg 2x" alt="Wide view of About page title"/>
+         <img src="{{ site.url }}/assets/images/posts/pghk/about-wide.jpg" srcset="{{ site.url }}/assets/images/posts/pghk/about-wide@2x.jpg 2x" alt="Wide view of About page title"/>
     </figure>
     <figure class="multiple">
         <figcaption>Narrow screen view</figcaption>
-         <img src="{{ site.url }}/images/posts/pghk/about-narrow.jpg" srcset="{{ site.url }}/images/posts/pghk/about-narrow@2x.jpg 2x" alt="Narrow view of About page title"/>
+         <img src="{{ site.url }}/assets/images/posts/pghk/about-narrow.jpg" srcset="{{ site.url }}/assets/images/posts/pghk/about-narrow@2x.jpg 2x" alt="Narrow view of About page title"/>
     </figure>
 </div>
 
@@ -113,7 +113,7 @@ I also had the brilliant idea to have a newsletter subscription box, because why
 
 <figure>
   <figcaption>Oooo...fancy</figcaption>
-  <video style="max-width: 20em" src="{{ site.url }}/videos/text-input.mp4" controls></video>
+  <video style="max-width: 20em" src="{{ site.url }}/assets/videos/text-input.mp4" controls></video>
 </figure>
 
 One thing I had to get around was that the label of the input field used a little bit of Javascript to trigger a CSS class that transformed it when the field was focused. In the event that Javascript failed for whatever reason, the field would have default styling that did not require CSS transforms. At first I tried using Modernizer, but then realised this was the perfect scenario for a feature query.
@@ -158,7 +158,7 @@ I could not for the life of me get my block of Chinese content centred properly 
 
 <figure>
     <figcaption>On Firefox</figcaption>
-     <img srcset="{{ site.url }}/images/posts/pghk/ff-issue-480.jpg 480w, {{ site.url }}/images/posts/pghk/ff-issue-640.jpg 640w, {{ site.url }}/images/posts/pghk/ff-issue-960.jpg 960w, {{ site.url }}/images/posts/pghk/ff-issue-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/pghk/ff-issue-640.jpg" alt="Firefox layout issue" />
+     <img srcset="{{ site.url }}/assets/images/posts/pghk/ff-issue-480.jpg 480w, {{ site.url }}/assets/images/posts/pghk/ff-issue-640.jpg 640w, {{ site.url }}/assets/images/posts/pghk/ff-issue-960.jpg 960w, {{ site.url }}/assets/images/posts/pghk/ff-issue-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/pghk/ff-issue-640.jpg" alt="Firefox layout issue" />
 </figure>
 
  I managed to find a fix for the issue on Firefox but I don't really understand exactly why it works. Adding a margin-left then transforming it back centred the block. If you know why this works, please let me know.
@@ -172,7 +172,7 @@ MS browsers also seem to have issues with rotation via CSS transform when the el
 
 <figure>
     <figcaption>On MS Edge</figcaption>
-    <img srcset="{{ site.url }}/images/posts/pghk/ms-issue-480.png 480w, {{ site.url }}/images/posts/pghk/ms-issue-640.png 640w, {{ site.url }}/images/posts/pghk/ms-issue-960.png 960w, {{ site.url }}/images/posts/pghk/ms-issue-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/pghk/ms-issue-640.png" alt="Mac GUI" />
+    <img srcset="{{ site.url }}/assets/images/posts/pghk/ms-issue-480.png 480w, {{ site.url }}/assets/images/posts/pghk/ms-issue-640.png 640w, {{ site.url }}/assets/images/posts/pghk/ms-issue-960.png 960w, {{ site.url }}/assets/images/posts/pghk/ms-issue-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/pghk/ms-issue-640.png" alt="Mac GUI" />
 </figure>
 
 I had to work-around the problem using [BrowserHacks](http://browserhacks.com/). I know it's not a best practice, but I don't think feature detection works here, because technically MS browsers DO support writing-modes, just not well I guess. If you peek into my source code (available on [GitLab](https://gitlab.com/penang-hokkien/penang-hokkien.gitlab.io)), you'll see the hacks in all their gory glory.

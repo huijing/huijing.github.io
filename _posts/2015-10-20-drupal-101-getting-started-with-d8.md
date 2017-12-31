@@ -10,7 +10,7 @@ For people who may not be entirely familiar with the software development proces
 I first took a peek at Drupal 8 over a year ago when it was at alpha9 just out of curiosity. At that time in my career, I was barely getting the hang of Drupal 7, so I didn't really explore very much beyond clicking around the interface and trying to create some content. With RC1 fresh out of the oven, and looking pretty good to me, I figured it'd be a good time to go through the process of building a Drupal 8 site and documenting the experience. Because, why not?
 
 1. **Download the required Drupal 8 files**  
-    There are two ways to do this. You can download the files from [Drupal.org](https://www.drupal.org/node/3060/release) and extract them into your local development manually. My preferred method is via Drush. If you're not using Drush, I highly suggest it. Instructions for getting up and running with Drush can be found [here]({{ site.url }}/blog/team-drupal-development#installing-drush). Make sure you're using at least version 7 as Drupal 8 doesn't work with earlier versions of Drush.
+    There are two ways to do this. You can download the files from [Drupal.org](https://www.drupal.org/node/3060/release) and extract them into your local development manually. My preferred method is via Drush. If you're not using Drush, I highly suggest it. Instructions for getting up and running with Drush can be found [here]({{ site.url }}/assets/blog/team-drupal-development#installing-drush). Make sure you're using at least version 7 as Drupal 8 doesn't work with earlier versions of Drush.
 
     <p class="no-margin">Navigate to wherever you store your local development sites and run the following:</p>
     <pre><code class="language-bash">drush dl drupal-8 --select</code></pre>
@@ -19,9 +19,9 @@ I first took a peek at Drupal 8 over a year ago when it was at alpha9 just out o
     Navigate to the base url of your site and you should see something like this:
 
     <picture>
-      <source media="(min-width: 720px)" srcset="{{ site.url }}/images/posts/drupal-8/install-lg-1248.jpg 2x, {{ site.url }}/images/posts/drupal-8/install-lg-640.jpg 1x" sizes="60vw">
-      <source srcset="{{ site.url }}/images/posts/drupal-8/install-sm-766.jpg 2x, {{ site.url }}/images/posts/drupal-8/install-sm-480.jpg 1x" sizes="90vw">
-      <img src="{{ site.url }}/images/posts/drupal-8/install-sm-480.jpg" alt="Install Drupal 8">
+      <source media="(min-width: 720px)" srcset="{{ site.url }}/assets/images/posts/drupal-8/install-lg-1248.jpg 2x, {{ site.url }}/assets/images/posts/drupal-8/install-lg-640.jpg 1x" sizes="60vw">
+      <source srcset="{{ site.url }}/assets/images/posts/drupal-8/install-sm-766.jpg 2x, {{ site.url }}/assets/images/posts/drupal-8/install-sm-480.jpg 1x" sizes="90vw">
+      <img src="{{ site.url }}/assets/images/posts/drupal-8/install-sm-480.jpg" alt="Install Drupal 8">
     </picture>
 
     The entire process doesn't deviate from Drupal 7 very much, and almost all the fields to be filled are exactly the same. It's just a slightly different look and feel in terms of UI.
@@ -44,9 +44,9 @@ I first took a peek at Drupal 8 over a year ago when it was at alpha9 just out o
     If you had to go through steps 3 and 4, then when the site is done installing, you'll most likely get a warning message like so:
 
     <picture>
-      <source media="(min-width: 720px)" srcset="{{ site.url }}/images/posts/drupal-8/permissions-lg-1280.jpg 2x, {{ site.url }}/images/posts/drupal-8/permissions-lg-640.jpg 1x" sizes="60vw">
-      <source srcset="{{ site.url }}/images/posts/drupal-8/permissions-sm-738.jpg 2x, {{ site.url }}/images/posts/drupal-8/permissions-sm-480.jpg 1x" sizes="90vw">
-      <img src="{{ site.url }}/images/posts/drupal-8/permissions-sm-480.jpg" alt="Permissions">
+      <source media="(min-width: 720px)" srcset="{{ site.url }}/assets/images/posts/drupal-8/permissions-lg-1280.jpg 2x, {{ site.url }}/assets/images/posts/drupal-8/permissions-lg-640.jpg 1x" sizes="60vw">
+      <source srcset="{{ site.url }}/assets/images/posts/drupal-8/permissions-sm-738.jpg 2x, {{ site.url }}/assets/images/posts/drupal-8/permissions-sm-480.jpg 1x" sizes="90vw">
+      <img src="{{ site.url }}/assets/images/posts/drupal-8/permissions-sm-480.jpg" alt="Permissions">
     </picture>
 
     Resolve the issue by changing the permissions on those files back to a secure state:

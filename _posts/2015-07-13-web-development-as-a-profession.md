@@ -43,7 +43,7 @@ I have met developers who have been working for years, and yet still write bad c
 One of the best articles I read about the process of learning to code is [Why learning to code is so damn hard](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard). If you refer to the diagram, there are a number of stages to go through before one can become job ready. But I've found that a number of people can get by building websites for a living even though they are just past the hand-holding honeymoon phase. You know how? By googling. Googling for solutions is something every developer does. Googling for solutions is not the problem. The problem is implementing those solutions without understanding what every line of code means, and how it applies to your own project. 
 
 <figure>
-<img src="{{ site.url }}/images/posts/profession/confidence-vs-competence.png" alt="Coding Confidence vs Competence"/>
+<img src="{{ site.url }}/assets/images/posts/profession/confidence-vs-competence.png" alt="Coding Confidence vs Competence"/>
 <figcaption>Figure from <a href="http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard">Why learning to code is so damn hard</a></figcaption>
 </figure>
 

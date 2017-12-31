@@ -25,7 +25,7 @@ The following method works best for fixed width images. If, for some reason, you
 
 The `srcset` attribute is basically lists the pool of source images from which the browser can pick to load. It's a comma-separated list. The `x` descriptor indicates the device-pixel ratio of the image. Depending on what environment (viewport) the browser is operating in, it will utilise this information to select the appropriate image. For any browsers that don't understand `srcset`, they will simply load the image declared in the `src` attribute.
 
-<img srcset="{{ site.url }}/images/posts/responsive-images/crest-383.jpg 1.5x, {{ site.url }}/images/posts/responsive-images/crest-510.jpg 2x" src="{{ site.url }}/images/posts/responsive-images/crest-255.jpg" alt="USWNT crest" />
+<img srcset="{{ site.url }}/assets/images/posts/responsive-images/crest-383.jpg 1.5x, {{ site.url }}/assets/images/posts/responsive-images/crest-510.jpg 2x" src="{{ site.url }}/assets/images/posts/responsive-images/crest-255.jpg" alt="USWNT crest" />
 <pre><code class="language-markup">&lt;img src="crest-255.jpg"
      srcset="crest-383.jpg 1.5x, crest-510.jpg 2x"
      width="255" alt="USWNT crest"&gt;</code></pre>
@@ -38,7 +38,7 @@ For fluid-width images, we use `srcset` with the `w` descriptor and `sizes`. The
 
 There are two values in the `sizes` attribute. The first value is a media condition. The second value is the source-size-value, which determines the width of the image at that particular media condition. One important thing to note is that you cannot use percentages as the source-size-value, the only relative CSS length you can use is vw.
 
-<img srcset="{{ site.url }}/images/posts/responsive-images/uswnt-480.jpg 480w, {{ site.url }}/images/posts/responsive-images/uswnt-640.jpg 640w, {{ site.url }}/images/posts/responsive-images/uswnt-960.jpg 960w, {{ site.url }}/images/posts/responsive-images/uswnt-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/responsive-images/uswnt-640.jpg" alt="USWNT" />
+<img srcset="{{ site.url }}/assets/images/posts/responsive-images/uswnt-480.jpg 480w, {{ site.url }}/assets/images/posts/responsive-images/uswnt-640.jpg 640w, {{ site.url }}/assets/images/posts/responsive-images/uswnt-960.jpg 960w, {{ site.url }}/assets/images/posts/responsive-images/uswnt-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/responsive-images/uswnt-640.jpg" alt="USWNT" />
 <pre><code class="language-markup">&lt;img srcset="uswnt-480.jpg 480w, 
              uswnt-640.jpg 640w, 
              uswnt-960.jpg 960w,
@@ -60,9 +60,9 @@ The `<picture>` element is like a wrapper for the image and its sources. Browser
 
 <p>
 <picture>
-  <source media="(min-width: 960px)" srcset="{{ site.url }}/images/posts/responsive-images/ticker-tape-large.jpg">
-  <source media="(min-width: 575px)" srcset="{{ site.url }}/images/posts/responsive-images/ticker-tape-medium.jpg">
-  <img src="{{ site.url }}/images/posts/responsive-images/ticker-tape-small.jpg" alt="USWNT ticker-tape parade">
+  <source media="(min-width: 960px)" srcset="{{ site.url }}/assets/images/posts/responsive-images/ticker-tape-large.jpg">
+  <source media="(min-width: 575px)" srcset="{{ site.url }}/assets/images/posts/responsive-images/ticker-tape-medium.jpg">
+  <img src="{{ site.url }}/assets/images/posts/responsive-images/ticker-tape-small.jpg" alt="USWNT ticker-tape parade">
 </picture>
 </p>
 

@@ -59,13 +59,13 @@ Removes the element and its children from the normal document flow. The document
 
 ### display: inline;
 
-<img srcset="{{ site.url }}/images/posts/display/inline-480.jpg 480w, {{ site.url }}/images/posts/display/inline-640.jpg 640w, {{ site.url }}/images/posts/display/inline-960.jpg 960w, {{ site.url }}/images/posts/display/inline-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/display/inline-640.jpg" alt="Inline elements" />
+<img srcset="{{ site.url }}/assets/images/posts/display/inline-480.jpg 480w, {{ site.url }}/assets/images/posts/display/inline-640.jpg 640w, {{ site.url }}/assets/images/posts/display/inline-960.jpg 960w, {{ site.url }}/assets/images/posts/display/inline-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/display/inline-640.jpg" alt="Inline elements" />
 
 The element generates one or more inline boxes. Inline-level elements take up, as the name suggests, as much space on the line as its tags define. Can be considered the complement to block-level elements.
 
 ### display: block;
 
-<img srcset="{{ site.url }}/images/posts/display/block-480.jpg 480w, {{ site.url }}/images/posts/display/block-640.jpg 640w, {{ site.url }}/images/posts/display/block-960.jpg 960w, {{ site.url }}/images/posts/display/block-1080.jpg 1080w" sizes="(max-width: 480px) 100vw, (max-width: 960px) 60vw, 25em" src="{{ site.url }}/images/posts/display/block-640.jpg" alt="Block elements" />
+<img srcset="{{ site.url }}/assets/images/posts/display/block-480.jpg 480w, {{ site.url }}/assets/images/posts/display/block-640.jpg 640w, {{ site.url }}/assets/images/posts/display/block-960.jpg 960w, {{ site.url }}/assets/images/posts/display/block-1080.jpg 1080w" sizes="(max-width: 480px) 100vw, (max-width: 960px) 60vw, 25em" src="{{ site.url }}/assets/images/posts/display/block-640.jpg" alt="Block elements" />
 
 The element generates a block level box. All block-level elements start on a new line and, unless otherwise specified, stretches to width of its container. 
 
@@ -249,7 +249,7 @@ The flexbox model is very powerful, and because it can do a lot, some effort is 
   <li><a href="https://drafts.csswg.org/css-flexbox/">CSS Flexbox Specification (Editor’s Draft)</a></li>
 </ul>
 
-![Flexbox diagram]({{ site.url }}/images/posts/display/flex-diagram.svg "Flexbox diagram")
+![Flexbox diagram]({{ site.url }}/assets/images/posts/display/flex-diagram.svg "Flexbox diagram")
 
 By declaring `display: flex` on an element, it becomes a flex container, and its child elements become flex items. This does not cascade further, meaning the flex properties do not extend to the element's grandchildren. Both the flex container and flex items have their own respective flex properties.
 
@@ -388,7 +388,7 @@ If you want to use `display: inline` on the header instead, it won't work unless
 
 ### display: ruby;
 
-This particular property needs an introduction to the &lt;ruby&gt; element for it to make sense to you. In a nutshell, there is an element for displaying annotations alongside a base line of text, usually to help with pronunciation. They're a pretty common sight for East Asian languages, like Chinese or Japanese. Most of the articles I came across during my research were dated around 2010, so I wrote about the [2016 state of HTML &lt;ruby&gt;]({{ site.url }}/blog/html-ruby/).
+This particular property needs an introduction to the &lt;ruby&gt; element for it to make sense to you. In a nutshell, there is an element for displaying annotations alongside a base line of text, usually to help with pronunciation. They're a pretty common sight for East Asian languages, like Chinese or Japanese. Most of the articles I came across during my research were dated around 2010, so I wrote about the [2016 state of HTML &lt;ruby&gt;]({{ site.url }}/assets/blog/html-ruby/).
 
 There are some parallels between `display: ruby;` and `display: table;`, but the specification strongly discourages applying ruby display values to non-ruby elements like `span` to display ruby text. Rather, we should markup our content using the HTML ruby elements so screen readers and non-CS renderers can interpret the ruby structures.
 

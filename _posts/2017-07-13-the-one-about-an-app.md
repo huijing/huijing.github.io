@@ -102,13 +102,13 @@ I'm fairly confident this is an Express functionality, where the `render()` func
   &lcub;% endfor %&rcub;
 &lt;/select&gt;</code></pre>
 
-<img srcset="{{ site.url }}/images/posts/js-app/1@480.jpg 480w, {{ site.url }}/images/posts/js-app/1@640.jpg 640w, {{ site.url }}/images/posts/js-app/1@960.jpg 960w, {{ site.url }}/images/posts/js-app/1@1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/js-app/1@640.jpg" alt="Form to add book" />
+<img srcset="{{ site.url }}/assets/images/posts/js-app/1@480.jpg 480w, {{ site.url }}/assets/images/posts/js-app/1@640.jpg 640w, {{ site.url }}/assets/images/posts/js-app/1@960.jpg 960w, {{ site.url }}/assets/images/posts/js-app/1@1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/js-app/1@640.jpg" alt="Form to add book" />
 
 And another <span class="emoji" role="img" tabindex="0" aria-label="light bulb">&#x1F4A1;</span> moment happened when I was working out how to render the book list into a table. So the libraries field is a multi-value field, right? As I made it a multi-select, the data is stored in the database as *an array*, however, single values were stored as *a string*. This screwed up my initial attempts at formatting this field, until I realised it was possible to force a single value to be stored as an array using `[]` in the select's name attribute.
 
 ### Better make the list of books responsive, eh?
 
-Yes, considering how I pride myself in being a CSS person, it'd be quite embarrassing if the display was broken at certain screen widths. I already had a responsive table setup I wrote up previously that was made up of a bunch of divs that pretended to be a table when the width was wide enough. Because `display: table` is a thing. I know this because [I researched it before]({{ site.url }}/blog/how-well-do-you-know-display/).
+Yes, considering how I pride myself in being a CSS person, it'd be quite embarrassing if the display was broken at certain screen widths. I already had a responsive table setup I wrote up previously that was made up of a bunch of divs that pretended to be a table when the width was wide enough. Because `display: table` is a thing. I know this because [I researched it before]({{ site.url }}/assets/blog/how-well-do-you-know-display/).
 
 So I did that at first, before realising that the `<table>` element [has extra properties and methods](https://developer.mozilla.org/en/docs/Web/API/HTMLTableElement) that normal elements don't. <span class="emoji" role="img" tabindex="0" aria-label="light bulb">&#x1F4A1;</span> (at the rate this is going, I'll have enough light bulbs for a nice chandelier). This doesn't have anything to do with the CSS portion of things, but was very relevant because of the filtering function I wanted to implement.
 
@@ -116,7 +116,7 @@ Then it occurred to me, if I could make divs pretend to be a table, I could make
 
 <figure>
     <figcaption>That's an HTML table, folks.</figcaption>
-    <video src="{{ site.url }}/videos/responsive.mp4" controls></video>
+    <video src="{{ site.url }}/assets/videos/responsive.mp4" controls></video>
 </figure>
 
 ### Let's talk about this filtering thing, alright?

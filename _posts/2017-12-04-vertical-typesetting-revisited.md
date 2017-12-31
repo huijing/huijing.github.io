@@ -4,7 +4,7 @@ title: "Vertical typesetting with writing-mode revisited"
 date: Dec 04, 2017
 tags: [css, design, typography]
 ---
-About year ago, I [wrote about the findings]({{ site.url }}/blog/chinese-web-typography/) from an exercise in attempting to typeset Chinese vertically on the web. What came out of that was [a bare-bones demo]({{ site.url }}/zh-type) that allowed you to switch between writing modes using the checkbox hack.
+About year ago, I [wrote about the findings]({{ site.url }}/assets/blog/chinese-web-typography/) from an exercise in attempting to typeset Chinese vertically on the web. What came out of that was [a bare-bones demo]({{ site.url }}/assets/zh-type) that allowed you to switch between writing modes using the checkbox hack.
 
 I met [Yoav Weiss](https://blog.yoav.ws/) a little while back and we chatted a little about the [Responsive Images Community Group](http://ricg.io/) because I mentioned how I thought it would be nice if there could be some media query for `writing-mode` with the `picture` element so I didn't have to do some mildly hackish transforms on my images when I switched modes. And he suggested I write it up as [a use-case for responsive images](https://github.com/ResponsiveImagesCG/ri-usecases/issues/63).
 
@@ -56,11 +56,11 @@ I'm only looking at the browsers I have immediate access to. Because I have othe
 
 ### Chrome (64.0.3278.0 dev)
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/chrome-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/chrome-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/chrome-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/chrome-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/chrome-640.jpg" alt="vertical-rl on Chrome" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/chrome-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/chrome-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/chrome-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/chrome-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/chrome-640.jpg" alt="vertical-rl on Chrome" />
 
 Okay, this looks perfectly fine. I was sort of exaggerating when I said everything was broken. All the text and images are accounted for, no major rendering problems in vertical writing mode. Good job, Chrome.
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/chrome2-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/chrome2-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/chrome2-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/chrome2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/chrome2-640.jpg" alt="horizontal-tb on Chrome" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/chrome2-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/chrome2-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/chrome2-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/chrome2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/chrome2-640.jpg" alt="horizontal-tb on Chrome" />
 
 Toggling the switcher kicks things over to the right though. I remember that trying to horizontally centre something in vertical writing-mode was really painful, so this must have been some hack I tried in the first pass that didn't go so well.
 
@@ -68,21 +68,21 @@ It definitely worked at near the beginning of the 2017 because I made [this scre
 
 ### Firefox (59.0a1 Nightly)
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/firefox-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/firefox-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/firefox-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/firefox-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/firefox-640.jpg" alt="vertical-rl on Firefox" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/firefox-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/firefox-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/firefox-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/firefox-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/firefox-640.jpg" alt="vertical-rl on Firefox" />
 
 Oh boy, this is just. I have no words. I use Firefox Nightly as my default browser, so hence my initial reaction of ZOMG EVERYTHING IS BROKEN. Because everything IS broken here. Look at it, look at the infinite horizontal scrollbar, what's happening?!
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/firefox2-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/firefox2-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/firefox2-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/firefox2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/firefox2-640.jpg" alt="horizontal-tb on Firefox" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/firefox2-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/firefox2-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/firefox2-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/firefox2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/firefox2-640.jpg" alt="horizontal-tb on Firefox" />
 
 Let's toggle...wait, where is my checkbox?! Sigh. This might take a while. Anyway, at least I tied the checkbox to the label so we can still click the label to toggle. Well, it's definitely NOT centred, but not too broken either. 2 browsers and already a world of difference.
 
 ### Safari Technology Preview 44
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/stp-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/stp-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/stp-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/stp-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/stp-640.jpg" alt="vertical-rl on Safari TP" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/stp-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/stp-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/stp-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/stp-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/stp-640.jpg" alt="vertical-rl on Safari TP" />
 
 Hey. Hey, hey hey. This looks surprisingly UN-broken. Even the height is correct. Safari, I may have misjudged you. What exactly is the Safari rendering engine again? Oh right, WebKit.
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/stp2-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/stp2-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/stp2-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/stp2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/stp2-640.jpg" alt="horizontal-tb on Safari TP" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/stp2-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/stp2-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/stp2-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/stp2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/stp2-640.jpg" alt="horizontal-tb on Safari TP" />
 
 Oooo, this is kind of, sort of, in the centre of the page. Without looking at the code, I'm sure I tried some weird translate thing to shift the entire content block, hence the inconsistent behaviour in every browser. But this has been a pleasant surprise.
 
@@ -90,11 +90,11 @@ Oooo, this is kind of, sort of, in the centre of the page. Without looking at th
 
 I'm on Windows 10 insider fast ring release so I think my Edge is probably a higher version than most people have installed. No matter, I can check my phone too (yes I use a Windows phone, go ahead, judge me).
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/edge-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/edge-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/edge-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/edge-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/edge-640.jpg" alt="vertical-rl on Edge 16" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/edge-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/edge-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/edge-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/edge-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/edge-640.jpg" alt="vertical-rl on Edge 16" />
 
 Anyway, this doesn't look too broken either. Just that the checkbox is a bit off. Big plus is that the scroll-wheel works! All the other browsers don't let me scroll horizontally with my scroll-wheel. I don't know if this is a Windows thing or an Edge thing though.
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/edge2-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/edge2-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/edge2-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/edge2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/edge2-640.jpg" alt="horizontal-tb on Edge 16" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/edge2-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/edge2-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/edge2-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/edge2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/edge2-640.jpg" alt="horizontal-tb on Edge 16" />
 
 Vaguely semi-centred as well. I really have to check that transforms code soon. I might have an inkling as to what's going on with the checkbox as well now. Ah, but no vertical scroll with the scroll-wheel, this is getting interesting. Also, notice that the scrollbar is on the left instead <span class="emoji" role="img" tabindex="0" aria-label="thinking face">&#x1F914;</span>.
 
@@ -103,11 +103,11 @@ Vaguely semi-centred as well. I really have to check that transforms code soon. 
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>vertical-rl on Edge 15</figcaption>
-        <img src="{{ site.url }}/images/posts/vertical-typesetting/edgem.jpg" srcset="{{ site.url }}/images/posts/vertical-typesetting/edgem@2x.jpg 2x" />
+        <img src="{{ site.url }}/assets/images/posts/vertical-typesetting/edgem.jpg" srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/edgem@2x.jpg 2x" />
     </figure>
     <figure class="multiple">
         <figcaption>horizontal-tb on Edge 15</figcaption>
-        <img src="{{ site.url }}/images/posts/vertical-typesetting/edgem2.jpg" srcset="{{ site.url }}/images/posts/vertical-typesetting/edgem2@2x.jpg 2x" />
+        <img src="{{ site.url }}/assets/images/posts/vertical-typesetting/edgem2.jpg" srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/edgem2@2x.jpg 2x" />
     </figure>
 </div>
 
@@ -118,11 +118,11 @@ Pretty much the same as Edge 16. I'm reasonably confident that Edge on Windows p
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>vertical-rl on iOS 11 WebKit</figcaption>
-        <img src="{{ site.url }}/images/posts/vertical-typesetting/ios.jpg" srcset="{{ site.url }}/images/posts/vertical-typesetting/ios@2x.jpg 2x" />
+        <img src="{{ site.url }}/assets/images/posts/vertical-typesetting/ios.jpg" srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/ios@2x.jpg 2x" />
     </figure>
     <figure class="multiple">
         <figcaption>horizontal-tb on iOS 11 WebKit</figcaption>
-        <img src="{{ site.url }}/images/posts/vertical-typesetting/ios2.jpg" srcset="{{ site.url }}/images/posts/vertical-typesetting/ios2@2x.jpg 2x" />
+        <img src="{{ site.url }}/assets/images/posts/vertical-typesetting/ios2.jpg" srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/ios2@2x.jpg 2x" />
     </figure>
 </div>
 
@@ -159,7 +159,7 @@ And herein lies the complications. Having a mixture of different nested writing-
 
 <figure>
     <figcaption>General strategy with checkbox hack</figcaption>
-    <img style="max-width: 25em;" src="{{ site.url }}/images/posts/vertical-typesetting/diagram.svg" />
+    <img style="max-width: 25em;" src="{{ site.url }}/assets/images/posts/vertical-typesetting/diagram.svg" />
 </figure>
 
 In the original demo, I set the default writing-mode to `vertical-rl` on the `body` element, then used the checkbox to toggle the writing-mode of the `main` element. But it seems like everyone (browser rendering engines) handles nested writing-modes differently, as seen by the catalogue of screenshots above.
@@ -220,17 +220,17 @@ The default value for `writing-mode` is `horizontal-tb` on every single element,
 
 If we set the `writing-mode` to `vertical-rl` on the `main` element, all the text and images are rendered correctly for every browser. Firefox has this slight vertical overflow of 15px and I suspect it's due to the scrollbar, but I can't be sure. Other browsers have no vertical overflow at all.
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/main-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/main-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/main-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/main-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/main-640.jpg" alt="vertical-rl on the main element" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/main-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/main-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/main-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/main-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/main-640.jpg" alt="vertical-rl on the main element" />
 
 The issue with having the `main` element in vertical writing mode, but the document itself being in horizontal writing mode means that the content starts on the left and we end up seeing the end of the article on first load instead.
 
 So let's move things up one level, and set `writing-mode: vertical-rl` on the `body` element instead. Chrome, Safari and Edge render the content from right-to-left, which is what we want. However, Firefox still shows the end of the article, although this did fix the scrollbar overflow issue. This looks most relevant to [Bug 1102175](https://bugzilla.mozilla.org/show_bug.cgi?id=1102175).
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/body-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/body-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/body-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/body-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/body-640.jpg" alt="vertical-rl on the body element" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/body-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/body-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/body-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/body-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/body-640.jpg" alt="vertical-rl on the body element" />
 
 And lastly, if we apply `writing-mode: vertical-rl` to the `html` element, Firefox finally comes around and reads from right-to-left. Also, no funny overflowing, just vertical right-to-left goodness.
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/html-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/html-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/html-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/html-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/html-640.jpg" alt="vertical-rl on the html element" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/html-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/html-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/html-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/html-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/html-640.jpg" alt="vertical-rl on the html element" />
 
 <p class="note">IE11 supports writing mode but with the older syntax defined in an <a href="https://www.w3.org/TR/2003/CR-css3-text-20030514/#Progression">earlier version of the specification</a> which uses <code>-ms-writing-mode: tb-rl</code>. This works fine, but based on my current markup, which uses the <code>main</code> element that is not supported by IE11, the switcher fails. Even applying <code>display: block</code> on the <code>main</code> element doesn't fix it. I could replace <code>main</code> with <code>div</code> for better support. Let me think about it.</p>
 
@@ -285,7 +285,7 @@ Centring the content block went quite well. Because there wasn't any funny nesti
   }
 }</code></pre>
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/centred2-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/centred2-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/centred2-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/centred2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/centred2-640.jpg" alt="Auto margins for vertical centring" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/centred2-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/centred2-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/centred2-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/centred2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/centred2-640.jpg" alt="Auto margins for vertical centring" />
 
 Fun fact, when in vertical writing mode, we can use `margin-top: auto` and `margin-bottom: auto` to vertically centre things! But trust me when I say centring things horizontally is more painful than you'd expect. You'll see when we get to the next part with the checkbox hack.
 
@@ -318,7 +318,7 @@ All CSS properties have values, Once your browser has parsed a document and cons
 
 Also, from the specification, the [calculation of heights and margins](https://www.w3.org/TR/CSS2/visuren.html#relative-positioning) are determined by a number of rules for each of the different types of boxes. And if both top and bottom values are auto, their used values are resolved to `0`.
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/zero-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/zero-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/zero-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/zero-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/zero-640.jpg" alt="Margins resolving to zero" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/zero-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/zero-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/zero-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/zero-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/zero-640.jpg" alt="Margins resolving to zero" />
 
 When we set the writing mode to vertical, the “height” seems to become the horizontal-axis when it comes to calculating these values. I say seems because I'm honestly not 100% sure how it really works. And it dawned on me that the Javascript solution is actually magic!
 
@@ -335,7 +335,7 @@ To horizontally centre our `main` element when vertical writing mode is toggled,
 
 This works for Chrome, Firefox and Safari. Unfortunately, it was kind of wonky on Edge, things are skewed to somewhere in the middle of the page and to the left. Time to file a bug with Edge. Also, the scrollbar appears on the left instead of the right.
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/troublemaker-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/troublemaker-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/troublemaker-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/troublemaker-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/troublemaker-640.jpg" alt="Seems to be buggy on Edge" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/troublemaker-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/troublemaker-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/troublemaker-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/troublemaker-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/troublemaker-640.jpg" alt="Seems to be buggy on Edge" />
 
 ## Handling image alignment
 
@@ -395,17 +395,17 @@ I suspect I chose to use flexbox for centring, though I honestly can't remember 
 
 But taking a look at my original code, I realised that I had applied a `display: flex` to the image wrapper `div` for those images that were supposed to stack. This made the images themselves flex children, and somehow messed up the rendering in Firefox while using a vertical writing mode <span class="emoji" role="img" tabindex="0" aria-label="weary face">&#x1F629;</span>.
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/ffbug-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/ffbug-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/ffbug-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/ffbug-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/ffbug-640.jpg" alt="Flexbox issue with vertical writing-mode on Firefox" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/ffbug-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/ffbug-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/ffbug-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/ffbug-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/ffbug-640.jpg" alt="Flexbox issue with vertical writing-mode on Firefox" />
 
 When using this approach, things look fine and dandy for the versions of Chrome, Edge and Safari I tested (refer to list above) whereby the images were centre-aligned on both vertical and horizontal, and that is nice. But they're not in Firefox, like literally, the images aren't visible on my page when vertical writing mode is toggled. It's fine in horizontal though.
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/ffbug2-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/ffbug2-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/ffbug2-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/ffbug2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/ffbug2-640.jpg" alt="Flexbox issue with vertical writing-mode on Firefox" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/ffbug2-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/ffbug2-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/ffbug2-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/ffbug2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/ffbug2-640.jpg" alt="Flexbox issue with vertical writing-mode on Firefox" />
 
 I had wrapped the images that were supposed to do the stacking thing in a `div` that had `display: flex` applied, and this somehow messed up the rendering in Firefox while in vertical writing mode. I suspect this behaviour is related to the following bugs: [Bug 1189131](https://bugzilla.mozilla.org/show_bug.cgi?id=1189131), [Bug 1223180](https://bugzilla.mozilla.org/show_bug.cgi?id=1223180), [Bug 1332555](https://bugzilla.mozilla.org/show_bug.cgi?id=1332555), [Bug 1318825](https://bugzilla.mozilla.org/show_bug.cgi?id=1318825) and [Bug 1382867](https://bugzilla.mozilla.org/show_bug.cgi?id=1382867).
 
 In the meantime, I'm kinda intrigued by this effect that images, which are flex children, have in vertical writing mode on Firefox. It's like the browser just went nope <span class="emoji" role="img" tabindex="0" aria-label="woman zombie">&#x1F9DF;&#x200D;&#x2640;&#xFE0F;</span><span class="emoji" role="img" tabindex="0" aria-label="person gesturing NO">&#x1F645;</span><span class="emoji" role="img" tabindex="0" aria-label="pile of poo">&#x1F4A9;</span>.
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/whoa-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/whoa-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/whoa-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/whoa-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/whoa-640.jpg" alt="Flexbox issue with vertical writing-mode on Firefox" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/whoa-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/whoa-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/whoa-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/whoa-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/whoa-640.jpg" alt="Flexbox issue with vertical writing-mode on Firefox" />
 
 Vertical writing mode aside, I had a conversation with [Jen Simmons](http://jensimmons.com/) some time back about flexbox implementation across different browsers and she found that shrinking images are handled differently across all the browsers. [The issue](https://github.com/w3c/csswg-drafts/issues/1322) is still being discussed among the CSS working group so stay tuned for updates.
 
@@ -482,7 +482,7 @@ We've already come so far from what was necessary for this layout, so I consider
 
 Unfortunately, 10 minutes into the attempt, I broke my brain. The grid inspector tool in Firefox didn't seem to match the elements on my page, but maybe it's because there are too many things on there.
 
-<img srcset="{{ site.url }}/images/posts/vertical-typesetting/gridtool-480.jpg 480w, {{ site.url }}/images/posts/vertical-typesetting/gridtool-640.jpg 640w, {{ site.url }}/images/posts/vertical-typesetting/gridtool-960.jpg 960w, {{ site.url }}/images/posts/vertical-typesetting/gridtool-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vertical-typesetting/gridtool-640.jpg" alt="Grid inspector tool issue in vertical writing-mode" />
+<img srcset="{{ site.url }}/assets/images/posts/vertical-typesetting/gridtool-480.jpg 480w, {{ site.url }}/assets/images/posts/vertical-typesetting/gridtool-640.jpg 640w, {{ site.url }}/assets/images/posts/vertical-typesetting/gridtool-960.jpg 960w, {{ site.url }}/assets/images/posts/vertical-typesetting/gridtool-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vertical-typesetting/gridtool-640.jpg" alt="Grid inspector tool issue in vertical writing-mode" />
 
 I need to create a simplified test case for using grid with vertical writing mode and that will be a much simpler demo and separate write-up (probably with corresponding bug reports).
 

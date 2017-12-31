@@ -140,10 +140,10 @@ I wanted a skewed, slanted effect for the title, kind of like those television g
 
 ### transform
 
- But the crux of the title style is the `transform`</code>` property. CSS transforms allow us to do all kinds of fun stuff, like in Photoshop but with code. I wrote about [basic 2D transforms]({{ site.url }}/blog/basics-of-css-transforms/) a while back, if anyone is interested to find out more about this awesome property.
+ But the crux of the title style is the `transform`</code>` property. CSS transforms allow us to do all kinds of fun stuff, like in Photoshop but with code. I wrote about [basic 2D transforms]({{ site.url }}/assets/blog/basics-of-css-transforms/) a while back, if anyone is interested to find out more about this awesome property.
 
 <figure>
-    <img src="{{ site.url }}/images/posts/tl-ws2/title.svg" alt="Transforming the title">
+    <img src="{{ site.url }}/assets/images/posts/tl-ws2/title.svg" alt="Transforming the title">
     <figcaption>First rotate -10 degrees, then skew -10 degrees</figcaption>
 </figure>
 <pre><code class="language-css">span {

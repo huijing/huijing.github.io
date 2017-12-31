@@ -48,9 +48,9 @@ gulp.task('sass', function () {
       onError: browserSync.notify
     }))
     .pipe(prefix(['last 3 versions', '> 1%', 'ie 8'], { cascade: true }))
-    .pipe(gulp.dest('_site/css/'))
+    .pipe(gulp.dest('_site/assets/css/'))
     .pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('assets/css'));
 });
 
 /**
@@ -59,9 +59,9 @@ gulp.task('sass', function () {
 gulp.task('scripts', function() {
   return gulp.src(['_js/lib/*.js', '_js/custom.js'])
     .pipe(concat('scripts.js'))
-    .pipe(gulp.dest('_site/js'))
+    .pipe(gulp.dest('_site/assets/js'))
     .pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest('js'));;
+    .pipe(gulp.dest('assets/js'));;
 });
 
 /**
@@ -94,8 +94,8 @@ gulp.task('sass-prod', function () {
     }))
     .pipe(prefix(['last 3 versions', '> 1%', 'ie 8'], { cascade: true }))
     .pipe(cssnano())
-    .pipe(gulp.dest('_site/css/'))
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('_site/assets/css/'))
+    .pipe(gulp.dest('assets/css'));
 });
 
 /**
@@ -105,8 +105,8 @@ gulp.task('sass-prod', function () {
   return gulp.src(['_js/lib/*.js', '_js/custom.js'])
     .pipe(concat('scripts.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('_site/js'))
-    .pipe(gulp.dest('js'));;
+    .pipe(gulp.dest('_site/assets/js'))
+    .pipe(gulp.dest('assets/js'));;
 });
 
 /**

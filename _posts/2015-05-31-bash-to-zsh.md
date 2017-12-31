@@ -90,7 +90,7 @@ zstyle ':prezto:load' pmodule \
     - Add Powerline to zsh by adding this to your .zshrc file.
         <pre><code class="language-bash">source /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh</code></pre>
     - You need to use a patched font, or one that is compatible with Powerline, as the non-ASCII font for iTerm2. I'm using [Input Mono](http://input.fontbureau.com/). Here's a list of [patched fonts](https://github.com/powerline/fonts) you can use. Go to the iTerm2 preferences, under Profiles, you will find the Text options where you can set your font of choice.
-        <img src="{{ site.url }}/images/posts/zsh/zsh-1.jpg" alt="iTerm2 preferences"/>
+        <img src="{{ site.url }}/assets/images/posts/zsh/zsh-1.jpg" alt="iTerm2 preferences"/>
 6. If you happen to encounter an a long string of errors with the last line showing <code class="language-bash">ValueError: unknown locale: UTF-8</code>, then you need to add the following to your .zshrc file:
     <pre><code class="language-bash">export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8</code></pre>
@@ -98,7 +98,7 @@ export LANG=en_US.UTF-8</code></pre>
 
 And that's it. We now have a levelled-up terminal for all our development needs. Happy coding!
 
-<img src="{{ site.url }}/images/posts/zsh/zsh-2.jpg" alt="Prezto setup"/>
+<img src="{{ site.url }}/assets/images/posts/zsh/zsh-2.jpg" alt="Prezto setup"/>
 
 ### References
 

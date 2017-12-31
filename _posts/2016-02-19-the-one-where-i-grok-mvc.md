@@ -8,17 +8,17 @@ tags: [client-work, kohana]
 ---
 Earlier this year, I mentioned that I was starting out with the [Kohana](https://kohanaframework.org/) framework. Actually, my team uses a heavily modified version of the Kohana framework as a starter for all our projects. In addition to the Kohana base architecture, our framework had a bunch of goodies built in, like lazy-loading, a run-time Sass compiler and so on. But I digress. We had been tasked to build the website for Audi's SG50 Time Machine campaign. 
 
-<img srcset="{{ site.url }}/images/posts/sg50/sg50-480.jpg 480w, {{ site.url }}/images/posts/sg50/sg50-640.jpg 640w, {{ site.url }}/images/posts/sg50/sg50-960.jpg 960w, {{ site.url }}/images/posts/sg50/sg50-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/sg50/sg50-640.jpg" alt="A Drive Back in Time" />
+<img srcset="{{ site.url }}/assets/images/posts/sg50/sg50-480.jpg 480w, {{ site.url }}/assets/images/posts/sg50/sg50-640.jpg 640w, {{ site.url }}/assets/images/posts/sg50/sg50-960.jpg 960w, {{ site.url }}/assets/images/posts/sg50/sg50-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/sg50/sg50-640.jpg" alt="A Drive Back in Time" />
 
 ## Building the website
 
-The front-facing site itself wasn't too complicated. And this was the first project I kick-started, i.e. clone the framework, set it up and configure it etc. And hence came the post [Introduction to the Base Framework]({{ site.url }}/blog/intro-to-base-framework/). It contains my noob explanation of MVC as well as covers how Base Framework (a modified version of [Kohana](https://kohanaframework.org/)) is used by front-end developers (me, actually <span class="emoji" role="img" tabindex="0" aria-label="nerd face">&#x1F913;</span>).
+The front-facing site itself wasn't too complicated. And this was the first project I kick-started, i.e. clone the framework, set it up and configure it etc. And hence came the post [Introduction to the Base Framework]({{ site.url }}/assets/blog/intro-to-base-framework/). It contains my noob explanation of MVC as well as covers how Base Framework (a modified version of [Kohana](https://kohanaframework.org/)) is used by front-end developers (me, actually <span class="emoji" role="img" tabindex="0" aria-label="nerd face">&#x1F913;</span>).
 
 The bulk of the content was on the home page itself, with some sub-pages for additional secondary information. It was going to be a (in my own words) a pseudo-single page website. There would be four sections, the introduction, a map of the event, an accompanying video and a registration form. The navigation links would be a combination of anchor links that scrolled down to each respective position, as well as links to the aforementioned sub-pages. Probably not the best design pattern around, but, circumstances.
 
 ### Introduction section
 
-Our designers came up with the idea to have the background transform from modern day back to 1965, in line with the "back-in-time" theme. My initial idea was very simple, just two images, with the modern day version superimposed on the 1965 version, and animating the opacity to fade out. If you read my [post about diamond grids]({{ site.url }}/blog/diamond-grid-using-sass/), you'll realise that my initial simple ideas don't fly very well with designers. <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
+Our designers came up with the idea to have the background transform from modern day back to 1965, in line with the "back-in-time" theme. My initial idea was very simple, just two images, with the modern day version superimposed on the 1965 version, and animating the opacity to fade out. If you read my [post about diamond grids]({{ site.url }}/assets/blog/diamond-grid-using-sass/), you'll realise that my initial simple ideas don't fly very well with designers. <span class="kaomoji">¯\\\_(ツ)\_/¯</span>
 
 <figure>
     <p data-height="385" data-theme-id="9162" data-slug-hash="vLMyax" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/vLMyax/'>Background fade demo</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -33,10 +33,10 @@ So the key now was to optimise the *\*bleep\** out of that video. I used a progr
 
 ### Navigation
 
-The navigation looks sinisterly simple at first glance, but from a code stand-point, it is anything but straightforward. In fact, it warranted its [own blog post]({{ site.url }}/blog/that-navigation-bar-design/) of more than 2000 words. Feel free to skip to that post and experience the trials and tribulations of someone trying to comprehend the [CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model).
+The navigation looks sinisterly simple at first glance, but from a code stand-point, it is anything but straightforward. In fact, it warranted its [own blog post]({{ site.url }}/assets/blog/that-navigation-bar-design/) of more than 2000 words. Feel free to skip to that post and experience the trials and tribulations of someone trying to comprehend the [CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model).
 
 <figure>
-    <img srcset="{{ site.url }}/images/posts/sg50/navbar-480.jpeg 480w, {{ site.url }}/images/posts/sg50/navbar-640.jpeg 640w, {{ site.url }}/images/posts/sg50/navbar-960.jpeg 960w, {{ site.url }}/images/posts/sg50/navbar-1280.jpeg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/sg50/navbar-640.jpeg" alt="Site navigation" />
+    <img srcset="{{ site.url }}/assets/images/posts/sg50/navbar-480.jpeg 480w, {{ site.url }}/assets/images/posts/sg50/navbar-640.jpeg 640w, {{ site.url }}/assets/images/posts/sg50/navbar-960.jpeg 960w, {{ site.url }}/assets/images/posts/sg50/navbar-1280.jpeg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/sg50/navbar-640.jpeg" alt="Site navigation" />
     <figcaption>Simple is not easy.</figcaption>
 </figure>
 

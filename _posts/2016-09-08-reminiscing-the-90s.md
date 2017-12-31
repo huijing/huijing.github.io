@@ -17,7 +17,7 @@ A computer performs computations, hence the name. Fun fact, computers used to be
 
 <figure>
     <figcaption>Fascinating book on human computers.</figcaption>
-    <img src="{{ site.url }}/images/posts/vintage/wcwh.jpg" srcset="{{ site.url }}/images/posts/vintage/wcwh@2x.jpg 2x" alt="When computers were human"/>
+    <img src="{{ site.url }}/assets/images/posts/vintage/wcwh.jpg" srcset="{{ site.url }}/assets/images/posts/vintage/wcwh@2x.jpg 2x" alt="When computers were human"/>
 </figure>
 
 But I digress, computers have evolved at an astonishing rate within the last 100 years, from behemoths spanning rooms running on vacuum tubes, then moving on to transistors, and now we have tiny devices running on microchips.
@@ -30,7 +30,7 @@ I suppose that’s also a reason why personal computing became more ubiquitous. 
 
 As computers became more widespread and popular among the general public, the demand for easy-to-use interfaces also ballooned. Graphical user interfaces (GUIs) had been around for the longest time though. Think Apple’s iconic Macintosh desktop, and the still-going-strong X11. These interfaces were more intuitive for most common users with no formal technical training and really grew the industry as well.
 
-<img srcset="{{ site.url }}/images/posts/vintage/mac-gui-480.jpg 480w, {{ site.url }}/images/posts/vintage/mac-gui-640.jpg 640w, {{ site.url }}/images/posts/vintage/mac-gui-960.jpg 960w, {{ site.url }}/images/posts/vintage/mac-gui-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vintage/mac-gui-640.jpg" alt="Mac GUI" />
+<img srcset="{{ site.url }}/assets/images/posts/vintage/mac-gui-480.jpg 480w, {{ site.url }}/assets/images/posts/vintage/mac-gui-640.jpg 640w, {{ site.url }}/assets/images/posts/vintage/mac-gui-960.jpg 960w, {{ site.url }}/assets/images/posts/vintage/mac-gui-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vintage/mac-gui-640.jpg" alt="Mac GUI" />
 
 But everything has a down-side, and the down-side of this is that we now have quite a large proportion of users who really don’t know how computers work. If you’re the token IT guy among your friends or colleagues, I think you’ll relate to this.
 
@@ -44,14 +44,14 @@ So you can imagine my excitement when the Hackware announced that they would be 
 
 <figure>
     <figcaption>Does anybody remember this at all?</figcaption>
-    <img srcset="{{ site.url }}/images/posts/vintage/da-480.jpg 480w, {{ site.url }}/images/posts/vintage/da-640.jpg 640w, {{ site.url }}/images/posts/vintage/da-960.jpg 960w, {{ site.url }}/images/posts/vintage/da-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vintage/da-640.jpg" alt="Direct Access start-up" />
+    <img srcset="{{ site.url }}/assets/images/posts/vintage/da-480.jpg 480w, {{ site.url }}/assets/images/posts/vintage/da-640.jpg 640w, {{ site.url }}/assets/images/posts/vintage/da-960.jpg 960w, {{ site.url }}/assets/images/posts/vintage/da-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vintage/da-640.jpg" alt="Direct Access start-up" />
 </figure>
 
 I was lucky enough to be exposed to computers since the age of 5. The first computer I played around with ran on MS-DOS. To be honest, the only reason I learned to operate that machine was purely so I could play games. I think it’s safe to say that it was easier to understand how computers worked then, simply because there was a lower level of abstraction than what we have now. I’m not saying it’s a bad thing, it’s just an observation.
 
 <figure>
     <figcaption>Direct Access, the DOS menuing shell by Delta Technology International</figcaption>
-    <img srcset="{{ site.url }}/images/posts/vintage/da2-480.jpg 480w, {{ site.url }}/images/posts/vintage/da2-640.jpg 640w, {{ site.url }}/images/posts/vintage/da2-960.jpg 960w, {{ site.url }}/images/posts/vintage/da2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/vintage/da2-640.jpg" alt="Direct Access" />
+    <img srcset="{{ site.url }}/assets/images/posts/vintage/da2-480.jpg 480w, {{ site.url }}/assets/images/posts/vintage/da2-640.jpg 640w, {{ site.url }}/assets/images/posts/vintage/da2-960.jpg 960w, {{ site.url }}/assets/images/posts/vintage/da2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/vintage/da2-640.jpg" alt="Direct Access" />
 </figure>
 
 So this was the first operating system I ever used, or at least that I can remember I used. When we first got Windows 3.1 installed, it had to be launched from this DOS menuing shell too. Our games were installed to a separate directory and the only 2 entries I ever accessed were Windows and Games.
@@ -64,7 +64,7 @@ At the time I didn't know what it did except that it changed the numbers on the 
 
 <figure>
     <figcaption>We had something similar at home.</figcaption>
-    <img src="{{ site.url }}/images/posts/vintage/vintage-pc.jpg" srcset="{{ site.url }}/images/posts/vintage/vintage-pc@2x.jpg 2x" alt="When computers were human"/>
+    <img src="{{ site.url }}/assets/images/posts/vintage/vintage-pc.jpg" srcset="{{ site.url }}/assets/images/posts/vintage/vintage-pc@2x.jpg 2x" alt="When computers were human"/>
 </figure>
 
 I guess the games that I played didn't really have this compatibility issue, hence the lack of awareness of what purpose it actually served. It did make a lovely click sound when depressed though (we remember the most useless things, don't we). 
@@ -78,11 +78,11 @@ It wasn't until I read the book [Gamers at Work](http://www.apress.com/978143023
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Classic Carmen Sandiego</figcaption>
-         <img src="{{ site.url }}/images/posts/vintage/carmen.jpg" srcset="{{ site.url }}/images/posts/vintage/carmen@2x.jpg 2x" alt="Where in the world is Carmen Sandiego"/>
+         <img src="{{ site.url }}/assets/images/posts/vintage/carmen.jpg" srcset="{{ site.url }}/assets/images/posts/vintage/carmen@2x.jpg 2x" alt="Where in the world is Carmen Sandiego"/>
     </figure>
     <figure class="multiple">
         <figcaption>Among many in the series</figcaption>
-         <img src="{{ site.url }}/images/posts/vintage/treasure-mtn.jpg" srcset="{{ site.url }}/images/posts/vintage/treasure-mtn@2x.jpg 2x" alt="Treasure Mountain"/>
+         <img src="{{ site.url }}/assets/images/posts/vintage/treasure-mtn.jpg" srcset="{{ site.url }}/assets/images/posts/vintage/treasure-mtn@2x.jpg 2x" alt="Treasure Mountain"/>
     </figure>
 </div>
 
@@ -91,11 +91,11 @@ Of course we had more than just educational games. Side-scrollers were all the r
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Side-scrollers were the best</figcaption>
-         <img src="{{ site.url }}/images/posts/vintage/cosmo.jpg" srcset="{{ site.url }}/images/posts/vintage/cosmo@2x.jpg 2x" alt="Cosmo's Cosmic Adventure"/>
+         <img src="{{ site.url }}/assets/images/posts/vintage/cosmo.jpg" srcset="{{ site.url }}/assets/images/posts/vintage/cosmo@2x.jpg 2x" alt="Cosmo's Cosmic Adventure"/>
     </figure>
     <figure class="multiple">
         <figcaption>This had interesting save features</figcaption>
-         <img src="{{ site.url }}/images/posts/vintage/prehistorik.jpg" srcset="{{ site.url }}/images/posts/vintage/prehistorik@2x.jpg 2x" alt="Prehistorik 2"/>
+         <img src="{{ site.url }}/assets/images/posts/vintage/prehistorik.jpg" srcset="{{ site.url }}/assets/images/posts/vintage/prehistorik@2x.jpg 2x" alt="Prehistorik 2"/>
     </figure>
 </div>
 
@@ -108,11 +108,11 @@ If you haven't played Ski Free before, it's really simple. You control this ski-
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>So many hours on this</figcaption>
-         <img src="{{ site.url }}/images/posts/vintage/tetris.jpg" srcset="{{ site.url }}/images/posts/vintage/tetris@2x.jpg 2x" alt="Tetris"/>
+         <img src="{{ site.url }}/assets/images/posts/vintage/tetris.jpg" srcset="{{ site.url }}/assets/images/posts/vintage/tetris@2x.jpg 2x" alt="Tetris"/>
     </figure>
     <figure class="multiple">
         <figcaption>Surprisingly addictive this one</figcaption>
-         <img src="{{ site.url }}/images/posts/vintage/skifree.jpg" srcset="{{ site.url }}/images/posts/vintage/skifree@2x.jpg 2x" alt="Ski Free"/>
+         <img src="{{ site.url }}/assets/images/posts/vintage/skifree.jpg" srcset="{{ site.url }}/assets/images/posts/vintage/skifree@2x.jpg 2x" alt="Ski Free"/>
     </figure>
 </div>
 

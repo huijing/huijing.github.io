@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ### So who are you?
 
-<img srcset="{{ site.url }}/images/headshot@2x.jpg 2x" src="{{ site.url }}/images/headshot.jpg" alt="Profile photo" class="profile-image" />
+<img srcset="{{ site.url }}/assets/images/headshot@2x.jpg 2x" src="{{ site.url }}/assets/images/headshot.jpg" alt="Profile photo" class="profile-image" />
 
 My name is Chen Hui Jing. I first dipped my toe into the waters of web development when I built my first HTML website in 2008 for the Malaysia Basketball Association. 
 

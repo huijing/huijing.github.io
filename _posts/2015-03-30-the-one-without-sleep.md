@@ -13,7 +13,7 @@ Her: Erm...yes.
 Me: Sold!  
 Joking aside, I'd never done a hackathon before and thought it'd be fun to try. We managed to recruit another friend and went as a team of three. 
 
-<img src="{{ site.url }}/images/posts/battlehack/battlehack.jpg" alt="Battlehack Singapore 2015"/>
+<img src="{{ site.url }}/assets/images/posts/battlehack/battlehack.jpg" alt="Battlehack Singapore 2015"/>
 
 ## The idea
 
@@ -29,13 +29,13 @@ Our expertise was building Drupal sites. Thus, that would be our best bet to hav
 
 Battlehack Singapore took place at the [Cliftons office](https://www.cliftons.com/venues/singapore/) in the Finexis Building. Rooms on both floors were set up for teams of four, with power points and LAN cables for each member. We took a spot near the wall because there was a nice spot to the side for napping. Turns out there wouldn't be much of that. 
 
-Shortly into the hackathon, we hit our first snag. The internet access went out. Definitely an "Oh, crap" moment for me. I mentioned in my [last post]({{ site.url }}/blog/542-days-as-a-drupal-developer/) how much I used Google throughout the day. I guess the Hackathon Fates decided, no Google for you, kiddo. 
+Shortly into the hackathon, we hit our first snag. The internet access went out. Definitely an "Oh, crap" moment for me. I mentioned in my [last post]({{ site.url }}/assets/blog/542-days-as-a-drupal-developer/) how much I used Google throughout the day. I guess the Hackathon Fates decided, no Google for you, kiddo. 
 
 No internet also meant no way to download modules. Luckily for me, I had a bunch of local development sites still sitting in my hard drive, and a majority of the module files I needed were in there somewhere. Sure, they were outdated, but beggars can't be choosers. The organisers were working hard to fix the problem, so I figured I'd just download the newer versions when we got back online. The moral of the story is: Don't delete all your old development sites, you never know when they might come in handy.
 
 I'll admit I got a little grumpy about the situation, but pouting wasn't going to solve anything, so why not take a little time to chill with the Dinosaur Game? Just in case you didn't know, as of version 39, the guys at Chrome [snuck an easter egg](http://thenextweb.com/google/2014/09/25/googles-latest-chrome-build-hidden-game-can-play-offline/) into the browser. *Useless trivia: I eventually got to a 1045 high score* <span class="emoji" role="img" tabindex="0" aria-label="face with stuck-out tongue & closed eyes">&#x1F606;</span>
 
-<img src="{{ site.url }}/images/posts/battlehack/dino-game.jpg" alt="Chrome Dinosaur Game"/>
+<img src="{{ site.url }}/assets/images/posts/battlehack/dino-game.jpg" alt="Chrome Dinosaur Game"/>
 
 We wanted the app to have proximity location capabilities. There are quite a number of solutions for this on Drupal. Coincidentally, I'd listened to the latest episode of [Talking Drupal](http://www.talkingdrupal.com/) the night before and the topic was [Map Rendering](http://www.talkingdrupal.com/090). The two modules that stuck in my mind were [Leaflet](https://www.drupal.org/project/leaflet) and [IP Geolocation](https://www.drupal.org/project/ip_geoloc) as it was mentioned they seemed "smoother".
 
@@ -80,11 +80,11 @@ Even though it was a hackathon, and we were pressed for time, I still tried my b
 The presentation at the end of the hackathon was only two minutes long. We figured that as long as we could articulate the app's key features and demo those features successfully, that would be our pitch. As Sheryl Sandberg said:
 <blockquote>Done is better than perfect.</blockquote>
 
-<img src="{{ site.url }}/images/posts/battlehack/hackathon.jpg" alt="Clinic Finder home page"/>
+<img src="{{ site.url }}/assets/images/posts/battlehack/hackathon.jpg" alt="Clinic Finder home page"/>
 
 The Battlehack guys were really helpful in this regard. There were rehearsal slots the next morning for us to present our pitch to a panel of mentors, who'd provide feedback on our idea and presentation pitch. Their suggestion to us was to get to straight to the point on our key feature, the bit about medical schemes, since that was the local problem we were trying to address.
 
-<img src="{{ site.url }}/images/posts/battlehack/hackathon-2.jpg" alt="Clinic Finder map page"/>
+<img src="{{ site.url }}/assets/images/posts/battlehack/hackathon-2.jpg" alt="Clinic Finder map page"/>
 
 That was a really good piece of advice, as we watched a number of participants who presented before us run out of time before they got to best part of their product. We managed to pitch our app within the time and answer the judges' questions. As expected, we did get the "so where will you get the data?" question. So we talked about partnership with government organisations. Another question we got was about advertising, which tied into a point we didn't really consider, on the sustainability of the app.
 

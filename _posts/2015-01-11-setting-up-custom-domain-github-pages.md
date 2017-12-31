@@ -22,18 +22,18 @@ So, the second time I had to do this, I distilled the steps down to the followin
     Save the file as <code class="language-bash">CNAME</code> without any extensions behind it.
 
 2. Go to [Cloudflare](https://www.cloudflare.com/) and create an account, if you haven't got one already.
-3. Enter your domain name then click on the green Add Website green button. Cloudflare will then proceed to scan your domain records. It'll take about a minute (or so says the progress bar), and when it's done, just click Continue setup. <img src="{{ site.url }}/images/posts/custom-domain/cloudflare-1.jpg" alt="Add website"/>
+3. Enter your domain name then click on the green Add Website green button. Cloudflare will then proceed to scan your domain records. It'll take about a minute (or so says the progress bar), and when it's done, just click Continue setup. <img src="{{ site.url }}/assets/images/posts/custom-domain/cloudflare-1.jpg" alt="Add website"/>
 4. <p class="no-margin">Edit the records so there are two A records which resolve to the following IP addresses:</p>
     <pre><code class="language-bash">192.30.252.153  
 192.30.252.154</code></pre>
 
     Then, add a CNAME record with www as an alias of YOUR_USER_NAME.github.io.
-    <img src="{{ site.url }}/images/posts/custom-domain/cloudflare-2.jpg" alt="Setup DNS records"/>
+    <img src="{{ site.url }}/assets/images/posts/custom-domain/cloudflare-2.jpg" alt="Setup DNS records"/>
 
-5. Cloudflare will then tell you to change your nameservers and because they scanned your domain records, they also helpfully tell you exactly what to do. <img src="{{ site.url }}/images/posts/custom-domain/cloudflare-3.jpg" alt="Edit name servers"/>
+5. Cloudflare will then tell you to change your nameservers and because they scanned your domain records, they also helpfully tell you exactly what to do. <img src="{{ site.url }}/assets/images/posts/custom-domain/cloudflare-3.jpg" alt="Edit name servers"/>
 6. Now you'll have to do some twiddling on your Namesilo account. Login and go to the [Domain Manager](https://www.namesilo.com/account_domains.php). Select the domain name you're setting up and click on Change Nameservers.
-<img src="{{ site.url }}/images/posts/custom-domain/name-servers.jpg" alt="Domain manager"/>
-7. Change the nameservers according to the instructions provided by Cloudflare and click on Submit. You should see a message telling you that name server changes will take anything from an hour to 2 days to take effect. Mine took probably an hour, I'm not sure, I went out for dinner. <img src="{{ site.url }}/images/posts/custom-domain/name-servers-2.jpg" alt="Domain manager"/>
+<img src="{{ site.url }}/assets/images/posts/custom-domain/name-servers.jpg" alt="Domain manager"/>
+7. Change the nameservers according to the instructions provided by Cloudflare and click on Submit. You should see a message telling you that name server changes will take anything from an hour to 2 days to take effect. Mine took probably an hour, I'm not sure, I went out for dinner. <img src="{{ site.url }}/assets/images/posts/custom-domain/name-servers-2.jpg" alt="Domain manager"/>
 8. If you tried to access your domain before you set up all this, you may end up staring at Namesilo's parked domain page even after 2 days, so remember to clear your browser cache before checking again.
 
 ***Update:***  

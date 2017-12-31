@@ -8,7 +8,7 @@ It is not a secret that I am a huge fan of [Singapore's national libraries](http
 
 I could go on and on, but the point of today's post is to talk about one of the best exhibits I've been to in a long time. There's an exhibit going on at the [National Library Building](https://www.google.com.sg/maps/place/National+Library/@1.2967797,103.8518113,17.49z/data=!4m5!3m4!1s0x0:0xf23dddaa8432afc5!8m2!3d1.2975881!4d103.8543083?hl=en) called *Tales of the Malay World* that showcases a glorious collection of Malay manuscripts and early books. It started running from 18 August, 2017 and will end on 25 February, 2017 (if you're reading this after it ends, I'm sorry, but I hope this post can give you a small taste of it).
 
-<img srcset="{{ site.url }}/images/posts/malay-manuscripts/banner-480.png 480w, {{ site.url }}/images/posts/malay-manuscripts/banner-640.png 640w, {{ site.url }}/images/posts/malay-manuscripts/banner-960.png 960w, {{ site.url }}/images/posts/malay-manuscripts/banner-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/banner-640.png" alt="Tales of the Malay World banner" />
+<img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/banner-480.png 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/banner-640.png 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/banner-960.png 960w, {{ site.url }}/assets/images/posts/malay-manuscripts/banner-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/banner-640.png" alt="Tales of the Malay World banner" />
 
 ## Some background on the Malay language
 
@@ -23,20 +23,20 @@ The exhibit opens with a bit more background about the history of the Malay lang
 
 We start off with manuscripts, and some of them are on loan from the British Library (well, if you're not from Southeast Asia, FYI Western Europe colonised the shit out of our region <span class="emoji" role="img" tabindex="0" aria-label="face with rolling eyes">&#x1F644;</span> moving on...), while others are from the National Library's own collection. Almost all the manuscripts and books were written in the [Jawi script](https://en.wikipedia.org/wiki/Jawi_alphabet).
 
-<img srcset="{{ site.url }}/images/posts/malay-manuscripts/jawi-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/jawi-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/jawi-960.jpg 960w, {{ site.url }}/images/posts/malay-manuscripts/jawi-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/jawi-640.jpg" alt="Basics of the Jawi alphabet" />
+<img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/jawi-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/jawi-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/jawi-960.jpg 960w, {{ site.url }}/assets/images/posts/malay-manuscripts/jawi-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/jawi-640.jpg" alt="Basics of the Jawi alphabet" />
 
 As an aside, I had taken the Coursera MOOC on [Deciphering Secrets: The Illuminated Manuscripts of Medieval Europe](https://www.coursera.org/learn/medieval-europe/home/welcome) because that's my sort of thing, but I hadn't really seen illuminated manuscripts in real life. Until now. <span class="emoji" role="img" tabindex="0" aria-label="astonished face">&#x1F632;</span>
 
 <figure>
     <figcaption>Likely produced at court due to its lavish gold decoration</figcaption>
-    <img srcset="{{ site.url }}/images/posts/malay-manuscripts/hikayat-isma-yatim-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-isma-yatim-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-isma-yatim-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/hikayat-isma-yatim-640.jpg" alt="Hikayat Isma Yatim" />
+    <img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-isma-yatim-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-isma-yatim-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-isma-yatim-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-isma-yatim-640.jpg" alt="Hikayat Isma Yatim" />
 </figure>
 
 Not every manuscript in the exhibit was illuminated, but I found the Jawi script, and Arabic scripts in general, to be extremely elegant and beautiful. It's hard to put into words, but every script feels like a different persona to me.
 
 <figure>
     <figcaption>Story of Amir Hamzah</figcaption>
-    <img srcset="{{ site.url }}/images/posts/malay-manuscripts/hikayat-amir-hamzah-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-amir-hamzah-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-amir-hamzah-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/hikayat-amir-hamzah-640.jpg" alt="Hikayat Amir Hamzah" />
+    <img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-amir-hamzah-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-amir-hamzah-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-amir-hamzah-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-amir-hamzah-640.jpg" alt="Hikayat Amir Hamzah" />
 </figure>
 
 To me, Han characters and the Chinese script have a balanced quality of strength and grace (that's the best translation I could muster of 柔中带刚, please offer a better one if you can). Arabic scripts are romantic and refined, sprinkled with a bit of whimsy.
@@ -47,40 +47,40 @@ Not every manuscript on display was an illuminated manuscript. Most manuscripts 
 
 <figure>
     <figcaption>Story of Alexander the Great, commissioned by William Farquhar</figcaption>
-    <img srcset="{{ site.url }}/images/posts/malay-manuscripts/hikayat-raja-iskandar-zulkarnian-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-raja-iskandar-zulkarnian-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-raja-iskandar-zulkarnian-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/hikayat-raja-iskandar-zulkarnian-640.jpg" alt="Hikayat Raja Iskandar Zulkarnian" />
+    <img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-raja-iskandar-zulkarnian-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-raja-iskandar-zulkarnian-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-raja-iskandar-zulkarnian-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-raja-iskandar-zulkarnian-640.jpg" alt="Hikayat Raja Iskandar Zulkarnian" />
 </figure>
 
 But even the so-called “plain” manuscripts are beautiful because every manuscript is unique, created under the pen of their respective copyists, reflecting their individuality with every letter and flourish.
 
 <figure>
     <figcaption>Mildly controversial (maybe?) story written by Usup ibn Abdul Kadir</figcaption>
-    <img srcset="{{ site.url }}/images/posts/malay-manuscripts/hikayat-raja-babi-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-raja-babi-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-raja-babi-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/hikayat-raja-babi-640.jpg" alt="Hikayat Raja Babi" />
+    <img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-raja-babi-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-raja-babi-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-raja-babi-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-raja-babi-640.jpg" alt="Hikayat Raja Babi" />
 </figure>
 
 Most of the manuscripts on display were Hikayat (<span dir="rtl" lang="ar">حكاية</span>), which are narrative stories, and Syair (<span dir="rtl" lang="ar">شعير</span>), which are a form of traditional Malay poetry.
 
 <figure>
     <figcaption>Poem about a Selindung Delima</figcaption>
-    <img srcset="{{ site.url }}/images/posts/malay-manuscripts/syair-selindung-delima-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/syair-selindung-delima-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/syair-selindung-delima-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/syair-selindung-delima-640.jpg" alt="Syair Selindung Delima" />
+    <img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/syair-selindung-delima-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/syair-selindung-delima-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/syair-selindung-delima-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/syair-selindung-delima-640.jpg" alt="Syair Selindung Delima" />
 </figure>
 
 <figure>
     <figcaption>Also the story of Alexander the Great, but a different copy. Belonged to Adriaan David Cornets de Groot</figcaption>
-    <img srcset="{{ site.url }}/images/posts/malay-manuscripts/hikayat-iskandar-zulkarnain-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-iskandar-zulkarnain-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-iskandar-zulkarnain-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/hikayat-iskandar-zulkarnain-640.jpg" alt="Hikayat Iskandar Zulkarnain" />
+    <img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-iskandar-zulkarnain-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-iskandar-zulkarnain-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-iskandar-zulkarnain-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-iskandar-zulkarnain-640.jpg" alt="Hikayat Iskandar Zulkarnain" />
 </figure>
 
 One of the highlights of the exhibit (it was on the brochure!) was this huge illuminated letter from Sultan Syarif Kasim to Raffles, where the Sultan request for British support against the Sultan of Sambas. I don't know about you, but if I received a letter of this size, I'd say the author really wanted to get his point across <span class="emoji" role="img" tabindex="0" aria-label="face with stuck-out tongue & closed eyes">&#x1F606;</span>.
 
 <figure>
     <figcaption>This is one epic letter</figcaption>
-    <img src="{{ site.url }}/images/posts/malay-manuscripts/illuminated-letter.jpg" srcset="{{ site.url }}/images/posts/malay-manuscripts/illuminated-letter@2x.jpg 2x" alt="Illuminated letter from Sultan Syarif Kasim to Raffles" />
+    <img src="{{ site.url }}/assets/images/posts/malay-manuscripts/illuminated-letter.jpg" srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/illuminated-letter@2x.jpg 2x" alt="Illuminated letter from Sultan Syarif Kasim to Raffles" />
 </figure>
 
 Another really cool manuscript I liked was *Syair Dendang Siti Fatimah*. It takes the form of a folding book, reminiscent of Chinese folded books (折本), and is, by my estimate, at least 1.5 metres long.
 
 <figure>
     <figcaption>There's a lot more to this but I didn't have a wide lens</figcaption>
-    <img srcset="{{ site.url }}/images/posts/malay-manuscripts/syair-dendang-siti-fatimah-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/syair-dendang-siti-fatimah-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/syair-dendang-siti-fatimah-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/syair-dendang-siti-fatimah-640.jpg" alt="Syair Dendang Siti Fatimah" />
+    <img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/syair-dendang-siti-fatimah-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/syair-dendang-siti-fatimah-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/syair-dendang-siti-fatimah-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/syair-dendang-siti-fatimah-640.jpg" alt="Syair Dendang Siti Fatimah" />
 </figure>
 
 This style of manuscript is typical of those from Thailand and Myanmar and was written in Pattani (southern Thailand). It consists of two poems: *Syair Dendang Siti Fatimah* and *Syair Masihat Kepada Laki dan Perempuan*.
@@ -94,11 +94,11 @@ Lithography was the technique of choice, and this I presume was due to the compl
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Letterpress printed, which failed to capture the varied strokes of Jawi writing</figcaption>
-        <img src="{{ site.url }}/images/posts/malay-manuscripts/tajussalatin.jpg" srcset="{{ site.url }}/images/posts/malay-manuscripts/tajussalatin@2x.jpg 2x" alt="Kitab Tajussalatin" />
+        <img src="{{ site.url }}/assets/images/posts/malay-manuscripts/tajussalatin.jpg" srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/tajussalatin@2x.jpg 2x" alt="Kitab Tajussalatin" />
     </figure>
     <figure class="multiple">
         <figcaption><em>Cermin Mata</em>, a quarterly publication published by Benjamin Keasberry</figcaption>
-        <img src="{{ site.url }}/images/posts/malay-manuscripts/cermin-mata.jpg" srcset="{{ site.url }}/images/posts/malay-manuscripts/cermin-mata@2x.jpg 2x" alt="Cermin Mata" />
+        <img src="{{ site.url }}/assets/images/posts/malay-manuscripts/cermin-mata.jpg" srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/cermin-mata@2x.jpg 2x" alt="Cermin Mata" />
     </figure>
 </div>
 
@@ -106,26 +106,26 @@ Lithography was the technique of choice, and this I presume was due to the compl
 
 <figure>
     <figcaption>This syair has a uniquely designed headpiece</figcaption>
-    <img srcset="{{ site.url }}/images/posts/malay-manuscripts/syair-jauhar-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/syair-jauhar-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/syair-jauhar-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/syair-jauhar-640.jpg" alt="Syair Jauhar" />
+    <img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/syair-jauhar-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/syair-jauhar-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/syair-jauhar-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/syair-jauhar-640.jpg" alt="Syair Jauhar" />
 </figure>
 
 What really got me was how beautifully designed the layouts for these manuscripts and books were. It wasn't just all just a single rectangular block all the time.
 
 <div class="figure-wrapper">
-    <img class="multiple" src="{{ site.url }}/images/posts/malay-manuscripts/taper.jpg" srcset="{{ site.url }}/images/posts/malay-manuscripts/taper@2x.jpg 2x" />
-    <img class="multiple" src="{{ site.url }}/images/posts/malay-manuscripts/taper2.jpg" srcset="{{ site.url }}/images/posts/malay-manuscripts/taper2@2x.jpg 2x" />
+    <img class="multiple" src="{{ site.url }}/assets/images/posts/malay-manuscripts/taper.jpg" srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/taper@2x.jpg 2x" />
+    <img class="multiple" src="{{ site.url }}/assets/images/posts/malay-manuscripts/taper2.jpg" srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/taper2@2x.jpg 2x" />
 </div>
 
  Then again, maybe the curator just turned to those pages that were specially laid out. I'm actually not sure, but point is, there were lots of creative layouts on display.
 
  <figure>
     <figcaption>Manuscripts normally don't contain illustrations but this one does</figcaption>
-    <img srcset="{{ site.url }}/images/posts/malay-manuscripts/hikayat-dewa-mengindera-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-dewa-mengindera-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-dewa-mengindera-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/hikayat-dewa-mengindera-640.jpg" alt="Hikayat Dewa Mengindera" />
+    <img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-dewa-mengindera-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-dewa-mengindera-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-dewa-mengindera-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-dewa-mengindera-640.jpg" alt="Hikayat Dewa Mengindera" />
 </figure>
 
 <figure>
     <figcaption>This was printed by a Chinese printer</figcaption>
-    <img srcset="{{ site.url }}/images/posts/malay-manuscripts/hikayat-sultan-bustamam-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-sultan-bustamam-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/hikayat-sultan-bustamam-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/hikayat-sultan-bustamam-640.jpg" alt="Hikayat Sultan Bustamam" />
+    <img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-sultan-bustamam-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-sultan-bustamam-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-sultan-bustamam-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/hikayat-sultan-bustamam-640.jpg" alt="Hikayat Sultan Bustamam" />
 </figure>
 
 ## Qur'ans
@@ -137,11 +137,11 @@ According to the exhibit, Qur'ans all over the world, if decorated, would have t
 <div class="figure-wrapper">
     <figure class="multiple">
         <figcaption>Beginning of the Surat al-Kahf</figcaption>
-        <img src="{{ site.url }}/images/posts/malay-manuscripts/quran.jpg" srcset="{{ site.url }}/images/posts/malay-manuscripts/quran@2x.jpg 2x" alt="Qur'an" />
+        <img src="{{ site.url }}/assets/images/posts/malay-manuscripts/quran.jpg" srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/quran@2x.jpg 2x" alt="Qur'an" />
     </figure>
     <figure class="multiple">
         <figcaption>Juz' markers in the margins</figcaption>
-        <img src="{{ site.url }}/images/posts/malay-manuscripts/quran2.jpg" srcset="{{ site.url }}/images/posts/malay-manuscripts/quran2@2x.jpg 2x" alt="Qur'an" />
+        <img src="{{ site.url }}/assets/images/posts/malay-manuscripts/quran2.jpg" srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/quran2@2x.jpg 2x" alt="Qur'an" />
     </figure>
 </div>
 
@@ -149,7 +149,7 @@ The following Qur'an is possibly the second-earliest lithographed Qur'an printed
 
 <figure>
     <figcaption>Beginning of Surah Al-Isra'</figcaption>
-    <img srcset="{{ site.url }}/images/posts/malay-manuscripts/quran-480.jpg 480w, {{ site.url }}/images/posts/malay-manuscripts/quran-640.jpg 640w, {{ site.url }}/images/posts/malay-manuscripts/quran-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/images/posts/malay-manuscripts/quran-640.jpg" alt="Printed Qur'an" />
+    <img srcset="{{ site.url }}/assets/images/posts/malay-manuscripts/quran-480.jpg 480w, {{ site.url }}/assets/images/posts/malay-manuscripts/quran-640.jpg 640w, {{ site.url }}/assets/images/posts/malay-manuscripts/quran-960.jpg 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/malay-manuscripts/quran-640.jpg" alt="Printed Qur'an" />
 </figure>
 
 ## Wrapping up
