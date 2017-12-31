@@ -7,3 +7,4 @@ _config_dev.yml
 Gemfile.lock
 rawcomments.yml
 bower_components
+yarn.lock
