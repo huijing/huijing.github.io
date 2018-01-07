@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "The story of Chinese printing"
-date: Jul 15, 2017
-tags: [design, typography]
+date: Jan 21, 2018
+tags: [design, i18n,typography]
 ---
 *This is the second post of a multi-part series about Chinese typography, from the history of Chinese characters, to printing, to digitisation.*
 

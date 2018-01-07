@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "All about Chinese characters"
-date: Jul 15, 2017
-tags: [design, typography, i18n]
+date: Jan 15, 2018
+tags: [design, i18n,typography]
 ---
 *This is the first post of a multi-part series about Chinese typography, from the history of Chinese characters, to printing, to digitisation.*
 
@@ -18,7 +18,7 @@ A language is closely intertwined with the culture, history and identity of the 
 
 <figure>
     <figcaption>Pottery fragments from Xianrendong Cave (<a href="http://www.nydailynews.com/news/world/pottery-fragments-found-south-china-cave-confirmed-20-000-years-old-archaeologists-article-1.1104485">Source</a>)</figcaption>
-    <img src="{{ site.url }}/images/posts/zh-type/xianrendong.jpg" srcset="{{ site.url }}/images/posts/zh-type/xianrendong@2x.jpg 2x" />
+    <img src="{{ site.url }}/assets/images/posts/zh-type/xianrendong.jpg" srcset="{{ site.url }}/assets/images/posts/zh-type/xianrendong@2x.jpg 2x" />
 </figure>
 
 Chinese civilisation has a very long history dating back to the Mesolithic age, based on [prehistoric pottery shards found in Jiangxi, China](http://science.sciencemag.org/content/336/6089/1696). In fact, China can be considered the oldest continuous civilisation in the world. Here's a highly simplified timeline, because visualisations help comprehension (who said that? I did <span class="emoji" role="img" tabindex="0" aria-label="smirking face">&#x1F60F;</span>). You'll need to scroll, a lot, because the Chinese have a long history.
@@ -26,7 +26,7 @@ Chinese civilisation has a very long history dating back to the Mesolithic age, 
 <figure style="margin-left:0;margin-right:0;">
     <figcaption>Simplified timeline of Dynasties (dates may not be definitive)</figcaption>
     <div style="overflow-x:scroll;">
-        <img style="width:3000px;max-width:none;" src="{{ site.url }}/images/posts/zh-story/timeline.svg" />
+        <img style="width:3000px;max-width:none;" src="{{ site.url }}/assets/images/posts/zh-story/timeline.svg" />
     </div>
 </figure>
 
@@ -38,13 +38,13 @@ Oh, was that too morbid? What can I say? I'm genuinely worried we're going to bl
 
 ### Pottery etchings (陶文)
 
-<img style="height:4em;" src="{{ site.url }}/images/posts/zh-story/taowen.svg" />
+<img style="height:4em;" src="{{ site.url }}/assets/images/posts/zh-story/taowen.svg" />
 
 Professor Zheng Huisheng (郑慧生老师) from Henan University posited that [Chinese writing had its roots in 陶文](http://www.comdesignlab.com/typochina/chinese/archives/98) (script etched on ancient pottery), which came about during the Neolithic age. The script was comprised of line symbols and pictographs which were used to convey message and meaning. There is no definitive proof that these symbols were used as a formal writing system already, as some researchers also make the case that these symbols 
 
 <figure>
     <figcaption>Glyphs from excavated ancient Liuwan pottery (<a href="http://web.archive.org/web/20170120090334/http://c19680213.blog.163.com/blog/static/1091357332016128112347771/">Source</a>)</figcaption>
-    <img src="{{ site.url }}/images/posts/zh-type/liuwan.png" srcset="{{ site.url }}/images/posts/zh-type/liuwan@2x.png 2x" />
+    <img src="{{ site.url }}/assets/images/posts/zh-type/liuwan.png" srcset="{{ site.url }}/assets/images/posts/zh-type/liuwan@2x.png 2x" />
 </figure>
 
 ### Seal script (篆书)
@@ -53,7 +53,7 @@ Seal script is the all-encompassing category that covers scripts before the adve
 
 #### Oracle bone script (甲骨文)
 
-<img style="height:4em;" src="{{ site.url }}/images/posts/zh-story/jiaguwen.svg" />
+<img style="height:4em;" src="{{ site.url }}/assets/images/posts/zh-story/jiaguwen.svg" />
 
 By the Shang dynasty, the writing system had developed into a reasonably sophisticated script. Oracle bone script (甲骨文) was discovered by Wang Yirong (王懿荣), a historian and scholar in the late Qing dynasty. He was also an avid collector of cultural relics and became intrigued with an ingredient called "Dragon bone" used in one of his traditional Chinese medical prescriptions. 
 
@@ -67,14 +67,14 @@ Oracle bone script is very pictographic in nature, for example, the word for sun
 
 <figure>
     <figcaption>日、山、月、田、米、家</figcaption>
-    <img src="{{ site.url }}/images/posts/zh-type/oracle-bone.png">
+    <img src="{{ site.url }}/assets/images/posts/zh-type/oracle-bone.png">
 </figure>
 
 The thin strokes and limited curves stem from the fact that turtle plastrons and animal bones are very hard and thus aren't easy to carve. As mentioned earlier, Oracle bone script as a language was pretty sophisticated already, complete with verbs and pronouns. Although the characters themselves were far from the standardised characters we see today. I mean, everyone draws a bird or fish differently <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>.
 
 #### Bronze script (金文)
 
-<img style="height:4em;" src="{{ site.url }}/images/posts/zh-story/jingwen.svg" />
+<img style="height:4em;" src="{{ site.url }}/assets/images/posts/zh-story/jingwen.svg" />
 
 Bronze script was developed during the middle of the Shang dynasty and was in use all the way until the Qin dynasty. It was mainly used to record the lives and everyday happenings of society's elites. These records were inscribed onto bronzeware made from copper and tin, especially bronze ritual vessels. Such vessels were seen as status symbols, used by elites for ancestral worship.
 
@@ -84,7 +84,7 @@ The script was written in clay moulds with a brush, then carefully carved onto b
 
 #### Other Large Seal scripts
 
-<img style="height:4em;" src="{{ site.url }}/images/posts/zh-story/dazhuan.svg" />
+<img style="height:4em;" src="{{ site.url }}/assets/images/posts/zh-story/dazhuan.svg" />
 
 There were several variant scripts like Stone Drum Script (石鼓文) and Bird Worm Script (鸟虫书). Stone drum script during warring states, more than 700 characters on the hunting activities of emperor qin more calligraphic than bronze script 10 of these stone drums in beijing 故宫博物院 
 
@@ -94,7 +94,7 @@ After the Western Zhou dynasty, there was a period of relative chaos as states w
 
 #### Small seal script (小篆)
 
-<img style="height:4em;" src="{{ site.url }}/images/posts/zh-story/xiaozhuan.svg" />
+<img style="height:4em;" src="{{ site.url }}/assets/images/posts/zh-story/xiaozhuan.svg" />
 
 One of the most significant developments in Chinese civilisation is the standardisation of the Chinese language by the First Emperor of Qin (秦始皇), after he successfully conquered all the other states and unified China in 221 BCE.
 
@@ -113,7 +113,7 @@ used throughout han dynasty, fell out of fashion during three kingdoms 魏晋时
 ### Clerical script (隶书)
 
 <div style="overflow-x:scroll;">
-    <img style="width:770px;max-width:none;height:4em;" src="{{ site.url }}/images/posts/zh-story/lishu.svg" />
+    <img style="width:770px;max-width:none;height:4em;" src="{{ site.url }}/assets/images/posts/zh-story/lishu.svg" />
 </div>
 
 evolved from small seal, end of qin, reached peak during east han 东汉时期, 汉隶唐楷 

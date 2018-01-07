@@ -437,7 +437,7 @@ picture img {
   font-style: normal;
   display: inline-block;
   vertical-align: middle;
-  font-family: 'Segoe UI Emoji'; }
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji'; }
 
 _:-ms-lang(x), .emoji {
   vertical-align: top; }
