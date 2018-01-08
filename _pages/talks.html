@@ -12,7 +12,7 @@ permalink: /talks/
     {% if slide.released %}
     <div class="talk">
         <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.id }}">
-        <img srcset="{{ site.baseurl }}/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
+        <img srcset="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
         </a>
         {% if slide.video.size %}
         <p class="no-margin"><a class="talk__video" href="{{ slide.video }}">
@@ -24,7 +24,7 @@ permalink: /talks/
     </div>
     {% else %}
     <div class="talk">
-        <img srcset="{{ site.baseurl }}/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
+        <img srcset="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
         <p class="no-margin">Coming soon!</p>
         <p><a class="no-margin" href="{{ slide.website }}">Event details</a></p>
     </div>
@@ -39,7 +39,7 @@ permalink: /talks/
     {% unless slide.type == 'conference' %}
     <div class="talk">
         <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.id }}">
-        <img srcset="{{ site.baseurl }}/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
+        <img srcset="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
         </a>
         {% if slide.video.size %}
         <p class="no-margin"><a class="talk__video" href="{{ slide.video }}">
