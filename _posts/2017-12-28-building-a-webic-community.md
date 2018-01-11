@@ -41,7 +41,7 @@ The reason I find Jen so compelling, is that she isn't prescriptive when she sha
 
 ## What is front-end?
 
-If job descriptions are anything to go by, the term “front-end” seems to this all-encompassing role that only the most magical of unicorns can hope to fulfil. In reality, I personally know a good number of people who work on the web with skills in areas that most recruiters don't know how to categorise.
+If job descriptions are anything to go by, the term “front-end” seems to be this all-encompassing role that only the most magical of unicorns can hope to fulfil. In reality, I personally know a good number of people who work on the web with skills in areas that most recruiters don't know how to categorise.
 
 This is highly unfortunate, and makes me question our need to categorise everything into neat boxes. Guess what, life isn't neat. Sure, there are those who check off every box on the list of “must-have traits/skills to be a *INSERT TITLE HERE*”, but there are plenty more who don't.
 
@@ -84,13 +84,13 @@ This is why Talk.CSS want to have more people who identify as designers in our a
     <img srcset="{{ site.url }}/assets/images/posts/webic-community/talkcss-480.png 480w, {{ site.url }}/assets/images/posts/webic-community/talkcss-640.png 640w, {{ site.url }}/assets/images/posts/webic-community/talkcss-960.png 960w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/webic-community/talkcss-640.png" alt="Talk.CSS #24 banner" />
 </figure>
 
-We didn't plan for it to turn out this way, but it just so happened that the first Talk.CSS of 2018 will be our biggest event to date. It's part of [DevFest.Asia 2018](https://2018.jsconf.asia/#events), which is the week of tech meetups that lead up to [JSConf.Asia 2018](https://2018.jsconf.asia/) and we've managed to snag [Mandy Michael](http://batmandy.com/), [Andy Clarke](https://stuffandnonsense.co.uk/) and [John Allsop](http://johnfallsopp.com/), in addition of our own [Zell Liew](https://zellwk.com/) and [Sebastiaan Deckers](https://twitter.com/sebdeckers) for a full 3-hour design and CSS extravaganza.
+We didn't plan for it to turn out this way, but it just so happened that the first Talk.CSS of 2018 will be our biggest event to date. It's part of [DevFest.Asia 2018](https://2018.jsconf.asia/#events), which is the week of tech meetups that lead up to [JSConf.Asia 2018](https://2018.jsconf.asia/) and we've managed to snag [Mandy Michael](http://batmandy.com/) and [Andy Clarke](https://stuffandnonsense.co.uk/), in addition of our own [Zell Liew](https://zellwk.com/) and [Sebastiaan Deckers](https://twitter.com/sebdeckers) for a full 3-hour design and CSS extravaganza.
 
 It's going to be pretty awesome, so if you happen to be around during DevFest week, which is between 22–29 January, come join us! You can [get tickets right now](https://www.eventnook.com/event/talkcssconference2018/), and we'll throw in a t-shirt plus coffee (the good kind). I really hope to see you there <span class="emoji" role="img" tabindex="0" aria-label="person gesturing ok">&#x1F646;</span>. 
 
 For 2018, we'd like to expand our audience, as well as talk topics to encompass more design-related topics to facilitate this conversation on what it means to design for the web. To make performance and accessibility something that comes up at the beginning of the design process, not hastily slapped on at the end.
 
-I'm constantly saying to anyone who will listen, that Singapore has one of the strongest tech communities in the world, and I truly believe this. There are many factors that contribute to this and I will gladly write full-length post talking about the Singapore tech community, but not this time. Talk.CSS is a part of this vibrant tech community and we want to do our part to help grow it.
+I'm constantly saying to anyone who will listen, that Singapore has one of the strongest tech communities in the world, and I truly believe this. There are many factors that contribute to this and I will gladly write a full-length post talking about the Singapore tech community, but not this time. Talk.CSS is a part of this vibrant tech community and we want to do our part to help grow it.
 
 <figure>
     <figcaption>Geekbrunch, because we like to gather, eat and talk</figcaption>
