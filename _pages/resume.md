@@ -64,9 +64,9 @@ I was a **Drupal architect** and worked on a variety of projects with several ma
 <p class="no-margin">I've wrote about some of the projects I've worked on, mostly about my experiences and what I learnt along the way:</p>
 
 <ul>
-  <li class="no-margin"><a href="{{ site.url }}/assets/blog/the-one-in-many-languages/">SFO China</a></li>
-  <li class="no-margin"><a href="{{ site.url }}/assets/blog/the-one-on-the-tightest-of-deadlines/">xinMSN migration</a></li>
-  <li><a href="{{ site.url }}/assets/blog/the-one-built-from-128-pictures-of-cakes/">7Love Bakery website</a></li>
+  <li class="no-margin"><a href="{{ site.url }}/blog/the-one-in-many-languages/">SFO China</a></li>
+  <li class="no-margin"><a href="{{ site.url }}/blog/the-one-on-the-tightest-of-deadlines/">xinMSN migration</a></li>
+  <li><a href="{{ site.url }}/blog/the-one-built-from-128-pictures-of-cakes/">7Love Bakery website</a></li>
 </ul>
 
 **Aristal Solutions Sdn Bhd**  

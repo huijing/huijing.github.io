@@ -32,7 +32,7 @@ I wanted the site to be fully-responsive and cross-browser compatible. It defini
 
 ### Switchy-switchy
 
-In my first [writing-mode demo]({{ site.url }}/assets/zh-type), I had a checkbox that toggled between horizontal and vertical writing modes. In that case, it was the same block of content, displayed differently (via a CSS class).
+In my first [writing-mode demo]({{ site.url }}/zh-type), I had a checkbox that toggled between horizontal and vertical writing modes. In that case, it was the same block of content, displayed differently (via a CSS class).
 
 This site utilised a similar concept, in that there would be a toggle, but this time it'd be to switch between 2 blocks of content. The same technique used for [pure CSS tabs](http://codepen.io/huijing/pen/qOLXmy), just that the "tabs" would be styled to look like buttons.
 

@@ -258,7 +258,7 @@ The thing is, it can take multiple variables, ideal for use in Sass maps. For ex
 
 All that being said, my original problem was to re-use the same colours Sass map to generate the background colours for my set of elements, while using nth-child selectors that were programmatically generated based on the number of colours in the map. Meaning if I added more colours to the map, I didn't have to change anything else.
 
-This was implemented in  I came up with this for the implementation of my recently deployed [Demos landing page]({{ site.url }}/assets/demos/):
+This was implemented in  I came up with this for the implementation of my recently deployed [Demos landing page]({{ site.url }}/demos/):
 
 <pre><code class="language-scss">@each $name, $colour in $colours {
   section:nth-child(#{length($colours)}n + #{index(($colours), ($name $colour))}) {

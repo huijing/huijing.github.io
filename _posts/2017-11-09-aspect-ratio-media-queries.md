@@ -26,7 +26,7 @@ This particular layout involving overlap, vertical white-space and transforms wo
 
 <p data-height="441" data-theme-id="9162" data-slug-hash="PKOeQV" data-default-tab="result" data-user="huijing" data-embed-version="2" data-pen-title="Grid layout with overlaps" class="codepen">See the Pen <a href="https://codepen.io/huijing/pen/PKOeQV/">Grid layout with overlaps</a> by Chen Hui Jing (<a href="https://codepen.io/huijing">@huijing</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
-The demo is more fun in a standalone window, so this is [the self-hosted version]({{ site.url }}/assets/demos/grids-overlap-2/).
+The demo is more fun in a standalone window, so this is [the self-hosted version]({{ site.url }}/assets/grids-overlap-2/).
 
 Viewport units can be challenging to use because everything is relative to the viewport, not particular containers within the layout, so scaling can be tricky sometimes. It's a flexible unit, and would work well with the aspect-ratio media query for situations where we want to keep proportions.
 
