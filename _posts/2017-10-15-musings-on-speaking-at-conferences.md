@@ -8,7 +8,7 @@ tags: [opinion]
 
 I have a friend, a close friend, called [Aysha](https://aysha.me/). She is an awesome human being, and we have pretty similar personalities and viewpoints (which is probably why we get along so well). She's also a fellow Malaysian, who happens to be a front-end developer as well as a speaker at web conferences, checking the same boxes as myself.
 
-We recently got together after our respective speaking stints, mine being [the road-trip around Southeast Asia]({{ site.url }}/assets/blog/talking-about-talking-css/), and hers being at [Mobile Era](https://mobileera.rocks/) in Oslo, Norway. And one of the things we talked about over dinner was how we felt about speaking at conferences, as women from Southeast Asia.
+We recently got together after our respective speaking stints, mine being [the road-trip around Southeast Asia]({{ site.url }}/blog/talking-about-talking-css/), and hers being at [Mobile Era](https://mobileera.rocks/) in Oslo, Norway. And one of the things we talked about over dinner was how we felt about speaking at conferences, as women from Southeast Asia.
 
 ## A brief Geography lesson
 
@@ -24,7 +24,7 @@ So yes, many of us can speak English, some of us even speak it rather well. And 
 
 The aftermath of colonialism from the 16th century to the mid-20th century is that we now live in a world that plays by Western rules. You could even say that it is a white man's world. Southeast Asia was one of the regions that was heavily colonised by European powers. And this has long-reaching social consequences, even today, after we have gained sovereignty. Because you cannot just declare independence and expect the culture and mindset of people who were occupied for generations to change overnight.
 
-Like I mentioned before [in a previous post]({{ site.url }}/assets/blog/css-writing-mode-personal-identity), we all perceive the world and our place in it differently. And these are my views of the world and my place in it, formed as a result of my personal experiences. You will have your own views and opinions, which may or may not disagree with mine.
+Like I mentioned before [in a previous post]({{ site.url }}/blog/css-writing-mode-personal-identity), we all perceive the world and our place in it differently. And these are my views of the world and my place in it, formed as a result of my personal experiences. You will have your own views and opinions, which may or may not disagree with mine.
 
 ## A logistical issue
 

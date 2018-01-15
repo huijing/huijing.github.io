@@ -10,7 +10,7 @@ external_site: wismut
 ---
 *This is the third post of a multi-part series about developing the brand identity for Wismut Labs.*
 
-The [previous post]({{ site.url }}/assets/blog/designing-for-the-web-in-the-browser/) covered a number of design decisions made with regards to the overall style of the Wismut Labs brand. This post will focus on the actual building of the Wismut Labs website.
+The [previous post]({{ site.url }}/blog/designing-for-the-web-in-the-browser/) covered a number of design decisions made with regards to the overall style of the Wismut Labs brand. This post will focus on the actual building of the Wismut Labs website.
 
 ## We don't need no database
 
@@ -180,5 +180,5 @@ There are many considerations when it comes to designing and building a website.
 
 And with that, we've reached the end of this series. Hopefully, this has given you a better understanding of the values our company is built on, as well as some insight into the process of developing the brand identity for Wismut Labs.
 
-*Read Part 1: [What's in a name? Behind the branding of Wismut Labs]({{ site.url }}/assets/blog/whats-in-a-name/)*  
-*Read Part 2: [Designing for the web in the browser]({{ site.url }}/assets/blog/designing-for-the-web-in-the-browser/)*
+*Read Part 1: [What's in a name? Behind the branding of Wismut Labs]({{ site.url }}/blog/whats-in-a-name/)*  
+*Read Part 2: [Designing for the web in the browser]({{ site.url }}/blog/designing-for-the-web-in-the-browser/)*

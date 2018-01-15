@@ -6,7 +6,7 @@ image: project-14
 project: Penang Hokkien
 tags: [css, jekyll, side-project]
 ---
-At the end of 2016, I published a website called [Penang Hokkien 槟城福建话](http://penang-hokkien.gitlab.io). Just a few months prior, I had started playing around with the CSS writing-mode property after having a random thought on my daily bicycle commute to work. That grew into a really long blog post on [Chinese typography on the web]({{ site.url }}/assets/blog/chinese-web-typography/), and an experimental [layout-switching demo](https://www.chenhuijing.com/zh-type/). During that period, I also discovered the [Penang Hokkien Podcast](http://penanghokkien.com/).
+At the end of 2016, I published a website called [Penang Hokkien 槟城福建话](http://penang-hokkien.gitlab.io). Just a few months prior, I had started playing around with the CSS writing-mode property after having a random thought on my daily bicycle commute to work. That grew into a really long blog post on [Chinese typography on the web]({{ site.url }}/blog/chinese-web-typography/), and an experimental [layout-switching demo](https://www.chenhuijing.com/zh-type/). During that period, I also discovered the [Penang Hokkien Podcast](http://penanghokkien.com/).
 
 Penang Hokkien is a variant of the Hokkien dialect that is unique to the northern states of Malaysia, and is essentially the lingua franca of Penang. It is also my mother tongue, and the main language spoken within my household. Penang Hokkien holds a special place in my heart. It represents where I come, where I belong, it is the language of home.
 
@@ -16,7 +16,7 @@ Given that building websites is one of those things that I'm sort of decent at, 
 
 All my previous demos and random side-projects were hosted on GitHub as project pages tied to my user account. I'm too cheap to buy additional domain names, so all of them are subsites of www.chenhuijing.com <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>. But I really wanted this site to stand alone. 
 
-Sometime last year, I learned that [GitLab](https://about.gitlab.com/gitlab-com/) had [GitLab Pages](https://pages.gitlab.io/) and always wanted to try it out, but never had a compelling reason to. Until now. It wasn't the smoothest experience (largely due to my own ineptitude), but it wasn't terrible either. And I kinda like GitLab to begin with anyway. I [wrote about the experience]({{ site.url }}/assets/blog/hosting-static-site-gitlab-pages/) as well.
+Sometime last year, I learned that [GitLab](https://about.gitlab.com/gitlab-com/) had [GitLab Pages](https://pages.gitlab.io/) and always wanted to try it out, but never had a compelling reason to. Until now. It wasn't the smoothest experience (largely due to my own ineptitude), but it wasn't terrible either. And I kinda like GitLab to begin with anyway. I [wrote about the experience]({{ site.url }}/blog/hosting-static-site-gitlab-pages/) as well.
 
 ## Flexing the brain muscles
 

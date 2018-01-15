@@ -4,7 +4,7 @@ title: "1239 days working on the web"
 date: Feb 21, 2017
 tags: [opinion]
 ---
-Almost 2 years ago, I wrote a post called [542 days as a Drupal developer]({{ site.url }}/assets/blog/542-days-as-a-drupal-developer/). Many more days have passed since then and I mentioned at the end of the post I hoped that I would still love doing this 5420 days in. So consider this a checkpoint post. I'm no longer doing Drupal full-time now, instead focusing on front-end work. 
+Almost 2 years ago, I wrote a post called [542 days as a Drupal developer]({{ site.url }}/blog/542-days-as-a-drupal-developer/). Many more days have passed since then and I mentioned at the end of the post I hoped that I would still love doing this 5420 days in. So consider this a checkpoint post. I'm no longer doing Drupal full-time now, instead focusing on front-end work. 
 
 The 4 points that I covered in that earlier post still apply though. I still learn on the job (a lot), and have been lucky to have mentors who are patient enough to explain things to me. And don't get me started on building stuff, I have loads of tiny projects that were built because “I felt like it”. As for meet-ups, I now [run one](https://singaporecss.github.io/) too <span class="emoji" role="img" tabindex="0" aria-label="person gesturing ok">&#x1F646;</span>!
 

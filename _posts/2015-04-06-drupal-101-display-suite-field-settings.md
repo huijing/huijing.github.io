@@ -7,7 +7,7 @@ category: planet-drupal
 ---
 A minor complaint I often have about Drupal is the mess of markup it generates. Don't get me wrong, there are times when all those default classes help when it comes to styling, but there are also times when there is so much nesting it puts Inception to shame. (This is a repeat joke, excuse me if you've heard me mention it before.)
 
-This post actually came about because I was trying to include using Display Suite to set up fields as an optional step in the [alternative method for accordions]({{ site.url }}/assets/blog/drupal-101-alternative-accordion/) post. However, that step ended up being so ridiculously long it warranted its own post.
+This post actually came about because I was trying to include using Display Suite to set up fields as an optional step in the [alternative method for accordions]({{ site.url }}/blog/drupal-101-alternative-accordion/) post. However, that step ended up being so ridiculously long it warranted its own post.
 
 1. Install Display suite.
     <pre><code class="language-bash">drush dl ds -y</code></pre>

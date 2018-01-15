@@ -7,11 +7,11 @@ description: "If you write a lot of custom Drupal themes, gulp can really help s
 tags: [drupal8, theming, workflow]
 category: planet-drupal
 ---
-Around two years ago, I wrote a post called [Drupal 101: Theming Drupal 7 with gulp]({{ site.url }}/assets/blog/drupal-101-theming-with-gulp/), which covered some basics about Sass and gulp. I'm not going to repeat myself, so if you can read that article if you're interested. This one is going to cover the delta for the `gulpfile.js` setup in Drupal 8.
+Around two years ago, I wrote a post called [Drupal 101: Theming Drupal 7 with gulp]({{ site.url }}/blog/drupal-101-theming-with-gulp/), which covered some basics about Sass and gulp. I'm not going to repeat myself, so if you can read that article if you're interested. This one is going to cover the delta for the `gulpfile.js` setup in Drupal 8.
 
 ## gulp-ify your Drupal theme
 
-If you're just starting out with Drupal 8 theming, you can read my previous post on exactly that [right here]({{ site.url }}/assets/blog/drupal-101-d8-theming/). I'm going to cover the gulp tasks that are relevant to my way of working, which is a whole lot less than what most other people do with gulp.
+If you're just starting out with Drupal 8 theming, you can read my previous post on exactly that [right here]({{ site.url }}/blog/drupal-101-d8-theming/). I'm going to cover the gulp tasks that are relevant to my way of working, which is a whole lot less than what most other people do with gulp.
 
 I only use gulp to compile Sass, handle ES6 and clear the cache when I update Twig templates. No minification because Drupal does that already.
 
@@ -82,7 +82,7 @@ To prevent triggering a segmentation fault when running Drush, we need to add a 
 
 ### gulpfile.js setup
 
-The Drupal 7 post goes into a lot more detail on creating tasks and what each of the tasks does, and installing stuff, and if that's what you need, [head on over there]({{ site.url }}/assets/blog/drupal-101-theming-with-gulp/). This is simply the updated `gulpfile.js` for Drupal 8.
+The Drupal 7 post goes into a lot more detail on creating tasks and what each of the tasks does, and installing stuff, and if that's what you need, [head on over there]({{ site.url }}/blog/drupal-101-theming-with-gulp/). This is simply the updated `gulpfile.js` for Drupal 8.
 
 <pre><code class="language-javascript">var gulp        = require('gulp'),
     browserSync = require('browser-sync'),

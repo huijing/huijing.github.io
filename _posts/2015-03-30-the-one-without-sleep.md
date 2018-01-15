@@ -29,7 +29,7 @@ Our expertise was building Drupal sites. Thus, that would be our best bet to hav
 
 Battlehack Singapore took place at the [Cliftons office](https://www.cliftons.com/venues/singapore/) in the Finexis Building. Rooms on both floors were set up for teams of four, with power points and LAN cables for each member. We took a spot near the wall because there was a nice spot to the side for napping. Turns out there wouldn't be much of that. 
 
-Shortly into the hackathon, we hit our first snag. The internet access went out. Definitely an "Oh, crap" moment for me. I mentioned in my [last post]({{ site.url }}/assets/blog/542-days-as-a-drupal-developer/) how much I used Google throughout the day. I guess the Hackathon Fates decided, no Google for you, kiddo. 
+Shortly into the hackathon, we hit our first snag. The internet access went out. Definitely an "Oh, crap" moment for me. I mentioned in my [last post]({{ site.url }}/blog/542-days-as-a-drupal-developer/) how much I used Google throughout the day. I guess the Hackathon Fates decided, no Google for you, kiddo. 
 
 No internet also meant no way to download modules. Luckily for me, I had a bunch of local development sites still sitting in my hard drive, and a majority of the module files I needed were in there somewhere. Sure, they were outdated, but beggars can't be choosers. The organisers were working hard to fix the problem, so I figured I'd just download the newer versions when we got back online. The moral of the story is: Don't delete all your old development sites, you never know when they might come in handy.
 

@@ -34,7 +34,7 @@ There are a number of Drupal modules that help implement accordions (just google
 8. Click on *Manage display* and hide the labels for both fields. You probably should do the same for the *Accordion* content type.
     <img src="{{ site.url }}/assets/images/posts/accordion/accordion-display.jpg" alt="Hide labels"/>
 9. *Optional steps: To setup display for the new content type*
-    You can choose to use the default Drupal markup to write your accordion. But I find it neater to tweak the markup via Display Suite first. You don't have to do this if you don't want to. Instructions [here]({{ site.url }}/assets/blog/drupal-101-display-suite-field-settings/).
+    You can choose to use the default Drupal markup to write your accordion. But I find it neater to tweak the markup via Display Suite first. You don't have to do this if you don't want to. Instructions [here]({{ site.url }}/blog/drupal-101-display-suite-field-settings/).
 
 ## Writing the accordion functionality
 

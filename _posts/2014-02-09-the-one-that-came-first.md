@@ -7,7 +7,7 @@ image: project-1
 description: There's always a first time and this was it. The first assignment as a gainfully employed web developer. We all need to crawl before we can walk.
 tags: [client-work, drupal7]
 ---
-My first assignment as a web developer was to style the theme for the [Temple University in Singapore](http://www.temple.sg/) website. The original site was built using Drupal, however, the developer had gone AWOL and there was no way to access the source code of the site. 
+My first assignment as a web developer was to style the theme for the [Temple University in Singapore](https://web.archive.org/web/20171105112144/http://www.temple.sg/) website. The original site was built using Drupal, however, the developer had gone AWOL and there was no way to access the source code of the site. 
 
 My team’s solution to this sticky situation was to clone the HTML of the original site using wGet and use that to rebuild the whole site from scratch using Drupal. My job was to make this replacement site look like the original.
 
@@ -23,7 +23,7 @@ A ninja-level friend of mine recommended [Bento](http://www.bentobox.io), which 
 
 I also managed to get my hands on a copy of [John Duckett’s HTML & CSS](http://www.htmlandcssbook.com/), and promptly devoured that too. This may sound like overkill to some of you, but I was not the kind of genius who got things a first glance. Constant reinforcement is the key, for me at least. At the end of all that, I got myself a pretty solid understanding of the basics of HTML and CSS.
 
-The trickiest part of this project for me at the time was styling the pager for the homepage carousel. [Here's]({{ site.url }}/assets/blog/drupal-101-simple-image-carousel/) how I did it.
+The trickiest part of this project for me at the time was styling the pager for the homepage carousel. [Here's]({{ site.url }}/blog/drupal-101-simple-image-carousel/) how I did it.
 <figure>
 <figcaption>This definitely did not come out of the box.</figcaption>
 <img src="{{ site.url }}/assets/images/posts/temple/temple-pager.jpg" alt="Temple.sg carousel pager"/>

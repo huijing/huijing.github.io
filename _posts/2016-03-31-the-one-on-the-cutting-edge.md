@@ -16,7 +16,7 @@ I've become pretty fond of [Jekyll](https://jekyllrb.com/) to spin up simple web
 
 Anyway, if you're curious, [StaticGen](https://www.staticgen.com/) lists all the open-source static site generators out there by GitHub stars. So the site is built on Jekyll, and hosted on GitHub pages, because we're too poor for paid hosting. Nor did we have the funds to purchase a domain name. Life. <span class="kaomoji">¯\\\_(ツ)\_/¯</span> 
 
-If you're interested in my Jekyll site workflow, check out [this post]({{ site.url }}/assets/blog/gulp-jekyll-github/) which covers all the steps from setting up the repository to the gulp-run workflow.
+If you're interested in my Jekyll site workflow, check out [this post]({{ site.url }}/blog/gulp-jekyll-github/) which covers all the steps from setting up the repository to the gulp-run workflow.
 
 I don't know about you, but I'm one of those people who can spend hours happily searching for a font that feels right. [Abduzeedo's](http://abduzeedo.com/) [Friday Fresh Free Font](http://abduzeedo.com/tags/ffff) segment has a lot of solid fonts. There are also those ever-so-popular listicle-style posts which feature new and noteworthy fonts. I originally wanted to use [Ahamono](https://www.behance.net/gallery/19532783/AhamonoMonospaced) but the kerning didn't feel right on the body copy, and the stylised descenders looked a bit odd. I eventually settled for [Hack](http://sourcefoundry.org/hack/).
 

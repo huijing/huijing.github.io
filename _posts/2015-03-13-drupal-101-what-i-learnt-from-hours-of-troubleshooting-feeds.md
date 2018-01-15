@@ -25,7 +25,7 @@ Assuming you've got your hands on all that content, it still has to get onto the
 
 In all seriousness, one of the most commonly used methods to import large amounts of content is with the [Feeds](https://www.drupal.org/project/feeds) module. The [official documentation](https://www.drupal.org/node/622696) for Feeds is very good and comprehensive, but I still ran into some issues when I tried it for the first time (and subsequent times as well, to be honest). 
 
-I attribute it to the complicated data sets I had to work with. Usually, for single value fields, the data import is pretty straight-forward. It's when you have to deal with multi-value fields when things start to get messy. Sometimes you'll find that the trickiest part of getting your feed to import successfully is mostly about massaging the data so it gets read correctly. I describe one of my data cleansing adventures [here]({{ site.url }}/assets/blog/the-one-with-many-iterations/#data-cleansing).
+I attribute it to the complicated data sets I had to work with. Usually, for single value fields, the data import is pretty straight-forward. It's when you have to deal with multi-value fields when things start to get messy. Sometimes you'll find that the trickiest part of getting your feed to import successfully is mostly about massaging the data so it gets read correctly. I describe one of my data cleansing adventures [here]({{ site.url }}/blog/the-one-with-many-iterations/#data-cleansing).
 
 <p class="no-margin" id="feeds-tips">There are many different types of parsers you can use to build your feed importer. The most commonly used methods are:</p>
 

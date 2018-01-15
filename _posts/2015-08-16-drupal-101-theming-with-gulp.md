@@ -7,9 +7,9 @@ description: "If you write a lot of custom Drupal themes, gulp can really help s
 tags: [drupal7, theming, workflow]
 category: planet-drupal
 ---
-*Update: There's a newer post that covers the [gulp setup for theming Drupal 8]({{ site.url }}/assets/blog/drupal-101-theming-with-gulp-again/) which highlights a few changes from this post. Don't worry, the changes are rather minor and most of this post is still relevant.*
+*Update: There's a newer post that covers the [gulp setup for theming Drupal 8]({{ site.url }}/blog/drupal-101-theming-with-gulp-again/) which highlights a few changes from this post. Don't worry, the changes are rather minor and most of this post is still relevant.*
 
-I still remember the first Drupal 7 theme I built. It was for the [Singapore Gastric Cancer Consortium website]({{ site.url }}/assets/blog/the-one-i-cut-my-teeth-on/), and at the time I barely knew my way around HTML and CSS. I used the [Zen](https://www.drupal.org/project/zen) theme as my starter theme, and unknowingly wrote my CSS in `.scss` files without realising the distinction. I was a little bit confused to why I needed to install a software called Codekit to make everything work but was too busy trying to get the theme up and running to worry about it at the time.
+I still remember the first Drupal 7 theme I built. It was for the [Singapore Gastric Cancer Consortium website]({{ site.url }}/blog/the-one-i-cut-my-teeth-on/), and at the time I barely knew my way around HTML and CSS. I used the [Zen](https://www.drupal.org/project/zen) theme as my starter theme, and unknowingly wrote my CSS in `.scss` files without realising the distinction. I was a little bit confused to why I needed to install a software called Codekit to make everything work but was too busy trying to get the theme up and running to worry about it at the time.
 
 ## Let's talk about that thing called Sass
 
@@ -25,7 +25,7 @@ Personally, the Sass functionalities I make use of most are variables and mixins
 
 Officially, [gulp](http://gulpjs.com/) is a build system. When I first heard of all these tools, like [Grunt](http://gruntjs.com/) and gulp, I didn't understand what they were. Terms like task-runner, build tools, streams and so on just flew over my head. The first article I ever read on task-runners was [Grunt for People Who Think Things Like Grunt are Weird and Hard](https://24ways.org/2013/grunt-is-not-weird-and-hard/) by [Chris Coyier](http://chriscoyier.net/). Honestly, I didn't get it. But it's totally my problem and not his (he's awesome). A fellow front-end developer tried to explain to me the benefits of Grunt, but at the time, there was nothing that I needed from Grunt which Codekit couldn't do. So I left task-runners alone, and went about my own way.
 
-Earlier this year, I started doing a lot of HTML, CSS and Javascript experiments, so I came up with my own extremely bare-bones boilerplate, consisting of a 20-line HTML5 template file plus a styles.css file and a scripts.js file, both of which are blank. During these experiments, I found myself pressing ⌘-⇧-R at an alarming rate. Specifically I was doing ⌘-S (save file), ⌘-tab (switch to browser), ⌘-⇧-R (reload browser). And so, [Browsersync](http://www.browsersync.io/). Thing is, if you google "Browsersync development", the first result is [Browsersync + Gulp.js](http://www.browsersync.io/docs/gulp/). I had heard that gulp was easier to understand that Grunt, but was still sceptical, until I read the first tutorial. I actually understood what was happening almost immediately <span class="kaomoji">( ﾉ^.^)ﾉﾟ</span>.
+Earlier this year, I started doing a lot of HTML, CSS and Javascript experiments, so I came up with my own extremely bare-bones boilerplate, consisting of a 20-line HTML5 template file plus a styles.css file and a scripts.js file, both of which are blank. During these experiments, I found myself pressing ⌘-⇧-R at an alarming rate. Specifically I was doing ⌘-S (save file), ⌘-tab (switch to browser), ⌘-⇧-R (reload browser). And so, [Browsersync](https://www.browsersync.io/). Thing is, if you google "Browsersync development", the first result is [Browsersync + Gulp.js](https://www.browsersync.io/docs/gulp). I had heard that gulp was easier to understand that Grunt, but was still sceptical, until I read the first tutorial. I actually understood what was happening almost immediately <span class="kaomoji">( ﾉ^.^)ﾉﾟ</span>.
 
 In a nutshell, when we do front-end development, there are certain actions or tasks that we do repeatedly. Like the aforementioned furious browser-reloading. Sometimes, we also use Sass, which needs to be compiled. When we write Javascript, best practice implores us to concatenate and minify our scripts (for production). Lots of stuff to take care of. Rather than have to do all that manually, task-runners like Grunt and gulp can do them automatically whenever we save our working files. So that's what everyone is talking about when they say automating your workflow.
 
@@ -53,7 +53,7 @@ The `-g` flag installs gulp globally on your system, allowing it to be used as a
 
 ## gulp-ify your Drupal theme
 
-If you're just starting out with Drupal theming, you can read my previous post on exactly that [right here]({{ site.url }}/assets/blog/drupal-101-d7-theming/). The setup for this workflow is going to be different from the typical gulp tutorials you see on the web. Because Drupal has it's own quirks, you know. 
+If you're just starting out with Drupal theming, you can read my previous post on exactly that [right here]({{ site.url }}/blog/drupal-101-d7-theming/). The setup for this workflow is going to be different from the typical gulp tutorials you see on the web. Because Drupal has it's own quirks, you know. 
 
 ### Setting up the package.json file
 
@@ -155,7 +155,7 @@ gulp.task('sass', function () {
   .pipe(browserSync.reload({stream:true})) // reload the stream
 });</code></pre>
     
-    <p class="no-margin">We'll also want a task for our favourite drush command, <code>drush cc all</code>. <strong>Clearing cache</strong> is the Drupal equivalent of <em>"Did you turn it off and on again?"</em>. I don't know about you but if I had a dollar for every time I ran this command, I'd be sipping Piña coladas <span class="emoji" role="img" tabindex="0" aria-label="cocktail glass">&#x1F378;</span> all day on a beach in the Caribbean <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span> by now. If you aren't using Drush, you really should. <a href="{{ site.url }}/assets/blog/team-drupal-development#installing-drush">Here’s</a> an earlier post on how to get set up with Drush.</p>
+    <p class="no-margin">We'll also want a task for our favourite drush command, <code>drush cc all</code>. <strong>Clearing cache</strong> is the Drupal equivalent of <em>"Did you turn it off and on again?"</em>. I don't know about you but if I had a dollar for every time I ran this command, I'd be sipping Piña coladas <span class="emoji" role="img" tabindex="0" aria-label="cocktail glass">&#x1F378;</span> all day on a beach in the Caribbean <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span> by now. If you aren't using Drush, you really should. <a href="{{ site.url }}/blog/team-drupal-development#installing-drush">Here’s</a> an earlier post on how to get set up with Drush.</p>
     <pre><code class="language-javascript">/**
  &ast; @task clearcache
  &ast; Clear all caches
@@ -185,7 +185,7 @@ gulp.task('watch', function () {
   gulp.watch('**/*.{php,inc,info}',['reload']);
 });</code></pre>
 
-    Browsersync is much more than just a tool to reload your browser. The sync portion of the name comes from the fact that you can synchronise interactions across multiple browsers. So if I set up a bunch of devices whose browsers are pointing to browser-sync's external access URL, I can control all these browsers at the same time. Scrolling, clicking, you name it. The [documentation](http://www.browsersync.io/docs/) is pretty comprehensive, and it's a good idea to familiarise yourself this extremely useful tool. 
+    Browsersync is much more than just a tool to reload your browser. The sync portion of the name comes from the fact that you can synchronise interactions across multiple browsers. So if I set up a bunch of devices whose browsers are pointing to browser-sync's external access URL, I can control all these browsers at the same time. Scrolling, clicking, you name it. The [documentation](https://www.browsersync.io/docs) is pretty comprehensive, and it's a good idea to familiarise yourself this extremely useful tool. 
     
     <p class="no-margin">You will need to install the browsersync Drupal module for this to work.</p>
     <pre><code class="language-javascript">drush en browsersync -y</code></pre>

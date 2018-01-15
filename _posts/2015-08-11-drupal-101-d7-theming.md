@@ -5,7 +5,7 @@ date: August 11, 2015
 tags: [drupal7, theming]
 category: planet-drupal
 ---
-*Update: I finally got around to writing that [Drupal 8 theming post]({{ site.url }}/assets/blog/drupal-101-d8-theming/) after two years.*
+*Update: I finally got around to writing that [Drupal 8 theming post]({{ site.url }}/blog/drupal-101-d8-theming/) after two years.*
 
 With Drupal 8 just around the corner, it may seem odd that I would write a post about Drupal 7 theming, but I figured it would take some time for Drupal 8 to really become mainstream. Also, when I do write that Drupal 8 theming post (coming soon), we can do some one to one comparisons on the things that have changed. Trust me, there are a lot of differences between the two.
 

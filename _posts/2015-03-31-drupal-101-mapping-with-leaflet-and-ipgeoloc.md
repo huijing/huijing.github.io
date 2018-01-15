@@ -52,7 +52,7 @@ Store locators are a useful functionality for businesses who have multiple outle
 
 ## Importing Location data using feeds
 
-If you have a lot of data, it doesn't make sense to enter each location manually. I suggest using [Feeds](https://www.drupal.org/project/feeds) to import the data instead. This particular example uses data from a spreadsheet, which is easily converted to CSV via Excel. For setting up feeds in other formats, refer to my [previous post on Feeds]({{ site.url }}/assets/blog/drupal-101-what-i-learnt-from-hours-of-troubleshooting-feeds/). 
+If you have a lot of data, it doesn't make sense to enter each location manually. I suggest using [Feeds](https://www.drupal.org/project/feeds) to import the data instead. This particular example uses data from a spreadsheet, which is easily converted to CSV via Excel. For setting up feeds in other formats, refer to my [previous post on Feeds]({{ site.url }}/blog/drupal-101-what-i-learnt-from-hours-of-troubleshooting-feeds/). 
 
 1. Install the [Feeds](https://www.drupal.org/project/feeds) module.
     <pre><code class="language-bash">drush dl feeds -y</code></pre>
@@ -143,4 +143,4 @@ Once everything is rendering correctly, it's just a matter of theming the views 
 
 <img src="{{ site.url }}/assets/images/posts/maps/theming-ba.jpg" alt="Theming before and after"/>
 
-This was pretty much the summary of how I implemented IP Geolocation and Leaflet for [Battlehack]({{ site.url }}/assets/blog/the-one-without-sleep/). I was quite satisfied with the end result as the map was smooth and responsive. If your project requires map rendering, why not give this combination a try?
+This was pretty much the summary of how I implemented IP Geolocation and Leaflet for [Battlehack]({{ site.url }}/blog/the-one-without-sleep/). I was quite satisfied with the end result as the map was smooth and responsive. If your project requires map rendering, why not give this combination a try?

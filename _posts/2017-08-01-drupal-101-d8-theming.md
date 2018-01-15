@@ -152,4 +152,4 @@ This has activated twig debug mode, which means that if you check DevTools, ther
 
 ## Now you can start CSS-ing
 
-Like I mentioned before, those of you who write plain vanilla CSS are free to start theming away. If you happen to use a workflow that involves Sass and gulp, I cover that bit on my updated [theming Drupal with gulp post]({{ site.url }}/assets/blog/drupal-101-theming-with-gulp-again/). Oh, and don't forget to take a screenshot of your theme, name it `screenshot.png` and place it in the root of your theme folder. Just makes things look nicer. Happy Drupal-ing!
+Like I mentioned before, those of you who write plain vanilla CSS are free to start theming away. If you happen to use a workflow that involves Sass and gulp, I cover that bit on my updated [theming Drupal with gulp post]({{ site.url }}/blog/drupal-101-theming-with-gulp-again/). Oh, and don't forget to take a screenshot of your theme, name it `screenshot.png` and place it in the root of your theme folder. Just makes things look nicer. Happy Drupal-ing!

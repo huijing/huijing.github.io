@@ -58,7 +58,7 @@ One of the best things about Drupal is its robust multilingual support. If you n
 
 There's a lot more content that requires translation other than just plain content from nodes, from menus, to taxonomy terms to views and that's the reason there are so many sub-modules for the i18n module. The translation functionality has been modularised in this manner for ease of customisation.
 
-Translation is always tricky to implement, and there are certain gotchas that may trip you up, especially if your site is more complicated. Trust me, I've been there so I wrote up a couple of [translation gotchas]({{ site.url }}/assets/blog/the-one-in-many-languages/#translation-gotchas) from a previous project.
+Translation is always tricky to implement, and there are certain gotchas that may trip you up, especially if your site is more complicated. Trust me, I've been there so I wrote up a couple of [translation gotchas]({{ site.url }}/blog/the-one-in-many-languages/#translation-gotchas) from a previous project.
 
 ### Menu translation
 

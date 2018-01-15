@@ -16,7 +16,7 @@ When I see an interesting layout (usually on print), my mind immediately starts 
 
 Designing layouts on the web requires interpolative thinking, on multiple levels. Web layouts can and most probably should morph as the viewport size changes. Our job is to make sure the layout is most effective in the space it has to perform in.
 
-While preparing the talks for my [Southeast Asia CSS roadtrip]({{ site.url }}/assets/blog/talking-about-talking-css/), I built a number of layout demos. One of my favourites is based off the following design from [The Yellow Issue](http://kiyoshi.de/the-yellow-issue) by [Kiyoshi Stelzner](http://kiyoshi.de/):
+While preparing the talks for my [Southeast Asia CSS roadtrip]({{ site.url }}/blog/talking-about-talking-css/), I built a number of layout demos. One of my favourites is based off the following design from [The Yellow Issue](http://kiyoshi.de/the-yellow-issue) by [Kiyoshi Stelzner](http://kiyoshi.de/):
 
 <img srcset="{{ site.url }}/assets/images/posts/aspect-ratio/yellow-480.jpg 480w, {{ site.url }}/assets/images/posts/aspect-ratio/yellow-640.jpg 640w, {{ site.url }}/assets/images/posts/aspect-ratio/yellow-960.jpg 960w, {{ site.url }}/assets/images/posts/aspect-ratio/yellow-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/aspect-ratio/yellow-640.jpg" alt="The Yellow Issue" />
 

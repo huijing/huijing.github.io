@@ -23,7 +23,7 @@ You should now be on the `gh-pages` branch, and ready to rock.
 
 ## Setting up Reveal.js
 
-1. Install [Node.js](https://nodejs.org/en/). If you are on a Mac, I suggest installing Node.js via [Homebrew](http://brew.sh/). I covered this topic in an earlier post, which you can refer to [here]({{ site.url }}/assets/blog/drupal-101-theming-with-gulp/#nodejs).
+1. Install [Node.js](https://nodejs.org/en/). If you are on a Mac, I suggest installing Node.js via [Homebrew](http://brew.sh/). I covered this topic in an earlier post, which you can refer to [here]({{ site.url }}/blog/drupal-101-theming-with-gulp/#nodejs).
 2. Install [Grunt](http://gruntjs.com/getting-started#installing-the-cli). Once you've installed Node.js and npm(Node.js package manager), you can install Grunt's command line interface using the following command:
     <pre><code class="language-bash">npm install -g grunt-cli</code></pre>
 3. Get the latest version of Reveal.js, either via git clone or just downloading the zipped files directly from the [respository](https://github.com/hakimel/reveal.js/) and place those files into your newly created GitHub Pages folder. If you choose to git clone, copy all the files into the aforementioned folder you created earlier, **without** the `.git` folder.

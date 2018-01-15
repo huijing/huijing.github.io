@@ -41,7 +41,7 @@ Installing all these programs alone is not the end of it. These programs, specif
 
 ## Must-have tools
 
-Admittedly, we developers love our tools. But if something can streamline your workflow and reduce your development time, why not? Don't worry, this is not a long list, there are only two tools we really need. Git and Drush. I've already written about these two tools and how to install them in a previous post about [developing Drupal sites as a team]({{ site.url }}/assets/blog/team-drupal-development/). You can skip straight to the parts on [installing Drush]({{ site.url }}/assets/blog/team-drupal-development/#installing-drush) and [installing Git]({{ site.url }}/assets/blog/team-drupal-development/#installing-git).
+Admittedly, we developers love our tools. But if something can streamline your workflow and reduce your development time, why not? Don't worry, this is not a long list, there are only two tools we really need. Git and Drush. I've already written about these two tools and how to install them in a previous post about [developing Drupal sites as a team]({{ site.url }}/blog/team-drupal-development/). You can skip straight to the parts on [installing Drush]({{ site.url }}/blog/team-drupal-development/#installing-drush) and [installing Git]({{ site.url }}/blog/team-drupal-development/#installing-git).
 
 ## Installing Drupal locally
 

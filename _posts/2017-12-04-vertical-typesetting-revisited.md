@@ -4,7 +4,7 @@ title: "Vertical typesetting with writing-mode revisited"
 date: Dec 04, 2017
 tags: [css, design, typography]
 ---
-About year ago, I [wrote about the findings]({{ site.url }}/assets/blog/chinese-web-typography/) from an exercise in attempting to typeset Chinese vertically on the web. What came out of that was [a bare-bones demo]({{ site.url }}/assets/zh-type) that allowed you to switch between writing modes using the checkbox hack.
+About year ago, I [wrote about the findings]({{ site.url }}/blog/chinese-web-typography/) from an exercise in attempting to typeset Chinese vertically on the web. What came out of that was [a bare-bones demo]({{ site.url }}/assets/zh-type) that allowed you to switch between writing modes using the checkbox hack.
 
 I met [Yoav Weiss](https://blog.yoav.ws/) a little while back and we chatted a little about the [Responsive Images Community Group](http://ricg.io/) because I mentioned how I thought it would be nice if there could be some media query for `writing-mode` with the `picture` element so I didn't have to do some mildly hackish transforms on my images when I switched modes. And he suggested I write it up as [a use-case for responsive images](https://github.com/ResponsiveImagesCG/ri-usecases/issues/63).
 

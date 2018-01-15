@@ -5,7 +5,7 @@ date: February 23, 2015
 tags: [css, drupal7, site-building]
 category: planet-drupal
 ---
-The [first Drupal 7 project]({{ site.url }}/assets/blog/the-one-that-came-first/) I worked on had to have an image carousel with one of those dot pagers on its homepage. I may have been a Drupal newbie then, but I knew for a fact that Drupal did not come with that function built in.
+The [first Drupal 7 project]({{ site.url }}/blog/the-one-that-came-first/) I worked on had to have an image carousel with one of those dot pagers on its homepage. I may have been a Drupal newbie then, but I knew for a fact that Drupal did not come with that function built in.
 
 Now, if you've just started out with Drupal, you may not have heard this phrase before, but it really should be on a t-shirt:
 
@@ -13,7 +13,7 @@ There's a module for that.
 
 Trust me when I say I would definitely wear that. But my point is, the best part about Drupal is its huge library of contributed modules that extend Drupal's capabilities. So here's a tip for newbie Drupalists, before you attempt to write a single line of custom code for that particular function you need, google it. And append the word Drupal to the search, odds are someone already wrote a module for that.
 
-Back to my image carousel. There is a [long list of modules](https://www.drupal.org/node/418616) that you can use to create an image carousel. Really long. But I chose to use the [Views slideshow module](https://www.drupal.org/project/views_slideshow). It's an extension for the [Views module](https://www.drupal.org/project/views). If you build Drupal sites and you haven't heard of Views, well, you're really missing out. Check out [Drupal 101: Introduction to Views]({{ site.url }}/assets/blog/drupal-101-intro-to-views/) for a basic overview of what Views is all about.
+Back to my image carousel. There is a [long list of modules](https://www.drupal.org/node/418616) that you can use to create an image carousel. Really long. But I chose to use the [Views slideshow module](https://www.drupal.org/project/views_slideshow). It's an extension for the [Views module](https://www.drupal.org/project/views). If you build Drupal sites and you haven't heard of Views, well, you're really missing out. Check out [Drupal 101: Introduction to Views]({{ site.url }}/blog/drupal-101-intro-to-views/) for a basic overview of what Views is all about.
 
 The Views slideshow module has been downloaded 1,246,043 times as of time of writing, and is reportedly used on 268,224 sites. That's about 27% of all Drupal websites (I checked the [usage statistics](https://www.drupal.org/project/usage/drupal), I did NOT pluck this number out of the sky). So I figured if I did run into any trouble, there's a high chance someone else did too and probably already had a solution for it.
 

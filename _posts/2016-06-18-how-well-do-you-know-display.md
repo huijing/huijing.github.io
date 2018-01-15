@@ -388,7 +388,7 @@ If you want to use `display: inline` on the header instead, it won't work unless
 
 ### display: ruby;
 
-This particular property needs an introduction to the &lt;ruby&gt; element for it to make sense to you. In a nutshell, there is an element for displaying annotations alongside a base line of text, usually to help with pronunciation. They're a pretty common sight for East Asian languages, like Chinese or Japanese. Most of the articles I came across during my research were dated around 2010, so I wrote about the [2016 state of HTML &lt;ruby&gt;]({{ site.url }}/assets/blog/html-ruby/).
+This particular property needs an introduction to the &lt;ruby&gt; element for it to make sense to you. In a nutshell, there is an element for displaying annotations alongside a base line of text, usually to help with pronunciation. They're a pretty common sight for East Asian languages, like Chinese or Japanese. Most of the articles I came across during my research were dated around 2010, so I wrote about the [2016 state of HTML &lt;ruby&gt;]({{ site.url }}/blog/html-ruby/).
 
 There are some parallels between `display: ruby;` and `display: table;`, but the specification strongly discourages applying ruby display values to non-ruby elements like `span` to display ruby text. Rather, we should markup our content using the HTML ruby elements so screen readers and non-CS renderers can interpret the ruby structures.
 

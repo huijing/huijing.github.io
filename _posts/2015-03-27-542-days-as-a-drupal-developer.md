@@ -14,13 +14,13 @@ I've been gainfully employed as a Drupal architect (the job title printed on my 
 
 When I got the job, I felt that I didn't deserve my job title. And I definitely did not want to feel that way for long. I spent a lot of time reading newbie web development and Drupal articles early on. There's a lot you can learn from Google, and trust me, even now, I still google my way out of a lot of challenges on the job. However, I do recognise the fact that I seriously lucked out with this job. Let me explain.
 
-I'm the type of person who learns best if I'm doing something for real. Meaning, as nice as courses from [Codeacademy](http://www.codecademy.com/learn) and [Dash](https://dash.generalassemb.ly/) are for learning the basics of web development, for me, they don't really stick to my little brain as well as if I was building a real live website. Two weeks into the job, I was handed [an assignment]({{ site.url }}/assets/blog/the-one-i-cut-my-teeth-on/) to build an entire website. It was like learning to swim by being tossed into the ocean, just the way I like it.
+I'm the type of person who learns best if I'm doing something for real. Meaning, as nice as courses from [Codeacademy](http://www.codecademy.com/learn) and [Dash](https://dash.generalassemb.ly/) are for learning the basics of web development, for me, they don't really stick to my little brain as well as if I was building a real live website. Two weeks into the job, I was handed [an assignment]({{ site.url }}/blog/the-one-i-cut-my-teeth-on/) to build an entire website. It was like learning to swim by being tossed into the ocean, just the way I like it.
 
 ## Having a mentor
 
 But of course, googling alone is far from enough. Here's where the lucked out bit comes in. I didn't know it at the time, but the fact is, I joined a development team that was very strong in Drupal fundamentals and best practices. Our technical lead was a stickler for detail, and insistent on doing things the Drupal way. As someone who didn't know a class from a method, he didn't have to do any re-education of programming habits for Drupal because I had none to begin with. Sometimes it's easier to deal with a blank slate.
 
-First thing I learnt was version control, using Git. Now that was a steep learning curve. Oh, the amount of time I spent resolving git conflicts, [undoing damage]({{ site.url }}/assets/blog/the-epic-git-bomb/) done to git repositories, the list goes on. Though it really feels like learning to ride a bicycle, once you get it, you can't unlearn it.
+First thing I learnt was version control, using Git. Now that was a steep learning curve. Oh, the amount of time I spent resolving git conflicts, [undoing damage]({{ site.url }}/blog/the-epic-git-bomb/) done to git repositories, the list goes on. Though it really feels like learning to ride a bicycle, once you get it, you can't unlearn it.
 
 I also learnt about the multitude of environments needed for web development very early on, as my technical lead patiently explained to me why we needed to follow the proper git workflow. 
 

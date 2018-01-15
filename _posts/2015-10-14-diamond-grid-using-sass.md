@@ -8,7 +8,7 @@ Since I started my career on the web, I've been building websites that follow st
 
 ## Attempt 1: Just rotate them divs
 
-On the first pass, I hadn't gotten my hands on the actual design yet, but started experimenting with HTML and CSS first, just to try out a few ideas I had. The first thing that came to mind was using **CSS transforms**, considering I had already [written about it]({{ site.url }}/assets/blog/basics-of-css-transforms/) earlier. Nothing a little `transform: rotate(45deg)` couldn't do, right? Unfortunately, things weren't all that straightforward. The general layout consisted of 2 small diamonds, 2 medium diamonds and 1 large diamond, all aligned to relative to each other on the grid. There would also be an alternate layout to switch things up a bit.
+On the first pass, I hadn't gotten my hands on the actual design yet, but started experimenting with HTML and CSS first, just to try out a few ideas I had. The first thing that came to mind was using **CSS transforms**, considering I had already [written about it]({{ site.url }}/blog/basics-of-css-transforms/) earlier. Nothing a little `transform: rotate(45deg)` couldn't do, right? Unfortunately, things weren't all that straightforward. The general layout consisted of 2 small diamonds, 2 medium diamonds and 1 large diamond, all aligned to relative to each other on the grid. There would also be an alternate layout to switch things up a bit.
 
 <div class="figure-wrapper">
     <figure class="multiple">
@@ -76,7 +76,7 @@ Some of you who are much smarter than me would immediately recognise that this m
 
 ## Attempt 2: Clip off them divs
 
-That didn't go so well. Next idea on the list, **CSS clip-path**. This CSS property allows us to define a specified clipping region to be displayed. Anything outside this region will 'clipped' and won't be seen. The clipping region can be a path specified as a URL referencing an inline SVG or an external SVG. It can also be a shape method, like those used for [CSS shapes]({{ site.url }}/assets/blog/why-you-should-be-excited-about-css-shapes/). Unfortunately, support for CSS clip-path is non-existent for any version of Internet Explorer. Firefox only supports the url() syntax, while Chrome supports shapes and inline SVG for the url() syntax, but not external SVG. I managed to find a cross-browser [polyfill for CSS clip-path](https://github.com/AlfonsoFilho/ClipPath), which should help.
+That didn't go so well. Next idea on the list, **CSS clip-path**. This CSS property allows us to define a specified clipping region to be displayed. Anything outside this region will 'clipped' and won't be seen. The clipping region can be a path specified as a URL referencing an inline SVG or an external SVG. It can also be a shape method, like those used for [CSS shapes]({{ site.url }}/blog/why-you-should-be-excited-about-css-shapes/). Unfortunately, support for CSS clip-path is non-existent for any version of Internet Explorer. Firefox only supports the url() syntax, while Chrome supports shapes and inline SVG for the url() syntax, but not external SVG. I managed to find a cross-browser [polyfill for CSS clip-path](https://github.com/AlfonsoFilho/ClipPath), which should help.
 
 The idea is that each diamond is actually just a square unit with its corners clipped off, so the length of one square is the diagonal of the diamond. Tweak the variables a little bit, and voila:
 

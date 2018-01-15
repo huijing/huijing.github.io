@@ -97,7 +97,7 @@ Opera first implemented in Nov 2012. Both Chrome and Firefox had it since May 20
   <li class="no-margin"><a href="https://ar.al/scribbles/responsive-typography-with-css-feature-queries/">Responsive typography with CSS Feature Queries</a> by Aral Balkan, April 9 2013</li>
   <li class="no-margin"><a href="http://www.creativebloq.com/css3/how-use-supports-rule-your-css-11410545">How to use the @supports rule in your CSS</a> by Lea Verou, January 31 2014</li>
   <li class="no-margin"><a href="https://fedin.co.il/css-feature-queries/">CSS Feature Queries</a> by Amit Tal, June 2 2014</li>
-  <li class="no-margin"><a href="http://blogs.adobe.com/webplatform/2014/08/21/coming-soon-css-feature-queries/">Coming Soon: CSS Feature Queries</a> by Adobe Web Platform Team, August 21 2014</li>
+  <li class="no-margin"><a href="https://web.archive.org/web/20161215063954/http://blogs.adobe.com/webplatform/2014/08/21/coming-soon-css-feature-queries/">Coming Soon: CSS Feature Queries</a> by Adobe Web Platform Team, August 21 2014</li>
   <li><a href="http://www.pixelfreu.de/blog/details/items/css-feature-queries-mittels-supports.html">CSS feature queries mittels @supports</a> by 
 Daniel Erlinger, November 27 2014</li>
 </ul>

@@ -6,7 +6,7 @@ project: Sadia Chicken
 image: project-12
 tags: [client-work, drupal7]
 ---
-Most of the projects I worked on in 2015 were either Facebook applications (yes, somehow those are still being made) or based on the [Base Framework]({{ site.url }}/assets/blog/intro-to-base-framework/). I didn't think there'd be much opportunity for me to work with Drupal for client sites moving forward but I was wrong. After almost 6 Drupal-free months, we got a client request to build their website in Drupal. Guess who was put in charge of that project? <span class="emoji">&#x1F60E;</span>
+Most of the projects I worked on in 2015 were either Facebook applications (yes, somehow those are still being made) or based on the [Base Framework]({{ site.url }}/blog/intro-to-base-framework/). I didn't think there'd be much opportunity for me to work with Drupal for client sites moving forward but I was wrong. After almost 6 Drupal-free months, we got a client request to build their website in Drupal. Guess who was put in charge of that project? <span class="emoji">&#x1F60E;</span>
 
 <img srcset="{{ site.url }}/assets/images/posts/sadia/sadia-480.jpg 480w, {{ site.url }}/assets/images/posts/sadia/sadia-640.jpg 640w, {{ site.url }}/assets/images/posts/sadia/sadia-960.jpg 960w, {{ site.url }}/assets/images/posts/sadia/sadia-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/sadia/sadia-640.jpg" alt="Sadia chicken" />
 
@@ -14,7 +14,7 @@ Sadia is an international food company which specialises in chilled and frozen f
 
 ## Decisions...decisions...
 
-Based on my prior experience with the [Xinmsn]({{ site.url }}/assets/blog/the-one-on-the-tightest-of-deadlines/) project, I knew that it would be important to make the correct architectural call at the start of the project. And after thinking through the requirements, plus some discussion with the team, we decided to go with a multi-site implementation with separate databases but a single code-base.
+Based on my prior experience with the [Xinmsn]({{ site.url }}/blog/the-one-on-the-tightest-of-deadlines/) project, I knew that it would be important to make the correct architectural call at the start of the project. And after thinking through the requirements, plus some discussion with the team, we decided to go with a multi-site implementation with separate databases but a single code-base.
 
 This meant maintenance of 2 separate sites, one for Sadia Singapore, which would be a mono-lingual English site, and one for Sadia Hong Kong, a bi-lingual English/Chinese site. The English language content for both sites would be almost identical, and I understood this meant a duplication of effort for the content creators but this was a con we could live with.
 
@@ -24,7 +24,7 @@ I set up my local machine using [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/d
 
 Admittedly not my finest solution, but you know, pros and cons. My local machine setup is kinda unorthodox to begin with, so it's my own cross to bear here. To get the multi-site setup to work on a [remote Linux server](https://www.drupal.org/docs/7/multisite-drupal/configuring-a-basic-multi-site-development-environment-in-linux), however, was much easier to get working.
 
-Translation was a bit of a chore because there is no way (at least, that I know of) to ensure everything that needed to be translated was covered other than manual checking. So kudos to the project manager who had to do that. If you're interested in multi-lingual Drupal, I have an [earlier post]({{ site.url }}/assets/blog/drupal-101-setting-up-i18n) covering that, as well as a [previous project write-up]({{ site.url }}/assets/blog/the-one-in-many-languages).
+Translation was a bit of a chore because there is no way (at least, that I know of) to ensure everything that needed to be translated was covered other than manual checking. So kudos to the project manager who had to do that. If you're interested in multi-lingual Drupal, I have an [earlier post]({{ site.url }}/blog/drupal-101-setting-up-i18n) covering that, as well as a [previous project write-up]({{ site.url }}/blog/the-one-in-many-languages).
 
 ## Site-building and theming
 

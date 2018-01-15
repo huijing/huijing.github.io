@@ -6,7 +6,7 @@ project: EMBA (Temple.sg)
 image: project-7
 tags: [client-work, design, drupal7]
 ---
-My next assignment was actually with the very first client I ever worked with. Repeat client! This time, the task was to revamp two key sections of the website. If you read my [previous account]({{ site.url }}/assets/blog/the-one-that-came-first/) of the first project, you may remember that this site was a direct port from HTML. There wasn't much design input on our part then, as the objective was to get the site up and functioning. Now that everything was working properly, it was time to implement some design improvements.
+My next assignment was actually with the very first client I ever worked with. Repeat client! This time, the task was to revamp two key sections of the website. If you read my [previous account]({{ site.url }}/blog/the-one-that-came-first/) of the first project, you may remember that this site was a direct port from HTML. There wasn't much design input on our part then, as the objective was to get the site up and functioning. Now that everything was working properly, it was time to implement some design improvements.
 
 <img src="{{ site.url }}/assets/images/posts/temple/emba.jpg" alt="Pre-revamp EMBA"/>
 
@@ -26,7 +26,7 @@ There was also some information that we felt would be better presented as throug
 
 At this point in time, I had a fair number of projects under my belt. However, I still never really got the hang of jQuery. As someone without any background in programming, Javascript just seemed kind of daunting. HTML and CSS was pretty easy to pick up, but Javascript and jQuery just seemed...hard.
 
-The first jQuery learning resource I tried was [Try jQuery](http://try.jquery.com/) by [Code School](https://www.codeschool.com/). It was very good, and took me through all the basics of jQuery but somehow it didn't stick. In retrospect, I realised that I needed to use what I learned on an actual project before I could really wrap my head around it. This was a good opportunity for me to finally understand this jQuery thing. [This post]({{ site.url }}/assets/blog/drupal-101-alternative-accordion/) covers my adventures in accordion creation.
+The first jQuery learning resource I tried was [Try jQuery](http://try.jquery.com/) by [Code School](https://www.codeschool.com/). It was very good, and took me through all the basics of jQuery but somehow it didn't stick. In retrospect, I realised that I needed to use what I learned on an actual project before I could really wrap my head around it. This was a good opportunity for me to finally understand this jQuery thing. [This post]({{ site.url }}/blog/drupal-101-alternative-accordion/) covers my adventures in accordion creation.
 
 The layout was redesigned so call-to-actions were clearly displayed in a sidebar on the right. We also added secondary navigation links on a left sidebar so users could navigate the section more easily.
 

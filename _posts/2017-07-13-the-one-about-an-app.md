@@ -108,7 +108,7 @@ And another <span class="emoji" role="img" tabindex="0" aria-label="light bulb">
 
 ### Better make the list of books responsive, eh?
 
-Yes, considering how I pride myself in being a CSS person, it'd be quite embarrassing if the display was broken at certain screen widths. I already had a responsive table setup I wrote up previously that was made up of a bunch of divs that pretended to be a table when the width was wide enough. Because `display: table` is a thing. I know this because [I researched it before]({{ site.url }}/assets/blog/how-well-do-you-know-display/).
+Yes, considering how I pride myself in being a CSS person, it'd be quite embarrassing if the display was broken at certain screen widths. I already had a responsive table setup I wrote up previously that was made up of a bunch of divs that pretended to be a table when the width was wide enough. Because `display: table` is a thing. I know this because [I researched it before]({{ site.url }}/blog/how-well-do-you-know-display/).
 
 So I did that at first, before realising that the `<table>` element [has extra properties and methods](https://developer.mozilla.org/en/docs/Web/API/HTMLTableElement) that normal elements don't. <span class="emoji" role="img" tabindex="0" aria-label="light bulb">&#x1F4A1;</span> (at the rate this is going, I'll have enough light bulbs for a nice chandelier). This doesn't have anything to do with the CSS portion of things, but was very relevant because of the filtering function I wanted to implement.
 

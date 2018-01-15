@@ -326,7 +326,7 @@ Another issue was related to art-direction of the images on the page. I started 
 
 My end solution is more of a hack than a solution, but I categorised the images into 3 groups, rotatable, stackable and square. Let me explain. Rotatable means that the image works simply by rotating it 90 degrees. Stackable is actually 2 images that are stacked when vertical and side-by-side when horizontal, and square just means the image can be used for both vertical and horizontal layouts. As I said, this is a hack.
 
-Flexbox was pretty useful for my art direction problem. So for the stacked category of images, and activating flex-wrap to wrap on the vertical layout did the trick. I personally think all this will make much more sense if you refer to the [source code for the demo](https://github.com/huijing/zh-type/blob/master/scss/styles.scss).
+Flexbox was pretty useful for my art direction problem. So for the stacked category of images, and activating flex-wrap to wrap on the vertical layout did the trick. I personally think all this will make much more sense if you refer to the [source code for the demo](https://github.com/huijing/zh-type/blob/master/assets/scss/styles.scss).
 
 ## Wrapping up
 

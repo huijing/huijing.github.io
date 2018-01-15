@@ -25,7 +25,7 @@ Before CSS shapes came along, we were more or less locked into standard layouts 
   </figure>
 </div>
 
-CSS shapes is being developed by the [Adobe Web Platform team](http://blogs.adobe.com/webplatform/) and they have [blogged](http://blogs.adobe.com/webplatform/category/features/css-shapes) about how this spec has been developing since 2012. Check out the cool demo the team built, based on [Alice in Wonderland](http://webplatform.adobe.com/Demo-for-Alice-s-Adventures-in-Wonderland/), to showcase CSS shapes' capabilities. Point is, with CSS shapes, it's totally possible to have text wrap around Beyoncé's elbow.
+CSS shapes is being developed by the [Adobe Web Platform team](https://web.archive.org/web/20170701212735/http://blogs.adobe.com:80/webplatform/) and they have [blogged](https://web.archive.org/web/20161126111230/http://blogs.adobe.com/webplatform/category/features/css-shapes) about how this spec has been developing since 2012. Check out the cool demo the team built, based on [Alice in Wonderland](http://webplatform.adobe.com/Demo-for-Alice-s-Adventures-in-Wonderland/), to showcase CSS shapes' capabilities. Point is, with CSS shapes, it's totally possible to have text wrap around Beyoncé's elbow.
 
 <img class="shape" src="{{ site.url }}/assets/images/posts/css-shapes/beyonce.png" alt="Beyoncé"/>
 To be honest, the W3C spec is not that easy to understand, so here's my attempt at explaining it in plain English. A prerequisite for applying a CSS shape property to an element is that the element must be floated. It doesn't work on non-floated elements.
@@ -166,7 +166,7 @@ The unfortunate thing is, neither Firefox nor Internet Explorer supports CSS sha
 
 <ul>
 <li class="no-margin"><a href="http://www.html5rocks.com/en/tutorials/shapes/getting-started/">Getting started with CSS shapes</a> by <a href="http://razvancaliman.com/">Razvan Caliman</a></li>
-<li class="no-margin"><a href="http://blogs.adobe.com/webplatform/2013/10/23/css-shapes-visual-storytelling/">Using CSS shapes to enhance visual storytelling</a> by <a href="http://razvancaliman.com/">Razvan Caliman</a> (If you need more proof that CSS shapes is awesome)</li>
+<li class="no-margin"><a href="https://web.archive.org/web/20170823222424/http://blogs.adobe.com/webplatform/2013/10/23/css-shapes-visual-storytelling/">Using CSS shapes to enhance visual storytelling</a> by <a href="http://razvancaliman.com/">Razvan Caliman</a> (If you need more proof that CSS shapes is awesome)</li>
 <li class="no-margin"><a href="http://alistapart.com/article/css-shapes-101">CSS shapes 101</a> by <a href="http://sarasoueidan.com/">Sara Soueidan</a> (Sara Soueidan is the Queen of SVG and writes a tonne of brilliant articles about CSS. Follow her RIGHT NOW!)</li>
 <li><a href="http://dev.w3.org/csswg/css-shapes/">CSS shapes module level 1</a></li>
 </ul>
