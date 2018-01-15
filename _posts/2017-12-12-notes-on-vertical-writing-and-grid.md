@@ -5,7 +5,7 @@ date: Dec 11, 2017
 tags: [css]
 hastweet: true
 ---
-When I was [working out the kinks]({{ site.url }}/assets/blog/vertical-typesetting-revisited/) in my year-old vertical typesetting demo, I attempted to use CSS grid as one of the options for handling layout, but didn't get very far, because at that point, my brain had pretty much melted down <span class="emoji" role="img" tabindex="0" aria-label="confused face">&#x1F615;</span>. But I'm on a plane now, surrounded by people who are staring at code, so I felt sort of motivated to do something useful as well.
+When I was [working out the kinks]({{ site.url }}/blog/vertical-typesetting-revisited/) in my year-old vertical typesetting demo, I attempted to use CSS grid as one of the options for handling layout, but didn't get very far, because at that point, my brain had pretty much melted down <span class="emoji" role="img" tabindex="0" aria-label="confused face">&#x1F615;</span>. But I'm on a plane now, surrounded by people who are staring at code, so I felt sort of motivated to do something useful as well.
 
 The thing I want to work out is how CSS grid works when the writing mode is vertical, and how that affects Firefox's Grid Inspector as well. Since I wrote a reasonably in-depth post on the Firefox Grid Inspector, I figured I'd better understand it as thoroughly as I could.
 
