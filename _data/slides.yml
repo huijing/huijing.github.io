@@ -164,7 +164,8 @@
 
 - title: "Love the web for what it is"
   id: love-the-web
+  video: https://engineers.sg/video/love-the-web-for-what-it-is-talk-css-24-max-content-edition-singaporecss--2245
   event: Talk.CSS max-content
   website: https://singaporecss.github.io/24
   type: meetup
-  released: false
+  released: true
