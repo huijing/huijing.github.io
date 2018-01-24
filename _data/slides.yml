@@ -155,7 +155,7 @@
   type: conference
   released: true
 
-- title: "When East meets West"
+- title: "Between East and West"
   id: jsconf-2018
   event: JSConf.Asia 2018
   website: https://2018.jsconf.asia/
@@ -169,3 +169,10 @@
   website: https://singaporecss.github.io/24
   type: meetup
   released: true
+
+- title: "Grid is the new black"
+  id: grid-workshop
+  event: JSConf.Asia 2018
+  website: https://2018.jsconf.asia/
+  type: workshop
+  released: false
