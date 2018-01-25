@@ -160,7 +160,7 @@
   event: JSConf.Asia 2018
   website: https://2018.jsconf.asia/
   type: conference
-  released: false
+  released: true
 
 - title: "Love the web for what it is"
   id: love-the-web
