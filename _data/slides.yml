@@ -127,7 +127,7 @@
   type: conference
   released: true
 
-- title: "Be like water"
+- title: "Be like water: applying Bruce Lee's philosophy to web design"
   id: moz-roadshow-2017
   video: https://youtu.be/c3sv43SMLiE
   event: Mozilla Developer Roadshow Asia 2017
@@ -141,7 +141,7 @@
   type: meetup
   released: true
 
-- title: "When East meets West"
+- title: "When East meets West: web typography and how it can inspire modern layouts"
   id: yglf-2017
   event: You Gotta Love Frontend 2017
   website: https://yougottalovefrontend.com/
@@ -155,7 +155,7 @@
   type: conference
   released: true
 
-- title: "Between East and West"
+- title: "Between East and West: web typography and how it can inspire modern layouts"
   id: jsconf-2018
   event: JSConf.Asia 2018
   website: https://2018.jsconf.asia/
@@ -175,4 +175,18 @@
   event: JSConf.Asia 2018
   website: https://2018.jsconf.asia/
   type: workshop
+  released: true
+
+- title: "Tech Briefing: Modern CSS with Hui Jing"
+  id: modern-layouts
+  event: Mozilla Tech Briefing
+  website: https://air.mozilla.org/
+  type: meetup
+  released: false
+
+- title: "Why CSS is a game-changer for web design"
+  id: constellation-2018
+  event: GitHub Constellation Singapore
+  website: https://githubconstellation.com/singapore/
+  type: conference
   released: false
