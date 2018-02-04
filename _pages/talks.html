@@ -11,7 +11,7 @@ permalink: /talks/
     {% if slide.type == 'conference' %}
     {% if slide.released %}
     <div class="talk">
-        <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.id }}">
+        <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.count }}-{{ slide.id }}">
         <img srcset="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
         </a>
         {% if slide.video.size %}
@@ -38,7 +38,7 @@ permalink: /talks/
     {% for slide in site.data.slides %}
     {% unless slide.type == 'conference' %}
     <div class="talk">
-        <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.id }}">
+        <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.count }}-{{ slide.id }}">
         <img srcset="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
         </a>
         {% if slide.video.size %}

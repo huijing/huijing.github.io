@@ -1,5 +1,6 @@
 - title: Using responsive images (now)
   id: resp-imgs
+  count: 01
   video: https://engineers.sg/video/using-responsive-images-now-talk-js--269
   event: talk.js
   type: meetup
@@ -7,6 +8,7 @@
 
 - title: Why you should be excited about CSS shapes
   id: css-shapes
+  count: 02
   video: https://engineers.sg/video/css-shapes-singapore-css--432
   event: Talk.CSS
   type: meetup
@@ -14,6 +16,7 @@
 
 - title: Let's ⚡ talk about CSS triggers
   id: css-triggers
+  count: 03
   video: https://engineers.sg/video/tips-on-eliminating-jank-talk-css--505
   event: Talk.CSS
   type: meetup
@@ -21,18 +24,21 @@
 
 - title: "Web development: breaking it down"
   id: intro-html-css
+  count: 04
   event: General Assembly
   type: workshop
   released: true
 
 - title: "Coding for beginners: HTML and CSS"
   id: begin-html-css
+  count: 05
   event: General Assembly
   type: workshop
   released: true
 
 - title: The epic git bomb
   id: git-bomb
+  count: 06
   video: https://engineers.sg/video/an-epic-git-bomb-git-meetup-0-4-0--630
   event: Grumpy Gits
   type: meetup
@@ -40,18 +46,21 @@
 
 - title: "Code in One Day: HTML & CSS Crash Course"
   id: code-crash-course
+  count: 07
   event: General Assembly
   type: workshop
   released: true
 
 - title: "So your designer wants a masthead"
   id: build-masthead
+  count: 08
   event: Talk.CSS
   type: meetup
   released: true
 
 - title: "TechLadies Pre-Bootcamp Workshop #2"
   id: tl-workshop-2
+  count: 10
   video: https://engineers.sg/video/techladies-pre-bootcamp-workshop-2-front-end-development--965
   event: TechLadies
   type: workshop
@@ -59,6 +68,7 @@
 
 - title: "A Chinese typography experiment"
   id: zh-type
+  count: 11
   video: https://engineers.sg/video/a-chinese-typography-experiment-talk-css--1273
   event: Talk.CSS
   type: meetup
@@ -66,6 +76,7 @@
 
 - title: "How I learn to CSS"
   id: cssconf-2016
+  count: 12
   video: https://youtu.be/gJA5sdyCWNQ
   event: CSSConf.Asia 2016
   website: https://2016.cssconf.asia/
@@ -74,6 +85,7 @@
 
 - title: "CSS grid + writing-mode = 🎉"
   id: css-grid
+  count: 13
   video: https://engineers.sg/video/css-grid-writing-mode-singaporecss--1384
   event: Talk.CSS
   type: meetup
@@ -81,12 +93,14 @@
 
 - title: "TechLadies in KL 🇲🇾"
   id: tl-in-kl
+  count: 14
   event: TechLadies
   type: workshop
   released: true
 
 - title: "Deciphering the CSS property syntax"
   id: css-syntax
+  count: 15
   video: https://engineers.sg/video/deciphering-the-css-property-syntax-in-specifications-singaporecss--1453
   event: Talk.CSS
   type: meetup
@@ -94,6 +108,7 @@
 
 - title: "What the web means to me"
   id: wwc-2017
+  count: 16
   video: https://engineers.sg/video/what-the-web-means-to-me-women-who-code-singapore--1609
   event: Women Who Code
   type: meetup
@@ -101,6 +116,7 @@
 
 - title: "Web typography: East meets West"
   id: webconf-asia-2017
+  count: 17
   event: Webconf.asia 2017
   website: https://webconf.asia/
   type: conference
@@ -108,6 +124,7 @@
 
 - title: "Chinese typography on the web"
   id: pitercss-2017
+  count: 18
   event: pitercss conference
   website: https://pitercss.com/
   type: conference
@@ -115,6 +132,7 @@
 
 - title: "CSS fonts trivia"
   id: css-fonts
+  count: 19
   video: https://engineers.sg/video/css-fonts-trivia-singaporecss--1952
   event: Talk.CSS
   type: meetup
@@ -122,6 +140,7 @@
 
 - title: "Say no to cookie cutter web layouts"
   id: ffc-2017
+  count: 20
   event: Form, Function, Class 8
   website: http://2017.formfunctionclass.com/
   type: conference
@@ -129,6 +148,7 @@
 
 - title: "Be like water: applying Bruce Lee's philosophy to web design"
   id: moz-roadshow-2017
+  count: 21
   video: https://youtu.be/c3sv43SMLiE
   event: Mozilla Developer Roadshow Asia 2017
   website: https://mozilla.github.io/devroadshow2017/
@@ -137,12 +157,14 @@
 
 - title: "Say no to cookie cutter web layouts extended"
   id: web-layouts-hk
+  count: 22
   event: Harbour Front
   type: meetup
   released: true
 
 - title: "When East meets West: web typography and how it can inspire modern layouts"
   id: yglf-2017
+  count: 23
   event: You Gotta Love Frontend 2017
   website: https://yougottalovefrontend.com/
   type: conference
@@ -150,28 +172,32 @@
 
 - title: "2017: The Year of CSS Grid"
   id: gdaygt-2017
+  count: 24
   event: DevFest & GDay 2017 George Town
   website: http://devfest-gday.gdggeorgetown.com/
   type: conference
   released: true
 
-- title: "Between East and West: web typography and how it can inspire modern layouts"
-  id: jsconf-2018
-  event: JSConf.Asia 2018
-  website: https://2018.jsconf.asia/
-  type: conference
-  released: true
-
 - title: "Love the web for what it is"
   id: love-the-web
+  count: 25
   video: https://engineers.sg/video/love-the-web-for-what-it-is-talk-css-24-max-content-edition-singaporecss--2245
   event: Talk.CSS max-content
   website: https://singaporecss.github.io/24
   type: meetup
   released: true
 
+- title: "Between East and West: web typography and how it can inspire modern layouts"
+  id: jsconf-2018
+  count: 26
+  event: JSConf.Asia 2018
+  website: https://2018.jsconf.asia/
+  type: conference
+  released: true
+
 - title: "Grid is the new black"
   id: grid-workshop
+  count: 27
   event: JSConf.Asia 2018
   website: https://2018.jsconf.asia/
   type: workshop
@@ -179,6 +205,7 @@
 
 - title: "Tech Briefing: Modern CSS with Hui Jing"
   id: modern-layouts
+  count: 28
   event: Mozilla Tech Briefing
   website: https://air.mozilla.org/
   type: meetup
@@ -186,6 +213,7 @@
 
 - title: "Why CSS is a game-changer for web design"
   id: constellation-2018
+  count: 29
   event: GitHub Constellation Singapore
   website: https://githubconstellation.com/singapore/
   type: conference
@@ -193,6 +221,7 @@
 
 - title: "Vertical writing on the web: inadvertent layout inspiration from a search for cultural identity"
   id: smashingsf-2018
+  count: 30
   event: SmashingConf San Francisco
   website: https://smashingconf.com/sf-2018/
   type: conference
@@ -200,6 +229,7 @@
 
 - title: "East Asian web typography: crossing cultural boundaries for web layout inspiration"
   id: yglf-2018
+  count: 31
   event: You Gotta Love Frontend Kyiv
   website: http://yglf.com.ua/
   type: conference
@@ -207,6 +237,7 @@
 
 - title: "Box Alignment"
   id: cssday-2018
+  count: 32
   event: CSS Day
   website: https://cssday.nl/
   type: conference
