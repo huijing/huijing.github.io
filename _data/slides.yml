@@ -190,3 +190,24 @@
   website: https://githubconstellation.com/singapore/
   type: conference
   released: false
+
+- title: "Vertical writing on the web: inadvertent layout inspiration from a search for cultural identity"
+  id: smashingsf-2018
+  event: SmashingConf San Francisco
+  website: https://smashingconf.com/sf-2018/
+  type: conference
+  released: false
+
+- title: "East Asian web typography: crossing cultural boundaries for web layout inspiration"
+  id: yglf-2018
+  event: You Gotta Love Frontend Kyiv
+  website: http://yglf.com.ua/
+  type: conference
+  released: false
+
+- title: "Box Alignment"
+  id: cssday-2018
+  event: CSS Day
+  website: https://cssday.nl/
+  type: conference
+  released: false
