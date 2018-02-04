@@ -747,7 +747,7 @@ span[role=img][aria-label]:hover::after {
       margin-bottom: 1.5em; } }
 
 figure {
-  margin-bottom: 1.5em;
+  margin: 0 0 1.5em;
   font-size: 85%; }
   figure iframe {
     margin-bottom: 0; }
