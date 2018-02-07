@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making sense of digital fonts"
-date: Jan 07, 2018
+date: Feb 07, 2018
 tags: [design, typography]
 ---
 My interest in language, writing systems and typography has led me to spend hours down a rabbit hole in search of answers to the plethora of “how/why did this come about?” questions that pop into my head at random. I may have an ”easily distracted” issue, but we're not talking about that today <span class="emoji" role="img" tabindex="0" aria-label="smiling face with horns">&#x1F608;</span>.
