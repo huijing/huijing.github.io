@@ -3,6 +3,7 @@ layout: post
 title: "How I design with CSS grid"
 date: Feb 07, 2018
 tags: [css, design]
+hascodepen: true
 ---
 After a couple of rounds of introducing CSS grid to people who haven't tried it before, I found it wasn't the implementation of grid that people asked questions about, rather, it was the bit before that. The actual planning of how a layout would be set up.
 
@@ -268,9 +269,16 @@ The min-height query was put in there to take care of the black line underneath 
 
 Here's the final end result in action:
 
-<video loop controls autoplay style="margin-bottom:1rem;">
-    <source src="{{ site.url }}/assets/videos/grid-tycho.mp4" type="video/mp4" />Sorry, your browser doesn't support embedded videos, but don't worry, you can <a href="{{ site.url }}/assets/videos/grid-tycho.mp4">download it</a>and watch it with your favourite video player!
-</video>
+<figure>
+  <figcaption>Play around with the <a href="{{ site.url }}/demos/grids-tycho">stand-alone demo</a> if you like</figcaption>
+  <video loop controls autoplay style="margin-bottom:1rem;">
+      <source src="{{ site.url }}/assets/videos/grid-tycho.mp4" type="video/mp4" />Sorry, your browser doesn't support embedded videos, but don't worry, you can <a href="{{ site.url }}/assets/videos/grid-tycho.mp4">download it</a>and watch it with your favourite video player!
+  </video>
+</figure>
+
+And the CodePen, if that's more your thing. I suggest viewing in Full Page mode so you can have fun with resizing too <span class="emoji" role="img" tabindex="0" aria-label="ROFL">&#x1F923;</span>.
+
+<p data-height="353" data-theme-id="9162" data-slug-hash="QQGBjY" data-default-tab="css,result" data-user="huijing" data-embed-version="2" data-pen-title="Tycho Artist Profile" class="codepen">See the Pen <a href="https://codepen.io/huijing/pen/QQGBjY/">Tycho Artist Profile</a> by Chen Hui Jing (<a href="https://codepen.io/huijing">@huijing</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 
 The original inspiration worked best on a landscape view, and just because it doesn't work well on a portrait orientation doesn't mean we can't adopt it. Our job is to think about designing for a dynamic medium, and I find that incredibly rewarding, and fun, to be honest.
 
