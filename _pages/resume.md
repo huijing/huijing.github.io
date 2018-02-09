@@ -25,6 +25,18 @@ permalink: /resume/
 
 ### Work experience
 
+**Jewel Paymentech**  
+(Jan 2018 - Present)  
+I am a **Senior Developer** responsible for the user interfaces and front-end development of Jewel Paymentech's suite of products. My responsibilities include:
+
+<ul>
+  <li class="no-margin">Optimising and refactoring existing codebases to improve the performance of our products, and customer's user experience</li>
+  <li class="no-margin">Standardising coding style and improving front-end documentation to facilitate the on-boarding of new team members</li>
+  <li class="no-margin">Establishing a style guide for Jewel Paymentech products for a consistent branding and ease of new product development</li>
+  <li class="no-margin">Building of prototypes or proof-of-concept systems for explorative research projects</li>
+  <li>Working closely with other team members across various disciplines to continually enhance our existing product line and develop new products</li>
+</ul>
+
 **Deep Labs**  
 (March 2016 - April 2017)  
 I was a **Front-end engineer** focused on the development of user interfaces and front-end development of web and mobile applications. My responsibilities included:
