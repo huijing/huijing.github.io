@@ -267,7 +267,8 @@ main {
   max-width: 48em; }
   main h1,
   main h2,
-  main h3 {
+  main h3,
+  main h4 {
     font-family: "Magnetic Pro Black", "Arial Black", sans-serif; }
 
 .content {
@@ -296,6 +297,10 @@ h2 {
 h3 {
   font-size: 125%;
   margin-bottom: 0.5rem; }
+
+h4 {
+  font-size: 105%;
+  margin-bottom: 0.25rem; }
 
 p {
   margin-bottom: 1rem; }

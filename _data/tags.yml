@@ -4,6 +4,9 @@ client-work:
 codrops:
   name: Codrops
 
+computing:
+  name: Computing
+
 css:
   name: CSS
 
