@@ -151,7 +151,9 @@ A TrueType font file is made up of **a sequence of concatenated tables**. The fi
 
 If you refer to the [TrueType™ Reference Manual](https://developer.apple.com/fonts/TrueType-Reference-Manual/), you can see the entire list of font tables, but 9 of those are required tables, namely `cmap`. `glyf`, `head`, `hhea`, `hmtx`, `loca`, `maxp`, `name` and `post`.
 
-TrueType led to the development of several other formats, including *Multiple Master* fonts, which allowed modifications to the shapes of the glyphs under the user's control, a predecessor to the variable fonts we hear about so often these days. Apple also worked on an extension to TrueType which became *Apple Advanced Typography* (AAT).
+TrueType led to the development of several other formats. <strike>, including *Multiple Master* fonts, which allowed modifications to the shapes of the glyphs under the user's control, a predecessor to the variable fonts we hear about so often these days.</strike> Apple had worked on an extension to TrueType, which eventually became *Apple Advanced Typography* (AAT).
+
+*Update: [David Lemon](https://twitter.com/typenerd1) pointed out that Multiple Master was an extension to Type 1 NOT TrueType. The section on variable fonts below has been updated accordingly.*
 
 #### Opentype fonts
 
@@ -161,7 +163,9 @@ Adobe <strike>Microsoft</strike> eventually turned to former competitor, Microso
 
 Again, the OpenType file format contains **data in a table format**. OpenType fonts can include the OpenType Layout tables, which allow font makers more options when it comes to designing international fonts or high-end fonts with typographic features. These tables contain information on glyph substitution, glyph positioning, justification, and baseline positioning, enabling text-processing applications to improve text layout.
 
-[Variable fonts](https://medium.com/@tiro/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369), which are gaining visibility these days, were an addition to the specification in version 1.8, which introduced the `fvar` or font variations table, that describes the axes of variation used by that font. In addition to this table, there is also a `STAT` or style attributes table that describes additional details about each axis of variation and their values.
+[Variable fonts](https://medium.com/@tiro/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369) are something which is gaining considerable visibility these days, and some might view it as a successor to the Multiple Master font format. Multiple Master was an extension of Type 1 introduced in 1991, which allowed modifications to the shapes of the glyphs under the user's control.
+
+Variable fonts were an addition to the OpenType specification in version 1.8, and introduced the `fvar` or font variations table, that describes the axes of variation used by that font. In addition to this table, there is also a `STAT` or style attributes table that describes additional details about each axis of variation and their values.
 
 The new variation tables introduced are: axis variations (`avar`), CVT (control value table) variations (`cvar`), font variations (`fvar`), glyph variations (`gvar`), horizontal metrics variations (`HVAR`), metrics variations (`MVAR`), vertical metrics variations (`VVAR`). For all the information, here's a link to the [OpenType specification](https://www.microsoft.com/en-us/Typography/OpenTypeSpecification.aspx).
 
@@ -184,5 +188,6 @@ But this research has spurred my interest into the development and digitisation 
   <li class="no-margin"><a href="https://blog.typekit.com/2010/12/08/type-rendering-font-outlines-and-file-formats/">Type rendering: font outlines and file formats</a></li>
   <li class="no-margin"><a href="http://www.historyofinformation.com/expanded.php?id=1213#stq=&amp;stp=0">Origins &amp; Early Development of PostScript and Scalable Digital Type Fonts at Xerox PARC and Adobe Systems (1975 – 1989)</a></li>
   <li class="no-margin"><a href="http://historyofinformation.com/expanded.php?id=3793">TEX and Metafont (1977 – 1979)</a></li>
+  <li class="no-margin"><a href="https://blog.typekit.com/2014/07/30/the-adobe-originals-silver-anniversary-story-how-the-originals-endured-in-an-ever-changing-industry/">The Adobe Originals Silver Anniversary Story: How the Originals endured in an ever-changing industry</a></li>
   <li><a href="https://www.microsoft.com/en-us/Typography/SpecificationsOverview.aspx">Microsoft Typography specifications</a></li>
 </ul>
