@@ -155,7 +155,9 @@ TrueType led to the development of several other formats, including *Multiple Ma
 
 #### Opentype fonts
 
-Microsoft eventually turned to former competitor, Adobe, and together they came up with *OpenType* as a response to AAT. Sort of reminds me of playground alliances back in kindergarten, just saying <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>. Anyway, OpenType is an extension to TrueType as well, with support for PostScript font data.
+*Update: [Tiro Typeworks](https://twitter.com/TiroTypeworks/status/963089470110154753) pointed out that it was Adobe who approached Microsoft and joined in to work on OpenType. Microsoft had already created [TrueType Open](https://www.microsoft.com/en-us/Typography/SpecificationsOverview.aspx) in 1994, and Adobe joined in these efforts in 1996, adding support for the glyph outline technology they employed in their own Type 1 fonts.*
+
+Adobe <strike>Microsoft</strike> eventually turned to former competitor, Microsoft <strike>Adobe</strike>, and together they came up with *OpenType* as a response to AAT. Sort of reminds me of playground alliances back in kindergarten, just saying <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>. Anyway, OpenType is an extension to TrueType as well, with support for PostScript font data.
 
 Again, the OpenType file format contains **data in a table format**. OpenType fonts can include the OpenType Layout tables, which allow font makers more options when it comes to designing international fonts or high-end fonts with typographic features. These tables contain information on glyph substitution, glyph positioning, justification, and baseline positioning, enabling text-processing applications to improve text layout.
 
