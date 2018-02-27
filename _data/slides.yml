@@ -199,6 +199,7 @@
 - title: "Grid is the new black"
   id: grid-workshop
   count: 27
+  video: https://youtu.be/nx0yboEhUNc
   event: JSConf.Asia 2018
   website: https://2018.jsconf.asia/
   type: workshop
@@ -207,18 +208,20 @@
 - title: "Tech Briefing: Modern CSS with Hui Jing"
   id: modern-layouts
   count: 28
+  video: https://youtu.be/ahPRvVyw9Eo
   event: Mozilla Tech Briefing
   website: https://air.mozilla.org/
   type: meetup
-  released: false
+  released: true
 
 - title: "Why CSS is a game-changer for web design"
   id: constellation-2018
   count: 29
+  video: https://youtu.be/24vLH3MC4bc
   event: GitHub Constellation Singapore
   website: https://githubconstellation.com/singapore/
   type: conference
-  released: false
+  released: true
 
 - title: "Vertical writing on the web: inadvertent layout inspiration from a search for cultural identity"
   id: smashingsf-2018
