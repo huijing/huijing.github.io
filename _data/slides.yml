@@ -239,9 +239,17 @@
   type: conference
   released: false
 
+- title: "The web is not just left-to-right"
+  id: cssconf-2018
+  count: 32
+  event: CSSConf.EU 2018
+  website: https://2018.cssconf.eu/
+  type: conference
+  released: false
+
 - title: "Box Alignment"
   id: cssday-2018
-  count: 32
+  count: 33
   event: CSS Day
   website: https://cssday.nl/
   type: conference
