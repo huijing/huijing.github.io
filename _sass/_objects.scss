@@ -79,7 +79,7 @@ span[role=img][aria-label]:hover::after {
 
 @media print {
   span[role=img][aria-label]::after {
-    content: " (" attr(aria-label) ") ";
+    content: '('attr(aria-label)')';
   }
 }
 

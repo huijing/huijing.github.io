@@ -22,7 +22,7 @@
   overflow: hidden;
 }
 
-@mixin z-index($layer, $position:relative) {
+@mixin z-index($layer, $position: relative) {
   position: $position;
   z-index: layer-index($layer);
 }
