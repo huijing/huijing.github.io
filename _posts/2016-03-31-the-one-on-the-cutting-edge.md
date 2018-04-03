@@ -28,7 +28,7 @@ One of the articles I read and found fascinating was [Why I'm Excited About Nati
 
 Then I remembered another article I read: [CSS4 variables and SASS](http://codepen.io/jakealbaugh/post/css4-variables-and-sass) by [Jake Albaugh](https://twitter.com/jake_albaugh). The word awesome does not do this article enough justice. Based on that article, I simply had to tweak my existing colour function to look like this:
 <pre><code class="language-scss">@function color($color-name) {
-  @return var(--#{$color-name}-color, map-get($colors, $color-name));
+  @return var(--#{$color-name}-color, map-get($colours, $color-name));
 }</code></pre>
 
 My colours map didn't need to be touched but they would be used to generate my CSS colour variable declarations.
@@ -51,9 +51,9 @@ $colours: (
 }</code></pre>
 
 CSS variables are **not** supported by Internet Explorer or Edge, and was only recently supported by Chrome (in 49) and Safari (in 9.1). So, fallbacks to the rescue. A simple `map-get` would suffice. Yes, it's extra code, but that's the trade-off when we play with the new and shiny.
-<pre><code class="language-scss">background-color: map-get($colors, bg);
+<pre><code class="language-scss">background-color: map-get($colours, bg);
 background-color: color(bg);
-color: map-get($colors, text);
+color: map-get($colours, text);
 color: color(text);</code></pre>
 
 
@@ -64,12 +64,12 @@ Unfortunately, I couldn't solve the issue with using Sass colour functions, as t
 Instead I used a technique I recently learned from reading [Quick Tip: Fixing the font-weight Problem on Hover States](http://www.sitepoint.com/quick-tip-fixing-font-weight-problem-hover-states/) by [George Martsoukos](http://georgemartsoukos.com/). The article suggested using the `text-shadow` property to simulate the effect of increasing the `font-weight` on hover, and I think it works fairly well.
 
 <pre><code class="language-scss">a {
-  color: map-get($colors,main);
+  color: map-get($colours,main);
   color: color(main);
   transition: all 0.2s;
 
   :hover {
-    text-shadow: 0 0 0.35px map-get($colors, main), 0 0 0.35px map-get($colors, main);
+    text-shadow: 0 0 0.35px map-get($colours, main), 0 0 0.35px map-get($colours, main);
     text-shadow: 0 0 0.35px color(main), 0 0 0.35px color(main);
   }
 }</code></pre>
@@ -147,7 +147,7 @@ First point, we can style the alternative text by applying typography-related pr
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: map-get($colors, secondary);
+    background-color: map-get($colours, secondary);
     background-color: color(secondary);
   }
 }</code></pre>
