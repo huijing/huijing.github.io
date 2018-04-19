@@ -53,17 +53,64 @@ While we're on the topic of responsive design, let's also use some math to figur
 To combat this, we can use `calc` to provide a minimum font-size like the example below:
 <pre class="language-css"><code>body { font-size: calc(1em + 1vw); }</code></pre>
 
-If you do require more control over your font sizes, then more variables need to be added to the equation. The concept of precise fluid font sizes was pioneered by Mike Riethmuller in his article, [Precise control over responsive typography](https://www.madebymike.com.au/writing/precise-control-responsive-typography/), and was an extension of the idea of [molten leading](http://nicewebtype.com/notes/2012/02/03/molten-leading-or-fluid-line-height/) by [Tim Brown](http://tbrown.org/). Mike Riethmuller's equation looks like this:
+If you do require more control over your font sizes, then more variables need to be added to the equation. The concept of precise fluid font sizes was pioneered by Mike Riethmuller in his article, [Precise control over responsive typography](https://www.madebymike.com.au/writing/precise-control-responsive-typography/), and was an extension of the idea of [molten leading](http://nicewebtype.com/notes/2012/02/03/molten-leading-or-fluid-line-height/) by [Tim Brown](http://tbrown.org/). Mike Riethmuller's equation looks something like this:
 
-font-size: calc( 12px + (24 - 12) * ( (100vw - 400px) / ( 800 - 400) ));
+<img src="{{ site.url }}/assets/images/posts/math-for-fed/fluid-typography.svg" alt="Fluid typography annotation" />
 
-[Florens Verschelde](https://fvsch.com/) then did a deep dive into the mathematics behind CSS locks in his article [The math of CSS locks](https://fvsch.com/code/css-locks/). 
+[Florens Verschelde](https://fvsch.com/) then did a deep dive into the mathematics behind CSS locks in his article [The math of CSS locks](https://fvsch.com/code/css-locks/), by expressing the font-size / line-height calculation as a linear function. Linear functions can be plotted on graphs, which makes it easier to visualise relationship between font-size / line-height with the viewport size.
 
-### Calculating shapes with Sass
+<figure>
+    <figcaption>Graph from <a href="https://fvsch.com/code/css-locks/">The math of CSS locks</a> by <a href="https://fvsch.com/">Florens Verschelde</a></figcaption>
+    <img src="{{ site.url }}/assets/images/posts/math-for-fed/linear-function.png" srcset="{{ site.url }}/assets/images/posts/math-for-fed/linear-function@2x.png 2x" alt="Font-size against viewport size in pixels" />
+</figure>
 
-### Creating complex layouts with CSS grid
+## Geometry
 
-### Colour ranges with hsl
+> Geometry is a branch of mathematics that is concerned with the properties of configurations of geometric objects - points, (straight) lines, and circles being the most basic of these.  
+> —[Alexander Bogomolny](https://www.cut-the-knot.org/WhatIs/WhatIsGeometry.shtml)
 
-### Aspect ratios
+### Drawing shapes with CSS
 
+Geometry can help with understanding how to create shapes with just CSS. Let's take the simple `border-radius` property, for example, which is used to round the corners of an element's outside borders. Most of us just put in a single value and call it a day, but the `border-radius` property is a little more complicated than that.
+
+`border-radius` is actually a shorthand for all 4 `border-*-radius` properties, where `*` refers to `top-left`, `top-right`, `bottom-left` or `bottom-right`. And it can take up to 2 values, separated with a `/`, where the first value is the horizontal radius, while the second value is the vertical radius. Here's a diagram to visualisation purposes:
+
+<img style="max-width:20em" src="{{ site.url }}/assets/images/posts/math-for-fed/border-radius.svg" alt="Border radius values" />
+
+And when we use percentages as values, the horizontal radius will be a percentage of the **width** of the border box while the vertical radius will be a percentage of the **height** of the border box. So that's why setting a `border-radius: 50%` gives us a perfect circle or ellipse.
+
+Moving onto something more interesting, but also requires borders, we have triangles. Pure CSS triangles are made possible by “hacking” the borders of an element. When we create borders around an element, the edges of these borders meet diagonally, and we can see this if we apply a sufficiently thick border width to our element. They are trapeziums.
+
+<img style="max-width:20em" src="{{ site.url }}/assets/images/posts/math-for-fed/border-box.svg" alt="Thick border widths" />
+
+If we set the width and height of the element to 0, the trapeziums then become triangles, and voila, we've got our pure CSS triangles.
+
+<img style="max-width:3em" src="{{ site.url }}/assets/images/posts/math-for-fed/borders-only.svg" alt="CSS triangles from borders" />
+
+So let's say we don't want the triangles in a set of four, which is probably the usual case, the other three borders should be made invisible, by setting the adjacent borders' colour to `transparent` and omitting the opposite border altogether.
+
+<pre class="language-css"><code>.triangle-up {
+  width: 0; 
+  height: 0; 
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid gray;
+}</code></pre>
+
+<img src="{{ site.url }}/assets/images/posts/math-for-fed/border-colour.svg" alt="Single pure CSS triangle" />
+
+And maybe we don't always want isosceles triangles (that's what you get by setting all the border widths to the same value), so some geometry comes into play. The handy [Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem) can be used to calculate what the height of the triangle should be like so:
+
+<img src="{{ site.url }}/assets/images/posts/math-for-fed/equilateral.svg" alt="Equilateral CSS triangle" />
+
+<pre class="language-css"><code>.triangle-up {
+  width: 0; 
+  height: 0; 
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: calc(100px * 0.866) solid gray;
+}</code></pre>
+
+## Wrapping up
+
+Mathematics may seem like something that is far from the creative visual aspect of web design and development but it does have a number of practical applications, so why not brush off that high school math textbook of yours and see if there is anything in there that can inspire you to explore CSS in ways you never thought of before?

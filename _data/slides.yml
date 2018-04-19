@@ -231,7 +231,7 @@
   event: SmashingConf San Francisco
   website: https://smashingconf.com/sf-2018/
   type: conference
-  released: false
+  released: true
 
 - title: "East Asian web typography: crossing cultural boundaries for web layout inspiration"
   id: yglf-2018
