@@ -772,12 +772,9 @@ figure {
 
 .shape {
   float: left;
-  -webkit-shape-image-threshold: 0.5;
-          shape-image-threshold: 0.5;
-  -webkit-shape-margin: 1em;
-          shape-margin: 1em;
-  -webkit-shape-outside: url("/assets/images/posts/css-shapes/beyonce.png");
-          shape-outside: url("/assets/images/posts/css-shapes/beyonce.png");
+  shape-image-threshold: 0.5;
+  shape-margin: 1em;
+  shape-outside: url("/assets/images/posts/css-shapes/beyonce.png");
   width: 50%; }
   @media all and (min-width: 35.9375em) {
     .shape {
