@@ -88,6 +88,7 @@
 
   &::before {
     margin-right: 0.25em;
+    background-size: cover;
   }
 
   &::after {
@@ -99,7 +100,7 @@
 
 .alistapart::before {
   background: url('/assets/images/icons/icon-ala.png') no-repeat;
-  background-size: cover;
+  
 }
 
 .codrops::before {
@@ -124,6 +125,11 @@
 
 .alphabettes::before {
   background: url('/assets/images/icons/icon-alphabettes.svg') no-repeat;
+  background-size: cover;
+}
+
+.logrocket::before {
+  background: url('/assets/images/icons/icon-logrocket.svg') no-repeat;
   background-size: cover;
 }
 

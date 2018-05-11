@@ -635,7 +635,8 @@ span[role=img][aria-label]:hover::after {
   width: 0.8em; }
 
 .external-url::before {
-  margin-right: 0.25em; }
+  margin-right: 0.25em;
+  background-size: cover; }
 
 .external-url::after {
   background: url("/assets/images/icons/icon-link.svg") no-repeat;
@@ -643,8 +644,7 @@ span[role=img][aria-label]:hover::after {
   margin-left: 0.25em; }
 
 .alistapart::before {
-  background: url("/assets/images/icons/icon-ala.png") no-repeat;
-  background-size: cover; }
+  background: url("/assets/images/icons/icon-ala.png") no-repeat; }
 
 .codrops::before {
   background: url("/assets/images/icons/icon-codrops.svg") no-repeat;
@@ -664,6 +664,10 @@ span[role=img][aria-label]:hover::after {
 
 .alphabettes::before {
   background: url("/assets/images/icons/icon-alphabettes.svg") no-repeat;
+  background-size: cover; }
+
+.logrocket::before {
+  background: url("/assets/images/icons/icon-logrocket.svg") no-repeat;
   background-size: cover; }
 
 .post-title {

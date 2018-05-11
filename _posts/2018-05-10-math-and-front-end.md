@@ -1,10 +1,20 @@
 ---
 layout: post
-title: "Math for front-end design"
-date: Apr 16, 2018
-tags: [css, html, javascript]
+title: "Math and front-end"
+date: May 10, 2018
+tags: [css, html]
+external_site: logrocket
+external_url: https://blog.logrocket.com/math-and-front-end-context-is-so-much-more-important-than-degree-of-difficulty-6b689f999edc
 ---
-If you were one of those kids that wondered why you had to attend all those math classes and learn about angles and algebra, well, so was I. I'll admit, I was too restless and easily bored to be a good student in a classroom setting. But as I got older, I realised that certain mathematical principles actually had practical applications in my day-to-day work (Not calculus though, I mean, I'm not an engineer or rocket scientist).
+If you were one of those kids that wondered why you had to attend all those math classes and learn about angles and algebra, well, so was I. I’ll admit, I was too restless and easily bored to be a good student in a classroom setting. But as I got older, I realised that certain mathematical principles actually had practical applications in my day-to-day work (Not calculus though, I mean, I’m not a rocket scientist).
+
+The question of whether you need to be good at math to be a good web developer boils down to what your definition of being good at math entails. If your definition of being good at math refers to understanding pure mathematical concepts like analysis or calculus, which involves a lot of proofs and theorems, then I have to admit, you don’t use those skills in web design/development.
+
+But although the practical skills required are probably at the high school level, it’s a matter of applying those arithmetic skills and knowledge of geometry in the context of web design.
+
+For example, using the border-width hack to create triangles involves both a knowledge of how the browser renders borders and the application of trigonometry to realise that the property is “hackable”.
+
+So let’s take a look at some of the aspects of web development where math can come in handy.
 
 ## Arithmetic
 
@@ -15,13 +25,15 @@ This seems unremarkably basic, but if you're doing any type of responsive design
 
 Numbers feature quite heavily in CSS, as property values, mostly. And the specification that covers this is the [CSS Values and Units Module Level 3](https://www.w3.org/TR/css-values-3/). The key function behind the arithmetic of CSS is the `calc()` function, which supports the four basic operations of addition, subtraction, multiplication and division.
 
-Back in the day when web design was mostly fixed width, designers and developers would produce pixel-perfect designs that only worked when viewed at specific viewport widths. But as the number of different screen sizes that users would use to browse the web grew exponentially, fixed width designs didn't really fit the bill any more.
+Back in the day when web design was mostly fixed- width, designers and developers would produce pixel-perfect designs that only worked when viewed at specific viewport widths. But as the number of different screen sizes that users would use to browse the web grew exponentially, fixed- width designs didn’t really fit the bill anymore.
 
 It made a lot more sense to let the browser figure out the sizing of elements on the page depending on the viewport size instead, using percentages, font-relative units like `em`s or `ch`s, and more recently, viewport units. The `calc` function works with combinations of CSS values of different units, handling the tricky computation for us so we can focus on designing and building the layouts and components we want.
 
 ### The floating footer problem
 
-A common requirement in many designs is to make sure the footer is “stuck” to the bottom of the viewport even if there isn't enough content to fill the height of the viewport. Now, there are several different ways to achieve such an effect, but using `calc` is elegant enough to ensure that the footer never ends up floating when there isn't enough content, yet still remain within the document flow.
+A common requirement in many designs is to make sure the footer is “stuck” to the bottom of the viewport even if there isn't enough content to fill the height of the viewport.
+
+Now, there are several different ways to achieve such an effect, but using `calc` is elegant enough to ensure that the footer never ends up floating when there isn't enough content, yet still remain within the document flow.
 
 Here's some very basic markup, consisting of a `header`, `main` and `footer` elements.
 
