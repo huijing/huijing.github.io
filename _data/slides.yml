@@ -256,3 +256,19 @@
   website: https://cssday.nl/
   type: conference
   released: false
+
+- title: "Not in Kansas anymore: a new frontier for web design"
+  id: code-2018
+  count: "34"
+  event: Web Directions Code 2018
+  website: https://www.webdirections.org/code/
+  type: conference
+  released: false
+
+- title: "East Asian Typography On The Web"
+  id: refresh-2018
+  count: "35"
+  event: Refresh 2018
+  website: http://refresh.rocks/
+  type: conference
+  released: false
