@@ -239,7 +239,7 @@
   event: You Gotta Love Frontend Kyiv
   website: http://yglf.com.ua/
   type: conference
-  released: false
+  released: true
 
 - title: "The web is not just left-to-right"
   id: cssconf-2018
