@@ -248,7 +248,7 @@
   event: CSSConf.EU 2018
   website: https://2018.cssconf.eu/
   type: conference
-  released: false
+  released: true
 
 - title: "Box Alignment"
   id: cssday-2018
