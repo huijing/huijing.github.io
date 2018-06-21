@@ -5,7 +5,7 @@ date: Dec 28, 2017
 tags: [css, design, opinion]
 hastweet: true
 ---
-So this month, I met a lot of awesome people while attending my very first Mozilla All-Hands, among whom were [Lin Clark](http://lin-clark.com/) and [Jen Simmons](http://jensimmons.com/). I'm an unabashed fangirl of both these women, but I kept my composure throughout the experience, because...attempted adulting.
+So this month, I met a lot of awesome people while attending my very first Mozilla All-Hands, among whom were [Lin Clark](https://twitter.com/linclark) and [Jen Simmons](http://jensimmons.com/). I'm an unabashed fangirl of both these women, but I kept my composure throughout the experience, because...attempted adulting.
 
 Anyway, if you've read some of my blog posts or tweets (probably re-tweets), you'll realise that Jen is a huge source of inspiration for me. Maybe I should do some data analysis on how often I mention her, that'd be interesting...(okay, I'll stop being distracted now)
 

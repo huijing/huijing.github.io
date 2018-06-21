@@ -172,7 +172,7 @@ I also came across a few unique typefaces that really stood out. I guess a tomb 
 
 ## Wrapping up
 
-As a Chinese person, visiting the cemetery is an annual affair. For me, it's actually more of a family gathering than the Chinese New Year, as we see much of the extended family during the [Qing Ming festival](http://www.visitpenang.gov.my/portal3/component/events/%3Ftask=view_detail&agid=199&year=2009&month=4&day=4). But it's a very different feeling, visiting a Chinese cemetery versus a European (might be more accurate to say Catholic?) one. 
+As a Chinese person, visiting the cemetery is an annual affair. For me, it's actually more of a family gathering than the Chinese New Year, as we see much of the extended family during the [Qing Ming festival](http://penangmonthly.com/article.aspx?pageid=4121&name=qing_ming_paying_respects_renewing_ties). But it's a very different feeling, visiting a Chinese cemetery versus a European (might be more accurate to say Catholic?) one. 
 
 I really like wandering around cemeteries by myself, there's a reverent silence that is a stark contrast to the bustle of daily life that puts me in a pensive mood, as well as a chance to appreciate how different cultures commemorate those who have passed.
 

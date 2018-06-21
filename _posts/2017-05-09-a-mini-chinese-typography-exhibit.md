@@ -74,7 +74,7 @@ There's also some other bits on type specimens in the wild, and uses in everyday
 
 Anyhoo, if you happen to be in Singapore, and are remotely interested in Chinese typography at all, drop by the National Library and check it out. Then go downstairs (or upstairs to the massive reference section) and wish you could live there (okay, that's just me) among the glorious selection of books.
 
-P.S. Across the street, there is also an AWESOME exhibition on the art of Assassin's Creed, which runs till Thursday, 25 May 2017 at the [National Design Centre](https://www.designsingapore.org/national-design-centre/national-design-centre). It's officially called <em>The Art Behind The Game – The Ubisoft Experience</em> and it's practically a fine art exhibition because the artwork is so so so good! Here's a sneak peek (seriously, my phone camera does not do the artwork any justice).
+P.S. Across the street, there is also an AWESOME exhibition on the art of Assassin's Creed, which runs till Thursday, 25 May 2017 at the [National Design Centre](https://www.designsingapore.org/national-design-centre). It's officially called <em>The Art Behind The Game – The Ubisoft Experience</em> and it's practically a fine art exhibition because the artwork is so so so good! Here's a sneak peek (seriously, my phone camera does not do the artwork any justice).
 
 <div class="figure-wrapper">
     <figure class="multiple">

@@ -28,7 +28,7 @@ I first took a peek at Drupal 8 over a year ago when it was at alpha9 just out o
 
     According to the [official documentation](https://api.drupal.org/api/drupal/core!INSTALL.txt/8), Drupal will create the `settings.php` and `services.yml` files during installation, but if it can't, it will prompt you to do so manually. If you do get this prompt, it's highly likely that your web server does not have permissions to write to the `sites/default` folder. If you don't feel like `chown`-ing anything, you can move on to the next three steps.
 
-    Depending on how your local machine is set up, you'll have to allow your web server to have write permissions to the *sites/default* folder. For my machine, I was using the default Apache that came with OS X, so I changed ownership of the folder to `_www`, which was the default Apache user (modify accordingly if you're using something different). If you're using MAMP, you can follow the instructions from [this article](http://ifmeister.com/mamp-file-permissions-for-a-local-development-environment/) by [ifmeister](http://ifmeister.com/). 
+    Depending on how your local machine is set up, you'll have to allow your web server to have write permissions to the *sites/default* folder. For my machine, I was using the default Apache that came with OS X, so I changed ownership of the folder to `_www`, which was the default Apache user (modify accordingly if you're using something different). If you're using MAMP, you can follow the instructions from [this article](https://web.archive.org/web/20171209104008/http://ifmeister.com/mamp-file-permissions-for-a-local-development-environment/) by [ifmeister](https://web.archive.org/web/20170917193256/http://ifmeister.com/). 
 
 3. **Adjust folder permissions for install**  
     Drupal needs to modify the `settings.php` and `services.yml` file during installation. It also needs to be able to create the *files* folder. Modify the permissions of the *sites/default* folder so Drupal can write to it:
@@ -81,5 +81,5 @@ I'm going to stop now before this turns into a post on using Drush, but for a co
 <ul>
   <li class="no-margin"><a href="https://www.drupal.org/drupal-8.0">Official Drupal 8 page</a></li>
   <li class="no-margin"><a href="https://www.advomatic.com/blog/building-sites-in-drupal-8-first-impressions">Building Sites in Drupal 8: First Impressions</a> by <a href="https://www.advomatic.com">Advomatic</a></li>
-  <li><a href="http://mattkorostoff.com/article/27-questions-and-answers-drupal-8">27 Questions (and Answers) from My First Drupal 8 Site Build</a> by <a href="http://mattkorostoff.com/">Matt Korostoff</a></li>
+  <li><a href="https://web.archive.org/web/20170906070550/http://mattkorostoff.com/article/27-questions-and-answers-drupal-8">27 Questions (and Answers) from My First Drupal 8 Site Build</a> by <a href="https://web.archive.org/web/20180322213123/http://mattkorostoff.com/">Matt Korostoff</a></li>
 </ul>

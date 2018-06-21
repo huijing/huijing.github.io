@@ -3,10 +3,8 @@ layout: post
 title: "Frameworks and libraries are not the problem, people are"
 date: August 02, 2015
 image: framework-problem.jpg
-tags: [frameworks, opinion, translated, workflow]
+tags: [frameworks, opinion, workflow]
 ---
-*This article has been translated to Vietnamese by [Ha Pham](https://mahpahh.com/) on [https://mahpahh.com/](http://mahpahh.com/van-de-nam-o-con-nguoi/).*
-
 I'll be the first to admit that I'm definitely not the best developer around, not by a long shot. But being a web developer is a dream job to me. I really love doing this, and I get paid for it? Double awesome. I've had non-developer friends walk by my screen after hours and ask, why are you still working? To which I say, this isn't work stuff, it's my own thing. The most common response is, "your screen looks exactly the same as when you actually are working", usually accompanied with an eye-roll. 
 
 I feel that I started coding pretty late. I didn't learn to program on a 486 running DOS when I was a kid. I only grasped HTML and CSS for real around three years ago. Before that, I was the web development equivalent of a script-kiddy, copying and pasting Frankenstein code to "build" websites. When I realised that web development was actually a form of gainful employment, I figured I'd better get good at it. And that's when I began my daily diet of all things web design and development. Articles, podcasts, books and videos (more or less in that order) have taught me a tonne over the past two years. But nothing beats actually writing code and developing websites with a team. Experience is everything.

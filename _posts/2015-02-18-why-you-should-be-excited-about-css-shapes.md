@@ -25,7 +25,7 @@ Before CSS shapes came along, we were more or less locked into standard layouts 
   </figure>
 </div>
 
-CSS shapes is being developed by the [Adobe Web Platform team](https://web.archive.org/web/20170701212735/http://blogs.adobe.com:80/webplatform/) and they have [blogged](https://web.archive.org/web/20161126111230/http://blogs.adobe.com/webplatform/category/features/css-shapes) about how this spec has been developing since 2012. Check out the cool demo the team built, based on [Alice in Wonderland](http://webplatform.adobe.com/Demo-for-Alice-s-Adventures-in-Wonderland/), to showcase CSS shapes' capabilities. Point is, with CSS shapes, it's totally possible to have text wrap around Beyoncé's elbow.
+CSS shapes is being developed by the [Adobe Web Platform team](https://web.archive.org/web/20170701212735/http://blogs.adobe.com:80/webplatform/) and they have [blogged](https://web.archive.org/web/20161126111230/http://blogs.adobe.com/webplatform/category/features/css-shapes) about how this spec has been developing since 2012. Check out the cool demo the team built, based on [Alice in Wonderland](https://web.archive.org/web/20170521082737/http://webplatform.adobe.com:80/Demo-for-Alice-s-Adventures-in-Wonderland/), to showcase CSS shapes' capabilities. Point is, with CSS shapes, it's totally possible to have text wrap around Beyoncé's elbow.
 
 <img class="shape" src="{{ site.url }}/assets/images/posts/css-shapes/beyonce.png" alt="Beyoncé"/>
 To be honest, the W3C spec is not that easy to understand, so here's my attempt at explaining it in plain English. A prerequisite for applying a CSS shape property to an element is that the element must be floated. It doesn't work on non-floated elements.

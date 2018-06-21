@@ -312,7 +312,7 @@ Layout code the same as `.vertical` and `.horizontal`, but alas, the results are
 
 But if you think about it, this is actually ”correct” behaviour because we can't centre things vertically in horizontal writing mode with this method either. Why is this? Let's check the specifications.
 
-All CSS properties have values, Once your browser has parsed a document and constructed the DOM tree, it needs to assign a value to every property on every element. [Lin Clark](http://lin-clark.com/) wrote [a brilliant code cartoon](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/) explaining how a CSS engine works, you have to read it! Anyway, values. From the specification:
+All CSS properties have values, Once your browser has parsed a document and constructed the DOM tree, it needs to assign a value to every property on every element. [Lin Clark](https://twitter.com/linclark) wrote [a brilliant code cartoon](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/) explaining how a CSS engine works, you have to read it! Anyway, values. From the specification:
 
 > The final value of a property is the result of a **four-step calculation**: the value is determined through specification (the "**specified value**"), then resolved into a value that is used for inheritance (the "**computed value**"), then converted into an absolute value if necessary (the "**used value**"), and finally transformed according to the limitations of the local environment (the "**actual value**").
 
