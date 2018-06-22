@@ -256,7 +256,7 @@
   event: CSS Day
   website: https://cssday.nl/
   type: conference
-  released: false
+  released: true
 
 - title: "Not in Kansas anymore: a new frontier for web design"
   id: code-2018
