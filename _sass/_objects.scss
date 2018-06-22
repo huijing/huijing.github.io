@@ -3,21 +3,10 @@
 // =======
 .icon {
   > svg {
-    display: inline-block;
     height: 1em;
-    vertical-align: middle;
-    width: 1em;
 
     path {
       fill: color('apple');
-    }
-
-    a & path {
-      fill: color('apple');
-
-      &:hover {
-        fill: lighten(color('apple'), 20%);
-      }
     }
   }
 }

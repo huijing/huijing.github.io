@@ -413,16 +413,9 @@ picture img {
   margin-bottom: 1em; }
 
 .icon > svg {
-  display: inline-block;
-  height: 1em;
-  vertical-align: middle;
-  width: 1em; }
+  height: 1em; }
   .icon > svg path {
     fill: #4abc41; }
-  a .icon > svg path {
-    fill: #4abc41; }
-    a .icon > svg path:hover {
-      fill: #91d78c; }
 
 .icon--title > svg {
   height: 1.25em;
@@ -658,6 +651,18 @@ span[role=img][aria-label]:hover::after {
   .footer-main__contact ul li {
     list-style: none;
     margin: 0; }
+
+.footer-main__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .footer-main__link span:first-child {
+    margin-right: 0.5em; }
+  .footer-main__link:hover svg path {
+    fill: #91d78c; }
 
 .footer-secondary {
   float: none;

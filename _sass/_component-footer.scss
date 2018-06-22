@@ -73,6 +73,21 @@
   }
 }
 
+.footer-main__link {
+  display: flex;
+  align-items: center;
+
+  span:first-child {
+    margin-right: 0.5em;
+  }
+
+  &:hover {
+    svg path {
+      fill: lighten(color('apple'), 20%);
+    }
+  }
+}
+
 .footer-secondary {
   @include center;
   align-items: center;
