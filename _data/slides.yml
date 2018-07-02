@@ -266,9 +266,23 @@
   type: conference
   released: false
 
+- title: Why performance
+  id: why-performance
+  count: "35"
+  event: Talk.CSS
+  type: meetup
+  released: false
+
+- title: "TechLadies in Penang 🇲🇾"
+  id: tl-in-pen
+  count: "36"
+  event: TechLadies
+  type: workshop
+  released: true
+
 - title: "East Asian Typography On The Web"
   id: refresh-2018
-  count: "35"
+  count: "37"
   event: Refresh 2018
   website: http://refresh.rocks/
   type: conference
