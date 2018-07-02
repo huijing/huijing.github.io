@@ -274,7 +274,10 @@ picture img {
   margin-bottom: 1em; }
 
 .icon > svg {
-  height: 1em; }
+  display: inline-block;
+  height: 1em;
+  vertical-align: middle;
+  width: 1em; }
   .icon > svg path {
     fill: #4abc41; }
 

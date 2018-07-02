@@ -3,7 +3,10 @@
 // =======
 .icon {
   > svg {
+    display: inline-block;
     height: 1em;
+    vertical-align: middle;
+    width: 1em;
 
     path {
       fill: color('apple');
