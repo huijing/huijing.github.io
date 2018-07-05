@@ -2,6 +2,7 @@
 layout: post
 title: "Preserving mother tongues"
 date: July 04, 2018
+image: tl-pen
 tags: [opinion]
 ---
 Over this past weekend, I flew back to my hometown of Penang to conduct an *Introduction to Web Development* workshop with [TechLadies](http://www.techladies.co/), a community initiative founded by [Elisha Tan](https://sg.linkedin.com/in/elishatan/) for women in Asia to connect, learn, and advance as programmers in the tech industry. Although I was born in Penang, my family moved down south to Johor when I was 4, so technically I didn't grow up in Penang.
