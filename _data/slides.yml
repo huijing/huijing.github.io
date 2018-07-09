@@ -260,31 +260,38 @@
   type: conference
   released: true
 
-- title: "Not in Kansas anymore: a new frontier for web design"
-  id: code-2018
-  count: "34"
-  event: Web Directions Code 2018
-  website: https://www.webdirections.org/code/
-  type: conference
-  released: false
-
 - title: Why performance
   id: why-performance
-  count: "35"
+  count: "34"
   event: Talk.CSS
   type: meetup
   released: false
 
 - title: "TechLadies in Penang 🇲🇾"
   id: tl-in-pen
+  count: "35"
+  event: TechLadies
+  type: workshop
+  released: true
+
+- title: "TechLadies Pre-Bootcamp Workshop #1"
+  id: tl-ws1-2018
   count: "36"
   event: TechLadies
   type: workshop
   released: true
 
+- title: "Not in Kansas anymore: a new frontier for web design"
+  id: code-2018
+  count: "37"
+  event: Web Directions Code 2018
+  website: https://www.webdirections.org/code/
+  type: conference
+  released: false
+
 - title: "East Asian Typography On The Web"
   id: refresh-2018
-  count: "37"
+  count: "38"
   event: Refresh 2018
   website: http://refresh.rocks/
   type: conference
