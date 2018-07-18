@@ -289,10 +289,42 @@
   type: conference
   released: false
 
+- title: "Grid is the new black"
+  id: ffc-2018
+  count: "38"
+  event: Form Function Class 9
+  website: https://2018.formfunctionclass.com/
+  type: workshop
+  released: false
+
 - title: "East Asian Typography On The Web"
   id: refresh-2018
-  count: "38"
+  count: "39"
   event: Refresh 2018
   website: http://refresh.rocks/
+  type: conference
+  released: false
+
+- title: "East Asian Typography On The Web"
+  id: css-minsk-js-2018
+  count: "40"
+  event: CSS-Minsk-JS 2018
+  website: http://css-minsk-js.by/
+  type: conference
+  released: false
+
+- title: "Be like water: applying Bruce Lee's philosophy to web design"
+  id: view-source-2018
+  count: "41"
+  event: View Source London 2018
+  website: https://events.mozilla.org/viewsource2018
+  type: conference
+  released: false
+
+- title: "TBC"
+  id: btconf-2018
+  count: "42"
+  event: beyond tellerrand 2018
+  website: https://beyondtellerrand.com/events/berlin-2018
   type: conference
   released: false
