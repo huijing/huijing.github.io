@@ -25,7 +25,7 @@ Let's break the requirements down piece by piece.
 5. The entire link box should be clickable, and the hover effect should kick in once the cursor enters the link box.
 6. The active state of each link should be the same as when the link is hovered.
 
-I'm going to step through my actual thought process, which is essentially my box-model journey. If you just want the end result, [skip right to it](#step-2-style-the-navigation-to-match-design-attempt-3). But in the words of [Arthur Ashe](http://www.arthurashe.org/life-story.html) (what can I say, I'm an athlete too <span class="kaomoji">¯\\\_(ツ)\_/¯</span>):
+I'm going to step through my actual thought process, which is essentially my box-model journey. If you just want the end result, [skip right to it](#step-2-style-the-navigation-to-match-design-attempt-3). But in the words of [Arthur Ashe](https://arthurashe.ucla.edu/life-story/) (what can I say, I'm an athlete too <span class="kaomoji">¯\\\_(ツ)\_/¯</span>):
 
 > Success is a journey not a destination. The doing is usually more important than the outcome. - Arthur Ashe
 
