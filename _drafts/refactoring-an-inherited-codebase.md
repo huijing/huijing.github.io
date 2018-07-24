@@ -29,4 +29,8 @@ I hadn't had much experience with Python applications prior to this, but I've co
 
 Given that I was the first dedicated frontend role they ever hired, it was no surprise that the state of the project's frontend was, how shall we put this, left wanting. Apparently, the backend of things wasn't much prettier, but again, I doubt most start-ups have well-architected codebases until later on in their lifespan.
 
+### Preliminary site assessment
 
+Before diving into the code proper, I did a basic click-around, to get an idea of the look and feel of the site, and what it did. To me, this is a pretty important step, because you can only encounter a site *for the first time*, once in your life. And I took notes. Notes on things that took me a while to figure out, things that weren't intuitive, places where I had to ask “hmmm, now what does this even mean?”.
+
+I read Don Norman's *The Design of Everyday Things* quite early on in my career, and the point that stuck with me was 
