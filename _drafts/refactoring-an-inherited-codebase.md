@@ -41,6 +41,9 @@ All of this was documented into a trusty spreadsheet. I don't know about you, bu
 
 ### Site analysis with tools
 
+The most basic analysis can be done via DevTools in any of the major browsers from the *Network* tab. It's more of a personal preference, but I prefer how Chrome and Firefox do it, where both of them tell you the number of requests, size of transfer, time it takes to finish loading, and when `DOMContentLoaded` is fired.
+
+
 I read Don Norman's *The Design of Everyday Things* quite early on in my career, and there was a particular sentence in that book which stood out to me.
 
 > When people have trouble using technology, especially when they perceive (usually incorrectly) that nobody else is having the same problems, they tend to blame themselves.
