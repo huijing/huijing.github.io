@@ -31,6 +31,17 @@ Given that I was the first dedicated frontend role they ever hired, it was no su
 
 ### Preliminary site assessment
 
-Before diving into the code proper, I did a basic click-around, to get an idea of the look and feel of the site, and what it did. To me, this is a pretty important step, because you can only encounter a site *for the first time*, once in your life. And I took notes. Notes on things that took me a while to figure out, things that weren't intuitive, places where I had to ask “hmmm, now what does this even mean?”.
+Before diving into the code proper, I did a basic click-around, to get an idea of the look and feel of the site, and what it did. To me, this is a pretty important step, because you can only encounter a site *for the first time*, once in your life. And I took notes. Notes on things that took me a while to figure out, places where I had to ask “hmmm, now what does this even mean?”, functionality that required extra cognitive effort to comprehend.
 
-I read Don Norman's *The Design of Everyday Things* quite early on in my career, and the point that stuck with me was 
+As someone who has been building interfaces for a living for the past 5 years, believe me when I say, people who work on the product itself on a daily basis are the worst group to do user testing with. Because we interact with the product, bugs and all, way more frequently than normal users.
+
+Hence, we inadvertently become blind to numerous usability issues simply because whatever we do to workaround the issue, has been committed to muscle memory. Even if it's something unintuitive, like having to click certain things in a specific sequence for it to work.
+
+All of this was documented into a trusty spreadsheet. I don't know about you, but I'm rather fond of spreadsheets as an organisational tool. To me, it's the easiest way to organise data into useful, information. But that's just me. You do you.
+
+### Site analysis with tools
+
+I read Don Norman's *The Design of Everyday Things* quite early on in my career, and there was a particular sentence in that book which stood out to me.
+
+> When people have trouble using technology, especially when they perceive (usually incorrectly) that nobody else is having the same problems, they tend to blame themselves.
+

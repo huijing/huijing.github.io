@@ -40,6 +40,7 @@ I'll admit I got a little grumpy about the situation, but pouting wasn't going t
 We wanted the app to have proximity location capabilities. There are quite a number of solutions for this on Drupal. Coincidentally, I'd listened to the latest episode of [Talking Drupal](http://www.talkingdrupal.com/) the night before and the topic was [Map Rendering](http://www.talkingdrupal.com/090). The two modules that stuck in my mind were [Leaflet](https://www.drupal.org/project/leaflet) and [IP Geolocation](https://www.drupal.org/project/ip_geoloc) as it was mentioned they seemed "smoother".
 
 <p class="no-margin">The IP Geolocation module had very good integration with Views and the end result (after the all-nighter, of course) was pretty close to the original design we had in mind. Given the tight schedule we had, this was definitely a plus. The only custom code I had to write were minor tweaks to facilitate theming, one to add placeholder attribute to the search filter, and another to add CSS classes to boolean fields based on their values.</p>
+
 <pre><code class="language-php">
 /**
  &ast; Implements hook_form_alter().
@@ -73,12 +74,14 @@ function clinicfinder_preprocess_field(&$variables) {
     }
   }
 }</code></pre>
+
 Even though it was a hackathon, and we were pressed for time, I still tried my best to adhere to Drupal best practices. So the <code class="language-php">template_preprocess_field</code> went into the <code class="language-bash">template.php</code> file while the <code class="language-php">hook_form_alter</code> went into a custom module.
 
 ## Day 2
 
 The presentation at the end of the hackathon was only two minutes long. We figured that as long as we could articulate the app's key features and demo those features successfully, that would be our pitch. As Sheryl Sandberg said:
-<blockquote>Done is better than perfect.</blockquote>
+
+> Done is better than perfect.
 
 <img src="{{ site.url }}/assets/images/posts/battlehack/hackathon.jpg" alt="Clinic Finder home page"/>
 
