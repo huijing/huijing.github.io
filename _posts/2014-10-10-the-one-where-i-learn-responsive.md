@@ -6,6 +6,7 @@ project: Pixel Onion Pte Ltd
 image: project-4
 description: You really can't be serious about building websites these days they're not optimised for mobile so it was high time I grok-ed the key concepts of responsive design. 
 tags: [client-work, drupal7]
+hascodepen: true
 ---
 The [Pixel Onion](http://pixelonion.com/) website was a project that had languished in a corner for months. The team had been swamped with client project after client project, but this was fast becoming ridiculous. It is simply unbecoming for a web agency not to have their own website up and running. We made a decision to whip up a simple website, built on Drupal (obviously), to be launched by Valentine’s Day 2014.
 
@@ -68,7 +69,7 @@ What this implies is that, your site will take the CSS styles defined for the sm
 Let's say we have two blocks of content, `main` and `sidebar`. On a narrow mobile display, both blocks will be displayed on a single column stacked on top of each other. But when we expand to a larger width, we want the blocks to display in two columns, with `main` taking up 3/4 of the screen on the left and `sidebar` taking up 1/4 of the screen on the right. If we use 540px as the breakpoint, it should look something like this:
 
 <p data-height="268" data-theme-id="9162" data-slug-hash="ivzgm" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/ivzgm/'>Blog example #1</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
 Resize the browser and the content should "break" at when it hits 540px. A mobile-first approach simply means that CSS styles are applied to widths at specified-breakpoint-and-above, rather than at specified-breakpoint-and-below.
 
 Honestly, this concept is easier to grok once you've written some code yourself. Thanks to this project, I had the chance to write lots of it. It also helped that I was pretty familiar with Drupal, so I could change the markup to cater to the CSS I was writing. But I always enjoy an all-round team effort, and we launched the site as scheduled, to minimal fanfare but much internal satisfaction.

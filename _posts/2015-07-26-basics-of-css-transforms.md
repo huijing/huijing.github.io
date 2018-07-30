@@ -4,6 +4,7 @@ title: "The basics of CSS transforms: Part 1"
 date: July 26, 2015
 image: 2d-transforms.jpg
 tags: [css, performance]
+hascodepen: true
 ---
 The specification for CSS transforms had been in the works since 2009. There were separate specifications for CSS 2D transformations, CSS 3D transformations and SVG transformations but they have all since converged into a single specification called the [CSS Transforms Module Level 1](http://www.w3.org/TR/css-transforms-1/). Browser support for 2D transforms is very good, with all major browsers fully supporting it at least two versions back (sorry, but IE8 is really old now). Browser support for 3D transforms is also reasonably robust. All major browsers, aside from Internet Explorer, fully support it at least two versions back. Internet Explorer 10 onwards supports everything except <code class="language-css">transform-style: preserve-3d</code>. So no nesting of 3D transformed elements, but other than that, all is good.
 
@@ -61,7 +62,6 @@ There are 4 types of 2D transform functions, <code class="language-css">translat
 <code class="language-css">rotate()</code> allows you to rotate an element around its transform-origin by the angle specified in degrees. Positive values rotate the element in a clockwise direction and negative values rotate the element in an anti-clockwise direction. You can play around with the sliders below and see what happens if you change the transform-origin.
 
 <p data-height="232" data-theme-id="9162" data-slug-hash="GJXLJw" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/GJXLJw/'>CSS transforms - rotate property</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ### transform: scale()
 
@@ -70,21 +70,18 @@ There are 4 types of 2D transform functions, <code class="language-css">translat
 Any values greater than one will grow the element while values between zero and one will shrink it. Positive values transform from left to right and top to bottom, while negative values transform from right to left and bottom to top. This is easier to understand by adjusting the sliders below. You can also specify <code class="language-css">scaleX()</code> or <code class="language-css">scaleY()</code> which grow or shrink the element along the x-axis and y-axis respectively. For <code class="language-css">scaleX()</code>, only the *x-coordinate* of the transform origin is relevant, and for <code class="language-css">scaleY()</code>, only the *y-coordinate* is relevant.
 
 <p data-height="268" data-theme-id="9162" data-slug-hash="mJGYzr" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/mJGYzr/'>CSS transforms - scale property</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ### transform: translate()
 
 <code class="language-css">translate()</code> allows you to move the element in any direction based on the x and y coordinates specified. It takes in two parameters, [tx, ty], where tx translates the element along the x-axis and ty translates the element along the y-axis. ty is an optional value, and if not supplied, will take the value of zero. For <code class="language-css">translateX()</code>, the translation only takes place on the x-axis and for <code class="language-css">translateY()</code>, the translation only takes place on the y-axis.
 
 <p data-height="175" data-theme-id="9162" data-slug-hash="bdxyPL" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/bdxyPL/'>CSS transforms - translate property</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ### transform: skew()
 
 <code class="language-css">skew()</code> applies a 2D skew by the angle specified along the transform-origin point. It takes two parameters, [ax, ay], where ax skews the element along the x-axis and ay skews the element along the y-axis. The second parameter is optional, and if not specified, will default to zero. For <code class="language-css">skewX()</code>, the skew will take place along the x-axis, and only the y-coordinate of the transform-origin is relevant. For <code class="language-css">skewY()</code>, the skew will take place along the y-axis, and only the x-coordinate of the transform-origin is relevant.
 
 <p data-height="260" data-theme-id="9162" data-slug-hash="QbZyqb" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/QbZyqb/'>CSS transforms - skew property</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Part 1 Wrap-up
 

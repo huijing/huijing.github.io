@@ -3,6 +3,7 @@ layout: post
 title: "Diamond grid layout with Sass"
 date: October 14, 2015
 tags: [css]
+hascodepen: true
 ---
 Since I started my career on the web, I've been building websites that follow standard grid layouts. It got to a point where I was telling an intern at my company that developers think in rectangles. I mean, there's nothing wrong with rectangular layouts. They're like your mom's Volvo, steady and reliable. But sometimes, it's fun to try something different. I'm lucky enough to work with some awesome designers, and for a new project, they came up with a diamond-based grid layout. Well then, challenge accepted. <span class="kaomoji">(•̀o•́)ง</span>
 
@@ -81,12 +82,10 @@ That didn't go so well. Next idea on the list, **CSS clip-path**. This CSS prope
 The idea is that each diamond is actually just a square unit with its corners clipped off, so the length of one square is the diagonal of the diamond. Tweak the variables a little bit, and voila:
 
 <p data-height="425" data-theme-id="9162" data-slug-hash="gaxbJX" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/gaxbJX/'>Diamond grid with Sass (Clip-path)</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 At this point, it seemed that I'd cracked the diamond-grid layout my designer wanted, but I hadn't looked closely at the actual visuals and art direction. I just assumed it was a grid of diamonds in the background, something I could probably do with CSS. It would also make things easier to line up as they would be using the same base units. I came up with something like this:
 
 <p data-height="268" data-theme-id="9162" data-slug-hash="JYRVjr" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/JYRVjr/'>CSS diamond background</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 And then I saw the actual hi-fidelity design. In a nutshell, this grid layout was meant for an image heavy site, essentially serving as a gallery of sorts. The background was made up of tiles of textured diamonds. And there would be highlights on some of the corners of the display diamonds to make them pop. Oh, and also, let's have some box shadows inside each display diamond as well, but only for those displays that contain images. <span class="kaomoji">༼⊙_⊙༽</span>
 
@@ -128,7 +127,6 @@ $large: $transformUnit * 4;
 There was no way around positioning each display diamond absolutely, at least, I couldn't think of an alternate way (suggestions are welcome). I tried to structure my classes as efficiently as I could. If history is anything to go by, I'll probably look back at this and nitpick how I would have written it differently. For now, it's a long chunk of sizing and positioning based off the base units I established as variables. Couldn't possibly do this without Sass though.
 
 <p data-height="375" data-theme-id="9162" data-slug-hash="pjrWaz" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/pjrWaz/'>Diamond grid with Sass (Transform)</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Visual styles and art-direction
 

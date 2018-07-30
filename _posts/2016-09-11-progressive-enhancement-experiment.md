@@ -4,6 +4,7 @@ title: "Fun with CSS: NBA edition"
 date: 11 September, 2016
 image: pwd.jpg
 tags: [css, design]
+hascodepen: true
 ---
 This is my second "Fun with CSS" post, maybe this should become a series. But anyway, I had watched the video of [Ethan Marcotte](http://ethanmarcotte.com/)'s talk at [An Event Apart](http://aneventapart.com/) called [Laziness in the Time of Responsive Design](https://vimeo.com/165061923), and was fascinated by his progressive enhancement demo. It starts at around the 48 minute mark where he starts covering animation.
 
@@ -338,7 +339,6 @@ An issue with using purely viewport units for your font-size is that there will 
 ## Wrapping up
 
 <p data-height="400" data-theme-id="9162" data-slug-hash="vKdzwo" data-default-tab="result" data-user="huijing" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/huijing/pen/vKdzwo/">Fun with CSS: NBA edition</a> by Chen Hui Jing (<a href="http://codepen.io/huijing">@huijing</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 The entire demo is on Codepen, so feel free to do whatever you want with it. This post definitely turned out much longer than I anticipated, largely because I ramble a lot #selfaware. But I did learn a lot from building it, especially the ITCSS structuring portion. I mean, I could have chucked everything into large monolithic components and still got everything work, BUT I DIDN'T.
 

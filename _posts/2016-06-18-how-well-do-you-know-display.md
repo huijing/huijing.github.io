@@ -4,6 +4,7 @@ title: "How well do you know CSS display?"
 date: Jun 18, 2016
 tags: [css, translated]
 image: display.jpg
+hascodepen: true
 ---
 *This article has been translated to Japanese by Kana Takahashi on [POSTD](http://postd.cc/how-well-do-you-know-display/).*
 
@@ -439,5 +440,3 @@ Whew, that ended up being way longer than I initially expected. So a big thank y
 </ul>
 
 <em><small>Credits: OG:image from <a href="https://dribbble.com/shots/1612749-Design-layout-for-a-book">Design layout for a book</a> by Olivier Reynaud</small></em>
-
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>

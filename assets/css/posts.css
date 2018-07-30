@@ -813,7 +813,8 @@ figure {
   @media all and (min-width: 45em) {
     .th {
       font-family: "Magnetic Pro", "HeiTi SC Light", "Microsoft YaHei", sans-serif;
-      font-weight: 700; } }
+      font-weight: 700;
+      vertical-align: top; } }
 
 .display .th::before {
   content: 'display: '; }

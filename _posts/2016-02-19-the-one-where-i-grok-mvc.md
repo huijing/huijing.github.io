@@ -5,6 +5,7 @@ date: Feb 19, 2016
 project: SG50 Time Machine
 image: project-11
 tags: [client-work, kohana]
+hascodepen: true
 ---
 Earlier this year, I mentioned that I was starting out with the [Kohana](https://kohanaframework.org/) framework. Actually, my team uses a heavily modified version of the Kohana framework as a starter for all our projects. In addition to the Kohana base architecture, our framework had a bunch of goodies built in, like lazy-loading, a run-time Sass compiler and so on. But I digress. We had been tasked to build the website for Audi's SG50 Time Machine campaign. 
 
@@ -22,7 +23,6 @@ Our designers came up with the idea to have the background transform from modern
 
 <figure>
     <p data-height="385" data-theme-id="9162" data-slug-hash="vLMyax" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/vLMyax/'>Background fade demo</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-    <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
     <figcaption>Simple is sometimes not good enough. Life.</figcaption>
 </figure>
 
@@ -49,7 +49,6 @@ My designer wanted to have some sort of animation on the scroll trigger and trie
 It was a good thing the design was reasonably simple. But I'm barely an intermediate vector wrangler, so creating the vector file itself took a bit longer than I initially expected. After a couple iterations of tweaking timings and keyframes in [Codepen](http://codepen.io/huijing/pen/EjOrOe), I got it to look presentable.
 
 <p data-height="151" data-theme-id="9162" data-slug-hash="EjOrOe" data-default-tab="result" data-user="huijing" class='codepen'>See the Pen <a href='http://codepen.io/huijing/pen/EjOrOe/'>Animated scroll-down icon</a> by Chen Hui Jing (<a href='http://codepen.io/huijing'>@huijing</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 The scroll icon shouldn't be displayed when the page scrolled down to the last section, so it needed to be hidden. I could handle that function just fine.
 

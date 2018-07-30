@@ -119,6 +119,7 @@ figure {
   @include mappy-bp(medium) {
     font-family: $base-font;
     font-weight: 700;
+    vertical-align: top;
   }
 }
 
