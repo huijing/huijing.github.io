@@ -152,6 +152,24 @@ I don't deny that this is a troublesome situation to be in, where you have Chrom
 
 And if you're thinking, why on earth are we in such an awkward position with regards to Shapes and Exclusions? Trust me, I get it. I want my text to flow around **BOTH** of Beyoncé's elbows too. But unfortunately, it seems like there's no way to do this. **YET**.
 
+But there's nothing stopping us from tossing in some CSS exclusions in our code right now, even if only Edge and Internet Explorer 10 and up users can see it. We can still deliver a nice, working layout for the other browsers with [feature queries](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports) AKA `@supports`.
+
+Here's a general idea of how you could structure your exclusions code with feature queries:
+
+<pre class="language-css"><code>/* Code that works in all browsers */
+.element {
+  /* Fallback to a float-based layout */
+}
+
+@supports (-ms-wrap-flow: both) {
+  .element {
+    /* Reset floats and margins */
+    /* Exclusions and positioning */
+  }
+}</code></pre>
+
+If you look through the code for my Beyoncé article above, you'll see how the feature query is structured.
+
 ### Tiny bit of history
 
 As per my outsider understanding, CSS Shapes and Exclusions started out as a combined specification back in 2011. And back then the idea was to allow for CSS Exclusions and CSS Shapes to be used together to create sophisticated layouts, by letting content flow into and/or around shapes, even arbitrarily complex ones.
