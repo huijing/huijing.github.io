@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Responsive tables design patterns"
-date: Mar 31, 2018
+date: Aug 31, 2018
 tags: [css, html, javascript]
 ---
 Tables are a design pattern for displaying large amounts of data 

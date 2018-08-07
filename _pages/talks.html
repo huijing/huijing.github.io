@@ -37,6 +37,7 @@ permalink: /talks/
 <div class="grid">
     {% for slide in site.data.slides %}
     {% unless slide.type == 'conference' %}
+    {% if slide.released %}
     <div class="talk">
         <a class="no-underline" href="{{ site.baseurl }}/slides/{{ slide.count }}-{{ slide.id }}">
         <img srcset="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
@@ -49,6 +50,13 @@ permalink: /talks/
         {% endif %}
         <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/{{ slide.id }}.pdf">Download PDF</a></p>
     </div>
+    {% else %}
+    <div class="talk">
+        <img srcset="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}@2x.jpg 2x" src="{{ site.baseurl }}/assets/images/slides/{{ slide.id }}.jpg" alt="{{ slide.title }}"/>
+        <p class="no-margin">Coming soon!</p>
+        <p><a class="no-margin" href="{{ slide.website }}">Event details</a></p>
+    </div>
+    {% endif %}
     {% endunless %}
     {% endfor %}
 </div>

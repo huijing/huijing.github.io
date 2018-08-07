@@ -65,7 +65,16 @@ There was a large amount of inline Javascript in the template files themselves w
 
 ## Burn it down, build it up
 
-To be honest, I wouldn't recommend this approach lightly. But given the circumstances, that A) it wasn't too large an application, B) there was no proper HTML structure at all, C) external libraries were outdated and installed inconsistently, D) the code was a hodgepodge of Jinja variables in inline scripts and inline styles and E) the fact that *my youth was slipping away*, I decided to rip out all the styles and scripts and rewrite them from scratch.
+<p class="no-margin">To be honest, I wouldn't recommend this approach lightly. But given the circumstances, that</p>
+<ul style="list-style:upper-alpha">
+    <li class="no-margin">it wasn't too large an application</li>
+    <li class="no-margin">there was no proper HTML structure at all</li>
+    <li class="no-margin">external libraries were outdated and installed inconsistently</li>
+    <li class="no-margin">the code was a hodgepodge of Jinja variables in inline scripts and inline styles and</li>
+    <li class="no-margin">the fact that *my youth was slipping away*,</li>
+</ul>
+
+I decided to rip out all the styles and scripts and rewrite them from scratch.
 
 Keeping in mind that I had a team of 1, I was reasonably confident I could pull this off because I can CSS faster than most developers I know, so the look-and-feel wouldn't take long. From a functionality perspective, the application was too complicated, and most of the Javascript was to handle hiding and showing (or so it seemed, more details to come).
 
@@ -81,5 +90,7 @@ I'd like to say there were functional requirements that I could refer to when do
 
 Plan B: run an instance of the application that tracked the current master release and match all observable functionality as I rewrote every page of the application. I would like to reiterate that this worked only because the application was of a manageable size to begin with.
 
-Earlier when I mentioned that Javascript was used for seemingly straightforward purposes, I hadn't yet encountered **THE RULES MONSTER** (henceforth referred to as TRM). For every other page I encountered, it was possible to unravel the 
+Earlier when I mentioned that Javascript was used for seemingly straightforward purposes, I hadn't yet encountered **THE RULES MONSTER** (henceforth referred to as TRM). This component processed a large chunk of data by embedding the Jinja variable directly in inline Javascript functions. There was no performant way to refactor this without requiring some modifications on the back-end.
+
+Luckily, we had some spare hands by way of our wonderful crop of interns. This was a bright bunch and I have no doubt they will go on to have great careers in future. Anyway, one of the kids (I mean this as a term of endearment, honest) wrote up an API for retrieving the relevant data based on parameters through a GET request.
 
