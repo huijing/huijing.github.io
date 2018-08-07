@@ -86,3 +86,5 @@ The structure of the page was meant to look something like this:
     <img src="{{ site.url }}/assets/images/posts/custom-radios/layout.svg" alt="Page layout sketch" />
 </figure>
 
+There are 2 styles of radio buttons here, the big, rounded square ones and a smaller secondary set of rectangular ones. Only the first primary radio button has additional options attached, but not the second. So the primary radio buttons also trigger a show/hide class on the secondary radio buttons set.
+
