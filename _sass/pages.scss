@@ -133,6 +133,11 @@
   background-size: cover;
 }
 
+.bit::before {
+  background: url('/assets/images/icons/icon-bit.svg') no-repeat;
+  background-size: cover;
+}
+
 .post-title {
   margin-bottom: 0.25rem;
 }

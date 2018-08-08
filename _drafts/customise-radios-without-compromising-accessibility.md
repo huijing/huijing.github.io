@@ -3,6 +3,8 @@ layout: post
 title: "Customise radio buttons without compromising accessibility"
 date: Aug 08, 2018
 tags: [css, html]
+external_site: bit
+external_url: javascript:void(0)
 hascaniuse: true
 ---
 I realised I've been missing the mark on titles recently when one of my interns asked me about the title of my last talk. It was *Not in Kansas anymore: a new frontier for web design*, and the question was, “What does that mean? Isn't Kansas a city?” <span class="kaomoji">¯\\\_(ツ)_/¯</span>

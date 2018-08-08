@@ -678,6 +678,10 @@ span[role=img][aria-label]:hover::after {
   background: url("/assets/images/icons/icon-logrocket.svg") no-repeat;
   background-size: cover; }
 
+.bit::before {
+  background: url("/assets/images/icons/icon-bit.svg") no-repeat;
+  background-size: cover; }
+
 .post-title {
   margin-bottom: 0.25rem; }
 
