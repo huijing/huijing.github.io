@@ -305,7 +305,7 @@
   type: conference
   released: false
 
-- title: "CSS, Grid & Design Tools"
+- title: "The case for modern CSS"
   id: ts-meetup-2018
   count: "40"
   event: Tech Speakers meetup 2018
@@ -316,7 +316,7 @@
 - title: "Rich Dynamic Design with Modern CSS"
   id: w3c-workshop-2018
   count: "41"
-  event: CSS-Minsk-JS 2018
+  event: W3C Workshop on Digital Publication Layout and Presentation (from Manga to Magazines)
   website: https://www.w3.org/publishing/events/tokyo18-workshop/
   type: workshop
   released: false
