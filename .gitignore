@@ -8,3 +8,4 @@ Gemfile.lock
 rawcomments.yml
 bower_components
 yarn.lock
+.jekyll-metadata

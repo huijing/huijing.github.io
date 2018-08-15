@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Refactoring an inherited codebase"
-date: Jul 30, 2018
+date: Aug 20, 2018
 tags: [css, html, javascript]
 ---
 So for 2018, I got myself some gainful employment doing full-time frontend development work. You know, the kind where you go to an office, and have colleagues and bosses? Also, pay cheques and CPF (that's the Singapore equivalent of a retirement fund), love those.
@@ -82,7 +82,7 @@ Even so, it probably took 5 full man-months worth of effort to finish up the ini
 
 ### Remove unneeded libraries
 
-
+test
 
 ### Function matching
 
