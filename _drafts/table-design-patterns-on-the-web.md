@@ -9,9 +9,9 @@ external_site: smashing
 ---
 Tables are a design pattern for displaying large amounts of data in rows and columns, making them efficient for [doing comparative analysis on categorical objects](https://learnche.org/pid/data-visualization/tables-as-a-form-of-data-visualization). Tables have been used for this purpose [as early as the 2nd century](https://www.perceptualedge.com/articles/Whitepapers/Data_Visualization.pdf) and when the world started to go digital, tables came along with us.
 
-It was inevitable that the web would support the display of data in a tabular format. However, styling these tables proved to be a tricky endeavour, especially in the earlier days of the web, when browser wars were raging on. A decade ago, [Top 10 CSS Table Designs](https://www.smashingmagazine.com/2008/08/top-10-css-table-designs/) was published on Smashing Magazine, and still continues to get a lot of traffic to this day.
+It was inevitable that the web would support the display of data in a tabular format. HTML tables present tabular data in a [semantic and structurally appropriate manner](http://adrianroselli.com/2012/07/its-ok-to-use-tables.html). However, styling these tables proved to be a tricky endeavour, especially in the earlier days of the web, when browser wars were raging on. A decade ago, [Top 10 CSS Table Designs](https://www.smashingmagazine.com/2008/08/top-10-css-table-designs/) was published on Smashing Magazine, and still continues to get a lot of traffic to this day.
 
-The web has evolved a lot over the past decade, and it's more convenient than ever to make your site or application adapt to the viewport it is viewed in. Since tables don't seem to be falling out of favour any time soon, let's see how we can do tables on the web in 2018. 
+The web has evolved a lot over the past decade, and it's more convenient than ever to make your site or application adapt to the viewport it is viewed in. That being said, we have to continue to make considered design choices that [do not compromise on accessibility](https://developer.paciellogroup.com/blog/2018/03/short-note-on-what-css-display-properties-do-to-table-semantics/). Since tables don't seem to be falling out of favour any time soon, let's see how we can do tables on the web in 2018. 
 
 ## CSS-only options
 
@@ -142,10 +142,15 @@ The column toggle feature in TableSaw also no longer depends on jQuery, unlike t
 
 ## Wrapping up
 
-There are a myriad of table design patterns out there, and which approach you pick depends heavily on the type of data you have and the target audience for that data. At the end of the day, tables are another form of data visualisation, whose purpose is to facilitate the understanding and comparison of data. It is important to figure out which information matters most to your users and decide on an approach that best serves their needs.
+There are a myriad of table design patterns out there, and which approach you pick depends heavily on the type of data you have and the target audience for that data. At the end of the day, tables are a method for the organisation and presentation of data. It is important to figure out which information matters most to your users and decide on an approach that best serves their needs.
 
 ## Relevant reading
-- [CSS only Responsive Tables](https://dbushell.com/2016/03/04/css-only-responsive-tables/)
-- [Accessible, Simple, Responsive Tables](https://css-tricks.com/accessible-simple-responsive-tables/)
-- [Responsive table layout](http://allthingssmitty.com/2016/10/03/responsive-table-layout/)
-- [Responsive design patterns: tables](http://bradfrost.github.io/this-is-responsive/patterns.html#tables)
+
+<ul>
+  <li class="no-margin"><a href="https://dbushell.com/2016/03/04/css-only-responsive-tables/">CSS only Responsive Tables</a></li>
+  <li class="no-margin"><a href="https://css-tricks.com/accessible-simple-responsive-tables/">Accessible, Simple, Responsive Tables</a></li>
+  <li class="no-margin"><a href="http://allthingssmitty.com/2016/10/03/responsive-table-layout/">Responsive table layout</a></li>
+  <li class="no-margin"><a href="http://bradfrost.github.io/this-is-responsive/patterns.html#tables">Responsive design patterns: tables</a></li>
+  <li class="no-margin"><a href="http://adrianroselli.com/2017/11/hey-its-still-ok-to-use-tables.html">Hey, It’s Still OK to Use Tables</a></li>
+  <li><a href="http://adrianroselli.com/2018/02/tables-css-display-properties-and-aria.html">Tables, CSS Display Properties, and ARIA</a></li>
+</ul>
