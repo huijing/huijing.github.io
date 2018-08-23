@@ -119,7 +119,7 @@ There are 7 values for the `wrap-flow` property available to us at the moment, a
   <div class="tr">
     <div class="th td">clear</div>
     <div class="td">
-      <p>Nothing flows along the start and end edge of the exclusion along the inline direction. <span class="kaomoji">¯\_(ツ)_/¯</span></p>
+      <p>Nothing flows along the start and end edge of the exclusion along the inline direction. <span class="kaomoji">¯\\\_(ツ)_/¯</span></p>
       <img src="{{ site.url }}/assets/images/posts/css-exclusions/wf-clear.jpg" srcset="{{ site.url }}/assets/images/posts/css-exclusions/wf-clear@2x.jpg 2x" alt="wrap-flow:clear example">
     </div>
   </div>
