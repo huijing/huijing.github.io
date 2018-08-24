@@ -70,6 +70,9 @@ podcasts:
 retrotech:
   name: Retro tech
 
+servers:
+  name: Servers
+
 side-project:
   name: Side project
 
