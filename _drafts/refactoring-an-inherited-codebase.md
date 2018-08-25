@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Refactoring an inherited codebase"
-date: Aug 24, 2018
+date: Aug 27, 2018
 tags: [css, html, javascript]
 ---
 So for 2018, I got myself some gainful employment doing full-time frontend development work. You know, the kind where you go to an office, and have colleagues and bosses? Also, pay cheques and CPF (that's the Singapore equivalent of a retirement fund), love those. <span class="emoji" role="img" tabindex="0" aria-label="money bag">&#x1F4B0;</span><span class="emoji" role="img" tabindex="0" aria-label="money bag">&#x1F4B0;</span><span class="emoji" role="img" tabindex="0" aria-label="money bag">&#x1F4B0;</span>
@@ -133,4 +133,4 @@ Documentation appears to be another thing that takes a back-seat in start-ups, b
 
 In an ideal world where unicorns shit rainbows, we wouldn't have to do such major rewrites or refactoring projects, however, given that every organisation has their own set of constraints, sometimes it is just an inevitable part of the product development process.
 
-Here's to constant improvement, and may the code you write always be better than what you wrote yesterday. 
+Here's to constant improvement, and may the code you write always be better than what you wrote yesterday. <span class="emoji" role="img" tabindex="0" aria-label="tumbler glass">&#x1F943;</span>
