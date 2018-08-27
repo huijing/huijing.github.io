@@ -7,15 +7,22 @@ external_site: bit
 external_url: javascript:void(0)
 hascaniuse: true
 ---
-I realised I've been missing the mark on titles recently when one of my interns asked me about the title of my last talk. It was *Not in Kansas anymore: a new frontier for web design*, and the question was, “What does that mean? Isn't Kansas a city?” <span class="kaomoji">¯\\\_(ツ)_/¯</span>
+We can do quite a lot with CSS to create fancy radio buttons (or checkboxes, for that matter), and that's awesome. I happened to be working on a Cordova-based demo application, which had a few boolean configuration options, which made sense to be implemented as radio buttons. Plain ole' radio buttons seem a bit boring, but with a bit of CSS, it's not too much trouble to spruce things up.
 
-Naming things is hard, my friends. But anyway, my latest CSS adventure involved building some toggles on a configuration page. Nothing too complicated, just some souped up radio buttons for a Cordova-based demo at work.
+I had recently returned home from [Web Directions Code](https://www.webdirections.org/code/) in Melbourne, and there were a number of talks that focused on accessibility. As such, I was particularly cognizant of the fact that default radio buttons worked great with keyboard controls and whatever fanciness I was planned to come up with **must not** break that. Fortunately, it's not rocket science to ensure keyboard navigation works with fancy radio buttons.
+
+Today, we're going to cover the different methods of hiding input elements, their effects on accessibility and how to ensure they remain navigable via keyboard after being styled. There will also be a small bonus section on layout, because after making our radio buttons pretty, we want them to go into the right place.
+
+## What we're building
+
+<figure>
+    <figcaption>Simple configuration page</figcaption>
+    <img src="{{ site.url }}/assets/images/posts/custom-radios/screenshot2.png" srcset="{{ site.url }}/assets/images/posts/custom-radios/screenshot2@2x.png 2x" alt="Styled radio buttons"/>
+</figure>
+
+Behind all the styles, this page is made up of 3 sets of 2 radio buttons. The concept behind styling radio buttons hinges on the magic of HTML attributes, which allows us to link input elements to their labels. So you can hide away that default blue circle, spruce up the label element however you want, and still interact with the input element via the label.
 
 ## Hiding the radio input
-
-With talks from Web Directions Code still fresh in my mind, I was particularly cognizant of the fact that default radio buttons worked great with keyboard controls and whatever fanciness I was planned to come up with **must not** break that.
-
-Fortunately, it's not rocket science to ensure keyboard navigation works with fancy radio buttons. The concept behind styling radio buttons hinges on the magic of HTML attributes, which allows us to link input elements to their labels. So you can hide away that default blue circle, spruce up the label element however you want, and still interact with the input element via the label. Who knew?! (I'm being sarcastic here, in case it wasn't clear enough)
 
 Most of us mess up the keyboard navigation portion of things when we hide the input element. There are several ways to make something invisible or hidden:
 
@@ -27,6 +34,11 @@ Most of us mess up the keyboard navigation portion of things when we hide the in
 This article on [WebAIM](https://webaim.org/) discusses [invisible content just for screen reader users](https://webaim.org/techniques/css/invisiblecontent/), and is a pretty useful read. Of the four techniques I listed above, only option 2 hides the input in a way that doesn't take up space.
 
 The other 3 techniques render the element invisible, but they still take up the original amount of space they occupied. We'll have to pair them with a `position: absolute` so they are taken out of the normal document flow, and the rest of your content isn't disrupted.
+
+<figure>
+    <figcaption>What happens when you hide stuff visually</figcaption>
+    <img src="{{ site.url }}/assets/images/posts/custom-radios/hiding.png" srcset="{{ site.url }}/assets/images/posts/custom-radios/hiding@2x.png 2x" alt="Effects of the different hiding techniques"/>
+</figure>
 
 For custom radios (or checkboxes), option 2 and 4 are **not recommended** because screen readers won't be able to read the default radio element. This also prevents us from using the `:focus` pseudo-element on the hidden input, so those are out of the picture.
 
@@ -77,10 +89,12 @@ To add the glowy blue halo around focused elements, the CSS is as follows:
 
 <figure>
     <figcaption>You're free to customise the focus state however you like</figcaption>
-    <img src="{{ site.url }}/assets/images/posts/custom-radios/screenshot2.png" srcset="{{ site.url }}/assets/images/posts/custom-radios/screenshot2@2x.png 2x" alt="Focus state styles"/>
+    <img src="{{ site.url }}/assets/images/posts/custom-radios/outlines.png" srcset="{{ site.url }}/assets/images/posts/custom-radios/outlines@2x.png 2x" alt="Focus state styles"/>
 </figure>
 
 For this particular instance, I chose to use one of the accent colours on the project for the outline, but you don't necessarily have to use `outline` to indicate focus state. As long as you got the selector right, you can be free to change background colours, border colours, box shadows, gradients, anything you feel like.
+
+Eric Bailey [wrote a comprehensive post](https://css-tricks.com/focusing-on-focus-styles/) on all the different ways you could style your focus styles in his CSS Tricks article published earlier this year. He covers some of the newer CSS selectors like `:focus-within` and `:focus-visible`.
 
 ## Laying out the toggles
 
@@ -160,4 +174,5 @@ Customised radio buttons and checkboxes are a common design pattern found on the
 - [Invisible Content Just for Screen Reader Users](http://webaim.org/techniques/css/invisiblecontent/)
 - [Codrops CSS reference: Combinators](https://tympanus.net/codrops/css_reference/combinators/)
 - [Codrops CSS reference: Attribute Selectors](https://tympanus.net/codrops/css_reference/attribute-selectors/)
+- [Focusing on Focus Styles](https://css-tricks.com/focusing-on-focus-styles/)
 - [What Happens When You Create A Flexbox Flex Container?](https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/)
