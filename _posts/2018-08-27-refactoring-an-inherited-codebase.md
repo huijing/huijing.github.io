@@ -71,16 +71,24 @@ All of this was documented into a trusty spreadsheet. I don't know about you, bu
 
 The most basic analysis can be done via DevTools in any of the major browsers from the *Network* tab. It's more of a personal preference, but I prefer how Chrome and Firefox do it, where both of them tell you the number of requests, size of transfer, time it takes to finish loading, and when `DOMContentLoaded` is fired.
 
+<figure>
+    <figcaption>Hmmm, a bit on the heavy-side here</figcaption>
+    <img srcset="{{ site.url }}/assets/images/posts/refactoring/performance-480.png 480w, {{ site.url }}/assets/images/posts/refactoring/performance-640.png 640w, {{ site.url }}/assets/images/posts/refactoring/performance-960.png 960w, {{ site.url }}/assets/images/posts/refactoring/performance-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/refactoring/performance-640.png" alt="Chrome's network tab">
+</figure>
+
 After working through the entire product, I came up to a total of 24 different pages, some ranging from pure textual content to some with a whole lot of business logic for creating complex rules and conditions. I tossed my findings into the aforementioned spreadsheet and ended up with the following statistics:
-- Average number of requests: 79
-- Average page weight: 6.6mb
-- Total number of external JS libraries: 49
-- Total number of external CSS files: 30
+
+<ul>
+  <li class="no-margin">Average number of requests: 76</li>
+  <li class="no-margin">Average page weight: 6.017mb</li>
+  <li class="no-margin">Total number of external JS libraries: 49</li>
+  <li>Total number of external CSS files: 30</li>
+</ul>
 
 Chrome also has [a nifty code coverage tool](https://developers.google.com/web/updates/2017/04/devtools-release-notes) that gives you a general idea of how much redundant code is present in your application. Usually the biggest source of redundant code comes from external libraries, but sometimes this is inevitable, so it's necessary to look deeper than just the raw numbers themselves.
 
 <figure>
-    <figcaption>That's a bit heavy, don't you think?</figcaption>
+    <figcaption>That's quite a lot of unused code</figcaption>
     <img srcset="{{ site.url }}/assets/images/posts/refactoring/coverage-480.jpg 480w, {{ site.url }}/assets/images/posts/refactoring/coverage-640.jpg 640w, {{ site.url }}/assets/images/posts/refactoring/coverage-960.jpg 960w, {{ site.url }}/assets/images/posts/refactoring/coverage-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/refactoring/coverage-640.jpg" alt="Chrome's coverage tool">
 </figure>
 
@@ -90,24 +98,29 @@ It became clear that any attempt to refactor the code would take significantly m
 
 Data from the backend was being passed to the frontend via Jinja variables. However, the variables sometimes were not simply raw data, but contained preformatted strings and values that made it tricky to change the way things were implemented.
 
+<figure>
+    <figcaption>This was painful to go through, to be honest</figcaption>
+    <img srcset="{{ site.url }}/assets/images/posts/refactoring/messy-code-480.png 480w, {{ site.url }}/assets/images/posts/refactoring/messy-code-640.png 640w, {{ site.url }}/assets/images/posts/refactoring/messy-code-960.png 960w, {{ site.url }}/assets/images/posts/refactoring/messy-code-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/refactoring/messy-code-640.png" alt="Mish-mash of HTML, CSS, Javascript and Jinja variables">
+</figure>
+
 There was a large amount of inline Javascript in the template files themselves which used Jinja variables as part of the Javascript functions. That was a hard no for me, and I insisted on extracting all Javascript into separate `.js` files and keeping the templates clean of inline styles and scripts.
 
 ## Burn it down, build it up
 
-<p class="no-margin">To be honest, I wouldn't recommend this approach lightly. But given the circumstances, that:</p>
+<p>To be honest, I wouldn't recommend this approach lightly. But given the circumstances, that:</p>
 <ul style="list-style:upper-alpha">
     <li class="no-margin">it wasn't too large an application</li>
     <li class="no-margin">there was no proper HTML structure at all</li>
     <li class="no-margin">external libraries were outdated and installed inconsistently</li>
     <li class="no-margin">the code was a hodgepodge of Jinja variables in inline scripts and inline styles and</li>
-    <li class="no-margin">the fact that *my youth was slipping away*,</li>
+    <li>the fact that <em>my youth was slipping away</em>,</li>
 </ul>
 
-I decided to rip out all the styles and scripts and rewrite them from scratch, only including external Javascript libraries like moment.js and chart.js where necessary.
+I decided to rip out all the styles and scripts and rewrite them from scratch, only including external Javascript libraries like [Moment.js](https://momentjs.com/) and [Chart.js](https://www.chartjs.org/) where necessary.
 
 Keeping in mind that I had a team of 1, I was reasonably confident I could pull this off because I can CSS faster than most developers I know, so the look-and-feel wouldn't take long. From a UI functionality perspective, things didn't appear to be overly complicated.
 
-Even so, it probably took 5 full man-months worth of effort to finish up the initial rewrite, housekeeping and documentation work. In the meantime, there were also demos to be built (for tradeshows and the like), as well as my own non-employer related commitments. So it's safe to say I kept busy for the past 8 months.
+Even so, it probably took **5 full man-months** worth of effort to finish up the initial rewrite, housekeeping and documentation work. In the meantime, there were also demos to be built (for tradeshows and the like), as well as my own non-employer related commitments. So it's safe to say I kept busy for the past 8 months.
 
 ### Function matching
 
@@ -115,19 +128,78 @@ I'd like to say there were functional requirements that I could refer to when do
 
 Plan B: run an instance of the application that tracked the current master release and match all observable functionality as I rewrote every page of the application. I would like to reiterate that this worked only because the application was of a manageable size to begin with.
 
-This approach also flushed out a large number of implementation issues. for example, there were limited REST APIs by which to access information stored in the database, because the previous implementation used Jinja variables directly into inline Javascript functions.
+<figure>
+    <figcaption>Original on the left, rewrite on the right</figcaption>
+    <img srcset="{{ site.url }}/assets/images/posts/refactoring/before-after-480.png 480w, {{ site.url }}/assets/images/posts/refactoring/before-after-640.png 640w, {{ site.url }}/assets/images/posts/refactoring/before-after-960.png 960w, {{ site.url }}/assets/images/posts/refactoring/before-after-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/refactoring/before-after-640.png" alt="Before and After look and feel">
+</figure>
+
+This approach also flushed out a large number of implementation issues. for example, there were limited REST APIs by which to access information stored in the database, because the previous implementation used Jinja variables directly into inline Javascript functions. See exhibit below:
+
+<pre><code class="language-markup">&lt;script&gt;
+  (function() {
+    $(document).ready(function() {
+      $('input[name="is_activated"]').bootstrapSwitch();
+
+      var formData = &lcub;&lcub; formData|tojson &rcub;&rcub;;
+      &lcub;% if name %&rcub;
+      $("#rule_form_name_input").val(htmlTextToString("&lcub;&lcub; name &rcub;&rcub;"));
+      &lcub;% endif %&rcub;
+      &lcub;% if description %&rcub;
+      $("#comments-text").val(unescapeJs("&lcub;&lcub; description|escapejs &rcub;&rcub;"));
+      &lcub;% endif %&rcub;
+
+      var editorHelpers = EditorHelpers();
+
+      &lcub;% for field in fields %&rcub;editorHelpers.addSelectData("field", "&lcub;&lcub; field['name']|safe &rcub;&rcub;", "&lcub;&lcub; field['display_name']|safe &rcub;&rcub;", &lcub;&lcub; field['filter_equivalence_classes']|tojson &rcub;&rcub;);&lcub;% endfor %&rcub;
+      &lcub;% for operator in operators %&rcub;editorHelpers.addSelectData("operator", "&lcub;&lcub; operator['name']|safe &rcub;&rcub;", "&lcub;&lcub; operator['display_name']|safe &rcub;&rcub;", &lcub;&lcub; operator['filter_equivalence_classes']|tojson &rcub;&rcub;);&lcub;% endfor %&rcub;
+      &lcub;% for value in values %&rcub;editorHelpers.addSelectData("value", "&lcub;&lcub; value['name']| replace('\r\n', ' ') &rcub;&rcub;", "&lcub;&lcub; value['display_name']| replace('\r\n', ' ') &rcub;&rcub;", &lcub;&lcub; value['filter_equivalence_classes']|tojson &rcub;&rcub;);&lcub;% endfor %&rcub;
+
+      if (formData!=null) {
+        var formAlert = formData["alert"]
+        if (formAlert) {
+          editorHelpers.populateAllAlertData(formAlert);
+        }
+      }
+      var groupObjs = [];
+      /* Another 200 plus lines of this */
+&lt;/script&gt;</code></pre>
 
 There was also several instances where the data passed to the frontend contained markup embedded in it, which sort of forced me to modify the Python application files to remove the unwanted pre-processing. So much for leaving the backend alone. <span class="kaomoji">¯\\\_(ツ)_/¯</span>
 
 ### Re-evaluating site performance
 
-When the smoke cleared, 
+When the smoke cleared, the statistics of the site were as follows:
+
+<ul>
+  <li class="no-margin">Average number of requests: 30</li>
+  <li class="no-margin">Average page weight: 325kb</li>
+  <li class="no-margin">Total number of external JS libraries: 15</li>
+  <li>Total number of external CSS files: 4</li>
+</ul>
+
+A lot of the weight came from full-featured external libraries whose functionalities were barely used. A large amount of that was either replaced with lightweight alternatives or rewritten from scratch.
+
+<figure>
+    <figcaption>Loaded code from 5.1mb down to 291kb</figcaption>
+    <img srcset="{{ site.url }}/assets/images/posts/refactoring/coverage2-480.png 480w, {{ site.url }}/assets/images/posts/refactoring/coverage2-640.png 640w, {{ site.url }}/assets/images/posts/refactoring/coverage2-960.png 960w, {{ site.url }}/assets/images/posts/refactoring/coverage2-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/refactoring/coverage2-640.png" alt="Coverage tool results after rewrite">
+</figure>
+
+The only external CSS loaded were for datepickers and datatables, and even those were already customised to include only the relevant styles, so there were a lot of savings on the CSS side of things as well.
+
+<figure>
+    <figcaption>From 83 requests at 7.5mb down to 40 requests at 563kb, with room for improvement</figcaption>
+    <img srcset="{{ site.url }}/assets/images/posts/refactoring/performance2-480.png 480w, {{ site.url }}/assets/images/posts/refactoring/performance2-640.png 640w, {{ site.url }}/assets/images/posts/refactoring/performance2-960.png 960w, {{ site.url }}/assets/images/posts/refactoring/performance2-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/refactoring/performance2-640.png" alt="Page weight after rewrite">
+</figure>
+
+As a preliminary assessment, this was a relatively good outcome. There is further room for improvement for a second-pass refactoring, both on the Javascript side as well as the CSS side, but that portion of work will probably fall to the next person who takes over this project.
 
 ## Wrapping up
 
 The best analogy I had for this experience was swapping engines on the a flying plane. But I don't think such situations are an uncommon occurrence, especially in the world of start-ups. I did learn quite a lot from the experience (even picked up a little Python along the way), and not just from a coding perspective.
 
-Paying off technical debt is not a trivial endeavour at all, and it highlights the importance of having a solid architecture in place before any lines of code are even written.
+Paying off technical debt is not a trivial endeavour at all, and it highlights the importance of having a solid architecture in place before any lines of code are even written. As several experienced seniors have once advised me:
+
+> The best code is the code not written
 
 Documentation appears to be another thing that takes a back-seat in start-ups, but the fact is that people will come and go. In an environment with a relatively high attrition rate, proper documentation and handover becomes even more critical to ensure continuity and consistency of the software you're building.
 
