@@ -172,7 +172,7 @@ When the smoke cleared, the statistics of the site were as follows:
 
 <ul>
   <li class="no-margin">Average number of requests: 30</li>
-  <li class="no-margin">Average page weight: 325kb</li>
+  <li class="no-margin">Average page weight: 311kb</li>
   <li class="no-margin">Total number of external JS libraries: 15</li>
   <li>Total number of external CSS files: 4</li>
 </ul>
