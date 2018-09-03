@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Customise radio buttons without compromising accessibility"
-date: Aug 31, 2018
+date: Sep 03, 2018
 tags: [css, html]
 external_site: bit
-external_url: javascript:void(0)
+external_url: https://blog.bitsrc.io/customise-radio-buttons-without-compromising-accessibility-b03061b5ba93
 hascaniuse: true
 ---
 We can do quite a lot with CSS to create fancy radio buttons (or checkboxes, for that matter), and that's awesome. I happened to be working on a Cordova-based demo application, which had a few boolean configuration options, which made sense to be implemented as radio buttons. Plain ole' radio buttons seem a bit boring, but with a bit of CSS, it's not too much trouble to spruce things up.
