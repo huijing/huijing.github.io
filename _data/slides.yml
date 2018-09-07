@@ -303,7 +303,7 @@
   event: Refresh 2018
   website: http://refresh.rocks/
   type: conference
-  released: false
+  released: true
 
 - title: "The case for modern CSS"
   id: ts-meetup-2018
