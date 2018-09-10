@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Table design patterns on the web"
-date: Aug 31, 2018
+date: Sep 30, 2018
 tags: [css, html, javascript]
 hascodepen: true
 external_url: javascript:void(0)
