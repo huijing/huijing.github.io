@@ -320,7 +320,7 @@
   event: W3C Workshop on Digital Publication Layout and Presentation (from Manga to Magazines)
   website: https://www.w3.org/publishing/events/tokyo18-workshop/
   type: workshop
-  released: false
+  released: true
 
 - title: "Typesetting East Asian languages on the web"
   id: css-minsk-js-2018

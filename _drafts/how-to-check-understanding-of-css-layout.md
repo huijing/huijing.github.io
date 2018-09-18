@@ -31,5 +31,5 @@ At first I thought maybe it would be better to pre-write the HTML and let the (I
 
 What I've noticed among some developers who started out with frameworks like Bootstrap and kept at it, is they tend to nest `div`s more often. Some even don't realise that some styles can be applied on the same `div` without additional nesting.
 
-So the setup became an image of what I'd like the end result to look like, with some descriptive texual instructions. This was actually adapted from one of the HackerRank as mentioned earlier that I felt was decent, but definitely could be improved upon.
+So the setup became an image of what I'd like the end result to look like, with some descriptive textual instructions. This was actually adapted from one of the HackerRank as mentioned earlier that I felt was decent, but definitely could be improved upon.
 
