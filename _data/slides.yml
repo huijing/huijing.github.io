@@ -312,7 +312,7 @@
   event: Tech Speakers meetup 2018
   website: https://wiki.mozilla.org/TechSpeakers
   type: meetup
-  released: false
+  released: true
 
 - title: "Rich Dynamic Design with Modern CSS"
   id: w3c-workshop-2018
