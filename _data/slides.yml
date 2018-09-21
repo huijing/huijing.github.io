@@ -328,7 +328,7 @@
   event: CSS-Minsk-JS 2018
   website: http://css-minsk-js.by/
   type: conference
-  released: false
+  released: true
 
 - title: "Be like water: applying Bruce Lee's philosophy to web design"
   id: view-source-2018
@@ -338,7 +338,7 @@
   type: conference
   released: false
 
-- title: "TBC"
+- title: "Box Alignment"
   id: btconf-2018
   count: "44"
   event: beyond tellerrand 2018
