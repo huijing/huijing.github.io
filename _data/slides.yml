@@ -301,6 +301,7 @@
 - title: "East Asian Typography On The Web"
   id: refresh-2018
   count: "39"
+  video: https://youtu.be/uHEsO_LCA6s
   event: Refresh 2018
   website: http://refresh.rocks/
   type: conference
@@ -338,9 +339,17 @@
   type: conference
   released: false
 
-- title: "Box Alignment"
+- title: "Laying out the web with CSS grid (and friends)"
   id: btconf-2018
   count: "44"
+  event: beyond tellerrand 2018
+  website: https://beyondtellerrand.com/events/berlin-2018
+  type: workshop
+  released: false
+
+- title: "Box Alignment"
+  id: btconf-2018
+  count: "45"
   event: beyond tellerrand 2018
   website: https://beyondtellerrand.com/events/berlin-2018
   type: conference
@@ -348,7 +357,7 @@
 
 - title: "TBC"
   id: detech-2018
-  count: "45"
+  count: "46"
   event: deTECH Conference 2018
   website: https://detechconf.com
   type: conference
