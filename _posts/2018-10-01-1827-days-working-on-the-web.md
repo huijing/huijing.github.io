@@ -25,9 +25,9 @@ I did manage to pick up a couple of freelance projects to tide me over but by th
 
 ## …be grateful to everyone who helps you make lemonade <span class="emoji" role="img" tabindex="0" aria-label="lemon">&#x1F34B;</span>
 
-In the meantime, I got invited to my first speaking engagement outside of Singapore by Charis Rhoda for [Webconf.asia](https://www.webconf.asia/), as well as had my first CFP acceptance for [piterCSS](https://pitercss.com/), for the same topic. I hadn't been much of a public speaker up till that point, I mean, hosting a meetup is different from standing on a conference stage, right?
+In the meantime, I got invited to my first speaking engagement outside of Singapore by [Charis Rhoda](https://imakewebsites.hk/) for [Webconf.asia](https://www.webconf.asia/), as well as had my first CFP acceptance for [piterCSS](https://pitercss.com/), for the same topic (thank you, [Vadim](https://twitter.com/pepelsbey)). I hadn't been much of a public speaker up till that point, I mean, hosting a meetup is different from standing on a conference stage, right?
 
-But given my state of fun-employment for the bulk of 2017, I got the opportunity to do a lot of things that I probably wouldn't have been able to handle with a typical full-time job, like getting involved with the Chinese Language Requirements Task Force, writing a lot more articles, helping out with events like the [Mozilla Developer Asia Roadshow](https://hacks.mozilla.org/2017/02/devroadshow/), and travelling to speak at conferences.
+But given my state of fun-employment for the bulk of 2017, I got the opportunity to do a lot of things that I probably wouldn't have been able to handle with a typical full-time job, like getting involved with the [Chinese Language Requirements Task Force](http://w3c.github.io/clreq/charter/), writing a lot more articles, helping out with events like the [Mozilla Developer Asia Roadshow](https://hacks.mozilla.org/2017/02/devroadshow/), and travelling to speak at conferences.
 
 <figure>
     <figcaption>On the road with these fine folks</figcaption>
