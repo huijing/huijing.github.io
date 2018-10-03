@@ -209,12 +209,14 @@ ol {
     content: '';
     counter-increment: none; }
 
+pre code {
+  font-size: 65%; }
+
 code {
   background-color: rgba(192, 192, 192, 0.5);
   color: #4c83e1;
   border-radius: 0.25em;
-  padding: 2px;
-  font-size: 85%; }
+  padding: 2px; }
 
 blockquote {
   background: url("/assets/images/bg-quotes.jpg");

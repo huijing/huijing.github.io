@@ -93,12 +93,15 @@ ol {
   }
 }
 
+pre code {
+  font-size: 65%;
+}
+
 code {
   background-color: lighten(color('silver-chalice'), 10%);
   color: color('royal-blue');
   border-radius: 0.25em;
   padding: 2px;
-  font-size: 85%;
 }
 
 blockquote {
