@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "How would we check understanding of CSS layout?"
-date: Oct 04, 2018
+title: "Does your interviewee understand CSS layouts?"
+date: Oct 10, 2018
 tags: [css, opinion]
 external_site: bit
-external_url: javascript:void(0)
+external_url: https://blog.bitsrc.io/how-to-check-the-understanding-of-css-layout-2325621491ad
 ---
 Recently, I was asked to review/rework a front-end coding test for potential hires. A colleague of mine suggested using [HackerRank](https://www.hackerrank.com/), as he had reasonably good outcomes from his data science coding test, and it didn't take him too much effort to set up. Unfortunately, I realised that CSS isn't something that services like HackerRank caters for very well.
 
