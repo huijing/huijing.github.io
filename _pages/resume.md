@@ -25,9 +25,23 @@ permalink: /resume/
 
 ### Work experience
 
+**Nexmo**  
+(Sep 2018 – Present)  
+As a **Developer Advocate**, my job is to build relationships and support the developer community through learning, creating, sharing and helping others. I act as the interface between developer communities and the Nexmo product team to ensure our products provide a great developer experience.
+
+<ul>
+  <li class="no-margin">Building and maintaining quick start samples, demos, example apps and other developer productivity
+tools and enablers</li>
+  <li class="no-margin">Writing blog posts and tutorials, and using social media in order to share knowledge, request
+feedback, collaborate and engage with fellow developers</li>
+  <li class="no-margin">Contribute to and provide feedback on APIs, SDKs, documentation and product functionality
+through hands-on development, individual opinion, discussions with the developer community
+and by organising and running beta/alpha programmes</li>
+</ul>
+
 **Jewel Paymentech**  
-(Jan 2018 - Present)  
-I am a **Senior Developer** responsible for the user interfaces and front-end development of Jewel Paymentech's suite of products. My responsibilities include:
+(Jan 2018 - Sep 2018)  
+I was a **Senior Developer** in charge of the user interfaces and front-end development of Jewel Paymentech's suite of products, and my days consisted of:
 
 <ul>
   <li class="no-margin">Optimising and refactoring existing codebases to improve the performance of our products, and customer's user experience</li>
@@ -39,7 +53,7 @@ I am a **Senior Developer** responsible for the user interfaces and front-end de
 
 **Deep Labs**  
 (March 2016 - April 2017)  
-I was a **Front-end engineer** focused on the development of user interfaces and front-end development of web and mobile applications. My responsibilities included:
+I was a **Front-end engineer** focused on the development of user interfaces and front-end development of web and mobile applications, and I was mostly doing things like:
 
 <ul>
   <li class="no-margin">Providing input and developing user interfaces for each phase of the application development life cycle, from ideation to design and development till release and support</li>
