@@ -65,6 +65,7 @@ span,
 h1,
 h2,
 h3,
+h4,
 ul,
 p,
 a,
@@ -726,6 +727,54 @@ span[role=img][aria-label]:hover::after {
     .profile-image {
       float: right;
       margin-left: 0.5em; } }
+
+.jobs label {
+  cursor: pointer;
+  position: relative;
+  z-index: 20;
+  font-size: 100%;
+  padding: 0.25em 0.75em;
+  background-color: #c7ebc5;
+  margin-bottom: 0.25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.jobs label:after {
+  content: url("../images/box.png");
+  margin-left: auto;
+  line-height: 0; }
+
+.jobs input[type=checkbox]:focus + label {
+  outline: 5px auto -webkit-focus-ring-color; }
+
+.jobs input[type=checkbox]:checked + label:after {
+  content: url("../images/star.png"); }
+
+.jobs input[type=checkbox]:checked + label {
+  margin-bottom: 0.25em; }
+
+.jobs label[for=freelance] {
+  margin-bottom: 1.5em; }
+
+.jobs input[type=checkbox] {
+  opacity: 0;
+  position: absolute; }
+
+.jobs input[type=checkbox] + label + article {
+  display: none;
+  height: 0;
+  max-height: 0;
+  overflow: hidden; }
+
+.jobs input[type=checkbox]:checked + label + article {
+  display: block;
+  height: auto;
+  max-height: initial;
+  padding: 0.25em 1em; }
 
 .projects {
   margin-bottom: 0.5em;
