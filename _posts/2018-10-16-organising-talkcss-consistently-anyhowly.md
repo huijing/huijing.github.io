@@ -16,7 +16,7 @@ There are 2 critical components to a meetup: speakers and venue.
 
 Usually, I will start scouting for venues a month before. Talk.CSS does a revolving venue format, so we try to contact different potential hosts every time.
 
-Scouting for venues involves consulting the [Engineers.SG events](https://engineers.sg/events/) for locations of other meetups and getting in touch with the relevant hosts. Or asking on [KopiJS](). Getting in touch is almost always via email, with some standard information that hosts usually require:
+Scouting for venues involves consulting the [Engineers.SG events](https://engineers.sg/events/) for locations of other meetups and getting in touch with the relevant hosts. Or asking on [KopiJS](https://kopijs.org/). Getting in touch is almost always via email, with some standard information that hosts usually require:
 
 <blockquote>
   <p>Talk.CSS is a monthly tech meet-up about CSS (and web design).</p>
