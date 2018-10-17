@@ -8,6 +8,8 @@ Some of you may know that I organise a little meetup called [Talk.CSS](https://s
 
 But that doesn't mean it didn't take effort. To date, we have yet to cancel a meetup or miss a month. A large reason for this is because there are 2 of us, so whenever 1 of us can't make it, the other can pick up the slack. So am I slightly worried how we will continue the streak with Chris gone? Yes. But we'll see how things work out.
 
+<p class="note">If you're wondering about the word “anyhowly”, it is the adverb “anyhow” with an additional “ly” appended for emphasis. This is perfectly acceptable Singlish.</p>
+
 ## Before the doors open
 
 There are 2 critical components to a meetup: speakers and venue. 
