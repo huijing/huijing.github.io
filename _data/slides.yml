@@ -338,7 +338,7 @@
   event: View Source London 2018
   website: https://events.mozilla.org/viewsource2018
   type: conference
-  released: false
+  released: true
 
 - title: "Laying out the web with CSS grid (and friends)"
   id: btconf-2018
