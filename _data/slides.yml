@@ -347,15 +347,16 @@
   event: beyond tellerrand 2018
   website: https://beyondtellerrand.com/events/berlin-2018
   type: workshop
-  released: false
+  released: true
 
 - title: "Box Alignment"
   id: btconf-2018
   count: "45"
+  video: https://vimeo.com/299215505
   event: beyond tellerrand 2018
   website: https://beyondtellerrand.com/events/berlin-2018
   type: conference
-  released: false
+  released: true
 
 - title: "Laying out the web with modern CSS"
   id: detech-2018
