@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chinese typography in the digital age"
-date: Oct 31, 2018
+date: Jan 31, 2019
 tags: [design, i18n,typography]
 ---
 *This is the third post of a multi-part series about Chinese typography, from the history of Chinese characters, to printing, to digitisation.*

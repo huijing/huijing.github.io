@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "All about Chinese characters"
-date: Oct 31, 2018
+date: Dec 31, 2018
 tags: [design, i18n,typography]
 ---
 *This is the first post of a multi-part series about Chinese typography, from the history of Chinese characters, to printing, to digitisation.*
 
-Writing (and talking) about CSS writing modes last year served as a foray into the wonderful world of Chinese characters and typography. Even though I learnt Chinese as a first language in school all those years ago, I think I was too dumb or ignorant to appreciate the Chinese language itself. Kinda like those 8 years worth of piano lessons I took until I was 12. Ah, youth.
+For me, writing (and talking) about CSS writing modes has served as a foray into the wonderful world of Chinese characters and typography. Even though I learnt Chinese as a first language in school all those years ago, I think I was too dumb or ignorant to appreciate the Chinese language itself. Kinda like those 8 years worth of piano lessons I took until I was 12. Ah, youth.
 
 I mean, in school, they literally just taught you how to read and write, form sentences and understand passages. But I never took the time to appreciate the characters themselves. I didn't even realise Chinese was the only widely used logographic language left in the world today until I wrote that blog post.
 
@@ -34,7 +34,7 @@ So for the longest time, Chinese civilisations were ruled by dynasties. Dynastie
 
 Provided the planet still exists.
 
-Oh, was that too morbid? What can I say? I'm genuinely worried we're going to blow ourselves up <span class="emoji" role="img" tabindex="0" aria-label="pensive face">&#x1F614;</span>. Anyway, moving on...
+Oh, was that too morbid? What can I say? I'm genuinely worried we're going to blow ourselves up <span class="emoji" role="img" tabindex="0" aria-label="pensive face">&#x1F614;</span>. Anyway, moving on…
 
 ### Pottery etchings (陶文)
 

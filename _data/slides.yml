@@ -1,4 +1,4 @@
-- title: Using responsive images (now)
+- title: "Using responsive images (now)"
   id: resp-imgs
   count: "01"
   video: https://engineers.sg/video/using-responsive-images-now-talk-js--269
@@ -6,7 +6,7 @@
   type: meetup
   released: true
 
-- title: Why you should be excited about CSS shapes
+- title: "Why you should be excited about CSS shapes"
   id: css-shapes
   count: "02"
   video: https://engineers.sg/video/css-shapes-singapore-css--432
@@ -14,7 +14,7 @@
   type: meetup
   released: true
 
-- title: Let's ⚡ talk about CSS triggers
+- title: "Let's ⚡ talk about CSS triggers"
   id: css-triggers
   count: "03"
   video: https://engineers.sg/video/tips-on-eliminating-jank-talk-css--505
@@ -36,7 +36,7 @@
   type: workshop
   released: true
 
-- title: The epic git bomb
+- title: "The epic git bomb"
   id: git-bomb
   count: "06"
   video: https://engineers.sg/video/an-epic-git-bomb-git-meetup-0-4-0--630
@@ -364,4 +364,11 @@
   event: deTECH Conference 2018
   website: https://detechconf.com
   type: workshop
+  released: true
+
+- title: "Directions of the web"
+  id: directions-of-the-web
+  count: "47"
+  event: Talk.CSS
+  type: meetup
   released: true
