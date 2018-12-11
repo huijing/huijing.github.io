@@ -261,7 +261,7 @@
   type: conference
   released: true
 
-- title: Why performance
+- title: "Why performance"
   id: why-performance
   count: "34"
   event: Talk.CSS
@@ -369,6 +369,7 @@
 - title: "Directions of the web"
   id: directions-of-the-web
   count: "47"
+  video: https://engineers.sg/video/directions-of-the-web-talk-css-34--3034
   event: Talk.CSS
   type: meetup
   released: true

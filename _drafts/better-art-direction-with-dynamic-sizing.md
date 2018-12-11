@@ -33,6 +33,12 @@ Then we'd learn about `rem` and `em` units, and gravitate towards those. Some of
 
 It's not that intrinsic sizing is a new thing, I think it's more that the usage of intrinsic sizing simply meant leaving things alone. The browser is doing the sizing for us based on the amount of content within the element.
 
+There is quite a long rule set to determining an element's width and height, depending on its type (block or inline, replaced or not, positioning scheme etc.), which can be found from the [CSS2.1 specification](https://www.w3.org/TR/CSS2/visudet.html), if you're interested. And the [CSS Intrinsic & Extrinsic Sizing Module Level 3](https://www.w3.org/TR/css-sizing-3/) extends the specification further.
+
+One thing I want to remind everyone when it comes to the `width` and `height` properties is that these 2 sizing properties do **not** apply to inline elements. The width of an inline element is determined by the width its rendered content, while the height of an inline element is determined by font size.
+
+The Level 3 specification adds new content-based keywords to the `width` and `height` properties, namely: `min-content`, `max-content` and `fit-content()`. 
+
 I highly encourage developers to try out these newer properties and techniques themselves, as it was through experimentation that I figured a lot of this stuff out. For example, one key thing that I highlight when teaching Grid these days is that we are now able to vary the rate of expansion and contraction of items with the various sizing values Grid offers.
 
 Such behaviour gives web designers and developers better options and greater flexibility in terms of art direction and ensures that the focus of the content is never lost regardless of the context in which it is viewed in. With more developers and designers using these new tools, we'll have a greater pool of ideas and inspiration for building designs that truly suit the nature of the web.
