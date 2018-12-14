@@ -138,6 +138,11 @@
   background-size: cover;
 }
 
+.nexmo::before {
+  background: url('/assets/images/icons/icon-nexmo.svg') no-repeat;
+  background-size: cover;
+}
+
 .post-title {
   margin-bottom: 0.25rem;
 }
