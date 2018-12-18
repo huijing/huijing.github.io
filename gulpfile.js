@@ -1,6 +1,7 @@
 var gulp        = require('gulp')
 var browserSync = require('browser-sync')
 var sass        = require('gulp-sass')
+var cssnano     = require('gulp-cssnano')
 var prefix      = require('gulp-autoprefixer')
 var concat      = require('gulp-concat')
 var uglify      = require('gulp-uglify')
@@ -113,4 +114,4 @@ gulp.task('scripts-prod', function() {
  * compile the Jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', gulp.series('browser-sync', 'watch'))
-gulp.task('build', gulp.series('scripts-prod', 'sass', 'jekyll-prod'))
+gulp.task('build', gulp.series('scripts-prod', 'sass-prod', 'jekyll-prod'))
