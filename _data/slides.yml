@@ -373,3 +373,10 @@
   event: Talk.CSS
   type: meetup
   released: true
+
+- title: "CSS wizarding world"
+  id: css-wizarding-world
+  count: "48"
+  event: MozKopdar JKT
+  type: meetup
+  released: true
