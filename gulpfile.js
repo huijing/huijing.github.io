@@ -2,7 +2,6 @@ var gulp        = require('gulp')
 var browserSync = require('browser-sync')
 var sass        = require('gulp-sass')
 var prefix      = require('gulp-autoprefixer')
-var cssnano     = require('gulp-cssnano')
 var concat      = require('gulp-concat')
 var uglify      = require('gulp-uglify')
 var cp          = require('child_process')
@@ -24,19 +23,9 @@ gulp.task('jekyll-dev', function(done) {
 /**
  * Rebuild Jekyll & do page reload
  */
-gulp.task('jekyll-rebuild', ['jekyll-dev'], function() {
+gulp.task('jekyll-rebuild', gulp.series('jekyll-dev', function() { 
   browserSync.reload()
-})
-
-/**
- * Wait for jekyll-dev, then launch the Server
- */
-gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-dev'], function() {
-  browserSync.init({
-    server: '_site',
-    port: 4321
-  })
-})
+}));
 
 /**
  * Compile files from _scss into both _site/css (for live injecting) and site (for future Jekyll builds)
@@ -65,13 +54,23 @@ gulp.task('scripts', function() {
 })
 
 /**
+ * Wait for jekyll-dev, then launch the Server
+ */
+gulp.task('browser-sync', gulp.series(gulp.parallel('sass', 'scripts'), 'jekyll-dev', function() {
+  browserSync.init({
+    server: '_site',
+    port: 4321
+  })
+}));
+
+/**
  * Watch scss files for changes & recompile
  * Watch html/md files, run Jekyll & reload BrowserSync
  */
 gulp.task('watch', function() {
-  gulp.watch(['_sass/**/*.scss','_sass/*.scss'], ['sass'])
-  gulp.watch(['_js/**/*.js'], ['scripts'])
-  gulp.watch(['index.html', '_layouts/*.html', '_includes/*.html', '_drafts/*', '_posts/*', '_pages/*'], ['jekyll-rebuild'])
+  gulp.watch(['_sass/**/*.scss','_sass/*.scss'], gulp.series('sass'))
+  gulp.watch(['_js/**/*.js'], gulp.series('scripts'))
+  gulp.watch(['index.html', '_layouts/*.html', '_includes/*.html', '_drafts/*', '_posts/*', '_pages/*'], gulp.series('jekyll-rebuild'))
 })
 
 /**
@@ -113,5 +112,5 @@ gulp.task('scripts-prod', function() {
  * Default task, running just `gulp` will compile the sass,
  * compile the Jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['browser-sync', 'watch'])
-gulp.task('build', ['scripts-prod', 'sass', 'jekyll-prod'])
+gulp.task('default', gulp.series('browser-sync', 'watch'))
+gulp.task('build', gulp.series('scripts-prod', 'sass', 'jekyll-prod'))
