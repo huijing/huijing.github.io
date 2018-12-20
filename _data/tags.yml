@@ -16,6 +16,12 @@ design:
 devlife:
   name: Developer life
 
+devrel:
+  name: Developer relations
+
+devtools:
+  name: DevTools
+
 drupal7:
   name: Drupal 7
 
