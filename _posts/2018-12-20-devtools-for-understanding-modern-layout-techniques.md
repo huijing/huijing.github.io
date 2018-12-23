@@ -3,6 +3,7 @@ layout: post
 title: "Using DevTools to understand modern layout techniques"
 date: Dec 20, 2018
 tags: [devtools, css]
+image: devtools.jpg
 hascodepen: true
 ---
 I recently got the opportunity to visit the Mozilla Community Space in Jakarta and speak at [MozKopdar JKT](https://www.eventbrite.com/e/mozkopdarjkt-firefox-developer-tools-and-css-wizarding-world-tickets-52953036959) with [Alex Lakatos](https://twitter.com/lakatos88/). Instead of using slides, which was my normal mode of delivery, I decided to go with presenting the concepts and techniques I wanted to share directly through DevTools. It turned out better than I expected.
