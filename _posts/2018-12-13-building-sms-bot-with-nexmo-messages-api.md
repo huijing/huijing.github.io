@@ -167,7 +167,7 @@ Once you have your number, it will show up in the *Your numbers* section. Click 
 
 Next, navigate to the *Create an application* page under the *Messages and Dispatch* section on the sidebar. Fill in your application name, and the webhook URLs with your Glitch app URL as the host. You will also need to generate a public/private key pair, which will prompt you to download the `private.key` file.
 
-![](https://cdn.glitch.com/df802ecc-0da6-4e3b-adb3-740a4b639b86%2F11.jpg?1543306038810)
+![](https://cdn.glitch.com/03f552cb-b122-492c-94c5-0802f09a5185%2Fgenerate-key.png?1545658727093)
 
 Then, click on the orange *Create application* button. The next screen will allow you to link your virtual number to your application by clicking the *Link* button under the *Manage* column.
 
