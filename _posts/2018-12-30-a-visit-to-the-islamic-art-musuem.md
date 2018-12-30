@@ -3,6 +3,8 @@ layout: post
 title: "A visit to the Islamic Arts Museum Malaysia"
 date: Dec 30, 2018
 tags: [design, typography]
+external_site: alphabettes
+external_url: http://www.alphabettes.org/a-visit-to-the-islamic-arts-museum-malaysia/
 ---
 Even though I had lived in Kuala Lumpur for about 8 years previously, I had never visited the [Islamic Arts Museum](http://www.iamm.org.my/) before. That was a time of my life before I started really getting into typography. In fact, until my friend, [Sareh Heidari](https://twitter.com/sareh88), told me about the museum, I didn't even know it existed. But it's now one of my favourite museums, and I'm so glad it's almost in my backyard (almost, sort of).
 
@@ -11,7 +13,7 @@ Even though I had lived in Kuala Lumpur for about 8 years previously, I had neve
     <img srcset="{{ site.url }}/assets/images/posts/iamm/iamm-480.jpg 480w, {{ site.url }}/assets/images/posts/iamm/iamm-640.jpg 640w, {{ site.url }}/assets/images/posts/iamm/iamm-960.jpg 960w, {{ site.url }}/assets/images/posts/iamm/iamm-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/iamm/iamm-640.jpg" alt="">
 </figure>
 
-The temporary exhibition I managed to catch was *Al-Tibb: Healing Traditions in Islamic Medical Manuscripts*, which really showcased the Islamic Golden Age. There were manuscripts on a wide range of topics, from anatomy to diet, pharmacy to divination, offering a peek into how medicine and healthcare was a central part of medieval Islamic society.
+The temporary exhibition I managed to catch was *Al-Tibb: Healing Traditions in Islamic Medical Manuscripts*, which really showcased the Islamic Golden Age.
 
 <figure>
     <figcaption>Al-Tibb: Healing Traditions in Islamic Medical Manuscripts</figcaption>
@@ -27,6 +29,8 @@ The temporary exhibition I managed to catch was *Al-Tibb: Healing Traditions in 
     <figcaption>Manuscript on Divination</figcaption>
     <img srcset="{{ site.url }}/assets/images/posts/iamm/medical3-480.jpg 480w, {{ site.url }}/assets/images/posts/iamm/medical3-640.jpg 640w, {{ site.url }}/assets/images/posts/iamm/medical3-960.jpg 960w, {{ site.url }}/assets/images/posts/iamm/medical3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/iamm/medical3-640.jpg" alt="">
 </figure>
+
+There were manuscripts on a wide range of topics, from anatomy to diet, pharmacy to divination, offering a peek into how medicine and healthcare was a central part of medieval Islamic society.
 
 <figure>
     <figcaption>Kitab Faal</figcaption>
