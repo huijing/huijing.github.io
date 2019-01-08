@@ -15,6 +15,8 @@ After a 4-year sabbatical (from web development), I decided to restart this jour
 
 I also co-organise Talk.CSS, a meetup around all things CSS, with [Chris Lienert](https://twitter.com/cliener). The idea for Talk.CSS was born on the [Kopi.JS](http://kopijs.org/) slack channel on October 26, 2015 and within 2 hours, we had a [logo](https://github.com/Singapore-CSS/logo), a [Gitter channel](https://gitter.im/Singapore-CSS/discussions), a [Meetup.com](http://www.meetup.com/Singapore-CSS/) account, a venue for the meetup and a couple speakers. Colour us efficient <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span>.
 
+Right now, I'm a Developer Advocate for Nexmo, as well as a Mozilla Techspeaker.
+
 ### Anything not related to the web?
 
 Sure. I love playing basketball and did so full-time for 6 years until the end of 2011. I still play recreationally now and will continue to do so until my legs say otherwise.
@@ -33,7 +35,7 @@ Oh, and I cycle everywhere on my trusty second-hand Muji commuter bicycle.
   <li class="no-margin"><a href="https://web.archive.org/web/20170105035545/http://www.tomboy-tarts.com/tomboy-tirade-ep-72-comedy-podcast-beam-me-up-f-sayanee-basu-and-chen-huijing/">Ep 72: Beam me up f. Sayanee Basu and Chen Hui Jing</a></li>
   <li class="no-margin"><a href="https://web.archive.org/web/20170105034900/http://compassloft.com/2016/11/07/from-ball-to-code/">From Ball to Code</a></li>
   <li class="no-margin"><a href="https://web.archive.org/web/20170105040057/https://live.webuild.sg/040-huijing-chen/">We Build LIVE 040 Huijing Chen</a></li>
-  <li><a href="https://www.techinasia.com/talk/developer-spotlight-chen-huijing">Basketball led her to front-end engineering. Passion kept her there.</a></li>
+  <li class="no-margin"><a href="https://www.techinasia.com/talk/developer-spotlight-chen-huijing">Basketball led her to front-end engineering. Passion kept her there.</a></li>
   <li><a href="https://soundcloud.com/web-standards/episode-139">Web standards podcast: Episode #139</a></li>
 </ul>
 
