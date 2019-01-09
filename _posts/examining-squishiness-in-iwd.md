@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Better art direction with dynamic sizing"
-date: Dec 24, 2018
+title: "Examining “squishiness” in Intrinsic Web Design"
+date: Jan 08, 2019
 tags: [css, design]
 external_site: logrocket
-external_url: javascript:void(0)
+external_url: https://blog.logrocket.com/examining-squishiness-in-intrinsic-web-design-1005d30dda0c
 hascodepen: true
 ---
 One of the highlights in the world of web design for 2018 was when [Jen Simmons](http://jensimmons.com/) came up with the term [Intrinsic Web Design](http://www.zeldman.com/2018/05/02/transcript-intrinsic-web-design-with-jen-simmons-the-big-web-show/), and shared it with the world. Intrinsic Web Design is not a framework. It isn't a set of rules to follow either. Rather, it is a collection of concepts that highlight what is now possible with modern CSS. How we choose to utilise these concepts for better art direction on the web, and to build better layouts, that's up to us.
