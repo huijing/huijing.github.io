@@ -137,6 +137,10 @@ I was also writing another article about flexible sizing for [LogRocket](https:/
 
 Even though I knew how flexible sizing worked in my head, putting it all together in a grid where items overlapped and spanned multiple flexible tracks was impossible to do without visualising it in the browser. So cue DevTools to the rescue.
 
+## Bonus: CSS shapes
+
+*Update: [Adrian Roselli](http://adrianroselli.com/), who wrote a brilliant article on using CSS shapes to build a CSS Venn Diagram, so kindly sent over a screencast of the Shapes Editor within DevTools so I've added this new section on CSS shapes.*
+
 ## Wrapping up
 
 I hope that this helps anybody who's trying to wrap their head around how flexible sizing works, and that you'll try it out yourself. Because there's no better teacher than resizing your browser a thousand times and seeing what happens. I'm only sort of joking here.
