@@ -141,6 +141,29 @@ Even though I knew how flexible sizing worked in my head, putting it all togethe
 
 *Update: [Adrian Roselli](http://adrianroselli.com/), who wrote a brilliant article on using CSS shapes to build a CSS Venn Diagram, so kindly sent over a screencast of the Shapes Editor within DevTools so I've added this new section on CSS shapes.*
 
+CSS shapes has been around for a while now, and it's one of those CSS properties that “fails” really well. Unless you're doing something overly elaborate, if the browser does not support CSS shapes, your layout will behave as though you didn't apply Shapes at all.
+
+I [wrote about CSS shapes]({{ site.url }}/blog/why-you-should-be-excited-about-css-shapes/) back in 2015 after listening to Jen Simmons talk about it on her podcast, [The Web Ahead](http://thewebahead.net/upcoming/css-shapes-with-sara-soueidan) and reading [Sara Soueidan's seminal article on CSS shapes](https://www.sarasoueidan.com/blog/css-shapes/) before anyone else was really talking about it.
+
+<p data-height="358" data-theme-id="9162" data-slug-hash="vEdVQZ" data-default-tab="result" data-user="huijing" data-pen-title="Fun with CSS shapes" class="codepen">See the Pen <a href="https://codepen.io/huijing/pen/vEdVQZ/">Fun with CSS shapes</a> by Chen Hui Jing (<a href="https://codepen.io/huijing">@huijing</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+In a nutshell, CSS shapes is used together with floats to allow text to flow around geometric shapes or images. Such an effect is often seen in magazines and newspapers, but the web could not achieve such an effect before this property was developed. The only workaround being making the text part of the image, skewering accessibility.
+
+Chrome and the webkit-based browsers shipped CSS shapes first, back in 2014. Chrome supported CSS shapes highlighting through DevTools, allowing developers to see the areas their defined shapes took up, and any margins applied (via the `shape-margin` property).
+
+<p data-height="444" data-theme-id="9162" data-slug-hash="oXEPgX" data-default-tab="result" data-user="huijing" data-pen-title="Wrapping text to an image with CSS Shapes" class="codepen">See the Pen <a href="https://codepen.io/huijing/pen/oXEPgX/">Wrapping text to an image with CSS Shapes</a> by Chen Hui Jing (<a href="https://codepen.io/huijing">@huijing</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+
+Firefox released CSS shapes support behind a flag in v51 and made it official in v62. In addition to shipping support for the property in the browser, the team also released the [Shapes editor tool](https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Edit_CSS_shapes). Josh Marinacci wrote [a feature on Mozilla Hacks](https://hacks.mozilla.org/2018/09/make-your-web-layouts-bust-out-of-the-rectangle-with-the-firefox-shape-path-editor/) showcasing what the tool can do.
+
+Adrian Roselli wrote a fantastic article about [creating a pure CSS Venn diagram](http://adrianroselli.com/2018/12/a-css-venn-diagram.html) using CSS grid and the `shape-outside` property, which I highly recommend reading. The end result not only fallbacks gracefully, it is also accessible to screen readers by default. It's a wonderful use-case of what CSS shapes can do for creative layouts on the web. 
+
+<figure>
+    <figcaption>The Shapes editor tool in action (courtesy of Adrian)</figcaption>
+    <video src="{{ site.url }}/assets/videos/shapes-editor.mp4" controls autoplay loop></video>
+</figure>
+
+The Shapes editor tool allows developers who are using either CSS shapes or the `clip-path` property to manipulate and experiment with basic shapes and polygons. The generated polygon function can then be used in your actual code once you're satisfied with the results.
+
 ## Wrapping up
 
 I hope that this helps anybody who's trying to wrap their head around how flexible sizing works, and that you'll try it out yourself. Because there's no better teacher than resizing your browser a thousand times and seeing what happens. I'm only sort of joking here.
