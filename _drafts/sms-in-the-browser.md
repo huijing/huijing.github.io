@@ -10,31 +10,19 @@ A lot of the heavy lifting done by the Nexmo Messages API happens on the server-
 
 For the most part, the display of these messages to the end user is handled by their respective applications. There is also the option of displaying these messages in a browser, but for that, we'll need some way of pushing the messages from the server to the browser. And we can do that with the help of the WebSockets API.
 
-This is a pretty long tutorial which assumes no prior knowledge aside from a basic understanding of HTML, CSS, Javascript and [Node.js](https://nodejs.org/en/). Feel free to skip past any of the sections if you already know what's what.
+This is a pretty long tutorial which assumes no prior knowledge aside from a basic understanding of HTML, CSS, Javascript, and [Node.js](https://nodejs.org/en/). Feel free to skip past any of the sections if you already know what's what.
 
-We will walkthrough the process of building a “virtual” phone in the browser that can send and receive SMS. We'll use [Glitch](https://glitch.com/) to host the application, so some of the setup instructions are geared toward Glitch.
+We will walk through the process of building a “virtual” phone in the browser that can send and receive SMS. We'll use [Glitch](https://glitch.com/) to host the application, so some of the setup instructions are geared toward Glitch.
 
 Glitch is an online developer environment that allows developers to get up and running with building and deploying their apps without the hassle of server setup. All apps on the platform can be remixed and personalised, making it a perfect place to share code and figure out how things work.
 
 You can also use any environment with Node.js installed, if that's what you prefer. All the dependencies for this project are handled via [npm](https://www.npmjs.com/).
 
-- Initial setup and configuration
-    - Starting a Koa.js app on Glitch
-    - Serving static files with Koa.js
-    - Getting started with Nexmo APIs
-- What are WebSockets?
-- Receiving SMS with Nexmo
-    - Getting a virtual phone number
-    - Receiving an inbound SMS
-    - Creating a WebSocket server
-    - Displaying an inbound SMS in the browser
-- Sending SMS with Nexmo Messages API
+## Initial Setup and Configuration
 
-## Initial setup and configuration
+### Starting a Koa.js App on Glitch
 
-### Starting a Koa.js app on Glitch
-
-Glitch is constantly improving its interface and features, so as of time of writing, you can create a new account on Glitch by clicking on the *Sign in* button in the top right corner of the page, and login via GitHub, Facebook or sign up with your email address.
+Glitch is constantly improving its interface and features, so as of time of writing, you can create a new account on Glitch by clicking on the *Sign in* button in the top right corner of the page, and login via GitHub or Facebook, or sign up with your email address.
 
 ![](https://cdn.glitch.com/03f552cb-b122-492c-94c5-0802f09a5185%2Faccount.png?1545642908364)
 
@@ -83,9 +71,9 @@ app.use(async ctx => {
 app.listen(3000);
 ```
 
-Now, when you try to view your application, it should show the words a blank page with the words *Hello Dinosaur*.
+Now, when you try to view your application, it should show a blank page with the words *Hello Dinosaur*.
 
-### Serving static files with Koa.js
+### Serving Static Files with Koa.js
 
 We would need to serve up a basic HTML page with input fields so users can enter relevant information for sending an SMS, like the phone number of the recipient, and the message itself.
 
@@ -117,7 +105,7 @@ console.log('listening on port 3000');
 
 Now, instead of *hello world*, your app should be serving the default Glitch `index.html` file. We will modify this file to mimic a phone interface later on in the tutorial.
 
-### Getting started with Nexmo APIs
+### Getting tarted with Nexmo APIs
 
 If you are new to Nexmo, start off by signing up for [a Nexmo account](https://dashboard.nexmo.com/sign-up) to get access to your API key and secret, which are required to use the Nexmo REST API client. Once you sign in to your account, you will be able to see your API credentials right on the dashboard.
 
@@ -233,9 +221,9 @@ function sendMsg(data) {
 
 Now that we have a better understanding of what WebSockets are and how the WebSocket API works, we are ready to utilise this knowledge to create a basic application for sending and receiving SMS directly via the browser with the [Nexmo Messages API](https://developer.nexmo.com/messages/overview).
 
-## Receiving SMS in the browser with Nexmo
+## Receiving SMS in the Browser with Nexmo
 
-### Getting a virtual phone number
+### Getting a Virtual Phone Number
 
 To send and receive SMS via the Messages API, you will need a [virtual phone number](https://www.nexmo.com/products/phone-numbers), which is like any standard phone number, except they are not tied down to any physical phone line or device.
 
@@ -253,7 +241,7 @@ One more thing to check is that the default SMS setting on your acccount is set 
 
 ![](https://cdn.glitch.com/03f552cb-b122-492c-94c5-0802f09a5185%2Fsettings.png?1545664156069)
 
-### Receiving an inbound SMS
+### Receiving an Inbound SMS
 
 To receive an inbound SMS, you'll need to add a route in your application to handle the incoming `POST` request that is triggered when somebody sends an SMS to your virtual number. Unlike other popular Node.js frameworks like Express or Hapi.js, routing is handled by a separate module, so we'll need to install it first.
 
@@ -285,7 +273,7 @@ If you followed the setup instructions earlier in this tutorial, `koa-bodyparser
 
 ![](https://cdn.glitch.com/03f552cb-b122-492c-94c5-0802f09a5185%2Fsms-payload.png?1545665264026)
 
-### Creating a WebSocket server
+### Creating a WebSocket Server
 
 Now that we've verified things are working, instead of logging the message payload to the console, let's use WebSockets to send the relevant information to the browser.
 
@@ -380,7 +368,7 @@ function receiveSms(payload) {
 }
 ```
 
-### Displaying inbound SMS in the browser
+### Displaying Inbound SMS in the Browser
 
 The next step is to ensure the browser is ready to receive this data from the server, so it's time to set up the front-end of things.
 
@@ -426,7 +414,7 @@ Now, if you open the browser console on your application and leave it alone for 
 
 ![](https://cdn.glitch.com/03f552cb-b122-492c-94c5-0802f09a5185%2Fcheck.png?1545670192708)
 
-Replace the default markup of the `<main>` element the `index.html` file with the following instead:
+Replace the default markup of the `` element the `index.html` file with the following instead:
 
 ```html
 <main>
@@ -468,9 +456,9 @@ socket.onmessage = function(evt) {
 
 ![](https://cdn.glitch.com/03f552cb-b122-492c-94c5-0802f09a5185%2Ffirst-inbound.png?1545705618197)
 
-## Sending SMS from the browser with Nexmo's Messages API
+## Sending SMS From the Browser With Nexmo's Messages API
 
-### Creating a Messages application
+### Creating a Messages Application
 
 Next, go back to your Nexmo dashboard and navigate to the *Create an application* page under the *Messages and Dispatch* section on the sidebar. Fill in your application name, and the webhook URLs with your Glitch app URL as the host. You will also need to generate a public/private key pair, which will prompt you to download the `private.key` file.
 
@@ -490,7 +478,7 @@ To upload the `private.key` file to Glitch and keep it secret, you can create th
 
 ![](https://cdn.glitch.com/03f552cb-b122-492c-94c5-0802f09a5185%2Fprivate-key.gif?1545657133495)
 
-### Credentials setup
+### Credentials Setup
 
 Glitch supports [environment variables](http://help-center.glitch.me/help/env/) via the `.env` file, which is a secure way to store your API credentials and other private data for your project. Set up your API key, secret, Nexmo virtual number, Messages application ID and private key path in the `.env` file.
 
@@ -517,9 +505,9 @@ const nexmo = new Nexmo({
 });
 ```
 
-### Sending an SMS from your browser
+### Sending an SMS From Your Browser
 
-We'll need some way for users to enter the reciepient phone number and the message they want to send, so let's add some input fields for them to do that.
+We'll need some way for users to enter the recipient's phone number and the message they want to send, so let's add some input fields for them to do that.
 
 ```html
 <input type="tel" name="phone" placeholder="Send SMS to…?" required>
@@ -605,7 +593,6 @@ We'll add a message handler and a `forwardSMS()` function which will utilise Nex
 ```javascript
 wsserver.on('connection', function connection(socket) {
   socket.on('message', data => {
-    console.log('Incoming data: ' + data);
     forwardSms(JSON.parse(data));
   });
 });
@@ -625,7 +612,7 @@ function forwardSms(payload) {
     },
     (err, data) => {
       if (err) { console.log(err) }
-      if (data) { console.log(data.message_uuid) }
+      if (data) { console.log('Outbound message successful: ', data.message_uuid) }
     }
   )
 }
@@ -639,13 +626,13 @@ If your target recipient replies to the SMS thread, then the message will be sen
 
 ![](https://cdn.glitch.com/03f552cb-b122-492c-94c5-0802f09a5185%2Freply.jpg?1545724011673)
 
-Now that the underlying system is up and running, there are several things you can do if you want to continue this project, like making the interface prettier, adding stronger validation checks on both the client and server, edge case handling etc.
+Now that the underlying system is up and running, there are several things you can do if you want to continue this project, like making the interface prettier, adding stronger validation checks on both the client and server, edge case handling, etc.
 
 My version of this project is called V-mobile and you can [check it out on Glitch](https://v-mobile.glitch.me/). If you like how it looks, feel free to remix my project and make it your own.
 
 ![](https://cdn.glitch.com/03f552cb-b122-492c-94c5-0802f09a5185%2Fend-result.jpg?1545709825668)
 
-## Where next?
+## Where Next?
 
 If you are keen to do more with these APIs, here are some links that might be helpful to you:
 
