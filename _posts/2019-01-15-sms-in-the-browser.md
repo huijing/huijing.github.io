@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "SMS in the browser: an adventure in WebSockets (and Nexmo Messages API)"
-date: Jan 31, 2019
-tags: [javascript, server-side]
+date: Jan 15, 2019
+tags: [javascript, server-side, rtc]
 external_site: nexmo
-external_url: javascript:void(0)
+external_url: https://www.nexmo.com/blog/2019/01/15/sms-in-the-browser-an-adventure-in-websockets-and-the-nexmo-messages-api-dr/
 ---
 A lot of the heavy lifting done by the Nexmo Messages API happens on the server-side. Messages are sent, received, processed and so on but usually all this activity is hidden away from end users of many of the applications that utilise the API.
 

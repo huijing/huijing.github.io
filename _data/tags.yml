@@ -76,6 +76,9 @@ podcasts:
 retrotech:
   name: Retro tech
 
+rtc:
+  name: Real-time communications
+
 server-side:
   name: Server-side
 
