@@ -105,7 +105,7 @@ console.log('listening on port 3000');
 
 Now, instead of *hello world*, your app should be serving the default Glitch `index.html` file. We will modify this file to mimic a phone interface later on in the tutorial.
 
-### Getting tarted with Nexmo APIs
+### Getting started with Nexmo APIs
 
 If you are new to Nexmo, start off by signing up for [a Nexmo account](https://dashboard.nexmo.com/sign-up) to get access to your API key and secret, which are required to use the Nexmo REST API client. Once you sign in to your account, you will be able to see your API credentials right on the dashboard.
 
