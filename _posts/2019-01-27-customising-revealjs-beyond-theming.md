@@ -115,7 +115,7 @@ Anyway, I've since learnt to double check odd behaviour by going straight to the
 
 The best way to see the aforementioned bug in action is to load up [Jen Simmon's flex shorthand examples page](https://labs.jensimmons.com/2017/02-008.html) in Firefox (correct), Chrome (incorrect), Safari (incorrect) and Edge (correct) for comparison.
 
-## Hacking the <style> tag
+## Hacking the `<style>` tag
 
 I also end up wanting to show code examples in my presentations, though I try my best to keep the code short, displayed in a large font size with appropriate syntax highlighting. Sometimes, to better illustrate the effect of the code, I'll pair the code with an image or better still, a video clip of what the code does.
 
