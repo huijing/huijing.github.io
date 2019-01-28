@@ -3,10 +3,11 @@ layout: post
 title: "Strategies for Healthier Dev"
 date: July 12, 2016
 tags: [devlife]
-external_url: http://alistapart.com/article/strategies-for-healthier-dev
+noindex: true
+nofeed: true
+external_url: https://alistapart.com/article/strategies-for-healthier-dev
 external_site: alistapart
 ---
-
 Not too long ago, I was [part of a panel](https://e27.co/move-over-wonderwoman-techladies-is-creating-the-next-wave-of-female-supercoders-20160129/) at the launch event for [TechLadies](http://www.techladies.co/), an initiative that encourages women to learn to code. Along the way, I mentioned a bit about my background as an athlete. As we were leaving to go home, the woman next to me jokingly asked if I was a better basketball player or a better developer. Without missing a beat, I said I was a better basketball player. After all, I’ve been playing basketball for over half my life; I’ve only been coding for two and a half years.
 
 We’ve probably all come across the stereotype of the nerdy programmer who is all brains and no brawn. I’m a counterexample of that cliché, and I personally know developers who are avid cyclists or marathon runners—even a mountain climber (the kind who scales Mount Everest). And yet a stereotype, [“a widely held but fixed and oversimplified image,”](http://www.oxforddictionaries.com/definition/english/stereotype) often comes into existence for a reason. Think of Douglas Coupland’s [Microserfs](http://www.wired.com/1995/07/coupland/). Think of any number of mainstream dramas featuring wan (usually white, usually male) [programmers staring at screens](https://youtu.be/odOzMz-fOOw). Many so-called knowledge workers are too sedentary.  It can only benefit our lives and work if we become less so. 

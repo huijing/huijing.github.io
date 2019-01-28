@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: Grid"
 date: March 02, 2017
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/grid/
 external_site: codrops
 ---

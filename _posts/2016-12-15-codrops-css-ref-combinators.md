@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: Combinators"
 date: December 15, 2016
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/combinators/
 external_site: codrops
 ---

@@ -3,6 +3,8 @@ layout: post
 title: "Customise radio buttons without compromising accessibility"
 date: Sep 03, 2018
 tags: [css, html]
+noindex: true
+nofeed: true
 external_site: bit
 external_url: https://blog.bitsrc.io/customise-radio-buttons-without-compromising-accessibility-b03061b5ba93
 hascaniuse: true

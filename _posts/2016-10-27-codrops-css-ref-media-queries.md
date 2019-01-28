@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: Media Queries"
 date: October 27, 2016
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/media-queries/
 external_site: codrops
 ---

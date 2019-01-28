@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: Attribute Selectors"
 date: January 05, 2017
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/attribute-selectors/
 external_site: codrops
 ---

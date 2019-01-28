@@ -73,8 +73,13 @@
   <meta name="twitter:site" content="@hj_chen" />
   <meta name="p:domain_verify" content="6d83e92af56b4f550a0310e631e5fb1e"/>
 
+  {% if page.external_url %}
+  <link rel="canonical" href="{{ page.external_url }}">
+  {% else %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  {% endif %}
+  
   <link href="https://micro.blog/huijing" rel="me" />
 
   {% if page.is_post %}

@@ -3,7 +3,9 @@ layout: post
 title: "Using Responsive Images (Now)"
 date: October 6, 2015
 tags: [css, performance]
-external_url: http://alistapart.com/article/using-responsive-images-now
+noindex: true
+nofeed: true
+external_url: https://alistapart.com/article/using-responsive-images-now
 external_site: alistapart
 ---
 When the concept of responsive design came about, developers and designers have been trying to find ways to deal with the issue of responsive images. It's honestly a [hard problem](https://css-tricks.com/responsive-images-hard/) to solve, because we're serving the same website, with the same image sources, across a wide range of device widths. Do you want a blurry, pixelated image on a large display? Or do you want to load a huge (but oh so pretty) image on your mobile phone? Talk about being stuck between a rock and a hard place.

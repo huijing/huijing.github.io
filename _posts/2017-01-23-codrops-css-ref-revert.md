@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: revert"
 date: January 23, 2017
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/revert/
 external_site: codrops
 ---

@@ -11,6 +11,9 @@ layout: default
   </header>
 
   <div class="post-content">
+    {% if post.external_site %}
+    {% include external.html %}
+    {% endif %}
     {{ content }}
 
     {% if post.tags.size > 0 %}

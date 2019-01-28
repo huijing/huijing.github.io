@@ -13,7 +13,7 @@ title: Blog
   {% endcapture %}
 
   {% if forloop.first %}
-  <span class="post-meta">{{this_year}}</span>
+  <span class="post-meta">{{ this_year }}</span>
   <ul class="post-list">
   {% endif %}
 
@@ -29,7 +29,7 @@ title: Blog
   </ul>
   {% else %}{% if this_year != next_year %}
   </ul>
-  <span class="post-meta">{{next_year}}</span>
+  <span class="post-meta">{{ next_year }}</span>
   <ul class="post-list">
   {% endif %}{% endif %}
 {% endfor %}

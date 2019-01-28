@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: touch-action"
 date: April 13, 2017
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/touch-action/
 external_site: codrops
 ---

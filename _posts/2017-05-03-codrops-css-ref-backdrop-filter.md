@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: backdrop-filter"
 date: May 03, 2017
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/backdrop-filter/
 external_site: codrops
 ---

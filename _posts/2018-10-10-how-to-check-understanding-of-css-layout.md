@@ -3,6 +3,8 @@ layout: post
 title: "Does your interviewee understand CSS layouts?"
 date: Oct 10, 2018
 tags: [css, opinion]
+noindex: true
+nofeed: true
 external_site: bit
 external_url: https://blog.bitsrc.io/how-to-check-the-understanding-of-css-layout-2325621491ad
 ---

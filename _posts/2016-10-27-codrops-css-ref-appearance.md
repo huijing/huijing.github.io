@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: appearance"
 date: October 27, 2016
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/appearance/
 external_site: codrops
 ---

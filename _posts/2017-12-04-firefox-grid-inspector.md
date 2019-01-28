@@ -3,6 +3,8 @@ layout: post
 title: "Debugging CSS Grid Layouts With Firefox Grid Inspector"
 date: Dec 04, 2017
 tags: [css, design, devtools]
+noindex: true
+nofeed: true
 external_url: https://www.smashingmagazine.com/2017/12/grid-inspector/
 external_site: smashing
 ---

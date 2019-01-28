@@ -3,6 +3,8 @@ layout: post
 title: "Using feature queries for cascading web design"
 date: Dec 01, 2017
 tags: [css, design]
+noindex: true
+nofeed: true
 external_url: https://24ways.org/2017/cascading-web-design/
 external_site: 24ways
 hascaniuse: true

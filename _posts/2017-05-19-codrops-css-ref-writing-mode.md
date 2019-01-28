@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: writing-mode"
 date: May 19, 2017
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/writing-mode/
 external_site: codrops
 ---

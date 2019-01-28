@@ -3,6 +3,8 @@ layout: post
 title: "Remember December: The typefaces of Tikhvin Cemetery"
 date: Dec 17, 2017
 tags: [design, typography]
+noindex: true
+nofeed: true
 external_site: alphabettes
 external_url: http://www.alphabettes.org/remember-december-the-typefaces-of-tikhvin-cemetery/
 ---

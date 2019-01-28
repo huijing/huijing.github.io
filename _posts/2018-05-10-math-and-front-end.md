@@ -3,6 +3,8 @@ layout: post
 title: "Math and front-end"
 date: May 10, 2018
 tags: [css, html]
+noindex: true
+nofeed: true
 external_site: logrocket
 external_url: https://blog.logrocket.com/math-and-front-end-context-is-so-much-more-important-than-degree-of-difficulty-6b689f999edc
 ---

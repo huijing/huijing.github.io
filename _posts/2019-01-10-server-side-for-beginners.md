@@ -3,6 +3,8 @@ layout: post
 title: "A beginner's guide to server-side web development with Node.js"
 date: Jan 10, 2019
 tags: [javascript, server-side]
+noindex: true
+nofeed: true
 external_site: bit
 external_url: https://blog.bitsrc.io/a-beginners-guide-to-server-side-web-development-with-node-js-17385da09f93
 ---

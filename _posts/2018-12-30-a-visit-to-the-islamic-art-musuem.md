@@ -3,6 +3,8 @@ layout: post
 title: "A visit to the Islamic Arts Museum Malaysia"
 date: Dec 30, 2018
 tags: [design, typography]
+noindex: true
+nofeed: true
 external_site: alphabettes
 external_url: http://www.alphabettes.org/a-visit-to-the-islamic-arts-museum-malaysia/
 ---

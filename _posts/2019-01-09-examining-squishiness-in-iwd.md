@@ -3,6 +3,8 @@ layout: post
 title: "Examining ‘squishiness’ in Intrinsic Web Design"
 date: Jan 09, 2019
 tags: [css, design]
+noindex: true
+nofeed: true
 external_site: logrocket
 external_url: https://blog.logrocket.com/examining-squishiness-in-intrinsic-web-design-1005d30dda0c
 hascodepen: true

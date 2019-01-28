@@ -3,6 +3,8 @@ layout: post
 title: "Table design patterns on the web"
 date: Jan 24, 2019
 tags: [css, html, javascript]
+noindex: true
+nofeed: true
 hascodepen: true
 external_url: https://www.smashingmagazine.com/2019/01/table-design-patterns-web/
 external_site: smashing

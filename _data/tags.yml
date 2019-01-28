@@ -64,6 +64,9 @@ jekyll:
 kohana:
   name: Kohana
 
+nexmo:
+  name: Nexmo
+
 opinion:
   name: Opinion
 

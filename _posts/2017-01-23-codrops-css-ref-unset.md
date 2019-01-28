@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: unset"
 date: January 23, 2017
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/unset/
 external_site: codrops
 ---

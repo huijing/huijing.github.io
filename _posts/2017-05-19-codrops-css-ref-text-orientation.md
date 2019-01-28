@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: text-orientation"
 date: May 19, 2017
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/text-orientation/
 external_site: codrops
 ---

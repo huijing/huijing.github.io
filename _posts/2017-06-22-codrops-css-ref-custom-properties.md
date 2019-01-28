@@ -3,6 +3,8 @@ layout: post
 title: "Codrops CSS reference: Custom Properties"
 date: Jun 22, 2017
 tags: [codrops]
+noindex: true
+nofeed: true
 external_url: https://tympanus.net/codrops/css_reference/custom-properties/
 external_site: codrops
 ---
