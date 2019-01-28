@@ -12,8 +12,10 @@ layout: default
       <a class="post-link no-underline" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       {% endif %}
       </h2>
-      <p class="post-summary">{{ post.content | strip_html | truncatewords:20}}</p>
-
+      {% if post.external_site %}
+      <p class="note italicise">This article was originally published on {{ site.data.publications[post.external_site].name }}.</p>
+      {% endif %}
+      <p class="post-summary">{{ post.content | markdownify | strip_html | truncatewords:20 }}</p>
       {% if post.tags.size > 0 %}
         {% capture tags_content %}{% if post.tags.size == 1 %}
         <span class="icon icon--tag">
