@@ -16,8 +16,7 @@ https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+cli
    word-spacing: normal;
    word-break: normal;
    word-wrap: normal;
-   line-height: 1.2;
-   tab-size: 4;
+   line-height: 1.4;
    hyphens: none;
  }
  
@@ -27,6 +26,7 @@ https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+cli
    margin: .5em 0 1em;
    border-radius: .3em;
    overflow: auto;
+   display: flex;
  }
  
  :not(pre) > code[class*="language-"],
