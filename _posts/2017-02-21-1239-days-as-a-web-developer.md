@@ -2,7 +2,7 @@
 layout: post
 title: "1239 days working on the web"
 date: Feb 21, 2017
-tags: [opinion]
+tags: [opinion, devlife]
 ---
 Almost 2 years ago, I wrote a post called [542 days as a Drupal developer]({{ site.url }}/blog/542-days-as-a-drupal-developer/). Many more days have passed since then and I mentioned at the end of the post I hoped that I would still love doing this 5420 days in. So consider this a checkpoint post. I'm no longer doing Drupal full-time now, instead focusing on front-end work. 
 

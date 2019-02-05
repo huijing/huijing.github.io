@@ -2,7 +2,7 @@
 layout: post
 title: "Musings on speaking at conferences"
 date: Oct 15, 2017
-tags: [opinion]
+tags: [opinion, devlife]
 ---
 *Disclaimer, this post may contain views that may or may not piss some people off. But they are my views, based on my personal experiences, and this is my blog so I'll write what I feel like. Also, post is long.*
 

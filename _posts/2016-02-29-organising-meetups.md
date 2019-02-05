@@ -3,7 +3,7 @@ layout: post
 title: "Thoughts about organising Talk.CSS"
 date: Feb 28, 2016
 image: meetup.jpg
-tags: [opinion]
+tags: [opinion, devlife]
 ---
 As I write this, we are on the cusp of our third Talk.CSS meet-up. Talk.CSS is Singapore's first CSS-centric meet-up and was born on a random Wednesday afternoon (October 26, 2015 to be exact) in our local digital watering hole, the [KopiJS](http://kopijs.org/) slack channel. Within the short span of four hours, we had a GitHub organisation, a Meetup.com account, a logo and a venue for the inaugural Talk.CSS session. Anyone who knows me knows that I love CSS. Love with infinite ❤s. So when Chris Lienert asked if I wanted to be a co-organiser for the first local CSS-centric meet-up, I said yes without a second thought. 
 

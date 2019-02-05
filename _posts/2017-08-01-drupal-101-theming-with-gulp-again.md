@@ -4,7 +4,7 @@ title: "Drupal 101: Theming Drupal 8 with gulp"
 date: August 1, 2017
 image: drupal-gulp
 description: "If you write a lot of custom Drupal themes, gulp can really help streamline your workflow. Every second saved counts."
-tags: [drupal8, theming, workflow]
+tags: [drupal8, theming, workflow, gulp]
 category: planet-drupal
 ---
 Around two years ago, I wrote a post called [Drupal 101: Theming Drupal 7 with gulp]({{ site.url }}/blog/drupal-101-theming-with-gulp/), which covered some basics about Sass and gulp. I'm not going to repeat myself, so if you can read that article if you're interested. This one is going to cover the delta for the `gulpfile.js` setup in Drupal 8.

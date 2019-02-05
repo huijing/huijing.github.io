@@ -3,7 +3,7 @@ layout: post
 title: "Be kinder to each other"
 date: Mar 24, 2017
 image: kindness
-tags: [opinion]
+tags: [opinion, devlife]
 hastweet: true
 ---
 The month of March has seen a mini-burst of hype around CSS grid, with Mozilla kicking things off by releasing Firefox 52, closely followed by Google with Chrome 57. Even Safari has gotten in on the grid game, which is scheduled to ship in the upcoming 10.1. Microsoft has the *Update CSS Grid* task marked as *On the backlog*.

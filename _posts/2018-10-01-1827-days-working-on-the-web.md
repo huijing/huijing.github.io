@@ -2,7 +2,7 @@
 layout: post
 title: "1827 days working on the web"
 date: Oct 01, 2018
-tags: [opinion]
+tags: [opinion, devlife]
 ---
 Today marks the 5-year anniversary of my first role as a developer. I wrote 2 similar check-point posts previously, [one in 2015]({{ site.url }}/blog/542-days-as-a-drupal-developer/), and [one in 2017]({{ site.url }}/blog/1239-days-as-a-web-developer/), so these checkpoint blog posts seem to occur every 500–700 days. Maybe.
 

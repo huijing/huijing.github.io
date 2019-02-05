@@ -2,7 +2,7 @@
 layout: post
 title: "Reflecting on this web developer journey"
 date: Jun 11, 2017
-tags: [opinion]
+tags: [opinion, devlife]
 ---
 I'm typing this up as I'm sitting at the airport, on my way to St Petersburg, Russia to speak at [pitercss conference](https://pitercss.com/) and it still seems slightly surreal to me. If you are one of a handful of people who actually read the things I write, you might have gleaned that I haven't been doing this very long. This being the web develop-y stuff that I like to write about.
 

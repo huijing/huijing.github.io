@@ -2,7 +2,7 @@
 layout: post
 title: "Learning Cordova while rewriting an app"
 date: Mar 13, 2018
-tags: [css, html, javascript]
+tags: [css, html, javascript, gulp]
 ---
 This is a “refactoring legacy code” post, and I suspect you'll see more of these in the months to come because I've decided to do a bit of adulting by taking on some gainful employment. A major part of the role involves janitorial duties for the existing front-end code base.
 

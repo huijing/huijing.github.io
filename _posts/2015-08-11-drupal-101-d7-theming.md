@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal 101: Getting started with Drupal 7 theming"
 date: August 11, 2015
-tags: [drupal7, theming]
+tags: [drupal7, theming, gulp]
 category: planet-drupal
 ---
 *Update: I finally got around to writing that [Drupal 8 theming post]({{ site.url }}/blog/drupal-101-d8-theming/) after two years.*

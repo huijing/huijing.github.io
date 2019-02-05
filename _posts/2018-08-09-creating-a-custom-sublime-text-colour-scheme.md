@@ -2,7 +2,7 @@
 layout: post
 title: "Creating a custom sublime text colour scheme"
 date: Aug 9, 2018
-tags: [workflow]
+tags: [workflow, devlife]
 ---
 First of all, British spelling. Now that's out of the way, I recently created a custom colour scheme for [Sublime Text](https://www.sublimetext.com/), and thought I'd write up a quick note for anyone who's interested in doing the same.
 

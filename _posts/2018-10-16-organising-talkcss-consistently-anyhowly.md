@@ -2,7 +2,7 @@
 layout: post
 title: "Organising Talk.CSS, consistently anyhowly"
 date: Oct 16, 2018
-tags: [opinion]
+tags: [opinion, devlife]
 ---
 Some of you may know that I organise a little meetup called [Talk.CSS](https://singaporecss.github.io), Singapore's only CSS-centric meetup, with [Chris Lienert](https://twitter.com/cliener). As we are coming up to 3 years this November, our third birthday will also, sadly, be Chris's farewell as he moves home to Australia. Starting Talk.CSS with Chris has been incredibly fun and rewarding, largely because we never took ourselves too seriously. <span class="emoji" role="img" tabindex="0" aria-label="face screaming in fear">&#x1F631;</span>
 

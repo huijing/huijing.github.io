@@ -117,7 +117,7 @@ There are a lot of options and settings available here. Remember the Master* pan
 
     Odds are your list may be very long and hence require some type of pagination. This option is applicable to the page and block displays only. The attachment views display allows you to inherit the pager of the parent display it's attached to. You can choose from either the full pager or mini pager, as well as specify the number of items to be displayed. 
 
-- <p class="no-margin"><strong>More link**
+- <p class="no-margin"><strong>More link</strong></p>
 
     If there is more content than is displayed, you can choose to display a more link which will link to the page view of the display. The text on the link can be customised here.
 

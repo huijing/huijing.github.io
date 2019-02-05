@@ -2,7 +2,7 @@
 layout: post
 title: "So I mucked up my server last night"
 date: Aug 24, 2018
-tags: [servers]
+tags: [servers, devlife]
 ---
 There are 2 kinds of people in the world, those who love the command line and those who don't. I fall into the former category. Because I was a MS-DOS baby (okay, probably 5 or 6 years old), who started my computing journey typing `dir/p` and `deltree` into that lovely white on black prompt trying to figure out how to run games.
 
