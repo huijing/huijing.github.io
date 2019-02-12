@@ -166,4 +166,4 @@ One more thing to take note of is that when your slides first load, there will n
 
 Feel free to try out other CSS transforms for more slide transitions if rotate doesn't suit your style. But if your slide requirements are reasonably simple, why not try something like this? You can even toss it onto some free static site hosts and have it accessible wherever you go. <span class="emoji" role="img" tabindex="0" aria-label="smiling face with sunglasses">&#x1F60E;</span>
 
-*For a live implementation of this, check out [the slides](https://singaporecss.github.io/slides) used for introducing Talk.CSS*
+*For a live implementation of this, check out [the slides](https://singaporecss.github.io/talk.css) used for introducing Talk.CSS*
