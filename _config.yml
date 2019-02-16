@@ -12,7 +12,7 @@ paginate_path: "/blog/page:num"
 
 twitter_username: hj_chen
 github_username:  huijing
-notist_username: huijing
+mastadon_username: huijing
 about: "I'm Hui Jing, a front-end designer and developer who believes HTML and CSS are the foundation of the web."
 
 # Build settings
