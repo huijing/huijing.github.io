@@ -6,16 +6,13 @@ permalink: /contact/
 <p>Have any questions or comments? Drop me a message to get in touch. <br>
 I'd love to chat with you. Don't be a stranger :)</p>
 
-<form action="https://www.enformed.io/napkuf0l" method="POST">
+<form action="https://getsimpleform.com/messages?form_api_token=4e781897767d7027fada5d9face5338f" method="post">
+  <input type='hidden' name='redirect_to' value="{{ site.url }}/contact/success">
   <label for="name">Name</label>
   <input type="text" name="name" placeholder="Name" id="name" required>
   <label for="email">Email</label>
   <input type="email" name="email" placeholder="Email" id="email" required>
   <label for="message">Message</label>
   <textarea name="message" placeholder="Message" id="message" required></textarea>
-  <input type="hidden" name="*redirect" value="{{ site.url }}/contact/success">
-  <input type="hidden" name="*subject" value="Message from chenhuijing.com" />
-  <input type="hidden" name="*reply" value="email">
-  <input type="hidden" name="*honeypot">
   <input type="submit" value="Send">
 </form>
