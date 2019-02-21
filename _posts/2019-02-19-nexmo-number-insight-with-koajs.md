@@ -6,7 +6,7 @@ tags: [javascript, server-side, nexmo]
 noindex: true
 nofeed: true
 external_site: nexmo
-external_url: https://www.nexmo.com/blog/2019/02/08/getting-started-with-nexmos-number-insight-apis-on-koa-js-dr/
+external_url: https://www.nexmo.com/blog/2019/02/21/getting-started-with-nexmos-number-insight-apis-on-koa-js-dr/
 ---
 Nexmo's [Number Insight API](https://developer.nexmo.com/number-insight/overview) delivers real-time intelligence about the validity, reachability and roaming status of a phone number and tells you how to format the number correctly in your application.
 
