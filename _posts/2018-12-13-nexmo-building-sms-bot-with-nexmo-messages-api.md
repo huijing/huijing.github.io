@@ -4,7 +4,6 @@ title: "Build an SMS bot on Glitch with Hapi.js and the Nexmo Messages API"
 date: Dec 13, 2018
 tags: [javascript, server-side, nexmo]
 noindex: true
-nofeed: true
 external_site: nexmo
 external_url: https://www.nexmo.com/blog/2018/12/13/sms-bot-glitch-hapi-js-nexmo-messages-api-dr/
 ---

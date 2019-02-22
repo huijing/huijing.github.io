@@ -4,7 +4,6 @@ title: "Getting started with Nexmo's Number Insight APIs on Koa.js"
 date: Feb 21, 2019
 tags: [javascript, server-side, nexmo]
 noindex: true
-nofeed: true
 external_site: nexmo
 external_url: https://www.nexmo.com/blog/2019/02/21/getting-started-with-nexmos-number-insight-apis-on-koa-js-dr/
 ---
