@@ -392,16 +392,23 @@
   released: true
 
 - title: "Using Firefox DevTools to understand modern layout techniques"
-  id: devtools-for-layout
+  id: devtools-for-layouts
   count: "50"
   event: SmashingTV Webinar
   website: https://www.smashingmagazine.com/smashing-tv/firefox-devtools-css-layout/
   type: meetup
-  released: false
+  released: true
+
+- title: "Creating art with CSS"
+  id: css-art
+  count: "51"
+  event: Talk.CSS
+  type: meetup
+  released: true
 
 - title: "新时代CSS布局"
   id: cssconfcn-2019
-  count: "51"
+  count: "52"
   event: CSSConf China 2019
   website: https://css.w3ctech.com/
   type: conference
@@ -409,7 +416,7 @@
 
 - title: "Web typography: a non-English perspective"
   id: jsheroes-2019
-  count: "52"
+  count: "53"
   event: JSHeroes 2019
   website: https://jsheroes.io/
   type: conference
@@ -417,7 +424,7 @@
 
 - title: "A deep dive into images on the web"
   id: imagecon-2019
-  count: "53"
+  count: "54"
   event: ImageCon 2019
   website: https://www.imagecon.com/
   type: conference
