@@ -402,6 +402,7 @@
 - title: "Creating art with CSS"
   id: css-art
   count: "51"
+  video: https://youtu.be/8fThZGnrJTU
   event: Talk.CSS
   type: meetup
   released: true
