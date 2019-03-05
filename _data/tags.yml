@@ -67,6 +67,9 @@ kohana:
 nexmo:
   name: Nexmo
 
+nodejs:
+  name: Node.js
+
 opinion:
   name: Opinion
 
@@ -81,9 +84,6 @@ retrotech:
 
 rtc:
   name: Real-time communications
-
-server-side:
-  name: Server-side
 
 servers:
   name: Servers
