@@ -316,6 +316,8 @@ I'm using the Content-Type header as the identifier to differentiate whether the
 
 This was a tiny project, but because of how small its scope was, it made it easier for me to dig into what was absolutely neccessary, then figuring out which libraries I needed to help me get the job done. (You don't see it but it took me a long time to figure out `koa-views` plus `koa-router` plus `koa-static` working together)
 
+I found that HTML out-of-the-box takes care of a lot of things when it comes to collecting user inputs from the front-end, which resulted in much less code required. This is not to say client-side Javascript is bad, because the experience was smoother (and faster) when I used it for updating content.
+
 The entire project is up on [Glitch](https://glitch.com/~no-js-no-problem) if you're interested in the full code I used to make the application work. Feel free to poke around, remix it and make it better.
 
 <a href="https://glitch.com/edit/#!/remix/no-js-no-problem">
