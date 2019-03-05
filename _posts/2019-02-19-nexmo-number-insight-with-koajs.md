@@ -2,7 +2,7 @@
 layout: post
 title: "Getting started with Nexmo's Number Insight APIs on Koa.js"
 date: Feb 21, 2019
-tags: [javascript, server-side, nexmo]
+tags: [javascript, nodejs, nexmo]
 noindex: true
 external_site: nexmo
 external_url: https://www.nexmo.com/blog/2019/02/21/getting-started-with-nexmos-number-insight-apis-on-koa-js-dr/
@@ -23,7 +23,6 @@ This tutorial will take you through the process from scratch. If you'd like to s
 
 Create a project folder on your local machine, then run the following command to set up a new Node.js project.
 
-
 ```bash
 npm init
 ```
@@ -31,7 +30,6 @@ npm init
 This will trigger a series of prompts that will generate your `package.json` file. You can choose to leave the answers blank to use the default values if you wish.
 
 ![Configuring package.json](https://cdn.glitch.com/0d1dc72c-27cc-4eff-9bcd-e771759caed1%2Fnpm-init.png?1549339410355)
-
 
 Next, install [Koa.js](https://koajs.com/). Do note that Koa requires node v7.6.0 or higher for ES2015 and async function support.
 
@@ -49,7 +47,6 @@ Paste the following code into your newly created file.
 
 ```javascript
 const Koa = require('koa')
-
 const port = process.env.PORT || 3000
 const app = new Koa()
 

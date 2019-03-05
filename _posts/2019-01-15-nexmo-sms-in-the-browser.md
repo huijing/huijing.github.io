@@ -2,7 +2,7 @@
 layout: post
 title: "SMS in the browser: an adventure in WebSockets (and Nexmo Messages API)"
 date: Jan 15, 2019
-tags: [javascript, server-side, rtc, nexmo]
+tags: [javascript, nodejs, rtc, nexmo]
 noindex: true
 external_site: nexmo
 external_url: https://www.nexmo.com/blog/2019/01/15/sms-in-the-browser-an-adventure-in-websockets-and-the-nexmo-messages-api-dr/
