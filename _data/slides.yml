@@ -407,9 +407,16 @@
   type: meetup
   released: true
 
+- title: "The value of sharing our persectives"
+  id: devrelcon-2019
+  count: "52"
+  event: DevRelCon Tokyo 2019
+  type: conference
+  released: true
+
 - title: "新时代CSS布局"
   id: cssconfcn-2019
-  count: "52"
+  count: "53"
   event: CSSConf China 2019
   website: https://css.w3ctech.com/
   type: conference
@@ -417,7 +424,7 @@
 
 - title: "Web typography: a non-English perspective"
   id: jsheroes-2019
-  count: "53"
+  count: "54"
   event: JSHeroes 2019
   website: https://jsheroes.io/
   type: conference
@@ -425,7 +432,7 @@
 
 - title: "A deep dive into images on the web"
   id: imagecon-2019
-  count: "54"
+  count: "55"
   event: ImageCon 2019
   website: https://www.imagecon.com/
   type: conference
