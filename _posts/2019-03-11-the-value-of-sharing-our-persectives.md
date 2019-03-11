@@ -7,7 +7,7 @@ tags: [opinion]
 ---
 I just got home from [DevRelCon Tokyo](https://tokyo-2019.devrel.net/), which was my first DevRel conference ever. It was a really valuable experience for me to hear other DevRel folk share their experiences and knowledge about the many aspects to Developer Relations, from documentation to community building to client SDKs and more.
 
-This is a sort of transcript of a lightning talk I did. (More details about idea itself after that if you're interested <span class="emoji" role="img" tabindex="0" aria-label="grimacing face">&#x1F62C;</span>)
+This is a sort of transcript of a lightning talk I did. (More details about that idea itself after that if you're interested <span class="emoji" role="img" tabindex="0" aria-label="grimacing face">&#x1F62C;</span>)
 
 ## Transcript start…
 
