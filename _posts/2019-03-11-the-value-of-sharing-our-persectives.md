@@ -2,16 +2,18 @@
 layout: post
 title: "The value of sharing our perspectives"
 date: Mar 11, 2019
-image: devrelcon
+image: devrelcontyo19
 tags: [opinion]
 ---
-I just got home from DevRelCon Tokyo, which was my first DevRel conference ever. It was a really valuable experience for me to hear from other DevRel folk share their experiences and knowledge about the many aspects to Developer Relations, from documentation to community building to client SDKs and more.
+I just got home from [DevRelCon Tokyo](https://tokyo-2019.devrel.net/), which was my first DevRel conference ever. It was a really valuable experience for me to hear other DevRel folk share their experiences and knowledge about the many aspects to Developer Relations, from documentation to community building to client SDKs and more.
 
 This is a sort of transcript of a lightning talk I did. (More details about idea itself after that if you're interested <span class="emoji" role="img" tabindex="0" aria-label="grimacing face">&#x1F62C;</span>)
 
 ## Transcript start…
 
 This morning I read an article, [The deadly truth about a world built for men – from stab vests to car crashes](https://www.theguardian.com/lifeandstyle/2019/feb/23/truth-world-built-for-men-car-crashes). And it opened with an anecdote about broadcaster Sandi Toksvig’s experience while studying anthropology in University.
+
+<img srcset="{{ site.url }}/assets/images/posts/devrelcontyo19/slide2-480.jpg 480w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide2-640.jpg 640w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide2-960.jpg 960w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/devrelcontyo19/slide2-640.jpg" alt="Slide #2">
 
 Her female professor showed the class a photo of an antler bone with 28 markings on it. She told the class that it was allegedly man’s first attempt at a calendar. And while her students were admiring this antler bone, she continued, “Tell me, what man needs to know when 28 days have passed? I suspect that this is woman’s first attempt at a calendar.”
 
@@ -22,6 +24,8 @@ In our industry, the tech industry, the predominant perspective is unfortunately
 My name is Chen Hui Jing and I’m from Malaysia.
 
 I’m a [developer advocate with Nexmo](https://developer.nexmo.com/) and am currently based out of Singapore. For me, I grew up speaking Hokkien, English and Chinese.
+
+<img srcset="{{ site.url }}/assets/images/posts/devrelcontyo19/slide6-480.jpg 480w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide6-640.jpg 640w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide6-960.jpg 960w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide6-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/devrelcontyo19/slide6-640.jpg" alt="Slide #6">
 
 Southeast Asia is made up of 11 countries and 10 of them had been colonised by European powers in the past. When I was a kid, I always got the feeling that our society viewed Westerners as “better”. We watched television shows and movies produced in Hollywood, listened to English pop music, played American-made video games.
 
@@ -39,6 +43,8 @@ Moveable type worked very well for alphabetic languages, with a limited set of a
 
 Or scripts that utilise Han characters, like Chinese, Japanese and Korean, which consist of tens of thousands of different glyphs. We managed to develop some form of letter-press printing, but in doing so, we compromised the beauty of our native scripts.
 
+<img srcset="{{ site.url }}/assets/images/posts/devrelcontyo19/slide10-480.jpg 480w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide10-640.jpg 640w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide10-960.jpg 960w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide10-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/devrelcontyo19/slide10-640.jpg" alt="Slide #10">
+
 [Ali Spivak](https://twitter.com/alispivak) mentioned this morning that diversity is about variety, the inclusion of different types of people in a group or organisation. Diversity of thought, perspective, culture. The importance of regional representation, that it is vital speakers represent the diverse range of people working in technology today.
 
 Voice recognition software has become more prevalent in recent years, we have Siri, Alexa, Cortana and so on. But Rachael Tatman, a linguist researcher and National Science Foundation Graduate Research Fellow at the University of Washington, found that automatic transcriptions on Youtube were almost [70% more accurate](https://www.dailydot.com/debug/google-voice-recognition-gender-bias/) for male speakers than female.
@@ -46,6 +52,8 @@ Voice recognition software has become more prevalent in recent years, we have Si
 And when the auto industry started implementing voice commands in vehicles, women had a [tougher time utilising this technology](https://www.autoblog.com/2011/05/31/women-voice-command-systems/) than men.
 
 Training of such software requires large datasets, and developers who build them either record their own voices or voices of other linguistic researches, but sometimes these datasets don’t include diverse speakers.
+
+<img srcset="{{ site.url }}/assets/images/posts/devrelcontyo19/slide12-480.jpg 480w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide12-640.jpg 640w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide12-960.jpg 960w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide12-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/devrelcontyo19/slide12-640.jpg" alt="Slide #12">
 
 Mozilla has a [Common Voice initiative](https://voice.mozilla.org/) to help combat this issue. But this is just one example among many in the tech industry where products inadvertently end up working well only for a small set of people, while the rest have a compromised experience.
 
@@ -61,6 +69,8 @@ It is high time that we start sharing our perspectives, all our different perspe
 
 Are there any web developers in the audience today?
 
+<img srcset="{{ site.url }}/assets/images/posts/devrelcontyo19/slide15-480.jpg 480w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide15-640.jpg 640w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide15-960.jpg 960w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide15-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/devrelcontyo19/slide15-640.jpg" alt="Slide #15">
+
 Back in 2016, there was a WIRED article titled [The Average Webpage Is Now the Size of the Original Doom](https://www.wired.com/2016/04/average-webpage-now-size-original-doom/), which was 2.39mb.
 
 Now, internet infrastructure varies widely across the world, but in many developing countries, data infrastructure is lacking and expensive. Even something as benign as forgetting to optimise your website’s images, can add up to a [significant portion of an user’s income](https://whatdoesmysitecost.com/test/190309_GM_bfbaa548cc68a4d116e4084ca6f6e8eb) in Niger or Madagascar, for example.
@@ -71,9 +81,13 @@ That’s why it is important for developers from those regions, and every region
 
 This is not something that will change overnight, but we have to start somewhere. Start by contributing to open-source projects, and pointing out if a particular feature or design decision is missing something. Start by writing about your work, your opinions and your stories, to show the rest of the world a different way of working and thinking.
 
+<img srcset="{{ site.url }}/assets/images/posts/devrelcontyo19/slide18-480.jpg 480w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide18-640.jpg 640w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide18-960.jpg 960w, {{ site.url }}/assets/images/posts/devrelcontyo19/slide18-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/devrelcontyo19/slide18-640.jpg" alt="Slide #18">
+
 And, even if it feels scary, to start speaking about what you’re working on, or things you’re interested in, because it matters to have people on stage who look like us, to inspire anyone who looks like you or identifies with you that they too have something valuable to say.
 
 Thank you.
+
+*End of transcript*
 
 ## How the talk came about
 
@@ -81,8 +95,12 @@ DevRelCon Tokyo had a lightning track this year and they took submissions all th
 
 Somehow this was the article that triggered me to submit a lightning talk on the value of sharing our perspectives. “Our” in this context was those of us who grew up in an Eastern culture, but I think it can apply to anyone who isn't in a position of privilege.
 
-The talk did not exist when I wrote the topic on the Lightning Talk Submissions board that morning. But I think the ideas had taken shape in my brain over a long time. Just the night before, I was chatting with [Tomomi Imura](https://girliemac.com/) (NexmoDev alumni and one of my favourite people to hang out with) and she mentioned how difficult it was to get Japanese to do public speaking.
+The talk did not exist when I wrote the topic on the Lightning Talk Submissions board that morning. But I think the ideas had taken shape in my brain over a long time.
+
+<img src="{{ site.url }}/assets/images/posts/devrelcontyo19/dinner.jpg" srcset="{{ site.url }}/assets/images/posts/devrelcontyo19/dinner@2x.jpg 2x" alt="Dinner with Tomomi, Myrsini and Melanie">
+
+Just the night before, I was chatting with [Tomomi Imura](https://girliemac.com/) (NexmoDev alumni and one of my favourite people to hang out with) and she mentioned how difficult it was to get Japanese to do public speaking.
 
 I was also fresh off the experience of organising the Singapore chapter of [global diversity CFP day](https://www.globaldiversitycfpday.com/), so maybe that was a factor as well. Regardless, this talk was an organisation of the many thoughts and opinions I've had in my head for a while.
 
-That being said, I don't recommend pulling together a talk on the day itself, even if it is a lightning talk (maybe especially if it is a lightning talk, because of stricter time constraints). Thankfully, I received positive feedback about it and I think it was recorded, so I'll share that when it gets published as well. Meanwhile, have some slides.
+That being said, I don't recommend pulling together a talk on the day itself, even if it is a lightning talk (maybe especially if it is a lightning talk, because of stricter time constraints). Thankfully, I received positive feedback about it and I think it was recorded, so I'll share that when it gets published as well. Meanwhile, have some [slides](https://www.chenhuijing.com/slides/52-devrelcon-2019/).
