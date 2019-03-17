@@ -437,3 +437,11 @@
   website: https://www.imagecon.com/
   type: conference
   released: false
+
+- title: "Typesetting for a global web"
+  id: yglf-2019
+  count: "56"
+  event: YGLF Vilnius
+  website: https://lithuania.yglfconf.com/
+  type: conference
+  released: false
