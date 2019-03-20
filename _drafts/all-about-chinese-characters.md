@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "All about Chinese characters"
-date: Dec 31, 2018
-tags: [design, i18n,typography]
+date: Mar 12, 2019
+tags: [design, i18n, typography]
 ---
 *This is the first post of a multi-part series about Chinese typography, from the history of Chinese characters, to printing, to digitisation.*
 
