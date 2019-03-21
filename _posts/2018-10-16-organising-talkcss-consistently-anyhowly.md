@@ -47,7 +47,7 @@ Because the Singapore tech community is blessed to have an organisation like [En
 
 I'll also make sure to create the event on [Meetup.com](https://www.meetup.com/SingaporeCSS/) and update the website accordingly with venue information, talks and speakers. The SingaporeCSS website is built on Jekyll and I've reworked it a bit over the years to be more template-ised to make my life easier.
 
-The [introductory slides](https://singaporecss.github.io/slides) for the meetup, built entirely with HTML and CSS, need to be updated with the host of the month, CSS colour of the month, and any ad-hoc announcement requests we may have. I also do a segment called HTML and CSS news of the month, so that needs to be prepared as well.
+The [introductory slides](https://singaporecss.github.io/talk.css) for the meetup, built entirely with HTML and CSS, need to be updated with the host of the month, CSS colour of the month, and any ad-hoc announcement requests we may have. I also do a segment called HTML and CSS news of the month, so that needs to be prepared as well.
 
 In a bid to encourage people to show up, I will start writing random social media posts 2 weeks before on Facebook, Twitter and Slack. Mileage has varied so I have no advice on this. <span class="emoji" role="img" tabindex="0" aria-label="monkey">&#x1F412;</span>
 

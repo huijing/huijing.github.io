@@ -54,6 +54,8 @@ But some of the other games were pretty time-wastey too, if you get it up and ru
 
 <img srcset="{{ site.url }}/assets/images/posts/win31/games-480.jpg 480w, {{ site.url }}/assets/images/posts/win31/games-640.jpg 640w, {{ site.url }}/assets/images/posts/win31/games-960.jpg 960w, {{ site.url }}/assets/images/posts/win31/games-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/win31/games-640.jpg" alt="RattlerRace and Rodent's Revenge on my virtual Windows 3.1">
 
+If you install the second Windows Entertainment Pack, you also get this early version of what eventually would become the game Microsoft Mahjong, that was most likely based off the original 1981 classic, [Mah-jongg by Brodie Lockhart](https://tedium.co/2017/11/15/mahjong-shanghai-brodie-lockard/).
+
 Also, SkiFree in all it's pixeley glory. This I had to copy onto a blank floppy disk image, then install it from *A:\\* because isn't that how we all installed games in the past? Now if I could only remember what that golf game I used to play was called…
 
 ## Links
