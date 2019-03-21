@@ -139,7 +139,7 @@ Penang Hokkien is very distinct, and because it's not commonly heard outside Pen
     <img srcset="{{ site.url }}/assets/images/posts/talking-css/moz-pen3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css/moz-pen3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css/moz-pen3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css/moz-pen3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css/moz-pen3-640.jpg" alt="Audience at the Penang event" />
 </figure>
 
-We had a new friend join us on this leg of the tour, Mozilla representative and Infosec researcher, [Mijanur Rahman Rayhan](https://reps.mozilla.org/u/mijanur/), who is based in Bangladesh. He kicked things off with a great talk about privacy and security. Be sure to check out [his blog](https://rayhanroot.wordpress.com/) too!
+We had a new friend join us on this leg of the tour, Mozilla representative and Infosec researcher, [Mijanur Rahman Rayhan](https://medium.com/@mijanur), who is based in Bangladesh. He kicked things off with a great talk about privacy and security. Be sure to check out [his blog](https://rayhanroot.wordpress.com/) too!
 
 Remember how my talk setup has never worked correctly? Ever? Well, turns out fourth time's the charm! <span class="emoji" role="img" tabindex="0" aria-label="person gesturing ok">&#x1F646;</span> This time, the screen resolution was perfect, nothing died mid-way while I was speaking, and the talk went pretty smoothly. And I made sure to weave in 「我是庇能出世的孩子」(of course spoken in Penang Hokkien) into my introduction. *(translates to “I was born in Penang”)*
 

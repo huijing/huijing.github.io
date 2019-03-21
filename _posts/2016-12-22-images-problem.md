@@ -87,7 +87,7 @@ Ah, technology.
 
 Image data can be stored in a variety of formats, they can be compressed, uncompressed or vector. The 2 major families of graphic formats are raster, which uses lots of individual coloured pixels to form complete images, and vector, which uses mathematical formulae to create polygons as images on the screen. Even though there are hundreds of proprietary image formats out there, we've settled on a handful of general purpose formats.
 
-I personally learnt a lot about images from [Colt McAnlis](https://medium.com/@duhroach)'s articles and [episode #36 of the Toolsday podcast](http://www.toolsday.io/episodes/images.html). You should check them out.
+I personally learnt a lot about images from [Colt McAnlis](https://medium.com/@duhroach)'s articles and [episode #36 of the Toolsday podcast](https://web.archive.org/web/20180305061326/http://www.toolsday.io/episodes/images.html). You should check them out.
 
 ### JPEG (Joint Photographic Expert Group)
 

@@ -29,15 +29,16 @@ If the format of your meet-up is like ours, which is a talk-based format, where 
 
 So the point is, decide on the frequency of your meet-up, then **just pick a day**. The cool part about the Singapore tech community is that we have very passionate people like [Michael Cheng](https://twitter.com/coderkungfu) and [Sayanee Basu](https://sayan.ee/) who make it a point to grow this community, through resources like [Engineers.SG](https://engineers.sg/) and [webuild.sg](https://webuild.sg/). So we now have a formula if you want to organise your own tech meet-up.
 
-***Update (@ 29 Feb 2016):*** Added in a few more points as suggested by [Sayanee](https://sayan.ee/).
+***Update (@ 29 Feb 2016):*** Added in a few more points as suggested by [Sayanee](https://sayan.ee/).  
+***Update (@ 21 Mar 2019):*** In August 2018, webuild.sg merged with Engineers.sg so this section is now obsolete. Please head over to Engineers.sg's [events page](https://engineers.sg/events/) for news on upcoming meetups.
 
-1. Go to [https://data.webuild.sg/](https://data.webuild.sg/).
-2. Check the relevant date data, like [events by day of week](https://data.webuild.sg/dataset/events-per-day-of-week/) and [events per week of month](https://data.webuild.sg/dataset/events-per-week-of-month/).
-3. Subscribe to the [open events calendar](https://webuild.sg/cal) so you can see the schedule of all upcoming events.
+1. Go to [https://web.archive.org/web/20180422095346/https://data.webuild.sg/](https://data.webuild.sg/).
+2. Check the relevant date data, like [events by day of week](https://web.archive.org/web/20180810120142/http://data.webuild.sg/dataset/events-per-day-of-week/) and [events per week of month](https://web.archive.org/web/20180731134319/https://data.webuild.sg/dataset/events-per-week-of-month/).
+3. Subscribe to the [open events calendar](https://engineers.sg/events/) so you can see the schedule of all upcoming events.
 4. Based on your findings from step #2 and #3, determine the best day for your own meet-up.  
 *Note: it will be very challenging to find a day that doesn't clash with another meet-up, so try to not to schedule on the same day as a meet-up which shares the same audience as yours*.
-5. If you already have a venue, great! If not, refer to the list of [events by location](https://data.webuild.sg/dataset/events-per-location/). Contact the organisers of past meet-ups to ask for venue contacts. (*You may have to zoom in the map, Singapore isn't very big* <span class="kaomoji">¯\\\_(ツ)\_/¯</span>)
-6. Check the [event duration](https://data.webuild.sg/dataset/events-per-duration/) data to help you decide how long your meet-up should be. Ideally, we'd like to have things wrap up within 2 hours so people can hang out *AFTER* the meet-up. Tired people tend to go home immediately after the meet-up <span class="emoji" role="img" tabindex="0" aria-label="loudly crying face">&#x1F62D;</span>.
+5. If you already have a venue, great! If not, refer to the list of events by location. Contact the organisers of past meet-ups to ask for venue contacts. (*You may have to zoom in the map, Singapore isn't very big* <span class="kaomoji">¯\\\_(ツ)\_/¯</span>)
+6. Check the [event duration](https://web.archive.org/web/20180804091910/https://data.webuild.sg/dataset/events-per-duration/) data to help you decide how long your meet-up should be. Ideally, we'd like to have things wrap up within 2 hours so people can hang out *AFTER* the meet-up. Tired people tend to go home immediately after the meet-up <span class="emoji" role="img" tabindex="0" aria-label="loudly crying face">&#x1F62D;</span>.
 
 ### More Gardenia than Cactus
 

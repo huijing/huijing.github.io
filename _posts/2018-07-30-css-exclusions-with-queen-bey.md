@@ -216,7 +216,7 @@ Let's make this happen, my friends. <span class="emoji" role="img" tabindex="0" 
 <ul>
   <li class="no-margin"><a href="https://drafts.csswg.org/css-exclusions/">CSS Exclusions Module Level 1 Editor’s Draft</a></li>
   <li class="no-margin"><a href="https://rachelandrew.co.uk/archives/2016/03/16/css-exclusions-and-grid-layout/">CSS Exclusions and Grid Layout</a></li>
-  <li class="no-margin"><a href="https://www.chromestatus.com/feature/6296903092273152">Chrome platform status: CSS Exclusions</a></li>
+  <li class="no-margin"><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=234749">Chromium archived exclusions implementation issue</a></li>
   <li><a href="https://msdn.microsoft.com/en-us/ie/hh673558(v=vs.94)">Internet Explorer implementation</a></li>
 </ul>
 

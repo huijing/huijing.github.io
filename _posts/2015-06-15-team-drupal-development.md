@@ -141,7 +141,7 @@ Working in a team allows us to leverage on each other's strengths and capabiliti
 ### Further reading
 
 <ul>
-    <li class="no-margin"><a href="http://julianlmedina.com/getting-drush-working-with-mamp-3-on-mac/">Getting Drush working with MAMP 3 on Mac</a></li>
+    <li class="no-margin"><a href="https://web.archive.org/web/20180822213820/http://julianlmedina.com/getting-drush-working-with-mamp-3-on-mac/">Getting Drush working with MAMP 3 on Mac</a></li>
     <li class="no-margin"><a href="http://www.annertech.com/blog/implement-web-design-drupal-way">Implementing a Web Design the Drupal Way (not just any old way)</a></li>
     <li class="no-margin"><a href="http://binary-studio.com/2014/05/23/top-10-rules-for-better-git-workflow/">Top 10 Rules For Better Git Workflow</a></li>
     <li><a href="http://www.garfieldtech.com/blog/mvc-vs-pac">MVC vs. PAC</a></li>

@@ -54,7 +54,7 @@ Kheng Meng had way more hardware than I did, and did a bit of experimentation be
 
 It's quite a high-end machine for its time but we were trying to run relatively modern software on it, so the hunt for smallest Linux distros began. Kheng Meng did some research and found people with success on the 486 using [Gentoo Linux](https://www.gentoo.org/). We also considered [Slackware](http://www.slackware.com/). But turns out our machine couldn't handle either of those.
 
-I remembered installing [Damn Small Linux](http://www.damnsmalllinux.org/) on an old Pentium 2 a number of years ago, but it hadn't been updated in a while. So we looked at [Tiny Core Linux](https://mirrors.dotsrc.org/tinycorelinux/) instead. Kheng Meng had prepped a number of boot discs beforehand, but also brought along his trusty Thinkpad T430, which could multi-boot into Linux Mint, Windows 10, Windows XP and FreeDos (just because).
+I remembered installing [Damn Small Linux](https://web.archive.org/web/20190204145315/http://www.damnsmalllinux.org/) on an old Pentium 2 a number of years ago, but it hadn't been updated in a while. So we looked at [Tiny Core Linux](https://mirrors.dotsrc.org/tinycorelinux/) instead. Kheng Meng had prepped a number of boot discs beforehand, but also brought along his trusty Thinkpad T430, which could multi-boot into Linux Mint, Windows 10, Windows XP and FreeDos (just because).
 
 We had the means to burn CD images as well as floppy disc images, so don't throw away working old hardware, folks. You never know when they might come in handy.
 
@@ -125,7 +125,7 @@ This time we allocated a lot less space for both partitions, and boy did that sp
 
 It was around 3pm when we got DSL to boot off HDD successfully. So we were ahead of schedule (in my mind) and I proceeded to happy dance a couple of times. Next question was, we need to do something with it.
 
-DSL comes with a lot of features already, if you refer to the [What can fit in 50 megabytes?!](http://www.damnsmalllinux.org/wiki/about_damn_small_linux.html) section of the wiki, you'll see the full list. It comes with SSH, a web server and media player. The first idea was to serve the hackathon website off our lovely 486. All the code for the site was open source on Github anyway.
+DSL comes with a lot of features already, if you refer to the [What can fit in 50 megabytes?!](https://web.archive.org/web/20180813205920/http://www.damnsmalllinux.org/wiki/about_damn_small_linux.html) section of the wiki, you'll see the full list. It comes with SSH, a web server and media player. The first idea was to serve the hackathon website off our lovely 486. All the code for the site was open source on Github anyway.
 
 But we hadn't resolved the internet connectivity issue. Both Kheng Meng and I brought our portable wifi routers, but his had more functionality. We realised that the venue wifi had a lot of limitations. The original plan was to use his router as a client, then connect via Ethernet to the 486, which worked but no internet access. Eventually, the setup worked with his phone as a mobile hotspot <span class="emoji" role="img" tabindex="0" aria-label="person shrugging">&#x1F937;</span>.
 
@@ -142,7 +142,7 @@ And we were in business! Sort of. Even though the router had internet access, it
     </figure>
 </div>
 
-Anyway, this was [the result](http://damnsmalllinux.org/static/act-Print/f-7/t-20219.html) I picked first, maybe the word “tip” made me feel better. I wondered aloud, “What does `pump` do?” just as I entered the command, because neither of us ever seen it before. But lo and behold, our baby got connected to the interwebs!
+Anyway, this was [the result](https://web.archive.org/web/20150503044947/http://damnsmalllinux.org/static/act-Print/f-7/t-20219.html) I picked first, maybe the word “tip” made me feel better. I wondered aloud, “What does `pump` do?” just as I entered the command, because neither of us ever seen it before. But lo and behold, our baby got connected to the interwebs!
 
 We also started up the SSH client for file transfer and concurrent access. Turns out the SSH version on DSL was too old for my Mac to connect to, but Kheng Meng ran Linux Mint on his T430 and that worked great. So here's our file transfer strategy (because we didn't want to blow all of Kheng Meng's data in one afternoon).
 

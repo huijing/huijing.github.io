@@ -12,7 +12,7 @@ I've always heard that Drupal did multi-language well, but you know when you hea
 
 At the time, the main SFO site was a single-language implementation. There was some form of multi-language support, but it did not take advantage of Drupal's multi-lingual infrastructure. We were brought in to build the entire Chinese language site, as well as ensure the infrastructure was in place so additional languages could be implemented easily.
 
-We worked very closely with the team who built the original SFO site, [Proof Integrated Communications](http://www.proofic.com/) (Proof IC). As we were in different timezones, we established a work-flow that allowed both teams to collaborate and keep each other updated on the work we were doing. It really helped that all the developers, who were elbows-deep in code, had direct access to each other. We were also willing to compromise when it came to meetings and skype calls, where we would come in early and they would stay a little later or vice versa. 
+We worked very closely with the team who built the original SFO site, [Proof Integrated Communications](https://web.archive.org/web/20151025175256/http://www.proofic.com/) (Proof IC). As we were in different timezones, we established a work-flow that allowed both teams to collaborate and keep each other updated on the work we were doing. It really helped that all the developers, who were elbows-deep in code, had direct access to each other. We were also willing to compromise when it came to meetings and skype calls, where we would come in early and they would stay a little later or vice versa. 
 
 ## Homepage redesign
 

@@ -36,7 +36,7 @@ Oh, and I cycle everywhere on my trusty second-hand Muji commuter bicycle.
   <li class="no-margin"><a href="https://web.archive.org/web/20170105034900/http://compassloft.com/2016/11/07/from-ball-to-code/">From Ball to Code</a></li>
   <li class="no-margin"><a href="https://web.archive.org/web/20170105040057/https://live.webuild.sg/040-huijing-chen/">We Build LIVE 040 Huijing Chen</a></li>
   <li class="no-margin"><a href="https://www.techinasia.com/talk/developer-spotlight-chen-huijing">Basketball led her to front-end engineering. Passion kept her there.</a></li>
-  <li><a href="https://soundcloud.com/web-standards/episode-139">Web standards podcast: Episode #139</a></li>
+  <li><a href="https://github.com/web-standards-ru/podcast/blob/master/episodes/episode-139.md">Web standards podcast: Episode #139</a></li>
 </ul>
 
 ### So how was this site built?

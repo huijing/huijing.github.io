@@ -280,7 +280,7 @@ Let me try to explain this. `#{length($colours)}` gives us the total number of c
 
 Is this the right way to do things? I have no idea. Does it work? Yes. So I'm a bit torn about this. Though it was a fun exercise to learn more about Sass functions. If you have any feedback, I'd love to hear it. 
 
-I'm fairly confident there's a much better way to get this done , as proven by my latest [CodePen of the Malaysian national flag](https://codepen.io/huijing/full/vZeyVP/), where the one and only [Ana Tudor](https://thebabydino.github.io/) forked my pen and [made it 10x better](https://codepen.io/thebabydino/full/VWMzqM/)! She also made a [screencast of the process](https://www.youtube.com/watch?v=VlLmUNbwdMQ). *#internetisawesome* 
+I'm fairly confident there's a much better way to get this done , as proven by my latest [CodePen of the Malaysian national flag](https://codepen.io/huijing/full/vZeyVP/), where the one and only [Ana Tudor](https://twitter.com/anatudor) forked my pen and [made it 10x better](https://codepen.io/thebabydino/full/VWMzqM/)! She also made a [screencast of the process](https://www.youtube.com/watch?v=VlLmUNbwdMQ). *#internetisawesome* 
 
 ## Further resources
 
