@@ -158,3 +158,5 @@ If I do have some extra time on my hands, I'll think about how to refactor this 
 ## Wrapping up
 
 I don't know what the useful takeaway is here, other than CSS custom properties provide a really convenient way for Javascript to hook into CSS. And that I tend to do many useless things with my time, but it was fun though, and isn't that kinda important? (I also had to Google how to spell convenient multiple times, shhhh… don't tell everyone)
+
+<img srcset="{{ site.url }}/assets/images/posts/chris-script/chris-script-480.jpg 480w, {{ site.url }}/assets/images/posts/chris-script/chris-script-640.jpg 640w, {{ site.url }}/assets/images/posts/chris-script/chris-script-960.jpg 960w, {{ site.url }}/assets/images/posts/chris-script/chris-script-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/chris-script/chris-script-640.jpg" alt="Chris is watching you">
