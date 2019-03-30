@@ -420,7 +420,7 @@
   event: CSSConf China 2019
   website: https://css.w3ctech.com/
   type: conference
-  released: false
+  released: true
 
 - title: "Web typography: a non-English perspective"
   id: jsheroes-2019
