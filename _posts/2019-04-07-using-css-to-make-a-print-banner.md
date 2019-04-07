@@ -16,7 +16,7 @@ The thing is, I came across this font called [Gilbert](https://www.typewithpride
 
 In 2017, there was no CSSConf.Asia (neither will there be on in 2019, unfortunately). So [Chris](https://twitter.com/cliener) and I somehow came up with this hare-brained idea to have a mini half-day conference style CSS event. I called it the [Talk.CSS `max-content` edition](https://singaporecss.github.io/24/), because you know, maximum content? Look, naming things is hard.
 
-I thought it was the perfect opportunity to use Gilbert for text `max-content`, subtly colourful was what I was going for. Things went well on the website itself. The way colour fonts work, even if the browser doesn't support colour fonts, the typeface still renders and displays, just solid black instead of in colour.
+I thought it was the perfect opportunity to use Gilbert for the text `max-content`. Subtly colourful was what I was going for. Things went well on the website itself. The way colour fonts work, even if the browser doesn’t support colour fonts, the typeface still renders and displays, just solid black instead of in colour.
 
 Gilbert's colour font version came in OpenType (`.otf`), so it wasn't hard to style the words `max-content` to use it. I then wanted to create banner images for the social medias and realised that I couldn't. My broke ass clearly did not own a single Adobe product, and at the time (before 23 Jan 2018), Photoshop and maybe Illustrator were the only applications that supported colour fonts.
 
@@ -125,7 +125,9 @@ Most of the adjustments could be made on the fly directly from DevTools itself a
 
 ## Using the colour font for pull-up banners
 
-We managed to get an anonymous angel donor so had the budget to get 2 pull-up banners printed. There was a standard sizing, which I can't really remember the exact numbers but the width to height ratio was something like 600mm × 1700mm. Anyway, I was wondering how to the get the resolution higher than that of my 2560 × 1600 screen when I realised, there's nothing restricting me to setting sizes to within 100vw.
+We managed to get an anonymous angel donor, and so had the budget to get 2 pull-up banners printed. There was a standard sizing, I can’t really remember the exact numbers. But the width to height ratio was something like 600mm × 1700mm. 
+
+Anyway, I was wondering how to the get the resolution higher than that of my 2560 × 1600 screen when I realised, there’s nothing restricting me from setting sizes larger than 100vw.
 
 ```css
 html {
@@ -188,7 +190,7 @@ The best part is that Firefox has a [built-in screenshot tool](https://support.m
 
 ## End result
 
-To our surprise, and we at [SingaporeCSS](https://singaporecss.github.io) are known for having very little expectations in general, the end result was pretty decent. Considering we hadn't planned on even having these banners in the first place, and went for the most budget option we could find.
+To our surprise, and we at [SingaporeCSS](https://singaporecss.github.io) are known for having very little expectations in general, the end result was pretty decent. Considering we hadn't planned on even having these banners in the first place, and went for the most budget option we could find, this is an A-plus result!
 
 <figure>
   <figcaption>Chris's son AKA mini Chris included for scale</figcaption>
