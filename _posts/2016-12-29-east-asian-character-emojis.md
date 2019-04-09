@@ -18,13 +18,20 @@ Let's go back to the beginning. The word *Emoji* is Japanese.
 
 > 絵 (**e**) &#8776; picture) 文 (**mo** &#8776; writing) 字 (**ji** &#8776; character)
 
-Emojis were invented by [Shigetaka Kurita](http://d.hatena.ne.jp/sigekun/) as a solution to the 250 character limit on [i-mode](https://web.archive.org/web/20130502120844/https://www.nttdocomo.co.jp/english/service/imode/), NTT DoCoMo's new mobile internet system (back in 1999). Most of the 176 original emojis were designed for the Japanese market, largely because nobody expected them to explode on the a global scale. Soon after their release, there was [a proposal to encode these emoji in Unicode](http://www.unicode.org/L2/L2000/00152-pictographs.txt) by Graham Asher in 2000, but nothing happened because people weren't sure if emoji would be popular or not.
+*Update: [Jeremy Burge](https://jeremyburge.me/), Chief Emoji Officer at [Emojipedia](https://emojipedia.org/) issued [a correction](https://blog.emojipedia.org/correcting-the-record-on-the-first-emoji-set/) to a very widely known, yet incorrect fact that DoCoMo was the originator of emoji.*
 
-Turns out, they were a big hit in Japan, but every telecom company did their own thing with emoji encoding so incompatibility was a big issue. There was a high chance your emojis just wouldn't display properly. Kinda like "tofu" characters when your computer doesn't support East Asian languages. So in 2006, Google started converting them into Unicode [private-use codes](https://en.wikipedia.org/wiki/Private_Use_Areas). Unicode itself is a fascinating topic so if you're interested, read [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) by [Joel Spolsky](https://www.joelonsoftware.com).
+~~Emojis were invented by [Shigetaka Kurita](http://d.hatena.ne.jp/sigekun/) as a solution to the 250 character limit on [i-mode](https://web.archive.org/web/20130502120844/https://www.nttdocomo.co.jp/english/service/imode/), NTT DoCoMo's new mobile internet system (back in 1999).~~ Softbank released a [set of 90 emojis](https://emojipedia.org/softbank/1997/), including the well-loved pile of poo emoji back in 1997 on the Skywalker service for the DP-211SW mobile phone. As of now, the original designer's identity remains unknown.
+
+2 years later, [Shigetaka Kurita](http://d.hatena.ne.jp/sigekun/) created a set of 176 emojis for NTT DoCoMo's new mobile internet system (back in 1999). Most of DoCoMo's 176 original emojis were designed for the Japanese market, largely because nobody expected them to explode on the a global scale. Soon after their release, there was [a proposal to encode these emoji in Unicode](http://www.unicode.org/L2/L2000/00152-pictographs.txt) by Graham Asher in 2000, but nothing happened because people weren't sure if emoji would be popular or not.
+
+Turns out, they were a big hit in Japan, but every telecom company did their own thing with emoji encoding so incompatibility was a big issue. There was a high chance your emojis just wouldn't display properly. Kinda like "tofu" characters when your computer doesn't support East Asian languages.
+
+So in 2006, Google started converting them into Unicode [private-use codes](https://en.wikipedia.org/wiki/Private_Use_Areas). Unicode itself is a fascinating topic so if you're interested, read [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) by [Joel Spolsky](https://www.joelonsoftware.com).
 
 Long story short, the private-use approach was problematic so another proposal was made to the Unicode Consortium to expand the scope of symbols to include emojis. According to the [Unicode® Technical Report #51](http://unicode.org/reports/tr51/), the timeline for emoji development looks something like this:
 
 <ul>
+  <li class="no-margin">2000-04-26 - NTT DoCoMo Pictographs</li>
   <li class="no-margin">2000-04-26 - NTT DoCoMo Pictographs</li>
   <li class="no-margin">2006-11-01 - Symbols (scope extension)</li>
   <li class="no-margin">2007-08-03 - Working Draft Proposal for Encoding Emoji Symbols</li>
@@ -192,6 +199,7 @@ So that's 17 East Asian character emojis covered. Plus the short version of the 
   <li class="no-margin"><a href="https://www.buzzfeed.com/charliewarzel/there-will-be-dumplings">One Woman’s Bizarre, Delightful Quest To Change Emojis Forever</a></li>
   <li class="no-margin"><a href="http://www.dumplingemoji.org/">The Dumpling Emoji Project</a></li>
   <li><a href="http://www.npr.org/sections/thesalt/2016/12/28/506160715/a-brief-history-of-food-emoji-why-you-wont-find-hummus-on-your-phone">A Brief History Of Food Emoji: Why You Won’t Find Hummus On Your Phone</a></li>
+  <li><a href="https://blog.emojipedia.org/correcting-the-record-on-the-first-emoji-set/">Correcting the Record on the First Emoji Set</a></li>
 </ul>
 
 <em><small>Credits: OG:image from <a href="http://www.nytimes.com/2016/10/27/arts/design/look-whos-smiley-now-moma-acquires-original-emoji.html">New York Times article: Look Who’s Smiley Now: MoMA Acquires Original Emoji</a></small></em>
