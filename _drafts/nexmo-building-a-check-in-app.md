@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Building a check-in app with Nexmo's Verify API"
-date: Mar 15, 2019
+date: Apr 15, 2019
 tags: [nodejs, javascript, nexmo]
+
 ---
 Let's say you are running a game like [The Amazing Race](https://en.wikipedia.org/wiki/The_Amazing_Race), where there are multiple checkpoints that players have to physically reach before they can complete the game. This application is a way to track if a player has reached a checkpoint or not.
 
@@ -11,6 +12,12 @@ The idea is that a checkpoint administrator will have a list of all players and 
 The player will then enter that verification code via an online web form or respond via SMS to confirm their presence at the checkpoint. In theory, because the administrator has no way to access the verification code, they will be unable to verify players who are not present at the checkpoint.
 
 Before you raise the multitude of ways players can still collude with administrators, let me assure you that I am aware of them, but this is an MVP and we will revisit fraud prevention (and a myriad of other features) in future releases.
+
+## A little bit about 2FA
+
+A typical two-factor authentication flow involves only 1 party. They will enter their mobile phone number to receive an SMS with the verification code, then enter said code into the user interface to authenticate their identity. Easy-peasy-lemon-squeezy.
+
+Now, this hare-brained scheme of mine proposes making this a 2 party affair, where the verification code is triggered by a “game master”, but sent to the player's mobile phone. The player then submits the verification code either via a web interface or SMS.
 
 ## Libraries used
 
