@@ -20,7 +20,9 @@ There cannot be writing without language. And although there are cultures in the
 
 When I think about language I always wonder how much of an impact does the language itself affect our thinking and the way we see the world around us. I remember coming across a few articles that went along the lines of ‘Awesome German words that English needs‘ or something like that. There are many Japanese and Chinese phrases that simply cannot be translated into English because they convey a concept that no English words can map to.
 
-I grew up speaking both Chinese and English and I did not realise that I thought in two different languages at the same time, as there are certain concepts that are culturally Chinese which can't really be expressed accurately in English. For example, the phrase 孝顺 (xiàoshùn) is translated filial piety. The [dictionary explanation of filial](https://en.oxforddictionaries.com/definition/filial) is *relating to or due from a son or daughter* or *denoting the offspring of a cross*, which isn't what 孝顺 really means in Chinese. And I still am unable to explain the phrase 默契 (mòqì).
+I grew up speaking both Chinese and English and I did not realise that I thought in two different languages at the same time, as there are certain concepts that are culturally Chinese which can't really be expressed accurately in English. 
+
+For example, the phrase 孝顺 (xiàoshùn) is translated filial piety. The [dictionary explanation of filial](https://en.oxforddictionaries.com/definition/filial) is *relating to or due from a son or daughter* or *denoting the offspring of a cross*, which isn't what 孝顺 really means in Chinese. And I still am unable to explain the phrase 默契 (mòqì).
 
 The reason I brought this up was to highlight the cultural differences between societies that speak different languages. Bringing it back to the topic of power and global influence, geography and the environment in which these cultures developed seemed to play a significant factor in determining their behaviour and beliefs.
 
