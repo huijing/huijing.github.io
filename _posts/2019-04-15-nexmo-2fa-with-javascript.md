@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Add Two-Factor Authentication to Node.js Web Apps"
-date: Apr 12, 2019
+date: Apr 15, 2019
 tags: [nodejs, javascript, nexmo]
 noindex: true
 external_site: nexmo
-external_url: javascript:void(0)
+external_url: https://www.nexmo.com/blog/2019/04/15/how-to-add-two-factor-authentication-with-node-js-dr/
 ---
 Two-factor authentication (2FA) gets its name from the fact that you require two things to verify your identity. Something you know, like a password, and something you have, like the verification code from your mobile device or physical token.
 
@@ -267,8 +267,75 @@ async function cancel(reqId) {
   })
 }
 ```
-
 ![Landing page for demo](https://cdn.glitch.com/e53b88bf-b990-43c3-8efd-a5141145a96c%2Flanding.png?1554815323752)
+
+Now you need to make use of these 3 functions in the routes we specified earlier, starting with the one for triggering the verification code first.
+
+```javascript
+router.post('/verify/', async (ctx, next) => {
+  const payload = await ctx.request.body
+  const phone = payload.phone
+
+  const result = await verify(phone)
+  const reqId = result.request_id 
+  ctx.status = 200
+  return ctx.render('./verify', { reqId: reqId })
+})
+```
+The `ctx.request.body` will look something like this:
+
+```json
+{ phone: '+40987654321' }
+```
+You can grab that phone number and pass it to the `verify()` function. As long as it is a valid phone number, the verification code will be fired off and you will receive a response containing a `request_id` and `status`.
+
+```json
+{ 
+  request_id: '1bf002ecd1e94d8aa81ba7463b19f583',
+  status: '0'
+}
+```
+From there, you can send the request ID over to the frontend for use when the user enters the verification code.
+
+![The request_id is passed to the frontend](https://cdn.glitch.com/e53b88bf-b990-43c3-8efd-a5141145a96c%2Fcheck.png?1554884941055)
+
+When your user submits the correct PIN, you will need to plug both the PIN and the request ID into the `check()` function.
+
+```javascript
+router.post('/check/', async (ctx, next) => {
+  const payload = await ctx.request.body
+  const code = payload.pin
+  const reqId = payload.reqId
+  
+  const result = await check(reqId, code)
+  const status = result.status
+  ctx.status = 200
+  return ctx.render('./result', { status: status })
+})
+```
+Again, both those values can be obtained from the `ctx.request.body` and if the PIN is validated to be correct, you will receive a response that looks like this:
+
+```json
+{ request_id: '1bf002ecd1e94d8aa81ba7463b19f583',
+  status: '0',
+  event_id: '150000001AC57AB2',
+  price: '0.10000000',
+  currency: 'EUR' }
+```
+You can then make use of the status code to determine what message you would like to display to your user. This example uses Nunjucks, so the markup on the results page could look something like this:
+
+```html
+{% if status == 0 %}
+<p>Code verified successfully. ¯\_(ツ)_/¯</p>
+{% else %}
+<p>Something went wrong… ಠ_ಠ</p>
+<p>Please contact the administrator for more information.</p>
+{% endif %}
+```
+
+![Verification messages](https://cdn.glitch.com/e53b88bf-b990-43c3-8efd-a5141145a96c%2Fmessage.png?1554885944796)
+
+This was a thorough break-down of each part of the code but for a look at how the application looks like in its entirety, do check out the [source code on GitHub](https://github.com/nexmo-community/verify-2fa-koa).
 
 ## Additional things to take care of
 
