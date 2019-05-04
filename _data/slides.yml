@@ -247,7 +247,7 @@
   id: cssconf-2018
   count: "32"
   video: https://youtu.be/YpqKrVcth34
-  event: CSSConf.EU 2018
+  event: CSSconf EU 2018
   website: https://2018.cssconf.eu/
   type: conference
   released: true
@@ -444,12 +444,20 @@
   event: ImageCon 2019
   website: https://www.imagecon.com/
   type: conference
-  released: false
+  released: true
 
 - title: "Typesetting for a global web"
   id: yglf-2019
   count: "57"
   event: YGLF Vilnius
   website: https://lithuania.yglfconf.com/
+  type: conference
+  released: false
+
+- title: "Using DevTools to understand modern CSS layouts"
+  id: cssconf-2019
+  count: "58"
+  event: CSSconf EU 2019
+  website: https://2019.cssconf.eu/
   type: conference
   released: false
