@@ -23,7 +23,7 @@ My first idea was to load 1 Chris head on the site, offset it out of frame to st
 
 Eventually I decided to go with 4 Chris heads instead. I'm fairly sure someone smarter than me can do it with 1 Chris head, but my brain couldn't figure it out and seriously, I have a day job, you know. Like I mentioned earlier, 3 transform values are involved here.
 
-If you're interested in how the slides themselves were built, I wrote a little something a while back which covers it, so give it a look if you're curious. To that, I added a `<div>` at the bottom of the page with the 4 Chris heads like so:
+If you're interested in how the slides themselves were built, I [wrote a little something]({{ site.url }}/blog/html-slides-without-frameworks/) a while back which covers it, so give it a look if you're curious. To that, I added a `<div>` at the bottom of the page with the 4 Chris heads like so:
 
 ```html
 <div class="nonsense" id="nonsense">
