@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding grid placement through building a HTML periodical table"
-date: May 05, 2019
+date: May 06, 2019
 tags: [design, css]
 hastweet: true
 hascodepen: true
@@ -126,7 +126,7 @@ But wait, if you look a little closer, you'll notice something is not quite alig
 
 <img src="{{ site.url }}/assets/images/posts/grid-placement/html-grid2.svg" alt="Diagram showing misaligned tiles in the letter M">
 
-You know what this means? More columns, that's what. This is the part of the design phase I call grid planning. For something like that, you can either go analogue (which is how I like to do it), or import the image into any program that lets you draw lines over it.
+You know what this means? More columns, that's what. This is the part of the design phase I call **grid planning**. For something like that, you can either go analogue (which is how I like to do it), or import the image into any program that lets you draw lines over it.
 
 From there, you can figure out the least possible number of rows and columns that you can get away with, while still having your every one of your grid items aligned to a grid line.
 
@@ -205,7 +205,10 @@ To ensure I didn't have any funky whitespaces on either edge of the grid, I made
 }
 ```
 
-*insert video here*
+<figure>
+    <figcaption>Look ma, no funky spaces!</figcaption>
+    <video src="{{ site.url }}/assets/videos/gp-1fr.mp4" controls loop></video>
+</figure>
 
 And then, the browsers that don't support Grid. I chose to fallback to a flex-based layout, but you can also go for floats or inline-block, if you'd like to. The gist of the matter here is the feature query.
 
@@ -267,6 +270,8 @@ The base styles, which live outside the feature query, will take care of the bro
 
 For browsers that do not support feature queries, that is essentially what happens anyway because the browser will ignore the entire block within the feature query.
 
+<img srcset="{{ site.url }}/assets/images/posts/grid-placement/flex-480.png 480w, {{ site.url }}/assets/images/posts/grid-placement/flex-640.png 640w, {{ site.url }}/assets/images/posts/grid-placement/flex-960.png 960w, {{ site.url }}/assets/images/posts/grid-placement/flex-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/grid-placement/flex-640.png" alt="Fallback layout implemented with flexbox">
+
 ## Sprinkle on some Javascript
 
 Okay, here I want to give credit to [Mike Riethmuller](https://www.madebymike.com.au/), who created a really nice version of the [HTML periodic table](https://www.madebymike.com.au/demos/html5-periodic-table/) as well. It's much prettier than mine, PLUS, it has a definition feature.
@@ -277,7 +282,7 @@ There was also a legend, as the elements were classified into several categories
 
 The displaying of definitions wasn't too tricky. It made use of the `:target` pseudo-class, so when you clicked on any of the elements in the table, its definition would be displayed below the table. You have to match the anchor link on the element to the id of the element containing its definition so the URL fragment matches up.
 
-For example:
+Take this markup, for example:
 
 ```html
 <a href="#ruby" class="txt-lvl">ruby</a>
@@ -290,6 +295,7 @@ For example:
   </dd>
 </div>
 ```
+You'd make it work with the following CSS:
 
 ```css
 div {
