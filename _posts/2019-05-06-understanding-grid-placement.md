@@ -3,6 +3,7 @@ layout: post
 title: "Understanding grid placement through building a HTML periodical table"
 date: May 06, 2019
 tags: [design, css]
+image: grid-placement
 hastweet: true
 hascodepen: true
 ---
