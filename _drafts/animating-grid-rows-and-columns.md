@@ -5,7 +5,7 @@ date: May 06, 2019
 tags: [design, css]
 hascodepen: true
 ---
-One of the biggest things in version 66 of Firefox was the ability to animate grid rows and columns when using Grid layout. This feature had been written into the specification for a while but browser vendors took a while to support it.
+One of the biggest things in version 66 of Firefox was the ability to animate grid rows and columns when using Grid layout. This feature had been written into the specification for a while now, but browser vendors took some time to support it.
 
 Since then, there have been a trickle of articles (links to all below) and CodePens centred around animating CSS grid, like this cool airline entertainment system layout by the one and only, [Olivia Ng](http://www.olivia-ng.com/):
 
