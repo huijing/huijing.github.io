@@ -33,7 +33,7 @@ The [Messages API](https://developer.nexmo.com/messages/overview) comes in becau
 
 <figure>
   <figcaption>As a Malaysian, I have to promote our beautiful islands</figcaption>
-  <img src="{{ site.url }}/assets/images/posts/progressive-enhancement/perhentian.jpg" srcset="{{ site.url }}/assets/images/posts/progressive-enhancement/perhentian@2x.jpg 2x" alt="Pulau Perhentian">
+  <img src="{{ site.url }}/assets/images/posts/checkpoint/perhentian.jpg" srcset="{{ site.url }}/assets/images/posts/checkpoint/perhentian@2x.jpg 2x" alt="Pulau Perhentian">
 </figure>
 
 [Koa.js](https://koajs.com/) is the framework behind the application, for serving, routing, handling of API requests and responses etc. As the core Koa.js framework is rather barebones, various middlewares have to be added where needed.
@@ -106,7 +106,7 @@ By right, there should be some proper user management for administrators, but gi
 
 This meant the application would have 3 pages, the login page, the administrator page, the verification code entry page.
 
-<img srcset="{{ site.url }}/assets/images/posts/progressive-enhancement/screens-480.jpg 480w, {{ site.url }}/assets/images/posts/progressive-enhancement/screens-640.jpg 640w, {{ site.url }}/assets/images/posts/progressive-enhancement/screens-960.jpg 960w, {{ site.url }}/assets/images/posts/progressive-enhancement/screens-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/progressive-enhancement/screens-640.jpg" alt="Rough screen sketches">
+<img srcset="{{ site.url }}/assets/images/posts/checkpoint/screens-480.jpg 480w, {{ site.url }}/assets/images/posts/checkpoint/screens-640.jpg 640w, {{ site.url }}/assets/images/posts/checkpoint/screens-960.jpg 960w, {{ site.url }}/assets/images/posts/checkpoint/screens-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/checkpoint/screens-640.jpg" alt="Rough screen sketches">
 
 As mentioned earlier, some additional middlewares need to be installed. For this project, I added the following:
 - `koa-static` for serving static assets

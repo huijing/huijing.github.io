@@ -1,8 +1,12 @@
 ---
 layout: post
 title: "Animating grid rows and columns"
-date: May 06, 2019
+date: May 15, 2019
 tags: [design, css]
+noindex: true
+nofeed: true
+external_site: bit
+external_url: https://blog.bitsrc.io/animating-css-grid-rows-and-columns-4b3b0997d06a
 hascodepen: true
 ---
 One of the biggest things in version 66 of Firefox was the ability to animate grid rows and columns when using Grid layout. This feature had been written into the specification for a while now, but browser vendors took some time to support it.
