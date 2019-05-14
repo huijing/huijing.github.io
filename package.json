@@ -18,7 +18,7 @@
   "homepage": "https://github.com/huijing/huijing.github.io#readme",
   "devDependencies": {
     "browser-sync": "^2.26.5",
-    "gulp": "^4.0.1",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.3",
