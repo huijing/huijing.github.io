@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Building a check-in app with Nexmo's Verify API"
-date: Apr 15, 2019
+date: May 22, 2019
 tags: [nodejs, javascript, nexmo]
-
 ---
 Let's say you are running a game like [The Amazing Race](https://en.wikipedia.org/wiki/The_Amazing_Race), where there are multiple checkpoints that players have to physically reach before they can complete the game. This application is a way to track if a player has reached a checkpoint or not.
 
@@ -15,7 +14,7 @@ Now, this hare-brained scheme of mine proposes making this a 2 party affair. A c
 
 The player will then enter that verification code via an online web form or respond via SMS to confirm their presence at the checkpoint. In theory, because the administrator has no way to access the verification code, they will be unable to verify players who are not present at the checkpoint.
 
-Before you raise the multitude of ways players can still collude with administrators, let me assure you that I am aware of them, but this is an MVP and we will revisit fraud prevention (and a myriad of other features) in future releases.
+Before you raise the multitude of ways players can still collude with administrators, let me assure you that I am aware of them, but this is an MVP and we will revisit fraud prevention (and a myriad of other features) in future releases. Maybe.
 
 ## Libraries used
 
@@ -104,7 +103,7 @@ If all went well, clicking on the Show button on the top nav bar should trigger 
 
 By right, there should be some proper user management for administrators, but given this is a simple prototype, I made do with a naive implementation of password protection on the main page, where the administrators enters player phone numbers. The prototype presents the idea of how the interface would work.
 
-This meant the application would have 3 pages, the login page, the administrator page, the verification code entry page.
+This means the application will have 3 pages, the login page, the administrator page, the verification code entry page.
 
 <img srcset="{{ site.url }}/assets/images/posts/checkpoint/screens-480.jpg 480w, {{ site.url }}/assets/images/posts/checkpoint/screens-640.jpg 640w, {{ site.url }}/assets/images/posts/checkpoint/screens-960.jpg 960w, {{ site.url }}/assets/images/posts/checkpoint/screens-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/checkpoint/screens-640.jpg" alt="Rough screen sketches">
 
@@ -195,7 +194,32 @@ nexmo.verify.check({
   }
 })
 ```
+
+## Handling multiple players
+
+The checkpoint administrator needs to keep track of all the players, so it might be a good idea to use a database to store that information. For this demo, I've used [lowdb](https://github.com/typicode/lowdb), which is a small local JSON database based on Lodash, but you're definitely free to use any database you like.
+
+
 The most common way to collect the OTP from the target recipient is via a web form. A basic HTML form does not require client-side Javascript at all. We'll need to set up some `POST` routes on the server-side to handle this input.
+
+```javascript
+router.post('/check', async (ctx, next) => {
+  const payload = await ctx.request.body
+  const phone = payload.phone
+  const code = payload.pin
+  
+  const reqId = dbFindPlayer(phone).id
+
+  const result = await check(reqId, code)
+  dbUpdateStatus(reqId, result.status)
+  
+  ctx.status = 200
+  ctx.response.redirect('/result/' + payload.phone)
+})
+```
+
+
+
 
 ```javascript
 router.post('/verify/:phone', async (ctx, next) => {
@@ -223,3 +247,6 @@ async function verify(number) {
   })
 }
 ```
+Users will access the web form via a URL with their phone number as the URL parameter, which `koa-router` lets us access via `ctx.params`. 
+
+<img srcset="{{ site.url }}/assets/images/posts/checkpoint/trigger-pin-480.jpg 480w, {{ site.url }}/assets/images/posts/checkpoint/trigger-pin-640.jpg 640w, {{ site.url }}/assets/images/posts/checkpoint/trigger-pin-960.jpg 960w, {{ site.url }}/assets/images/posts/checkpoint/trigger-pin-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/checkpoint/trigger-pin-640.jpg" alt="Trigger the OTP for each phone number">
