@@ -452,12 +452,20 @@
   event: YGLF Vilnius
   website: https://lithuania.yglfconf.com/
   type: conference
-  released: false
+  released: true
 
 - title: "Using DevTools to understand modern CSS layouts"
   id: cssconf-2019
   count: "58"
   event: CSSconf EU 2019
   website: https://2019.cssconf.eu/
+  type: conference
+  released: false
+
+- title: "Using DevTools to understand modern CSS layouts"
+  id: pixelpioneers-2019
+  count: "59"
+  event: Pixel Pioneers Bristol 2019
+  website: https://pixelpioneers.co/events/bristol-2019
   type: conference
   released: false
