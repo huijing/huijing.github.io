@@ -418,6 +418,14 @@ Or, maybe your game is taking place in a fairly remote location, think [Pulau Pe
 
 The version hosted on [Glitch](https://glitch.com/~checkpoint-verify) covers the above 2 scenarios so feel free to check it out and remix it.
 
+<div class="glitch-embed-wrap" style="height:400px;width:100%;margin-bottom:1em">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/checkpoint-verify?path=README.md&previewSize=0"
+    alt="checkpoint-verify on Glitch"
+    style="height:100%;width:100%;border:0">
+  </iframe>
+</div>
+
 <a href="https://glitch.com/edit/#!/remix/checkpoint-verify">
   <img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix%402x.png?1513093958726" alt="remix this" height="33">
 </a>
