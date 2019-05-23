@@ -469,3 +469,11 @@
   website: https://pixelpioneers.co/events/bristol-2019
   type: conference
   released: false
+
+- title: "Can your site work on IE3"
+  id: ie3-challenge
+  count: "60"
+  video: https://youtu.be/dVdBD3SQMl4
+  event: Talk.CSS
+  type: meetup
+  released: true
