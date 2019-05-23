@@ -97,6 +97,7 @@ span[role=img][aria-label]:hover::after {
   background-position: center;
   background-size: cover;
   z-index: 1;
+  opacity: 0.7;
 
   @include mappy-bp(x-large) {
     right: calc(50% - 24rem);
@@ -105,28 +106,36 @@ span[role=img][aria-label]:hover::after {
 
 .blender {
   position: fixed;
-  height: 2.5rem;
-  width: 2.5rem;
-  right: 1rem;
-  bottom: 1.25rem;
-  border-radius: 50%;
   background-color: color('sugarcane');
   mix-blend-mode: difference;
   pointer-events: none;
-  transition: transform 0.7s ease-out;
+
+  @include mappy-bp(max x-large) {
+    opacity: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.5s ease;
+  }
 
   @include mappy-bp(x-large) {
+    height: 3rem;
+    width: 3rem;
+    right: 1rem;
+    bottom: 1rem;
+    border-radius: 50%;
     right: calc(50% - 24rem);
+    transition: transform 0.7s ease-out;
   }
 }
 
 .blender.active {
-  height: 100vh;
-  width: 100vw;
-}
+  @include mappy-bp(max x-large) {
+    opacity: 1;
+  }
 
-.blend-checkbox:checked ~ .blender {
-  transform: scale(100);
+  @include mappy-bp(x-large) {
+    transform: scale(100);
+  }
 }
 
 .blend-checkbox:checked ~ .blend-toggle {

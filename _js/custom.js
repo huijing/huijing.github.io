@@ -20,6 +20,7 @@ blendCheckbox.addEventListener('click', toggleBlend, false)
 function toggleBlend(e) {
   if (e.target.checked) {
     localStorage.checked = true
+    blender.classList.add('active')
   } else {
     localStorage.checked = ''
     blender.classList.remove('active')
