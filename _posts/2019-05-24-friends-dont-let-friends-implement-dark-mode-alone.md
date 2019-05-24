@@ -3,6 +3,7 @@ layout: post
 title: "Friends don't let friends implement dark mode alone"
 date: May 24, 2019
 tags: [design, css]
+image: blend-dark-mode
 ---
 So I have [this friend, Wei](https://twitter.com/wgao19), who's basically an expert with CSS blend modes, right? And she came up with a really interesting method to implement dark mode on her site with blend modes. Then [wrote about it](https://dev.wgao19.cc/2019-05-04-sun-moon-blending-mode/), because sharing is caring.
 
