@@ -165,7 +165,7 @@ We also want our toggle to be keyboard accessible, so add in a `:focus` state an
 ```
 Lastly, we need to take into account all the browsers that do not support CSS blend modes, like the pre-Chromium edge browser, for example. 
 
-So wrap all the blend mode related stuff within a media query and users of those browsers will be none the wiser. This is experimental anyway so they're not missing anything.
+So wrap all the blend mode related stuff within a feature query and users of those browsers will be none the wiser. This is experimental anyway so they're not missing anything.
 
 ```css
 @supports (mix-blend-mode: difference) {
