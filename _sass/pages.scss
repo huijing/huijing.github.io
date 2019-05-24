@@ -176,11 +176,16 @@
 .tag-link {
   display: inline-block;
   white-space: nowrap;
-  background: color('apple');
+  background: color('japanese-laurel');
   color: color('sugarcane');
   padding: 0.125em 0.25em;
   margin: 0.25em 0.125em;
   border-radius: 0.25em;
+
+  &:hover {
+    color: color('sugarcane');
+    background: lighten(color('japanese-laurel'), 10%);
+  }
 }
 
 .rss-subscribe {
@@ -350,7 +355,7 @@ input[type=submit] {
   text-align: center;
 
   img {
-    box-shadow: 2px 2px 4px color('abbey');
+    box-shadow: 2px 2px 4px color('tuna');
   }
 }
 
@@ -374,7 +379,7 @@ input[type=submit] {
       width: 100%;
       height: 100%;
       background-color: color(sugarcane);
-      box-shadow: 2px 2px 4px color('abbey');
+      box-shadow: 2px 2px 4px color('tuna');
     }
   }
 }

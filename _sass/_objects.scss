@@ -9,7 +9,7 @@
     width: 1em;
 
     path {
-      fill: color('apple');
+      fill: color('japanese-laurel');
     }
   }
 }
@@ -82,7 +82,7 @@ span[role=img][aria-label]:hover::after {
 
 .post-meta {
   font-size: 75%;
-  color: lighten(color('abbey'), 20%);
+  color: lighten(color('tuna'), 20%);
 }
 
 // Night mode toggle

@@ -3,8 +3,16 @@
   font-family: $display-font;
   color: color('white');
 
+  a {
+    color: color('apple');
+  }
+
   a:hover {
     color: lighten(color('apple'), 20%);
+  }
+
+  svg path {
+    fill: color('apple');
   }
 }
 

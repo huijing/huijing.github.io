@@ -35,13 +35,13 @@ p {
 
 a {
   text-decoration: none;
-  color: color('apple');
+  color: color('japanese-laurel');
   transition: all 0.15s linear;
-  border-bottom: 1px dashed color('apple');
+  border-bottom: 1px dashed color('japanese-laurel');
 
   &:hover {
-    color: darken(color('apple'), 20%);
-    border-bottom: 1px solid darken(color('apple'), 20%);
+    color: darken(color('japanese-laurel'), 5%);
+    border-bottom: 1px solid darken(color('japanese-laurel'), 5%);
   }
 }
 
