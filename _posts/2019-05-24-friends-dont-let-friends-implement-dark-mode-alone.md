@@ -163,7 +163,7 @@ We also want our toggle to be keyboard accessible, so add in a `:focus` state an
   outline: 5px auto -webkit-focus-ring-color;
 }
 ```
-Lastly, we need to take into account all the browsers that do not support CSS blend modes, like the pre-Chromium edge browser, for example. 
+Lastly, we need to take into account all the browsers that do not support CSS blend modes, like the pre-Chromium Edge browser, for example. 
 
 So wrap all the blend mode related stuff within a feature query and users of those browsers will be none the wiser. This is experimental anyway so they're not missing anything.
 
