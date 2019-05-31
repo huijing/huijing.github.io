@@ -461,7 +461,7 @@
   event: CSSconf EU 2019
   website: https://2019.cssconf.eu/
   type: conference
-  released: false
+  released: true
 
 - title: "Using DevTools to understand modern CSS layouts"
   id: pixelpioneers-2019
