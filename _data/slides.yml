@@ -5,6 +5,7 @@
   event: talk.js
   type: meetup
   released: true
+  pdf: true
 
 - title: "Why you should be excited about CSS shapes"
   id: css-shapes
@@ -13,6 +14,7 @@
   event: Talk.CSS
   type: meetup
   released: true
+  pdf: true
 
 - title: "Let's ⚡ talk about CSS triggers"
   id: css-triggers
@@ -21,6 +23,7 @@
   event: Talk.CSS
   type: meetup
   released: true
+  pdf: true
 
 - title: "Web development: breaking it down"
   id: intro-html-css
@@ -28,6 +31,7 @@
   event: General Assembly
   type: workshop
   released: true
+  pdf: true
 
 - title: "Coding for beginners: HTML and CSS"
   id: begin-html-css
@@ -35,6 +39,7 @@
   event: General Assembly
   type: workshop
   released: true
+  pdf: true
 
 - title: "The epic git bomb"
   id: git-bomb
@@ -43,6 +48,7 @@
   event: Grumpy Gits
   type: meetup
   released: true
+  pdf: true
 
 - title: "Code in One Day: HTML & CSS Crash Course"
   id: code-crash-course
@@ -50,6 +56,7 @@
   event: General Assembly
   type: workshop
   released: true
+  pdf: true
 
 - title: "So your designer wants a masthead"
   id: build-masthead
@@ -57,6 +64,7 @@
   event: Talk.CSS
   type: meetup
   released: true
+  pdf: true
 
 - title: "TechLadies Pre-Bootcamp Workshop #2"
   id: tl-workshop-2
@@ -65,6 +73,7 @@
   event: TechLadies
   type: workshop
   released: true
+  pdf: true
 
 - title: "A Chinese typography experiment"
   id: zh-type
@@ -73,6 +82,7 @@
   event: Talk.CSS
   type: meetup
   released: true
+  pdf: true
 
 - title: "How I learn to CSS"
   id: cssconf-2016
@@ -82,6 +92,7 @@
   website: https://2016.cssconf.asia/
   type: conference
   released: true
+  pdf: true
 
 - title: "CSS grid + writing-mode = 🎉"
   id: css-grid
@@ -90,6 +101,7 @@
   event: Talk.CSS
   type: meetup
   released: true
+  pdf: true
 
 - title: "TechLadies in KL 🇲🇾"
   id: tl-in-kl
@@ -97,6 +109,7 @@
   event: TechLadies
   type: workshop
   released: true
+  pdf: true
 
 - title: "Deciphering the CSS property syntax"
   id: css-syntax
@@ -105,6 +118,7 @@
   event: Talk.CSS
   type: meetup
   released: true
+  pdf: true
 
 - title: "What the web means to me"
   id: wwc-2017
@@ -113,6 +127,7 @@
   event: Women Who Code
   type: meetup
   released: true
+  pdf: true
 
 - title: "Web typography: East meets West"
   id: webconf-asia-2017
@@ -121,6 +136,7 @@
   website: https://webconf.asia/
   type: conference
   released: true
+  pdf: true
 
 - title: "Chinese typography on the web"
   id: pitercss-2017
@@ -130,6 +146,7 @@
   website: https://pitercss.com/
   type: conference
   released: true
+  pdf: true
 
 - title: "CSS fonts trivia"
   id: css-fonts
@@ -138,6 +155,7 @@
   event: Talk.CSS
   type: meetup
   released: true
+  pdf: true
 
 - title: "Say no to cookie cutter web layouts"
   id: ffc-2017
@@ -146,6 +164,7 @@
   website: http://2017.formfunctionclass.com/
   type: conference
   released: true
+  pdf: true
 
 - title: "Be like water: applying Bruce Lee's philosophy to web design"
   id: moz-roadshow-2017
@@ -155,6 +174,7 @@
   website: https://mozilla.github.io/devroadshow2017/
   type: conference
   released: true
+  pdf: true
 
 - title: "Say no to cookie cutter web layouts extended"
   id: web-layouts-hk
@@ -162,6 +182,7 @@
   event: Harbour Front
   type: meetup
   released: true
+  pdf: true
 
 - title: "When East meets West: web typography and how it can inspire modern layouts"
   id: yglf-2017
@@ -171,6 +192,7 @@
   website: https://yougottalovefrontend.com/
   type: conference
   released: true
+  pdf: true
 
 - title: "2017: The Year of CSS Grid"
   id: gdaygt-2017
@@ -179,6 +201,7 @@
   website: http://devfest-gday.gdggeorgetown.com/
   type: conference
   released: true
+  pdf: true
 
 - title: "Love the web for what it is"
   id: love-the-web
@@ -188,6 +211,7 @@
   website: https://singaporecss.github.io/24
   type: meetup
   released: true
+  pdf: true
 
 - title: "Between East and West: web typography and how it can inspire modern layouts"
   id: jsconf-2018
@@ -197,6 +221,7 @@
   website: https://2018.jsconf.asia/
   type: conference
   released: true
+  pdf: true
 
 - title: "Grid is the new black"
   id: grid-workshop
@@ -206,6 +231,7 @@
   website: https://2018.jsconf.asia/
   type: workshop
   released: true
+  pdf: true
 
 - title: "Tech Briefing: Modern CSS with Hui Jing"
   id: modern-layouts
@@ -215,6 +241,7 @@
   website: https://air.mozilla.org/
   type: meetup
   released: true
+  pdf: true
 
 - title: "Why CSS is a game-changer for web design"
   id: constellation-2018
@@ -224,6 +251,7 @@
   website: https://githubconstellation.com/singapore/
   type: conference
   released: true
+  pdf: true
 
 - title: "Vertical writing on the web: inadvertent layout inspiration from a search for cultural identity"
   id: smashingsf-2018
@@ -233,6 +261,7 @@
   website: https://smashingconf.com/sf-2018/
   type: conference
   released: true
+  pdf: true
 
 - title: "East Asian web typography: crossing cultural boundaries for web layout inspiration"
   id: yglf-2018
@@ -242,6 +271,7 @@
   website: http://yglf.com.ua/
   type: conference
   released: true
+  pdf: true
 
 - title: "The web is not just left-to-right"
   id: cssconf-2018
@@ -251,6 +281,7 @@
   website: https://2018.cssconf.eu/
   type: conference
   released: true
+  pdf: true
 
 - title: "Box Alignment"
   id: cssday-2018
@@ -260,6 +291,7 @@
   website: https://cssday.nl/
   type: conference
   released: true
+  pdf: true
 
 - title: "Why performance"
   id: why-performance
@@ -274,6 +306,7 @@
   event: TechLadies
   type: workshop
   released: true
+  pdf: true
 
 - title: "TechLadies Pre-Bootcamp Workshop #1"
   id: tl-ws1-2018
@@ -281,6 +314,7 @@
   event: TechLadies
   type: workshop
   released: true
+  pdf: true
 
 - title: "Not in Kansas anymore: a new frontier for web design"
   id: code-2018
@@ -289,6 +323,7 @@
   website: https://www.webdirections.org/code/
   type: conference
   released: true
+  pdf: true
 
 - title: "Layout the web with CSS grid (and friends)"
   id: ffc-2018
@@ -297,6 +332,7 @@
   website: https://2018.formfunctionclass.com/
   type: workshop
   released: true
+  pdf: true
 
 - title: "East Asian Typography On The Web"
   id: refresh-2018
@@ -306,6 +342,7 @@
   website: http://refresh.rocks/
   type: conference
   released: true
+  pdf: true
 
 - title: "The case for modern CSS"
   id: ts-meetup-2018
@@ -315,6 +352,7 @@
   website: https://wiki.mozilla.org/TechSpeakers
   type: meetup
   released: true
+  pdf: true
 
 - title: "Rich Dynamic Design with Modern CSS"
   id: w3c-workshop-2018
@@ -323,6 +361,7 @@
   website: https://www.w3.org/publishing/events/tokyo18-workshop/
   type: workshop
   released: true
+  pdf: true
 
 - title: "Typesetting East Asian languages on the web"
   id: css-minsk-js-2018
@@ -332,6 +371,7 @@
   website: http://css-minsk-js.by/
   type: conference
   released: true
+  pdf: true
 
 - title: "Be like water: applying Bruce Lee's philosophy to web design"
   id: view-source-2018
@@ -341,6 +381,7 @@
   website: https://events.mozilla.org/viewsource2018
   type: conference
   released: true
+  pdf: true
 
 - title: "Laying out the web with CSS grid (and friends)"
   id: btconfws-2018
@@ -349,6 +390,7 @@
   website: https://beyondtellerrand.com/events/berlin-2018
   type: workshop
   released: true
+  pdf: true
 
 - title: "Box Alignment"
   id: btconf-2018
@@ -358,6 +400,7 @@
   website: https://beyondtellerrand.com/events/berlin-2018
   type: conference
   released: true
+  pdf: true
 
 - title: "Laying out the web with modern CSS"
   id: detech-2018
@@ -366,6 +409,7 @@
   website: https://detechconf.com
   type: workshop
   released: true
+  pdf: true
 
 - title: "Directions of the web"
   id: directions-of-the-web
@@ -374,6 +418,7 @@
   event: Talk.CSS
   type: meetup
   released: true
+  pdf: true
 
 - title: "CSS wizarding world"
   id: css-wizarding-world
@@ -381,6 +426,7 @@
   event: MozKopdar JKT
   type: meetup
   released: true
+  pdf: true
 
 - title: "State of the Web Singapore"
   id: state-of-the-web-sg
@@ -390,6 +436,7 @@
   website: https://www.smashingmagazine.com/smashing-tv/state-of-the-web-in-south-east-asia/
   type: meetup
   released: true
+  pdf: true
 
 - title: "Using Firefox DevTools to understand modern layout techniques"
   id: devtools-for-layouts
@@ -398,6 +445,7 @@
   website: https://www.smashingmagazine.com/smashing-tv/firefox-devtools-css-layout/
   type: meetup
   released: true
+  pdf: true
 
 - title: "Creating art with CSS"
   id: css-art
@@ -406,6 +454,7 @@
   event: Talk.CSS
   type: meetup
   released: true
+  pdf: true
 
 - title: "The value of sharing our persectives"
   id: devrelcon-2019
@@ -413,6 +462,7 @@
   event: DevRelCon Tokyo 2019
   type: conference
   released: true
+  pdf: true
 
 - title: "新时代CSS布局"
   id: cssconfcn-2019
@@ -422,6 +472,7 @@
   website: https://css.w3ctech.com/
   type: conference
   released: true
+  pdf: true
 
 - title: "网络的四面八方"
   id: web-is-not-just-ltr
@@ -429,6 +480,7 @@
   event: Sharing sessions with 唯品会 and YY.com
   type: meetup
   released: true
+  pdf: true
 
 - title: "Web typography: a non-English perspective"
   id: jsheroes-2019
@@ -438,6 +490,7 @@
   website: https://jsheroes.io/
   type: conference
   released: true
+  pdf: true
 
 - title: "A deep dive into images on the web"
   id: imagecon-2019
@@ -446,6 +499,7 @@
   website: https://www.imagecon.com/
   type: conference
   released: true
+  pdf: true
 
 - title: "Typesetting for a global web"
   id: yglf-2019
@@ -454,6 +508,7 @@
   website: https://lithuania.yglfconf.com/
   type: conference
   released: true
+  pdf: true
 
 - title: "Using DevTools to understand modern CSS layouts"
   id: cssconf-2019
@@ -478,3 +533,4 @@
   event: Talk.CSS
   type: meetup
   released: true
+  pdf: true

@@ -21,7 +21,11 @@ permalink: /talks/
         {% else %}
         <p class="no-margin"><span style="font-size:85%;" class="emoji" role="img" tabindex="0" aria-label="no">&#x274C;</span><span style="font-size:85%;" class="emoji" role="img" tabindex="0" aria-label="video">&#x1F4F9;</span><span style="font-size:85%;" class="emoji" role="img" tabindex="0" aria-label="sorry">&#x1F937;</span> <a href="https://github.com/huijing/slides/tree/gh-pages/{{ conference.count }}-{{ conference.id }}">Read transcript</a></p>
         {% endif %}
+        {% if conference.pdf %}
         <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/{{ conference.id }}.pdf">Download PDF</a></p>
+        {% else %}
+        <p>No slides, no pdf</p>
+        {% endif %}
     </div>
     {% else %}
     <div class="talk">
