@@ -4,6 +4,7 @@ title: "A thank you and love letter to CSSConf EU"
 date: Jun 02, 2019
 tags: [opinion, css]
 hastweet: true
+image: cssconfeu
 ---
 One year ago, I got the opportunity to speak at CSSConf EU 2018. I had just started out speaking at events outside my home base of Singapore, and it was my first time in Western Europe ever.
 
