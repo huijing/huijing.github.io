@@ -188,5 +188,5 @@ The gear body and the 4 compass direction gear teeth were made with a single `di
 
 ## Wrapping up
 
-I find Grid really awesome, and I'm obviously not the only person who thinks so. [Jen Simmons](http://jensimmons.com/) has compiled a list of really good Grid resources so check out [Learn CSS Grid](http://jensimmons.com/post/feb-27-2017/learn-css-grid) and try building something with Grid. You won't regret it. <span class="emoji" role="img" tabindex="0" aria-label="grinning face with smiling eyes">&#x1F601;</span>
+I find Grid really awesome, and I'm obviously not the only person who thinks so. [Jen Simmons](http://jensimmons.com/) has compiled a list of really good Grid resources so check out [Learn CSS Grid](https://web.archive.org/web/20190305235601/http://jensimmons.com/post/feb-27-2017/learn-css-grid) and try building something with Grid. You won't regret it. <span class="emoji" role="img" tabindex="0" aria-label="grinning face with smiling eyes">&#x1F601;</span>
 

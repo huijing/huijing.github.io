@@ -32,7 +32,7 @@ So the point is, decide on the frequency of your meet-up, then **just pick a day
 ***Update (@ 29 Feb 2016):*** Added in a few more points as suggested by [Sayanee](https://sayan.ee/).  
 ***Update (@ 21 Mar 2019):*** In August 2018, webuild.sg merged with Engineers.sg so this section is now obsolete. Please head over to Engineers.sg's [events page](https://engineers.sg/events/) for news on upcoming meetups.
 
-1. Go to [https://web.archive.org/web/20180422095346/https://data.webuild.sg/](https://data.webuild.sg/).
+1. Go to [https://web.archive.org/web/20180422095346/https://data.webuild.sg/](https://web.archive.org/web/20180422095346/https://data.webuild.sg/) or [https://webuildsg.github.io/data/](https://webuildsg.github.io/data/).
 2. Check the relevant date data, like [events by day of week](https://web.archive.org/web/20180810120142/http://data.webuild.sg/dataset/events-per-day-of-week/) and [events per week of month](https://web.archive.org/web/20180731134319/https://data.webuild.sg/dataset/events-per-week-of-month/).
 3. Subscribe to the [open events calendar](https://engineers.sg/events/) so you can see the schedule of all upcoming events.
 4. Based on your findings from step #2 and #3, determine the best day for your own meet-up.  

@@ -1410,7 +1410,7 @@ footer {
       <a href="http://labs.jensimmons.com/">The Experimental Layout Lab of Jen Simmons</a>
     </li>
     <li>
-      <a href="http://jensimmons.com/post/feb-27-2017/learn-css-grid">Learn CSS Grid</a> by Jen Simmons
+      <a href="https://web.archive.org/web/20190305235601/http://jensimmons.com/post/feb-27-2017/learn-css-grid">Learn CSS Grid</a> by Jen Simmons
     </li>
     <li>
       <a href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts">Examine grid layouts</a> by MDN

@@ -13,7 +13,7 @@ And because I'm a weirdo who likes charts, I wanted to see how this weight gain 
 
 ## Throwing numbers like I just don't care
 
-[Research conducted by FT.com](http://engineroom.wpengine.com/2016/04/04/a-faster-ft-com/) revealed that a slowdown of 3 seconds on page load time caused a mean percentage drop of 7.9% in article views over a period of 28 days. From an ecommerce perspective, Akamai conducted a survey back in 2009 which showed that consumers start to get impatient when pages take longer than 2 seconds to load. Mozilla managed to [increase download conversions by 15.4%](https://blog.mozilla.org/metrics/2010/04/05/firefox-page-load-speed-%E2%80%93-part-ii/) by shaving 2.2 seconds off their landing page load time back in 2010.
+[Research conducted by FT.com](https://medium.com/ft-product-technology/a-faster-ft-com-10e7c077dc1c) revealed that a slowdown of 3 seconds on page load time caused a mean percentage drop of 7.9% in article views over a period of 28 days. From an ecommerce perspective, Akamai conducted a survey back in 2009 which showed that consumers start to get impatient when pages take longer than 2 seconds to load. Mozilla managed to [increase download conversions by 15.4%](https://blog.mozilla.org/metrics/2010/04/05/firefox-page-load-speed-%E2%80%93-part-ii/) by shaving 2.2 seconds off their landing page load time back in 2010.
 
 According to [ICT Facts and Figures 2016 report](http://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx) published by the [International Telegraph Union (ITU)](http://www.itu.int/en/about/Pages/default.aspx), mobile broadband subscriptions are growing at a much faster rate than fixed broadband subscriptions in developing countries. 
 
@@ -232,7 +232,7 @@ Okay, that went on for longer than I expected. But that's because images is such
 
 <ul>
   <li class="no-margin"><a href="http://blogs.worldbank.org/opendata/where-are-cheapest-and-most-expensive-countries-own-mobile-phone">Where are the cheapest and most expensive countries to own a mobile phone?</a></li>
-  <li class="no-margin"><a href="http://jensimmons.com/presentation/modern-layouts-getting-out-our-ruts">Modern Layouts: Getting Out Of Our Ruts</a></li>
+  <li class="no-margin"><a href="https://talks.jensimmons.com/SwuNnf/modern-layouts-getting-out-of-our-ruts">Modern Layouts: Getting Out Of Our Ruts</a></li>
   <li class="no-margin"><a href="https://medium.com/@duhroach/how-png-works-f1174e3cc7b7#.ssxzmtqdz">How PNG works</a></li>
   <li class="no-margin"><a href="https://medium.freecodecamp.com/how-jpg-works-a4dbd2316f35#.miudhz3wq">How JPG Works</a></li>
   <li class="no-margin"><a href="http://ericportis.com/posts/2014/srcset-sizes/">Srcset and sizes</a></li>
