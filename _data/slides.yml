@@ -525,7 +525,7 @@
   event: Pixel Pioneers Bristol 2019
   website: https://pixelpioneers.co/events/bristol-2019
   type: conference
-  released: false
+  released: true
 
 - title: "Can your site work on IE3"
   id: ie3-challenge
