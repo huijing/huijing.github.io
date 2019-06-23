@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Building a check-in app with Nexmo's Verify API"
-date: May 22, 2019
+date: Jun 26, 2019
 tags: [nodejs, javascript, nexmo]
 ---
 Let's say you are running a game like [The Amazing Race](https://en.wikipedia.org/wiki/The_Amazing_Race), where there are multiple checkpoints that players have to physically reach before they can complete the game. This application is a way to track if a player has reached a checkpoint or not.
 
 ## A little bit about 2FA
 
-A typical two-factor authentication flow involves only 1 party. They will enter their mobile phone number to receive an SMS with the verification code, then enter said code into the user interface to authenticate their identity. Easy-peasy-lemon-squeezy.
+A typical two-factor authentication flow involves only one party. They will enter their mobile phone number to receive an SMS with the verification code, then enter said code into the user interface to authenticate their identity. Easy-peasy-lemon-squeezy.
 
-Things become a bit more interesting if you want to make this a 2-party affair. A checkpoint administrator will have a list of all players and their corresponding phone numbers. When players reach the checkpoint, the administrator will trigger a verification code that is sent to the player's phone.
+Things become a bit more interesting if you want to make this a two-party affair. A checkpoint administrator will have a list of all players and their corresponding phone numbers. When players reach the checkpoint, the administrator will trigger a verification code that is sent to the player's phone.
 
 The player will then enter that verification code via an online web form or respond via SMS to confirm their presence at the checkpoint. In theory, because the administrator has no way to access the verification code, they will be unable to verify players who are not present at the checkpoint.
 
@@ -36,27 +36,27 @@ Nexmo's [Verify API](https://developer.nexmo.com/verify/overview) is usually use
 
 If you're already using [Glitch](https://glitch.com/), please [skip all this](#skip-glitch). For people who have yet to discover the amazing platform that is Glitch, when you first land, you can choose what type of project you want to build. There are 3 presets, a simple website (no backend), a Node application and a Node application with a SQlite database. For this demo, you can go for the second option.
 
-<img srcset="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch-480.jpg 480w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch-640.jpg 640w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch-960.jpg 960w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch-640.jpg" alt="Starting a new Node project on Glitch">
+![Starting a new Node project on Glitch](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fglitch-1280.jpg?1558240533607)
 
-If you'd like to make sure your project persists, it's a good idea to sign up for a Glitch account. Glitch has been making feature improvements fairly frequently, so this may change if you're reading far into the future, but as of time of writing, they support sign in via Facebook, GitHub, Email or sign-in code.
+If you'd like to make sure your project persists, it's a good idea to sign up for a Glitch account. Glitch has been making feature improvements fairly frequently, so this may change if you're reading far into the future, but as of time of writing, they support sign in via Facebook, GitHub, email or sign-in code.
 
-<img srcset="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch2-480.jpg 480w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch2-640.jpg 640w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch2-960.jpg 960w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch2-640.jpg" alt="Sign in to a Glitch account">
+![Sign in to a Glitch account](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fglitch2-1280.jpg?1558240533389)
 
 By default, Node applications on Glitch run on Express, which is totally fine. This particular project uses Koa.js, so there are a couple more steps to go through for that.
 
-<img srcset="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch3-480.jpg 480w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch3-640.jpg 640w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch3-960.jpg 960w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch3-640.jpg" alt="Default package.json on a fresh Glitch Node project">
+![Default package.json on a fresh Glitch Node project](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fglitch3-1280.jpg?1558240533502)
 
 If you click on Tools at the bottom left of the screen, you will bring up some options, like Logs, Console, Container Stats and so on. 
 
-<img srcset="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch4-480.jpg 480w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch4-640.jpg 640w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch4-960.jpg 960w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch4-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch4-640.jpg" alt="Tools options on Glitch">
+![Tools options on Glitch](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fglitch4-1280.jpg?1558240533631)
 
 Logs is great to have open when developing your application because everything you `console.log()` shows up here.
 
-<img srcset="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch5-480.jpg 480w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch5-640.jpg 640w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch5-960.jpg 960w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch5-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch5-640.jpg" alt="Viewing logs on Glitch">
+![Viewing logs on Glitch](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fglitch5-1280.jpg?1558240533286)
 
 To customise the npm modules you want to use in your project, you can access the command line as you would your local machine or remote server. One thing to note is that instead of `npm`, Glitch uses `pnpm` as the package manager.
 
-<img srcset="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch6-480.jpg 480w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch6-640.jpg 640w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch6-960.jpg 960w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch6-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch6-640.jpg" alt="Accessing the Glitch console">
+![Accessing the Glitch console](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fglitch6-1280.jpg?1558240533428)
 
 Remove express by running the following:
 ```bash
@@ -90,7 +90,7 @@ const listener = app.listen(port, function() {
 
 If all went well, clicking on the Show button on the top nav bar should trigger your application in a new window with the text, “Hello Dinosaur 🦖”.
 
-<img srcset="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch7-480.jpg 480w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch7-640.jpg 640w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch7-960.jpg 960w, {{ site.url }}/assets/images/posts/progressive-enhancement/glitch7-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/progressive-enhancement/glitch7-640.jpg" alt="Check that Koa.js is running fine">
+![Check that Koa.js is running fine](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fglitch7-1280.jpg?1558240533571)
 
 ## The application structure
 
@@ -98,7 +98,7 @@ By right, there should be some proper user management for administrators. If you
 
 This means the application will have 3 pages, the login page, the administrator page, the verification code entry page.
 
-<img srcset="{{ site.url }}/assets/images/posts/checkpoint/screens-480.jpg 480w, {{ site.url }}/assets/images/posts/checkpoint/screens-640.jpg 640w, {{ site.url }}/assets/images/posts/checkpoint/screens-960.jpg 960w, {{ site.url }}/assets/images/posts/checkpoint/screens-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/checkpoint/screens-640.jpg" alt="Rough screen sketches">
+![Rough screen sketches for login page, administrator page and verification code entry page](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fscreens-1280.jpg?1558240461927)
 
 As mentioned earlier, some additional middlewares need to be installed. This project uses the following:
 - `koa-static` for serving static assets
@@ -148,7 +148,7 @@ router.get('/result/:phone', (ctx, next) => {
 
 ## Verify API
 
-There are 2 steps involved when using the Verify API. The first is to trigger an SMS containing the OTP to the target recipient's phone number.
+There are 2 steps involved when using the Verify API. The first is to trigger an SMS containing the one-time password (OTP) to the target recipient's phone number.
 
 ```javascript
 nexmo.verify.request({
@@ -219,16 +219,16 @@ function dbPlayerCount() {
   return db.get('players').size().value()
 }
 
-function dbAddId(phone, reqId, mode, status) {
+function dbAddId(phone, requestId, mode, status) {
   db.get('players')
     .find({ phone: phone })
-    .assign({ id: reqId, delivery: mode, status: status })
+    .assign({ id: requestId, delivery: mode, status: status })
     .write()
 }
 
-function dbUpdateStatus(reqId, status) {
+function dbUpdateStatus(requestId, status) {
   db.get('players')
-    .find({ id: reqId })
+    .find({ id: requestId })
     .assign({ status: status })
     .write()
 }
@@ -283,7 +283,7 @@ router.get('/', (ctx, next) => {
 ```
 You can then plug player values into the template and render them however you'd like your player data structured.
 
-<img srcset="{{ site.url }}/assets/images/posts/checkpoint/player-list-480.jpg 480w, {{ site.url }}/assets/images/posts/checkpoint/player-list-640.jpg 640w, {{ site.url }}/assets/images/posts/checkpoint/player-list-960.jpg 960w, {{ site.url }}/assets/images/posts/checkpoint/player-list-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/checkpoint/player-list-640.jpg" alt="Displaying player data on the frontend">
+![Displaying player data on the frontend](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fplayer-list-1280.jpg?1558240461783)
 
 ## Triggering the OTP
 
@@ -316,16 +316,16 @@ async function verify(number) {
 }
 
 // Add request ID to the database
-function dbAddId(phone, reqId, mode, status) {
+function dbAddId(phone, requestId, mode, status) {
   db.get('players')
     .find({ phone: phone })
-    .assign({ id: reqId, delivery: mode, status: status })
+    .assign({ id: requestId, delivery: mode, status: status })
     .write()
 }
 ```
-The resulting `request_id` is needed for the subsequent `check()` function, that verifies the `request_id` against the code entered by the player. This is stored in the database via the `dbAddId()` function.
+The `request_id`, which is part of the API response, will be needed for the subsequent `check()` function. This function will be used to verify the `request_id` against the code entered by the player. This is stored in the database via the `dbAddId()` function.
 
-<img srcset="{{ site.url }}/assets/images/posts/checkpoint/trigger-pin-480.jpg 480w, {{ site.url }}/assets/images/posts/checkpoint/trigger-pin-640.jpg 640w, {{ site.url }}/assets/images/posts/checkpoint/trigger-pin-960.jpg 960w, {{ site.url }}/assets/images/posts/checkpoint/trigger-pin-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/checkpoint/trigger-pin-640.jpg" alt="Trigger the OTP for each phone number">
+![Trigger the OTP for each phone number](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Ftrigger-pin-1280.jpg?1558240463513)
 
 ## Checking the OTP
 
@@ -346,7 +346,7 @@ The web form for players to enter their OTP will look something like this:
   <button>Submit</button>
 </form>
 ```
-<img srcset="{{ site.url }}/assets/images/posts/checkpoint/verify-pin-480.jpg 480w, {{ site.url }}/assets/images/posts/checkpoint/verify-pin-640.jpg 640w, {{ site.url }}/assets/images/posts/checkpoint/verify-pin-960.jpg 960w, {{ site.url }}/assets/images/posts/checkpoint/verify-pin-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/checkpoint/verify-pin-640.jpg" alt="Web form for entering the OTP sent to players' phones">
+![Web form for entering the OTP sent to players' phones](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fverify-pin-1280.jpg?1558240463340)
 
 When the player submits the OTP, you can retrieve the original `request_id` from the database, and pass both the `request_id` and PIN to the Verify API's `check()` function.
 
@@ -356,20 +356,20 @@ router.post('/check', async (ctx, next) => {
   const phone = payload.phone
   const code = payload.pin
   
-  const reqId = dbFindPlayer(phone).id
+  const requestId = dbFindPlayer(phone).id
 
-  const result = await check(reqId, code)
-  dbUpdateStatus(reqId, result.status)
+  const result = await check(requestId, code)
+  dbUpdateStatus(requestId, result.status)
   
   ctx.status = 200
   ctx.response.redirect('/result/' + payload.phone)
 })
 
 // Verify API's check function
-async function check(reqId, code) {
+async function check(requestId, code) {
   return new Promise(function(resolve, reject) {
     nexmo.verify.check({
-      request_id: reqId,
+      request_id: requestId,
       code: code
     }, (err, result) => {
       if (err) {
@@ -383,9 +383,9 @@ async function check(reqId, code) {
 }
 
 // Update player status in the database
-function dbUpdateStatus(reqId, status) {
+function dbUpdateStatus(requestId, status) {
   db.get('players')
-    .find({ id: reqId })
+    .find({ id: requestId })
     .assign({ status: status })
     .write()
 }
@@ -403,7 +403,7 @@ A successful verification will return a status code of `0`, which you can use to
   {% endif %}{% endraw %}
 </main>
 ```
-<img srcset="{{ site.url }}/assets/images/posts/checkpoint/result-480.png 480w, {{ site.url }}/assets/images/posts/checkpoint/result-640.png 640w, {{ site.url }}/assets/images/posts/checkpoint/result-960.png 960w, {{ site.url }}/assets/images/posts/checkpoint/result-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/checkpoint/result-640.png" alt="Verification results page displayed to the user">
+![Verification results page displayed to the user](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fresult-1280.png?1558240461554)
 
 ## Additional things you can do
 
@@ -411,10 +411,7 @@ Nexmo's [Messages API](https://developer.nexmo.com/messages/overview) can be use
 
 Or, maybe your game is taking place in a fairly remote location, think [Pulau Perhentian](http://www.malaysia.travel/en/my/places/states-of-malaysia/terengganu/pulau-perhentian) (pictured below), or for some reason your players don't have mobile data. So instead of checking the code via a web interface, players can respond via SMS.
 
-<figure>
-  <figcaption>As a Malaysian, I have to promote our beautiful islands</figcaption>
-  <img src="{{ site.url }}/assets/images/posts/checkpoint/perhentian.jpg" srcset="{{ site.url }}/assets/images/posts/checkpoint/perhentian@2x.jpg 2x" alt="Pulau Perhentian">
-</figure>
+![Pulau Perhentian, a place without data connectivity](https://cdn.glitch.com/a6e54ada-b027-4989-9c49-4368d4e55826%2Fperhentian%402x.jpg?1558240461954)
 
 The version hosted on [Glitch](https://glitch.com/~checkpoint-verify) covers the above 2 scenarios so feel free to check it out and remix it.
 
