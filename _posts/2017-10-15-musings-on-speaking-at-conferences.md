@@ -36,7 +36,7 @@ Now tie that in with the notion that people from Southeast Asia don't speak Engl
 
 It's a bit of a chicken and egg problem we have here. Definitely not something that can be solved with a simple solution. But I hope this sets some context for some of my subsequent (potentially controversial) viewpoints.
 
-At this point, I want to express my immense gratitude to the organisers who chose to take a chance on me. 2017 was my inaugural year of speaking at web conferences. But I started out at a local meetup in 2015, when a friend of mine asked me to talk about an article I wrote that was published on A List Apart.
+At this point, I want to express my immense gratitude to the organisers who chose to take a chance on me. 2017 was my inaugural year of speaking internationally at web conferences. But I started out at a local meetup in 2015, when a friend of mine asked me to talk about an article I wrote that was published on A List Apart.
 
 One thing led to another and before I knew it, I got my first hosting gig as the MC for [CSSConf.Asia 2015](https://2015.cssconf.asia/) from [Thomas Gorissen](https://twitter.com/serrynaimo). That was how I got to know Aysha in the first place (I still remember exactly where and when we met <span class="emoji" role="img" tabindex="0" aria-label="person gesturing ok">&#x1F646;</span>). The following year, I did a short talk at [CSSConf.Asia 2016](https://2016.cssconf.asia/) which was in turn MC-ed by Aysha and another good friend of mine, Zell.
 
@@ -56,7 +56,7 @@ Five percent pleasure, fifty percent pain
 And a hundred percent reason to remember the name  
 —Fort Minor, *Remember the name*
 
-[Vadim Makeev](https://twitter.com/pepelsbey_?lang=en), organiser of [pitercss conference](https://pitercss.com/), flew me out to Saint Petersburg, which was the first time I travelled out of Asia to give a talk. Again, the talk was prepared way ahead of the conference and rehearsed until the cows came home. Also, a large reason why I got the chance to speak at [Form, Function Class 8](http://2017.formfunctionclass.com/) was because the organisers were in attendance at Webconf.Asia. 
+[Vadim Makeev](https://twitter.com/pepelsbey_?lang=en), organiser of [pitercss conference](https://pitercss.com/), flew me out to Saint Petersburg, which was the first time I travelled out of Asia to give a talk. Again, the talk was prepared way ahead of the conference and rehearsed until the cows came home. Also, a large reason why I got the chance to speak at [Form, Function Class 8](http://2017.formfunctionclass.com/) was because the organisers were in attendance at Webconf.asia. 
 
 Speaking at my first conference introduced me to people who brought me subsequent opportunities. I desperately want people outside our region to realise that there is a lot of talent over here, and we too can do well on the international stage. All we need is a foot in the door, and an opportunity to show what we can do.
 
@@ -96,7 +96,7 @@ Thus far, I've been treated with nothing but kindness during my various speaking
 
 The most memorable moments came from when I was speaking at the Malaysia stops on the Mozilla Developer Roadshow. It never occurred to me that local audiences would be interested in a local speaker when there were Westerners around. In hindsight, I probably do have some subconscious bias against locals from years of being inundated with media portraying Westerners as superior when I was a kid. I'm not proud of it.
 
-So when I opened my Kuala Lumpur talk with “Saya bangga jadi anak Malaysia”, and received a warm applause from the audience, it was an amazing feeling. That phrase translates to “I am proud to be Malaysian”, and I believe it with every fibre of my being. At the Penang stop, one of the people who came up to chat with me afterward even mentioned that some people probably came just to see my session, because I was a local name. And that just blew my mind.
+So when I opened my Kuala Lumpur talk with “Saya bangga jadi anak Malaysia”, and received a warm applause from the audience, it was the most amazing feeling. That phrase translates to “I am proud to be Malaysian”, and I believe it with every fibre of my being. At the Penang stop, one of the people who came up to chat with me afterward even mentioned that some people probably came just to see my session, because I was a local name. And that just blew my mind.
 
 Now when I think about how I feel when I see our national athletes do well at the Olympics, or when I see Michelle Yeoh kick ass on the silver screen, or when I discovered that Captain Philippa Georgiou of the USS Shenzhou is **canonically Malaysian** <span class="emoji" role="img" tabindex="0" aria-label="vulcan salute">&#x1F596;</span>, I realised that representation does matter.
 

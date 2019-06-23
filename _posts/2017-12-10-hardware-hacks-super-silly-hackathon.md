@@ -94,7 +94,7 @@ This is where my memory gets fuzzy. I can't remember if we tried the RC2 version
 
 It was lunchtime when I made my IT-mall-blank-CD-buying run, so there was a lot of typing with one finger while shovelling food in my mouth. Oh, but when we got to the part where ALL the hardware components were recognised correctly, happy dance <span class="emoji" role="img" tabindex="0" aria-label="person dancing">&#x1F483;</span>.
 
-After mucking around a bunch of boot options for another half and hour or so, we realised that we should have just typed `install` when the boot prompt came up <span class="emoji" role="img" tabindex="0" aria-label="angry face">&#x1F620;</span>. In our defence, the instructions looked like this:
+After mucking around a bunch of boot options for another half an hour or so, we realised that we should have just typed `install` when the boot prompt came up <span class="emoji" role="img" tabindex="0" aria-label="angry face">&#x1F620;</span>. In our defence, the instructions looked like this:
 
 <figure>
     <figcaption>Oh, just, come on...</figcaption>
