@@ -66,12 +66,12 @@ function browserSyncServe(done) {
     server: '_site',
     port: 4321
   })
-  done();
+  done()
 }
 
 function browserSyncReload(done) {
-  browserSync.reload();
-  done();
+  browserSync.reload()
+  done()
 }
 
 /**
@@ -94,7 +94,7 @@ function jekyllProd(done) {
  * Watch html/md files, run Jekyll & reload BrowserSync
  */
 function watchMarkup() {
-  gulp.watch(['index.html', '_layouts/*.html', '_includes/*.html', '_drafts/*', '_posts/*', '_pages/*'], gulp.series(jekyllDev, browserSyncReload));
+  gulp.watch(['index.html', '_layouts/*.html', '_includes/*.html', '_drafts/*', '_posts/*', '_pages/*'], gulp.series(jekyllDev, browserSyncReload))
 }
 
 function watchScripts() {
