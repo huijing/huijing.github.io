@@ -63,7 +63,7 @@ It was really cool to meet a few of the most well-known names in the Chinese fro
 
 My Nexmo DevRel colleague and fellow [Mozilla TechSpeaker](https://events.mozilla.org/techspeakers), [Alex Lakatos](https://twitter.com/lakatos88), is Romanian and happened to live in Cluj for a bit. I had never been to Romania before, but I already had friends there, largely because of TechSpeakers.
 
-[JSHeroes](https://jsheroes.io/) was a 2-day single track conference with 23 speakers, many of whom were friends I had met previously at other conferences, so it was nice to catch up with them. 
+[JSHeroes](https://jsheroes.io/) was a 2-day single track conference with 23 speakers, a number of whom were friends I had met previously at other conferences, so it was nice to catch up with them.
 
 There was a lot of amazing content packed into 48 hours (less if you count the actual conference time). This Romania trip also marked the beginning of my sort-of-nuts summer conference schedule for 2019.
 
@@ -79,9 +79,23 @@ Another highlight was [Madalina Tantareanu](https://twitter.com/Madalinadraws), 
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="United States of America">&#x1F1FA;&#x1F1F8;</span> @ ImageCon
 
-Technically, this isn't a talk about CSS. In fact, the talk I gave was the first non-CSS talk I ever delivered on a conference stage. 
+Technically, this isn't a talk about CSS. In fact, the talk I gave was the first non-CSS talk I ever delivered on a conference stage. What happened was, I had tweeted out the year before about how awesome [the 2018 line-up](https://cloudinary.com/blog/imagecon2018_toward_excellence_in_interactive_visual_media) looked and unfortunately could only wait for the videos to be released.
+
+[Eric Portis](https://twitter.com/etportis) reached out to me early this year and asked if I'd like to speak at this year's [ImageCon](https://www.imagecon.com/), and I immediately agreed. It only dawned on me at a much later date that I wasn't exactly an expert on images. But I always had a fascination with graphics rendering in general.
+
+The talk I pitched was a deep dive into images on the web, because I wanted to answer all the questions I had in my head about this topic. The research process was fascinating, and I am so grateful to the experts I reached out to for advice and clarification.
+
+This particular trip to San Francisco was also a chance for me to catch up with a number of friends who were normally have a planet away. Like [Yiying Lu](https://twitter.com/YiyingLu), who I met almost exactly a year ago, in San Francisco as well. And I finally got to meet [Christian Nwamba](https://twitter.com/codebeast) in person. <span class=""></span>
+
+Also went climbing with [Jennifer Wong](https://twitter.com/mybluewristband), hung out at the most creative space ever, and helped out a bit with the [5x5: Art Show](https://www.facebook.com/events/2979-21st-st-san-francisco-ca-94110-2729-united-states/5x5-art-show-pop-up-shop/444198869673364/). Call me slow but it was then I realised that a lot of people I know are based in the Bay Area.
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Lithuania">&#x1F1F1;&#x1F1F9;</span> @ YGLF Vilnius
+
+Lithuania is a country that I'd known about since I was 13 years old, because of their basketball team. And it was a surprise to me, growing up, that most people hadn't really heard of Lithuania before. We all have different priorities in life, I suppose.
+
+I've had the good fortune of speaking at 2 prior YGLF conferences and both were really great experiences. So when [Sergey Bolshchikov](https://twitter.com/bolshchikov) reached out and asked if I would like to give the opening keynote at [YGLF Vilnius](https://lithuania.yglfconf.com/), there was no way I'd say no.
+
+As luck would have it, Wei was looking for conferences to go to, and I pitched her the idea of coming with me to Lithuania, not expecting her to agree. Nobody had ever taken me up on such offers before, but she said yes. 
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Germany">&#x1F1E9;&#x1F1EA;</span> @ CSSConf EU
 
