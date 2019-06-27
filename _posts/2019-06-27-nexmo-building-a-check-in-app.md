@@ -3,6 +3,9 @@ layout: post
 title: "Building a check-in app with Nexmo's Verify API"
 date: Jun 26, 2019
 tags: [nodejs, javascript, nexmo]
+noindex: true
+external_site: nexmo
+external_url: https://www.nexmo.com/blog/2019/06/27/building-a-check-in-app-with-nexmos-verify-api-dr/
 ---
 Let's say you are running a game like [The Amazing Race](https://en.wikipedia.org/wiki/The_Amazing_Race), where there are multiple checkpoints that players have to physically reach before they can complete the game. This application is a way to track if a player has reached a checkpoint or not.
 
