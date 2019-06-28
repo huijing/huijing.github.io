@@ -145,7 +145,7 @@ The venue was gorgeous and the lighting was great. I inadvertently matched my on
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/yglf2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/yglf2-640.jpg" alt="On the YGLF Vilnius stage">
 
-One of the highlights of my speaking career is being emcee-ed by [Bruce Lawson](https://twitter.com/brucel), not once, not twice but thrice. Maybe this number will go up in future, who knows? But it's a always a fun time when Bruce is running the show.
+One of the highlights of my speaking career is being emcee-ed by [Bruce Lawson](https://twitter.com/brucel), not once, not twice but thrice. Maybe this number will go up in future, who knows? But it's always a fun time when Bruce is running the show.
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/yglf4-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf4-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf4-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf4-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/yglf4-640.jpg" alt="Bruce and I share an embrace after I go on his chair of interrogation">
 
@@ -182,11 +182,11 @@ There were lots of friendly faces near the front of the stage and once I started
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">First time seeing <a href="https://twitter.com/hj_chen?ref_src=twsrc%5Etfw">@hj_chen</a> speak, and WOW she’s just amazing. Awesome live demo of content-based sizing in the browser (horizontal and vertical!) <a href="https://twitter.com/hashtag/cssconfeu?src=hash&amp;ref_src=twsrc%5Etfw">#cssconfeu</a> <a href="https://t.co/x5CcYk9LaJ">pic.twitter.com/x5CcYk9LaJ</a></p>&mdash; Jason Pamental (@jpamental) <a href="https://twitter.com/jpamental/status/1134393573942542337?ref_src=twsrc%5Etfw">31 May 2019</a></blockquote>
 
-I was captivated by all the talks from start to finish, and super chuffed to meet [Manuel Rego](https://twitter.com/regocas), [Jason Pamental](https://twitter.com/jpamental) and [Estefany Aguilar](https://twitter.com/teffcode) in person! Estefany gave a great talk on one of my favourite CSS topics, logical properties, and her slides were gorgeous.
+I was captivated by all the talks from start to finish, and super chuffed to meet [Manuel Rego](https://twitter.com/regocas), [Jason Pamental](https://twitter.com/jpamental) and [Estefany Aguilar](https://twitter.com/teffcode) in person! Estefany gave a great talk on one of my favourite CSS topics, logical properties, and [her slides](https://docs.google.com/presentation/d/1-GOSaggySGIKmcNuDPNPE6ZZEM2H_oF2AOdcMvlG7kk/edit#slide=id.g562dbb611a_0_0) were gorgeous.
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfeu2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfeu2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfeu2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfeu2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfeu2-640.jpg" alt="Selfie with 2 amazing women, Sareh Heidari and Estefany Aguilar at CSSconf EU 2019">
 
-She also dropped big news at the end of her talk, that CSS Conf Columbia would be the newest addition to the CSSConf family and would be taking place in March 2020. <span class="emoji" role="img" tabindex="0" aria-label="party popper">&#x1F389;</span>
+She also dropped big news at the end of her talk, that [CSS Conf Columbia](https://twitter.com/cssconfco) would be the newest addition to the CSSConf family and would be taking place in March 2020. <span class="emoji" role="img" tabindex="0" aria-label="party popper">&#x1F389;</span>
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfeu3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfeu3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfeu3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfeu3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfeu3-640.jpg" alt="With Sher Minn before her talk at JSConf EU">
 
@@ -217,6 +217,11 @@ Pixel Pioneers is a very locally-focused conference and a contrast from CSSconf 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/pixelpioneers2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/pixelpioneers2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/pixelpioneers2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/pixelpioneers2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/pixelpioneers2-640.jpg" alt="Family photo after Pixel Pioneers 2019">
 
 Because I needed to reboot, and my work computer needs at least a good 5 minutes to start up, I really put our emcee, [Phil Hawksworth](https://twitter.com/philhawksworth), on the spot by asking him to tell jokes for at least 5 minutes. Phil was brilliant as an emcee, plus, he gave a talk of his own, so all the kudos to him.
+
+<figure>
+    <figcaption>Phil doing me a solid while I frantically reboot in the background</figcaption>
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/pixelpioneers3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/pixelpioneers3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/pixelpioneers3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/pixelpioneers3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/pixelpioneers3-640.jpg" alt="Phil distracting the crowd with engaging questions">
+</figure>
 
 After a lot of running around since April, it was finally time to head home for my last major event of the summer conference season. Lots of traveling does make coming home a more significant event, especially when you have people to come home to.
 
@@ -260,7 +265,7 @@ I can't tell you how many times I've heard locals say how the conferences in the
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Waiting in this wonderful airport in Singapore (fastest checking ever!), ruminating on the wonderful last three days at <a href="https://twitter.com/hashtag/jsconfasia?src=hash&amp;ref_src=twsrc%5Etfw">#jsconfasia</a>, I can&#39;t help but be thankful for the good talks, top-notch discussions and meetings with developers, and last but not least—the great food!</p>&mdash; Gil Tayar (@giltayar) <a href="https://twitter.com/giltayar/status/1140182960663957505?ref_src=twsrc%5Etfw">16 June 2019</a></blockquote>
 
-It was chaotic at time, things went wrong, and a lot of sprinting and lifting heavy objects took place. But overall, I think we can consider JSConf.Asia 2019 a successful conference. Go team!
+It was chaotic at time, things went wrong, and a lot of sprinting and lifting heavy objects took place. But overall, I think we can consider JSConf.Asia 2019 a successful conference. Go team! <span class="emoji" role="img" tabindex="0" aria-label="person gesturing ok">&#x1F646;</span>
 
 <img src="{{ site.url }}/assets/images/posts/talking-css-2019/jsconfasia5.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/jsconfasia5@2x.jpg 2x" alt="JSConf.Asia 2019 organising team">
 
