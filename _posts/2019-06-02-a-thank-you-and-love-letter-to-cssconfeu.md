@@ -24,7 +24,7 @@ There was just so much love all around. The conference was also the most inclusi
 
 <img srcset="{{ site.url }}/assets/images/posts/cssconfeu/home-stage-480.jpg 480w, {{ site.url }}/assets/images/posts/cssconfeu/home-stage-640.jpg 640w, {{ site.url }}/assets/images/posts/cssconfeu/home-stage-960.jpg 960w, {{ site.url }}/assets/images/posts/cssconfeu/home-stage-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/cssconfeu/home-stage-640.jpg" alt="Family photo at the end of CSSConf EU 2018">
 
-Fast forward 1 year later, as I was returning to Singapore from a conference in Vilnius, I missed my connection from Berlin and was stuck in Berlin for an additional 24 hours. With [a friend](https://twitter.com/wgao19) whom I had dragged out from Singapore to go to the conference with me.
+Fast forward 1 year later, as I was returning to Singapore from a conference in Vilnius, I missed my connection from Berlin and was stuck in Berlin for an additional 24 hours. With my best mate, [Wei](https://twitter.com/wgao19), whom I had dragged out from Singapore to go to the conference with me.
 
 If this had happened to me a year ago, I would have been less chill than I was. I wouldn't have known where to go or who to reach out to at 11pm when Tegel Airport clearly stops working.
 
