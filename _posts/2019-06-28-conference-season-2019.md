@@ -111,7 +111,7 @@ Technically, this isn't a talk about CSS. In fact, the talk I gave was the first
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/imagecon-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/imagecon-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/imagecon-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/imagecon-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/imagecon-640.jpg" alt="On stage at ImageCon">
 
-[Eric Portis](https://twitter.com/etportis) reached out to me early this year and asked if I'd like to speak at this year's [ImageCon](https://www.imagecon.com/), and I immediately agreed. It only dawned on me at a much later date that I wasn't exactly an expert on images. But I always had a fascination with graphics rendering in general.
+[Eric Portis](https://twitter.com/etportis) reached out to me end of last year and asked if I'd like to speak at this year's [ImageCon](https://www.imagecon.com/), and I immediately agreed. It only dawned on me at a much later date that I wasn't exactly an expert on images. But I always had a fascination with graphics rendering in general.
 
 The talk I pitched was a deep dive into images on the web, because I wanted to answer all the questions I had in my head about this topic. The research process was fascinating, and I am so grateful to the experts I reached out to for advice and clarification.
 
