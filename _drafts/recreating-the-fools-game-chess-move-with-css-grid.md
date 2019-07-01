@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Recreating the Fool's Game chess move with CSS Grid"
-date: Jun 23, 2019
+date: Jul 3, 2019
 tags: [html, css]
 hascodepen: true
 ---
