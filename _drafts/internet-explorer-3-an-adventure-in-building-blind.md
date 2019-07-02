@@ -55,8 +55,71 @@ Given that we were presenting at Talk.CSS, where all talks would be recorded, th
 
 To be fair, Kheng Meng did offer to loan me the actual machine for testing purposes but because I specialise in doing things that sound like a good idea at the time (except they're really not), I turned him down. It would be like a [Code in the Dark](http://codeinthedark.com/), except without the shitty EDM music and the stress of a countdown.
 
-As aside, little did I know I would end up hosting the Code in the Dark session for JSConf.Asia. It had been a long day, I got snarky near the end. Ask me about it, if you want.
+As an aside, little did I know I would end up hosting the Code in the Dark session for [JSConf.Asia](https://2019.jsconf.asia/). It had been a long day, I got snarky near the end. Ask me about it, if you want.
+
+<img srcset="{{ site.url }}/assets/images/posts/ie3-challenge/jsconf-480.jpg 480w, {{ site.url }}/assets/images/posts/ie3-challenge/jsconf-640.jpg 640w, {{ site.url }}/assets/images/posts/ie3-challenge/jsconf-960.jpg 960w, {{ site.url }}/assets/images/posts/ie3-challenge/jsconf-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/ie3-challenge/jsconf-640.jpg" alt="Hosting Code in the Dark at JSConf.Asia 2019">
 
 Remember that I wanted a single codebase that would function for the latest Nightly builds all the way back to the browsers of '96. So there was some planning involved, for the design and the resultant markup. I was thinking, nothing too fancy, just a single web page about the project and Internet Explorer 3.
 
-But I also wanted to use modern CSS effects for the new browsers, like gradients, blend modes and layout models like grid. The challenge was to spruce up the IE3 version as much as I could with what limited CSS was available. 
+But I also wanted to use modern CSS effects for the new browsers, like gradients, blend modes and layout models like grid. The challenge was to spruce up the IE3 version as much as I could with what limited CSS was available.
+
+### Thinking about markup
+
+Trust me when I say I almost succumbed to the wiles of HTML tables when dealing with this project. And to be fair, if you [look at the code](https://github.com/huijing/ie3-challenge/blob/master/index.html), I did use a couple HTML tables, simply to test out how I could use modern CSS to modify it.
+
+It's definitely not best practice to do it this way, I reckon, but that's why this is an EXPERIMENT. One of the things I had to figure out was how the browser would react to unsupported HTML elements. My assumption was they'd simply be ignored.
+
+According to [the specification](https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements),
+
+> …authors could always use non-standard elements in their documents, with application-specific behavior added after the fact by scripting or similar…
+
+After the fact, I learned that the reason [HTML5 Shiv](https://github.com/aFarkas/html5shiv) existed was to deal with legacy versions of Internet Explorer back till IE6. [John Resig](https://johnresig.com/) explained that IE doesn't know how to render CSS [on elements that it doesn't recognise](https://johnresig.com/blog/html5-shiv/).
+
+But according to [Sjoerd Vissche](http://w3future.com/weblog/), if you want CSS rules to apply to unknown elements, using
+<pre class="language-javascript"><code>document.createElement(elementName)</code></pre>
+would let the CSS engine know about this element.
+
+For my case, I'm happy for the legacy browsers to ignore the modern elements so I can leave them alone for the baseline version of the web page.
+
+There was a failed bit of markup involving conditional comments for IE, which I'm wondering if it's because I'm using it for the `audio` tag or what, but I had to CSS hack that bit instead.
+
+<pre class="language-markup"><code>&lt;!--[if !IE]> -->
+&lt;audio controls class="annoying">
+  &lt;source src="audio/tetoroika.mp3" type="audio/mpeg">
+&lt;/audio>
+&lt;!-- <![endif]--></code></pre>
+
+I still like checking to see how the site looks in [Lynx](https://lynx.browser.org/) though.
+
+<img srcset="{{ site.url }}/assets/images/posts/ie3-challenge/lynx-480.png 480w, {{ site.url }}/assets/images/posts/ie3-challenge/lynx-640.png 640w, {{ site.url }}/assets/images/posts/ie3-challenge/lynx-960.png 960w, {{ site.url }}/assets/images/posts/ie3-challenge/lynx-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/ie3-challenge/lynx-640.png" alt="IE3 challenge website on Lynx">
+
+### Thinking about CSS
+
+Now this was the meat of the project. The [first version of CSS](https://www.w3.org/TR/REC-CSS1/) didn't give us much to play with. But if that was all there was, life would have been easy.
+
+No, turns out when IE3 claims to support CSS1, they are using that term rather loosely. Even the W3C [had additional information](https://www.w3.org/Style/CSS/msie/) explaining the “holes in the CSS implementation”.
+
+Braden N. McDaniel published a [full reference](http://endoframe.com/css/ie3.html) for authors who wanted to use CSS on their own web pages to be viewed with IE3, because it was truly a hole-y implementation.
+
+Apparently there was a version of IE3 for the Macintosh as well, and [Eric Meyer](https://meyerweb.com/) wrote up [a similar document](https://web.archive.org/web/20080126234516/http://www.case.edu/dms/homes/eam3/css1/msie-css1.html) listing which properties are supported and which are not.
+
+<p class="no-margin">Some of the missing functionality includes:</p>
+<ul>
+  <li class="no-margin"><code>em</code> values (i.e. length units relative to a font size) are not supported. This is important in order to write style sheets that scale from one resolution to another.</li>
+  <li class="no-margin">There is no documented way for users to supply their personal style sheets.</li>
+  <li class="no-margin"><code>margin</code> (the compound property) and <code>margin-bottom</code> are not supported</li>
+  <li class="no-margin">the <code>padding</code> properties are not supported</li>
+  <li class="no-margin">the <code>border</code> properties are not supported</li>
+  <li>pseudo-elements are not supported (but pseudo-classes are!)</li>
+</ul>
+
+<p class="no-margin">I also love the bugs like these:</p>
+<ul>
+  <li class="no-margin">Line spacing is also added to the last line of a formatted element – that’s why there is so much space around the headlines. Spacing should only be added between lines</li>
+  <li>vertical spacing sometimes act weird after lists</li>
+</ul>
+
+
+
+## The unsightly reveal
+
