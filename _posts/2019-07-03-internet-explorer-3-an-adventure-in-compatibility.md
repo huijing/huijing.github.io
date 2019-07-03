@@ -3,6 +3,7 @@ layout: post
 title: "Internet Explorer 3, an adventure in cross-browser compatibility"
 date: Jul 3, 2019
 tags: [html, css, design, retrotech]
+image: ie3-challenge
 ---
 Some of you might know that I run the [CSS meetup, Talk.CSS](https://singaporecss.github.io) in Singapore together with my best mate, [Wei](https://twitter.com/wgao19). If you didn't, you do now. Perhaps you have inferred that I really do love CSS. But you know what else I love? The 90s. More specifically, computing in the 90s.
 
