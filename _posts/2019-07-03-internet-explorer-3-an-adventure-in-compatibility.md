@@ -305,6 +305,6 @@ If you made it till this part of the article, wow, thanks. Like, seriously. This
 
 Fun fact, on the day of the talk, my “modern” work computer, which is a 2017 13-inch MacBook Pro, literally died in the middle of the presentation. Twice. <span class="kaomoji">(╯°□°）╯︵ ┻━┻</span>
 
-The T390 worked beautifully from start to finish.
+The IBM Thinkpad 390e worked beautifully from start to finish.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dVdBD3SQMl4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
