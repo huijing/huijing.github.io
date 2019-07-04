@@ -52,6 +52,10 @@ Given that we were presenting at Talk.CSS, where all talks would be recorded, th
 
 <img srcset="{{ site.url }}/assets/images/posts/ie3-challenge/ie3d-480.jpg 480w, {{ site.url }}/assets/images/posts/ie3-challenge/ie3d-640.jpg 640w, {{ site.url }}/assets/images/posts/ie3-challenge/ie3d-960.jpg 960w, {{ site.url }}/assets/images/posts/ie3-challenge/ie3d-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/ie3-challenge/ie3d-640.jpg" alt="Recording setup involving 3 computers and an excessive amount of cables">
 
+Contributing to the mess of cables was the not-so-straightforward problem of getting the machine connected to the Internet. The initial attempt of doing it via a PCMCIA/Cardbus network adapter failed because the IBM's Cardbus slot DOS drivers did not work.
+
+Time for Plan B. In this case, a Parallel Port network adapter (we used a Xircom Pocket Ethernet PE3-10BT) connected to a Wifi-Ethernet bridge. Sprinkle on some manual DNS configuration and voila, the magic of the Internet.
+
 There was also the issue of protocols. Even though IE3 supported HTTPS, it uses SSL3, which is sort of a deprecated protocol given its security issues. Anyway, rather than deal with all that certificate stuff, I went with HTTP and hosted my pages on [Surge](https://surge.sh/), where HTTPS is opt-in and not forced.
 
 <img srcset="{{ site.url }}/assets/images/posts/ie3-challenge/ie3c-480.jpg 480w, {{ site.url }}/assets/images/posts/ie3-challenge/ie3c-640.jpg 640w, {{ site.url }}/assets/images/posts/ie3-challenge/ie3c-960.jpg 960w, {{ site.url }}/assets/images/posts/ie3-challenge/ie3c-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/ie3-challenge/ie3c-640.jpg" alt="Kheng Meng and I at Super Silly Hackathon 2017">
