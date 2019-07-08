@@ -91,7 +91,8 @@ Upon some digging, I found this post by [Sjoerd Vissche](http://w3future.com/web
 would let the CSS engine know about this element.
 
 *Update:*  
-[Nicholas Stimpson](https://dev.to/alohci) has kindly pointed out that `document.createElement(elementName)` changes the HTML parser to recognise the element and add it into the browser's internal object model. The fact that the CSS worked on the elements was a consequence of the parsing change. The significant difference being that JS is also able to manipulate the elements created.
+[Nicholas Stimpson](https://dev.to/alohci) has kindly pointed out that `document.createElement(elementName)` changes the HTML parser to recognise the element and add it into the browser's internal object model.  
+The fact that the CSS worked on the elements was a consequence of the parsing change. The significant difference being that JS is also able to manipulate the elements created.
 
 For my case, I'm happy for the legacy browsers to ignore the modern elements so I can leave them alone for the baseline version of the web page.
 
