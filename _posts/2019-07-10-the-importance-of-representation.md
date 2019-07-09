@@ -10,11 +10,11 @@ But until I got the chance to travel to tech conferences, I didn't really think 
 
 That changed in 2014 when I [attended not 1, but 2 web conferences]({{ site.url }}/blog/reflecting-on-this-web-developer-journey#the-web-development-conferences), [Form, Function & Class 5](http://2014.formfunctionclass.com/) in Manila, and [CSSConf.Asia 2014](https://2014.cssconf.asia/) in Singapore. I realised that physically being at a conference was very different from watching videos at home.
 
-Now, I was and still am a cheap Asian stereotype, so I started scheming ways to get to conferences without having to pay for them. Volunteering was a good start, which led to hosting, and eventually I ended up speaking at conferences as well.
+I was and still am a cheap Asian stereotype, so I started scheming ways to get to conferences without having to pay for them. Volunteering was a good start, which led to hosting, and eventually I ended up speaking at conferences as well.
 
 <img srcset="{{ site.url }}/assets/images/posts/representation/rep-480.jpg 480w, {{ site.url }}/assets/images/posts/representation/rep-640.jpg 640w, {{ site.url }}/assets/images/posts/representation/rep-960.jpg 960w, {{ site.url }}/assets/images/posts/representation/rep-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/representation/rep-640.jpg" alt="Volunteering, hosting and speaking at conferences">
 
-The environment I grew up in and all my past experiences shapes my thoughts and opinions right now. This also means my thoughts and opinions had changed from the past, and will continue to change as time moves forward. You may or may not agree with me, and that's perfectly fine.
+The environment I grew up in and all my past experiences shapes my thoughts and opinions right now. This also means my thoughts and opinions have changed from the past, and will continue to change as time moves forward. You may or may not agree with me, and that's perfectly fine.
 
 I'm a fairly pessimistic person, in that, I tend to hold on to the negative things more than the positive. The only thing I have going for me is that I'm aware I do this. Unfortunately, my rational brain can never seem to override how I feel at any time.
 
@@ -34,7 +34,7 @@ But my point here is, I never had **faith**. Never had faith that people would b
 
 ## “We came to see you…”
 
-In 2017, I had the opportunity to be part of the speaker line-up for the [Mozilla Developer Asia Roadshow](https://medium.com/mozilla-tech/mozilla-developer-roadshow-asia-chapter-dd44d7342b9c). But I was literal no-name who had only 2 talks to her name among a star-studded line-up of well-known personalities.
+In 2017, I had the opportunity to be part of the speaker line-up for the [Mozilla Developer Asia Roadshow](https://medium.com/mozilla-tech/mozilla-developer-roadshow-asia-chapter-dd44d7342b9c). But I was a literal no-name who had only 2 talks to her name among a star-studded line-up of well-known personalities.
 
 The Roadshow covered 5 cities, of which 3 I claimed as home. Singapore, because I was based there. Kuala Lumpur, because I spent 8 years of my youth there. Penang, because I was born there. I was nervous as hell for the Singapore leg because I was sandwiched between Jeremy Keith and Vitaly Friedman.
 
@@ -54,7 +54,7 @@ I think those stories said more about me and my myriad of issues than the actual
 
 This is something I believe in now. Enough to end up proposing [an impromptu lightning talk]({{ site.url }}/blog/the-value-of-sharing-our-perspectives) at DevRelCon Tokyo earlier this year. There are some things that will stay with me, probably for the rest of my life, like the feeling of, what I’m doing isn’t that great, or who am I to stand in front of other people, like yourselves, and talk about what I do?
 
-I have been incredibly fortunate to have met and become friends with outspoken and opinionated women in tech like [Sareh Heidari](https://twitter.com/sareh88), [Jen Simmons](https://twitter.com/jensimmons), [Tatiana Mac](https://twitter.com/TatianaTMac), [Kim Crayton](https://twitter.com/KimCrayton1) amongst many others. And through my various conversation and interactions with them, I've realised how important it is to make sure diversity of thought is heard in our industry.
+I have been incredibly fortunate to have met and become friends with outspoken and opinionated women in tech like [Sareh Heidari](https://twitter.com/sareh88), [Jen Simmons](https://twitter.com/jensimmons), [Tatiana Mac](https://twitter.com/TatianaTMac) and [Kim Crayton](https://twitter.com/KimCrayton1) amongst many others. And through my various conversations and interactions with them, I've realised how important it is to make sure diversity of thought is heard in our industry.
 
 <figure>
     <figcaption>I secretly refer to Thai as “my favourite Thai boy”. shhhh…don't tell anyone</figcaption>
