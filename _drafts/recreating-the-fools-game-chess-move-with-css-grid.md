@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Recreating the Fool's Game chess move with CSS Grid"
-date: Jul 3, 2019
+date: Jul 9, 2019
 tags: [html, css]
 hascodepen: true
 ---
@@ -15,4 +15,4 @@ I wrote an [introductory post on the Bits blog](https://blog.bitsrc.io/animating
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-My preferred method of figuring out exactly how the demo worked was to observe it with Firefox DevTools. 
+My preferred method of figuring out exactly how the demo worked was to observe it with Firefox DevTools. And it blew my mind.
