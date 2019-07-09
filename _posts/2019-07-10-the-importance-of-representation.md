@@ -3,6 +3,7 @@ layout: post
 title: "The importance of representation"
 date: Jul 10, 2019
 tags: [opinion]
+image: representation
 ---
 It's almost coming up to 10 years since I deployed my first website onto the internet (it doesn't exist anymore either). In terms of being formally employed as a developer, that's much more recent, and I'm almost at the 6 year mark for that.
 
