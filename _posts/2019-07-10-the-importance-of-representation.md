@@ -11,17 +11,17 @@ But until I got the chance to travel to tech conferences, I didn't really think 
 
 That changed in 2014 when I [attended not 1, but 2 web conferences]({{ site.url }}/blog/reflecting-on-this-web-developer-journey#the-web-development-conferences), [Form, Function & Class 5](http://2014.formfunctionclass.com/) in Manila, and [CSSConf.Asia 2014](https://2014.cssconf.asia/) in Singapore. I realised that physically being at a conference was very different from watching videos at home.
 
-I was and still am a cheap Asian stereotype, so I started scheming ways to get to conferences without having to pay for them. Volunteering was a good start, which led to hosting, and eventually I ended up speaking at conferences as well.
+I was, and still am, a cheap Asian stereotype, so I started scheming ways to get to conferences without having to pay for them. Volunteering was a good start, which led to hosting, and eventually I ended up speaking at conferences as well.
 
 <img srcset="{{ site.url }}/assets/images/posts/representation/rep-480.jpg 480w, {{ site.url }}/assets/images/posts/representation/rep-640.jpg 640w, {{ site.url }}/assets/images/posts/representation/rep-960.jpg 960w, {{ site.url }}/assets/images/posts/representation/rep-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/representation/rep-640.jpg" alt="Volunteering, hosting and speaking at conferences">
 
-The environment I grew up in and all my past experiences shapes my thoughts and opinions right now. This also means my thoughts and opinions have changed from the past, and will continue to change as time moves forward. You may or may not agree with me, and that's perfectly fine.
+The environment I grew up in and all my past experiences shape my thoughts and opinions right now. This also means my thoughts and opinions have changed from the past, and will continue to change as time moves forward. You may or may not agree with me, and that's perfectly fine.
 
-I'm a fairly pessimistic person, in that, I tend to hold on to the negative things more than the positive. The only thing I have going for me is that I'm aware I do this. Unfortunately, my rational brain can never seem to override how I feel at any time.
+I'm a fairly pessimistic person, in that I tend to hold on to the negative things more than the positive. The only thing I have going for me is that I'm aware I do this. Unfortunately, my rational brain can never seem to override how I feel at any time.
 
 ## Sub-conscious double standards
 
-This is a broad generalisation, but when I was still playing basketball with the Malaysia women's national team back in the day, I felt that locals sort of looked down on our own athletes, that there was a lack of faith that we could do well. I'm not sure if other athletes feel the same way, but to me, there were a large number of fair weather fans who only showed support when our sports teams did well.
+This is a broad generalisation, but when I was still playing basketball with the Malaysia women's national team back in the day, I felt that locals sort of looked down on our own athletes. That there was a lack of faith that we could do well. I'm not sure if other athletes feel the same way, but to me, there were a large number of fair-weather fans who only showed support when our sports teams did well.
 
 But even before that, when I was much younger, I always felt that I needed to do well to justify myself. I can't pinpoint exactly why that was the case. Maybe this was how most Asian families operated with their kids? I did do reasonably well in school but I never had faith that if I didn't, it would be okay.
 
@@ -31,7 +31,9 @@ My grandmother pretty much brought me up because both my parents were working. A
 
 She passed away while I was playing in the Malaysia National Basketball League. Two weeks later, I won my first “Most Valuable Player” award. I can only imagine that maybe, I was good enough for her, and she would have been proud of me after all.
 
-But my point here is, I never had **faith**. Never had faith that people would be supportive simply because of who I am, only of what I could do. And you're only as good as the last thing you did, right? I wasn't even aware that I was the one looking down on myself.
+But my point here is, I never had **faith**. Never had faith that people would be supportive simply because of who I am, only of what I could do. And you're only as good as the last thing you did, right?
+
+I wasn't even aware that I was the one looking down on myself.
 
 ## “We came to see you…”
 
@@ -66,7 +68,7 @@ I have been incredibly fortunate to have met and become friends with outspoken a
 
 ## Wrapping up
 
-It is high time that those of us outside of North America and Western Europe start sharing our perspectives, all our different perspectives.
+It is high time that those of us outside of North America and Western Europe start sharing our perspectives. All our different perspectives.
 
 Because even though it is not something that most of us are naturally conditioned to do, there is value in contributing our perspectives to the world. For us to make our voices heard, and bring a greater awareness of the situations and contexts that we operate in.
 
