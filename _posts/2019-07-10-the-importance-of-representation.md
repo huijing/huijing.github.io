@@ -64,7 +64,7 @@ I have been incredibly fortunate to have met and become friends with outspoken a
     <img srcset="{{ site.url }}/assets/images/posts/representation/rep4-480.jpg 480w, {{ site.url }}/assets/images/posts/representation/rep4-640.jpg 640w, {{ site.url }}/assets/images/posts/representation/rep4-960.jpg 960w, {{ site.url }}/assets/images/posts/representation/rep4-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/representation/rep4-640.jpg" alt="Myself and Thai Pangsakulyanont at JSConf.Asia 2019">
 </figure>
 
-[JSConf.Asia](https://2019.jsconf.asia/) just wrapped up a couple weeks ago, and [Thai Pangsakulyanont](https://dt.in.th/), who is an amazing Thai speaker that we managed to snag two years in a row, pulled more than 8000 views from Thailand in just 1 week. [Zain Fathoni](https://twitter.com/zainfathoni)'s talk video also got loads more traffic from Indonesia than any other region.
+[JSConf.Asia](https://2019.jsconf.asia/) just wrapped up a couple weeks ago, and [Thai Pangsakulyanont](https://dt.in.th/), who is an amazing Thai speaker that we managed to snag two years in a row, pulled more than 6.5K views from Thailand in just 1 week. [Zain Fathoni](https://twitter.com/zainfathoni)'s talk video also got loads more traffic from Indonesia than any other region.
 
 ## Wrapping up
 
