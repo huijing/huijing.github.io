@@ -45,6 +45,8 @@ I pulled together 20 slides, and went through the talk in my head a couple times
 
 Thankfully, the feedback I received was positive and here's [the transcript plus extended recap]({{ site.url }}/blog/the-value-of-sharing-our-perspectives) of the whole endeavour, if you're interested.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m9Bp3GGKz8s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## <span class="emoji" role="img" tabindex="0" aria-label="China">&#x1F1E8;&#x1F1F3;</span> @ CSSConf China
 
 There were a surprising number of firsts with regards to conference speaking this year. And giving a talk at [CSSConf China](https://css.w3ctech.com/) was one of them. Not only because it was my first time in China since 2002, but also because it was my first time delivering a technical talk in Chinese.

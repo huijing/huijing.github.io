@@ -459,7 +459,9 @@
 - title: "The value of sharing our persectives"
   id: devrelcon-2019
   count: "52"
+  video: https://youtu.be/m9Bp3GGKz8s
   event: DevRelCon Tokyo 2019
+  website: https://tokyo-2019.devrel.net/
   type: conference
   released: true
   pdf: true
@@ -537,3 +539,19 @@
   type: meetup
   released: true
   pdf: true
+
+- title: "Frontend Crash Course: CSS"
+  id: css-crash-course
+  count: "61"
+  event: DevRelWeek July 2019
+  type: workshop
+  released: true
+  pdf: true
+
+- title: "Interesting things I learned about layout"
+  id: interesting-layout-css
+  count: "62"
+  event: Talk.CSS (MelbourneCSS)
+  type: talk
+  released: false
+  pdf: false
