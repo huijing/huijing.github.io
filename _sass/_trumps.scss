@@ -14,6 +14,10 @@ a.no-underline:hover {
   list-style: none;
 }
 
+.no-break {
+  white-space: nowrap;
+}
+
 .italicise {
   font-style: italic;
 }
