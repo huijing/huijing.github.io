@@ -443,6 +443,20 @@ magic.addEventListener('click', function(e) {
 ```
 Anyway, people can now click on the kittencorn to restart the animation. Because you can't just let it run once, right?
 
+In case the CodePens don't load or something, here's the end result for both.
+
+<div class="double">
+    <figure>
+        <figcaption>Spin clockwise…</figcaption>
+        <video src="{{ site.url }}/assets/videos/kittencorn.mp4" controls loop></video>
+    </figure>
+
+    <figure>
+        <figcaption>Spin anti-clockwise…</figcaption>
+        <video src="{{ site.url }}/assets/videos/kittencorn-alt.mp4" controls loop></video>
+    </figure>
+</div>
+
 ## Wrapping up
 
 Thank you for sitting through another edition of Hui Jing does useless things. This useless thing was quite fun to do though. And maybe you learned a little bit about how CSS animations work as well.

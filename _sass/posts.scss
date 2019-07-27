@@ -71,6 +71,13 @@ figure {
   }
 }
 
+.double {
+  @include mappy-bp(small) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+
 .twitter-tweet {
   margin: 0 auto 1.5em !important;
 }
