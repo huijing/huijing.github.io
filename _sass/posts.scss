@@ -74,7 +74,8 @@ figure {
 .double {
   @include mappy-bp(small) {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: calc((100% - 1em) / 2) calc((100% - 1em) / 2);
+    gap: 1em;
   }
 }
 
@@ -178,6 +179,55 @@ figure {
   padding: 0.5em 1em;
   font-size: 85%;
   border-left: 0.5em solid color('winter-hazel');
+}
+
+// Key styles
+.p159 {
+  display: flex;
+  overflow-x: scroll;
+  background-color: color('apple');
+  margin-bottom: 1rem;
+}
+
+.p159__item {
+  width: 9em;
+  flex: none;
+  margin-right: 1em;
+  background-color: white;
+  
+  img {
+    object-fit: cover;
+  }
+
+  p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  &:last-child {
+    margin-right: 0;
+  }
+
+  .card__txt {
+    padding: 0.5em;
+  }
+}
+
+.p159.problem {
+  padding: 1em;  
+}
+
+.p159.border {
+  border: 1em #4abc41 solid;
+}
+
+.p159.pseudo-elem {
+  padding: 1em;
+  
+  &::after {
+    content: '';
+    padding: 0.5em;
+  }
 }
 // ==========
 // TRUMPS - Helpers and overrides
