@@ -9,7 +9,7 @@ I just saw that my previous article on magical kittencorns and CSS animations wo
 
 Anyway, this is a really short one, which was borne out of a discussion with my mate, [Wei](https://twitter.com/wgao19), about use of padding in a flex formatting context. Because that's what friends talk about in casual conversation.
 
-But I think it is a fairly common use case which people may run into so here's a write-up.
+But I think it is a fairly common problem which people may run into so here's a write-up.
 
 ## Scenario
 
