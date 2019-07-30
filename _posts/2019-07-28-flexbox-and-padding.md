@@ -138,7 +138,7 @@ Another option is to utilise the `::after` pseudo-element on the flex container.
 }
 ```
 
-You do have to make sure that the padding on the `::after` pseudo-element is half that of the padding used on the flex container.
+You do have to make sure that the padding on the `::after` pseudo-element is half that of the padding used on the flex container, because padding is applied all around the pseudo-element. But if you go with `padding-left` or `padding-right`, then you can use the same value as the padding on the flex container.
 
 <div class="p159 pseudo-elem">
   <div class="p159__item card">
