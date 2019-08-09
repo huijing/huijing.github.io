@@ -48,9 +48,26 @@ If you have tried to apply padding to a flex container with an horizontal overfl
   </div>
 </div>
 
-This is because the available space allocated to flex items by the browser under such circumstances is: the width of flex container's containing block minus its margin, border and padding in the horizontal direction.
+<p><strike>This is because the available space allocated to flex items by the browser under such circumstances is: the width of flex container's containing block minus its margin, border and padding in the horizontal direction.</strike></p>
 
-The relevant section of the specification is [CSS Flexible Box Layout Module Level 1: 9.2 Line Sizing](https://www.w3.org/TR/css-flexbox-1/#line-sizing)
+<p><strike>The relevant section of the specification is [CSS Flexible Box Layout Module Level 1: 9.2 Line Sizing](https://www.w3.org/TR/css-flexbox-1/#line-sizing)</strike></p>
+
+*Update:*  
+*[Konstantin Rouda](https://twitter.com/KonstantinRouda) and [Šime Vidas](https://twitter.com/simevidas) raised the point that my original explanation didn't really explain why there is start padding but no end padding. And upon further digging, I found a long standing dispute about how overflow content should be handled while considering the constraints of Web-compat*
+
+This is not an issue that only affects Flexbox layouts, it affects scroll containers with block and inline children differently as well. CSS2.1 was not clear about overflow, and that probably resulted in different browser vendors implementing different behaviour. For example, Webkit had (has?) different policies for block children and inline children.
+
+From the GitHub issue [[css-overflow-3] Clarify padding-bottom in overflow content](https://github.com/w3c/csswg-drafts/issues/129), [fantasai](https://twitter.com/fantasai) commented that:
+
+> I think historically the issue is that browsers didn't want to trigger scrollbars for overflow: auto unless visible content was overflowing the inner border edge, so they didn't count padding.
+
+Things have not been resolved yet, and anyone who is interested can read through the following relevant links:
+
+- [Bug 748518 padding-bottom/right(block-end/inline-end) is ignored with overflow:auto/scroll because it extends in from the border-box rather than out from the scrollable area](https://bugzilla.mozilla.org/show_bug.cgi?id=748518)
+- [[css-grid-1] Include padding in scrollable overflow area](https://github.com/w3c/csswg-drafts/issues/3665)
+- [[css-overflow-3] Clarify padding-bottom in overflow content](https://github.com/w3c/csswg-drafts/issues/129)
+- [CSS Overflow Module Level 3](https://www.w3.org/TR/css-overflow-3/)
+- [Bug 1527949 Implement whatever more-interoperable behavior the CSSWG comes up with, for making "end" padding scrollable on scrollable elements](https://bugzilla.mozilla.org/show_bug.cgi?id=1527949)
 
 However, this is a relatively common use-case and there are a couple of workarounds to achieve the desired effect. Both workarounds are sort of hacks though. Here's the markup for a basic flex container with some items in it.
 
