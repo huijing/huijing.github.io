@@ -553,5 +553,104 @@
   count: "62"
   event: Talk.CSS (MelbourneCSS)
   type: talk
+  released: true
+  pdf: true
+
+- title: "Understanding modern CSS layouts with Firefox DevTools"
+  id: moz-roadshow-eu-2019
+  count: "63"
+  event: Mozilla Developer Roadshow Europe 2019
+  website: https://mozilla-tito-devr.netlify.com/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "Creating art with CSS"
+  id: connect-asia-2019
+  count: "64"
+  event: CONNECT Asia 2019
+  website: https://asia.womenwhocode.dev/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "Using DevTools to understand modern CSS layouts"
+  id: connectfest-2019
+  count: "65"
+  event: Connect Fest 2019
+  website: https://connectfest.pt/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "Using DevTools to understand modern CSS layouts"
+  id: wwktm-2019
+  count: "66"
+  event: Web Weekend Kathmandu 2019
+  website: https://2019.wwktm.co/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "TBC"
+  id: jekyllconf-2019
+  count: "67"
+  event: JekyllConf 2019
+  website: https://jekyllconf.com/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "Using DevTools to Understand Modern Layouts"
+  id: finch-frontend-2019
+  count: "68"
+  event: Finch Front-End
+  website: https://finchconf.uk/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "Using DevTools to Understand Modern Layouts"
+  id: view-source-2019
+  count: "69"
+  event: View Source Amsterdam 2019
+  website: https://2019.viewsourceconf.org/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "TBC"
+  id: queerjs-ams-2019
+  count: "70"
+  event: QueerJS Amsterdam 2019
+  website: https://queerjs.com/amsterdam
+  type: meetup
+  released: false
+  pdf: false
+
+- title: "A deep dive into images on the web"
+  id: fronteers-2019
+  count: "71"
+  event: Fronteers Conference 2019
+  website: https://fronteers.nl/congres/2019
+  type: conference
+  released: false
+  pdf: false
+
+- title: "TBC"
+  id: ts-meetup-2019
+  count: "72"
+  event: Tech Speakers meetup 2019
+  website: https://wiki.mozilla.org/TechSpeakers
+  type: meetup
+  released: false
+  pdf: false
+
+- title: "Making CSS from Good to Great: The Power of Subgrid"
+  id: moz-roadshow-asia-2019
+  count: "73"
+  event: Mozilla Developer Roadshow Asia 2019
+  website: https://mozilla-tito-devr.netlify.com/
+  type: conference
   released: false
   pdf: false
