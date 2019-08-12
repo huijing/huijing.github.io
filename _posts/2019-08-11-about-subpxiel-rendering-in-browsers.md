@@ -66,6 +66,6 @@ It is highly probable that the reason using `thin` seems to resolve the disappea
 
 Sub-pixel rounding affects many aspects of browser rendering and it was interesting to read [John Resig's observations](https://johnresig.com/blog/sub-pixel-problems-in-css/) on his test case involving child `<div>`s sized with percentage values.
 
-Another sub-pixel rounding issue was documented by the engineers at [Symbiote](https://www.symbiote.com.au/), who encountered the issue of rounding the calculated height of text when using `em` or `rem` values on the `line-height` property.
+Another sub-pixel rounding issue was documented by the engineers at [Symbiote](https://www.symbiote.com.au/blog/yes-even-firefox-gets-it-wrong/), who encountered the issue of rounding the calculated height of text when using `em` or `rem` values on the `line-height` property.
 
 This seems like a long-standing issue with browser rendering but there doesn't seem to be a clear solution. If anyone has any insight on the state of sub-pixel rendering, or can point me to the right people to ask, I'd greatly appreciate it. <span class="emoji" role="img" tabindex="0" aria-label="folded hands">&#x1F64F;</span>

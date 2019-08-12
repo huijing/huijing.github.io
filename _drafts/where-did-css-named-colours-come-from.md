@@ -72,7 +72,7 @@ Perhaps we won't be able to figure out why `snow` has a red hue, but it does beg
 
 All the discussion around the development of CSS specifications takes place in the open, so it's possible, with some patience, to dig up the relevant discussion threads on the [www-style mailing list archives](https://lists.w3.org/Archives/Public/www-style/).
 
-Much of the discussion took place during between 1996–1998 when CSS1 and CSS2 were released, then again between 2001–2002 when the CSS Color Module Level 3 was being released.
+Much of the discussion took place during between 1996–1998 when CSS1 and CSS2 were released, then again between 2001–2002 when the CSS Color Module Level 3 was being released. Feel free to peruse the message threads if you would like to read some strongly worded opinions.
 
 - [CNS colors](https://lists.w3.org/Archives/Public/www-style/1996Feb/0006.html)
 - [Color Names ; was Re: New CSS1 draft -Reply -Reply](https://lists.w3.org/Archives/Public/www-style/1996Jul/0166.html)
@@ -83,11 +83,13 @@ Much of the discussion took place during between 1996–1998 when CSS1 and CSS2 
 - [Re: New Working Draft published: CSS3 module: Color](https://lists.w3.org/Archives/Public/www-style/2001Mar/0074.html)
 - [Last call comments on CSS3 module: color](https://lists.w3.org/Archives/Public/www-style/2002May/0122.html)
 
+Of course, there were also some light-hearted moments in there. Tongue-in-cheek seems to be a popular style of humour on that mailing list.
 
 - [Color Standards (Silly)](https://lists.w3.org/Archives/Public/www-style/1997Dec/0039.html)
 - [what happened to the pantone colors?](https://lists.w3.org/Archives/Public/www-style/1997Dec/0038.html)
 - [ChromaFuzz](https://lists.w3.org/Archives/Public/www-style/1997Dec/0040.html)
 
+*add response from Eric and Chris, if possible*
 
 ## Relevant links
 
