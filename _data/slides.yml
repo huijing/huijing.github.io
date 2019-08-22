@@ -592,7 +592,7 @@
   released: false
   pdf: false
 
-- title: "TBC"
+- title: "Why I love data files in Jekyll"
   id: jekyllconf-2019
   count: "67"
   event: JekyllConf 2019
@@ -601,7 +601,7 @@
   released: false
   pdf: false
 
-- title: "Using DevTools to Understand Modern Layouts"
+- title: "Using DevTools to understand modern layouts"
   id: finch-frontend-2019
   count: "68"
   event: Finch Front-End
@@ -610,7 +610,7 @@
   released: false
   pdf: false
 
-- title: "Using DevTools to Understand Modern Layouts"
+- title: "Demystify modern CSS layouts with DevTools"
   id: view-source-2019
   count: "69"
   event: View Source Amsterdam 2019
@@ -619,7 +619,7 @@
   released: false
   pdf: false
 
-- title: "TBC"
+- title: "Neither here nor there"
   id: queerjs-ams-2019
   count: "70"
   event: QueerJS Amsterdam 2019
