@@ -562,7 +562,7 @@
   event: Mozilla Developer Roadshow Europe 2019
   website: https://mozilla-tito-devr.netlify.com/
   type: conference
-  released: false
+  released: true
   pdf: false
 
 - title: "Creating art with CSS"
