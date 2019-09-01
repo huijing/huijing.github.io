@@ -571,8 +571,8 @@
   event: CONNECT Asia 2019
   website: https://asia.womenwhocode.dev/
   type: conference
-  released: false
-  pdf: false
+  released: true
+  pdf: true
 
 - title: "Using DevTools to understand modern CSS layouts"
   id: connectfest-2019
