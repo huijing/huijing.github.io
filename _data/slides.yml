@@ -298,7 +298,7 @@
   count: "34"
   event: Talk.CSS
   type: meetup
-  released: false
+  released: true
 
 - title: "TechLadies in Penang 🇲🇾"
   id: tl-in-pen
