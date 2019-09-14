@@ -6,7 +6,9 @@ tags: [css]
 hastweet: true
 image: read-specs
 ---
-Recently I got the chance to do an interview with [Vitaly Friedman](https://twitter.com/smashingmag) as part of the run-up to [View Source Conference](https://2019.viewsourceconf.org/) taking place in September this year (stay tuned for the video to be released). One of the things we chatted about was around new CSS 
+Recently I got the chance to do an interview with [Vitaly Friedman](https://twitter.com/smashingmag) as part of the run-up to [View Source Conference](https://2019.viewsourceconf.org/) taking place in September this year. One of the things we chatted about was around new CSS.
+
+<iframe src="https://player.vimeo.com/video/353173490" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 My good friend, [Wei](https://uuei.io/), is an incredible technical writer who is very involved in documentation for open-source projects. She wrote most of the [React-Redux](https://react-redux.js.org/) documentation and is one of the core maintainers for [Docusaurus](https://docusaurus.io/).
 
