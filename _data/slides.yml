@@ -581,7 +581,7 @@
   event: Connect Fest 2019
   website: https://connectfest.pt/
   type: conference
-  released: false
+  released: true
   pdf: false
 
 - title: "Using DevTools to understand modern CSS layouts"
