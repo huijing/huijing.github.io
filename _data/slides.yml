@@ -590,7 +590,7 @@
   event: Web Weekend Kathmandu 2019
   website: https://2019.wwktm.co/
   type: conference
-  released: false
+  released: true
   pdf: false
 
 - title: "Why I love data files in Jekyll"
@@ -599,8 +599,8 @@
   event: JekyllConf 2019
   website: https://jekyllconf.com/
   type: conference
-  released: false
-  pdf: false
+  released: true
+  pdf: true
 
 - title: "Using DevTools to understand modern layouts"
   id: finch-frontend-2019
@@ -652,6 +652,15 @@
   count: "73"
   event: Mozilla Developer Roadshow Asia 2019
   website: https://mozilla-tito-devr.netlify.com/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "How CSS evolves, a look back at 2 years of CSS grid"
+  id: devfestgt-2019
+  count: "74"
+  event: Devfest & Bizfest Georgetown 2019
+  website: https://www.meetup.com/GDG-George-Town/events/264424881/
   type: conference
   released: false
   pdf: false
