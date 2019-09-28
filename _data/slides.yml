@@ -596,6 +596,7 @@
 - title: "Why I love data files in Jekyll"
   id: jekyllconf-2019
   count: "67"
+  video: https://youtu.be/CERXESTZ5w4
   event: JekyllConf 2019
   website: https://jekyllconf.com/
   type: conference
@@ -608,7 +609,7 @@
   event: Finch Front-End
   website: https://finchconf.uk/
   type: conference
-  released: false
+  released: true
   pdf: false
 
 - title: "Demystify modern CSS layouts with DevTools"
