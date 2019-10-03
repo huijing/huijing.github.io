@@ -618,7 +618,7 @@
   event: View Source Amsterdam 2019
   website: https://2019.viewsourceconf.org/
   type: conference
-  released: false
+  released: true
   pdf: false
 
 - title: "Neither here nor there"
@@ -627,8 +627,8 @@
   event: QueerJS Amsterdam 2019
   website: https://queerjs.com/amsterdam
   type: meetup
-  released: false
-  pdf: false
+  released: true
+  pdf: true
 
 - title: "A deep dive into images on the web"
   id: fronteers-2019
@@ -636,21 +636,12 @@
   event: Fronteers Conference 2019
   website: https://fronteers.nl/congres/2019
   type: conference
-  released: false
-  pdf: false
-
-- title: "TBC"
-  id: ts-meetup-2019
-  count: "72"
-  event: Tech Speakers meetup 2019
-  website: https://wiki.mozilla.org/TechSpeakers
-  type: meetup
-  released: false
-  pdf: false
+  released: true
+  pdf: true
 
 - title: "Making CSS from Good to Great: The Power of Subgrid"
   id: mdr-asia-2019
-  count: "73"
+  count: "72"
   event: Mozilla Developer Roadshow Asia 2019
   website: https://mozilla-tito-devr.netlify.com/
   type: conference
@@ -659,7 +650,7 @@
 
 - title: "How CSS evolves, a look back at 2 years of CSS grid"
   id: devfestgt-2019
-  count: "74"
+  count: "73"
   event: Devfest & Bizfest Georgetown 2019
   website: https://www.meetup.com/GDG-George-Town/events/264424881/
   type: conference
