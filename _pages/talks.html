@@ -53,7 +53,11 @@ permalink: /talks/
         {% else %}
         <p class="no-margin">No video <span class="emoji" role="img" tabindex="0" aria-label="neutral face">&#x1F610;</span></p>
         {% endif %}
+        {% if conference.pdf %}
         <p><a class="talk__pdf no-margin" href="{{ site.baseurl }}/slides/pdf/{{ conference.id }}.pdf">Download PDF</a></p>
+        {% else %}
+        <p>No slides, no pdf</p>
+        {% endif %}
     </div>
     {% else %}
     <div class="talk">
