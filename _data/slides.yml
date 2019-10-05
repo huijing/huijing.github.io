@@ -560,6 +560,7 @@
 - title: "Understanding modern CSS layouts with Firefox DevTools"
   id: moz-roadshow-eu-2019
   count: "63"
+  video: https://youtu.be/so6LqPZG80M
   event: Mozilla Developer Roadshow Europe 2019
   website: https://mozilla-tito-devr.netlify.com/
   type: conference
@@ -639,9 +640,18 @@
   released: true
   pdf: true
 
+- title: "You mean you don't resize your browser 1000 times a day?"
+  id: browser-resize-1000
+  count: "72"
+  video: https://youtu.be/yV3_09UUsSM
+  event: Talk.CSS
+  type: meetup
+  released: true
+  pdf: false
+
 - title: "Making CSS from Good to Great: The Power of Subgrid"
   id: mdr-asia-2019
-  count: "72"
+  count: "73"
   event: Mozilla Developer Roadshow Asia 2019
   website: https://mozilla-tito-devr.netlify.com/
   type: conference
@@ -650,7 +660,7 @@
 
 - title: "How CSS evolves, a look back at 2 years of CSS grid"
   id: devfestgt-2019
-  count: "73"
+  count: "74"
   event: Devfest & Bizfest Georgetown 2019
   website: https://www.meetup.com/GDG-George-Town/events/264424881/
   type: conference
