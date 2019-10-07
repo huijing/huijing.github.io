@@ -570,6 +570,7 @@
 - title: "Creating art with CSS"
   id: connect-asia-2019
   count: "64"
+  video: https://youtu.be/SXwBxro6y40
   event: CONNECT Asia 2019
   website: https://asia.womenwhocode.dev/
   type: conference
@@ -663,6 +664,15 @@
   count: "74"
   event: Devfest & Bizfest Georgetown 2019
   website: https://www.meetup.com/GDG-George-Town/events/264424881/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "Making CSS from Good to Great: The Power of Subgrid"
+  id: devfestkl-2019
+  count: "75"
+  event: DevFest 2019 Kuala Lumpur
+  website: https://devfest.gdgkl.dev/
   type: conference
   released: false
   pdf: false
