@@ -44,7 +44,7 @@ Because I am lucky enough to be in Singapore, where almost every tech meetup is 
 
 ## This is ten percent luck
 
-[Charis Rooda](https://imakewebsites.hk/), organiser of [Webconf.Asia](https://webconf.asia/) gave me my first shot at a full-length conference talk, and put me in a stellar line-up which included [Bruce Lawson](http://www.brucelawson.co.uk/), [Heydon Pickering](http://www.heydonworks.com/) and [Andrew Betts](https://trib.tv/) (just to name a few). The conference paid for my flight and accommodation, which honestly was good enough for me. I know some experienced speakers can wing it and still give a great talk, but I'm not one of them. Maybe some day, but not today.
+[Charis Rooda](https://imakewebsites.hk/), organiser of [Webconf.Asia](https://webconf.asia/) gave me my first shot at a full-length conference talk, and put me in a stellar line-up which included [Heydon Pickering](http://www.heydonworks.com/) and [Andrew Betts](https://trib.tv/). The conference paid for my flight and accommodation, which honestly was good enough for me. I know some experienced speakers can wing it and still give a great talk, but I'm not one of them. Maybe some day, but not today.
 
 I finished writing my talk a month before the conference and I rehearsed the shit out of it. Because I felt an added responsibility of representing Southeast Asia to the best of my ability, due to the fact that there simply aren't that many of us on the international stage. **In my mind, I cannot just be average or good, I have to aim for perfect, because I don't want to mess it up for the rest of us.**
 

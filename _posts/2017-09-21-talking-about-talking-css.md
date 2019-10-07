@@ -24,7 +24,7 @@ I know that Chris and I often joke that we're flying blind when it comes to Talk
 
 Professionalism is NOT something that you'd usually associate me with. If you've met me, you know this. Monkey is probably a closer association. But I do have a “adult-mode” switch that I can, and will, turn on when the need arises. Conferences (and events with a budget) are situations that require some serious adulting.
 
-My first full length talk took place this year at the inaugural [Webconf.Asia](https://webconf.asia) in Hong Kong back in June. The speaker line-up included well-known and experienced speakers like [Bruce Lawson](http://www.brucelawson.co.uk/), [Heydon Pickering](http://www.heydonworks.com/) and [Andrew Betts](https://trib.tv/) (just to name a few). I think I came after [Dietrich Ayala](https://metafluff.com/) (another powerhouse speaker), and I was way more nervous than I thought I would be.
+My first full length talk took place this year at the inaugural [Webconf.Asia](https://webconf.asia) in Hong Kong back in June. The speaker line-up included well-known and experienced speakers like [Heydon Pickering](http://www.heydonworks.com/) and [Andrew Betts](https://trib.tv/). I think I came after [Dietrich Ayala](https://metafluff.com/) (another powerhouse speaker), and I was way more nervous than I thought I would be.
 
 Luckily, once I started, the nerves started to fade. I think nerding out about CSS makes me so happy that it overrides any other emotion I may be feeling at that time. It's almost the same as when you're “in the zone” when playing basketball.
 

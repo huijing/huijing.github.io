@@ -21,7 +21,19 @@ I've been speaking internationally for 2 years now ([2017 recap]({{ site.url }}/
 - [CSSConf EU 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Germany">&#x1F1E9;&#x1F1EA;</span> on 31 May](#--cssconf-eu)
 - [Pixel Pioneers Bristol 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="United Kingdom">&#x1F1EC;&#x1F1E7;</span> on 7 Jun](#--pixel-pioneers-bristol)
 - [JSConf.Asia 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span> on 14 Jun](#--jsconfasia)
-- More to come…
+- [Mozilla Developer Roadshow Europe @ <span class="emoji" role="img" tabindex="0" aria-label="Germany">&#x1F1E9;&#x1F1EA;</span><span class="emoji" role="img" tabindex="0" aria-label="Austria">&#x1F1E6;&#x1F1F9;</span> from 26–29 Aug](#--mozilla-developer-roadshow-eu)
+- [CONNECT Asia 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span> on 31 Aug](#--connect-asia-2019)
+- [Connect Fest 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Portugal">&#x1F1F5;&#x1F1F9;</span> on 6 Sep](#--connect-fest-2019)
+- [Web Weekend Kathmandu 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Nepal">&#x1F1F3;&#x1F1F5;</span> on 21 Sep](#--web-weekend-kathmandu-2019)
+- [JekyllConf 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Remote">&#x1F310;</span> on 22 Sep](#--jekyllconf-2019)
+- [Finch Front-end 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Scotland">&#x1F3F4;&#xE0067;&#xE0062;&#xE0073;&#xE0063;&#xE0074;&#xE007F;</span> on 23 Sep](#--finch-frontend)
+- [CSSConf Budapest 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Hungary">&#x1F1ED;&#x1F1FA;</span> on 25 Sep](#--cssconf-budapest)
+- [View Source 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="The Netherlands">&#x1F1F3;&#x1F1F1;</span> on 1 Oct](#--view-source-2019)
+- [Fronteers 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="The Netherlands">&#x1F1F3;&#x1F1F1;</span> on 3 Oct](#--fronteers-2019)
+- [Mozilla Developer Roadshow Asia @ <span class="emoji" role="img" tabindex="0" aria-label="Japan">&#x1F1EF;&#x1F1F5;</span><span class="emoji" role="img" tabindex="0" aria-label="South Korea">&#x1F1F0;&#x1F1F7;</span><span class="emoji" role="img" tabindex="0" aria-label="Taiwan">&#x1F1F9;&#x1F1FC;</span><span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span><span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> from 11–20 Nov](#--mozilla-developer-roadshow-asia)
+- [Webconf.asia 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> on 23–24 Nov](#--webconfasia-2019)
+- [DevFest & BizFest Georgetown 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> on 30 Nov](#--devfest--bizfest-georgetown-2019)
+- [DevFest Kuala Lumpur 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> on 7 Dec](#--devfest-kuala-lumpur-2019)
 
 ---
 
@@ -147,10 +159,6 @@ The venue was gorgeous and the lighting was great. I inadvertently matched my on
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/yglf2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/yglf2-640.jpg" alt="On the YGLF Vilnius stage">
 
-One of the highlights of my speaking career is being emcee-ed by [Bruce Lawson](https://twitter.com/brucel), not once, not twice but thrice. Maybe this number will go up in future, who knows? But it's always a fun time when Bruce is running the show.
-
-<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/yglf4-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf4-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf4-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/yglf4-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/yglf4-640.jpg" alt="Bruce and I share an embrace after I go on his chair of interrogation">
-
 The content of the conference was amazing, and it was 2 days of awesome speakers covering topics from MIDI, to GraphQL, to Micro-controllers and much more. I'm probably biased because [Charlie Gerard](https://twitter.com/devdevcharlie) is one of the coolest people I ever met and I think the world of her, but she did the most boss move of the conference IMHO.
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Street fighter demo 🤺🤼‍♀️🤹🏻‍♀️🎊🎉🙈🐒🐲 and I’m like whoa <br><br>Machine learning with JavaScript by <a href="https://twitter.com/devdevcharlie?ref_src=twsrc%5Etfw">@devdevcharlie</a> at <a href="https://twitter.com/hashtag/YGLF19?src=hash&amp;ref_src=twsrc%5Etfw">#YGLF19</a> <a href="https://t.co/MBC42eMg6Z">pic.twitter.com/MBC42eMg6Z</a></p>&mdash; ᴡᴇɪ 👩🏻‍🌾 (@wgao19) <a href="https://twitter.com/wgao19/status/1129315416747200512?ref_src=twsrc%5Etfw">17 May 2019</a></blockquote>
@@ -243,7 +251,7 @@ We traditionally run a gameshow before the start of [JSConf.Asia](https://2019.j
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ru8pmAyZARI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-But this year, I was also a co-organiser with [Thomas Gorissen](https://twitter.com/serrynaimo), who had been shouldering the bullk of the workload for the past 7 years. Prior to the conference itself, I was mainly helping out with talk curation, reaching out to speakers, scholarships and wholy in charge of volunteer management.
+But this year, I was also a co-organiser with [Thomas Gorissen](https://twitter.com/serrynaimo), who had been shouldering the bulk of the workload for the past 7 years. Prior to the conference itself, I was mainly helping out with talk curation, reaching out to speakers, scholarships and wholy in charge of volunteer management.
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/jsconfasia2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/jsconfasia2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/jsconfasia2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/jsconfasia2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/jsconfasia2-640.jpg" alt="Closing out JSConf.Asia 2019 with Thomas Gorissen and all speakers on stage">
 
@@ -271,4 +279,253 @@ It was chaotic at time, things went wrong, and a lot of sprinting and lifting he
 
 <img src="{{ site.url }}/assets/images/posts/talking-css-2019/jsconfasia5.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/jsconfasia5@2x.jpg 2x" alt="JSConf.Asia 2019 organising team">
 
-## To be continued…
+## <span class="emoji" role="img" tabindex="0" aria-label="Germany">&#x1F1E9;&#x1F1EA;</span><span class="emoji" role="img" tabindex="0" aria-label="Austria">&#x1F1E6;&#x1F1F9;</span> @ Mozilla Developer Roadshow EU
+
+Going on the [Mozilla Developer Asia Roadshow back in 2017]({{ site.url }}/blog/talking-about-talking-css/) was a fairly significant milestone for my professional career. Not that it's much of a career at this point, but it was the start of my relationship with Mozilla, and where I got to know 2 amazing women, [Sandra Persing](https://twitter.com/SandraPersing) and [Ali Spivak](https://twitter.com/alispivak).
+
+I have the utmost respect and admiration for them both and it has been a privilege to have another opportunity to go on the road once again with them for this year's series of roadshows. The format is similar to what we did 2 years ago, but a bit tighter because travel between cities was relatively quick.
+
+It was a 4-cities-in-4-days schedule, but because Sandra was so organised, it felt like everything was running like a well-oiled machine. The first stop was Nuremburg, I hadn't been there before and it took 4 plane rides to get there, but I liked the city. It also happened to be the place we spent the most time (all of nearly 2 days).
+
+<figure>
+    <figcaption>Team MDR EU 2019</figcaption>
+    <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/mdreu-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/mdreu-640.jpg" alt="The MDR EU team at Munich">
+</figure>
+
+I was giving the a version of the DevTools talk I did back in June, but had since added extra stuff for Grid and different examples. This is the most “Lego” talk I ever had, and I would be giving it a number of times later this year as well, so I had way more content than 30 minutes and could choose different pieces depending on the time constraints.
+
+For Nuremburg, I went with content-based sizing, flexbox and grid. I thought it went fairly okay, except that we were supposed to do a screen recording for post-production purposes but guess what this idiot did? Or more specifically, not do?
+
+You're absolutely right. I DID NOT press the record button.
+
+Oh well, 3 more stops to go…
+
+Next was Munich. And it was a nice venue at the Microsoft offices with green walls, and we were joking around about the possibilities of that green background. A lot of photos came out from this stop, including my favourite shot of the whole Roadshow <span class="emoji" role="img" tabindex="0" aria-label="pointing down">&#x1F447;</span>.
+
+<img src="{{ site.url }}/assets/images/posts/talking-css-2019/mdreu2.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/mdreu2@2x.jpg 2x" alt="Marc Thiele and I doing a tech check">
+
+Anyway, this time I DID manage to press the record button and redeem myself a little bit. I thought the talk went much smoother this time as well, so maybe it was meant to be that I didn't record the first one.
+
+Couldn't hang around for long though because the next day we were headed off to Linz in Austria. But the train ride was absolutely lovely. I'm very much a fan of traveling within Europe on trains now. The Linz stop was mindblowing because more people showed up than RSVP-ed. I've honestly NEVER seen this at tech meetup before, so I was amazed.
+
+However, I was again fairly incompetent with the button pressing and only remembered to hit record after 10 minutes, so that was a moot recording as well. Oh well, I guess we'll always have Munich.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/so6LqPZG80M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+The last stop of the roadshow was Vienna. I was genuinely excited for Vienna because of the “Viennese mafia”, comprised of [Eva Lettner](https://twitter.com/eva_trostlos), [Andrey Okonetchnikov](http://okonet.ru/) and [Manuel Matuzovic](http://matuzo.at/), who had passionately insisted that Vienna was the best city in the world when I first met them in Saint Petersberg.
+
+The city did not disappoint. It was beautiful. This stop was especially fun for me because instead of my talk, I had a fireside conversation with [Max Böck](https://twitter.com/mxbck) about the CSS mindset. I share a lot of the same sentiments as he does about how we approach CSS so it was effortless to build off each others points throughout the conversation.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/mdreu4-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu4-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu4-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu4-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/mdreu4-640.jpg" alt="Max Böck and I before the fireside chat at Vienna">
+
+Fun fact. I managed to hit my not-so-secret secret agenda of going climbing (just bouldering, actually) at EVERY stop! Crowning achievement <span class="emoji" role="img" tabindex="0" aria-label="person dancing">&#x1F483;</span>
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/mdreu3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/mdreu3-640.jpg" alt="4 climbing gyms in 4 cities">
+
+## <span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span> @ CONNECT Asia 2019
+
+Immediately after the Mozilla Developer Roadshow was [CONNECT Asia](https://asia.womenwhocode.dev/), organised by [Women Who Code](https://www.womenwhocode.com/singapore). I had committed to this fairly early in the year and personally, it matters to me to speak at home. I could go on about all the reasons why, but let's save that for another day.
+
+The schedule was unfortunately such that I had to get to the venue straight from the airport, but Singapore is tiny enough for this not to be too much of an issue. I didn't sleep that much on the 8 hour leg from Doha to Singapore though and ended up hiding in the library (it was at the venue) for a short nap.
+
+I have mentioned this earlier in the JSConf.Asia section, but I generally have an accent, either American or British, when I go on conference stages. But this time, I decided to keep my local accent. I may not be Singaporean, but my Singlish is on point.
+
+Because this was a multi-track event, there weren't that many people in the audience either so I went for a much more informal tone of voice than I normally do at conferences (meet-ups are a completely different matter, check SingaporeCSS for videos). Little did I know that more people would stream in later. Oh well, too late to change it up half-way through.
+
+<img src="{{ site.url }}/assets/images/posts/talking-css-2019/connectasia.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/connectasia@2x.jpg 2x" alt="Friends in the audience">
+
+I did have a good number of friends and people who knew me in the audience, so it was really very fun for me. I don't know how much fun they had though. Got some good meme-worthy photos out of them though.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/connectasia2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/connectasia2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/connectasia2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/connectasia2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/connectasia2-640.jpg" alt="Apparently I like triangles">
+
+The talk also happened to be on Malaysia's national day, so how could I not centre my main demo around our national flag? My Malaysian dev friends were totally in on the idea and suspected I'd end up doing something like that. It was definitely 100% worth the effort to make it to this event.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/connectasia-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/connectasia-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/connectasia-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/connectasia-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/connectasia-640.jpg" alt="Making the Malaysia flag with CSS">
+
+Also, [Wei](https://twitter.com/wgao19) gave her first conference workshop at the same event. I told her if I bombed my talk I'd just pop into her workshop instead. I was pretty happy I managed to catch the tail-end of it though.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SXwBxro6y40" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## <span class="emoji" role="img" tabindex="0" aria-label="Portugal">&#x1F1F5;&#x1F1F9;</span> @ Connect Fest 2019
+
+I had to fly to Porto for [Connect Fest](https://connectfest.pt/) directly from [JSConf Korea](https://2019.jsconfkorea.com/) but I just have to mention how amazing the organisers did for their inaugural edition. I met [Soeun Lee](https://www.sonalee.me/) AKA Sona, for the first time in JSConf EU last year and had continued to keep in touch especially after I knew she was going to organise JSConf Korea.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/jsconfkr-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/jsconfkr-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/jsconfkr-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/jsconfkr-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/jsconfkr-640.jpg" alt="Post conference dinner at JSConf Korea">
+
+The entire team was absolutely delightful and I felt extremely blessed to be able to be there to support them as part of the greater JSConf family. Also, Nexmo was a sponsor for the event, so I got to be there with my mates, Alex and Julia as well. Booth duty is more fun with friends.
+
+But anyway, Connect Fest. This was a conference organised by Bosch, which to be honest, I associate the brand with automotive parts because that's what they are known for in Malaysia and Singapore. Turns out they are trying to rebrand themselves as a tech company, which makes sense since they do a lot more than just car parts.
+
+This was one conference where I didn't know anybody in the line-up and it was a lot broader than the typical web conferences I attended so I didn't know what to expect. Which was great, because I had the best time there.
+
+At the speaker dinner, I got to know [Anna Wszeborowska](https://twitter.com/aniawsz), who is one of the loveliest human beings I've ever met and we chatted long after dinner was over. [Diana Birsan](https://twitter.com/miss_limesplash) was also at the table among a few other speakers, and we were pretty much the last to leave.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/connectfest2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/connectfest2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/connectfest2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/connectfest2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/connectfest2-640.jpg" alt="On stage at Connect Fest">
+
+It was a 2-track conference with one stage in an auditorium style and the other at the top floor of the venue. That second stage had a stunning view of Porto. At lunch, we naturally hovered together and were joined by some other speakers, including [Roméo Farinacci](https://www.tedxgrandcanyonuniversity.org/romo-farinacci). Somehow our band of 4 stuck together the rest of the time.
+
+I soon realised that the audience was NOT majority web developers and wasn't feeling particularly confident about resizing the browser a thousand times on stage talking about flexbox and grid. But my 3 new-found friends were so incredibly supportive that I felt much better about it. A couple of people who did do web development also said nice things to me after, so that was a relief.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/connectfest-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/connectfest-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/connectfest-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/connectfest-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/connectfest-640.jpg" alt="Wandering around beautiful Porto with friends">
+
+A lot of people talked shop but not us. We had conversations about disturbingly large spiders, Eastern European parents, relationships, travel, anything and everything, really. And we ended off the event by having a nice dinner and wine. I genuinely hope we cross paths again sooner than later, but that time we spent together was golden.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/connectfest3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/connectfest3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/connectfest3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/connectfest3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/connectfest3-640.jpg" alt="Group photo overlooking the city after dinner">
+
+## <span class="emoji" role="img" tabindex="0" aria-label="Nepal">&#x1F1F3;&#x1F1F5;</span> @ Web Weekend Kathmandu 2019
+
+I kicked off a fairly crazy stupid September-October schedule by heading out to Nepal for [Web Weekend Kathmandu](https://2019.wwktm.co/). I had never been to Nepal before and was really looking forward to this. Even though I was thoroughly a foreigner in Kathmandu, there was a sense of familiarity to the streets of Kathmandu.
+
+<img src="{{ site.url }}/assets/images/posts/talking-css-2019/wwktm.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/wwktm@2x.jpg 2x" alt="Electric wiring on the streets of Kathmandu">
+
+When asked, I described it as similar to small town Malaysia as I remember it maybe 20 plus years ago when I was a kid. A lot of the smells were very familiar, because even though the style of cooking is unique, we use a lot of the same spices as well.
+
+The organisers were really thoughtful and gave every speaker personalised coffee mugs with a sketch of us on them, and the content curation was stunningly good. It was the type of conference that chose to go broad, so we had talks about DevOps, MIDI and hardware, testing, gender in tech, CSS.
+
+<img src="{{ site.url }}/assets/images/posts/talking-css-2019/wwktm2.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/wwktm2@2x.jpg 2x" alt="On stage at wwktm">
+
+I learned so much, not only from the talks though, but also from the attendees and organisers. I gave the DevTools talk here as well, but had to switch it up a bit to fit the 25 minute format. This audience was one of the best I've ever had the privilege of speaking in front of.
+
+They were so engaged and attentive, and the people who came up to me afterwards would make references to the things I mentioned only in passsing and every question that I got was relevant to what I talked about.
+
+A highlight of the conference was the hike which took place the day after the conference. I had to bail out halfway because I needed to catch a flight but I did manage to have a lot of good conversations with others who came along on the hike.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/wwktm-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/wwktm-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/wwktm-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/wwktm-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/wwktm-640.jpg" alt="Hiking the day after the conference">
+
+I was really glad to meet [Kushma Thapa](https://twitter.com/Wingskush), who did a fantastic job as emcee. She also became the first Nepalese international conference speaker when she spoke at [SeleniumConf](https://2018.seleniumconf.in/) last year. There were a lot of feels after the conference which I penned in my other site, [DevRel Diaries](https://devreldiaries.commons.host/my-own-definition-of-developer-relations/), if you're interested.
+
+Before I left though, I had one final meal with the organisers as well as [Karen Lowry](https://twitter.com/kazzalo), and we were throwing out ideas and discussing how to improve the conference, how to increase the participation rate for women, and I definitely want to pitch in to help out for future iterations.
+
+## <span class="emoji" role="img" tabindex="0" aria-label="Remote">&#x1F310;</span> @ JekyllConf 2019
+
+[JekyllConf](https://jekyllconf.com/) is a virtual conference, completely free and online, on best practices, advanced case studies and the future of Jekyll (according to the website). I'd been using Jekyll for ages, and centred the talk around data files and how I used them for the [SingaporeCSS](https://singaporecss.github.io) website.
+
+My first remote conference of the year! Unfortunately, due to scheduling, I ended up being in the air while the event was being live-streamed. But JekyllConf organiser, [Mike Neumegen](https://twitter.com/mikeneumegen), had pre-empted this and asked if I could pre-record the talk. There were 260 people live-streaming the conference, which was kinda cool.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CERXESTZ5w4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## <span class="emoji" role="img" tabindex="0" aria-label="Scotland">&#x1F3F4;&#xE0067;&#xE0062;&#xE0073;&#xE0063;&#xE0074;&#xE007F;</span> @ Finch Frontend
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/finch-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/finch-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/finch-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/finch-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/finch-640.jpg" alt="Sunrise from the plane">
+
+So the flight I was catching on the day of the hike was to Edinburgh for [Finch Front-end](https://jsconfbp.com/). It was the inaugural edition organised by [Patrick Griffiths](https://twitter.com/ptg) and the line-up was absolutely stacked! There was [Hakim El Hattab](https://hakim.se/), [Rachel Andrew](https://rachelandrew.co.uk/), [Harry Roberts](https://csswizardry.com/), [Sara Soueidan](https://www.sarasoueidan.com/) among all the other briliant speakers.
+
+I was doing the DevTools talk once again, but this time I was given 45 minutes, so I managed to fit in all of my “Lego” blocks. I'll be honest, I did not think it was my best performance, and the audience was fairly reserved, which did throw me off a little, especially since Kathmandu happened just 2 days before (I did the straight from the airport thing again).
+
+But later, Harry Roberts also mentioned that he felt the crowd was a bit tough, so that sort of reassured me a little bit, though I still wasn't all that happy with myself. Patrick did ask me if I wanted to emcee for the second day.
+
+<img src="{{ site.url }}/assets/images/posts/talking-css-2019/finch.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/finch@2x.jpg 2x" alt="On stage at Finch Front-end">
+
+I've mentioned before that I find emcee-ing way less stressful than speaking, so I was definitely up for it, except that I had to leave at lunch to catch a flight (again). But Patrick was fine with it because [Cassie Evans](http://www.cassieevans.co.uk/) agreed to do the sessions after lunch, so impromptu emcee-ing on day 2!
+
+I had a way better time being the emcee. We had some form of Q&A after the talk but all the questions ran through me first, and I could also come up with a couple of my own to get the ball rolling so that was nice. So I was taking notes by hand during everybody's talk, which made me realise I hadn't done that in a long time.
+
+It was really nice to introduce Hakim, Cassie and [Val Head](https://valhead.com/), making it the second time I got to introduce Val. The first time being when I crashed the [Webconf.asia](https://2019.webconf.asia/) stage last year. Patrick did an amazing job with his conference and I'm really chuffed he put me in his line-up.
+
+## <span class="emoji" role="img" tabindex="0" aria-label="Hungary">&#x1F1ED;&#x1F1FA;</span> @ CSSConf Budapest
+
+Budapest was not part of my original schedule. But multiple factors influenced my decision to go, one of which was that Wei was going to attend, then I looked at the line-up and realised how many of my friends would be speaking there as well.
+
+There was [Charlie Gerard](https://charliegerard.github.io/), [Shelley Vohr](http://codebyte.re/), [Stephanie Nemeth](https://stephanie.lol/), [Ruth John](https://ruthjohn.com/), [Rebecca Hill](https://twitter.com/rebekaka), [Jake Archibald](https://jakearchibald.com/), [Das Surma](https://dassur.ma/), this list is getting long. And of course, my tea-drinking, basketball-loving friend, [Ben Gagyi](https://twitter.com/benedekgagyi).
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp-640.jpg" alt="Best seats in the house at JSConf Budapest">
+
+As part of the greater JSConf family, I was in contact with the organisers as well and when they saw I was attending, they asked if I wanted to emcee for [CSSConf Budpest](https://cssconfbp.rocks/). Of course I said yes. Like I mentioned before, I enjoy it quite a lot.
+
+Every single speaker was stunningly good, and it was such a pleasure to introduce them. And my emcee karma was relatively good, given what I did to Phil Hawksworth in Bristol, I was half expecting someone's laptop to catch fire or half the stage collapsing.
+
+Luckily, the only minor hiccup was when 1 of the speakers slides didn't come on and I spouted nonsense for a couple minutes longer than I normally did. We were also desperately off schedule in the morning, but due to some creative rescheduling of break time, we got everything back on track after lunch.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp2-640.jpg" alt="On stage at CSSConf Budapest">
+
+I thought the audience was extremely nice because they even applauded the emcee-ing, which was so kind of them. But [Paul Verbeek-Mast](http://paulvm.com/) hands-down stole the show and did an incredible job over the next 2 days for [JSConf Budapest](https://jsconfbp.com/). Amazing suit on Day 1, then full-length skirt and killer boots on Day 2. I just put on a tie.
+
+[Wei](https://dev.wgao19.cc/) gave a lovely presentation about [React Knowledgeable](https://reactknowledgeable.org/) at the Mozilla community lounge, which was a really nice place to just chill and watch the talks streamed live from the main stage. It was a very nice space and good idea to have it.
+
+Finally getting to meet [Eva Ferreira](http://www.evaferreira.com.ar/en/index.html) after years of following her online was definitely one of the highlights of this conference. I was really pleased I made the decision to come to Budapest on a whim.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp3-640.jpg" alt="Eva Ferreira blowing everyone's minds on stage">
+
+A lot of us realised that we would all be going to Amsterdam next for either View Source, Fronteers or both, so basically the party just moved cities. It was a lot of fun hanging out with friends I generally only get to see once or twice a year. Practically all of them are at least 8 hours away.
+
+Anyway, on to Amsterdam.
+
+<img src="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp@2x.jpg 2x" alt="Even the emcee gets sketchnotes">
+
+## <span class="emoji" role="img" tabindex="0" aria-label="The Netherlands">&#x1F1F3;&#x1F1F1;</span> @ View Source 2019
+
+[View Source](https://2019.viewsourceconf.org/) is Sandra's thing. And I think we've established that I would do anything for Sandra at this point if she says the word. She has looked out for me in so many ways and I will never stop saying how much I appreciate her.
+
+A lot of Budapest ended up in Amsterdam, but 1 person who was missing from Budapest was the indomitable [Anjana Vakil](https://twitter.com/AnjanaVakil), who was in Amsterdam for the Mozilla Techspeakers meetup as well as Fronteers. Also, [Mandy Michael](http://batmandy.com/) was around for Fronteers as well. Did I mention how much I love seeing my awesome friends who I never get to see otherwise?
+
+For View Source, however, I was kind of conferenced out at this point, so I pretty much skipped out most of Day 1. And I was also in 2 minds about the talk, which was the DevTools one yet again, but it would be the last time I was doing it.
+
+<img src="{{ site.url }}/assets/images/posts/talking-css-2019/viewsource.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/viewsource@2x.jpg 2x" alt="On stage at View Source Conference">
+
+I had talked to Wei after Edinburgh and mentioned I wasn't happy with how that one went, and she replied that I would still have the chance to do better at View Source. In a way, that made me both reassured for a second chance, but also more nervous because it was like the “farewell” edition (if that makes any sense).
+
+By now I had given this iterations of this talk (depending on time allocated) 8 times already and to me, it felt like people may have seen it before somewhere else. But I also realised that Charlie, Shelly, Anjana and Mandy hadn't seen it before, so I figured I'd just be giving that talk to them.
+
+Having friends in the front row is the best thing ever as a speaker. They were so incredibly supportive. I was going faster than I normally did (and I already speak fairly fast) because I had the hare-brained idea to fit in more content just for this “finale” edition. Apparently the captioner kept right up. I owe her a drink.
+
+Immediately after my talk was a Conversation Corner thing with Rachel Andrew and [Adam Argyle](https://twitter.com/argyleink), who I met in person for the first time and he's such a chill guy.
+
+<img src="{{ site.url }}/assets/images/posts/talking-css-2019/viewsource2.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/viewsource2@2x.jpg 2x" alt="Having a nice chat about CSS with Rachel and Adam">
+
+We weren't given much guidance on how to do things so it ended up being a conversation between the 3 of us about CSS, the standards bodies, browsers and specifications. Things we would have chatted about even without an audience.
+
+Personally, I can't wait to share [Jeremy Keith](https://adactio.com/)'s closing keynote when the video gets released, because it was just so damn good.
+
+I genuinely appreciated having a lot of content centred around browser technologies and web standards, because it offers a perspective different from what day-to-day web developers encounter, and don't we all need more perspective?
+
+## <span class="emoji" role="img" tabindex="0" aria-label="The Netherlands">&#x1F1F3;&#x1F1F1;</span> @ Fronteers 2019
+
+I'd known about [Fronteers](https://fronteers.nl/congres/2019) for years because it was the first international conference my brother from another mother, [Zell Liew](https://zellwk.com/), spoke at back in 2016. He's now off the circuit for at least 7 years or until his daughter starts school? Who knows?
+
+Before Fronteers though, I spoke at [QueerJS](https://queerjs.com/amsterdam). Truth be told, I wasn't all there because I was a bit sick that day, so maybe ask Charlie for details on what happened. But all the talks were fantastic. I requested for mine not to be recorded or streamed, because reasons.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/queerjs-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/queerjs-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/queerjs-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/queerjs-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/queerjs-640.jpg" alt="Being introduced by Sara Vieira">
+
+It was one of the very few technical talks I ever gave, and I'm happy I did it albeit semi-sprawled on the podium to hold myself up. To the people who happened to hear it and told me nice things after, thank you. I wouldn't have been able to give it anywhere else at this point, and so I am grateful.
+
+So, Fronteers. What a stage it was. The venue was a legitimate theatre and had a really classy vibe. I was especially excited to see [Lea Verou](http://lea.verou.me/), [Chris Lilley](https://svgees.us/) and their adorable baby daughter, Zoe. The last time I met them was in Athens in January, when Chris first had issues with his visa.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Off to Amsterdam for <a href="https://twitter.com/FronteersConf?ref_src=twsrc%5Etfw">@FronteersConf</a>! First conference to attend with Zoe, first conference talk I’m giving after she was born. I got the jitters like it’s 2010 again! (<a href="https://twitter.com/svgeesus?ref_src=twsrc%5Etfw">@svgeesus</a> is here too, he took the photo) <a href="https://t.co/KfjGucF7Mf">pic.twitter.com/KfjGucF7Mf</a></p>&mdash; Lea Verou (@LeaVerou) <a href="https://twitter.com/LeaVerou/status/1179219628536553474?ref_src=twsrc%5Etfw">October 2, 2019</a></blockquote>
+
+It was a lot of tension as Chris's visa barely came through before Zoe was due to be born, but all is well now, and I was delight to see my favourite first family of the web in person. Chatting with Chris is one of the most delightful things ever as he shared a lot of the developments in web fonts land with me. I'll definitely have more to say on this subject moving forward.
+
+I finally got to watch [Charlie Owen](https://www.sonniesedge.net/) live and oh my goodness, it was a spectacular opening (which did make me more nervous about mine because I was right after). Fronteers was another conference with an utterly stacked line-up, Lea Verou, Rachel Andrew, [Ashi Krishnan](https://ashi.io/), Anjana Vakil, Mandy Michael, and this list goes on.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-640.jpg" alt="Being introduced by Sara Vieira">
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">the potential for creating better visual interfaces for users of assistive technologies by combining variable fonts with speech apis is a pretty exciting prospect<a href="https://twitter.com/hashtag/FronteersConf?src=hash&amp;ref_src=twsrc%5Etfw">#FronteersConf</a> <a href="https://t.co/Z1MRdeQnGw">pic.twitter.com/Z1MRdeQnGw</a></p>&mdash; HJ Chen (@hj_chen) <a href="https://twitter.com/hj_chen/status/1180130434568658944?ref_src=twsrc%5Etfw">October 4, 2019</a></blockquote>
+
+Meeting [Eva Lettner](https://twitter.com/eva_trostlos) again after 2 years was definitely another high point of the conference. I was especially happy all the CSS talks this conference were the ones that got multiple rounds of applause during the talk. I know people typically say they will watch conference videos but don't. Please do watch the Fronteers videos. They are all so good.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-640.jpg" alt="Being introduced by Sara Vieira">
+
+As for myself, I gave the talk I did back in April for [ImageCon](#--imagecon), because honestly, I spent a lot of time researching that one, and felt I should at least give it one more time. The accoustics of the theatre made it hard to gauge audience reaction, but again, my friends were right up the first row and amazingly supportive.
+
+It was a 45 minute talk, which is honestly longer than I'm used to, so I sort of “lost it” a little around the 30 minute mark, but hopefully not too many people noticed. The feedback afterward was lovely and reassuring, and I was pretty happy to have gotten through this rather packed schedule without falling off any of the stages.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers-640.jpg" alt="On stage at Fronteers">
+
+But that's generally it for me this conference season. It hit me I needed to reflect on my life choices when Ashi casually asked me how much speaking I did in the past 2 weeks and I had to count (the final tally was 10, or maybe 9.5 because I was only half-day emcee for Finch).
+
+My remaining speaking engagements are all in Asia, and on a relatively more sane schedule. But I do need to deal with that gentle layer of dust that has collected over everything in my room at this point. <span class="kaomoji">¯\\\_(ツ)_/¯</span>
+
+## <span class="emoji" role="img" tabindex="0" aria-label="Japan">&#x1F1EF;&#x1F1F5;</span><span class="emoji" role="img" tabindex="0" aria-label="South Korea">&#x1F1F0;&#x1F1F7;</span><span class="emoji" role="img" tabindex="0" aria-label="Taiwan">&#x1F1F9;&#x1F1FC;</span><span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span><span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> @ Mozilla Developer Roadshow Asia
+
+Happening soon…
+
+## <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> @ Webconf.asia 2019
+
+Happening soon…
+
+## <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> @ DevFest & BizFest Georgetown 2019
+
+Happening soon…
+
+## <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> @ DevFest Kuala Lumpur 2019
+
+Happening soon…
