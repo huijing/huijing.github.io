@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Talking about talking CSS 2019 edition"
-date: Jun 28, 2019
+date: Oct 08, 2019
 tags: [css, design, opinion]
 hastweet: true
 ---
@@ -314,7 +314,7 @@ However, I was again fairly incompetent with the button pressing and only rememb
 
 The last stop of the roadshow was Vienna. I was genuinely excited for Vienna because of the “Viennese mafia”, comprised of [Eva Lettner](https://twitter.com/eva_trostlos), [Andrey Okonetchnikov](http://okonet.ru/) and [Manuel Matuzovic](http://matuzo.at/), who had passionately insisted that Vienna was the best city in the world when I first met them in Saint Petersberg.
 
-The city did not disappoint. It was beautiful. This stop was especially fun for me because instead of my talk, I had a fireside conversation with [Max Böck](https://twitter.com/mxbck) about the CSS mindset. I share a lot of the same sentiments as he does about how we approach CSS so it was effortless to build off each others points throughout the conversation.
+The city did not disappoint. It was beautiful. This stop was especially fun for me because instead of my talk, I had a fireside conversation with [Max Böck](https://twitter.com/mxbck) about the CSS mindset. I share a lot of the same sentiments as he does about how we approach CSS so it was effortless to build off each other's points throughout the conversation.
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/mdreu4-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu4-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu4-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/mdreu4-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/mdreu4-640.jpg" alt="Max Böck and I before the fireside chat at Vienna">
 
@@ -326,7 +326,7 @@ Fun fact. I managed to hit my not-so-secret secret agenda of going climbing (jus
 
 Immediately after the Mozilla Developer Roadshow was [CONNECT Asia](https://asia.womenwhocode.dev/), organised by [Women Who Code](https://www.womenwhocode.com/singapore). I had committed to this fairly early in the year and personally, it matters to me to speak at home. I could go on about all the reasons why, but let's save that for another day.
 
-The schedule was unfortunately such that I had to get to the venue straight from the airport, but Singapore is tiny enough for this not to be too much of an issue. I didn't sleep that much on the 8 hour leg from Doha to Singapore though and ended up hiding in the library (it was at the venue) for a short nap.
+The schedule was unfortunately such that I had to get to the venue straight from the airport, but Singapore is tiny enough for this not to be too much of an issue. I didn't sleep that much on the 8-hour leg from Doha to Singapore though and ended up hiding in the library (it was at the venue) for a short nap.
 
 I have mentioned this earlier in the JSConf.Asia section, but I generally have an accent, either American or British, when I go on conference stages. But this time, I decided to keep my local accent. I may not be Singaporean, but my Singlish is on point.
 
@@ -486,7 +486,7 @@ Before Fronteers though, I spoke at [QueerJS](https://queerjs.com/amsterdam). Tr
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/queerjs-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/queerjs-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/queerjs-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/queerjs-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/queerjs-640.jpg" alt="Being introduced by Sara Vieira">
 
-It was one of the very few technical talks I ever gave, and I'm happy I did it albeit semi-sprawled on the podium to hold myself up. To the people who happened to hear it and told me nice things after, thank you. I wouldn't have been able to give it anywhere else at this point, and so I am grateful.
+It was one of the very few non-technical talks I ever gave, and I'm happy I did it albeit semi-sprawled on the podium to hold myself up. To the people who happened to hear it and told me nice things after, thank you. I wouldn't have been able to give it anywhere else at this point, and so I am grateful.
 
 So, Fronteers. What a stage it was. The venue was a legitimate theatre and had a really classy vibe. I was especially excited to see [Lea Verou](http://lea.verou.me/), [Chris Lilley](https://svgees.us/) and their adorable baby daughter, Zoe. The last time I met them was in Athens in January, when Chris first had issues with his visa.
 
@@ -506,7 +506,7 @@ Meeting [Eva Lettner](https://twitter.com/eva_trostlos) again after 2 years was 
 
 As for myself, I gave the talk I did back in April for [ImageCon](#--imagecon), because honestly, I spent a lot of time researching that one, and felt I should at least give it one more time. The accoustics of the theatre made it hard to gauge audience reaction, but again, my friends were right up the first row and amazingly supportive.
 
-It was a 45 minute talk, which is honestly longer than I'm used to, so I sort of “lost it” a little around the 30 minute mark, but hopefully not too many people noticed. The feedback afterward was lovely and reassuring, and I was pretty happy to have gotten through this rather packed schedule without falling off any of the stages.
+It was a 45 minute talk, which is honestly longer than I'm used to, so I sort of “lost it” a little around the 30 minute mark, but hopefully not too many people noticed. The feedback afterward was very kind, and I was pretty happy to have gotten through this rather packed schedule without falling off any of the stages.
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers-640.jpg" alt="On stage at Fronteers">
 
