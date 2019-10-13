@@ -30,8 +30,7 @@ I've been speaking internationally for 2 years now ([2017 recap]({{ site.url }}/
 - [CSSConf Budapest 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Hungary">&#x1F1ED;&#x1F1FA;</span> on 25 Sep](#--cssconf-budapest)
 - [View Source 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="The Netherlands">&#x1F1F3;&#x1F1F1;</span> on 1 Oct](#--view-source-2019)
 - [Fronteers 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="The Netherlands">&#x1F1F3;&#x1F1F1;</span> on 3 Oct](#--fronteers-2019)
-- [Mozilla Developer Roadshow Asia @ <span class="emoji" role="img" tabindex="0" aria-label="Japan">&#x1F1EF;&#x1F1F5;</span><span class="emoji" role="img" tabindex="0" aria-label="South Korea">&#x1F1F0;&#x1F1F7;</span><span class="emoji" role="img" tabindex="0" aria-label="Taiwan">&#x1F1F9;&#x1F1FC;</span><span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span><span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> from 11–20 Nov](#--mozilla-developer-roadshow-asia)
-- [Webconf.asia 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> on 23–24 Nov](#--webconfasia-2019)
+- [Mozilla Developer Roadshow Asia @ <span class="emoji" role="img" tabindex="0" aria-label="Japan">&#x1F1EF;&#x1F1F5;</span><span class="emoji" role="img" tabindex="0" aria-label="South Korea">&#x1F1F0;&#x1F1F7;</span><span class="emoji" role="img" tabindex="0" aria-label="Taiwan">&#x1F1F9;&#x1F1FC;</span><span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span><span class="emoji" role="img" tabindex="0" aria-label="Thailand">&#x1F1F9;&#x1F1ED;</span> from 11–20 Nov](#--mozilla-developer-roadshow-asia)
 - [DevFest & BizFest Georgetown 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> on 30 Nov](#--devfest--bizfest-georgetown-2019)
 - [DevFest Kuala Lumpur 2019 @ <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> on 7 Dec](#--devfest-kuala-lumpur-2019)
 
@@ -126,6 +125,8 @@ Technically, this isn't a talk about CSS. In fact, the talk I gave was the first
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/imagecon-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/imagecon-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/imagecon-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/imagecon-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/imagecon-640.jpg" alt="On stage at ImageCon">
 
 [Eric Portis](https://twitter.com/etportis) reached out to me end of last year and asked if I'd like to speak at this year's [ImageCon](https://www.imagecon.com/), and I immediately agreed. It only dawned on me at a much later date that I wasn't exactly an expert on images. But I always had a fascination with graphics rendering in general.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2ARZmuSi8JI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 The talk I pitched was a deep dive into images on the web, because I wanted to answer all the questions I had in my head about this topic. The research process was fascinating, and I am so grateful to the experts I reached out to for advice and clarification.
 
@@ -496,13 +497,13 @@ It was a lot of tension as Chris's visa barely came through before Zoe was due t
 
 I finally got to watch [Charlie Owen](https://www.sonniesedge.net/) live and oh my goodness, it was a spectacular opening (which did make me more nervous about mine because I was right after). Fronteers was another conference with an utterly stacked line-up, Lea Verou, Rachel Andrew, [Ashi Krishnan](https://ashi.io/), Anjana Vakil, Mandy Michael, and this list goes on.
 
-<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-640.jpg" alt="Being introduced by Sara Vieira">
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers2-640.jpg" alt="The amazing Charlie Owen on the Fronteers stage">
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">the potential for creating better visual interfaces for users of assistive technologies by combining variable fonts with speech apis is a pretty exciting prospect<a href="https://twitter.com/hashtag/FronteersConf?src=hash&amp;ref_src=twsrc%5Etfw">#FronteersConf</a> <a href="https://t.co/Z1MRdeQnGw">pic.twitter.com/Z1MRdeQnGw</a></p>&mdash; HJ Chen (@hj_chen) <a href="https://twitter.com/hj_chen/status/1180130434568658944?ref_src=twsrc%5Etfw">October 4, 2019</a></blockquote>
 
 Meeting [Eva Lettner](https://twitter.com/eva_trostlos) again after 2 years was definitely another high point of the conference. I was especially happy all the CSS talks this conference were the ones that got multiple rounds of applause during the talk. I know people typically say they will watch conference videos but don't. Please do watch the Fronteers videos. They are all so good.
 
-<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-640.jpg" alt="Being introduced by Sara Vieira">
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/fronteers3-640.jpg" alt="Eva Lettner starting her talk at Fronteers">
 
 As for myself, I gave the talk I did back in April for [ImageCon](#--imagecon), because honestly, I spent a lot of time researching that one, and felt I should at least give it one more time. The accoustics of the theatre made it hard to gauge audience reaction, but again, my friends were right up the first row and amazingly supportive.
 
@@ -512,13 +513,11 @@ It was a 45 minute talk, which is honestly longer than I'm used to, so I sort of
 
 But that's generally it for me this conference season. It hit me I needed to reflect on my life choices when Ashi casually asked me how much speaking I did in the past 2 weeks and I had to count (the final tally was 10, or maybe 9.5 because I was only half-day emcee for Finch).
 
+<iframe src="https://player.vimeo.com/video/364358241" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 My remaining speaking engagements are all in Asia, and on a relatively more sane schedule. But I do need to deal with that gentle layer of dust that has collected over everything in my room at this point. <span class="kaomoji">¯\\\_(ツ)_/¯</span>
 
-## <span class="emoji" role="img" tabindex="0" aria-label="Japan">&#x1F1EF;&#x1F1F5;</span><span class="emoji" role="img" tabindex="0" aria-label="South Korea">&#x1F1F0;&#x1F1F7;</span><span class="emoji" role="img" tabindex="0" aria-label="Taiwan">&#x1F1F9;&#x1F1FC;</span><span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span><span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> @ Mozilla Developer Roadshow Asia
-
-Happening soon…
-
-## <span class="emoji" role="img" tabindex="0" aria-label="Hong Kong">&#x1F1ED;&#x1F1F0;</span> @ Webconf.asia 2019
+## <span class="emoji" role="img" tabindex="0" aria-label="Japan">&#x1F1EF;&#x1F1F5;</span><span class="emoji" role="img" tabindex="0" aria-label="South Korea">&#x1F1F0;&#x1F1F7;</span><span class="emoji" role="img" tabindex="0" aria-label="Taiwan">&#x1F1F9;&#x1F1FC;</span><span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span><span class="emoji" role="img" tabindex="0" aria-label="Thailand">&#x1F1F9;&#x1F1ED;</span> @ Mozilla Developer Roadshow Asia
 
 Happening soon…
 
