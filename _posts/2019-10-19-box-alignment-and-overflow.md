@@ -121,7 +121,7 @@ But then the original intention of having the messages start at the bottom of th
 
 ## The auto-margins fix
 
-The solution I came up with is, instead of using the box alignment properties, I'd set a `margin-top: auto` on the first child of the messages area.
+The solution I came up with is, instead of setting a `justify-content: flex-end` to align the messages to the bottom of the message area, I'd set a `margin-top: auto` on the first child of the messages area.
 
 If you peek at the Flexbox specification this time, you can find this bit:
 
@@ -133,6 +133,8 @@ Regardless of how many message bubbles are in the message area, the top auto-mar
     <figcaption>Scrollable content</figcaption>
     <video src="{{ site.url }}/assets/videos/of-scroll.mp4" controls loop autoplay></video>
 </figure>
+
+I've ported a demo showing the difference between the 2 implementations in this CodePen if anyone is interested: [https://codepen.io/huijing/pen/zYYoZZP](https://codepen.io/huijing/pen/zYYoZZP).
 
 ## References and reading
 
