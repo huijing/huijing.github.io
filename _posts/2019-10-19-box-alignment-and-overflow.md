@@ -8,7 +8,7 @@ Recently I was working on a few chat interfaces, and the general layout is typic
 
 Usually your own messages would appear on the right, while received messages would appear on the left. Of course there are also some interfaces (Slack) which align all the messages on the left, but the ones I use regularly (Whatsapp, WeChat, Twitter) use the aforementioned left-right style.
 
-Such an interface is not tricky to build with Flexbox and the Box Alignment properties. But I did create a bug in the interface when using the box alignment properties for the messages area. TL:DR, the fix involves using auto margins instead of the `justify-content`. Intrigued? Read on.
+Such an interface is not tricky to build with Flexbox and the Box Alignment properties. But I did create a bug in the interface when using the box alignment properties for the messages area. TL:DR, the fix involves using auto margins instead of the `justify-content` property. Intrigued? Read on.
 
 ## CSS-ing the chat interface
 
