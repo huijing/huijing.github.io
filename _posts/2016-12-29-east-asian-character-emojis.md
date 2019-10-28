@@ -197,7 +197,7 @@ So that's 17 East Asian character emojis covered. Plus the short version of the 
   <li class="no-margin"><a href="https://stories.moma.org/the-original-emoji-set-has-been-added-to-the-museum-of-modern-arts-collection-c6060e141f61#.lgmi3hxgj">The Original Emoji Set Has Been Added to The Museum of Modern Art’s Collection</a></li>
   <li class="no-margin"><a href="https://creativemarket.com/blog/meet-the-graphic-designers-behind-the-emojis-we-love">Meet the Graphic Designers Behind the Emojis We Love</a></li>
   <li class="no-margin"><a href="https://www.buzzfeed.com/charliewarzel/there-will-be-dumplings">One Woman’s Bizarre, Delightful Quest To Change Emojis Forever</a></li>
-  <li class="no-margin"><a href="http://www.dumplingemoji.org/">The Dumpling Emoji Project</a></li>
+  <li class="no-margin"><a href="https://web.archive.org/web/20190630204932/http://www.dumplingemoji.org/">The Dumpling Emoji Project</a></li>
   <li><a href="http://www.npr.org/sections/thesalt/2016/12/28/506160715/a-brief-history-of-food-emoji-why-you-wont-find-hummus-on-your-phone">A Brief History Of Food Emoji: Why You Won’t Find Hummus On Your Phone</a></li>
   <li><a href="https://blog.emojipedia.org/correcting-the-record-on-the-first-emoji-set/">Correcting the Record on the First Emoji Set</a></li>
 </ul>

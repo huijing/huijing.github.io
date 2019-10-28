@@ -409,7 +409,7 @@ My first remote conference of the year! Unfortunately, due to scheduling, I ende
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/finch-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/finch-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/finch-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/finch-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/finch-640.jpg" alt="Sunrise from the plane">
 
-So the flight I was catching on the day of the hike was to Edinburgh for [Finch Front-end](https://jsconfbp.com/). It was the inaugural edition organised by [Patrick Griffiths](https://twitter.com/ptg) and the line-up was absolutely stacked! There was [Hakim El Hattab](https://hakim.se/), [Rachel Andrew](https://rachelandrew.co.uk/), [Harry Roberts](https://csswizardry.com/), [Sara Soueidan](https://www.sarasoueidan.com/) among all the other briliant speakers.
+So the flight I was catching on the day of the hike was to Edinburgh for [Finch Front-end](https://finchconf.uk/). It was the inaugural edition organised by [Patrick Griffiths](https://twitter.com/ptg) and the line-up was absolutely stacked! There was [Hakim El Hattab](https://hakim.se/), [Rachel Andrew](https://rachelandrew.co.uk/), [Harry Roberts](https://csswizardry.com/), [Sara Soueidan](https://www.sarasoueidan.com/) among all the other briliant speakers.
 
 I was doing the DevTools talk once again, but this time I was given 45 minutes, so I managed to fit in all of my “Lego” blocks. I'll be honest, I did not think it was my best performance, and the audience was fairly reserved, which did throw me off a little, especially since Kathmandu happened just 2 days before (I did the straight from the airport thing again).
 
@@ -439,7 +439,7 @@ Luckily, the only minor hiccup was when 1 of the speakers slides didn't come on 
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/cssconfbp2-640.jpg" alt="On stage at CSSConf Budapest">
 
-I thought the audience was extremely nice because they even applauded the emcee-ing, which was so kind of them. But [Paul Verbeek-Mast](http://paulvm.com/) hands-down stole the show and did an incredible job over the next 2 days for [JSConf Budapest](https://jsconfbp.com/). Amazing suit on Day 1, then full-length skirt and killer boots on Day 2. I just put on a tie.
+I thought the audience was extremely nice because they even applauded the emcee-ing, which was so kind of them. But [Paul Verbeek-Mast](http://paulvm.com/) hands-down stole the show and did an incredible job over the next 2 days for [JSConf Budapest](https://2019.jsconfbp.com/). Amazing suit on Day 1, then full-length skirt and killer boots on Day 2. I just put on a tie.
 
 [Wei](https://dev.wgao19.cc/) gave a lovely presentation about [React Knowledgeable](https://reactknowledgeable.org/) at the Mozilla community lounge, which was a really nice place to just chill and watch the talks streamed live from the main stage. It was a very nice space and good idea to have it.
 

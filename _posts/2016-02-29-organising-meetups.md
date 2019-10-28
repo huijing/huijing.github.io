@@ -27,7 +27,7 @@ The above is a quote from [Sean McCabe](http://seanwes.com/), who puts out [a re
 
 If the format of your meet-up is like ours, which is a talk-based format, where speakers get a set amount of time to present on a topic of their choice, then the quality of your content is dependent on your speakers. For speakers to come up with good content, they need time to prepare. They can only have time to prepare if they know in advance when the meet-up will take place. You can't have a meet-up without a venue either, and venues will also need to know in advance the date of your meet-up.
 
-So the point is, decide on the frequency of your meet-up, then **just pick a day**. The cool part about the Singapore tech community is that we have very passionate people like [Michael Cheng](https://twitter.com/coderkungfu) and [Sayanee Basu](https://sayan.ee/) who make it a point to grow this community, through resources like [Engineers.SG](https://engineers.sg/) and [webuild.sg](https://webuild.sg/). So we now have a formula if you want to organise your own tech meet-up.
+So the point is, decide on the frequency of your meet-up, then **just pick a day**. The cool part about the Singapore tech community is that we have very passionate people like [Michael Cheng](https://twitter.com/coderkungfu) and [Sayanee Basu](https://sayan.ee/) who make it a point to grow this community, through resources like [Engineers.SG](https://engineers.sg/) and [webuild.sg](https://github.com/webuildsg/webuild). So we now have a formula if you want to organise your own tech meet-up.
 
 ***Update (@ 29 Feb 2016):*** Added in a few more points as suggested by [Sayanee](https://sayan.ee/).  
 ***Update (@ 21 Mar 2019):*** In August 2018, webuild.sg merged with Engineers.sg so this section is now obsolete. Please head over to Engineers.sg's [events page](https://engineers.sg/events/) for news on upcoming meetups.
@@ -91,7 +91,7 @@ If there's a technology you're interested in but can't find a meet-up for it, wh
 
 <ul>
   <li class="no-margin"><a href="https://engineers.sg/">Engineers.SG</a> - videos of all the tech meet-ups in Singapore</li>
-  <li class="no-margin"><a href="https://webuild.sg/">webuild.sg</a> - curated list of meet-ups and open-source projects in Singapore</li>
+  <li class="no-margin"><a href="https://web.archive.org/web/20190716050141/http://webuild.sg/">webuild.sg</a> - curated list of meet-ups and open-source projects in Singapore</li>
   <li class="no-margin"><a href="https://hackerspace.sg/calendar/">Hackerspace.SG</a> - the Singapore hacker community’s home, living room and laboratory</li>
   <li class="no-margin"><a href="http://kopijs.org/">KopiJS</a> - a casual meetup for developers and designers in Singapore</li>
   <li><a href="http://www.meetup.com/Singapore-JS/">SingaporeJS</a> - our Javascript counterpart</li>

@@ -465,7 +465,7 @@ I want to take this opportunity to highlight a new meetup in town run by Wei cal
 
 <img srcset="{{ site.url }}/assets/images/posts/magical-kittencorn/rk-480.png 480w, {{ site.url }}/assets/images/posts/magical-kittencorn/rk-640.png 640w, {{ site.url }}/assets/images/posts/magical-kittencorn/rk-960.png 960w, {{ site.url }}/assets/images/posts/magical-kittencorn/rk-1280.png 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/magical-kittencorn/rk-640.png" alt="React Knowledgeable">
 
-It's going to be a lightning talk series of 4–5 lightning talks each meetup with a networking break in between. Read [the origin story](https://reactknowledgeable.org/story/stories/baby-react-knowledgeable-is-born/) to find out more. And [submit a talk](https://github.com/react-knowledgeable/talks/issues/new?assignees=&labels=talk&template=talk.md&title=%E2%9A%A1%EF%B8%8F+how+not+to+get+caught+and+be+eaten) if you feel like it.
+It's going to be a lightning talk series of 4–5 lightning talks each meetup with a networking break in between. Read [the origin story](https://reactknowledgeable.org/stories/baby-react-knowledgeable-is-born/) to find out more. And [submit a talk](https://github.com/react-knowledgeable/talks/issues/new?assignees=&labels=talk&template=talk.md&title=%E2%9A%A1%EF%B8%8F+how+not+to+get+caught+and+be+eaten) if you feel like it.
 
 CSS kittencorn's kid sibling is kind of the unofficial mascot for <code class="no-break"><RK⚡️ /></code>, I think? Go ask Wei about it. <span class="kaomoji">¯\\\_(ツ)_/¯</span>
 

@@ -120,4 +120,4 @@ If you haven't played Ski Free before, it's really simple. You control this ski-
 
 Well, that was my trip down memory lane. I don't actually personally know that many people who love old games, come to think of it. So that's probably why this post grew so long, years of conversation about vintage games just tumbling out from my brain. <span class="emoji" role="img" tabindex="0" aria-label="nerd face">&#x1F913;</span>
 
-Anyway, if you're remotely interested in hardware and are currently in or will be in Singapore, check out [Hackware](http://www.meetup.com/Hackware/) or any other of the local tech meetups from [webuild.sg](https://webuild.sg/).
+Anyway, if you're remotely interested in hardware and are currently in or will be in Singapore, check out [Hackware](http://www.meetup.com/Hackware/) or any other of the local tech meetups from [webuild.sg](https://web.archive.org/web/20190716050141/http://webuild.sg/).

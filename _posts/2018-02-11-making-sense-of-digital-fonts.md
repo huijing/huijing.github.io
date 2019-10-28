@@ -12,7 +12,7 @@ As I was polishing up my talk for [You Gotta Love Frontend](https://yougottalove
 —[Mark Simonson](https://twitter.com/marksimonson)
 
 > **font** is what you use, and **typeface** is what you see.  
--[Norbert Florendo](http://www.typophile.com/node/13593)
+-[Norbert Florendo](https://web.archive.org/web/20131010180405/http://www.typophile.com/node/13593)
 
 But after figuring out what fonts actually were, I wanted to know how digital fonts worked. I did eventually finish my talk, just that I got slightly sidetracked along the way. This is going to be another “brain dump” post. You have been warned.
 

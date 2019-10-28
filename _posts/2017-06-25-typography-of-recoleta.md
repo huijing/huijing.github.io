@@ -180,7 +180,7 @@ I really like wandering around cemeteries by myself, there's a reverent silence 
 
 <ul>
   <li class="no-margin"><a href="http://www.buenosaires.gob.ar/laciudad/barrios/recoleta">Recoleta</a></li>
-  <li class="no-margin"><a href="https://mysendoff.com/2012/10/the-recoleta-cemetery-the-city-within-a-city/">The Recoleta Cemetery: The City Within A City</a></li>
+  <li class="no-margin"><a href="https://web.archive.org/web/20180930153855/https://mysendoff.com/2012/10/the-recoleta-cemetery-the-city-within-a-city/">The Recoleta Cemetery: The City Within A City</a></li>
   <li class="no-margin"><a href="http://wander-argentina.com/recoleta-cemetery/">Recoleta Cemetery Buenos Aires Prestigious Burial Ground</a></li>
   <li class="no-margin"><a href="http://u-in-u.com/art-destinations/argentina/buenos-aires/more-places/cementerio-recoleta/">La Recoleta Cemetery</a></li>
   <li><a href="http://www.worldcat.org/title/ciudad-de-angeles-historia-del-cementerio-de-la-recoleta/oclc/49411769">Ciudad de angeles: historia del cementerio de la Recoleta</a></li>

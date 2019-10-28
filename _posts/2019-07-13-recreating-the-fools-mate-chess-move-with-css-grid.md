@@ -240,6 +240,6 @@ Here's the whole thing on CodePen if you want to see exactly how everything come
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
-If you found this interesting, maybe give it a try as well? I'm really curious to see what other things can be designed and built with this behaviour, so feel free to ping me with your creation. I also want to shout out [Christopher Powroznik](https://metroxe.github.io/) for creating the [One HTML Page Challenge](https://metroxe.github.io/one-html-page-challenge/).
+If you found this interesting, maybe give it a try as well? I'm really curious to see what other things can be designed and built with this behaviour, so feel free to ping me with your creation. I also want to shout out [Christopher Powroznik](https://github.com/Metroxe) for creating the [One HTML Page Challenge](https://metroxe.github.io/one-html-page-challenge/).
 
 I've put up this Fool's Mate demo on there, but there's so much more that can be done in 1 single page. It's pretty fun to build stuff without external dependencies for a change.
