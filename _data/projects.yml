@@ -29,3 +29,11 @@
 - title: CSS layouts
   id: layouts-demo
   image: project-25
+
+- title: Bey-timer
+  external_url: https://singaporecss.github.io/bey-timer/
+  image: project-27
+
+- title: Colour speech
+  external_url: https://singaporecss.github.io/colour-speech/
+  image: project-29

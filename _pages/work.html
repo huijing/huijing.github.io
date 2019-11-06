@@ -35,7 +35,11 @@ permalink: /work/
   {% endfor %}
   {% for project in site.data.projects %}
   <div class="project">
+    {% if project.external_url %}
+    <a class="no-underline" href="{{ project.external_url }}">
+    {% else %}
     <a class="no-underline" href="{{ site.url }}/{{ project.id }}">
+    {% endif %}
       <img class="project__image" srcset="{{ site.url }}/assets/images/posts/projects/{{ project.image }}@2x.png 2x" src="{{ site.url }}/assets/images/posts/projects/{{ project.image }}.png" alt="{{ project.image }}"/>
       <h3 class="project__title no-margin">{{ project.title }}</h3>
     </a>
