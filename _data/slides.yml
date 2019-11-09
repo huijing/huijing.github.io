@@ -657,7 +657,7 @@
   event: React Knowledgeable
   type: meetup
   released: true
-  pdf: false
+  pdf: true
 
 - title: "Making CSS from Good to Great: The Power of Subgrid"
   id: mdr-asia-2019
