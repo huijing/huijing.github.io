@@ -135,8 +135,10 @@ The latest edition of the site introduced a new block of content for past talks,
 
 Again, all the code is [open-source on GitHub](https://github.com/react-knowledgeable/rk-community-site), or you can also take a peek at the [Glitch project](https://glitch.com/~react-knowledgeable) to see how it's done.
 
+The website is constantly being updated with new features, like a custom RSVP function (inspired by the [QueerJS](https://queerjs.com/) website) being the latest one. Kudos to [Thomas Chia](https://twitter.com/th__chia) for working tirelessly on it. It's almost 2020 and websites are still cool, my friends.
+
 ## Wrapping up
 
 The premise behind this meetup is to have an inclusive and welcoming environment for people to share knowledge and things they find interesting, and I love that. I also love that Singapore has a support structure that allows a burgeoning new meetup to find its feet in almost no time at all.
 
-Anyway, if you're ever in town when one is happening, just drop by and check it out. You won't regret it. Also, follow React Knowledgeable on all the things (basically just [Twitter](https://twitter.com/reknowledgeable) for now).
+Anyway, if you’re ever in town when one is happening, just drop by and check it out. You won’t regret it. Also, follow [React Knowledgeable](https://reactknowledgeable.org/) on all the things (basically just [Twitter](https://twitter.com/reknowledgeable) and [GitHub](https://github.com/react-knowledgeable/rk-community-site) for now).
