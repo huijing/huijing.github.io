@@ -18,3 +18,4 @@ Which led me to dig a little deeper into how international the Web Speech API ac
 
 ## What is this Web Speech API?
 
+The Web Speech API is not a web standard, it is a community report developed and published by the [Speech API Community Group](https://www.w3.org/community/speech-api/), with the first draft released by in 2012.

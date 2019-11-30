@@ -135,7 +135,7 @@ The latest edition of the site introduced a new block of content for past talks,
 
 Again, all the code is [open-source on GitHub](https://github.com/react-knowledgeable/rk-community-site), or you can also take a peek at the [Glitch project](https://glitch.com/~react-knowledgeable) to see how it's done.
 
-The website is constantly being updated with new features, like a custom RSVP function (serendipitously similar to the [QueerJS](https://queerjs.com/) website, clearly great minds think alike) being the latest one. Kudos to [Thomas Chia](https://twitter.com/th__chia) for working tirelessly on it. It's almost 2020 and websites are still cool, my friends.
+The website is constantly being updated with new features, like a custom RSVP function (serendipitously similar to the [QueerJS](https://queerjs.com/) website, clearly great minds think alike) and a custom GitHub authentication function. Kudos to [Thomas Chia](https://twitter.com/th__chia) for working tirelessly on it. It's almost 2020 and websites are still cool, my friends.
 
 ## Wrapping up
 

@@ -666,7 +666,7 @@
   event: Mozilla Developer Roadshow Asia 2019
   website: https://mozilla-tito-devr.netlify.com/
   type: conference
-  released: false
+  released: true
   pdf: false
 
 - title: "How CSS evolves, a look back at 2 years of CSS grid"
@@ -675,7 +675,7 @@
   event: Devfest & Bizfest Georgetown 2019
   website: https://www.meetup.com/GDG-George-Town/events/264424881/
   type: conference
-  released: false
+  released: true
   pdf: false
 
 - title: "Making CSS from Good to Great: The Power of Subgrid"
