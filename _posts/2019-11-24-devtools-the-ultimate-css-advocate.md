@@ -21,6 +21,8 @@ Most web developers will open DevTools at some point in their process, often whe
 
 As of now, Firefox is the only browser that is focusing on moving in this direction. They ship their new CSS features and DevTools support for that feature at the same time. And this makes perfect sense. When developers encounter and try out a new CSS feature, it is inevitable that DevTools will be invoked.
 
+<img srcset="{{ site.url }}/assets/images/posts/devtools-css/browsers-480.jpg 480w, {{ site.url }}/assets/images/posts/devtools-css/browsers-640.jpg 640w, {{ site.url }}/assets/images/posts/devtools-css/browsers-960.jpg 960w, {{ site.url }}/assets/images/posts/devtools-css/browsers-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/devtools-css/browsers-640.jpg" alt="Devtools layout inspector">
+
 CSS has a very visual output. The value that DevTools can provide is a visualisation of what CSS is doing to the elements on the page. Most browsers have rudimentary support for things like margins, borders and paddings on each element, but that's about it.
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">CSS GRID IS ANIMATABLE. WHAT?! 🤯<br><br>Did not know this. <br>Now I know this. <br>TIL!<br><br>Thanks, <a href="https://twitter.com/hj_chen?ref_src=twsrc%5Etfw">@hj_chen</a>! 😍<a href="https://twitter.com/hashtag/ViewSourceConf?src=hash&amp;ref_src=twsrc%5Etfw">#ViewSourceConf</a> <a href="https://t.co/m7GTtXWv0Q">pic.twitter.com/m7GTtXWv0Q</a></p>&mdash; Tejas Kumar (@TejasKumar_) <a href="https://twitter.com/TejasKumar_/status/1179012406418251776?ref_src=twsrc%5Etfw">October 1, 2019</a></blockquote>
