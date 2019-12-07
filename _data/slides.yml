@@ -667,7 +667,7 @@
   website: https://mozilla-tito-devr.netlify.com/
   type: conference
   released: true
-  pdf: false
+  pdf: true
 
 - title: "How CSS evolves, a look back at 2 years of CSS grid"
   id: devfestgt-2019
@@ -676,7 +676,7 @@
   website: https://www.meetup.com/GDG-George-Town/events/264424881/
   type: conference
   released: true
-  pdf: false
+  pdf: true
 
 - title: "Making CSS from Good to Great: The Power of Subgrid"
   id: devfestkl-2019
@@ -684,5 +684,5 @@
   event: DevFest 2019 Kuala Lumpur
   website: https://devfest.gdgkl.dev/
   type: conference
-  released: false
-  pdf: false
+  released: true
+  pdf: true

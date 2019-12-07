@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Is your browser a polyglot?"
-date: Dec 01, 2019
+date: Dec 10, 2019
 tags: [javascript, css]
 ---
 Over the course of this year, I've gone over to [Wei](https://uuei.io/)'s workplace numerous times to disturb her and her colleagues during their internal sharing, not to be confused with the community meetup, [React Knowledgeable](https://reactknowledgeable.org/). I think the internal sharing's unofficial name is RK Originals, maybe. Who knows?

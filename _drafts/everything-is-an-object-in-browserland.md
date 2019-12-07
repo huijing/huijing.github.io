@@ -1,6 +1,6 @@
 ---
 layout: post
 title: "Everything is an object in browserland"
-date: Dec 14, 2019
+date: Jan 14, 2020
 tags: [css, javascript]
 ---
