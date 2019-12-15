@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Talking about talking CSS 2019 edition"
-date: Oct 08, 2019
+date: Dec 15, 2019
 tags: [css, design, opinion]
 hastweet: true
 ---
@@ -335,7 +335,7 @@ Because this was a multi-track event, there weren't that many people in the audi
 
 <img src="{{ site.url }}/assets/images/posts/talking-css-2019/connectasia.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/connectasia@2x.jpg 2x" alt="Friends in the audience">
 
-I did have a good number of friends and people who knew me in the audience, so it was really very fun for me. I don't know how much fun they had though. Got some good meme-worthy photos out of them though.
+I did have a good number of friends and people who knew me in the audience, so it was really very fun for me. I don't know how much fun they had. Got some good meme-worthy photos out of them though.
 
 <img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/connectasia2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/connectasia2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/connectasia2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/connectasia2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/connectasia2-640.jpg" alt="Apparently I like triangles">
 
@@ -475,9 +475,11 @@ Immediately after my talk was a Conversation Corner thing with Rachel Andrew and
 
 We weren't given much guidance on how to do things so it ended up being a conversation between the 3 of us about CSS, the standards bodies, browsers and specifications. Things we would have chatted about even without an audience.
 
-Personally, I can't wait to share [Jeremy Keith](https://adactio.com/)'s closing keynote when the video gets released, because it was just so damn good.
+Personally, I can't wait to share [Jeremy Keith](https://adactio.com/)'s closing keynote when the video gets released, because it was just so damn good. *Update: [here it is](https://youtu.be/LrWsjbaeahA).*
 
 I genuinely appreciated having a lot of content centred around browser technologies and web standards, because it offers a perspective different from what day-to-day web developers encounter, and don't we all need more perspective?
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/22ejQuAmZqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="The Netherlands">&#x1F1F3;&#x1F1F1;</span> @ Fronteers 2019
 
@@ -519,12 +521,94 @@ My remaining speaking engagements are all in Asia, and on a relatively more sane
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Japan">&#x1F1EF;&#x1F1F5;</span><span class="emoji" role="img" tabindex="0" aria-label="South Korea">&#x1F1F0;&#x1F1F7;</span><span class="emoji" role="img" tabindex="0" aria-label="Taiwan">&#x1F1F9;&#x1F1FC;</span><span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span><span class="emoji" role="img" tabindex="0" aria-label="Thailand">&#x1F1F9;&#x1F1ED;</span> @ Mozilla Developer Roadshow Asia
 
-Happening soon…
+I went on the Mozilla Developer Roadshow again for the Asia leg, and although this was spaced out a bit more than the Europe one, because it was air travel, it felt more hectic. But I am always excited to speak at events in Asia.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/mdr2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/mdr2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/mdr2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/mdr2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/mdr2-640.jpg" alt="Team photo at the Taipei stop">
+
+This time around, I was still doing the talk with DevTools, but switched the focus to Grid and Subgrid instead, which I thought would tie in with Firefox's upcoming release of subgrid in 71. And this time I did have a handful of slides before the DevTools bit.
+
+Like the 2017 edition, we covered 5 cities but with more focus on the East Asian region this time. The first city which kicked off the entire thing was Tokyo, and we were joined by [Brian Birtles](https://twitter.com/brianskold), [Daisuke Akatsuka](https://twitter.com/dadaaism) and [Karl Dubost](http://www.otsukare.info/).
+
+The Japanese audience really appreciated that Brian and Daisuke did their talks in Japanese, but overall the attendees were engaged throughout the event, which made it a great way to start to the roadshow.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Insane <a href="https://twitter.com/hj_chen?ref_src=twsrc%5Etfw">@hj_chen</a> created a Go board with CSS. There are so many new features with grids. Now I have no confidence getting back to front-end stuff 😭 <a href="https://twitter.com/hashtag/DevRoadshow?src=hash&amp;ref_src=twsrc%5Etfw">#DevRoadshow</a> <a href="https://t.co/omdP8sXiBG">pic.twitter.com/omdP8sXiBG</a></p>&mdash; Tomomi Imura ☔ (@girlie_mac) <a href="https://twitter.com/girlie_mac/status/1193844430299549696?ref_src=twsrc%5Etfw">November 11, 2019</a></blockquote>
+
+Our next stop was Seoul, and the weather wasn't fantastic while we were there. It seemed like we were bringing rain where we went, because it also rained in Tokyo. Turnout was still good though, and I spent 2 hours trying to learn how to say 1 single Korean sentence. I think I butchered it anyway, but audience was very kind about it.
+
+Taiwan was interesting because we were having the event right in the middle of the start-up expo, [Meet Taipei](https://meettaipei.tw/), as opposed to having a dedicated meet-up style setup. We didn't have Brian, Daisuke or Karl this time, but were joined by Max Liu and Stan Leong from the Mozilla Taiwan office.
+
+There was a lot going on, but people showed up and stayed throughout all the talks. I made the impromptu decision to do my talk in Chinese, and flubbed a number of lines where I was trying to explain subgrid concepts.
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr"><a href="https://twitter.com/hj_chen?ref_src=twsrc%5Etfw">@hj_chen</a> up and delivering CSS knowledge in Chinese <a href="https://t.co/IybpchQ053">pic.twitter.com/IybpchQ053</a></p>&mdash; Sandra 🍾🎄🎊 (@SandraPersing) <a href="https://twitter.com/SandraPersing/status/1195218071109218306?ref_src=twsrc%5Etfw">November 15, 2019</a></blockquote>
+
+The team felt I did a good job, but personally I felt it was because they didn't understand Chinese and hence couldn't tell either way. I guess I can take solace in the fact that I sold the body language part of things.
+
+It may have been because I've been speaking overseas for quite a bit lately that I especially treasure the opportunities to speak in my home regions of Singapore and Malaysia. Our fourth stop was Singapore and I was exceptionally excited about it.
+
+Because I wanted to deliver the whole talk in Singlish, and Sandra gave me the go-ahead to do it. It was great fun (for me, obviously), and there were a number of familiar faces in the audience, which I really appreciated.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’m listening authentic SINGLISH from <a href="https://twitter.com/hj_chen?ref_src=twsrc%5Etfw">@hj_chen</a> at <a href="https://twitter.com/mozilla?ref_src=twsrc%5Etfw">@mozilla</a> <a href="https://twitter.com/hashtag/devroadshow?src=hash&amp;ref_src=twsrc%5Etfw">#devroadshow</a> <a href="https://twitter.com/hashtag/pullingmyhair?src=hash&amp;ref_src=twsrc%5Etfw">#pullingmyhair</a> <a href="https://twitter.com/hashtag/ihavenoidea?src=hash&amp;ref_src=twsrc%5Etfw">#ihavenoidea</a> <a href="https://t.co/8qcs1fpdXJ">pic.twitter.com/8qcs1fpdXJ</a></p>&mdash; { ”justin”: ”yoo” } ✈️ Seoul - PWA/Azure Workshop (@justinchronicle) <a href="https://twitter.com/justinchronicle/status/1196389678758260736?ref_src=twsrc%5Etfw">November 18, 2019</a></blockquote>
+
+Our last and final stop was Bangkok, which was a fairly last minute switch as our original final stop was Hong Kong. Unfortunately due to the upheavel there at the time, we had no choice but to cancel the Hong Kong stop.
+
+Luckily, I was able to reach out to [Thai Pangsakulyanont](https://twitter.com/dtinth), who is not only a wonderful speaker, but also organises tech events around Thailand as well. He managed to help connect us to the relevant people and made the Bangkok stop a reality.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/mdr3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/mdr3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/mdr3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/mdr3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/mdr3-640.jpg" alt="Reunited with team Thailand who came for JSConf.Asia">
+
+This has been my third Mozilla Developer Roadshow and each one has been a new and rewarding experience. Getting the opportunity to share about CSS with local developer communities in so many countries is a privilege that I will always treasure.
+
+Fun fact. I once again managed to hit my not-so-secret secret agenda of going climbing (just bouldering, actually) at each stop. <span class="emoji" role="img" tabindex="0" aria-label="person dancing">&#x1F483;</span>
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/mdr-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/mdr-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/mdr-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/mdr-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/mdr-640.jpg" alt="Climbing gyms in Tokyo, Seoul, Taipei and Bangkok">
+
+### Intermission: <span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span> @ DevRel Summit 2019
+
+We had an “off” day during the Singapore stop. And what did we do? We held another event! Eventception, because why not? DevRel Summit this year was much smaller than previous iterations but because of that, every single attendee had ample chance to engage with each other and the speakers.
+
+This was probably the best “hallway track” any event had ever seen IMO. The talk content was spectacular because the theme was DevRel in APAC and every speaker brought a perspective that represented their respective regions.
+
+<img src="{{ site.url }}/assets/images/posts/talking-css-2019/devrel.jpg" srcset="{{ site.url }}/assets/images/posts/talking-css-2019/devrel@2x.jpg 2x" alt="Family photo at DevRel Summit 2019">
+
+To me, it made a strong point that we are such a rich and diverse region that painting APAC with a single brush is doing a great disservice to every single developer who is from Asia. I greatly appreciated the opportunity to be the emcee for such an amazing event.
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> @ DevFest & BizFest Georgetown 2019
 
-Happening soon…
+My first homecoming of the year! I didn't get the chance to go back to Penang at all this year before this event. The crew who organise DevFests in Malaysia are a dedicated and incredible group of people.
+
+And I gave them my word that if they ever organise any event and need a speaker, I will come home for them even if there is no travel budget. Even though DevFests carry the Google brand name, they are actually completely community-run events.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/gdg-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/gdg-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/gdg-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/gdg-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/gdg-640.jpg" alt="On stage at DevFest Georgetown">
+
+Truth be told, I did not grow up in Penang. But because my household predominantly spoke Penang Hokkien, which is not spoken anywhere else outside the state, whenever I step onto Penang and hear this familiar accent all around me, it's a pretty indescribable feeling.
+
+I did a longer version of my subgrid talk for this event, tweaking it on the fly when I realised that a majority of the audience were not full-time web developers. No matter, it's still a plus that I was able to show what the web is now capable of.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/gdg2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/gdg2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/gdg2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/gdg2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/gdg2-640.jpg" alt="Street food stall selling pancakes">
+
+One of the best things about this event IMO was the local street food stalls that served our childhood favourites! Local flavour at its best. For those of you who have never been to Penang, it has undoubtedly the best food in the world. You can quote me on that.
 
 ## <span class="emoji" role="img" tabindex="0" aria-label="Malaysia">&#x1F1F2;&#x1F1FE;</span> @ DevFest Kuala Lumpur 2019
 
-Happening soon…
+This was the 10-year anniversary of DevFest KL, and so it was a pretty huge event with a turnout of 800. It was a multi-track event but every talk felt packed. The organisers had designed custom dinosaur stickers just for the event, and every speaker got a plushie!
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/devfest-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/devfest-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/devfest-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/devfest-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/devfest-640.jpg" alt="Green and yellow dinosaur plushie">
+
+I did a condensed version of my subgrid talk in the Foyer stage, which was quite fun, and also helped out with emcee-ing for the web edition of the Kazoo quiz. I was glad to have been able to meet so many cool people, both familiar and new.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/devfest2-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/devfest2-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/devfest2-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/devfest2-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/devfest2-640.jpg" alt="On stage at DevFest KL">
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How many speakers can you fit in a selfie? 😉 <a href="https://twitter.com/hashtag/DevFestKL19?src=hash&amp;ref_src=twsrc%5Etfw">#DevFestKL19</a> <a href="https://twitter.com/hashtag/DevFest?src=hash&amp;ref_src=twsrc%5Etfw">#DevFest</a><a href="https://twitter.com/shazahakim?ref_src=twsrc%5Etfw">@shazahakim</a> <a href="https://t.co/STSNOE7KbG">pic.twitter.com/STSNOE7KbG</a></p>&mdash; Saurabh Arora (@saurabh_arora90) <a href="https://twitter.com/saurabh_arora90/status/1203275681947238401?ref_src=twsrc%5Etfw">December 7, 2019</a></blockquote>
+
+Having my last two talks of the year being Malaysian events was quite a blessing. Even though Penang is my hometown, I think part of my heart never left Kuala Lumpur. For context, I had moved there in 2006 to join the national women's basketball team, and I stayed there for 8 years.
+
+Kuala Lumpur was where I chased a dream. It was the place where I shed the most blood, sweat and tears. It was even where my web development career started. So this place means something to me.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/devfest3-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/devfest3-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/devfest3-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/devfest3-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/devfest3-640.jpg" alt="2 of my teammates from the national team">
+
+2019 has been a challenging year for me. As the year drew to a close, and with a number of things weighing on my mind, I think I needed to be there. To be meet up with people who were a big part of my life during those 8 years. To revisit the places I spent so much time in.
+
+## Wrapping up
+
+I don't think anyone would have read through this whole thing but these speaking recap posts have been more for myself than anyone else. Spending more than 50% of this year not sleeping in my own bed has sort of broken my sense of time, so writing all this down helps.
+
+I have no idea what 2020 will bring, but I do hope that I've made some positive contributions to the community this year.
