@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building a Windows 3.1 application in 2019"
-date: December 15, 2019
+date: December 16, 2019
 tags: [retrotech]
 hastweet: true
 image: ssh-2019

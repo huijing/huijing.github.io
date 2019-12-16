@@ -4,6 +4,7 @@ title: "Talking about talking CSS 2019 edition"
 date: Dec 15, 2019
 tags: [css, design, opinion]
 hastweet: true
+image: taking-css-2019
 ---
 November 24, 2016. The day I gave my first conference talk at [CSSConf.Asia](https://2016.cssconf.asia/).
 
@@ -612,3 +613,5 @@ Kuala Lumpur was where I chased a dream. It was the place where I shed the most 
 I don't think anyone would have read through this whole thing but these speaking recap posts have been more for myself than anyone else. Spending more than 50% of this year not sleeping in my own bed has sort of broken my sense of time, so writing all this down helps.
 
 I have no idea what 2020 will bring, but I do hope that I've made some positive contributions to the community this year.
+
+<img srcset="{{ site.url }}/assets/images/posts/talking-css-2019/badges-480.jpg 480w, {{ site.url }}/assets/images/posts/talking-css-2019/badges-640.jpg 640w, {{ site.url }}/assets/images/posts/talking-css-2019/badges-960.jpg 960w, {{ site.url }}/assets/images/posts/talking-css-2019/badges-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/talking-css-2019/badges-640.jpg" alt="Conference badges hanging in my closet">
