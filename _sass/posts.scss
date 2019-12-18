@@ -72,10 +72,18 @@ figure {
 }
 
 .double {
+  img:first-of-type {
+    margin-bottom: 1rem;
+  }
+
   @include mappy-bp(small) {
     display: grid;
     grid-template-columns: calc((100% - 1em) / 2) calc((100% - 1em) / 2);
     gap: 1em;
+
+    img:first-of-type {
+      margin-bottom: 0;
+    }
   }
 }
 
@@ -179,6 +187,7 @@ figure {
   padding: 0.5em 1em;
   font-size: 85%;
   border-left: 0.5em solid color('winter-hazel');
+  margin-bottom: 1rem;
 }
 
 // Key styles
