@@ -246,3 +246,14 @@ I suggest opening this CodePen in a full browser window and playing around with 
   Understanding CSS positioning</a> by Chen Hui Jing (<a href="https://codepen.io/huijing">@huijing</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
+
+There are plenty of useful resources that cover CSS positioning, so if my explanation doesn't work for you, try someone else's article or the specification directly. It is definitely worth the effort in the long run to figure out this important aspect of CSS layout for yourself.
+
+<ul>
+  <li class="no-margin"><a href="https://www.w3.org/TR/css-position-3/">CSS Positioned Layout Module Level 3 Working Draft</a></li>
+  <li class="no-margin"><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning">MDN: Positioning</a></li>
+  <li class="no-margin"><a href="https://medium.com/@elad/css-position-sticky-how-it-really-works-54cd01dc2d46">CSS Position Sticky - How It Really Works!</a></li>
+  <li class="no-margin"><a href="https://scotch.io/bar-talk/5-things-you-might-not-know-about-the-css-positioning-types">5 Things You Might Not Know About the CSS Positioning Types</a></li>
+  <li class="no-margin"><a href="https://internetingishard.com/html-and-css/advanced-positioning/">Advanced Positioning</a> (slightly older article so no <code>sticky</code> in here)</li>
+  <li><a href="https://alistapart.com/article/css-positioning-101/">CSS Positioning 101</a> (slightly older article so no <code>sticky</code> in here)</li>
+</ul>
