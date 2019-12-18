@@ -21,3 +21,7 @@ Which led me to dig a little deeper into how international the Web Speech API ac
 ## What is this Web Speech API?
 
 The Web Speech API is not a web standard, it is a community report developed and published by the [Speech API Community Group](https://www.w3.org/community/speech-api/), with the first draft released by in 2012.
+
+According to [the document](https://wicg.github.io/speech-api/), this API is meant to:
+
+> enable developers to use scripting to generate text-to-speech output and to use speech recognition as an input for forms, continuous dictation and control
