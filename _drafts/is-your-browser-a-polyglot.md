@@ -25,3 +25,18 @@ The Web Speech API is not a web standard, it is a community report developed and
 According to [the document](https://wicg.github.io/speech-api/), this API is meant to:
 
 > enable developers to use scripting to generate text-to-speech output and to use speech recognition as an input for forms, continuous dictation and control
+
+Speech recognition in the browser. We can do something with that. Browser APIs are essentially Javascript. Which is why an idiot like me who never went to school for Computer Science, can somehow cobble together projects that go beyond just a webpage.
+
+I love the web.
+
+But upon some further research, I soon realised that speech-to-text is not like text-to-speech. It is slightly more complicated.
+
+## Making my browser understand my yelling
+
+In a bid to get myself familiarised with this whole voice interface situation that everyone has been raving about for years, I decided to do what many web developers seem to gravitate toward. I built a website (I don't know what constitutes an app so <span class="kaomoji">¯\\\_(ツ)_/¯</span>).
+
+Specifically, I built a website I can yell CSS at. Okay, slightly untrue. I technically am yelling colours at the website, but named colours are legitimate CSS values, so…
+
+This didn't require too much work because CSS values are by default in English (as with practically all programming languages). Speech-to-text quality for the English language is probably the most spot-on around, I'm guessing.
+

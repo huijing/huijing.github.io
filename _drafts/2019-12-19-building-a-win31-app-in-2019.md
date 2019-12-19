@@ -36,7 +36,7 @@ The setup involved 4 PCs, a router and DA BOOK. Our end goal was to write an app
 
 We would be writing the code on our modern MacBook Pros. Both Kheng Meng and I used [VS Code](https://code.visualstudio.com/) as our editor, and a bit later into the day I suggested we use the [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) extension to work on the same file. This worked out really nicely.
 
-Windows 3.1 is a [16-bit operating system](https://en.wikipedia.org/wiki/16-bit), so our compiler needs to be able to compile to 16-bit. Kheng Meng decided to go with [Microsoft Visual C++]() on a Windows 2000 system on VirtualBox to compile the application.
+Windows 3.1 is a [16-bit operating system](https://en.wikipedia.org/wiki/16-bit), so our compiler needs to be able to compile to 16-bit. Kheng Meng decided to go with [Microsoft Visual C++](https://en.wikipedia.org/wiki/Microsoft_Visual_C%2B%2B) on a Windows 2000 system on VirtualBox to compile the application.
 
 Modern Macs are unable to communicate with the Windows 3.1 system directly, hence we needed the Windows XP system as a go-between. The Windows XP machine was linked up to the Mac via [Samba](https://en.wikipedia.org/wiki/Samba_(software)).
 
@@ -112,15 +112,62 @@ It's supposed to be a matching game, right? So the first step to any actual matc
 
 I'm generally neutral about using reference books, except that I've been so spoiled by search functions in digital that when I flip the index to locate my topic of interest and find the entry labeled as *see THIS_OTHER_THING*, I'm like <span class="kaomoji">(╯°□°）╯︵ ┻━┻</span>
 
+<img srcset="{{ site.url }}/assets/images/posts/ssh-2019/index-480.jpg 480w, {{ site.url }}/assets/images/posts/ssh-2019/index-640.jpg 640w, {{ site.url }}/assets/images/posts/ssh-2019/index-960.jpg 960w, {{ site.url }}/assets/images/posts/ssh-2019/index-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/ssh-2019/index-640.jpg" alt="Entries in index which say, 'see something else'">
+
 Kheng Meng had set up the application with some debugging functionality by adding a [*smprintf.h* file](https://github.com/yeokm1/falling-arrows-win16/blob/master/smprintf.h), modified from [Small printf source code](https://www.menie.org/georges/embedded/small_printf_source_code.html) by Georges Menie to include `putDebugChar`.
 
+<div class="note">The idiot that I am, instead of running the application via <em>Debug > Go</em>, I chose to run the executable instead, which means none of my <code>printf</code> statements got printed anywhere. It took a good extra 45 minutes with Kheng Meng a couple days after the hackathon to figure this out.</div>
+
+The code to detect a keypress is not too complicated, for example, to detect the left arrow key you need something like this:
+
+```clike
+case WM_KEYDOWN:
+{
+    if (wParam == VK_LEFT)
+    {
+        printf("Pressed left\n");
+    }
+    return 0;
+}
+```
+
+And we repeated this for the other 3 arrow keys, so we had all four directions covered.
+
 ### Step 4: Render a character every second
+
+This next bit required a timer. Here's where DA BOOK came in handy because we literally copied the relevant function out of it, like how kids used to write games back in the 80s.
+
+<img srcset="{{ site.url }}/assets/images/posts/ssh-2019/timer-480.jpg 480w, {{ site.url }}/assets/images/posts/ssh-2019/timer-640.jpg 640w, {{ site.url }}/assets/images/posts/ssh-2019/timer-960.jpg 960w, {{ site.url }}/assets/images/posts/ssh-2019/timer-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/ssh-2019/timer-640.jpg" alt="Chapter of book on timers">
+
+But first, we need to run a timer in our application. DA BOOK had a chapter dedicated to timers, and the gist of things looks something like so (the following just prints the word “Timer” to output every second):
+
+```clike
+case WM_CREATE:
+{
+    printf("Created\n");
+    SetTimer(hWnd, DROP_SPEED_TIMER, DROP_SPEED, NULL);
+    return 0;
+}
+
+case WM_TIMER:
+{
+    switch(wParam)
+    {
+        case DROP_SPEED_TIMER:
+        {
+            printf("Timer\n");
+        }
+    }
+}
+```
 
 ### Step 5: Render a single different character every second
 
 ### Step 6: Render characters falling down the screen
 
 ### Step 7: Match keypress to character at specific position
+
+<img srcset="{{ site.url }}/assets/images/posts/ssh-2019/rect-480.jpg 480w, {{ site.url }}/assets/images/posts/ssh-2019/rect-640.jpg 640w, {{ site.url }}/assets/images/posts/ssh-2019/rect-960.jpg 960w, {{ site.url }}/assets/images/posts/ssh-2019/rect-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/ssh-2019/rect-640.jpg" alt="Section in DA BOOK on rendering rectangles">
 
 ### Step 8: Add scoring mechanism
 
