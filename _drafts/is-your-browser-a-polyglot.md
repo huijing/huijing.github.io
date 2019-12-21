@@ -32,6 +32,10 @@ I love the web.
 
 But upon some further research, I soon realised that speech-to-text is not like text-to-speech. It is slightly more complicated.
 
+The Speech to Text section of [Google's privacy whitepaper](https://www.google.com/chrome/privacy/whitepaper.html#speech) states that:
+
+> Chrome supports the Web Speech API, a mechanism for converting speech to text on a web page. It uses Google's servers to perform the conversion. Using the feature sends an audio recording to Google (audio data is not sent directly to the page itself), along with the domain of the website using the API, your default browser language and the language settings of the website. Cookies are not sent along with these requests. 
+
 ## Making my browser understand my yelling
 
 In a bid to get myself familiarised with this whole voice interface situation that everyone has been raving about for years, I decided to do what many web developers seem to gravitate toward. I built a website (I don't know what constitutes an app so <span class="kaomoji">¯\\\_(ツ)_/¯</span>).
@@ -40,3 +44,10 @@ Specifically, I built a website I can yell CSS at. Okay, slightly untrue. I tech
 
 This didn't require too much work because CSS values are by default in English (as with practically all programming languages). Speech-to-text quality for the English language is probably the most spot-on around, I'm guessing.
 
+## Resources
+
+- [Web Speech API Draft Community Group Report](https://wicg.github.io/speech-api/)
+- [MDN: Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
+- [Using the Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
+- [MDN Web Speech API demos](https://github.com/mdn/web-speech-api)
+- [Using the Web Speech API for Multilingual Translations](https://css-tricks.com/using-the-web-speech-api-for-multilingual-translations/)
