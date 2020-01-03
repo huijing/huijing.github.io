@@ -1,16 +1,16 @@
 ---
 layout: post
 title: "Building a Windows 3.1 application in 2019"
-date: December 19, 2019
+date: January 19, 2020
 tags: [retrotech]
 hastweet: true
 image: ssh-2019
 ---
-Oh, how time flies. Almost exactly 2 years ago, we had the first [Super Silly Hackathon](https://supersillyhackathon.sg/), and yesterday we had our third one. In case you're unfamiliar with the concept, it is a hackathon for people who want to build anything for no good reason.
+Oh, how time flies. A little over 2 years ago, we had the first [Super Silly Hackathon](https://supersillyhackathon.sg/), and yesterday we had our third one. In case you're unfamiliar with the concept, it is a hackathon for people who want to build anything for no good reason.
 
-It's a spin-off the original [“SF stupid shit no one needs and terrible ideas hackathon”](https://stupidhackathon.github.io/) but totally local, i.e. maxed-out Singlish. I had been a participant for the first one back in 2017 and somehow emcee-d the second one last year.
+It's a spin-off the original [“SF stupid shit no one needs and terrible ideas hackathon”](https://stupidhackathon.github.io/) but totally local, i.e. maxed-out Singlish. I had been a participant for the first one back in 2017 and somehow emcee-d the second one in 2018.
 
-The only friend I have who is as interested in 90s computing is [Kheng Meng](http://yeokhengmeng.com/), with whom I've collaborated for various retro-computing related projects over the years. We were “Team 486” back in 2017 and this year we became “3.1”.
+The only friend I have who is as interested in 90s computing is [Kheng Meng](http://yeokhengmeng.com/), with whom I've collaborated for various retro-computing related projects over the years. We were “Team 486” back in 2017 and in 2019 we became “3.1”.
 
 ## The idea
 
