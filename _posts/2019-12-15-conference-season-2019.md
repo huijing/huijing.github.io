@@ -520,6 +520,16 @@ But that's generally it for me this conference season. It hit me I needed to ref
 
 My remaining speaking engagements are all in Asia, and on a relatively more sane schedule. But I do need to deal with that gentle layer of dust that has collected over everything in my room at this point. <span class="kaomoji">¯\\\_(ツ)_/¯</span>
 
+### Intermission: <span class="emoji" role="img" tabindex="0" aria-label="China">&#x1F1E8;&#x1F1F3;</span> @ JSConf China
+
+If it hasn't been obvious enough, [Wei](https://uuei.io/) has clearly featured heavily in my life this year. She's just special, okay? Anyway, I've told her that I would follow her anywhere she gives a talk at a conference. And she did at [JSConf China](https://2019.jsconfchina.com/).
+
+Also, Nexmo was a sponsor at the conference, so I was going to be there either way. But let's be honest, even if Nexmo wasn't involved, I'd get myself there hell or high water. I wouldn't have lived it down if I wasn't there to watch her talk in person because it was the best talk of the conference IMHO.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9M6wDie0YKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Another fun thing that happened was, my friend [Yong Jun](https://github.com/yongjun21/) gave a workshop there as well and between himself, me and another friend who was helping out, all 3 of us had the same birthday, what are the odds?
+
 ## <span class="emoji" role="img" tabindex="0" aria-label="Japan">&#x1F1EF;&#x1F1F5;</span><span class="emoji" role="img" tabindex="0" aria-label="South Korea">&#x1F1F0;&#x1F1F7;</span><span class="emoji" role="img" tabindex="0" aria-label="Taiwan">&#x1F1F9;&#x1F1FC;</span><span class="emoji" role="img" tabindex="0" aria-label="Singapore">&#x1F1F8;&#x1F1EC;</span><span class="emoji" role="img" tabindex="0" aria-label="Thailand">&#x1F1F9;&#x1F1ED;</span> @ Mozilla Developer Roadshow Asia
 
 I went on the Mozilla Developer Roadshow again for the Asia leg, and although this was spaced out a bit more than the Europe one, because it was air travel, it felt more hectic. But I am always excited to speak at events in Asia.
