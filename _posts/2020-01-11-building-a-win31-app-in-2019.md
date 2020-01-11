@@ -50,7 +50,7 @@ Refer to this handy diagram for a visual overview of what we were doing:
 
 Even though I haven't written a lot of code with Kheng Meng before, turns out we pair program really well. Zero arguments about variable names (because I heard that's a thing people argue about) at all. I don't know how rare that is but I cherish it.
 
-So the original end goal was a music rhythm game, where you would match key strokes to falling arrows on the screen in time with music. That was a fairly grand end goal, given neither of us were familiar with building games or Windows 3.1 applications.
+So the original end goal was a music rhythm game, where you would match key strokes to falling arrows on the screen in time with music. That was a fairly grand end goal, given neither of us were familiar with building games.
 
 Instead, we started with the very basic of basics. Okay, maybe one little step beyond the basics. Kheng Meng had cloned a scaffold starter, [Win16-Example-Application](https://github.com/TransmissionZero/Win16-Example-Application), that came with [a tutorial](https://www.transmissionzero.co.uk/computing/win16-apps-in-c/) on how to build a Win16 GUI application in C.
 
