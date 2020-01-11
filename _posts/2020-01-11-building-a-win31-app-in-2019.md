@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building a Windows 3.1 application in 2019"
-date: January 19, 2020
+date: January 11, 2020
 tags: [retrotech]
 hastweet: true
 image: ssh-2019
@@ -161,21 +161,275 @@ case WM_TIMER:
 }
 ```
 
+We arbitrarily set the timer to 1000ms so it ticked every second. Then, we wanted to try to render stuff every second, so in this case, we tried it with an arrow every second by updating the position of the character per tick.
+
+```clike
+case WM_TIMER:
+{
+    printf("Timer\n");
+    position += 20;
+    InvalidateRect(hWnd, NULL, FALSE);
+
+    return 0;
+}
+```
+
+The variable `position` was declared somewhere near the top of the file, but anyway, `InvalidateRect()` is what triggers `WM_PAINT` to run every interval of the timer, thus painting a new arrow at a new position on the screen per tick.
+
 ### Step 5: Render a single different character every second
+
+The next thing to try was to make a different arrow show up per tick. For that, we created another variable to hold a number that would loop around from 0 to 3. Then wrote a switch statement such that a different arrow character would be painted per tick.
+
+```clike
+case WM_TIMER:
+{
+    printf("Timer\n");
+    arrow = (arrow + 1) % 4;
+    InvalidateRect(hWnd, NULL, FALSE);
+    return 0;
+}
+
+case WM_PAINT:
+{
+    hdc = BeginPaint(hWnd, &ps);
+    SetRect(&targetRect, position, 50, 110, 440);
+
+    switch (arrow)
+    {
+        case 0:
+        {
+            DrawText(hdc, "<", 1, &targetRect, DT_CENTER | DT_NOCLIP);
+            break;
+        }
+        case 1:
+        {
+            DrawText(hdc, ">", 1, &targetRect, DT_CENTER | DT_NOCLIP);
+            break;
+        }
+        case 2:
+        {
+            DrawText(hdc, "^", 1, &targetRect, DT_CENTER | DT_NOCLIP);
+            break;
+        }
+        case 3:
+        {
+            DrawText(hdc, "v", 1, &targetRect, DT_CENTER | DT_NOCLIP);
+            break;
+        }
+    }
+    EndPaint(hWnd, &ps);
+    return 0;
+}
+```
+At some point we added a random number generator so the arrow characters were printed at random, as well as at random time intervals, but refactored that out because it wasn't relevant to our end goal of falling arrows.
 
 ### Step 6: Render characters falling down the screen
 
+Speaking of falling arrows, once we figured out most of the painting bits, the next thing was to create the effect of falling arrows down the window.
+
+We're not sure if this is the correct way to do things, but we decided to go with having a fixed array of rectangles evenly distributed down the window.
+
+```clike
+int fallingArrows[ARROW_COORD] = {0};
+int arrowPositionForIndex[ARROW_COORD] = {380, 360, 340, 320, 300, 280, 260, 240, 220, 200, 180, 160, 140, 120, 100, 80, 60, 40, 20};
+```
+
+The arrows in these rectangles would be repainted per tick of the timer. And we would generate a new character at the top of the array and shift the rest of the values up the index. The index of each character would be tied to their y-coordinates on the window.
+
+```clike
+case WM_PAINT:
+{
+    hdc = BeginPaint(hWnd, &ps);
+
+    for (i = 0; i < ARROW_COORD; i++)
+    {
+        yCoord = arrowPositionForIndex[i];
+        SetRect(&targetRect, 90, yCoord, 110, 440);
+
+        switch(fallingArrows[i])
+        {
+            case 0:
+            {
+                DrawText(hdc, "<", 1, &targetRect, DT_CENTER | DT_NOCLIP);
+                break;
+            }
+
+            case 1:
+            {
+                DrawText(hdc, ">", 1, &targetRect, DT_CENTER | DT_NOCLIP);
+                break;
+            }
+
+            case 2:
+            {
+                DrawText(hdc, "^", 1, &targetRect, DT_CENTER | DT_NOCLIP);
+                break;
+            }
+
+            case 3:
+            {
+                DrawText(hdc, "V", 1, &targetRect, DT_CENTER | DT_NOCLIP);
+                break;
+            }
+
+            default:
+            {
+                DrawText(hdc, "   ", 3, &targetRect, DT_CENTER | DT_NOCLIP);
+                break;
+            }
+        }
+    }
+    return 0;
+}
+```
+
+It's quite hacky, but this IS a hackathon, so…
+
+There was also the issue of how we were unable to get the application to play audio, so the hopes of building a music-backed rhythm game went right out the window, and we had to be content with just the keypress matching part of things.
+
+To make things less boring and predictable, we didn't want arrows to be generated every second. There would be instances where no arrows were generated, i.e. blank rectangle, so you wouldn't press any keys then.
+
+```clike
+for (i = 0; i < ARROW_COORD - 1; i++)
+{
+    fallingArrows[i] = fallingArrows[i + 1];
+}
+
+fallingArrows[ARROW_COORD - 1] = rand() % 8;
+```
+
+After some trial and error, we figured that a modulo of 8 generated just enough blanks to keep things interesting.
+
 ### Step 7: Match keypress to character at specific position
+
+The new point of our game was to press the appropriate arrow key when the character appeared in a specific rectangle near the bottom of the window.
+
+For that, we needed to draw a “target” rectangle to indicate when the player ought to press the respectively keys. Back to DA BOOK for advice on how to do that.
 
 <img srcset="{{ site.url }}/assets/images/posts/ssh-2019/rect-480.jpg 480w, {{ site.url }}/assets/images/posts/ssh-2019/rect-640.jpg 640w, {{ site.url }}/assets/images/posts/ssh-2019/rect-960.jpg 960w, {{ site.url }}/assets/images/posts/ssh-2019/rect-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/ssh-2019/rect-640.jpg" alt="Section in DA BOOK on rendering rectangles">
 
+We needed to add an `hBrush` and use the `FrameRect()` function to draw the target rectangle. These were added to the `WM_PAINT` section of the application.
+
+```clike
+case WM_PAINT:
+{
+    hBrush = CreateSolidBrush(RGB(255, 0, 0));
+    SetRect(&targetRect, 90, 358, 110, 378);
+    FrameRect(hdc, &targetRect, hBrush);
+}
+```
+
+The `fallingArrows` array would also come in handy for this particular functionality we wanted of keypress matching. 
+
+```clike
+case WM_KEYDOWN:
+{
+    if (wParam == VK_LEFT)
+    {
+        if (fallingArrows[1] == 0)
+        {
+            printf("Left Hit");
+        } 
+        else
+        {
+            printf("Left Miss");
+        }
+    }
+    else if (wParam == VK_RIGHT)
+    {
+        if (fallingArrows[1] == 1)
+        {
+            printf("Right Hit");
+        } 
+        else
+        {
+            printf("Right Miss");
+        }
+    } 
+    else if (wParam == VK_UP)
+    {
+        if (fallingArrows[1] == 2)
+        {
+            printf("Up Hit");
+        } 
+        else {
+            printf("Up Miss");
+        }
+    }
+    else if (wParam == VK_DOWN)
+    {
+        if(fallingArrows[1] == 3){
+            printf("Down Hit");
+        } else {
+            printf("Down Miss");
+        }
+    }
+    else {
+        printf("Arrow keys only la");
+    }
+}
+```
+
+You'd think most of the work would be done by now, but no, because every game needs a scoring mechanism and this turned out to be a bit more tricky than we anticipated.
+
 ### Step 8: Add scoring mechanism
+
+If you think about it, there are 2 possible results from a keypress. You either “Hit” or “Miss”. So at first, we figured a boolean would do, `1` for Hit, `0` for Miss. Easy.
+
+Wrong.
+
+There is also the case of if you were supposed to press something, but you did not. Then that registers as a “Miss” as well.
+
+The third situation is when the rectangle was blank and you didn't press anything. That is a correct situation, but it is neither a “Hit” nor “Miss”.
+
+It got to a point where just talking about it made me confused, so we fell back to the trusty logic table. Originally drawn on a random piece of A4 paper Kheng Meng used as a mouse pad, I didn't think to snap a photo of it.
+
+```bash
+Press key | Matches Arrow | Score
+    ✓            ✓            1
+    ✓            x            0
+    x            x            0
+    x            ✓            0
+```
+
+Something like that.
+
+So we introduced a new variable called `stateOfLastAction`. Kheng Meng mentioned that we should have used enumeration for this, but again, hackathon. And it was late in the day, our brain cells were depleted. This was added to the `WM_TIMER` section of the application:
+
+```clike
+if (stateOfLastAction == 2 || (stateOfLastAction == 0 && (fallingArrows[1] < 4)))
+{
+    hitMissBlank = 2;
+    if (score > 0)
+    {
+        score--;
+    }
+} 
+
+if (stateOfLastAction == 1)
+{
+    score += 2;
+    hitMissBlank = 1;
+}
+
+if (stateOfLastAction == 0 && (fallingArrows[1] > 3))
+{
+    hitMissBlank = 0;
+}
+
+stateOfLastAction = 0;
+```
 
 ### Step 9: Add game start, stop and timer
 
+Lastly, we tossed in some user experience enhancements (actually, these are probably the most basic things one needs to include in a game), like a start and stop trigger, as well as a timer to indicate when the game was over.
 
+There were also some instructions to tell people which keys to press to start the game, and an indicator to show if you hit or missed the target. Plus a count-down timer. By then, we were too tired to draw more rectangles, so `TextOut()` for everything!
+
+If you're really interested in our hacky code, the source is [on GitHub](https://github.com/huijing/falling-arrows-win16).
 
 ## Presentation time
+
 The application itself really isn't anything exciting. But I really enjoyed working with Kheng Meng. It's kind of like when you travel with a friend for the first time, spend more than a week together almost 24-7 and at the end of it, still haven't killed each other.
 
 Then you know that your friendship has passed the test.
