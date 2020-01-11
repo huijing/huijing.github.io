@@ -24,7 +24,7 @@ But after a bit of thought, we figured that it would be a bit too ambitious.
 
 <img src="{{ site.url }}/assets/images/posts/ssh-2019/idea2.jpg" srcset="{{ site.url }}/assets/images/posts/ssh-2019/idea2@2x.jpg 2x" alt="Message thread on reconsidering the PICO8 idea">
 
-The idea to develop a Windows 3.1 application was still do-able though, so we went with that instead. Keeping in mind that neither of us had any prior knowledge about building anything for Windows 3.1.
+The idea to develop a Windows 3.1 application was still do-able though, so we went with that instead. Keeping in mind that I had zero prior knowledge about building anything for Windows 3.1, but Kheng Meng had already [built a Slack client on Windows 3.1](http://yeokhengmeng.com/2019/12/building-a-new-win-3-1-app-in-2019-part-1-slack-client/). So it's clear who is the reliable one here.
 
 ## The AH-MAZ-ING workflow
 
