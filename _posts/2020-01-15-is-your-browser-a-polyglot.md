@@ -4,6 +4,7 @@ title: "Is your browser a polyglot?"
 date: Jan 15, 2020
 tags: [javascript, css]
 hascaniuse: true
+image: web-speech
 ---
 Over the course of last year, I've gone over to [Wei](https://uuei.io/)'s workplace numerous times to disturb her and her colleagues during their internal sharing, not to be confused with the community meetup, [React Knowledgeable](https://reactknowledgeable.org/). I think the internal sharing's unofficial name is RK Originals, maybe. Who knows?
 
