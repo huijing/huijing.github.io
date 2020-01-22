@@ -79,6 +79,9 @@ performance:
 podcasts:
   name: Podcasts
 
+react:
+  name: React
+
 retrotech:
   name: Retro tech
 

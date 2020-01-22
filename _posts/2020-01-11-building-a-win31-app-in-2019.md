@@ -18,7 +18,7 @@ So Kheng Meng pinged me about doing something together for this year's Super Sil
 
 <img src="{{ site.url }}/assets/images/posts/ssh-2019/idea.jpg" srcset="{{ site.url }}/assets/images/posts/ssh-2019/idea@2x.jpg 2x" alt="Message thread between Kheng Meng and myself about teaming up for SSH 2019">
 
-At the time, I was till on the road a lot so I didn't really think too hard about it. But I happened to download a game called [Epic Orchestra](https://web.archive.org/web/20191027011952/http://www.mobypixel.com/epicorchestra) and had the hare-brained idea to try building it on [PICO8](https://www.lexaloffle.com/pico-8.php) and getting it to run on The Magic Machine.
+At the time, I was still on the road a lot so I didn't really think too hard about it. But I happened to download a game called [Epic Orchestra](https://web.archive.org/web/20191027011952/http://www.mobypixel.com/epicorchestra) and had the hare-brained idea to try building it on [PICO8](https://www.lexaloffle.com/pico-8.php) and getting it to run on The Magic Machine.
 
 But after a bit of thought, we figured that it would be a bit too ambitious.
 
