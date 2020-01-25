@@ -10,7 +10,7 @@ image: css-countdown
 ---
 I must first apologise for the somewhat rhetorical question as the title. About 3 minutes after I wrote it, my brain exclaimed: “This is clickbait! Clearly if you wrote an entire blog post, the answer should be yes, right??”
 
-Which led me to my next thought. When people write such titles, do they end with a negative conclusion, where the answer is no? What's the statistics on article titles like this? I have so many questions! 
+Which led me to my next thought. When people write such titles, do they end with a negative conclusion, where the answer is no? What are the statistics on article titles like this? I have so many questions! 
 
 This is also why I don't have many friends. Oh well.
 
@@ -22,9 +22,9 @@ Okay, I did not think about this topic out of the blue. I have a friend (I hope 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I have a countdown timer and I need to show the milliseconds from 99 to 0. 9 to 0 has to be in single digit and centered. The font color and background color of the countdown timer is customisable. This timer will be implemented on both mobile and pc web page. Suggestions?</p>&mdash; Chong Jia Wei (@heyjiawei) <a href="https://twitter.com/heyjiawei/status/1217776641998344194?ref_src=twsrc%5Etfw">January 16, 2020</a></blockquote>
 
-The way my brain works is to wonder if everything can be built with CSS (the correct answer is no, not really, but you can still try because it's fun). Even though not *everything* can nor should be built with only CSS, this timer thing seems narrow enough to be plausible.
+The way my brain works is to wonder if everything can be built with CSS (the correct answer is no, not really, but you can still try because it's fun). Even though not *everything* can nor should be built with only CSS, this timer thing seemed narrow enough to be plausible.
 
-I describe this as a brute-force method, because the underlying markup consists of all the digits from 0 to 9, then animates them to mimic a timer. So maybe not the most elegant approach. But it fulfils the layout requirement in the tweet!
+I describe this as a brute-force method, because the underlying markup consists of all the digits from 0 to 9. You then have to animate them to mimic a timer. So maybe it is not the most elegant approach. But it can fulfil the requirements from the tweet!
 
 <p class="no-margin">Here's the list of concepts used for this implementation:</p>
 
@@ -38,9 +38,9 @@ I describe this as a brute-force method, because the underlying markup consists 
 
 <div class="note">Demo-only just means that it's additional functionality sprinkled on to make the demo slightly more fancy. Feel free to cut it out if, for whatever reason, you want to fork the code and use it somewhere.</div>
 
-<p class="codepen" data-height="390" data-theme-id="9162" data-default-tab="result" data-user="huijing" data-slug-hash="qBELxJo" style="height: 387px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Pure CSS 10-second countdown (with milliseconds)">
+<p class="codepen" data-height="390" data-theme-id="9162" data-default-tab="result" data-user="huijing" data-slug-hash="qBELxJo" style="height: 387px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Pure CSS countdown from 99 to 0">
   <span>See the Pen <a href="https://codepen.io/huijing/pen/qBELxJo">
-  Pure CSS 10-second countdown (with milliseconds)</a> by Chen Hui Jing (<a href="https://codepen.io/huijing">@huijing</a>)
+  Pure CSS countdown from 99 to 0</a> by Chen Hui Jing (<a href="https://codepen.io/huijing">@huijing</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
@@ -193,6 +193,10 @@ From there you can see that the `animation` shorthand I used explicitly covers t
 - ### `animation-fill-mode`
     This lets you dictate how a CSS animation applies its styles to the target before and after the animation runs. I wanted the position of my `<div>`s to remain at the last keyframe when the animation ends, so I set this value to `forwards`.
 
+For the seconds digit, the last 2 frames don't need to be shown at all because the timer is not zero-padded. When the countdown hits 9, the seconds digit needs to not show up nor take up space. So those keyframes have an additional `width: 0` property on them.
+
+Also, because I went with `forwards` for the `animation-fill-mode`, to make the 0 stay on screen at the end of the animation, the last frame for milliseconds remains at `-9em`.
+
 Read more about CSS animations in the [CSS Animations Level 1](https://www.w3.org/TR/css-animations-1/) specification. It broadly explains how animations work in the context of CSS, then covers in detail each of the individual animation properties. Also, examples of working code aplenty.
 
 ## Flexbox
@@ -282,6 +286,8 @@ If you compare this with the Javascript implementation, you'll notice a lot of s
 Yes, my friends. If you had suspected that I was using the modern-day CSS answer to vertical centring on the web, you are absolutely right. Auto-margins is the mechanism in play here.
 
 To be fair, the `display: flex` and auto-margin on flex child technique centralises the whole timer block. Within the timer itself, the text should be centre-aligned with the `text-align` property.
+
+Read more about Flexbox in the [CSS Flexible Box Layout Module Level 1](https://www.w3.org/TR/css-flexbox-1/) specification. It is the definitive resource for how Flexbox works and even though it is fairly lengthy, there are plenty of code examples in there to help you visualise how things work.
 
 ## Fun demo extra #1: Dynamic colour changing
 
