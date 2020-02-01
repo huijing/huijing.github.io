@@ -2,7 +2,7 @@
 layout: post
 title: "On attributes for HTML form elements"
 date: Feb 01, 2020
-tags: [html, webdev]
+tags: [html]
 ---
 I often come across tutorials about building forms on the web. In spite of all the newfangled techniques and frameworks we now have to perform actions on web pages, the trusty old HTML form still has its place. 
 
@@ -44,7 +44,10 @@ So if you wanted a button to do things other than submit a form, you can always 
 
 I've come across tutorials for frameworks that were great at explaining the framework bit of things, but had shockingly nested `<div>` soups for markup. Or utilised Javascript to write functionalities that could have been achieved with attributes instead.
 
-<img src="{{ site.url }}/assets/images/posts/html-attributes/shocked.jpg" srcset="{{ site.url }}/assets/images/posts/html-attributes/shocked@2x.jpg 2x" alt="A shocked cat">
+<figure>
+  <figcaption>My shocked face…or close enough</figcaption>
+  <img src="{{ site.url }}/assets/images/posts/html-attributes/shocked.jpg" srcset="{{ site.url }}/assets/images/posts/html-attributes/shocked@2x.jpg 2x" alt="A shocked cat">
+</figure>
 
 Say you want to have a character limit on your comments, which are input via a `<textarea>`. You can use the `maxlength` attribute. The browser will prevent any further input past the specified character length.
 
