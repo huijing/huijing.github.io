@@ -3,6 +3,7 @@ layout: post
 title: "On attributes for HTML form elements"
 date: Feb 01, 2020
 tags: [html]
+image: html-attributes
 ---
 I often come across tutorials about building forms on the web. In spite of all the newfangled techniques and frameworks we now have to perform actions on web pages, the trusty old HTML form still has its place. 
 
@@ -11,6 +12,11 @@ There is an article published by [Hugo Giraudel](https://hugogiraudel.com/) on [
 Hint, it involves HTML forms.
 
 Which led me to wonder how many people really know about the different attributes that come baked in with HTML form elements. For example, the `type` attribute.
+
+<figure>
+  <figcaption>I wonder… about many things…</figcaption>
+  <img src="{{ site.url }}/assets/images/posts/html-attributes/shocked.jpg" srcset="{{ site.url }}/assets/images/posts/html-attributes/shocked@2x.jpg 2x" alt="A shocked cat">
+</figure>
 
 Hang on, I can almost hear some of you saying, of course you know about them, you just typed `<input type="text">` for the millionth time yesterday.
 
