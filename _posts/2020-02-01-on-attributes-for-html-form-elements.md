@@ -64,7 +64,7 @@ Or if you'd like your users to input comments that are longer than just a smiley
   <button style="font-size:inherit">Fake submit</button>
 </form>
 
-This is not a rant at the state of the web today (okay, maybe just a little bit). Rather, I want this to be an *invitation* to explore and discover which of these attributes are most useful to you.
+This is not a rant at the state of the web today (okay, maybe just a little bit). Rather, I want this to be an *invitation* to explore and discover which of these many wonderful attributes are most useful to you.
 
 Then use them.
 
