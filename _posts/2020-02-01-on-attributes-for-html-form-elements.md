@@ -42,7 +42,7 @@ Same goes for the `<button>` element. The default type is `submit`, which means 
 </form>
 ```
 
-And you clicked the button, or pressed the Enter key, your form would submit to */login*. Guess what? The `action` attribute on `<form>` elements also has a default value, which is `GET`.
+And you clicked the button, or pressed the Enter key, your form would submit to */login*. Guess what? The `method` attribute on `<form>` elements also has a default value, which is `GET`.
 
 Please don't submit any sensitive information, like a password via the form's `GET` method because it becomes **visible** in the URL. Go ahead, throw the above form into a blank HTML file and try it. Using `POST` will send the form data in the body of the HTTP request.
 
