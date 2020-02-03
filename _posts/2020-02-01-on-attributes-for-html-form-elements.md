@@ -15,7 +15,7 @@ Which led me to wonder how many people really know about the different attribute
 
 <figure>
   <figcaption>I wonder… about many things…</figcaption>
-  <img src="{{ site.url }}/assets/images/posts/html-attributes/shocked.jpg" srcset="{{ site.url }}/assets/images/posts/html-attributes/shocked@2x.jpg 2x" alt="A shocked cat">
+  <img src="{{ site.url }}/assets/images/posts/html-attributes/thinking.jpg" srcset="{{ site.url }}/assets/images/posts/html-attributes/thinking@2x.jpg 2x" alt="A thinking cat">
 </figure>
 
 Hang on, I can almost hear some of you saying, of course you know about them, you just typed `<input type="text">` for the millionth time yesterday.
