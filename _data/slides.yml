@@ -686,3 +686,66 @@
   type: conference
   released: true
   pdf: true
+
+- title: "DevTools, the CSS advocate in your browser"
+  id: jsbangkok-2020
+  host: https://devtools-jsbangkok.herokuapp.com/devtools
+  count: "77"
+  event: Javascript Bangkok 1.0.0
+  website: https://javascriptbangkok.com/
+  type: conference
+  released: true
+  pdf: false
+
+- title: "Women in Tech, anecdotes from Singapore"
+  id: iwd-nexmo-2020
+  count: "78"
+  video: https://youtu.be/csV8gxbr1Ok
+  event: Vonage IWD Breakfast event
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "Talk.CSS, 4 years and counting"
+  id: ignite-2020
+  count: "79"
+  event: Tech Community APAC Online
+  website: https://techcommunity.microsoft.com/t5/community-events-list/microsoft-tech-community-apac-online/m-p/1187340
+  type: conference
+  released: true
+  pdf: true
+
+- title: "What is this? Why must bind?"
+  id: what-is-this
+  count: "80"
+  event: React Knowledgeable
+  type: meetup
+  released: true
+  pdf: true
+
+- title: "East Asian typography on the modern web"
+  id: typetechmunich-2020
+  count: "81"
+  event: TypeTechMunich Meetup 2020
+  website: https://type-tech.net/
+  type: conference
+  released: false
+  pdf: false
+
+- title: "DevTools, more than just a debugger"
+  id: jsfwdays-2020
+  count: "82"
+  event: JavaScript fwdays'20
+  website: https://fwdays.com/en/event/js-fwdays-2020
+  type: conference
+  released: false
+  pdf: false
+
+- title: "DevTools, the CSS advocate in your browser"
+  id: frontconf-2020
+  count: "83"
+  event: Munich Frontend Conference 2020
+  website: https://frontconf.com/
+  type: conference
+  released: false
+  pdf: false

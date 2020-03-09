@@ -12,7 +12,11 @@ permalink: /talks/
     {% if conference.type == 'conference' %}
     {% if conference.released %}
     <div class="talk">
-        <a class="no-underline" href="{{ site.baseurl }}/slides/{{ conference.count }}-{{ conference.id }}">
+        {% if conference.host %}
+        <a class="no-underline" href="{{ conference.host }}">
+        {% else %}
+        <a class="no-underline" href="{{ site.baseurl }}/slides/{{ conference.count }}-{{ conference.id }}"></a>
+        {% endif %}
         <img srcset="{{ site.baseurl }}/assets/images/slides/{{ conference.id }}@2x.jpg 2x" src="{{ site.baseurl }}/assets/images/slides/{{ conference.id }}.jpg" alt="{{ conference.title }}"/>
         </a>
         {% if conference.video.size %}
