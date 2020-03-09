@@ -166,9 +166,7 @@ function Button() {
   const handleClick = () => setClick(!clicked);
 
   return (
-    return (
-      <button onClick={handleClick} />
-    );
+    <button onClick={handleClick} />
   );
 }
 ```
