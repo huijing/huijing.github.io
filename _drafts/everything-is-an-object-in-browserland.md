@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Everything is an object in browserland"
-date: Jan 14, 2020
+title: "Is everything is an object in browserland?"
+date: Mar 30, 2020
 tags: [css, javascript]
 ---
