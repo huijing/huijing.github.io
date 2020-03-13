@@ -59,3 +59,5 @@ But it does have an effect. And the browser itself is behaving as expected. So I
 For now, the way my application works, all video streams go into a single parent container. I want to have the ability to focus on a single stream and make that the large size display (common UI pattern in most video conferencing clients).
 
 That happens when a `.focused` CSS class is added to the selected stream element container, but because all the streams are on the same level, this is a sort of hacky way to get that effect. We shall see if I can modify the mark-up but as of now, I don't know how.
+
+Anyway, the project I'm working on is on GitHub, if anyone is remotely interested. It's slow going, and if you think it *looks* decent, that's because I run away from my harder problems and work on layout instead. <span class="kaomoji">¯\\\_(ツ)_/¯</span>
