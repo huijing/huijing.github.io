@@ -60,4 +60,8 @@ For now, the way my application works, all video streams go into a single parent
 
 That happens when a `.focused` CSS class is added to the selected stream element container, but because all the streams are on the same level, this is a sort of hacky way to get that effect. We shall see if I can modify the mark-up but as of now, I don't know how.
 
-Anyway, the project I'm working on is on GitHub, if anyone is remotely interested. It's slow going, and if you think it *looks* decent, that's because I run away from my harder problems and work on layout instead. <span class="kaomoji">¯\\\_(ツ)_/¯</span>
+Anyway, the project I'm working on is [on GitHub](https://github.com/huijing/sgtechonline), if anyone is remotely interested.
+
+<img srcset="{{ site.url }}/assets/images/posts/flexbox-absolute/sgtechonline-480.jpg 480w, {{ site.url }}/assets/images/posts/flexbox-absolute/sgtechonline-640.jpg 640w, {{ site.url }}/assets/images/posts/flexbox-absolute/sgtechonline-960.jpg 960w, {{ site.url }}/assets/images/posts/flexbox-absolute/sgtechonline-1280.jpg 1280w" sizes="(max-width: 400px) 100vw, (max-width: 960px) 75vw, 640px" src="{{ site.url }}/assets/images/posts/flexbox-absolute/sgtechonline-640.jpg" alt="Screenshot of SGTechOnline">
+
+It's slow going and very WIP, and if you think it *looks* decent, that's because I run away from my harder problems and work on layout instead. <span class="kaomoji">¯\\\_(ツ)_/¯</span>
