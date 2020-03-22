@@ -718,6 +718,7 @@
 - title: "What is this? Why must bind?"
   id: what-is-this
   count: "80"
+  video: https://youtu.be/qKG7a8mTqqE?t=899
   event: React Knowledgeable
   type: meetup
   released: true
@@ -738,7 +739,7 @@
   event: JavaScript fwdays'20
   website: https://fwdays.com/en/event/js-fwdays-2020
   type: conference
-  released: false
+  released: true
   pdf: false
 
 - title: "DevTools, the CSS advocate in your browser"
@@ -747,5 +748,5 @@
   event: Munich Frontend Conference 2020
   website: https://frontconf.com/
   type: conference
-  released: false
+  released: true
   pdf: false
