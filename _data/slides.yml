@@ -735,6 +735,7 @@
 
 - title: "DevTools, more than just a debugger"
   id: jsfwdays-2020
+  host: https://devtools-jsfwdays.herokuapp.com/devtools
   count: "82"
   event: JavaScript fwdays'20
   website: https://fwdays.com/en/event/js-fwdays-2020
@@ -744,6 +745,7 @@
 
 - title: "DevTools, the CSS advocate in your browser"
   id: frontconf-2020
+  host: https://devtools-frontconf.herokuapp.com/devtools
   count: "83"
   event: Munich Frontend Conference 2020
   website: https://frontconf.com/
