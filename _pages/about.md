@@ -25,7 +25,7 @@ Sure. I love playing basketball and did so full-time for 6 years until the end o
 
 I also love to [draw](http://cyern.deviantart.com), though I do less of it now. At one point in time, I customised canvas sneakers for friends and some random clients under the name FUZN designs. The [Facebook page](https://www.facebook.com/fuzndesigns?fref=ts) still exists, though on an indefinite hiatus.
 
-I play a lot of video games as well, mostly on my PC now since I built my own gaming rig in 2012 (It's still running beautifully, might I add). I also got myself a PS3, almost 10 years after it was first released to play a bunch of exclusives I always wanted. 
+I play a lot of video games as well, mostly on my PC now since I built my own gaming rig in 2012 (It's still running beautifully, might I add). I got myself a PS3, almost 10 years after it was first released to play a bunch of exclusives I always wanted. And now, also a Nintendo Switch.
 
 Oh, and I cycle everywhere on my trusty second-hand Muji commuter bicycle.
 
