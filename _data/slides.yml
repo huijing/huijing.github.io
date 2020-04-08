@@ -748,6 +748,7 @@
   id: frontconf-2020
   host: https://devtools-frontconf.herokuapp.com/devtools
   count: "83"
+  video: https://youtu.be/waYrmyVGvio
   event: Munich Frontend Conference 2020
   website: https://frontconf.com/
   type: conference
