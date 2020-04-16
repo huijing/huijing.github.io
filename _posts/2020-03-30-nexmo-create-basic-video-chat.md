@@ -7,11 +7,11 @@ noindex: true
 external_site: nexmo
 external_url: https://www.nexmo.com/blog/2020/03/30/basic-video-chat
 ---
-This series of tutorials will explore the [Vonage Video API (formerly TokBox OpenTok)](https://tokbox.com/developer/) and what you can build with it. The Vonage Video API is very robust and highly customisable, so we will gradually build up and expand the features of our application, starting with the most basic audio-video chat.
+This series of tutorials will explore the [Vonage Video API (formerly TokBox OpenTok)](https://tokbox.com/developer/) and what you can build with it. The Video API is very robust and highly customisable, and in each post we’ll show how to implement a specific feature using the API, starting with the most basic audio-video chat.
 
 As this application will require some server-side code, we will use [Glitch](https://glitch.com/) for ease of setup. You can also download the code from this Glitch project and deploy it on your server or hosting platform of choice (may probably require some configuration tweaking based on the requirements of your platform).
 
-We will not be using any frontend frameworks for this series, just vanilla Javascript to keep the focus on the Vonage Video API itself. At the end of this tutorial, you should be able to start an audio-video chat with a friend by sharing a link with them.
+We will not be using any frontend frameworks for this series, just vanilla Javascript to keep the focus on the Video API itself. At the end of this tutorial, you should be able to start an audio-video chat with a friend by sharing a link with them.
 
 ![Screenshot of video chat](https://cdn.glitch.com/8d7f31c3-e180-4135-bd7d-e6b41e35144b%2Fapp-02.jpg?v=1584802174063)
 
@@ -21,23 +21,15 @@ All the code for this application can be found in this [GitHub repository](https
 
 Before we get started, you will need a Vonage Video API account, which you can create for free [here](https://tokbox.com/account/user/signup). You will also need [Node.js](https://nodejs.org/en/) installed (if you are not using Glitch).
 
-## Create a Vonage Video API project
+## Create an API Project
 
-After you log into your Vonage Video API account, you will see your dashboard interface. You can create a new project by selecting _Create New Project_ from the left sidebar.
+After you log into your account, you will see your dashboard interface. You can create a new project by selecting _Create New Project_ from the left sidebar.
 
-![Create new Vonage Video API project](https://cdn.glitch.com/8d7f31c3-e180-4135-bd7d-e6b41e35144b%2Fbasic-vidchat-01.jpg?v=1584699939766)
-
-You will be presented with 2 options, _Video Chat Embed_ or _Vonage Video API_. Choose Vonage Video API by clicking the _Create Custom Project_ button.
-
-![](https://cdn.glitch.com/8d7f31c3-e180-4135-bd7d-e6b41e35144b%2Fbasic-vidchat-02.jpg?v=1584699939766)
+You will be presented with 2 options, _Embed_ or _API_. Choose the API option by clicking the _Create Custom Project_ button.
 
 The next step will ask for your project name and preferred codec. Name your project as you like, and go with the suggested codec option of _VP8_ for now. Details on the difference between VP8 and H.264 are detailed [here](https://tokbox.com/developer/guides/codecs/).
 
-![Modal to enter project name and select codec type](https://cdn.glitch.com/8d7f31c3-e180-4135-bd7d-e6b41e35144b%2Fbasic-vidchat-03.jpg?v=1584699939766)
-
-Once your project is created, you will have access to your API key and secret. Each Vonage Video API project will have its own API key and secret.
-
-![Success modal showing your API key and secret](https://cdn.glitch.com/8d7f31c3-e180-4135-bd7d-e6b41e35144b%2Fbasic-vidchat-04.jpg?v=1584699939766)
+Once your project is created, you will have access to your API key and secret. Each project will have its own API key and secret.
 
 ## Setting up on Glitch
 
@@ -69,7 +61,7 @@ Go to the `.env` file and add your API key and secret from your Vonage Video API
 
 ![Screenshot of the .env file on Glitch](https://cdn.glitch.com/8d7f31c3-e180-4135-bd7d-e6b41e35144b%2Fglitch-06.jpg?v=1584704207196)
 
-## Basic project structure
+## Basic Project Structure
 
 This is what the folder structure looks like when you start up a new Glitch _hello-express_ project:
 
@@ -77,7 +69,7 @@ This is what the folder structure looks like when you start up a new Glitch _hel
 
 Our application will be made up of two pages: a landing page for users to create a session (we'll call this a "Room" and subsequent participants can join that same "Room"), and then the actual video chat page.
 
-Let's add a `landing.html` file to the `public` folder by clicking the _New File_ button in the left sidebar. Name the file `views/landing.html` and paste the following markup into the page. The page will have a simple form element with an input that allows users to submit a room name. You can use the following markup if you don't want to write your own from scratch.
+Let's add a `landing.html` file to the `views` folder by clicking the _New File_ button in the left sidebar. Name the file `views/landing.html` and paste the following markup into the page. The page will have a simple form element with an input that allows users to submit a room name. You can use the following markup if you don't want to write your own from scratch.
 
 ```html
 <!DOCTYPE html>
@@ -104,14 +96,16 @@ Let's add a `landing.html` file to the `public` folder by clicking the _New File
     </header>
 
     <main>
-      <form id="registration">
-        <label for="room-name">Room</label>
-        <input
-          id="room-name"
-          name="room-name"
-          placeholder="Enter room name"
-          required
-        />
+      <form id="registration" class="registration">
+        <label>
+          <span>Room</span>
+          <input
+            type="text"
+            name="room-name"
+            placeholder="Enter room name"
+            required
+          />
+        </label>
         <button>Enter</button>
       </form>
     </main>
@@ -140,9 +134,6 @@ The `index.html` page will also be relatively sparse for now, a page with two `d
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="stylesheet" href="/style.css" />
-
-    <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
-    <script src="/client.js" defer></script>
   </head>
 
   <body>
@@ -154,6 +145,9 @@ The `index.html` page will also be relatively sparse for now, a page with two `d
       <div id="subscriber" class="subscriber"></div>
       <div id="publisher" class="publisher"></div>
     </main>
+    
+    <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+    <script src="/client.js"></script>
   </body>
 </html>
 ```
@@ -187,9 +181,9 @@ The general overview of how the Vonage Video API works to connect people and all
 
 A complete introduction with animated GIFs showing the entire flow is available on the [Vonage Video API documentation site](https://tokbox.com/developer/guides/basics/).
 
-## Initialising an OpenTok session
+## Initialising an Opentok Session
 
-We start by instantiating an OpenTok object with your API key and secret in the `server.js` file.
+As mentioned at the start, TokBox OpenTok is now Vonage Video API. We haven’t made any changes to our package names, so you will still reference OpenTok in your code. Start off by instantiating an OpenTok object with your API key and secret in the `server.js` file.
 
 ```javascript
 const OpenTok = require("opentok");
@@ -203,7 +197,7 @@ app.get("/", (request, response) => {
   response.sendFile(__dirname + "/views/landing.html");
 });
 
-app.get("/session/:name", (request, response) => {
+app.get("/session/:room", (request, response) => {
   response.sendFile(__dirname + "/views/index.html");
 });
 ```
@@ -225,24 +219,12 @@ This code will then generate the credentials needed for the client to connect to
 ```javascript
 let sessions = {};
 
-app.post("/session/:name", (request, response) => {
+app.post("/session/:room", (request, response) => {
+  const roomName = request.params.room;
   // Check if the session already exists
-  if (sessions[request.params.name]) {
-    // Configure token options
-    const tokenOptions = {
-      role: "publisher",
-      data: `roomname=${request.params.name}`
-    };
-    // Generate token with the OpenTok SDK
-    let token = OT.generateToken(sessions[request.params.name], tokenOptions);
-    response.status(200);
-    // Send the required credentials back to to the client
-    // as a response from the fetch request
-    response.send({
-      sessionId: sessions[request.params.name],
-      token: token,
-      apiKey: process.env.API_KEY
-    });
+  if (sessions[roomName]) {
+    // Generate the token
+    generateToken(roomName, response);
   } else {
     // If the session does not exist, create one
     OT.createSession((error, session) => {
@@ -250,29 +232,37 @@ app.post("/session/:name", (request, response) => {
         console.log("Error creating session:", error);
       } else {
         // Store the session in the sessions object
-        sessions[request.params.name] = session.sessionId;
-        const tokenOptions = {
-          role: "publisher",
-          data: `roomname=${request.params.name}`
-        };
-        let token = OT.generateToken(
-          sessions[request.params.name],
-          tokenOptions
-        );
-
-        response.status(200);
-        response.send({
-          sessionId: sessions[request.params.name],
-          token: token,
-          apiKey: process.env.API_KEY
-        });
+        sessions[roomName] = session.sessionId;
+        // Generate the token
+        generateToken(roomName, response);
       }
     });
   }
 });
+
+function generateToken(roomName, response) {
+  // Configure token options
+  const tokenOptions = {
+    role: "publisher",
+    data: `roomname=${roomName}`
+  };
+  // Generate token with the Video API Client SDK
+  let token = OT.generateToken(
+    sessions[roomName],
+    tokenOptions
+  );
+  // Send the required credentials back to to the client
+  // as a response from the fetch request
+  response.status(200);
+  response.send({
+    sessionId: sessions[roomName],
+    token: token,
+    apiKey: process.env.API_KEY
+  });
+}
 ```
 
-## Connecting to the session, subscribing and publishing
+## Connecting to the Session, Subscribing and Publishing
 
 Over on the client side, we first create a session object with the API key and session ID from the response. We also need to create a publisher object, which will replace the div element with the `id=publisher` with the your video feed.
 
@@ -292,21 +282,21 @@ const publisher = OT.initPublisher(
     width: "100%",
     height: "100%"
   },
-  handleError
+  handleCallback
 );
 
 // Connect to the session
-session.connect(token, function(error) {
+session.connect(token, error => {
   // If the connection is successful, initialize the publisher and publish to the session
   if (error) {
-    handleError(error);
+    handleCallback(error);
   } else {
-    session.publish(publisher, handleError);
+    session.publish(publisher, handleCallback);
   }
 });
 
 // Subscribe to a newly created stream
-session.on("streamCreated", function(event) {
+session.on("streamCreated", event => {
   session.subscribe(
     event.stream,
     "subscriber",
@@ -315,29 +305,77 @@ session.on("streamCreated", function(event) {
       width: "100%",
       height: "100%"
     },
-    handleError
+    handleCallback
   );
 });
+
+// Callback handler
+function handleCallback(error) {
+  if (error) {
+    console.log("error: " + error.message);
+  } else {
+    console.log("callback success");
+  }
+}
 ```
 
-When the room name form is submitted, we will make a `POST` request to the `/session/:name` route and use the data from the response to run the functionality detailed above. To do that, we will wrap it all up in a function called `initializeSession()` like so:
+When the room name form is submitted, we will make a `POST` request to the `/session/:room` route and use the data from the response to run the functionality detailed above. To do that, we will wrap it all up in a function called `initializeSession()` like so:
 
 ```javascript
 fetch(location.pathname, { method: "POST" })
-  .then(function(res) {
+  .then(res => {
     return res.json();
   })
-  .then(function(res) {
-    console.log(res);
+  .then(res => {
     const apiKey = res.apiKey;
     const sessionId = res.sessionId;
     const token = res.token;
     initializeSession(apiKey, sessionId, token);
   })
-  .catch(handleError);
+  .catch(handleCallback);
+
+function initializeSession(apiKey, sessionId, token) {
+  // Create a session object with the sessionId
+  const session = OT.initSession(apiKey, sessionId);
+
+  // Create a publisher
+  const publisher = OT.initPublisher(
+    "publisher",
+    {
+      insertMode: "append",
+      width: "100%",
+      height: "100%"
+    },
+    handleCallback
+  );
+
+  // Connect to the session
+  session.connect(token, error => {
+    // If the connection is successful, initialize the publisher and publish to the session
+    if (error) {
+      handleCallback(error);
+    } else {
+      session.publish(publisher, handleCallback);
+    }
+  });
+
+  // Subscribe to a newly created stream
+  session.on("streamCreated", event => {
+    session.subscribe(
+      event.stream,
+      "subscriber",
+      {
+        insertMode: "append",
+        width: "100%",
+        height: "100%"
+      },
+      handleCallback
+    );
+  });
+}
 ```
 
-## Some styling to tidy things up
+## Some Styling to Tidy Things Up
 
 The general functionality of our video chat is done, so the only thing left is to add some styles to adjust the layout. The original two `div` elements (for subscriber and publisher) will have their contents replaced by their respective video feeds.
 
@@ -376,21 +414,21 @@ main {
   position: relative;
 }
 
-form {
+input,
+button {
+  font-size: inherit;
+  padding: 0.5em;
+}
+
+.registration {
   display: flex;
   flex-direction: column;
   margin: auto;
 }
 
-input {
-  font-size: inherit;
-  padding: 0.5em;
+.registration input[type="text"] {
+  display: block;
   margin-bottom: 1em;
-}
-
-button {
-  font-size: inherit;
-  padding: 0.5em;
 }
 
 .subscriber {
