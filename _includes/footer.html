@@ -1,7 +1,18 @@
 <footer class="site-footer">
   <div class="site-footer__wrapper--main">
     <div class="footer-main">
-      <img srcset="{{ site.url }}/assets/images/avatar@2x.jpg 2x" src="{{ site.url }}/assets/images/avatar.jpg" alt="Avatar" class="footer-main__avatar" />
+      <input type="checkbox" id="activities">
+      <label for="activities">
+        <div class="hidden">
+          <p class="no-margin">Is currently…</p>
+          <ul class="no-list-style">
+            <li class="no-margin">📖: {{ site.is_reading }}</li>
+            <li class="no-margin">🕹: {{ site.is_playing }}</li>
+            <li class="no-margin">📺: {{ site.is_watching }}</li>
+          </ul>
+        </div>
+        <img srcset="{{ site.url }}/assets/images/avatar@2x.jpg 2x" src="{{ site.url }}/assets/images/avatar.jpg" alt="Avatar" class="footer-main__avatar">
+      </label>
       <div class="footer-main__about">
         <h3>Hello!</h3>
         <p class="no-margin">{{ site.about }}</p>

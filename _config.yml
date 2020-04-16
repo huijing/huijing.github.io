@@ -14,6 +14,9 @@ twitter_username: hj_chen
 github_username:  huijing
 mastadon_username: huijing
 about: "I'm Hui Jing, a front-end designer and developer who believes HTML and CSS are the foundation of the web."
+is_playing: "Pharoah"
+is_reading: "Lightning Wires"
+is_watching: "Babylon Berlin"
 
 # Build settings
 highlighter: null

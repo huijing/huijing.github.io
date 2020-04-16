@@ -47,6 +47,34 @@
     font-size: 80%;
     line-height: 2;
   }
+
+  input {
+    position: absolute;
+    opacity: 0;
+  }
+
+  label {
+    @include center;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  input ~ label div {
+    display: none;
+  }
+
+  input:checked ~ label div {
+    display: block;
+    position: absolute;
+    top: -6.5em;
+    left: 50%;
+    width: max-content;
+    transform: translateX(-50%);
+    background-color: color('tuna');
+    padding: 0.25em 0.5em;
+    border-radius: 4px;
+  }
 }
 
 .footer-main__about,
@@ -59,12 +87,11 @@
 }
 
 .footer-main__avatar {
-  @include center;
   border-radius: 50%;
   height: 200px;
-  margin: 1em auto;
   min-width: 200px;
   width: 200px;
+  margin: 1em auto;
 
   @include mappy-bp(large) {
     flex: 1 0 0;
