@@ -167,45 +167,45 @@ The matrix of writing directions and their corresponding values for a box's phys
       <tr>
         <td style="border:1px solid" rowspan="4"><div style="writing-mode:vertical-rl;transform:rotate(180deg);font-weight:bold">Edge</div></td>
         <td style="border:1px solid"><div style="writing-mode:vertical-rl;transform:rotate(180deg);font-weight:bold;padding:0.5em 0">top</div></td>
-        <td style="border:1px solid">inset-before</td>
-        <td style="border:1px solid">inset-before</td>
-        <td style="border:1px solid">inset-start</td>
-        <td style="border:1px solid">inset-end</td>
-        <td style="border:1px solid">inset-start</td>
-        <td style="border:1px solid">inset-end</td>
+        <td style="border:1px solid">inset-block-start</td>
+        <td style="border:1px solid">inset-block-start</td>
+        <td style="border:1px solid">inset-inline-start</td>
+        <td style="border:1px solid">inset-inline-end</td>
+        <td style="border:1px solid">inset-inline-start</td>
+        <td style="border:1px solid">inset-inline-end</td>
       </tr>
       <tr>
         <td><div style="writing-mode:vertical-rl;transform:rotate(180deg);font-weight:bold;padding:0.5em 0">right</div></td>
-        <td style="border:1px solid">inset-end</td>
-        <td style="border:1px solid">inset-start</td>
-        <td style="border:1px solid">inset-before</td>
-        <td style="border:1px solid">inset-before</td>
-        <td style="border:1px solid">inset-after</td>
-        <td style="border:1px solid">inset-after</td>
+        <td style="border:1px solid">inset-inline-end</td>
+        <td style="border:1px solid">inset-inline-start</td>
+        <td style="border:1px solid">inset-block-start</td>
+        <td style="border:1px solid">inset-block-start</td>
+        <td style="border:1px solid">inset-block-end</td>
+        <td style="border:1px solid">inset-block-end</td>
       </tr>
       <tr>
         <td style="border:1px solid"><div style="writing-mode:vertical-rl;transform:rotate(180deg);font-weight:bold;padding:0.5em 0">bottom</div></td>
-        <td style="border:1px solid">inset-after</td>
-        <td style="border:1px solid">inset-after</td>
-        <td style="border:1px solid">inset-end</td>
-        <td style="border:1px solid">inset-start</td>
-        <td style="border:1px solid">inset-end</td>
-        <td style="border:1px solid">inset-start</td>
+        <td style="border:1px solid">inset-block-end</td>
+        <td style="border:1px solid">inset-block-end</td>
+        <td style="border:1px solid">inset-inline-end</td>
+        <td style="border:1px solid">inset-inline-start</td>
+        <td style="border:1px solid">inset-inline-end</td>
+        <td style="border:1px solid">inset-inline-start</td>
       </tr>
       <tr>
         <td style="border:1px solid"><div style="writing-mode:vertical-rl;transform:rotate(180deg);font-weight:bold;padding:0.5em 0">left</div></td>
-        <td style="border:1px solid">inset-start</td>
-        <td style="border:1px solid">inset-end</td>
-        <td style="border:1px solid">inset-after</td>
-        <td style="border:1px solid">inset-after</td>
-        <td style="border:1px solid">inset-before</td>
-        <td style="border:1px solid">inset-before</td>
+        <td style="border:1px solid">inset-inline-start</td>
+        <td style="border:1px solid">inset-inline-end</td>
+        <td style="border:1px solid">inset-block-end</td>
+        <td style="border:1px solid">inset-block-end</td>
+        <td style="border:1px solid">inset-block-start</td>
+        <td style="border:1px solid">inset-block-start</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-The logical top of a container uses `inset-before`, while the logical bottom of a container uses `inset-after`. The logical left of a container uses `inset-start`, while the logical right of a container uses `inset-end`.
+The logical top of a container uses `inset-block-start`, while the logical bottom of a container uses `inset-block-end`. The logical left of a container uses `inset-inline-start`, while the logical right of a container uses `inset-inline-end`.
 
 This is probably easier to visualise with a diagram (or live code if your browser supports it). The following is for `horizontal-tb`:
 
