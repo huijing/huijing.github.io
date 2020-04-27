@@ -1,6 +1,7 @@
 // Header styles
 .site-header {
   background: url('/assets/images/bg-header.jpg');
+  filter: grayscale(1);
 }
 
 .site-header__wrapper {

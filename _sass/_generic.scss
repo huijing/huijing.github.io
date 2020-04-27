@@ -75,6 +75,7 @@ main {
   @include center;
   font-family: $base-font;
   max-width: 48em;
+  filter: grayscale(1);
 
   h1,
   h2,

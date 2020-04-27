@@ -2,6 +2,7 @@
 .site-footer {
   font-family: $display-font;
   color: color('white');
+  filter: grayscale(1);
 
   a {
     color: color('apple');

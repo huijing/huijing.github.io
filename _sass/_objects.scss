@@ -161,3 +161,14 @@ span[role=img][aria-label]:hover::after {
     outline: 5px auto -webkit-focus-ring-color;
   }
 }
+
+.message {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  padding: 0.5em;
+  color: color('sugarcane');
+  border: 3px dotted color('sugarcane');
+  background-color: color('english-walnut');
+}
